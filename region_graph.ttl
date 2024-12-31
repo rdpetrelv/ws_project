@@ -1,0 +1,379 @@
+@prefix ns1: <http://example.org/region/> .
+
+ns1:Aeos_Island a ns1:Region ;
+    ns1:colorTemplate "Orange" ;
+    ns1:generation "{{gen|VIII}}" ;
+    ns1:image "UNITE Aeos Island.png" ;
+    ns1:imageCaption "Aeos Island" ;
+    ns1:imageSize "250" ;
+    ns1:introductionMedia "[[Pokémon UNITE]]" ;
+    ns1:isRegion "no" ;
+    ns1:japaneseName "エオス島" ;
+    ns1:name "Aeos Island" ;
+    ns1:professor "[[Professor Phorus]]" ;
+    ns1:romanizedJapaneseName "Aeos Island" .
+
+ns1:Almia a ns1:Region ;
+    ns1:colorTemplate "SoA" ;
+    ns1:image "Almia.png" ;
+    ns1:imageSize "200" ;
+    ns1:introductionMedia "[[Pokémon Ranger: Shadows of Almia]]" ;
+    ns1:japaneseName "アルミア" ;
+    ns1:name "Almia" ;
+    ns1:professor "[[Professor Hastings]]" ;
+    ns1:romanizedJapaneseName "Almia" ;
+    ns1:villainousOrganization "[[Team Dim Sun]]" .
+
+ns1:Alola a ns1:Region ;
+    ns1:colorTemplate "alola" ;
+    ns1:image "Alola USUM artwork.png" ;
+    ns1:imageCaption "Artwork of the Alola region from {{g|Ultra Sun and Ultra Moon}}" ;
+    ns1:imageSize "300" ;
+    ns1:japaneseName "アローラ" ;
+    ns1:name "Alola" ;
+    ns1:romanizedJapaneseName "Alola" .
+
+ns1:Blueberry_Academy a ns1:Region ;
+    ns1:colorTemplate "Blueberry" ;
+    ns1:image "Blueberry Academy entrance.png" ;
+    ns1:imageCaption "Entrance to Blueberry Academy in {{g|Scarlet and Violet}}" ;
+    ns1:imageSize "300" ;
+    ns1:isRegion "no" ;
+    ns1:japaneseName "ブルーベリー学園" ;
+    ns1:name "Blueberry Academy" ;
+    ns1:romanizedJapaneseName "Blueberry Academy" .
+
+ns1:Carmonte_Island a ns1:Region ;
+    ns1:colorTemplate "Moon" ;
+    ns1:generation "{{gen|VI}}" ;
+    ns1:image "Carmonte Island.png" ;
+    ns1:imageCaption "Carmonte Island" ;
+    ns1:imageSize "300" ;
+    ns1:introductionMedia "[[Pokémon Duel]]" ;
+    ns1:isRegion "no" ;
+    ns1:japaneseName "カルモンテ島" ;
+    ns1:name "Carmonte Island" ;
+    ns1:romanizedJapaneseName "Carmonte Island" ;
+    ns1:villainousOrganization "[[The Roger family|Roger family]]" .
+
+ns1:Crown_Tundra a ns1:Region ;
+    ns1:colorTemplate "Crown Tundra" ;
+    ns1:image "Crown Tundra artwork.png" ;
+    ns1:imageCaption "Artwork of the Crown Tundra from {{g|Sword and Shield}}" ;
+    ns1:imageSize "300" ;
+    ns1:isRegion "no" ;
+    ns1:japaneseName "カンムリせつげん" ;
+    ns1:name "Crown Tundra" ;
+    ns1:romanizedJapaneseName "Crown Snowfield" .
+
+ns1:Decolore_Islands a ns1:Region ;
+    ns1:animationSeason "[[S16|Adventures in Unova and Beyond]] (16) |" ;
+    ns1:animationSeries "''[[Pokémon the Series: Black & White]]''" ;
+    ns1:colorTemplate "water" ;
+    ns1:image "Decolore.png" ;
+    ns1:introductionMedia "[[Pokémon animated series]]" ;
+    ns1:isRegion "no" ;
+    ns1:japaneseName "デコロラ諸島" ;
+    ns1:name "Decolore Islands" ;
+    ns1:romanizedJapaneseName "Decolora Archipelago" .
+
+ns1:Ferrum a ns1:Region ;
+    ns1:colorTemplate "steel" ;
+    ns1:generation "{{gen|VI}}" ;
+    ns1:image "Ferrum.png" ;
+    ns1:imageCaption "The Ferrum region" ;
+    ns1:introductionMedia "[[Pokkén Tournament]]" ;
+    ns1:japaneseName "フェルム" ;
+    ns1:name "Ferrum" ;
+    ns1:romanizedJapaneseName "Ferrum" .
+
+ns1:Fiore a ns1:Region ;
+    ns1:colorTemplate "Ranger" ;
+    ns1:image "Fiore alt.png" ;
+    ns1:introductionMedia "{{vg|Pokémon Ranger}}" ;
+    ns1:japaneseName "フィオレ" ;
+    ns1:name "Fiore" ;
+    ns1:romanizedJapaneseName "Fiore" .
+
+ns1:Galar a ns1:Region ;
+    ns1:colorTemplate "galar" ;
+    ns1:image "Galar artwork.png" ;
+    ns1:imageCaption "Artwork of the Galar region from {{g|Sword and Shield}}" ;
+    ns1:imageSize "300" ;
+    ns1:japaneseName "ガラル" ;
+    ns1:name "Galar" ;
+    ns1:romanizedJapaneseName "Galar" .
+
+ns1:Hisui a ns1:Region ;
+    ns1:colorTemplate "Hisui" ;
+    ns1:image "Legends Arceus Hisui.png" ;
+    ns1:imageCaption "Artwork of the Hisui region from {{g|Legends: Arceus}}" ;
+    ns1:imageSize "300px" ;
+    ns1:japaneseName "ヒスイ" ;
+    ns1:name "Hisui" ;
+    ns1:romanizedJapaneseName "Hisui" .
+
+ns1:Hoenn a ns1:Region ;
+    ns1:colorTemplate "Hoenn" ;
+    ns1:image "Hoenn ORAS.png" ;
+    ns1:imageCaption "Artwork of the Hoenn region from<br>[[Pokémon Omega Ruby and Alpha Sapphire]] illustrated by [[kawayoo]]" ;
+    ns1:imageSize "300px" ;
+    ns1:introductionMedia "{{game|Ruby and Sapphire|s}}" ;
+    ns1:japaneseName "ホウエン" ;
+    ns1:name "Hoenn" ;
+    ns1:romanizedJapaneseName "Hoenn" .
+
+ns1:Isle_of_Armor a ns1:Region ;
+    ns1:colorTemplate "Isle of Armor" ;
+    ns1:image "Isle of Armor artwork.png" ;
+    ns1:imageCaption "Artwork of the Isle of Armor from {{g|Sword and Shield}}" ;
+    ns1:imageSize "300" ;
+    ns1:isRegion "no" ;
+    ns1:japaneseName "ヨロイ" ;
+    ns1:name "Isle of Armor" ;
+    ns1:romanizedJapaneseName "Armor Island" .
+
+ns1:Johto a ns1:Region ;
+    ns1:colorTemplate "Johto" ;
+    ns1:image "JohtoMap.png" ;
+    ns1:imageCaption "Artwork of the Johto region from [[Generation IV]]" ;
+    ns1:imageSize "300px" ;
+    ns1:introductionMedia "{{game|Gold and Silver|s}}" ;
+    ns1:japaneseName "ジョウト" ;
+    ns1:name "Johto" ;
+    ns1:romanizedJapaneseName "Johto" .
+
+ns1:Kalos a ns1:Region ;
+    ns1:colorTemplate "kalos" ;
+    ns1:image "Kalos alt.png" ;
+    ns1:imageCaption "Artwork of the Kalos region from {{g|X and Y}}" ;
+    ns1:imageSize "300" ;
+    ns1:japaneseName "カロス" ;
+    ns1:name "Kalos" ;
+    ns1:romanizedJapaneseName "Kalos" .
+
+ns1:Kanto a ns1:Region ;
+    ns1:colorTemplate "kanto" ;
+    ns1:image "PE Kanto Map.png" ;
+    ns1:imageCaption "Artwork of Kanto from [[Generation VII]] by [[kawayoo]]<ref name=\"gen7-art\">[https://twitter.com/PK__SAYONARA/status/1643013730966581248 Tweet by @PK__SAYONARA (reposted by @kawayoo)]</ref>" ;
+    ns1:imageSize "300px" ;
+    ns1:introductionMedia "{{2v2|Red|Green}}" ;
+    ns1:japaneseName "カントー" ;
+    ns1:name "Kanto" ;
+    ns1:romanizedJapaneseName "Kanto" .
+
+ns1:Kitakami a ns1:Region ;
+    ns1:colorTemplate "Kitakami" ;
+    ns1:image "Mossui Town SV Concept Art.png" ;
+    ns1:imageCaption "Concept art" ;
+    ns1:imageSize "300" ;
+    ns1:introductionMedia "[[Pokémon Scarlet and Violet]] ([[The Teal Mask]])" ;
+    ns1:isRegion "no" ;
+    ns1:japaneseName "キタカミ" ;
+    ns1:name "Kitakami" ;
+    ns1:professor "None" ;
+    ns1:romanizedJapaneseName "Kitakami" ;
+    ns1:villainousOrganization "[[Loyal Three|The Loyal Three]]<br>{{ga|Pecharunt}}" .
+
+ns1:Lental a ns1:Region ;
+    ns1:colorTemplate "electric" ;
+    ns1:generation "{{gen|VIII}}" ;
+    ns1:image "Lental.png" ;
+    ns1:introductionMedia "[[New Pokémon Snap]]" ;
+    ns1:japaneseName "レンティル" ;
+    ns1:name "Lental" ;
+    ns1:professor "[[Professor Mirror]]" ;
+    ns1:romanizedJapaneseName "Lentil" ;
+    ns1:villainousOrganization "N/A" .
+
+ns1:Mintale_Town a ns1:Region ;
+    ns1:colorTemplate "Grass" ;
+    ns1:generation "{{Gen|III}}" ;
+    ns1:image "Mintale Town.png" ;
+    ns1:imageCaption "Mintale Town" ;
+    ns1:introductionMedia "[[Pokémon Channel]]" ;
+    ns1:isRegion "no" ;
+    ns1:japaneseName "ハツカタウン" ;
+    ns1:name "Mintale Town" ;
+    ns1:professor "[[Professor Oak]]" ;
+    ns1:romanizedJapaneseName "Hatsuka Town" .
+
+ns1:Oblivia a ns1:Region ;
+    ns1:colorTemplate "GS" ;
+    ns1:image "Oblivia artwork.png" ;
+    ns1:introductionMedia "[[Pokémon Ranger: Guardian Signs]]" ;
+    ns1:japaneseName "オブリビア" ;
+    ns1:name "Oblivia" ;
+    ns1:professor "[[Professor Hastings]]" ;
+    ns1:romanizedJapaneseName "Oblivia" ;
+    ns1:villainousOrganization "[[Pokémon Pinchers]]" .
+
+ns1:Orange_Islands a ns1:Region ;
+    ns1:colorTemplate "orange" ;
+    ns1:image "Orange.jpg" ;
+    ns1:imageCaption "A complete map of the Orange Islands in relation to [[Kanto]] and [[Johto]]" ;
+    ns1:introductionMedia "{{aniseries|PTS}}" ;
+    ns1:isRegion "no" ;
+    ns1:japaneseName "オレンジ諸島" ;
+    ns1:name "Orange Islands" ;
+    ns1:romanizedJapaneseName "Orange Islands" .
+
+ns1:Orre a ns1:Region ;
+    ns1:colorTemplate "Orre" ;
+    ns1:image "Orre.png" ;
+    ns1:imageCaption "In-game map of Orre in {{g|XD: Gale of Darkness}}" ;
+    ns1:japaneseName "オーレ" ;
+    ns1:name "Orre" ;
+    ns1:romanizedJapaneseName "Ōre" .
+
+ns1:Paldea a ns1:Region ;
+    ns1:colorTemplate "paldea" ;
+    ns1:image "Paldea artwork.png" ;
+    ns1:imageCaption "Artwork of the Paldea region from {{g|Scarlet and Violet}}" ;
+    ns1:imageSize "300" ;
+    ns1:japaneseName "パルデア" ;
+    ns1:name "Paldea" ;
+    ns1:romanizedJapaneseName "Paldea" .
+
+ns1:Pasio a ns1:Region ;
+    ns1:colorTemplate "masters" ;
+    ns1:generation "{{gen|VII}}" ;
+    ns1:image "Pasio.png" ;
+    ns1:imageSize "150" ;
+    ns1:introductionMedia "[[Pokémon Masters EX]]" ;
+    ns1:isRegion "no" ;
+    ns1:japaneseName "パシオ" ;
+    ns1:league "[[Pokémon Masters League]]" ;
+    ns1:leagueLocation "[[Centra City]]" ;
+    ns1:name "Pasio" ;
+    ns1:professor "[[Professor Bellis]]" ;
+    ns1:romanizedJapaneseName "Pasio" ;
+    ns1:villainousOrganization "[[Team Break]]" .
+
+ns1:PokéPark a ns1:Region ;
+    ns1:colorTemplate "PokéPark" ;
+    ns1:image "PokePark Wii Map.png" ;
+    ns1:imageCaption "Map of the PokéPark in PokéPark Wii" ;
+    ns1:introductionMedia "[[PokéPark Wii: Pikachu's Adventure]]" ;
+    ns1:isRegion "no" ;
+    ns1:japaneseName "ポケパーク" ;
+    ns1:name "PokéPark" ;
+    ns1:romanizedJapaneseName "Poké Park" ;
+    ns1:villainousOrganization "{{p|Darkrai}}" .
+
+ns1:Pokémon_Island a ns1:Region ;
+    ns1:colorTemplate "Psychic" ;
+    ns1:generation "{{Gen|I}}" ;
+    ns1:image "Snap Pokémon Island.png" ;
+    ns1:imageCaption "Pokémon Island artwork" ;
+    ns1:introductionMedia "[[Pokémon Snap]]" ;
+    ns1:isRegion "no" ;
+    ns1:japaneseName "ポケモンアイランド" ;
+    ns1:name "Pokémon Island" ;
+    ns1:professor "[[Professor Oak]]" ;
+    ns1:romanizedJapaneseName "Pokémon Island" .
+
+ns1:Pokémon_world a ns1:Region ;
+    ns1:colorTemplate "MD" ;
+    ns1:image "Mystery Dungeon World PSMD.png" ;
+    ns1:imageCaption "Map of the Pokémon world from [[Pokémon Super Mystery Dungeon]]" ;
+    ns1:introductionMedia "[[Pokémon Mystery Dungeon: Red Rescue Team and Blue Rescue Team]]" ;
+    ns1:isRegion "no" ;
+    ns1:japaneseName "ポケモン世界" ;
+    ns1:name "Pokémon world" ;
+    ns1:romanizedJapaneseName "Pokémon world" ;
+    ns1:villainousOrganization "[[Team Meanies]]<br>{{mdc|Team Skull}}" .
+
+ns1:Pokétopia a ns1:Region ;
+    ns1:colorTemplate "Gold" ;
+    ns1:generation "{{gen|IV}}" ;
+    ns1:image "Poketopia.png" ;
+    ns1:imageCaption "Pokétopia" ;
+    ns1:imageSize "300" ;
+    ns1:introductionMedia "[[Pokémon Battle Revolution]]" ;
+    ns1:isRegion "no" ;
+    ns1:japaneseName "ポケトピア" ;
+    ns1:name "Pokétopia" ;
+    ns1:romanizedJapaneseName "Pokétopia" .
+
+ns1:Ransei a ns1:Region ;
+    ns1:colorTemplate "Unova" ;
+    ns1:games "[[Pokémon Conquest]]" ;
+    ns1:generation "[[Generation V]]" ;
+    ns1:image "Ransei.png" ;
+    ns1:imageCaption "The Ransei region" ;
+    ns1:introductionMedia "[[Pokémon Conquest]]" ;
+    ns1:japaneseName "ランセ" ;
+    ns1:name "Ransei" ;
+    ns1:romanizedJapaneseName "Ranse" ;
+    ns1:villainousOrganization "[[Nobunaga]]'s Army" .
+
+ns1:Ryme_City a ns1:Region ;
+    ns1:colorTemplate "Electric" ;
+    ns1:image "Ryme City artwork.png" ;
+    ns1:imageCaption "Artwork of Ryme City from {{OBP|Detective Pikachu|video game}}" ;
+    ns1:isRegion "no" ;
+    ns1:japaneseName "ライムシティ" ;
+    ns1:name "Ryme City" ;
+    ns1:romanizedJapaneseName "Ryme City" .
+
+ns1:Sevii_Islands a ns1:Region ;
+    ns1:colorTemplate "Sevii" ;
+    ns1:image "Sevii Islands.png" ;
+    ns1:imageCaption "Artwork of the Sevii Islands from FireRed and LeafGreen" ;
+    ns1:introductionMedia "{{game|FireRed and LeafGreen|s}}" ;
+    ns1:isRegion "no" ;
+    ns1:japaneseName "ナナシマ" ;
+    ns1:name "Sevii Islands" ;
+    ns1:romanizedJapaneseName "Nanashima" .
+
+ns1:Sinnoh a ns1:Region ;
+    ns1:colorTemplate "Sinnoh" ;
+    ns1:image "Sinnoh BDSP artwork.png" ;
+    ns1:imageCaption "Artwork of the Sinnoh region from {{g|Brilliant Diamond and Shining Pearl}}" ;
+    ns1:imageSize "300px" ;
+    ns1:japaneseName "シンオウ" ;
+    ns1:name "Sinnoh" ;
+    ns1:romanizedJapaneseName "Sinnoh" .
+
+ns1:Trading_Card_Game_Islands a ns1:Region ;
+    ns1:colorTemplate "tcg trainer" ;
+    ns1:image "TCG Island artwork.jpg" ;
+    ns1:imageSize "200" ;
+    ns1:introductionMedia "{{vg|Pokémon Trading Card Game}}" ;
+    ns1:isRegion "no" ;
+    ns1:name "Trading Card Game Islands" .
+
+ns1:Tumblecube_Island a ns1:Region ;
+    ns1:colorTemplate "Orange" ;
+    ns1:generation "{{gen|VII}}" ;
+    ns1:image "Tumblecube Island.png" ;
+    ns1:imageSize "300" ;
+    ns1:introductionMedia "[[Pokémon Quest]]" ;
+    ns1:isRegion "no" ;
+    ns1:japaneseName "カクコロ島" ;
+    ns1:name "Tumblecube Island" ;
+    ns1:romanizedJapaneseName "Kakukoro Island" .
+
+ns1:Unova a ns1:Region ;
+    ns1:colorTemplate "Unova" ;
+    ns1:image "Unova B2W2 alt.png" ;
+    ns1:imageCaption "Artwork of the Unova region from {{2v2|Black|White|2}}" ;
+    ns1:imageSize "300" ;
+    ns1:japaneseName "イッシュ" ;
+    ns1:name "Unova" ;
+    ns1:romanizedJapaneseName "Issyu" .
+
+ns1:White_City a ns1:Region ;
+    ns1:colorTemplate "White" ;
+    ns1:generation "{{Gen|II}}" ;
+    ns1:image "White City.png" ;
+    ns1:imageCaption "White City in Pokémon Stadium 2" ;
+    ns1:introductionMedia "[[Pokémon Stadium 2]]" ;
+    ns1:isRegion "no" ;
+    ns1:japaneseName "ホワイトシティ" ;
+    ns1:name "White City" ;
+    ns1:professor "[[Professor Oak]]" ;
+    ns1:romanizedJapaneseName "White City" ;
+    ns1:villainousOrganization "[[Team Rocket]]" .
+

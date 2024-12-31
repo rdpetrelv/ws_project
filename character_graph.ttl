@@ -1,0 +1,331 @@
+@prefix ns1: <http://example.org/character/> .
+
+ns1:Aliquis a ns1:Character ;
+    ns1:borderColor "D87257" ;
+    ns1:color "4B5293" ;
+    ns1:coreColor "F1CB90" ;
+    ns1:eyeColor "Blue" ;
+    ns1:gender "Male" ;
+    ns1:hairColor "Dark blue (Yellow highlights)" ;
+    ns1:hometown "Unknown" ;
+    ns1:image "Aliquis PW.png" ;
+    ns1:imageCaption "Aliquis" ;
+    ns1:imageSize "220px" ;
+    ns1:japaneseName "アリキス" ;
+    ns1:name "Aliquis" ;
+    ns1:region "[[Paldea]]" ;
+    ns1:relatives "[[Aliquis's brother|Unnamed older brother]]<ref>https://www.pokemon.co.jp/ex/sv/ja/sp_anime/</ref>" ;
+    ns1:romanizedJapaneseName "Aliquis" ;
+    ns1:textColor "FFF" .
+
+ns1:Anabel a ns1:Character ;
+    ns1:borderColor "4a474a" ;
+    ns1:color "c0b2dd" ;
+    ns1:coreColor "e5cff9" ;
+    ns1:gender "Female" ;
+    ns1:height "5'5\" (1.65 m){{sup/7|SM}}" ;
+    ns1:image "Anabel SM concept art.png" ;
+    ns1:imageCaption "Concept art from [[Pokémon Sun and Moon]]" ;
+    ns1:imageSize "200px" ;
+    ns1:japaneseName "リラ" ;
+    ns1:name "Anabel" ;
+    ns1:romanizedJapaneseName "Lila" .
+
+ns1:Anthea_and_Concordia a ns1:Character ;
+    ns1:borderColor "f1c8b4" ;
+    ns1:color "fffeba" ;
+    ns1:coreColor "f1c8b4" ;
+    ns1:image "Black 2 White 2 Anthea and Concordia.png" ;
+    ns1:imageCaption "Concept art from {{2v2|Black|White|2}}" ;
+    ns1:imageSize "200px" ;
+    ns1:japaneseName "愛の女神と平和の女神" ;
+    ns1:name "Anthea and Concordia" ;
+    ns1:romanizedJapaneseName "<br />Goddess of Love and Goddess of Peace" .
+
+ns1:Diantha a ns1:Character ;
+    ns1:borderColor "BAC5D7" ;
+    ns1:color "F3F7FA" ;
+    ns1:coreColor "E8E48E" ;
+    ns1:image "XY Diantha.png" ;
+    ns1:imageCaption "Artwork from {{pkmn|X and Y}}" ;
+    ns1:imageSize "200px" ;
+    ns1:japaneseName "カルネ" ;
+    ns1:name "Diantha" ;
+    ns1:romanizedJapaneseName "Carne" .
+
+ns1:Giovanni a ns1:Character ;
+    ns1:borderColor "CC0000" ;
+    ns1:color "666" ;
+    ns1:coreColor "CCC" ;
+    ns1:image "GO Team GO Rocket Giovanni and legendary birds.png" ;
+    ns1:imageCaption "Promotional artwork from {{g|GO}}" ;
+    ns1:imageSize "360px" ;
+    ns1:japaneseName "サカキ" ;
+    ns1:name "Giovanni" ;
+    ns1:romanizedJapaneseName "Sakaki" ;
+    ns1:sloganLine "The Self-Proclaimed Strongest Trainer-->" ;
+    ns1:textColor "fff<!--" .
+
+ns1:Hohma a ns1:Character ;
+    ns1:borderColor "D46C50" ;
+    ns1:color "B88354" ;
+    ns1:coreColor "E49E7F" ;
+    ns1:eyeColor "Green" ;
+    ns1:gender "Male" ;
+    ns1:hairColor "Honey" ;
+    ns1:hometown "Unknown" ;
+    ns1:image "Hohma PW.png" ;
+    ns1:imageCaption "Hohma" ;
+    ns1:imageSize "220px" ;
+    ns1:japaneseName "ホーマ" ;
+    ns1:name "Hohma" ;
+    ns1:region "[[Paldea]]" ;
+    ns1:romanizedJapaneseName "Hohma" .
+
+ns1:James a ns1:Character ;
+    ns1:age "Unconfirmed<ref name=\"age\"/><!--Not confirmed in M02, see https://dogasu.bulbagarden.net/learn/rumor_guide/movie_02_reveals_rockets_age.html-->" ;
+    ns1:borderColor "C00" ;
+    ns1:color "666" ;
+    ns1:coreColor "CCC" ;
+    ns1:eyeColor "Green" ;
+    ns1:gender "Male" ;
+    ns1:hairColor "Periwinkle{{tt|*|Also said to be Lavender in the English Dub}}" ;
+    ns1:image "James JN.png" ;
+    ns1:imageCaption "James in ''[[Pokémon Journeys: The Series]]''" ;
+    ns1:imageSize "159px" ;
+    ns1:japaneseName "コジロウ" ;
+    ns1:name "James" ;
+    ns1:romanizedJapaneseName "Kojirō" ;
+    ns1:textColor "fff" .
+
+ns1:Jessie a ns1:Character ;
+    ns1:age "Unconfirmed<ref name=\"age\"/> <!--Not confirmed in M02, see https://dogasu.bulbagarden.net/learn/rumor_guide/movie_02_reveals_rockets_age.html-->" ;
+    ns1:borderColor "C00" ;
+    ns1:color "666" ;
+    ns1:coreColor "CCC" ;
+    ns1:eyeColor "Blue" ;
+    ns1:gender "Female" ;
+    ns1:hairColor "Dark Pink <small>([[EP002]]&ndash;[[EP080]])</small><br>Crimson <small>([[EP081]]&ndash;[[EP260]])</small><br>Magenta <small>([[EP261]]&ndash;present)</small>" ;
+    ns1:hometown "Unknown" ;
+    ns1:image "Jessie JN.png" ;
+    ns1:imageCaption "Jessie in ''[[Pokémon Journeys: The Series]]''" ;
+    ns1:imageSize "187px" ;
+    ns1:japaneseName "ムサシ" ;
+    ns1:name "Jessie" ;
+    ns1:region "[[Kanto]]" ;
+    ns1:relatives "[[Miyamoto]] (mother), [[James]] (husband, [[The Electric Tale of Pikachu|EToP]] only)" ;
+    ns1:romanizedJapaneseName "Musashi" ;
+    ns1:textColor "fff" .
+
+ns1:Kris a ns1:Character ;
+    ns1:borderColor "439ba7" ;
+    ns1:color "76c7d2" ;
+    ns1:coreColor "b6f0f8" ;
+    ns1:image "Crystal Kris.png" ;
+    ns1:imageCaption "Art from {{v2|Crystal}}" ;
+    ns1:imageSize "155px" ;
+    ns1:japaneseName "クリス" ;
+    ns1:name "Kris" ;
+    ns1:romanizedJapaneseName "Kris" .
+
+ns1:Leon a ns1:Character ;
+    ns1:borderColor "761724" ;
+    ns1:color "6C62A1" ;
+    ns1:coreColor "F7DD98" ;
+    ns1:eyeColor "Yellow" ;
+    ns1:gender "Male" ;
+    ns1:hairColor "Purple" ;
+    ns1:hometown "[[Postwick]]" ;
+    ns1:image "Leon anime JN.png",
+        "Sword Shield Leon.png" ;
+    ns1:imageCaption "Artwork from {{pkmn|Sword and Shield}}",
+        "Leon" ;
+    ns1:imageSize "250px" ;
+    ns1:japaneseName "ダンデ" ;
+    ns1:name "Leon" ;
+    ns1:region "[[Galar]]" ;
+    ns1:relatives "Mentioned parents<br>[[Hop]] (younger brother)" ;
+    ns1:romanizedJapaneseName "Dande" ;
+    ns1:textColor "fff" .
+
+ns1:Lysandre a ns1:Character ;
+    ns1:borderColor "ab3f26" ;
+    ns1:color "eb8b51" ;
+    ns1:coreColor "e36226" ;
+    ns1:japaneseName "{{tt|フラダリ|Furadari}}" ;
+    ns1:name "Lysandre" .
+
+ns1:Name_Rater a ns1:Character ;
+    ns1:borderColor "ADA1C9" ;
+    ns1:color "D5CFE3" ;
+    ns1:coreColor "E7E4ED" ;
+    ns1:japaneseName "{{tt|姓名判断師|せいめいはんだんし}}" ;
+    ns1:name "Name Rater" .
+
+ns1:Unknown a ns1:Character ;
+    ns1:borderColor "ab3f26",
+        "{{black color dark}}",
+        "{{blue color}}",
+        "{{red color}}",
+        "{{yellow color}}" ;
+    ns1:color "526D82",
+        "666",
+        "eb8b51",
+        "{{#switch: {{#expr: {{#time: U}}",
+        "{{Alola color}}",
+        "{{Bug color}}",
+        "{{Dark color}}",
+        "{{Fighting color}}",
+        "{{Fire color}}",
+        "{{GO color}}",
+        "{{GS color}}",
+        "{{Ghost color}}",
+        "{{Grass color}}",
+        "{{Green color}}",
+        "{{HOME color}}",
+        "{{Indigo Disk color light}}",
+        "{{Indigo Disk color}}",
+        "{{Isle of Armor color}}",
+        "{{Kalos color}}",
+        "{{Kitakami color}}",
+        "{{Let's Go Eevee color}}",
+        "{{Let's Go Pikachu color}}",
+        "{{Mineral egg color}}",
+        "{{Normal color}}",
+        "{{Omega Ruby color}}",
+        "{{Orange color}}",
+        "{{Paldea color}}",
+        "{{Pokémon color}}",
+        "{{Rock color}}",
+        "{{Scarlet color}}",
+        "{{SoA color}}",
+        "{{Steel color}}",
+        "{{Stellar color}}",
+        "{{TCG Ability color}}",
+        "{{TCG Poké-Body color light}}",
+        "{{TCG Poké-Power color}}",
+        "{{TCG Pokémon Tool color}}",
+        "{{Treasures color}}",
+        "{{Unknown color}}",
+        "{{Unova color}}",
+        "{{Water color}}",
+        "{{X color light}}",
+        "{{X color}}",
+        "{{XD color}}",
+        "{{Y color}}",
+        "{{alder color}}",
+        "{{alola color}}",
+        "{{beauty color}}",
+        "{{black 2 color}}",
+        "{{black color light}}",
+        "{{black color}}",
+        "{{blue color light}}",
+        "{{blue color}}",
+        "{{blueberry color}}",
+        "{{bronze color}}",
+        "{{bug color}}",
+        "{{bulba color}}",
+        "{{castle color}}",
+        "{{cleverness color light}}",
+        "{{colo color}}",
+        "{{contest color}}",
+        "{{cute color light}}",
+        "{{cute color}}",
+        "{{cuteness color}}",
+        "{{cynthia color}}",
+        "{{dark color light}}",
+        "{{dark color}}",
+        "{{diamond color dark}}",
+        "{{diamond color}}",
+        "{{dragon color}}",
+        "{{dream color}}",
+        "{{electric color}}",
+        "{{emerald color}}",
+        "{{fairy color}}",
+        "{{fairy egg color}}",
+        "{{fighting color}}",
+        "{{fire color light}}",
+        "{{fire color}}",
+        "{{flying color}}",
+        "{{galar color}}",
+        "{{ghost color light}}",
+        "{{ghost color}}",
+        "{{gold color}}",
+        "{{grass color}}",
+        "{{green color light}}",
+        "{{green color}}",
+        "{{grey color light}}",
+        "{{ground color}}",
+        "{{heartgold color light}}",
+        "{{hisui color}}",
+        "{{hoenn color}}",
+        "{{ice color}}",
+        "{{indigo color}}",
+        "{{kalos color}}",
+        "{{kitakami color}}",
+        "{{leafgreen color}}",
+        "{{legends arceus color}}",
+        "{{locationcolor/light|mountain}}",
+        "{{locationcolor/med|ruins}}",
+        "{{mail color}}",
+        "{{masters color}}",
+        "{{moon color}}",
+        "{{night color light}}",
+        "{{night color}}",
+        "{{normal color light}}",
+        "{{normal color}}",
+        "{{orange color}}",
+        "{{paldea color}}",
+        "{{pbr color}}",
+        "{{pearl color}}",
+        "{{poison color}}",
+        "{{power color}}",
+        "{{psychic color light}}",
+        "{{psychic color}}",
+        "{{ranger color}}",
+        "{{red color light}}",
+        "{{red color}}",
+        "{{rock color}}",
+        "{{ruby color}}",
+        "{{sapphire color}}",
+        "{{scarlet color}}",
+        "{{shield color}}",
+        "{{silver color}}",
+        "{{sinnoh color}}",
+        "{{slumbering color light}}",
+        "{{soulsilver color}}",
+        "{{spicy color}}",
+        "{{status color}}",
+        "{{steel color light}}",
+        "{{steel color}}",
+        "{{stellar color light}}",
+        "{{summer color}}",
+        "{{sun color}}",
+        "{{sweet color}}",
+        "{{sword color}}",
+        "{{tcg Supporter color}}",
+        "{{tcg fighting color}}",
+        "{{tcg grass color}}",
+        "{{tcg lightning color}}",
+        "{{tcg psychic color}}",
+        "{{tcg water color}}",
+        "{{unite color}}",
+        "{{unova color}}",
+        "{{violet color}}",
+        "{{water color light}}",
+        "{{water color}}",
+        "{{white 2 color}}",
+        "{{white color light}}",
+        "{{white color}}",
+        "{{x color}}",
+        "{{y color}}",
+        "{{yellow color}}" ;
+    ns1:coreColor "CCC",
+        "F1ECD7",
+        "{{grass color light}}",
+        "{{orange color light}}",
+        "{{poison color light}}",
+        "{{water color light}}",
+        "{{white color light}}" ;
+    ns1:textColor "fff" .
+

@@ -1,0 +1,75 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix local: <http://localhost:8000/vocab#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+
+
+
+# Class Definition for Location
+local:Location a rdfs:Class ;
+    rdfs:label "Location"@en ;
+    rdfs:comment "A class representing locations in the Pokémon universe, including cities, routes, and special areas."@en ;
+    rdfs:subClassOf schema:Place .
+
+
+# Properties Definitions
+
+local:slogan a rdfs:Property ;
+    rdfs:label "Slogan"@en ;
+    rdfs:comment "A slogan or tagline associated with the location."@en ;
+    rdfs:domain local:Location ;
+    rdfs:range xsd:string .
+
+local:imageSize a rdfs:Property ;
+    rdfs:label "Image Size"@en ;
+    rdfs:comment "The dimensions of the image, specified as width x height."@en ;
+    rdfs:domain local:Location ;
+    rdfs:range xsd:string .
+
+local:mapDescription a rdfs:Property ;
+    rdfs:label "Map Description"@en ;
+    rdfs:comment "A brief description of the map for the location."@en ;
+    rdfs:domain local:Location ;
+    rdfs:range xsd:string .
+
+schema:addressRegion a rdfs:Property ;
+    rdfs:label "Region"@en ;
+    rdfs:comment "The region where the location is situated (e.g., Kanto, Johto)."@en ;
+    rdfs:domain local:Location ;
+    rdfs:range xsd:string .
+
+# Appears in generations
+local:appearsInGeneration a rdfs:Property ;
+    rdfs:label "Appears in Generation"@en ;
+    rdfs:comment "The Pokémon game generations in which the location appears."@en ;
+    rdfs:domain local:Location ;
+    rdfs:range xsd:string , xsd:integer .
+
+# Location type (e.g., town, road)
+local:locationType a rdfs:Property ;
+    rdfs:label "Location Type"@en ;
+    rdfs:comment "The type of location, such as a town, road, or special area."@en ;
+    rdfs:domain local:Location ;
+    rdfs:range xsd:string . 
+
+# Map file
+local:mapFile a rdfs:Property ;
+    rdfs:label "Map File"@en ;
+    rdfs:comment "The file or URI of the map representing the location."@en ;
+    rdfs:domain local:Location ;
+    rdfs:range xsd:anyURI . 
+
+# Name of the location
+schema:name a rdfs:Property ;
+    rdfs:label "Name"@en ;
+    rdfs:comment "The English name of the location."@en ;
+    rdfs:domain local:Location ;
+    rdfs:range xsd:string .
+    
+# Image of the location
+schema:image a rdfs:Property ;
+    rdfs:label "Image"@en ;
+    rdfs:comment "An image depicting the location."@en ;
+    rdfs:domain local:Location ;
+    rdfs:range xsd:anyURI .

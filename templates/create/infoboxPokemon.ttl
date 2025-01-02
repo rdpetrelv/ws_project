@@ -1,0 +1,132 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix local: <http://localhost:8000/vocab#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+
+# Notes : To add mega abilities later , eggs too 
+
+
+
+# Class Definition for Type 
+
+local:Type a rdfs:Class ;
+    rdfs:label "Type of the form" ; 
+    rdfs:comment "The Pokémon's type's form."@en ;
+    rdfs:subClassOf schema:Thing .
+
+# Name of the Pokemon
+schema:name a rdfs:Property ;
+    rdfs:label "Name"@en ;
+    rdfs:comment "The English name of the type."@en ;
+    rdfs:domain local:Type ;
+    rdfs:range xsd:string .
+
+
+# Class Definition for Form
+local:Form a rdfs:Class ;
+    rdfs:label "Form of character"@en ;
+    rdfs:comment "A class representing a form of pokemon character other than the original one"@en ;
+    rdfs:subClassOf schema:Type .
+
+# Name of the Pokemon
+schema:name a rdfs:Property ;
+    rdfs:label "Name"@en ;
+    rdfs:comment "The English name of the form."@en ;
+    rdfs:domain local:Form ;
+    rdfs:range xsd:string .
+
+# Name of the Pokemon
+schema:image a rdfs:Property ;
+    rdfs:label "Name"@en ;
+    rdfs:comment "The image of the form ."@en ;
+    rdfs:domain local:Form ;
+    rdfs:range xsd:anyURI .
+
+local:primaryType a rdfs:Property ;
+    rdfs:label "Primary type"@en ;
+    rdfs:comment "The Pokémon's primary type."
+    rdfs:domain local:Form ;
+    rdfs:range local:Type .
+
+local:secondaryType a rdfs:Property ;
+    rdfs:label "Secondary type"@en ;
+    rdfs:comment "The Pokémon's secondary type."
+    rdfs:domain local:Form ;
+    rdfs:range local:Type .
+
+local:hasAbility a rdfs:Property ;
+    rdfs:label "Has Ability"@en ;
+    rdfs:comment "Associates a Pokémon form with its ability."@en ;
+    rdfs:domain local:Form ;
+    rdfs:range local:Ability .
+
+local:isHiddenAbility a rdfs:Property ;
+    rdfs:label "Hidden Ability"@en ;
+    rdfs:comment "Indicates if the associated ability is a hidden ability."@en ;
+    rdfs:domain local:Form ;
+    rdfs:range xsd:boolean .
+
+# Class Definition for Pokemon
+local:Pokemon a rdfs:Class ;
+    rdfs:label "Pokémon"@en ;
+    rdfs:comment "A class representing Pokémon entities with various attributes like types, abilities, and stats."@en ;
+    rdfs:subClassOf schema:Type .
+
+local:nationalDexNumber a rdfs:Property ;
+    rdfs:label "National Dex Number"@en ;
+    rdfs:comment "The National Pokédex number of the Pokémon."@en ;
+    rdfs:domain local:Pokemon ;
+    rdfs:range xsd:integer .
+
+
+# Name of the Pokemon
+schema:name a rdfs:Property ;
+    rdfs:label "Name"@en ;
+    rdfs:comment "The name of the location."@en ;
+    rdfs:domain local:Pokemon ;
+    rdfs:range xsd:string .
+
+
+# Name of the Pokemon
+schema:category a rdfs:Property ;
+    rdfs:label "Category"@en ;
+    rdfs:comment "The category from the Pokédex."@en ;
+    rdfs:domain local:Pokemon ;
+    rdfs:range xsd:anyURI .
+
+local:otherForms a rdfs:Property ;
+    rdfs:label "Form" ;
+    rdfs:comment "An other form if the character have any other one"@en ;
+    rdfs:domain local:Pokemon
+    rdfs:range local:Form . 
+
+local:genderCode a rdfs:Property ;
+    rdfs:label "Gender Ratio"@en ;
+    rdfs:comment "Byte setting for the species' gender ratios.";
+    rdfs:domain local:Pokemon ;
+    rdfs:range xsd:integer .
+
+local:catchRate a rdfs:Property ;
+    rdfs:label "Catch rate" ;
+    rdfs:comment "The Pokémon's catch rate.";
+    rdfs:domain local:Pokemon ;
+    rdfs:range xsd:integer . 
+
+schema:height a rdfs:Property ;
+    rdfs:label "Height" ;
+    rdfs:comment "The Pokémon's height in meters. Don't include the m.";
+    rdfs:domain local:Pokemon ;
+    rdfs:range xsd:integer . 
+
+schema:weight a rdfs:Property ;
+    rdfs:label "Height" ;
+    rdfs:comment "The Pokémon's weight in kilograms. Don't include the kg";
+    rdfs:domain local:Pokemon ;
+    rdfs:range xsd:integer . 
+
+
+
+
+
+

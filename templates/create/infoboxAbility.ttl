@@ -1,0 +1,88 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix local: <http://localhost:8000/vocab#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+
+
+
+# Class Definition for Ability
+local:Ability a rdfs:Class ;
+    rdfs:label "Ability"@en ;
+    rdfs:comment "A class representing Pokémon abilities, which define special powers or characteristics in the Pokémon universe."@en ;
+    rdfs:subClassOf schema:Thing .
+
+
+
+local:introducedInGeneration a rdfs:Property ;
+    rdfs:label "Introduced in Generation"@en ;
+    rdfs:comment "The generation the ability was introduced in."@en ;
+    rdfs:domain local:Ability ;
+    rdfs:range xsd:integer .
+
+
+local:noCategory a rdfs:Property ;
+    rdfs:label "No Category" ;
+    rdfs:comment "Indicates whether to suppress categorization for the entity." ;
+    rdfs:domain local:Ability ;
+    rdfs:range xsd:boolean .
+
+local:flavorTextGen3 a rdfs:Property ;
+    rdfs:label "Flavor Text for Generation III"@en ;
+    rdfs:comment "Describes the ability in Generation III."@en ;
+    rdfs:domain local:Ability ;
+    rdfs:range xsd:string .
+
+local:flavorTextGen4 a rdfs:Property ;
+    rdfs:label "Flavor Text for Generation IV"@en ;
+    rdfs:comment "Describes the ability in Generation IV."@en ;
+    rdfs:domain local:Ability ;
+    rdfs:range xsd:string .
+
+local:flavorTextGen5 a rdfs:Property ;
+    rdfs:label "Flavor Text for Generation V"@en ;
+    rdfs:comment "Describes the ability in Generation V."@en ;
+    rdfs:domain local:Ability ;
+    rdfs:range xsd:string .
+
+local:flavorTextGen6 a rdfs:Property ;
+    rdfs:label "Flavor text for Generation VI"@en ;
+    rdfs:comment "Flavor text from Generation VI."@en ;
+    rdfs:domain local:Ability ;
+    rdfs:range xsd:string .
+
+
+local:flavorTextGen7 a rdfs:Property ;
+    rdfs:label "Flavor text for Generation VII"@en ;
+    rdfs:comment "Flavor text from Generation VII."@en ;
+    rdfs:domain local:Ability ;
+    rdfs:range xsd:string .
+
+local:flavorTextGen8 a rdfs:Property ;
+    rdfs:label "Flavor text for Generation VIII"@en ;
+    rdfs:comment "Flavor text from Generation VIII."@en ;
+    rdfs:domain local:Ability ;
+    rdfs:range xsd:string .
+
+local:flavorTextGen9 a rdfs:Property ;
+    rdfs:label "Flavor text for Generation IX"@en ;
+    rdfs:comment "Flavor text from Generation IX."@en ;
+    rdfs:domain local:Ability ;
+    rdfs:range xsd:string .
+
+schema:color a rdfs:Property ;
+    rdfs:label "Color Scheme"@en ;
+    rdfs:comment "The color scheme used in the ability's infobox."@en ;
+    rdfs:domain local:Ability ;
+    rdfs:range xsd:string .
+
+
+
+
+
+# Name of the ability
+schema:name a rdfs:Property ;
+    rdfs:label "Name"@en ;
+    rdfs:comment "The English name of the ability."@en ;
+    rdfs:domain local:Ability ;
+    rdfs:range xsd:string .

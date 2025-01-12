@@ -4,15 +4,9 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix ex: <http://localhost:8000/vocab#> .
+@prefix ex: <http://example.org/resource/> .
 
-
-ex:Pokemon a rdfs:Class ;
-    rdfs:label "Pokemon"@en ;
-    rdfs:comment "A class representing a Pokémon character."@en ;
-    rdfs:subClassOf schema:Thing .
-
-
+# Define properties with meaningful names and descriptions
 
 ex:body a rdf:Property ;
     rdfs:label "Body Type"@en ;
@@ -133,20 +127,6 @@ ex:ability a rdf:Property ;
     rdfs:domain ex:principal_form ;
     rdfs:range rdf:Resource ;
     rdfs:isDefinedBy <http://example.org/resource/ability> .
-
-ex:mega_ability a rdf:Property ;
-    rdfs:label "Mega Ability"@en ;
-    rdfs:comment "The Pokémon's Mega Evolution's Ability."@en ;
-    rdfs:domain ex:Pokemon ;
-    rdfs:range rdf:Resource ;
-    rdfs:isDefinedBy <http://example.org/resource/mega_ability> .
-
-ex:hidden_ability a rdf:Property ;
-    rdfs:label "Hidden Ability"@en ;
-    rdfs:comment "The Pokémon's Hidden Ability."@en ;
-    rdfs:domain ex:Pokemon ;
-    rdfs:range rdf:Resource ;
-    rdfs:isDefinedBy <http://example.org/resource/mega_ability> .
 
 ex:height a rdf:Property ;
     rdfs:label "Height"@en ;

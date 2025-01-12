@@ -1,0 +1,138 @@
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix schema: <http://schema.org/> .
+@prefix ex: <http://example.org/resource/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+
+ex:PokemonShape a sh:NodeShape ;
+    sh:targetClass ex:Pokemon ;
+    sh:property [
+        sh:path ex:body ;
+        sh:datatype xsd:string ;
+        sh:in ( "01" "02" "03" "04" "05" "06" "07" "08" "09" "10" "11" "12" "13" "14" "Unknown" ) ;
+        sh:maxCount 1 ;
+    ] ;
+    sh:property [
+        sh:path ex:catchrate ;
+        sh:datatype xsd:string ;
+        sh:maxCount 1 ;
+    ] ;
+    sh:property [
+        sh:path ex:category ;
+        sh:datatype xsd:string ;
+        sh:maxCount 1 ;
+    ] ;
+    sh:property [
+        sh:path ex:color ;
+        sh:datatype xsd:string ;
+        sh:maxCount 1 ;
+    ] ;
+    sh:property [
+        sh:path ex:egg_group ;
+        sh:nodeKind sh:IRI ;
+        sh:minCount 1 ;
+    ] ;
+    sh:property [
+        sh:path ex:eggcycles ;
+        sh:datatype xsd:string ;
+        sh:maxCount 1 ;
+    ] ;
+    sh:property [
+        sh:path ex:egggroupn ;
+        sh:datatype xsd:string ;
+        sh:in ( "0" "1" "2" ) ;
+        sh:maxCount 1 ;
+    ] ;
+    sh:property [
+        sh:path ex:evtotal ;
+        sh:datatype xsd:string ;
+        sh:maxCount 1 ;
+    ] ;
+    sh:property [
+        sh:path ex:expyield ;
+        sh:datatype xsd:string ;
+        sh:maxCount 1 ;
+    ] ;
+    sh:property [
+        sh:path ex:friendship ;
+        sh:datatype xsd:string ;
+        sh:maxCount 1 ;
+    ] ;
+    sh:property [
+        sh:path ex:gendercode ;
+        sh:datatype xsd:string ;
+        sh:in ( "0" "31" "63" "127" "191" "223" "254" "255" "256" ) ;
+        sh:maxCount 1 ;
+    ] ;
+    sh:property [
+        sh:path ex:generation ;
+        sh:datatype xsd:string ;
+        sh:maxCount 1 ;
+    ] ;
+    sh:property [
+        sh:path ex:lv100exp ;
+        sh:datatype xsd:string ;
+        sh:maxCount 1 ;
+    ] ;
+    sh:property [
+        sh:path ex:ndex ;
+        sh:datatype xsd:string ;
+        sh:maxCount 1 ;
+    ] ;
+    sh:property [
+        sh:path ex:pokefordex ;
+        sh:datatype xsd:string ;
+        sh:maxCount 1 ;
+    ] ;
+    sh:property [
+        sh:path ex:principal_form ;
+        sh:nodeKind sh:BlankNode ;
+        sh:property [
+            sh:path ex:ability ;
+            sh:nodeKind sh:IRI ;
+            sh:minCount 1 ;
+        ] ;
+        sh:property [
+            sh:path ex:evsa ;
+            sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+        ] ;
+        sh:property [
+            sh:path schema:height ;
+            sh:nodeKind sh:BlankNode ;
+            sh:property [
+                sh:path schema:description ;
+                sh:datatype xsd:string ;
+                sh:maxCount 1 ;
+            ] ;
+            sh:property [
+                sh:path schema:unitText ;
+                sh:datatype xsd:string ;
+                sh:maxCount 1 ;
+            ] ;
+            sh:property [
+                sh:path schema:value ;
+                sh:datatype xsd:string ;
+                sh:maxCount 1 ;
+            ] ;
+        ] ;
+        sh:property [
+            sh:path schema:weight ;
+            sh:nodeKind sh:BlankNode ;
+            sh:property [
+                sh:path schema:description ;
+                sh:datatype xsd:string ;
+                sh:maxCount 1 ;
+            ] ;
+            sh:property [
+                sh:path schema:unitText ;
+                sh:datatype xsd:string ;
+                sh:maxCount 1 ;
+            ] ;
+            sh:property [
+                sh:path schema:value ;
+                sh:datatype xsd:string ;
+                sh:maxCount 1 ;
+            ] ;
+        ] ;
+    ] .

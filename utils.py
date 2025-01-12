@@ -11,7 +11,7 @@ from collections import defaultdict
 import validators
 
 
-LOCAL_URI = Namespace("http://localhost:8000/resource/")
+LOCAL_URI = Namespace("http://example.org/resource/")
 BASE = Namespace("https://bulbapedia.bulbagarden.net/w/")
 SCHEMA = Namespace("https://schema.org/")
 DBPEDIA = Namespace("http://dbpedia.org/resource/")
@@ -151,8 +151,8 @@ def fetch_infobox(page_title):
     return None
 
 
-# for extracting wikitext
-def extract_infobox(wikitext):
+# for extracting wikitext this depricated
+def extract_infobox2(wikitext):
     parsed = wtp.parse(wikitext)
     templates = parsed.templates
     for template in templates:
@@ -163,6 +163,31 @@ def extract_infobox(wikitext):
                     for param in template.arguments
                 }
     return None
+
+# for extracting wikitext
+def extract_infobox_for_abilities(wikitext):
+    parsed = wtp.parse(wikitext)
+    templates = parsed.templates
+    for template in templates:
+        if "Infobox" in template.name:
+            return {
+                param.name.strip(): param.value.strip()
+                for param in template.arguments
+            }
+    return None
+
+# for extracting wikitext
+def extract_infobox(wikitext):
+    parsed = wtp.parse(wikitext)
+    templates = parsed.templates
+    results = {}
+    for template in templates:
+        if "Infobox" in template.name:
+            results.update({
+                param.name.strip(): param.value.strip()
+                for param in template.arguments
+            })
+    return results
 
 
 def resolve_redirect(content):
@@ -179,10 +204,10 @@ def is_valid_uri(uri):
     return validators.url(uri)
 
 
-# Generate rdf to change this function so we use as much as we can schema.org
+# Generate rdf for pokemon
 def generate_rdf_pokemon(infobox_data, images=False, links=None, page_title=None):
     g = Graph()
-    g.bind("local", LOCAL_URI)
+    g.bind("ex", LOCAL_URI)
     g.bind("base", BASE)
     g.bind("schema", SCHEMA)
     g.bind("owl", OWL)
@@ -197,6 +222,8 @@ def generate_rdf_pokemon(infobox_data, images=False, links=None, page_title=None
     g.add((page_uri, FOAF.primaryTopic, entity_uri))
 
     
+    g.add((entity_uri, RDF.type,URIRef(f"{LOCAL_URI}Pokemon") ))
+
     blank_node = BNode() 
     if "form1" in infobox_data : 
         g.add((blank_node , SCHEMA.name , Literal(infobox_data["form1"])))
@@ -353,6 +380,7 @@ def generate_rdf_pokemon(infobox_data, images=False, links=None, page_title=None
         if key not in seen : 
             predicate = LOCAL_URI[key.replace(" ", "_")]
             g.add((entity_uri, predicate, Literal(value)))
+        
 
     if "name" in infobox_data:
         g.add((entity_uri, SCHEMA.name, Literal(infobox_data["name"])))
@@ -369,6 +397,7 @@ def generate_rdf_pokemon(infobox_data, images=False, links=None, page_title=None
                 )
                 if is_valid_uri(link_uri):
                     g.add((entity_uri, RDFS.seeAlso, link_uri))
+    # to add external links
     
 
     dbpedia_uri = URIRef(f"{DBPEDIA}{page_title.replace(' ', '_')}")
@@ -381,7 +410,74 @@ def generate_rdf_pokemon(infobox_data, images=False, links=None, page_title=None
 
 
 # Generate rdf to change this function so we use as much as we can schema.org
-def generate_rdf(infobox_data, image=False, links=None, page_title=None):
+def generate_rdf_ability(infobox_data, images=False, links=None, page_title=None):
+    g = Graph()
+    g.bind("ex", LOCAL_URI)
+    g.bind("base", BASE)
+    g.bind("schema", SCHEMA)
+    g.bind("owl", OWL)
+
+    page_uri = URIRef(f"{BASE}page/{page_title.replace(' ', '_')}")
+    entity_uri = URIRef(f"{LOCAL_URI}{page_title.replace(' ', '_')}")
+
+    g.add((page_uri, RDF.type, FOAF.Document))
+    g.add((page_uri, FOAF.primaryTopic, entity_uri))
+    g.add((entity_uri, RDF.type, FOAF.primaryTopic))
+
+    g.add((entity_uri, RDF.type,URIRef(f"{LOCAL_URI}Ability") ))
+
+    seen = set()
+
+    for i in range(3 , 10) :
+        key = f"text{i}"
+        if key in infobox_data : 
+            predicate = LOCAL_URI["generation"]
+            blank_node = BNode()
+            g.add((blank_node , predicate , URIRef(f"{LOCAL_URI}Generation{i}") ))
+            g.add((blank_node , SCHEMA.description, Literal(infobox_data[key]) ))
+            predicate = LOCAL_URI["flavour_text"]
+            g.add((entity_uri , predicate , blank_node))
+            seen.add(key)
+
+    if "gen" in infobox_data :
+        predicate = LOCAL_URI["introduced_generation"]
+        value = infobox_data["gen"]
+        g.add((entity_uri , predicate , URIRef(f"{LOCAL_URI}Generation{value}")))
+
+    
+    seen.update({"colorscheme" , "bordercolor" , "bgcolor" , "headercolor" , "name" , "jpname" , "jptrans" , "jptranslit" , "gen"})
+
+            
+
+    for key, value in infobox_data.items():
+        if key not in seen :
+            predicate = LOCAL_URI[key.replace(" ", "_")]
+            g.add((entity_uri, predicate, Literal(value)))
+
+    
+
+    if links is not None:
+        for link in links:
+            if "exists" in link:
+                link_name = link["*"]
+                link_uri = URIRef(
+                    f"http://bulbapedia.org/wiki/{link_name.replace(' ', '_')}"
+                )
+                if is_valid_uri(link_uri):
+                    g.add((entity_uri, RDFS.seeAlso, link_uri))
+
+    dbpedia_uri = URIRef(f"{DBPEDIA}{page_title.replace(' ', '_')}")
+    yago_uri = URIRef(f"{YAGO}{page_title.replace(' ', '_')}")
+
+    g.add((entity_uri, OWL.sameAs, dbpedia_uri))
+    g.add((entity_uri, OWL.sameAs, yago_uri))
+
+    return g
+
+
+
+# Generate rdf to change this function so we use as much as we can schema.org
+def generate_rdf(infobox_data, images=False, links=None, page_title=None):
     g = Graph()
     g.bind("local", LOCAL_URI)
     g.bind("base", BASE)
@@ -400,8 +496,8 @@ def generate_rdf(infobox_data, image=False, links=None, page_title=None):
         predicate = LOCAL_URI[key.replace(" ", "_")]
         g.add((entity_uri, predicate, Literal(value)))
 
-    if image:
-        g.add((entity_uri, SCHEMA.image, Literal(image)))
+    if images:
+        g.add((entity_uri, SCHEMA.image, Literal(images)))
 
     if links is not None:
         for link in links:

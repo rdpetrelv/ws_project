@@ -1,0 +1,85 @@
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix local: <http://localhost:8000/vocab#> .
+
+local:RegionShape a sh:NodeShape ;
+    sh:targetClass local:Region ;
+    sh:property [
+        sh:path local:name ;
+        sh:datatype xsd:string ;
+        sh:minCount 1 ;
+    ] ;
+    sh:property [
+        sh:path local:jname ;
+        sh:datatype xsd:string ;
+        sh:minCount 1 ;
+    ] ;
+    sh:property [
+        sh:path local:tmname ;
+        sh:datatype xsd:string ;
+        sh:minCount 1 ;
+    ] ;
+    sh:property [
+        sh:path local:regionColor ;
+        sh:datatype xsd:string ;
+    ] ;
+    sh:property [
+        sh:path local:image ;
+        sh:datatype xsd:anyURI ;
+    ] ;
+    sh:property [
+        sh:path local:size ;
+        sh:datatype xsd:integer ;
+    ] ;
+    sh:property [
+        sh:path local:caption ;
+        sh:datatype xsd:string ;
+    ] ;
+    sh:property [
+        sh:path local:introduction ;
+        sh:datatype xsd:string ;
+    ] ;
+    sh:property [
+        sh:path local:professor ;
+        sh:datatype xsd:string ;
+    ] ;
+    sh:property [
+        sh:path local:firstPartner ;
+        sh:node local:Pokemon ;
+    ] ;
+    sh:property [
+        sh:path local:villain ;
+        sh:datatype xsd:string ;
+    ] ;
+    sh:property [
+        sh:path local:league ;
+        sh:datatype xsd:string ;
+    ] ;
+    sh:property [
+        sh:path local:location ;
+        sh:node local:Location ;
+    ] ;
+    sh:property [
+        sh:path local:pokelist ;
+        sh:datatype xsd:string ;
+    ] ;
+    sh:property [
+        sh:path local:series ;
+        sh:datatype xsd:string ;
+    ] ;
+    sh:property [
+        sh:path local:season ;
+        sh:datatype xsd:string ;
+    ] ;
+    sh:property [
+        sh:path local:generation ;
+        sh:datatype xsd:string ;
+    ] ;
+    sh:property [
+        sh:path local:games ;
+        sh:datatype xsd:string ;
+    ] ;
+    sh:property [
+        sh:path local:manga ;
+        sh:datatype xsd:string ;
+    ] .

@@ -1,0 +1,204 @@
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix local: <http://localhost:8000/vocab#> .
+
+local:MoveShape a sh:NodeShape ;
+    sh:targetClass local:Move ;
+
+    sh:property [
+        sh:path local:n ;
+        sh:datatype xsd:integer ;
+        sh:name "Move Number"@en ;
+        sh:description "The number assigned to the move."@en ;
+    ] ;
+
+    sh:property [
+        sh:path local:name ;
+        sh:datatype xsd:string ;
+        sh:name "Name"@en ;
+        sh:description "The move's name in English."@en ;
+        sh:minCount 1 ;
+    ] ;
+
+    sh:property [
+        sh:path local:jname ;
+        sh:datatype xsd:string ;
+        sh:name "Japanese Name"@en ;
+        sh:description "The Japanese name of the move."@en ;
+    ] ;
+
+    sh:property [
+        sh:path local:jtrans ;
+        sh:datatype xsd:string ;
+        sh:name "Japanese Translation"@en ;
+        sh:description "The translation of the Japanese name of the move."@en ;
+    ] ;
+
+    sh:property [
+        sh:path local:jtranslit ;
+        sh:datatype xsd:string ;
+        sh:name "Japanese Translit."@en ;
+        sh:description "The transliteration of the Japanese name."@en ;
+    ] ;
+
+    sh:property [
+        sh:path local:gameImage ;
+        sh:datatype xsd:anyURI ;
+        sh:name "Game Image"@en ;
+        sh:description "A screenshot showing the move."@en ;
+    ] ;
+
+    sh:property [
+        sh:path local:type ;
+        sh:datatype xsd:string ;
+        sh:name "Type"@en ;
+        sh:description "The type of the move, e.g., Fire, Water."@en ;
+        sh:minCount 1 ;
+    ] ;
+
+    sh:property [
+        sh:path local:damageCategory ;
+        sh:datatype xsd:string ;
+        sh:name "Damage Category"@en ;
+        sh:description "The category of the move: Physical, Special, or Status."@en ;
+    ] ;
+
+    sh:property [
+        sh:path local:basepp ;
+        sh:datatype xsd:integer ;
+        sh:name "Base PP"@en ;
+        sh:description "The base Power Points (PP) of the move."@en ;
+    ] ;
+
+    sh:property [
+        sh:path local:maxpp ;
+        sh:datatype xsd:integer ;
+        sh:name "Max PP"@en ;
+        sh:description "The maximum Power Points (PP) of the move."@en ;
+    ] ;
+
+    sh:property [
+        sh:path local:power ;
+        sh:datatype xsd:integer ;
+        sh:name "Power"@en ;
+        sh:description "The power of the move."@en ;
+    ] ;
+
+    sh:property [
+        sh:path local:accuracy ;
+        sh:datatype xsd:integer ;
+        sh:name "Accuracy"@en ;
+        sh:description "The accuracy of the move."@en ;
+    ] ;
+
+    sh:property [
+        sh:path local:priority ;
+        sh:datatype xsd:integer ;
+        sh:name "Priority"@en ;
+        sh:description "The priority of the move, ranging from -7 to +7."@en ;
+    ] ;
+
+    sh:property [
+        sh:path local:touches ;
+        sh:datatype xsd:boolean ;
+        sh:name "Touches Opponent"@en ;
+        sh:description "Whether the move makes contact with the opponent."@en ;
+    ] ;
+
+    sh:property [
+        sh:path local:target ;
+        sh:datatype xsd:string ;
+        sh:name "Target"@en ;
+        sh:description "The range or targets of the move."@en ;
+    ] ;
+
+    sh:property [
+        sh:path local:gen ;
+        sh:datatype xsd:string ;
+        sh:name "Generation"@en ;
+        sh:description "The generation in which the move was introduced."@en ;
+    ] ;
+
+    sh:property [
+        sh:path local:category ;
+        sh:datatype xsd:string ;
+        sh:name "Contest Category"@en ;
+        sh:description "The contest category of the move, e.g., Cool, Beautiful."@en ;
+    ] ;
+    
+    sh:property [
+        sh:path local:appeal ;
+        sh:datatype xsd:integer ;
+        sh:name "Appeal Points"@en ;
+        sh:description "The number of Appeal Points the move scores in Pokémon Contests."@en ;
+    ] ;
+
+    sh:property [
+        sh:path local:jam ;
+        sh:datatype xsd:integer ;
+        sh:name "Jam Points"@en ;
+        sh:description "The number of Appeal Points lost when the move is used for jamming in Pokémon Contests."@en ;
+    ] ;
+
+    sh:property [
+        sh:path local:cdesc ;
+        sh:datatype xsd:string ;
+        sh:name "Contest Description"@en ;
+        sh:description "The move's description in Pokémon Contests."@en ;
+    ] ;
+
+    sh:property [
+        sh:path local:appealsc ;
+        sh:datatype xsd:integer ;
+        sh:name "Super Contest Appeal Points"@en ;
+        sh:description "The number of Appeal Points the move scores in Pokémon Super Contests."@en ;
+    ] ;
+
+    sh:property [
+        sh:path local:scdesc ;
+        sh:datatype xsd:string ;
+        sh:name "Super Contest Description"@en ;
+        sh:description "The move's description in Pokémon Super Contests."@en ;
+    ] ;
+
+    sh:property [
+        sh:path local:category6 ;
+        sh:datatype xsd:string ;
+        sh:name "Spectacular Contest Category"@en ;
+        sh:description "The contest condition in Spectacular Contests if different from the regular contest category."@en ;
+    ] ;
+
+    sh:property [
+        sh:path local:appeal6 ;
+        sh:datatype xsd:integer ;
+        sh:name "Spectacular Appeal Points"@en ;
+        sh:description "The number of Appeal Points the move scores in Spectacular Contests."@en ;
+    ] ;
+
+    sh:property [
+        sh:path local:jam6 ;
+        sh:datatype xsd:integer ;
+        sh:name "Spectacular Jam Points"@en ;
+        sh:description "The number of Appeal Points lost in Spectacular Contests when the move is used for jamming."@en ;
+    ] ;
+
+    sh:property [
+        sh:path local:cdesc6 ;
+        sh:datatype xsd:string ;
+        sh:name "Spectacular Contest Description"@en ;
+        sh:description "The move's description in Pokémon Spectacular Contests."@en ;
+    ] ;
+
+    sh:property [
+        sh:path local:footnotes ;
+        sh:datatype xsd:string ;
+        sh:name "Footnotes"@en ;
+        sh:description "Additional footnotes for the move."@en ;
+    ] ;
+
+    sh:property [
+        sh:path local:spm ;
+        sh:datatype xsd:integer ;
+        sh:name "Smogon's MoveDex Visibility"@en ;
+        sh:description "A flag to hide Smogon's MoveDex details if set to 1."@en ;
+    ] .

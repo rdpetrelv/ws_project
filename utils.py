@@ -2,7 +2,7 @@ import time
 from bs4 import BeautifulSoup
 import requests
 import wikitextparser as wtp
-from rdflib import Graph, URIRef, Literal, Namespace
+from rdflib import Graph, URIRef, Literal, Namespace , BNode
 from rdflib.namespace import RDF, RDFS, FOAF, XSD
 import csv
 
@@ -180,6 +180,207 @@ def is_valid_uri(uri):
 
 
 # Generate rdf to change this function so we use as much as we can schema.org
+def generate_rdf_pokemon(infobox_data, images=False, links=None, page_title=None):
+    g = Graph()
+    g.bind("local", LOCAL_URI)
+    g.bind("base", BASE)
+    g.bind("schema", SCHEMA)
+    g.bind("owl", OWL)
+
+
+    seen = set()
+
+    page_uri = URIRef(f"{BASE}page/{page_title.replace(' ', '_')}")
+    entity_uri = URIRef(f"{LOCAL_URI}{page_title.replace(' ', '_')}")
+
+    g.add((page_uri, RDF.type, FOAF.Document))
+    g.add((page_uri, FOAF.primaryTopic, entity_uri))
+
+    
+    blank_node = BNode() 
+    if "form1" in infobox_data : 
+        g.add((blank_node , SCHEMA.name , Literal(infobox_data["form1"])))
+    value = infobox_data["type1"]
+    title_type = f"{value} (Type)"
+    g.add((blank_node, RDF.type, URIRef(f"{LOCAL_URI}{title_type.replace(' ', '_')}")))
+    if "type2" in infobox_data :
+        value = infobox_data["type2"]
+        title_type = f"{value} (Type)"
+        g.add((blank_node, RDF.type, URIRef(f"{LOCAL_URI}{title_type.replace(' ', '_')}")))
+    mapping = {
+        "ability1" : "ability",
+        "ability2" : "ability" ,
+        "abilitym" : "mega_ability",
+        "abilitym2" : "mega_ability",
+        "abilityd" : "hidden_ability",
+        "abilityd2" : "hidden_ability",
+    }
+    for ability in ["ability1" , "ability2" , "abilitym" , "abilitym2" , "abilityd2" ,"abilityd"] :
+        if ability in infobox_data :
+            value = infobox_data[ability]
+            page_type = f"{value} (Ability)"
+            predicate = LOCAL_URI[mapping[ability].replace(" ", "_")]
+            g.add((blank_node, predicate, URIRef(f"{LOCAL_URI}{page_type.replace(' ', '_')}")))
+    for ev in ["evhp" , "evat" , "evde" , "evsa" , "evsd" , "evsp"] :
+        if ev in infobox_data:
+            value = infobox_data[ev]
+            predicate = LOCAL_URI[ev]
+            g.add((blank_node, predicate, Literal(value)))
+
+    height_blank_node = BNode()
+    g.add((height_blank_node, SCHEMA.description, Literal("The height of the pokemon character in fits ")))
+    g.add((height_blank_node, SCHEMA.value, Literal(infobox_data["height-ftin"])))
+    g.add((height_blank_node, SCHEMA.unitText , Literal("fits")))
+    g.add((blank_node , SCHEMA.height, height_blank_node))
+
+    height_blank_node = BNode()
+    g.add((height_blank_node, SCHEMA.description, Literal("The height of the pokemon character in meters ")))
+    g.add((height_blank_node, SCHEMA.value, Literal(infobox_data["height-m"])))
+    g.add((height_blank_node, SCHEMA.unitText , Literal("meters")))
+    g.add((blank_node , SCHEMA.height, height_blank_node))
+
+
+    weight_blank_node = BNode()
+    g.add((weight_blank_node, SCHEMA.description, Literal("The weight of the pokemon character in lbs")))
+    g.add((weight_blank_node, SCHEMA.value, Literal(infobox_data["weight-lbs"])))
+    g.add((weight_blank_node, SCHEMA.unitText , Literal("weight-lbs")))
+    g.add((blank_node , SCHEMA.weight, weight_blank_node))
+
+    weight_blank_node = BNode()
+    g.add((weight_blank_node, SCHEMA.description, Literal("The weight of the pokemon character in kg")))
+    g.add((weight_blank_node, SCHEMA.value, Literal(infobox_data["weight-kg"])))
+    g.add((weight_blank_node, SCHEMA.unitText , Literal("weight-kg")))
+    g.add((blank_node , SCHEMA.weight, weight_blank_node))
+
+
+    
+    
+    if "image" in infobox_data : 
+        g.add((blank_node , SCHEMA.image , Literal(infobox_data['image'])))
+
+    predicate = LOCAL_URI["principal_form"]
+
+    g.add((entity_uri , predicate , blank_node ))
+    seen.update({"name" , "egggroup1" , "egggroup2" , "evhp" , "evat" , "evde" , "evsa" , "evsd" , "evsp" ,"weight-kg" , "weight-lbs" , "height-ftin" , "height-m" , "tmname" , "jname" ,"type1" , "type2" , "ability1" , "ability2" , "abilitym" , "abilitym2" , "abilityd2" ,"abilityd" , "form1" , "image"})
+
+    for i in range(2 , 7) :
+        form_name = f"form{i}"
+        if form_name not in infobox_data : 
+            break
+
+        blank_node = BNode() 
+        
+        g.add((blank_node , SCHEMA.name , Literal(infobox_data[form_name])))
+        if f"{form_name}type1" in infobox_data :
+            value = infobox_data[f"{form_name}type1"]
+            title_type = f"{value} (Type)"
+            g.add((blank_node, RDF.type, URIRef(f"{LOCAL_URI}{title_type.replace(' ', '_')}")))
+        if f"{form_name}type2" in infobox_data :
+            value = infobox_data[f"{form_name}type2"]
+            title_type = f"{value} (Type)"
+            g.add((blank_node, RDF.type, URIRef(f"{LOCAL_URI}{title_type.replace(' ', '_')}")))
+        mapping = {
+            f"ability{i}-1" : "ability",
+            f"ability{i}-2" : "ability",
+        }
+        for ability in [f"ability{i}-1" , f"ability{i}-2"] :
+            if ability in infobox_data :
+                value = infobox_data[ability]
+                page_type = f"{value} (Ability)"
+                predicate = LOCAL_URI[mapping[ability].replace(" ", "_")]
+                g.add((blank_node, predicate, URIRef(f"{LOCAL_URI}{page_type.replace(' ', '_')}")))
+        
+        for ev in [f"evhp{i}" , f"evat{i}" , f"evde{i}" , f"evsa{i}" , f"evsd{i}" , f"evsp{i}"] :
+            if ev in infobox_data:
+                value = infobox_data[ev]
+                predicate = LOCAL_URI[ev]
+                g.add((blank_node, predicate, Literal(value)))
+
+        if f"height-ftin{i}" in infobox_data :
+            height_blank_node = BNode()
+            g.add((height_blank_node, SCHEMA.description, Literal("The height of the pokemon character in fits ")))
+            g.add((height_blank_node, SCHEMA.value, Literal(infobox_data["height-ftin"])))
+            g.add((height_blank_node, SCHEMA.unitText , Literal("ftin")))
+            g.add((blank_node , SCHEMA.height, height_blank_node))
+
+        if f"height-m{i}" in infobox_data :
+            height_blank_node = BNode()
+            g.add((height_blank_node, SCHEMA.description, Literal("The height of the pokemon character in meters ")))
+            g.add((height_blank_node, SCHEMA.value, Literal(infobox_data["height-m"])))
+            g.add((height_blank_node, SCHEMA.unitText , Literal("meters")))
+            g.add((blank_node , SCHEMA.height, height_blank_node))
+
+        if f"weight-lbs{i}" in infobox_data :
+            weight_blank_node = BNode()
+            g.add((weight_blank_node, SCHEMA.description, Literal("The weight of the pokemon character in lbs")))
+            g.add((weight_blank_node, SCHEMA.value, Literal(infobox_data["weight-lbs"])))
+            g.add((weight_blank_node, SCHEMA.unitText , Literal("weight-lbs")))
+            g.add((blank_node , SCHEMA.weight, weight_blank_node))
+        
+        if f"weight-kg{i}" in infobox_data :
+            weight_blank_node = BNode()
+            g.add((weight_blank_node, SCHEMA.description, Literal("The weight of the pokemon character in kg")))
+            g.add((weight_blank_node, SCHEMA.value, Literal(infobox_data["weight-kg"])))
+            g.add((weight_blank_node, SCHEMA.unitText , Literal("weight-kg")))
+            g.add((blank_node , SCHEMA.weight, weight_blank_node))
+        
+        
+        if f"image{i}" in infobox_data : 
+            g.add((blank_node , SCHEMA.image , Literal(infobox_data[f'image{i}'])))
+
+        predicate = LOCAL_URI["form"]
+
+        g.add((entity_uri , predicate , blank_node ))
+        seen.update({f"evhp{i}" , f"evat{i}" , f"evde{i}" , f"evsa{i}" , f"evsd{i}" , f"evsp{i}" , f"height-ftin{i}" , f"weight-kg{i}", f"height-m{i}", f"weight-lbs{i}", f"{form_name}type1" , f"{form_name}type2" , f"ability{i}-1" , f"ability{i}-2" , form_name , f"image{i}"})
+
+
+    if 'egggroup1' in infobox_data :
+    
+        value = infobox_data["egggroup1"]
+        title_egg = f"{value} (Egg Group)"
+        predicate = LOCAL_URI["egg_group"]
+
+        g.add((entity_uri, predicate, URIRef(f"{LOCAL_URI}{title_egg.replace(' ', '_')}")))
+    if 'egggroup2' in infobox_data :
+    
+        value = infobox_data["egggroup2"]
+        title_egg = f"{value} (Egg Group)"
+        predicate = LOCAL_URI["egg_group"]
+
+        g.add((entity_uri, predicate, URIRef(f"{LOCAL_URI}{title_egg.replace(' ', '_')}")))
+
+    for key, value in infobox_data.items():
+        if key not in seen : 
+            predicate = LOCAL_URI[key.replace(" ", "_")]
+            g.add((entity_uri, predicate, Literal(value)))
+
+    if "name" in infobox_data:
+        g.add((entity_uri, SCHEMA.name, Literal(infobox_data["name"])))
+
+    
+    
+
+    if links is not None:
+        for link in links:
+            if "exists" in link:
+                link_name = link["*"]
+                link_uri = URIRef(
+                    f"http://bulbapedia.org/wiki/{link_name.replace(' ', '_')}"
+                )
+                if is_valid_uri(link_uri):
+                    g.add((entity_uri, RDFS.seeAlso, link_uri))
+    
+
+    dbpedia_uri = URIRef(f"{DBPEDIA}{page_title.replace(' ', '_')}")
+    yago_uri = URIRef(f"{YAGO}{page_title.replace(' ', '_')}")
+
+    g.add((entity_uri, OWL.sameAs, dbpedia_uri))
+    g.add((entity_uri, OWL.sameAs, yago_uri))
+
+    return g
+
+
+# Generate rdf to change this function so we use as much as we can schema.org
 def generate_rdf(infobox_data, image=False, links=None, page_title=None):
     g = Graph()
     g.bind("local", LOCAL_URI)
@@ -198,19 +399,6 @@ def generate_rdf(infobox_data, image=False, links=None, page_title=None):
     for key, value in infobox_data.items():
         predicate = LOCAL_URI[key.replace(" ", "_")]
         g.add((entity_uri, predicate, Literal(value)))
-
-    if "name" in infobox_data:
-        g.add((entity_uri, SCHEMA.name, Literal(infobox_data["name"])))
-
-    if "height-m" in infobox_data:
-        g.add(
-            (entity_uri, SCHEMA.height, Literal(infobox_data["height-m"]))
-        )  # , datatype=XSD.integer)))
-
-    if "weight-kg" in infobox_data:
-        g.add(
-            (entity_uri, SCHEMA.weight, Literal(infobox_data["weight-kg"]))
-        )  # , datatype=XSD.integer)))
 
     if image:
         g.add((entity_uri, SCHEMA.image, Literal(image)))

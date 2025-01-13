@@ -1,0 +1,500 @@
+Tohjo Falls
+Realgam Tower
+Viridian Forest
+Outskirt Stand
+Petalburg Woods
+The Under Subway
+Relic Cave
+Mt. Battle
+Cipher Lab
+One Island
+Two Island
+Three Island
+Silph Co.
+Five Island
+Six Island
+Devon Corporation
+Bell Tower
+Pewter Museum of Science
+Celadon Department Store
+Goldenrod Department Store
+Seven Island
+Mt. Moon
+Rock Tunnel
+Pokémon Tower
+Kanto Power Plant
+Pokémon Mansion (Kanto)
+Victory Road (Kanto)
+Sprout Tower
+Cerulean Cave
+Trainer Hill
+Ilex Forest
+TV Mauville
+Faraway Island
+Southern Island
+Pattern Bush
+Whirl Islands
+Mt. Chimney
+Meteor Falls
+Altering Cave
+Rusturf Tunnel
+S.S. Tidal
+Icefall Cave
+Tanoby Key
+Orre Colosseum
+Deep Colosseum
+Pyrite Colosseum
+ONBS
+Citadark Isle
+Shoal Cave
+Granite Cave
+Scorched Slab
+Seafloor Cavern
+Sealed Chamber
+Mt. Pyre
+Sky Pillar
+Island Cave
+Desert Ruins
+Ancient Tomb
+Desert Underpass
+Ruins of Alph
+Slowpoke Well
+Union Cave
+Dark Cave
+National Park
+Mt. Mortar
+Kaminko's House
+Pokémon HQ Lab
+Snagem Hideout
+Phenac Stadium
+Prestige Precept Center
+Realgam Colosseum
+Under Colosseum
+Mirage Tower
+Birth Island
+Navel Rock
+Seagallop
+Seaside Cycling Road
+Magnet Train
+Lake of Rage
+Celadon Game Corner
+Mt. Ember
+S.S. Anne
+Relic Stone
+Mauville Game Corner
+Goldenrod Game Corner
+Kanto Safari Zone
+Sea Cottage
+Miracle Cycle
+Pokémon League Reception Gate
+Weather Institute
+Goldenrod Radio Tower
+Burned Tower
+Terra Cave
+Marine Cave
+Tanoby Chambers
+Lake Verity
+Cipher Key Lair
+Mirage Island (Generation III)
+Flower Paradise
+Hall of Origin
+Pal Park
+Underground
+Spear Pillar
+Lost Cave
+Fiery Path
+Turnback Cave
+Stark Mountain
+Olivine Lighthouse
+Old Chateau
+Pokémon Trainers' School
+Professor Oak's Laboratory
+S.S. Aqua
+Fullmoon Island
+Kisara Plain
+Lilycove Department Store
+Mount Coronet
+Berry Forest
+Dragon's Den
+Underwater
+Hoenn Safari Zone
+Lake Valor
+Lake Acuity
+Fiore Temple
+Jungle Relic
+Rocket Warehouse
+Team Aqua Hideout
+Victory Road (Hoenn)
+Dotted Hole
+Victory Road (Sinnoh)
+Trick House
+Iron Island
+Eterna Forest
+Ice Path
+Rydel's Cycles
+Pretty Petal flower shop
+Snowpoint Temple
+Great Marsh
+Waterworks
+Go-Rock Base
+Goldenrod Tunnel
+Solaceon Ruins
+Celadon Condominiums
+Oreburgh Mine
+Valley Windworks
+Floaroma Meadow
+Fuego Ironworks
+Wayward Cave
+Lilycove Museum
+Global Terminal
+Moomoo Farm
+Oceanic Museum
+Hallowed Tower
+Sendoff Spring
+Ravaged Path
+Veilstone Game Corner
+Veilstone Department Store
+Trainers' School (Sinnoh)
+Vista Lighthouse
+Pick a Peck of Colors Flower Shop
+Ribbon Syndicate
+Maniac Tunnel
+Trainer Tower
+Battle Park (Sinnoh)
+Hotel Grand Lake
+Lost Tower
+Trophy Garden
+Pokétch Company
+Gateway Colosseum
+Main Street Colosseum
+Lagoon Colosseum
+Waterfall Colosseum
+Neon Colosseum
+Crystal Colosseum
+Jubilife TV
+Pokémon Mansion (Sinnoh)
+Oreburgh Mining Museum
+Rad Rickshaw's Cycle Shop
+Cinnabar Lab
+Fighting Dojo
+Artisan Cave
+Team Rocket HQ
+Courtyard Colosseum
+Team Rocket Hideout
+Café Cabin
+Trainer House
+Pokémon Network Center
+Magma Colosseum
+Sunset Colosseum
+Stargazer Colosseum
+Sunny Park Colosseum
+Mt. Moon Square
+Eterna Condominiums
+Altru Tower
+Mossdeep Space Center
+Capture Arena
+Distortion World
+Pokémon Communication Center
+Cove Lily Motel
+Joyful Game Corner
+Team Galactic Eterna Building
+Almia Castle
+Hippowdon Temple
+Chroma Ruins
+Volcano Cave
+Oil Field Hideout
+Sea of Wailord
+Battleground
+Rock Peak Ruins (Sinnoh)
+Iceberg Ruins (Sinnoh)
+Iron Ruins (Sinnoh)
+Seven Stars Restaurant
+Cargo Ship
+Puel Sea
+Altru Building
+Villa
+S.S. Libra
+New Mauville
+Pyrite Bldg
+Four Island
+Abandoned Ship
+Peril Cliffs
+Marine Cave (Ranger)
+Pyrite Cave
+Ranger Union
+Battle Tent
+Dusk Factory
+Amity Square
+Cave of Origin
+Newmoon Island
+Stern's Shipyard
+Sunyshore Market
+Canalave Library
+Card e Room
+Sinjoh Ruins
+Johto Safari Zone
+Embedded Tower
+Cliff Edge Gate
+Cliff Cave
+Pokéathlon Dome
+Battle Royale
+House of Memories
+Bellchime Trail
+Dolce Island
+Rasp Cavern
+Coral Sea
+Renbow Island
+Layuda Island
+Wireless Tower
+Tilikule Island
+Daybreak Ruins
+Old Mansion
+Faldera Island
+Mitonga Island
+Sky (Ranger)
+Mt. Sorbet
+Oblivia Ruins
+Canal Ruins
+Sophian Island
+Eastern Sea
+Rainbow Dais
+Submarine (Ranger)
+Sky Fortress
+Western Sea
+Forest Temple
+Fire Temple
+Ice Temple
+Thunder Temple
+Dark Temple
+Light Temple
+Odd Temple
+Skyarrow Bridge
+Liberty Garden
+S.S. Sinnoh
+Pinwheel Forest
+Rotom's Room
+Dreamyard
+Battle Subway
+Driftveil Drawbridge
+Wellspring Cave
+Relic Castle
+Chargestone Cave
+Tubeline Bridge
+Celestial Tower
+Victory Road (Black and White)
+N's Castle
+Abundant Shrine
+Desert Resort
+Marvelous Bridge
+Village Bridge
+Royal Unova
+Unity Tower
+Mistralton Cave
+Giant Chasm
+P2 Laboratory
+Undella Bay
+Lostlorn Forest
+Cold Storage
+Dragonspiral Tower
+Challenger's Cave
+Moor of Icirrus
+Twist Mountain
+Entralink
+Poké Transfer Lab
+Shopping Mall Nine
+Abyssal Ruins
+Big Stadium and Small Court
+Passerby Analytics HQ
+Poké Spot
+Central Plaza
+Pokémon World Tournament
+Pokéstar Studios
+Floccesy Ranch
+Pledge Grove
+Virbank Complex
+Castelia Sewers
+Relic Passage
+Nature Preserve
+Strange House
+Reversal Mountain
+Marine Tube
+Seaside Cave
+Plasma Frigate
+Clay Tunnel
+Cave of Being
+Underground Ruins
+Join Avenue
+Victory Road (Black 2 and White 2)
+White Treehollow
+Black Tower
+Santalune Forest
+Tower of Mastery
+Team Galactic HQ
+Victory Road (Kalos)
+Connecting Cave
+Shabboneau Castle
+Parfum Palace
+Poké Ball Factory
+Battle Chateau
+Frost Cavern
+Glittering Cave
+Reflection Cave
+Kalos Power Plant
+Azure Bay
+Lost Hotel
+Battle Maison
+Team Flare Secret HQ
+Lysandre Labs
+Pokémon Village
+Terminus Cave
+Unknown Dungeon (Kalos)
+Friend Safari
+Sea Spirit's Den
+Chamber of Emptiness
+Berry fields (Kalos)
+Hotel Richissime
+Lumiose Museum
+Battle Tower (Generation II)
+North Boulevard
+South Boulevard
+Autumnal Avenue
+Estival Avenue
+Vernal Avenue
+Hibernal Avenue
+Juice Shoppe
+Nameless Cavern
+Pathless Plain
+Soaring in the sky
+Trackless Forest
+Gnarled Den
+Crescent Isle
+Fabled Cave
+Mirage Islands
+Battle Resort
+Mirage Caves
+Mirage Forests
+Mirage Mountains
+Sea Mauville
+Secret Shore
+Secret Meadow
+Secret Islet
+Baa de Mer Ranch
+Mauville Food Court
+Inside of Truck
+Water Continent
+Air Continent
+Grass Continent
+Mist Continent
+Sand Continent
+Sea of Wonders
+Mystery Continent
+Interdream Zone
+Melemele Island
+Akala Island
+Aether Paradise
+Festival Plaza
+Poké Pelago
+Voidlands
+Mahalo Trail
+Ten Carat Hill
+Ula'ula Island
+Poni Island
+Hau'oli Cemetery
+Berry fields (Alola)
+Verdant Cavern
+Melemele Meadow
+Seaward Cave
+Kala'e Bay
+Diglett's Tunnel
+Paniola Ranch
+Melemele Sea
+Hano Grand Resort
+Brooklet Hill
+Ruins of Conflict
+Hano Beach
+Wela Volcano Park
+Lush Jungle
+Poni Wilds
+Ancient Poni Path
+Memorial Hill
+Akala Outskirts
+Ruins of Life
+Ruins of Abundance
+Ruins of Hope
+Ula'ula Beach
+Haina Desert
+Ula'ula Meadow
+Malie Garden
+Mount Hokulani
+Mount Lanakila
+Blush Mountain
+Shady House
+Thrifty Megamart (Abandoned Site)
+Hokulani Observatory
+Lake of the Sunne
+Lake of the Moone
+Poni Grove
+Poni Breaker Coast
+Battle Royal Dome
+Exeggutor Island
+Aether House
+Resolution Cave
+Ultra Deep Sea
+Vast Poni Canyon
+Battle Tree
+Poni Meadow
+Poni Plains
+Poni Coast
+Altar of the Sunne
+Altar of the Moone
+Poni Gauntlet
+Battle Buffet
+Ulex
+Château de Rosa
+Atlantis
+Olivia Palace
+The Volcano
+Elysium
+Training Center (Duel)
+Big Wave Beach
+Pikachu Valley
+Heahea Beach
+Dividing Peak Tunnel
+Sandy Cave
+Poni Beach
+Plains Grotto
+Team Rocket's Castle
+Ultra Jungle
+Ultra Desert
+Ultra Plant
+Ultra Forest
+Ultra Crater
+Ultra Ruin
+Ultra Space Wilds
+Megalo Tower
+Trainers' School (Alola)
+Kantonian Gym
+Tide Song Hotel
+Battle Frontier (Generation III)
+Battle Tower (Generation III)
+Battle Tower (Sinnoh)
+Battle Frontier (Generation IV)
+GO Park
+Vicinity of Tahnti Station
+Tahnti Park
+Litwick Cave
+Pokémon Comprehensive Laboratory
+Cappucci Island
+Fine Park
+GNN
+Ryme Wharf
+S.S. Prime Treasure
+Central Square
+Baker Detective Agency
+Hi-Hat Café
+Team Magma Hideout
+Magma Hideout (Jagged Pass)
+Mirage Cave (south of Route 107)
+Mirage Cave (north of Fallarbor Town)
+Mirage Cave (west of Route 115)
+Mirage Cave (north of Fortree City)

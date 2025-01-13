@@ -1,0 +1,129 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix schema: <http://schema.org/> .
+@prefix local: <http://example.org/region/> .
+@prefix localCharacter: <http://example.org/character/> .
+@prefix localLocation: <http://example.org/location/> .
+@prefix localPokemon: <http://example.org/pokemon/> .
+
+
+local:Region a rdfs:Class ;
+    rdfs:label "Region"@en ;
+    rdfs:comment "A class representing a Pokémon region."@en ;
+    rdfs:subClassOf schema:Thing .
+
+local:regioncolor a rdf:Property ;
+    rdfs:label "Region Color"@en ;
+    rdfs:comment "The color scheme for the region infobox."@en ;
+    rdfs:domain local:Region ;
+    rdfs:range schema:color .
+
+schema:name a rdf:Property ;
+    rdfs:label "Name"@en ;
+    rdfs:comment "The region's English name."@en ;
+    rdfs:domain local:Region ;
+    rdfs:range xsd:string .
+
+local:jname a rdf:Property ;
+    rdfs:label "Japanese Name"@en ;
+    rdfs:comment "The Japanese name of the region."@en ;
+    rdfs:domain local:Region ;
+    rdfs:range xsd:string .
+
+local:tmname a rdf:Property ;
+    rdfs:label "Transliterated Japanese Name"@en ;
+    rdfs:comment "The transliterated Japanese name of the region."@en ;
+    rdfs:domain local:Region ;
+    rdfs:range xsd:string .
+
+local:image a rdf:Property ;
+    rdfs:label "Image"@en ;
+    rdfs:comment "The image representing the region."@en ;
+    rdfs:domain local:Region ;
+    rdfs:range xsd:anyURI .
+
+local:size a rdf:Property ;
+    rdfs:label "Image Size"@en ;
+    rdfs:comment "The size of the image."@en ;
+    rdfs:domain local:Region ;
+    rdfs:range xsd:integer .
+
+local:caption a rdf:Property ;
+    rdfs:label "Caption"@en ;
+    rdfs:comment "The caption of the image."@en ;
+    rdfs:domain local:Region ;
+    rdfs:range xsd:string .
+
+local:introduction a rdf:Property ;
+    rdfs:label "Introduction"@en ;
+    rdfs:comment "The medium in which this region debuted."@en ;
+    rdfs:domain local:Region ;
+    rdfs:range xsd:string .
+
+local:professor a rdf:Property ;
+    rdfs:label "Professor"@en ;
+    rdfs:comment "The Pokémon professor associated with the region."@en ;
+    rdfs:domain local:Region ;
+    rdfs:range localCharacter:Character .
+
+local:firstpartner a rdf:Property ;
+    rdfs:label "First Partner Pokémon"@en ;
+    rdfs:comment "The first partner Pokémon offered in the region."@en ;
+    rdfs:domain local:Region ;
+    rdfs:range localPokemon:Pokemon .
+
+local:villain a rdf:Property ;
+    rdfs:label "Villainous Organization"@en ;
+    rdfs:comment "The villainous organization present in the region."@en ;
+    rdfs:domain local:Region ;
+    rdfs:range xsd:string .
+
+local:league a rdf:Property ;
+    rdfs:label "League"@en ;
+    rdfs:comment "The region's Pokémon League."@en ;
+    rdfs:domain local:Region ;
+    rdfs:range xsd:string .
+
+local:location a rdf:Property ;
+    rdfs:label "Location"@en ;
+    rdfs:comment "The geographical location of the region."@en ;
+    rdfs:domain local:Region ;
+    rdfs:range localLocation:Location .
+
+local:pokelist a rdf:Property ;
+    rdfs:label "Regional Pokédex"@en ;
+    rdfs:comment "The regional Pokédex."@en ;
+    rdfs:domain local:Region ;
+    rdfs:range xsd:string .
+
+local:series a rdf:Property ;
+    rdfs:label "Animation Series"@en ;
+    rdfs:comment "The animation series this region appears in."@en ;
+    rdfs:domain local:Region ;
+    rdfs:range xsd:string .
+
+local:season a rdf:Property ;
+    rdfs:label "Animation Seasons"@en ;
+    rdfs:comment "The animation seasons this region appears in."@en ;
+    rdfs:domain local:Region ;
+    rdfs:range xsd:string .
+
+local:generation a rdf:Property ;
+    rdfs:label "Generation"@en ;
+    rdfs:comment "The generation this region appears in."@en ;
+    rdfs:domain local:Region ;
+    rdfs:range xsd:string .
+
+local:games a rdf:Property ;
+    rdfs:label "Games"@en ;
+    rdfs:comment "The games in which this region appears."@en ;
+    rdfs:domain local:Region ;
+    rdfs:range xsd:string .
+
+local:manga a rdf:Property ;
+    rdfs:label "Manga Debut"@en ;
+    rdfs:comment "The manga chapter in which this region debuted."@en ;
+    rdfs:domain local:Region ;
+    rdfs:range xsd:string .
+

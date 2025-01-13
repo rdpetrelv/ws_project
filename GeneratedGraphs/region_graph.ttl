@@ -1,0 +1,451 @@
+@prefix ns1: <http://example.org/region/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ns1:Aeos_Island a ns1:region ;
+    ns1:caption "Aeos Island" ;
+    ns1:image <UNITE_Aeos_Island.png> ;
+    ns1:introduction "Pokémon UNITE" ;
+    ns1:jname "エオス島" ;
+    ns1:professor <Professor_Phorus> ;
+    ns1:regioncolor <Orange> ;
+    ns1:size 250 ;
+    ns1:tmname "Aeos Island" .
+
+ns1:Almia a ns1:region ;
+    ns1:image <Almia.png> ;
+    ns1:introduction "Pokémon Ranger: Shadows of Almia" ;
+    ns1:jname "アルミア" ;
+    ns1:professor <Professor_Hastings> ;
+    ns1:regioncolor <SoA> ;
+    ns1:size 200 ;
+    ns1:tmname "Almia" ;
+    ns1:villain "Team Dim Sun" .
+
+ns1:Alola a ns1:region ;
+    ns1:image <Alola_USUM_artwork.png> ;
+    ns1:jname "アローラ" ;
+    ns1:regioncolor <alola> ;
+    ns1:size 300 ;
+    ns1:tmname "Alola" .
+
+ns1:Blueberry_Academy a ns1:region ;
+    ns1:image <Blueberry_Academy_entrance.png> ;
+    ns1:jname "ブルーベリー学園" ;
+    ns1:regioncolor <Blueberry> ;
+    ns1:size 300 ;
+    ns1:tmname "Blueberry Academy" .
+
+ns1:Carmonte_Island a ns1:region ;
+    ns1:caption "Carmonte Island" ;
+    ns1:image <Carmonte_Island.png> ;
+    ns1:introduction "Pokémon Duel" ;
+    ns1:jname "カルモンテ島" ;
+    ns1:regioncolor <Moon> ;
+    ns1:size 300 ;
+    ns1:tmname "Carmonte Island" .
+
+ns1:Crown_Tundra a ns1:region ;
+    ns1:image <Crown_Tundra_artwork.png> ;
+    ns1:jname "カンムリせつげん" ;
+    ns1:regioncolor <Crown_Tundra> ;
+    ns1:size 300 ;
+    ns1:tmname "Crown Snowfield" .
+
+ns1:Decolore_Islands a ns1:region ;
+    ns1:caption "" ;
+    ns1:image <Decolore.png> ;
+    ns1:introduction "Pokémon animated series" ;
+    ns1:jname "デコロラ諸島" ;
+    ns1:regioncolor <water> ;
+    ns1:series "''Pokémon the Series: Black & White''" ;
+    ns1:tmname "Decolora Archipelago" .
+
+ns1:Ferrum a ns1:region ;
+    ns1:caption "The Ferrum region" ;
+    ns1:image <Ferrum.png> ;
+    ns1:introduction "Pokkén Tournament" ;
+    ns1:jname "フェルム" ;
+    ns1:regioncolor <steel> ;
+    ns1:tmname "Ferrum" .
+
+ns1:Fiore a ns1:region ;
+    ns1:image <Fiore_alt.png> ;
+    ns1:jname "フィオレ" ;
+    ns1:regioncolor <Ranger> ;
+    ns1:tmname "Fiore" .
+
+ns1:Galar a ns1:region ;
+    ns1:image <Galar_artwork.png> ;
+    ns1:jname "ガラル" ;
+    ns1:regioncolor <galar> ;
+    ns1:size 300 ;
+    ns1:tmname "Galar" .
+
+ns1:Hisui a ns1:region ;
+    ns1:image <Legends_Arceus_Hisui.png> ;
+    ns1:jname "ヒスイ" ;
+    ns1:regioncolor <Hisui> ;
+    ns1:size 300 ;
+    ns1:tmname "Hisui" .
+
+ns1:Hoenn a ns1:region ;
+    ns1:caption "Artwork of the Hoenn region from<br>Pokémon Omega Ruby and Alpha Sapphire illustrated by kawayoo" ;
+    ns1:image <Hoenn_ORAS.png> ;
+    ns1:jname "ホウエン" ;
+    ns1:regioncolor <Hoenn> ;
+    ns1:size 300 ;
+    ns1:tmname "Hoenn" .
+
+ns1:Isle_of_Armor a ns1:region ;
+    ns1:image <Isle_of_Armor_artwork.png> ;
+    ns1:jname "ヨロイ" ;
+    ns1:regioncolor <Isle_of_Armor> ;
+    ns1:size 300 ;
+    ns1:tmname "Armor Island" .
+
+ns1:Johto a ns1:region ;
+    ns1:caption "Artwork of the Johto region from Generation IV" ;
+    ns1:image <JohtoMap.png> ;
+    ns1:jname "ジョウト" ;
+    ns1:regioncolor <Johto> ;
+    ns1:size 300 ;
+    ns1:tmname "Johto" .
+
+ns1:Kalos a ns1:region ;
+    ns1:image <Kalos_alt.png> ;
+    ns1:jname "カロス" ;
+    ns1:regioncolor <kalos> ;
+    ns1:size 300 ;
+    ns1:tmname "Kalos" .
+
+ns1:Kanto a ns1:region ;
+    ns1:caption "Artwork of Kanto from Generation VII by kawayoo<ref name=\"gen7-art\">[https://twitter.com/PK__SAYONARA/status/1643013730966581248 Tweet by @PK__SAYONARA (reposted by @kawayoo)]</ref>" ;
+    ns1:image <PE_Kanto_Map.png> ;
+    ns1:jname "カントー" ;
+    ns1:regioncolor <kanto> ;
+    ns1:size 300 ;
+    ns1:tmname "Kanto" .
+
+ns1:Kitakami a ns1:region ;
+    ns1:caption "Concept art" ;
+    ns1:image <Mossui_Town_SV_Concept_Art.png> ;
+    ns1:introduction "Pokémon Scarlet and Violet (The Teal Mask)" ;
+    ns1:jname "キタカミ" ;
+    ns1:professor <None> ;
+    ns1:regioncolor <Kitakami> ;
+    ns1:size 300 ;
+    ns1:tmname "Kitakami" .
+
+ns1:Lental a ns1:region ;
+    ns1:image <Lental.png> ;
+    ns1:introduction "New Pokémon Snap" ;
+    ns1:jname "レンティル" ;
+    ns1:professor <Professor_Mirror> ;
+    ns1:regioncolor <electric> ;
+    ns1:tmname "Lentil" ;
+    ns1:villain "N/A" .
+
+ns1:Mintale_Town a ns1:region ;
+    ns1:caption "Mintale Town" ;
+    ns1:image <Mintale_Town.png> ;
+    ns1:introduction "Pokémon Channel" ;
+    ns1:jname "ハツカタウン" ;
+    ns1:professor <Professor_Oak> ;
+    ns1:regioncolor <Grass> ;
+    ns1:tmname "Hatsuka Town" .
+
+ns1:Oblivia a ns1:region ;
+    ns1:image <Oblivia_artwork.png> ;
+    ns1:introduction "Pokémon Ranger: Guardian Signs" ;
+    ns1:jname "オブリビア" ;
+    ns1:professor <Professor_Hastings> ;
+    ns1:regioncolor <GS> ;
+    ns1:tmname "Oblivia" ;
+    ns1:villain "Pokémon Pinchers" .
+
+ns1:Orange_Islands a ns1:region ;
+    ns1:caption "A complete map of the Orange Islands in relation to Kanto and Johto" ;
+    ns1:image <Orange.jpg> ;
+    ns1:jname "オレンジ諸島" ;
+    ns1:regioncolor <orange> ;
+    ns1:tmname "Orange Islands" .
+
+ns1:Orre a ns1:region ;
+    ns1:image <Orre.png> ;
+    ns1:jname "オーレ" ;
+    ns1:pokelist "Strategy Memo" ;
+    ns1:regioncolor <Orre> ;
+    ns1:tmname "Ōre" .
+
+ns1:Paldea a ns1:region ;
+    ns1:image <Paldea_artwork.png> ;
+    ns1:jname "パルデア" ;
+    ns1:regioncolor <paldea> ;
+    ns1:size 300 ;
+    ns1:tmname "Paldea" .
+
+ns1:Pasio a ns1:region ;
+    ns1:caption "" ;
+    ns1:image <Pasio.png> ;
+    ns1:introduction "Pokémon Masters EX" ;
+    ns1:jname "パシオ" ;
+    ns1:league "Pokémon Masters League" ;
+    ns1:location <Centra_City> ;
+    ns1:professor <Professor_Bellis> ;
+    ns1:regioncolor <masters> ;
+    ns1:size 150 ;
+    ns1:tmname "Pasio" ;
+    ns1:villain "Team Break" .
+
+ns1:PokéPark a ns1:region ;
+    ns1:caption "Map of the PokéPark in PokéPark Wii" ;
+    ns1:image <PokePark_Wii_Map.png> ;
+    ns1:introduction "PokéPark Wii: Pikachu's Adventure" ;
+    ns1:jname "ポケパーク" ;
+    ns1:regioncolor <PokéPark> ;
+    ns1:tmname "Poké Park" .
+
+ns1:Pokémon_Island a ns1:region ;
+    ns1:caption "Pokémon Island artwork" ;
+    ns1:image <Snap_Pokémon_Island.png> ;
+    ns1:introduction "Pokémon Snap" ;
+    ns1:jname "ポケモンアイランド" ;
+    ns1:professor <Professor_Oak> ;
+    ns1:regioncolor <Psychic> ;
+    ns1:tmname "Pokémon Island" .
+
+ns1:Pokémon_world a ns1:region ;
+    ns1:caption "Map of the Pokémon world from Pokémon Super Mystery Dungeon" ;
+    ns1:image <Mystery_Dungeon_World_PSMD.png> ;
+    ns1:introduction "Pokémon Mystery Dungeon: Red Rescue Team and Blue Rescue Team" ;
+    ns1:jname "ポケモン世界" ;
+    ns1:regioncolor <MD> ;
+    ns1:tmname "Pokémon world" .
+
+ns1:Pokétopia a ns1:region ;
+    ns1:caption "Pokétopia" ;
+    ns1:image <Poketopia.png> ;
+    ns1:introduction "Pokémon Battle Revolution" ;
+    ns1:jname "ポケトピア" ;
+    ns1:regioncolor <Gold> ;
+    ns1:size 300 ;
+    ns1:tmname "Pokétopia" .
+
+ns1:Ransei a ns1:region ;
+    ns1:caption "The Ransei region" ;
+    ns1:games "Pokémon Conquest" ;
+    ns1:generation "Generation V" ;
+    ns1:image <Ransei.png> ;
+    ns1:introduction "Pokémon Conquest" ;
+    ns1:jname "ランセ" ;
+    ns1:regioncolor <Unova> ;
+    ns1:tmname "Ranse" ;
+    ns1:villain "Nobunaga's Army" .
+
+ns1:Ryme_City a ns1:region ;
+    ns1:image <Ryme_City_artwork.png> ;
+    ns1:jname "ライムシティ" ;
+    ns1:regioncolor <Electric> ;
+    ns1:tmname "Ryme City" .
+
+ns1:Sevii_Islands a ns1:region ;
+    ns1:caption "Artwork of the Sevii Islands from FireRed and LeafGreen" ;
+    ns1:image <Sevii_Islands.png> ;
+    ns1:jname "ナナシマ" ;
+    ns1:regioncolor <Sevii> ;
+    ns1:tmname "Nanashima" .
+
+ns1:Sinnoh a ns1:region ;
+    ns1:image <Sinnoh_BDSP_artwork.png> ;
+    ns1:jname "シンオウ" ;
+    ns1:regioncolor <Sinnoh> ;
+    ns1:size 300 ;
+    ns1:tmname "Sinnoh" .
+
+ns1:Trading_Card_Game_Islands a ns1:region ;
+    ns1:image <TCG_Island_artwork.jpg> ;
+    ns1:jname "" ;
+    ns1:regioncolor <tcg_trainer> ;
+    ns1:size 200 ;
+    ns1:tmname "" .
+
+ns1:Tumblecube_Island a ns1:region ;
+    ns1:caption "" ;
+    ns1:image <Tumblecube_Island.png> ;
+    ns1:introduction "Pokémon Quest" ;
+    ns1:jname "カクコロ島" ;
+    ns1:regioncolor <Orange> ;
+    ns1:size 300 ;
+    ns1:tmname "Kakukoro Island" .
+
+ns1:Unova a ns1:region ;
+    ns1:image <Unova_B2W2_alt.png> ;
+    ns1:jname "イッシュ" ;
+    ns1:regioncolor <Unova> ;
+    ns1:size 300 ;
+    ns1:tmname "Issyu" .
+
+ns1:White_City a ns1:region ;
+    ns1:caption "White City in Pokémon Stadium 2" ;
+    ns1:image <White_City.png> ;
+    ns1:introduction "Pokémon Stadium 2" ;
+    ns1:jname "ホワイトシティ" ;
+    ns1:professor <Professor_Oak> ;
+    ns1:regioncolor <White> ;
+    ns1:tmname "White City" ;
+    ns1:villain "Team Rocket" .
+
+<Almia.png> a xsd:anyURI .
+
+<Alola_USUM_artwork.png> a xsd:anyURI .
+
+<Blueberry> a <http://schema.org/color> .
+
+<Blueberry_Academy_entrance.png> a xsd:anyURI .
+
+<Carmonte_Island.png> a xsd:anyURI .
+
+<Centra_City> a <http://example.org/location/Location> .
+
+<Crown_Tundra> a <http://schema.org/color> .
+
+<Crown_Tundra_artwork.png> a xsd:anyURI .
+
+<Decolore.png> a xsd:anyURI .
+
+<Electric> a <http://schema.org/color> .
+
+<Ferrum.png> a xsd:anyURI .
+
+<Fiore_alt.png> a xsd:anyURI .
+
+<GS> a <http://schema.org/color> .
+
+<Galar_artwork.png> a xsd:anyURI .
+
+<Gold> a <http://schema.org/color> .
+
+<Grass> a <http://schema.org/color> .
+
+<Hisui> a <http://schema.org/color> .
+
+<Hoenn> a <http://schema.org/color> .
+
+<Hoenn_ORAS.png> a xsd:anyURI .
+
+<Isle_of_Armor> a <http://schema.org/color> .
+
+<Isle_of_Armor_artwork.png> a xsd:anyURI .
+
+<Johto> a <http://schema.org/color> .
+
+<JohtoMap.png> a xsd:anyURI .
+
+<Kalos_alt.png> a xsd:anyURI .
+
+<Kitakami> a <http://schema.org/color> .
+
+<Legends_Arceus_Hisui.png> a xsd:anyURI .
+
+<Lental.png> a xsd:anyURI .
+
+<MD> a <http://schema.org/color> .
+
+<Mintale_Town.png> a xsd:anyURI .
+
+<Moon> a <http://schema.org/color> .
+
+<Mossui_Town_SV_Concept_Art.png> a xsd:anyURI .
+
+<Mystery_Dungeon_World_PSMD.png> a xsd:anyURI .
+
+<None> a <http://example.org/character/Character> .
+
+<Oblivia_artwork.png> a xsd:anyURI .
+
+<Orange.jpg> a xsd:anyURI .
+
+<Orre> a <http://schema.org/color> .
+
+<Orre.png> a xsd:anyURI .
+
+<PE_Kanto_Map.png> a xsd:anyURI .
+
+<Paldea_artwork.png> a xsd:anyURI .
+
+<Pasio.png> a xsd:anyURI .
+
+<PokePark_Wii_Map.png> a xsd:anyURI .
+
+<Poketopia.png> a xsd:anyURI .
+
+<PokéPark> a <http://schema.org/color> .
+
+<Professor_Bellis> a <http://example.org/character/Character> .
+
+<Professor_Mirror> a <http://example.org/character/Character> .
+
+<Professor_Phorus> a <http://example.org/character/Character> .
+
+<Psychic> a <http://schema.org/color> .
+
+<Ranger> a <http://schema.org/color> .
+
+<Ransei.png> a xsd:anyURI .
+
+<Ryme_City_artwork.png> a xsd:anyURI .
+
+<Sevii> a <http://schema.org/color> .
+
+<Sevii_Islands.png> a xsd:anyURI .
+
+<Sinnoh> a <http://schema.org/color> .
+
+<Sinnoh_BDSP_artwork.png> a xsd:anyURI .
+
+<Snap_Pokémon_Island.png> a xsd:anyURI .
+
+<SoA> a <http://schema.org/color> .
+
+<TCG_Island_artwork.jpg> a xsd:anyURI .
+
+<Tumblecube_Island.png> a xsd:anyURI .
+
+<UNITE_Aeos_Island.png> a xsd:anyURI .
+
+<Unova_B2W2_alt.png> a xsd:anyURI .
+
+<White> a <http://schema.org/color> .
+
+<White_City.png> a xsd:anyURI .
+
+<alola> a <http://schema.org/color> .
+
+<electric> a <http://schema.org/color> .
+
+<galar> a <http://schema.org/color> .
+
+<kalos> a <http://schema.org/color> .
+
+<kanto> a <http://schema.org/color> .
+
+<masters> a <http://schema.org/color> .
+
+<orange> a <http://schema.org/color> .
+
+<paldea> a <http://schema.org/color> .
+
+<steel> a <http://schema.org/color> .
+
+<tcg_trainer> a <http://schema.org/color> .
+
+<water> a <http://schema.org/color> .
+
+<Orange> a <http://schema.org/color> .
+
+<Professor_Hastings> a <http://example.org/character/Character> .
+
+<Unova> a <http://schema.org/color> .
+
+<Professor_Oak> a <http://example.org/character/Character> .
+

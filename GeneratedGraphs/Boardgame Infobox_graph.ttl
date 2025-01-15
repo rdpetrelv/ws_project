@@ -1,0 +1,79 @@
+@prefix ns1: <http://example.org/property/> .
+@prefix ns2: <http://example.org/resource/boardgame/> .
+
+<http://example.org/resource/boardgame/Monopoly:_Pokémon_Edition> a ns2:Boardgame ;
+    ns1:age "8+",
+        "8_to_adult" ;
+    ns1:caption "Box,_board_and_other_stuff_of_the_game",
+        "Games_box",
+        "Kanto_edition",
+        "Regular_tokens_edition" ;
+    ns1:image "Monopoly-Pokémon_Kanto_Edition.png",
+        "Monopoly_Pokémon_2001_box.png",
+        "Monopoly_Pokémon_Johto_Edition.png",
+        "Pokemon_Monopoly_Game_1999.png" ;
+    ns1:name "Monopoly:_Pokémon_Edition" ;
+    ns2:caption2 "Exclusive_Kanto_edition" ;
+    ns2:colorscheme "Johto",
+        "Kanto" ;
+    ns2:date "1999",
+        "2001",
+        "2016",
+        "September_15,_2014_Kanto_edition2015_Exclusive_Kanto_edition" ;
+    ns2:image2 "Monopoly-Pokémon_Exclusive_Kanto_Edition.png" ;
+    ns2:image_size "300",
+        "350" ;
+    ns2:image_size2 "300" ;
+    ns2:links "" ;
+    ns2:players "2_to_6" ;
+    ns2:publisher "USAopoly_wp_Hasbro_",
+        "_wp_Parker_Brothers__wp_Hasbro_" ;
+    ns2:subtitled "Collectors_Edition",
+        "Johto_Edition",
+        "Kanto_Edition" .
+
+ns2:Poke-Tapa a ns2:Boardgame ;
+    ns1:age "8_and_up" ;
+    ns1:caption "Box_art_from_first_version" ;
+    ns1:image "Poke-tapa_Gen_I_Front.jpg" ;
+    ns1:name "Poke-Tapa" ;
+    ns2:colorscheme "Kanto" ;
+    ns2:date "1999" ;
+    ns2:image_size "300" ;
+    ns2:links "" ;
+    ns2:players "2_to_4" ;
+    ns2:publisher "_wp_Estrela_(company)_Estrela_" ;
+    ns2:subtitled "" .
+
+ns2:_ポケモンババ抜き a ns2:Boardgame ;
+    ns1:age "_4+" ;
+    ns1:caption "_Pokémon_Babanuki" ;
+    ns1:image "_Pokémon_Babanuki_box_art.png" ;
+    ns1:name "_ポケモンババ抜き" ;
+    ns2:caption2 "_Pokémon_Babanuki_Super_High_Tension" ;
+    ns2:colorscheme "_Hoenn" ;
+    ns2:date "_May_11,_2019_Pokémon_BabanukiAugust_3,_2023_Pokémon_Babanuki_Super_High_Tension" ;
+    ns2:image2 "_Pokémon_Babanuki_Super_High_Tension_box_art.png" ;
+    ns2:image_size "_200" ;
+    ns2:image_size2 "_125" ;
+    ns2:links "_" ;
+    ns2:players "_3_-_6" ;
+    ns2:publisher "_The_Pokémon_Company" ;
+    ns2:subtitled "_Pokémon_Babanuki" .
+
+ns2:ポケモンバトルチェス a ns2:Boardgame ;
+    ns1:age "6+" ;
+    ns1:caption "Pokémon_Battle_Chess_BW_Version" ;
+    ns1:image "Pokémon_Battle_Chess_BW.png" ;
+    ns1:name "ポケモンバトルチェス" ;
+    ns2:caption2 "Pokémon_Battle_Chess_W" ;
+    ns2:colorscheme "Unova" ;
+    ns2:date "December_26,_2011_Pokémon_Battle_Chess_BW_VersionMay_18,_2012_Pokémon_Battle_ChessDecember_28,_2012_Pokémon_Battle_Chess_W" ;
+    ns2:image2 "Pokémon_Battle_Chess_W.png" ;
+    ns2:image_size "300" ;
+    ns2:image_size2 "250" ;
+    ns2:links "_" ;
+    ns2:players "2" ;
+    ns2:publisher "The_Pokémon_Company" ;
+    ns2:subtitled "Pokémon_Battle_Chess" .
+

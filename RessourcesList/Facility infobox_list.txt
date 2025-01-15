@@ -1,0 +1,12 @@
+Battle Dome
+Battle Pyramid
+Battle Pike
+Battle Palace
+Battle Arena
+Battle Factory (Generation III)
+Battle Tower (Generation III)
+Battle Hall
+Battle Castle
+Battle Tower (Sinnoh)
+Battle Factory (Generation IV)
+Battle Arcade

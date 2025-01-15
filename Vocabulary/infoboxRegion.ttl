@@ -2,10 +2,11 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix schema: <http://schema.org/> .
-@prefix local: <http://example.org/region/> .
-@prefix localCharacter: <http://example.org/character/> .
-@prefix localLocation: <http://example.org/location/> .
-@prefix localPokemon: <http://example.org/pokemon/> .
+@prefix local: <http://example.org/resource/region/> .
+@prefix localLocation: <http://example.org/resource/location/> .
+@prefix localCharacter: <http://example.org/resource/character/> .
+@prefix localPokémon: <http://example.org/resource/pokémon/> .
+@prefix localMove: <http://example.org/resource/move/> .
 
 
 local:Region a rdfs:Class ;
@@ -71,7 +72,7 @@ local:firstpartner a rdf:Property ;
     rdfs:label "First Partner Pokémon"@en ;
     rdfs:comment "The first partner Pokémon offered in the region."@en ;
     rdfs:domain local:Region ;
-    rdfs:range localPokemon:Pokemon .
+    rdfs:range localPokémon:Pokémon .
 
 local:villain a rdf:Property ;
     rdfs:label "Villainous Organization"@en ;

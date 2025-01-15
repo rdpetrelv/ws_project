@@ -1,0 +1,271 @@
+@prefix ns1: <http://example.org/resource/battlee/> .
+@prefix ns2: <http://example.org/property/> .
+
+ns1:Athlete_Ariel a ns1:BattleE ;
+    ns2:image "Athlete_Ariel.png" ;
+    ns2:jname "アスリートのARIEL" ;
+    ns2:name "Athlete_Ariel" ;
+    ns1:cardID "13-A016" ;
+    ns1:cardcolor "green" ;
+    ns1:cardno "16" ;
+    ns1:coll "Pokémon_Colosseum_Double_Battle_e" ;
+    ns1:difficulty "Unknown" ;
+    ns1:jtrans "Athlete_Ariel" ;
+    ns1:set "Green_Pack" .
+
+ns1:Athlete_Kilk a ns1:BattleE ;
+    ns2:image "Athlete_Kilk.png" ;
+    ns2:jname "アスリートのKILK" ;
+    ns2:name "Athlete_Kilk" ;
+    ns1:cardID "13-A011" ;
+    ns1:cardcolor "yellow" ;
+    ns1:cardno "11" ;
+    ns1:coll "Pokémon_Colosseum_Double_Battle_e" ;
+    ns1:difficulty "Unknown" ;
+    ns1:jtrans "Athlete_Kilk" ;
+    ns1:set "Yellow_Pack" .
+
+ns1:Battle_without_Conclusion_\(Battle_e\) a ns1:BattleE .
+
+<http://example.org/resource/battlee/Beauty_Maura,_Lass_Mikaela_&_Engineer_Flint> a ns1:BattleE ;
+    ns2:image "" ;
+    ns2:jname "おとなのおねえさん_ヒカリ,_ミニスカート_アカリとでんきやのオヤジ_テルオ" ;
+    ns2:name "Beauty_Maura,_Lass_Mikaela_&_Engineer_Flint" ;
+    ns1:cardID "15-A032" ;
+    ns1:cardcolor "tcg_lightning" ;
+    ns1:cardno "032/032" ;
+    ns1:coll "Pokémon_Battle_e_FireRed_&_LeafGreen" ;
+    ns1:jtrans "Grown-up_Lady_Hikari,_Miniskirt_Akari_&_Old_Electrician_Teruo" ;
+    ns1:prize "Up-Grade" ;
+    ns1:set "Yellow_sub-set" .
+
+<http://example.org/resource/battlee/Biker_Jordy,_Biker_Ernest_&_Cue_Ball_Gabriel_(Battle_e)> a ns1:BattleE .
+
+ns1:Bird_Keeper_Hiroyuki_\(Battle_e\) a ns1:BattleE .
+
+ns1:Black_Belt_Kousei_\(Battle_e\) a ns1:BattleE .
+
+ns1:Blue_sub-set_\(Battle_e\) a ns1:BattleE .
+
+ns1:Bug_Catcher_Brandon_\(Battle_e\) a ns1:BattleE .
+
+ns1:Burglar_Jac_\(Battle_e\) a ns1:BattleE .
+
+ns1:Camper_Joey_\(Battle_e\) a ns1:BattleE .
+
+<http://example.org/resource/battlee/Channeler_Miyako,_Tamer_Eita_&_PokéManiac_Takahiko_(Battle_e)> a ns1:BattleE .
+
+ns1:Chaser_Draw a ns1:BattleE ;
+    ns2:image "Chaser_Draw.png" ;
+    ns2:jname "チェイサーのDRAW" ;
+    ns2:name "Chaser_Draw" ;
+    ns1:cardID "13-A001" ;
+    ns1:cardcolor "red" ;
+    ns1:cardno "01" ;
+    ns1:coll "Pokémon_Colosseum_Double_Battle_e" ;
+    ns1:difficulty "Unknown" ;
+    ns1:jtrans "Chaser_Draw" ;
+    ns1:set "Red_Pack" .
+
+<http://example.org/resource/battlee/Cool_Couple_Carl_&_Nia> a ns1:BattleE ;
+    ns2:image "" ;
+    ns2:jname "エリートカップル_ヨシとノリ" ;
+    ns2:name "Cool_Couple_Carl_&_Nia" ;
+    ns1:cardID "15-A028" ;
+    ns1:cardcolor "tcg_lightning" ;
+    ns1:cardno "028/032" ;
+    ns1:coll "Pokémon_Battle_e_FireRed_&_LeafGreen" ;
+    ns1:jtrans "Elite_Couple_Yoshi_&_Nori" ;
+    ns1:prize "Scope_Lens" ;
+    ns1:set "Yellow_sub-set" .
+
+<http://example.org/resource/battlee/Cool_Couple_Geb_&_Megan_(Battle_e)> a ns1:BattleE .
+
+<http://example.org/resource/battlee/Cool_Couple_Isac_&_Mag_(Battle_e)> a ns1:BattleE .
+
+<http://example.org/resource/battlee/Cool_Couple_Jos_&_Anne_(Battle_e)> a ns1:BattleE .
+
+ns1:Cooltrainer_Allyson_\(Battle_e\) a ns1:BattleE .
+
+ns1:Cordial_Bond_\(Battle_e\) a ns1:BattleE .
+
+<http://example.org/resource/battlee/Crush_Kin_Jo_&_Haley_(Battle_e)> a ns1:BattleE .
+
+<http://example.org/resource/battlee/Crush_Kin_Ric_&_Rene_(Battle_e)> a ns1:BattleE .
+
+ns1:Cursed_Showdown_\(Battle_e\) a ns1:BattleE .
+
+ns1:Emerald_\(cards_01-08\)_\(Battle_e\) a ns1:BattleE .
+
+ns1:Emerald_\(cards_09-16\)_\(Battle_e\) a ns1:BattleE .
+
+ns1:Emerald_\(cards_17-24\)_\(Battle_e\) a ns1:BattleE .
+
+ns1:Emerald_\(cards_25-32\)_\(Battle_e\) a ns1:BattleE .
+
+ns1:Emerald_\(cards_33-40\)_\(Battle_e\) a ns1:BattleE .
+
+ns1:Emerald_\(cards_41-48\)_\(Battle_e\) a ns1:BattleE .
+
+ns1:Emerald_\(cards_49-56\)_\(Battle_e\) a ns1:BattleE .
+
+ns1:Emerald_\(cards_57-64\)_\(Battle_e\) a ns1:BattleE .
+
+ns1:Freezing_Ray_\(Battle_e\) a ns1:BattleE .
+
+ns1:Fun_Old_Lady_Tome a ns1:BattleE ;
+    ns2:image "Fun_Old_Lady_Tome.png" ;
+    ns2:jname "ほのぼのおばあさんのTOME" ;
+    ns2:name "Fun_Old_Lady_Tome" ;
+    ns1:cardID "13-A006" ;
+    ns1:cardcolor "blue" ;
+    ns1:cardno "06" ;
+    ns1:coll "Pokémon_Colosseum_Double_Battle_e" ;
+    ns1:difficulty "Unknown" ;
+    ns1:jtrans "Heartwarming_Old_Lady_Tome" ;
+    ns1:set "Blue_Pack" .
+
+ns1:Green_sub-set_\(Battle_e\) a ns1:BattleE .
+
+ns1:Hidden_Ruins_\(Battle_e\) a ns1:BattleE .
+
+<http://example.org/resource/battlee/Hiker_Ayumu,_Sailor_Kousuke_&_Aroma_Lady_Ayano_(Battle_e)> a ns1:BattleE .
+
+<http://example.org/resource/battlee/Hiker_Mike,_Crush_Girl_Rebecca_&_Black_Belt_Nicolas_(Battle_e)> a ns1:BattleE .
+
+ns1:Hunter_Bit a ns1:BattleE ;
+    ns2:image "Hunter_Bit.png" ;
+    ns2:jname "ハンターのBIT" ;
+    ns2:name "Hunter_Bit" ;
+    ns1:cardID "13-P001" ;
+    ns1:cardcolor "dream" ;
+    ns1:cardno "01" ;
+    ns1:coll "Pokémon_Battle_e_Promotional_cards" ;
+    ns1:difficulty "Unknown" ;
+    ns1:jtrans "Hunter_Bit" .
+
+ns1:Iron_Defense_\(Battle_e\) a ns1:BattleE .
+
+ns1:Juggler_Jarrett a ns1:BattleE ;
+    ns2:image "Juggler_Jarrett_Battle_e.png" ;
+    ns2:jname "ジャグラー_マイケル",
+        "ジャグラー　マイケル" ;
+    ns2:name "Juggler_Jarrett" ;
+    ns1:cardID "15-A025" ;
+    ns1:cardcolor "tcg_lightning" ;
+    ns1:cardno "025/032" ;
+    ns1:coll "Pokémon_Battle_e_FireRed_&_LeafGreen" ;
+    ns1:jtrans "Juggler_Michael" ;
+    ns1:prize "Metal_Coat" ;
+    ns1:set "Yellow_sub-set" .
+
+ns1:Lady_Marika_\(Battle_e\) a ns1:BattleE .
+
+ns1:PKMN_Breeder_Lily_\(Battle_e\) a ns1:BattleE .
+
+<http://example.org/resource/battlee/PKMN_Ranger_Chelsea,_PKMN_Ranger_Trenton_&_Cooltrainer_Albert_(Battle_e)> a ns1:BattleE .
+
+<http://example.org/resource/battlee/Picnicker_Camryn,_Aroma_Lady_Natalia_&_Cooltrainer_Kathleen_(Battle_e)> a ns1:BattleE .
+
+<http://example.org/resource/battlee/Pokémon_Battle_e:_Series_1_&_2_Promotional_cards_(Battle_e)> a ns1:BattleE .
+
+ns1:Pokémon_Battle_e_Emerald_Promotional_cards_\(Battle_e\) a ns1:BattleE .
+
+<http://example.org/resource/battlee/Pokémon_Battle_e_FireRed_&_LeafGreen_Promotional_cards_(Battle_e)> a ns1:BattleE .
+
+ns1:Psychic_Lorenzo a ns1:BattleE ;
+    ns2:image "" ;
+    ns2:jname "サイキッカー_シュン" ;
+    ns2:name "Psychic_Lorenzo" ;
+    ns1:cardID "15-A027" ;
+    ns1:cardcolor "tcg_lightning" ;
+    ns1:cardno "027/032" ;
+    ns1:coll "Pokémon_Battle_e_FireRed_&_LeafGreen" ;
+    ns1:jtrans "Psychicer_Shun" ;
+    ns1:prize "Protein" ;
+    ns1:set "Yellow_sub-set" .
+
+ns1:Psychic_Mily_\(Battle_e\) a ns1:BattleE .
+
+ns1:Red_sub-set_\(Battle_e\) a ns1:BattleE .
+
+ns1:Reversal_Blow_\(Battle_e\) a ns1:BattleE .
+
+<http://example.org/resource/battlee/Rocker_Ben,_Engineer_Camden_&_Scientist_Zachary> a ns1:BattleE ;
+    ns2:image "" ;
+    ns2:jname "でんきグループ_ヒロト,_でんきやのオヤジ_ヨウスケとけんきゅういん_ミツオ" ;
+    ns2:name "Rocker_Ben,_Engineer_Camden_&_Scientist_Zachary" ;
+    ns1:cardID "15-A031" ;
+    ns1:cardcolor "tcg_lightning" ;
+    ns1:cardno "031/032" ;
+    ns1:coll "Pokémon_Battle_e_FireRed_&_LeafGreen" ;
+    ns1:jtrans "Electric_Group_Hiroto,_Old_Electrician_Yosuke_&_Researcher_Mitsuo" ;
+    ns1:prize "White_Herb" ;
+    ns1:set "Yellow_sub-set" .
+
+ns1:Sailor_Alberto_\(Battle_e\) a ns1:BattleE .
+
+<http://example.org/resource/battlee/Sailor_Brennan,_Fisherman_Kaden_&_Gentleman_Emanuel_(Battle_e)> a ns1:BattleE .
+
+ns1:Seizing_Poison_\(Battle_e\) a ns1:BattleE .
+
+ns1:Self-Confidence_not_Wasted_\(Battle_e\) a ns1:BattleE .
+
+ns1:Sharp_Claw_\(Battle_e\) a ns1:BattleE .
+
+<http://example.org/resource/battlee/Sis_and_Bro_Axe_&_Ren> a ns1:BattleE ;
+    ns2:image "" ;
+    ns2:jname "うみきょうだい_ヒデとヒロ" ;
+    ns2:name "Sis_and_Bro_Axe_&_Ren" ;
+    ns1:cardID "15-A029" ;
+    ns1:cardcolor "tcg_lightning" ;
+    ns1:cardno "029/032" ;
+    ns1:coll "Pokémon_Battle_e_FireRed_&_LeafGreen" ;
+    ns1:jtrans "Beach_Siblings_Hide_&_Hiro" ;
+    ns1:prize "Carbos" ;
+    ns1:set "Yellow_sub-set" .
+
+<http://example.org/resource/battlee/Sis_and_Bro_Kat_&_Kipp_(Battle_e)> a ns1:BattleE .
+
+ns1:Solid_Armor_\(Battle_e\) a ns1:BattleE .
+
+ns1:Steady_Power_\(Battle_e\) a ns1:BattleE .
+
+ns1:Super_Nerd_Owen a ns1:BattleE ;
+    ns2:image "" ;
+    ns2:jname "りかけいのおとこ_カケル" ;
+    ns2:name "Super_Nerd_Owen" ;
+    ns1:cardID "15-A026" ;
+    ns1:cardcolor "tcg_lightning" ;
+    ns1:cardno "026/032" ;
+    ns1:coll "Pokémon_Battle_e_FireRed_&_LeafGreen" ;
+    ns1:jtrans "Science_Man_Kakeru" ;
+    ns1:prize "Dragon_Scale" ;
+    ns1:set "Yellow_sub-set" .
+
+ns1:Swimmer_Braden_\(Battle_e\) a ns1:BattleE .
+
+<http://example.org/resource/battlee/Tuber_Priscilla,_Lady_Charlotte_&_Swimmer_Shania_(Battle_e)> a ns1:BattleE .
+
+<http://example.org/resource/battlee/Twins_Jen_&_Kira_(Battle_e)> a ns1:BattleE .
+
+<http://example.org/resource/battlee/Twins_Lisa_&_Leah_(Battle_e)> a ns1:BattleE .
+
+<http://example.org/resource/battlee/Young_Couple_Emy_&_Alek_(Battle_e)> a ns1:BattleE .
+
+<http://example.org/resource/battlee/Young_Couple_Kati_&_Geb> a ns1:BattleE ;
+    ns2:image "" ;
+    ns2:jname "ラブラブカップル_サオとマサ" ;
+    ns2:name "Young_Couple_Kati_&_Geb" ;
+    ns1:cardID "15-A030" ;
+    ns1:cardcolor "tcg_lightning" ;
+    ns1:cardno "030/032" ;
+    ns1:coll "Pokémon_Battle_e_FireRed_&_LeafGreen" ;
+    ns1:jtrans "Love-Love_Couple_Sao_&_Masa" ;
+    ns1:prize "Zinc" ;
+    ns1:set "Yellow_sub-set" .
+
+<http://example.org/resource/battlee/Young_Couple_Miwa_&_Yuu_(Battle_e)> a ns1:BattleE .
+
+ns1:Youngster_Cole_\(Battle_e\) a ns1:BattleE .
+

@@ -1,0 +1,182 @@
+@prefix ns1: <http://example.org/resource/episodespecial/> .
+
+ns1:AG101_\(unaired\) a ns1:EpisodeSpecial .
+
+ns1:A_Ripple_in_Time a ns1:EpisodeSpecial .
+
+<http://example.org/resource/episodespecial/Anime:_Pocket_Monsters_Problem_Inspection_Report> a ns1:EpisodeSpecial .
+
+ns1:BW023_\(unaired\) a ns1:EpisodeSpecial .
+
+ns1:BW024_\(unaired\) a ns1:EpisodeSpecial .
+
+ns1:Celestial_Debris a ns1:EpisodeSpecial .
+
+ns1:Celestial_Globe_of_Light_and_Shadow a ns1:EpisodeSpecial .
+
+ns1:Challenge_from_the_Sky a ns1:EpisodeSpecial .
+
+ns1:Chasing_the_Moon a ns1:EpisodeSpecial .
+
+<http://example.org/resource/episodespecial/Detective_Pikachu_&_the_Mystery_of_the_Missing_Flan> a ns1:EpisodeSpecial ;
+    ns1:art1 "島田寛志" ;
+    ns1:broadcast_jp "October_25,_2023" ;
+    ns1:broadcast_us "October_25,_2023" ;
+    ns1:colorscheme "Pika" ;
+    ns1:director1 "千田宏" ;
+    ns1:en_op "None_" ;
+    ns1:footnotes "*_[https://www.youtube.com/watchv=5yQSUimraSU_Detective_Pikachu_&_the_Mystery_of_the_Missing_Flan]_on_the_official_English_Pokémon_YouTube_channel." ;
+    ns1:ja_ed "None_" ;
+    ns1:ja_op "None_" ;
+    ns1:olmteam "Polygon_Pictures_Inc." ;
+    ns1:release_method "YouTube_release" ;
+    ns1:scenario1 "諏訪雅" ;
+    ns1:screen "hd" ;
+    ns1:screenshot "Detective_Pikachu_animated_short.png" ;
+    ns1:storyboard1 "千田宏" ;
+    ns1:title_en "Detective_Pikachu_&_the_Mystery_of_the_Missing_Flan" ;
+    ns1:title_ja "名探偵ピカチュウ_～華麗なるモーニングルーティン～" ;
+    ns1:title_ja_trans "Detective_Pikachu_~Splendid_Morning_Routine~" .
+
+<http://example.org/resource/episodespecial/Diancie_—_Princess_of_the_Diamond_Domain> a ns1:EpisodeSpecial .
+
+<http://example.org/resource/episodespecial/Get_Together!_Pokémon_Planet_Center> a ns1:EpisodeSpecial .
+
+<http://example.org/resource/episodespecial/Get_Together!_Pokémon_Star_Festival> a ns1:EpisodeSpecial .
+
+ns1:Holiday_Hi-Jynx a ns1:EpisodeSpecial .
+
+ns1:Homecoming a ns1:EpisodeSpecial .
+
+<http://example.org/resource/episodespecial/Hoopa_—_The_Mischief_Pokémon> a ns1:EpisodeSpecial .
+
+<http://example.org/resource/episodespecial/It's_New_Year's_Eve!_Pocket_Monsters_Encore> a ns1:EpisodeSpecial .
+
+<http://example.org/resource/episodespecial/It's_the_New_Year!_Pocket_Monsters_Special!> a ns1:EpisodeSpecial .
+
+ns1:Message_from_the_Aurora a ns1:EpisodeSpecial .
+
+ns1:Mewtwo_Returns a ns1:EpisodeSpecial .
+
+<http://example.org/resource/episodespecial/Mewtwo_—_Prologue_to_Awakening> a ns1:EpisodeSpecial .
+
+ns1:New_Series_Pocket_Monsters_Pokémon_Investigation_Team a ns1:EpisodeSpecial .
+
+ns1:News_Pokémon_Satellite a ns1:EpisodeSpecial .
+
+ns1:Pichu_Bros._in_Party_Panic a ns1:EpisodeSpecial .
+
+<http://example.org/resource/episodespecial/Pocket_Monsters,_Fall_Special!> a ns1:EpisodeSpecial .
+
+<http://example.org/resource/episodespecial/Pocket_Monsters:_Right_Before_Summer_Vacation_1-Hour_Special!> a ns1:EpisodeSpecial .
+
+<http://example.org/resource/episodespecial/Pocket_Monsters_XY_Pre-Start_Special:_Road_to_Kalos> a ns1:EpisodeSpecial .
+
+<http://example.org/resource/episodespecial/Pokémon_Mystery_Dungeon:_Explorers_of_Sky_-_Beyond_Time_&_Darkness> a ns1:EpisodeSpecial ;
+    ns1:art "高橋英吉" ;
+    ns1:broadcast_jp "April_12,_2009" ;
+    ns1:broadcast_us "October_9,_2009" ;
+    ns1:colorscheme "Hoso" ;
+    ns1:director "浅田裕二" ;
+    ns1:en_ed "In_the_Hands_of_FatePokémon_Exploration_Team_Theme" ;
+    ns1:en_op "Pokémon_Exploration_Team_Theme" ;
+    ns1:en_series "Special" ;
+    ns1:epcode "Pokémon_Mystery_Dungeon:_Explorers_of_Sky_-_Beyond_Time_&_Darkness" ;
+    ns1:footnotes "" ;
+    ns1:ja_ed "In_the_Hands_of_FatePokémon_Exploration_Team_Theme" ;
+    ns1:ja_op "Pokémon_Exploration_Team_Theme" ;
+    ns1:olmteam "Team_Kamei" ;
+    ns1:scenario "松井亜弥" ;
+    ns1:screen "yes" ;
+    ns1:screenshot "PMD_Explorers_of_Sky_Beyond_Time_Darkness.png" ;
+    ns1:storyboard "浅田裕二" ;
+    ns1:title_en "Pokémon_Mystery_Dungeon:_Explorers_of_Sky_-_Beyond_Time_&_Darkness" ;
+    ns1:title_ja "ポケモン不思議のダンジョン_空の探検隊_時と闇をめぐる_最後の冒険" ;
+    ns1:title_ja_trans "Pokémon_Mystery_Dungeon:_Explorers_of_Sky:_The_Final_Adventure_Crossing_Time_and_Darkness" .
+
+<http://example.org/resource/episodespecial/Pokémon_Mystery_Dungeon:_Explorers_of_Time_&_Darkness> a ns1:EpisodeSpecial ;
+    ns1:art1 "玉川明洋" ;
+    ns1:artn "1" ;
+    ns1:broadcast_jp "September_9,_2007" ;
+    ns1:broadcast_us "August_17,_2008_tt_*_DVD_September_1,_2008_tt_*_Cartoon_Network_" ;
+    ns1:colorscheme "Hoso" ;
+    ns1:director1 "浅田裕二" ;
+    ns1:directorn "1" ;
+    ns1:en_ed "Treasure_TownPokémon_Exploration_Team_Theme" ;
+    ns1:en_op "Sky_Jukebox_Craggy_CoastPokémon_Exploration_Team_Theme" ;
+    ns1:en_series "Special" ;
+    ns1:epcode "Pokémon_Mystery_Dungeon:_Explorers_of_Time_&_Darkness" ;
+    ns1:footnotes "" ;
+    ns1:ja_ed "Treasure_TownPokémon_Exploration_Team_Theme" ;
+    ns1:ja_op "Sky_Jukebox_Craggy_CoastPokémon_Exploration_Team_Theme" ;
+    ns1:olmteam "Team_Ota" ;
+    ns1:scenario "松井亜弥" ;
+    ns1:screen "yes" ;
+    ns1:screenshot "PMD_Explorers_of_Time_Darkness.png" ;
+    ns1:storyboard1 "湯山邦彦" ;
+    ns1:storyboardn "1" ;
+    ns1:title_en "Pokémon_Mystery_Dungeon:_Explorers_of_Time_&_Darkness" ;
+    ns1:title_ja "ポケモン不思議のダンジョン　時の探検隊・闇の探検隊" ;
+    ns1:title_ja_trans "Pokémon_Mystery_Dungeon:_Explorers_of_Time_&_Explorers_of_Darkness" .
+
+<http://example.org/resource/episodespecial/Pokémon_Mystery_Dungeon:_Team_Go-Getters_Out_of_the_Gate!> a ns1:EpisodeSpecial ;
+    ns1:art1 "玉川明洋" ;
+    ns1:artn "1" ;
+    ns1:broadcast_jp "March_23,_2007" ;
+    ns1:broadcast_us "September_8,_2006" ;
+    ns1:colorscheme "Hoso" ;
+    ns1:director1 "浅田裕二" ;
+    ns1:directorn "1" ;
+    ns1:en_op "Pokémon_Mystery_Dungeon:_Rescue_Team_title_theme" ;
+    ns1:en_series "Special" ;
+    ns1:footnotes "" ;
+    ns1:ja_ed "Pokémon_Mystery_Dungeon:_Rescue_Team_title_theme" ;
+    ns1:ja_op "Pokémon_Mystery_Dungeon:_Rescue_Team_title_theme" ;
+    ns1:olmteam "Team_Koitabashi" ;
+    ns1:scenario "松井亜弥" ;
+    ns1:screen "yes" ;
+    ns1:screenshot "PMD_Team_Go-Getters_Out_of_the_Gate.png" ;
+    ns1:storyboard1 "湯山邦彦" ;
+    ns1:storyboardn "1" ;
+    ns1:title_en "Pokémon_Mystery_Dungeon:_Team_Go-Getters_Out_of_the_Gate!" ;
+    ns1:title_ja "ポケモン不思議のダンジョン　出動！ポケモン救助隊ガンバルズ！" ;
+    ns1:title_ja_trans "Pokémon_Mystery_Dungeon:_Setting_Out!_Pokémon_Rescue_Team_Ganbarus!" .
+
+<http://example.org/resource/episodespecial/Pokémon_Sun_&_Moon_Planetarium> a ns1:EpisodeSpecial .
+
+<http://example.org/resource/episodespecial/Slowking's_Day> a ns1:EpisodeSpecial .
+
+<http://example.org/resource/episodespecial/Snow_Way_Out!> a ns1:EpisodeSpecial .
+
+<http://example.org/resource/episodespecial/The_Adventures_of_Snorlax_&_Cubone> a ns1:EpisodeSpecial ;
+    ns1:art1 "Hiroshi_Shimada" ;
+    ns1:broadcast_jp "December_8,_2023_(Episode_1)December_15,_2023_(Episode_2)December_22,_2023_(Episode_3)December_29,_2023_(Episode_4)December_29,_2023_(Compilation)" ;
+    ns1:broadcast_us "December_8,_2023_(Episode_1)December_15,_2023_(Episode_2)December_22,_2023_(Episode_3)December_29,_2023_(Episode_4)December_29,_2023_(Compilation)" ;
+    ns1:colorscheme "Pika" ;
+    ns1:director1 "Yoshimitsu_Saito" ;
+    ns1:en_op "None" ;
+    ns1:footnotes "" ;
+    ns1:ja_ed "None_" ;
+    ns1:ja_op "None_" ;
+    ns1:olmteam "Polygon_Pictures_Inc." ;
+    ns1:release_method "Web_release" ;
+    ns1:scenario1 "Midori_Sato" ;
+    ns1:screen "hd" ;
+    ns1:screenshot "Project_Snorlax_The_Adventures_of_Snorlax_and_Cubone.png" ;
+    ns1:storyboard1 "Yoshimitsu_Saito" ;
+    ns1:title_en "The_Adventures_of_Snorlax_&_Cubone" ;
+    ns1:title_ja "カビゴンとカラカラ" ;
+    ns1:title_ja_trans "Kabigon_and_Karakara" .
+
+ns1:The_Journey_of_One_Dream a ns1:EpisodeSpecial .
+
+<http://example.org/resource/episodespecial/The_Legend_of_Thunder!> a ns1:EpisodeSpecial .
+
+ns1:The_Mastermind_of_Mirage_Pokémon a ns1:EpisodeSpecial .
+
+<http://example.org/resource/episodespecial/The_Uncut_Story_of_Mewtwo's_Origin> a ns1:EpisodeSpecial .
+
+ns1:Top_Secret_Internal_Team_Plasma_Genesect_Video a ns1:EpisodeSpecial .
+
+ns1:Trouble_in_Big_Town a ns1:EpisodeSpecial .
+

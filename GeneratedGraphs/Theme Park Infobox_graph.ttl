@@ -1,0 +1,45 @@
+@prefix ns1: <http://example.org/resource/themepark/> .
+@prefix ns2: <http://example.org/property/> .
+
+ns1:_Nintendo_Museum a ns1:ThemePark ;
+    ns2:caption "_Nintendo_Museum" ;
+    ns2:name "_Nintendo_Museum" ;
+    ns1:location "__wp_Kyoto_,_Japan" ;
+    ns1:logo "_Nintendo_museum.png" ;
+    ns1:opened "_October_2,_2024" ;
+    ns1:owner "_Nintendo" ;
+    ns1:status "_Operating" ;
+    ns1:website "_" .
+
+ns1:_PokéPark a ns1:ThemePark ;
+    ns2:caption "_PokéPark_logo" ;
+    ns2:name "_PokéPark" ;
+    ns1:closed "_September_25,_2005_(Japan)_September_24,_2006_(Taiwan)" ;
+    ns1:location "__wp_Nagoya_,_Japan_&__wp_Taipei_,__pmin_Taiwan_" ;
+    ns1:logo "_PokePark_theme_park_logo.png" ;
+    ns1:opened "_March_18,_2005_(Japan)_June_23,_2006_(Taiwan)" ;
+    ns1:owner "_POKéPARK_LLP_(The_Pokémon_Company)" ;
+    ns1:status "_Defunct" ;
+    ns1:website "_Japan:_[https://web.archive.org/web/20050601005240/http://www.pokepark.jp/_pokepark.jp]_(archived)_Taiwan:_[https://web.archive.org/web/20060616133133/http://www.pokepark.tw/_pokepark.tw]_(archived)" .
+
+ns1:_Pokémon_Wonder a ns1:ThemePark ;
+    ns2:caption "_Pokémon_Wonder_logo" ;
+    ns2:name "_Pokémon_Wonder" ;
+    ns1:location "_Within__wp_Yomiuriland_,_in__wp_Inagi_,__wp_Tokyo_,_Japan" ;
+    ns1:logo "_Pokémon_Wonder_logo.png" ;
+    ns1:opened "_July_17,_2021[https://yomiuriland.co.jp/news/wp-content/uploads/2021/07/release_210701.pdf_Nature_Adventure_Pokémon_WONDER_Opening_Saturday,_July_17,_2021_-_Yomiuri_Land_Co.,_Ltd.]_(PDF)_(retrieved_March_13,_2024)" ;
+    ns1:owner "__wp_Yomiuriland_Yomiuri_Land_Co.,_Ltd.__&_The_Pokémon_Company" ;
+    ns1:status "_Operating" ;
+    ns1:subtitle "_ポケモンワンダー" ;
+    ns1:website "_" .
+
+ns1:_Universal_Studios_Japan a ns1:ThemePark ;
+    ns2:caption "_Universal_Studios_Japan_logo" ;
+    ns2:name "_Universal_Studios_Japan" ;
+    ns1:location "__wp_Osaka_,_Japan" ;
+    ns1:logo "_Universal_Studios_Japan_logo.png" ;
+    ns1:opened "_March_31,_2001" ;
+    ns1:owner "_USJ,_LLC_(_wp_Universal_Destinations_&_Experiences_)" ;
+    ns1:status "_Operating" ;
+    ns1:website "_" .
+

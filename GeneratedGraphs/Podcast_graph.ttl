@@ -1,0 +1,200 @@
+@prefix ns1: <http://example.org/resource/podcast/> .
+@prefix ns2: <http://example.org/property/> .
+
+ns1:Bouncing_Wailord a ns1:Podcast ;
+    ns2:bordercolor <_000000> ;
+    ns2:caption "_Bouncing_Wailords_podcast_art" ;
+    ns2:color <_00A4E3> ;
+    ns2:corecolor <_FFFD08> ;
+    ns2:image "_BouncingWailord.jpg" ;
+    ns2:slogan "_no" ;
+    ns1:creator "_eSeamus_" ;
+    ns1:debut "_April_11,_2011_" ;
+    ns1:ended "_April_17,_2013_" ;
+    ns1:feed "_no" ;
+    ns1:host "_eSeamus,_square,_and_Spiffy_" ;
+    ns1:itunes "_http://itunes.apple.com/us/podcast/bouncing-wailord-the-pokemon/id431786941" ;
+    ns1:lang "_English" ;
+    ns1:mainsite "_no" ;
+    ns1:mascot "__p_Wailord__" ;
+    ns1:noepisodes "__tt_76_Episode_count_includes_episodes_44.5_and_the_unusually-titled_Ѿ_(Ot),_but_does_not_include_the_five-part_“Pokeymanz_Mispronunciation_Guide”.__(as_of_November_11,_2012)_" ;
+    ns1:otherfeeds "_[http://www.callisto.fm/#/podcasts/by/square/in/Bouncing-Wailord-The-Pokmon-Comedy-Podcast/_Callisto.fm]" ;
+    ns1:podcast_run "_April_2011_-_April_2013_" ;
+    ns1:podcast_status "_Defunct" ;
+    ns1:podcastname "_Bouncing_Wailord_-_The_Pokémon_Comedy_Podcast" ;
+    ns1:rss "_http://www.bouncingwailord.com/feed=rss2_" ;
+    ns1:size "_240" ;
+    ns1:weblink "_[https://web.archive.org/web/20120214093420/http://www.bouncingwailord.com/_bouncingwailord.com]_(archived)" ;
+    ns1:zune "_no_" .
+
+ns1:Bulbacast a ns1:Podcast ;
+    ns2:bordercolor <823482> ;
+    ns2:caption "Bulbacasts_logo" ;
+    ns2:color <fef> ;
+    ns2:corecolor <DCB6F2> ;
+    ns2:image "Bulbacast_logo.png" ;
+    ns2:slogan "yes" ;
+    ns1:creator "Bulbagarden" ;
+    ns1:debut "December_13,_2005" ;
+    ns1:host "Various" ;
+    ns1:lang "English" ;
+    ns1:mainsite "no" ;
+    ns1:mascot "_p_Bulbasaur_" ;
+    ns1:noepisodes "68" ;
+    ns1:podcast_run "December_2005_-_Present" ;
+    ns1:podcast_status "Active" ;
+    ns1:podcastname "Bulbacast" ;
+    ns1:rss "https://feeds.soundcloud.com/users/soundcloud:users:352584608/sounds.rss" ;
+    ns1:size "135" ;
+    ns1:sloganline "Bulbacast,_the_official_podcast_of_Bulbagarden" ;
+    ns1:weblink "Bulbacast:About_Bulbacast_home_page_on_Bulbagarden[https://www.youtube.com/user/Bulbagarden/videos_Bulbacast_on_YouTube]" ;
+    ns1:zune "no" .
+
+<http://example.org/resource/podcast/It's_Super_Effective_(podcast)> a ns1:Podcast ;
+    ns2:bordercolor <_616D93> ;
+    ns2:caption "_Its_Super_Effective_logo" ;
+    ns2:color <_7838b2> ;
+    ns2:corecolor <_9d83b2> ;
+    ns2:image "_Its_Super_Effective_logo.png" ;
+    ns2:slogan "_yes" ;
+    ns1:creator "_Steve_Black_Jr." ;
+    ns1:debut "_July_26,_2010" ;
+    ns1:google "_https://podcasts.google.com/feed=aHR0cHM6Ly9yc3Muc2ltcGxlY2FzdC5jb20vcG9kY2FzdHMvNzQ2OS9yc3M%3D" ;
+    ns1:host "_Steve_Black_Jr._et_al." ;
+    ns1:itunes "_https://podcasts.apple.com/us/podcast/its-super-effective-a-weekly-pokemon-podcast/id384522641" ;
+    ns1:lang "_English" ;
+    ns1:mainsite "_yes" ;
+    ns1:noepisodes "_531_tt_*_as_of_September_2022_" ;
+    ns1:otherfeeds "_[https://www.stitcher.com/podcast/its-super-effective_Stitcher]" ;
+    ns1:podcast_run "_July_2010_-_Present" ;
+    ns1:podcast_status "_Active" ;
+    ns1:podcastname "_Its_Super_Effective" ;
+    ns1:rss "_https://rss.simplecast.com/podcasts/7469/rss" ;
+    ns1:site_open "_July_24,_2010_(as_PokémonPodcast.com)" ;
+    ns1:site_run "_July_2010_-_Present" ;
+    ns1:site_status "_Active" ;
+    ns1:sitename "_PKMNcast.com" ;
+    ns1:size "_240" ;
+    ns1:sloganline "_Whats_up,_everybody" ;
+    ns1:spotify "_https://open.spotify.com/show/3LwK4Rmg3Nr5P6QjCFxx1T" ;
+    ns1:weblink "_[http://www.pkmncast.com/_PKMNcast.com]" ;
+    ns1:zune "_no" .
+
+ns1:Pokémon_Underground_Champions_League a ns1:Podcast ;
+    ns2:bordercolor <_0B345F_> ;
+    ns2:caption "_The_Pokémon_Underground_Champions_Leagues_podcast_art,_featuring_a_close-up_on_the_podcasts_mascot,__p_Suicune_." ;
+    ns2:color <_C0C0C0_> ;
+    ns2:corecolor <_1078D9> ;
+    ns2:image "_PUCL.jpg" ;
+    ns2:slogan "_yes" ;
+    ns1:creator "_Thaddeus_Asel_(a.k.a._Thatch)_and_Professor_Sycamore_" ;
+    ns1:debut "_December_31,_2007" ;
+    ns1:google "_https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5hY2FzdC5jb20vcHVibGljL3Nob3dzLzViM2FkNjk1NDI4MmFkMGMyZTA4ZDliZQ" ;
+    ns1:host "_Thatch_et_al._" ;
+    ns1:itunes "_https://podcasts.apple.com/us/podcast/id346735400mt=2" ;
+    ns1:lang "_English" ;
+    ns1:mainsite "_yes" ;
+    ns1:mascot "__p_Suicune_" ;
+    ns1:noepisodes "_562_(as_of_September_2022)" ;
+    ns1:podcast_run "_December_2007_-_Present" ;
+    ns1:podcast_status "_Active" ;
+    ns1:podcastname "_PUCL_Podcast" ;
+    ns1:rss "_https://feeds.acast.com/public/shows/pucl-a-pokemon-podcast" ;
+    ns1:site_open "_April_2,_2009_(_tt_Current_website_PUCLPodcast.com__as_presumed_by_the_host_on_Episode_90;_the_first_website_was_a__wp_Webs.com__site.)" ;
+    ns1:site_run "_2009_-_Present" ;
+    ns1:site_status "_Active" ;
+    ns1:sitename "__tt_Pokémon_Underground_Champions_League_Website_name_and_podcasts_actual_name._" ;
+    ns1:size "_170" ;
+    ns1:sloganline "_Its_the_one,_the_only,__tt_PUCL_Spelled_without_periods_for_pronunciation-based_reasons.__Podcast!" ;
+    ns1:spotify "_https://open.spotify.com/show/61DT5uTgfeM9Q0RqQ3laDh" ;
+    ns1:weblink "_[http://puclpodcast.com/_PUCLPodcast.com]" ;
+    ns1:zune "_no" .
+
+<http://example.org/resource/podcast/The_Play!_Pokémon_Podcast> a ns1:Podcast ;
+    ns2:bordercolor <__white_color_> ;
+    ns2:caption "_Podcast_logo" ;
+    ns2:color <__black_color_> ;
+    ns2:corecolor <__red_color_> ;
+    ns2:image "_Play_Pokémon_Podcast_logo.png" ;
+    ns2:slogan "_no" ;
+    ns1:creator "_The_Pokémon_Company_International" ;
+    ns1:debut "_August_12,_2020" ;
+    ns1:google "_https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5zaW1wbGVjYXN0LmNvbS9TTURaU2VSRQ==" ;
+    ns1:host "_Jay_Blake" ;
+    ns1:itunes "_https://podcasts.apple.com/us/podcast/the-play-pokémon-podcast/id1525967048" ;
+    ns1:lang "_English" ;
+    ns1:mainsite "_no" ;
+    ns1:noepisodes "_5" ;
+    ns1:otherfeeds "_[https://pca.st/4y5z424b_Pocket_Casts]" ;
+    ns1:podcast_run "_August_12_-_September_10,_2020" ;
+    ns1:podcast_status "_Completed" ;
+    ns1:podcastname "__color_FFF_The_Play!_Pokémon_Podcast_" ;
+    ns1:rss "_https://feeds.simplecast.com/SMDZSeRE" ;
+    ns1:spotify "_https://open.spotify.com/show/7x6U7YDCY12LyOARaL8GQE" ;
+    ns1:weblink "_[https://www.pokemon.com/us/play-pokemon/podcast/_Pokémon.com]" ;
+    ns1:zune "_no" .
+
+ns1:WTPT_-_Pokémon_Radio a ns1:Podcast ;
+    ns2:bordercolor <_616D93> ;
+    ns2:caption "_WTPTs_last_podcast_art,_with_a_banner_that_has_the_name_of_its_site_and_an_illustration_of_Ho-Oh_on_it._A_dark_blue__wp_radio_tower__is_transmitting_signals_in_the_background." ;
+    ns2:color <_E9E4C6_> ;
+    ns2:corecolor <_609ACA_> ;
+    ns2:image "_WTPT3.jpg" ;
+    ns2:slogan "_yes" ;
+    ns1:creator "_Joseph_Romano_and_Keith_C._Smith_(WTPT)_Ducky-von-Karma_and_bubman_(KTPT)" ;
+    ns1:debut "_July_3,_2007_(WTPT)_October_18,_2011_(KTPT)" ;
+    ns1:feed "_no" ;
+    ns1:final "_April_1,_2013_(WTPT)_March_14,_2012_(KTPT)_" ;
+    ns1:host "__tt_Jowy_Joesph_Romano__and__tt_KC_Keith_C._Smith__(WTPT)_Ducky-von-Karma_and_bubman_(KTPT)" ;
+    ns1:itunes "_http://phobos.apple.com/WebObjects/MZStore.woa/wa/viewPodcastid=262238817" ;
+    ns1:lang "_English" ;
+    ns1:mascot "_p_Ho-Oh__(WTPT)__p_Lugia__(KTPT)_" ;
+    ns1:noepisodes "_78_(WTPT)__tt_6_Including_pilot_episode__(KTPT)" ;
+    ns1:otherfeeds "_File:Feed-icon.png_16px_link=http://ktptpodcast.podomatic.com/rss2.xml_KTPT_-_Pokémon_Radio_RSS_feed_File:ITunesPodcastIcon.png_16px_link=http://itunes.apple.com/us/podcast/ktpt/id487111094_KTPT_-_Pokémon_Radio_on_the_iTunes_Store" ;
+    ns1:podcast_run "_July_2007_-_October_2010_(WTPT)_October_2011_-_March_2012_(KTPT)" ;
+    ns1:podcast_status "_Ended_(WTPT)_Defunct_(KTPT)" ;
+    ns1:podcastname "_WTPT_-_Pokémon_Radio" ;
+    ns1:rss "_http://pallettribune.com/The_Pokemon_Times/WTPT-Radio/rss.xml" ;
+    ns1:site_open "_July_3,_2007_(as_The_Pokémon_Times)_November_2008_(as_The_Pallet_Tribune)" ;
+    ns1:site_run "_July_2007_-_2013__" ;
+    ns1:site_status "_Closed" ;
+    ns1:sitename "KTPT_-_Pokémon_RadioThe_Pallet_Tribune__" ;
+    ns1:size "_240" ;
+    ns1:sloganline "_Stay_out_of_the_Tall_Grass!" ;
+    ns1:weblink "[https://web.archive.org/web/20130622035851/http://pallettribune.com/_The_Pallet_Tribune]_(archived)" ;
+    ns1:zune "_no" .
+
+<823482> a <http://schema.org/color> .
+
+<DCB6F2> a <http://schema.org/color> .
+
+<_000000> a <http://schema.org/color> .
+
+<_00A4E3> a <http://schema.org/color> .
+
+<_0B345F_> a <http://schema.org/color> .
+
+<_1078D9> a <http://schema.org/color> .
+
+<_609ACA_> a <http://schema.org/color> .
+
+<_7838b2> a <http://schema.org/color> .
+
+<_9d83b2> a <http://schema.org/color> .
+
+<_C0C0C0_> a <http://schema.org/color> .
+
+<_E9E4C6_> a <http://schema.org/color> .
+
+<_FFFD08> a <http://schema.org/color> .
+
+<__black_color_> a <http://schema.org/color> .
+
+<__red_color_> a <http://schema.org/color> .
+
+<__white_color_> a <http://schema.org/color> .
+
+<fef> a <http://schema.org/color> .
+
+<_616D93> a <http://schema.org/color> .
+

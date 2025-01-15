@@ -2,7 +2,10 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix schema: <http://schema.org/> .
-@prefix local: <http://example.org/move/> .
+@prefix local: <http://example.org/resource/move/> .
+@prefix localRegion: <http://example.org/resource/region/> .
+@prefix localLocation: <http://example.org/resource/location/> .
+@prefix localCharacter: <http://example.org/resource/character/> .
 
 local:Move a rdfs:Class ;
     rdfs:label "Move"@en ;

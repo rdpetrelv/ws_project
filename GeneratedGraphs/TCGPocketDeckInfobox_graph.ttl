@@ -1,0 +1,39 @@
+@prefix ns1: <http://example.org/resource/tcgpocketdeck/> .
+@prefix ns2: <http://example.org/property/> .
+
+ns1:Blastoise_ex_Deck_\(Genetic_Apex\) a ns1:TCGPocketDeck ;
+    ns2:caption "_TCG_ID_Genetic_Apex_Blastoise_ex_56_,_the_decks_highlight_card" ;
+    ns1:deckname "Blastoise_ex_Deck" ;
+    ns1:image1 "BlastoiseexGeneticApex56.png" ;
+    ns1:release "October_30,_2024" ;
+    ns1:setname "Genetic_Apex" ;
+    ns1:type "Water" ;
+    ns1:types "_e_Water_" .
+
+ns1:Charizard_ex_Deck_\(Genetic_Apex\) a ns1:TCGPocketDeck ;
+    ns2:caption "_TCG_ID_Genetic_Apex_Charizard_ex_36_,_the_decks_highlight_card" ;
+    ns1:deckname "Charizard_ex_Deck" ;
+    ns1:image1 "CharizardexGeneticApex36.png" ;
+    ns1:release "October_30,_2024" ;
+    ns1:setname "Genetic_Apex" ;
+    ns1:type "Fire" ;
+    ns1:types "_e_Fire_" .
+
+ns1:Pikachu_ex_Deck_\(Genetic_Apex\) a ns1:TCGPocketDeck ;
+    ns2:caption "_TCG_ID_Genetic_Apex_Pikachu_ex_96_,_the_decks_highlight_card" ;
+    ns1:deckname "Pikachu_ex_Deck" ;
+    ns1:image1 "PikachuexGeneticApex96.png" ;
+    ns1:release "October_30,_2024" ;
+    ns1:setname "Genetic_Apex" ;
+    ns1:type "Lightning" ;
+    ns1:types "_e_Lightning_" .
+
+ns1:Venusaur_ex_Deck_\(Genetic_Apex\) a ns1:TCGPocketDeck ;
+    ns2:caption "_TCG_ID_Genetic_Apex_Venusaur_ex_4_,_the_decks_highlight_card" ;
+    ns1:deckname "Venusaur_ex_Deck" ;
+    ns1:image1 "VenusaurexGeneticApex4.png" ;
+    ns1:release "October_30,_2024" ;
+    ns1:setname "Genetic_Apex" ;
+    ns1:type "Grass" ;
+    ns1:types "_e_Grass_" .
+

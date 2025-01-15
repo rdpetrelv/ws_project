@@ -1,0 +1,45 @@
+@prefix ns1: <http://example.org/resource/tcgpocketexpansion/> .
+
+ns1:Genetic_Apex_\(TCG_Pocket\) a ns1:TCGPocketExpansion ;
+    ns1:cards "286_(incl._60_secret_cards)" ;
+    ns1:deck1 "Venusaur_ex_Deck_deck1type=_e_Grass_" ;
+    ns1:deck10 "Lt._Surge_Deck_deck10type=_e_Lightning_" ;
+    ns1:deck11 "Brock_Deck_deck11type=_e_Fighting_" ;
+    ns1:deck12 "Koga_Deck_deck12type=_e_Darkness_" ;
+    ns1:deck13 "Wigglytuff_ex_Deck_deck13type=_e_Colorless__e_Lightning_" ;
+    ns1:deck2 "Charizard_ex_Deck_deck2type=_e_Fire_" ;
+    ns1:deck3 "Blastoise_ex_Deck_deck3type=_e_Water_" ;
+    ns1:deck4 "Pikachu_ex_Deck_deck4type=_e_Lightning_" ;
+    ns1:deck5 "Mewtwo_ex_Deck_deck5type=_e_Psychic_" ;
+    ns1:deck6 "Machamp_ex_Deck_deck6type=_e_Fighting_" ;
+    ns1:deck7 "Nidoqueen_&_Nidoking_Deck_deck7type=_e_Darkness_" ;
+    ns1:deck8 "Kanto_Fossils_Deck_deck8type=_e_Water__e_Fighting__e_Colorless_" ;
+    ns1:deck9 "Blaine_Deck_deck9type=_e_Fire_" ;
+    ns1:jasetname "最強の遺伝子" ;
+    ns1:jasettrans "Strongest_Gene" ;
+    ns1:release "September_26,_2024_(New_Zealand)October_30,_2024_(worldwide)" ;
+    ns1:setlogo "A1_Set_Logo_EN.png" ;
+    ns1:setname "Genetic_Apex" ;
+    ns1:setsymbol "yes" .
+
+ns1:Mythical_Island_\(TCG_Pocket\) a ns1:TCGPocketExpansion ;
+    ns1:cards "86_(incl._18_secret_rares)" ;
+    ns1:deck1 "Celebi_ex_Deck_deck1type=_e_Grass_" ;
+    ns1:deck2 "Gyarados_ex_Deck_deck2type=_e_Water_" ;
+    ns1:deck3 "Mew_ex_Deck_deck3type=_e_Psychic_" ;
+    ns1:deck4 "Aerodactyl_ex_Deck_deck4type=_e_Fighting_" ;
+    ns1:deck5 "Blue_&_Pidgeot_ex_Deck_deck5type=_e_Colorless__e_Grass__e_Fighting_" ;
+    ns1:jasetname "幻のいる島" ;
+    ns1:jasettrans "Illusory_Island" ;
+    ns1:release "December_17,_2024" ;
+    ns1:setlogo "A1a_Set_Logo_EN.png" ;
+    ns1:setname "Mythical_Island" ;
+    ns1:setsymbol "yes" .
+
+ns1:Promo-A_\(TCG_Pocket\) a ns1:TCGPocketExpansion ;
+    ns1:cards "Ongoing_(currently_33)" ;
+    ns1:release "September_26,_2024_(New_Zealand)October_30,_2024_(worldwide)" ;
+    ns1:setlogo "PA_Set_Logo_EN.png" ;
+    ns1:setname "Promo-A" ;
+    ns1:setsymbol "yes" .
+

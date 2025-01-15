@@ -1,0 +1,4528 @@
+@prefix ns1: <http://example.org/resource/deck/> .
+@prefix ns2: <http://example.org/property/> .
+
+ns1:2-Player_CD-ROM_Starter_Set_\(TCG\) a ns1:Deck ;
+    ns2:caption "Boxart" ;
+    ns2:image "2_Player_CD-ROM_Starter_Set.jpg" ;
+    ns1:coin "File:Wizards_Yellow_Pikachu_Coin.png_50px" ;
+    ns1:expansion "_TCG_Base_Set_2_" ;
+    ns1:title "2-Player_CD-ROM_Starter_Set" ;
+    ns1:types "_e_Fighting__e_Water_" .
+
+ns1:2-Player_Starter_Set_\(TCG\) a ns1:Deck ;
+    ns2:caption "Boxart" ;
+    ns2:image "2PlayerStarterSet.jpg" ;
+    ns1:expansion "_TCG_Base_Set_" ;
+    ns1:title "2-Player_Starter_Set" ;
+    ns1:types "_e_Fighting__e_Fire_" .
+
+<http://example.org/resource/deck/2023_Pokémon_World_Championships_Yokohama_Deck:_Pikachu_(TCG)> a ns1:Deck ;
+    ns2:caption "2023_Pokémon_World_Championships_Yokohama_Deck:_Pikachu" ;
+    ns2:image "2023_World_Championships_Yokohama_Deck_Pikachu.jpg" ;
+    ns1:coin "File:WCS23_Gold_Pikachu_Coin.jpg_50px" ;
+    ns1:release "Japanese:_July_28,_2023" ;
+    ns1:size "250" ;
+    ns1:title "_tt_ポケモンワールドチャンピオンシップス2023横浜_記念デッキ「ピカチュウ」_Pokémon_World_Championships_2023_Yokohama_Deck_-Pikachu-_" ;
+    ns1:types "_e_Lightning__e_Fighting_" .
+
+ns1:25th_Anniversary_Golden_Box_\(TCG\) a ns1:Deck ;
+    ns2:caption "25th_Anniversary_Golden_Box" ;
+    ns1:coin "File:S8a-G_25th_Anniversary_Coin.png_50px" ;
+    ns1:release "Japanese:_December_2021Korean:_November_12,_2021Traditional_Chinese:_October_20,_2021Accessories_Only:_October_20,_2021" ;
+    ns1:title "25th_Anniversary_Golden_Box" .
+
+ns1:ADP_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "WCS2022_ADP_Deck.jpg" ;
+    ns1:release "March_3,_2023" ;
+    ns1:title "ADP" ;
+    ns1:types "_e_Lightning__e_Fighting_" .
+
+ns1:Abyss_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "E2_Abyss_Deck.jpg" ;
+    ns1:coin "File:Wizards_Metal_Lugia_Coin.png_50px" ;
+    ns1:expansion "_TCG_Aquapolis_" ;
+    ns1:release "January_15,_2003" ;
+    ns1:title "Abyss" ;
+    ns1:types "_e_Fire__e_Water_" .
+
+ns1:All_Stars_Collection_GX_Starter_Deck_\(ATCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "AC1D_GX_Starter_Deck.jpg" ;
+    ns1:expansion "_ATCG_All_Stars_Collection_" ;
+    ns1:release "October_9,_2019" ;
+    ns1:title "All_Stars_Collection_GX_Starter_Deck" .
+
+ns1:American_Gothic_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "WCS2013_American_Gothic_Deck.jpg" ;
+    ns1:cards "" ;
+    ns1:size "280" ;
+    ns1:title "American_Gothic" ;
+    ns1:types "_e_Psychic__e_Grass_" .
+
+ns1:Anguille_Sous_Roche_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "WCS2013_Anguille_Sous_Roche_Deck.jpg" ;
+    ns1:cards "" ;
+    ns1:size "280" ;
+    ns1:title "Anguille_Sous_Roche" ;
+    ns1:types "_e_Lightning__e_Fire_" .
+
+ns1:Aqua_Deck_Kit_\(TCG\) a ns1:Deck ;
+    ns2:caption "Package_art" ;
+    ns2:image "ADV_EX1_Aqua_Deck_Kit.jpg" ;
+    ns1:coin "File:ADV4S_Blue_Aqua_Coin.png_50px" ;
+    ns1:expansion "_TCG_Magma_VS_Aqua:_Two_Ambitions_" ;
+    ns1:release "October_24,_2003" ;
+    ns1:title "_tt_構築済みデッキ_アクア団ハーフデッキW_Pre-built_Deck_Aqua_Gang_Half_Deck_W_" ;
+    ns1:types "_e_Water__e_Lightning__e_Darkness_" .
+
+<http://example.org/resource/deck/Arceus_&_Dialga_&_Palkia_GX_Premium_Deck_Building_Box_(ATCG)> a ns1:Deck ;
+    ns2:caption "Arceus_&_Dialga_&_Palkia_GX_Premium_Deck_Building_Box" ;
+    ns2:image "CSMA_Box.png" ;
+    ns1:release "March_17,_2023" ;
+    ns1:size "250" ;
+    ns1:title "_tt_阿尔宙斯&帝牙卢卡&帕路奇亚GX卡组构筑进阶礼盒_Arceus_&_Dialga_&_Palkia_GX_Premium_Deck_Building_Box_" .
+
+<http://example.org/resource/deck/Arceus_LV.X_Deck:_Grass_&_Fire_(TCG)> a ns1:Deck .
+
+<http://example.org/resource/deck/Arceus_LV.X_Deck:_Lightning_&_Psychic_(TCG)> a ns1:Deck .
+
+ns1:Armor_Fortress_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "DP2_Armor_Fortress_Deck.jpg" ;
+    ns1:coin "File:DP2_Silver_Shieldon_Coin.png_50px" ;
+    ns1:expansion "_TCG_Mysterious_Treasures_" ;
+    ns1:release "August_22,_2007" ;
+    ns1:title "File:Armor_Fortress_logo.png_120px" ;
+    ns1:types "_e_Water__e_Metal_" .
+
+ns1:Articuno_Legendary_Battle_Deck_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "Legendary_Battle_Deck_Articuno.jpg" ;
+    ns1:coin "File:LBD_Silver_Plasma_Coin.png_50px" ;
+    ns1:title "Articuno_Legendary_Battle_Deck" ;
+    ns1:types "_e_Water_" .
+
+ns1:Ash_vs_Team_Rocket_Deck_Kit_\(TCG\) a ns1:Deck ;
+    ns2:caption "Ash_vs_Team_Rocket_Deck_Kit" ;
+    ns2:image "Ash_vs_Team_Rocket_Deck_Kit.jpg" ;
+    ns1:coin "File:SMD_Silver_Rotom_Dex_Coin.png_50px" ;
+    ns1:release "April_21,_2017" ;
+    ns1:title "_tt_30枚デッキ対戦セット「サトシVSロケット団」_30-Card_Deck_Competition_Set_Ash_vs_Team_Rocket_" ;
+    ns1:types "_e_Lightning__e_Water__e_Fighting__e_Psychic_" .
+
+<http://example.org/resource/deck/Astral_Radiance_Build_&_Battle_Box_(TCG)> a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "SWSH10_Build_Battle_Box.jpg" ;
+    ns1:expansion "_TCG_Astral_Radiance_" ;
+    ns1:title "Astral_Radiance_Build_&_Battle_Box" ;
+    ns1:types "_e_Water__e_Psychic__e_Darkness__e_Metal_" .
+
+ns1:Aurora_Blast_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "XY6_Aurora_Blast_Deck.jpg" ;
+    ns1:coin "File:ROS_Green_Mega_Rayquaza_Coin.png_50px" ;
+    ns1:expansion "_TCG_Roaring_Skies_" ;
+    ns1:release "May_6,_2015" ;
+    ns1:title "File:Aurora_Blast_logo.png_120px" ;
+    ns1:types "_e_Water__e_Fire_" .
+
+ns1:Awakening_V_Starter_Deck_\(ATCG\) a ns1:Deck ;
+    ns2:caption "Indonesian_box_art" ;
+    ns2:image "SCE_V_Starter_Deck_Indonesian.png" ;
+    ns1:release "Indonesian:_April_22,_2022Thai:_April_29,_2022" ;
+    ns1:title "Awakening_V_Starter_Deck" .
+
+ns1:B-L-S_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "WCS2006_B-L-S_Deck.jpg" ;
+    ns1:cards "_TCG_ID_EX_FireRed_&_LeafGreen_Blastoise_ex_104_,__TCG_ID_EX_Unseen_Forces_Lugia_ex_105_,__TCG_ID_EX_Unseen_Forces_Steelix_ex_109_" ;
+    ns1:title "B-L-S" ;
+    ns1:types "_e_Colorless_" .
+
+ns1:Bastiodon_the_Defender_\(TCG\) a ns1:Deck ;
+    ns2:caption "Package_art" ;
+    ns2:image "BastiodontheDefender.jpg" ;
+    ns1:coin "File:DP2_Silver_Shieldon_Coin.png_50px" ;
+    ns1:expansion "_TCG_Secret_of_the_Lakes_" ;
+    ns1:release "March_2,_2007" ;
+    ns1:title "_tt_構築ハーフデッキ_守りのトリデプス_Constructed_Half_Deck_Trideps_the_Defender_" ;
+    ns1:types "_e_Fire__e_Metal_" .
+
+ns1:Battle_Academy_2020_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "Pokemon_TCG_Battle_Academy_Box_Cover_Image.png" ;
+    ns1:coin "File:TCGBA_Silver_PikachuCharizardMewtwo_Coin.png_50px" ;
+    ns1:release "June_21,_2020_Early_US_releaseJuly_31,_2020_International" ;
+    ns1:title "File:Pokemon_TCG_Battle_Academy_Logo.png_150px" ;
+    ns1:types "_e_Fire__e_Lightning__e_Psychic_" .
+
+ns1:Battle_Academy_2022_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "Pokemon_TCG_Battle_Academy_2022_Box_Cover_Image.png" ;
+    ns1:coin "File:TCGBA_Gold_Pikachu_Cinderace_Eevee_Coin.png_50px" ;
+    ns1:release "March_25,_2022" ;
+    ns1:title "File:Pokemon_TCG_Battle_Academy_Logo.png_150px" ;
+    ns1:types "_e_Fire__e_Lightning__e_Darkness_" .
+
+ns1:Battle_Academy_2024_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "Battle_Academy_2024.jpg" ;
+    ns1:coin "File:TCGBA_Gold_Pikachu_Darkrai_Armarouge_Coin.jpg_50px" ;
+    ns1:release "June_21,_2024" ;
+    ns1:title "File:Pokemon_TCG_Battle_Academy_Logo.png_150px" ;
+    ns1:types "_e_Fire__e_Lightning__e_Darkness_" .
+
+<http://example.org/resource/deck/Battle_Arena_Decks:_Black_Kyurem_vs._White_Kyurem_(TCG)> a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "Battle_Arena_Decks_Black_Kyurem_White_Kyurem.jpg" ;
+    ns1:coin "File:BAD_Blue_Black_Kyurem_Coin.png_50px/File:BAD_Red_White_Kyurem_Coin.png_50px" ;
+    ns1:release "June_16,_2017" ;
+    ns1:title "Battle_Arena_Decks:_Black_Kyurem_vs._White_Kyurem" ;
+    ns1:types "_e_Dragon__e_Lightning__e_Fire_" .
+
+<http://example.org/resource/deck/Battle_Arena_Decks:_Mewtwo_vs._Darkrai_(TCG)> a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "BattleArenaDecks_Mewtwo_Darkrai.jpg" ;
+    ns1:coin "File:BAD_Red_Zoroark_Coin.png_50px/File:BAD_Silver_Zoroark_Coin.png_50px" ;
+    ns1:release "October_21,_2015" ;
+    ns1:title "Battle_Arena_Decks:_Mewtwo_vs._Darkrai" ;
+    ns1:types "_e_Psychic__e_Darkness_" .
+
+<http://example.org/resource/deck/Battle_Arena_Decks:_Rayquaza_vs._Keldeo_(TCG)> a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "RayquazaKeldeoBattleArenaDecks.jpg" ;
+    ns1:coin "File:BAD_Green_Rayquaza_Coin.png_50px/File:BAD_Blue_Blastoise_Coin.png_50px" ;
+    ns1:release "September_21,_2016" ;
+    ns1:title "Battle_Arena_Decks:_Rayquaza_vs._Keldeo" ;
+    ns1:types "_e_Dragon__e_Water_" .
+
+<http://example.org/resource/deck/Battle_Arena_Decks:_Xerneas_vs._Yveltal_(TCG)> a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "XerneasYveltalBattleArenaDecks.jpg" ;
+    ns1:coin "File:BAD_Blue_Xerneas_Coin.png_50px/File:XYBL_Mirror_Yveltal_Coin.png_50px" ;
+    ns1:release "October_22,_2014" ;
+    ns1:title "Battle_Arena_Decks:_Xerneas_vs._Yveltal" ;
+    ns1:types "_e_Darkness__e_Fairy_" .
+
+<http://example.org/resource/deck/Battle_Arena_Decks—Mega_Charizard_X_vs._Mega_Blastoise_(TCG)> a ns1:Deck ;
+    ns2:caption "Collective_box_art" ;
+    ns2:image "Battle_Arena_Decks_Mega_Charizard_X_vs_Mega_Blastoise.jpg" ;
+    ns1:coin "File:BAD_Gray_Mega_Charizard_Coin.png_50px/File:BAD_Blue_Mega_Blastoise_Coin.png_50px" ;
+    ns1:release "September_21,_2018" ;
+    ns1:size "280" ;
+    ns1:title "Battle_Arena_Decks—Mega_Charizard_X_vs._Mega_Blastoise" ;
+    ns1:types "_e_Fire__e_Water_" .
+
+<http://example.org/resource/deck/Battle_Arena_Decks—Rayquaza-GX_vs._Ultra_Necrozma-GX_(TCG)> a ns1:Deck ;
+    ns2:caption "Collective_box_art" ;
+    ns2:image "Battle_Arena_Decks_Rayquaza_vs_Ultra_Necrozma.jpg" ;
+    ns1:coin "File:BAD_Cracked_Ice_Rayquaza_Coin.png_50px/File:BAD_Gold_Ultra_Necrozma_Coin.png_50px" ;
+    ns1:release "October_4,_2019" ;
+    ns1:size "280" ;
+    ns1:title "Battle_Arena_Decks—Rayquaza-GX_vs._Ultra_Necrozma-GX" ;
+    ns1:types "_e_Lightning__e_Psychic_" .
+
+<http://example.org/resource/deck/Battle_Gift_Set:_Thundurus_vs_Tornadus_(TCG)> a ns1:Deck .
+
+ns1:Battle_Master_Decks_\(TCG\) a ns1:Deck ;
+    ns2:caption "Collective_box_art" ;
+    ns2:image "Battle_Master_Decks.png" ;
+    ns1:coin "File:SVJL_Silver_Charizard_Coin.png_50px/File:SVJP_Silver_Chien-Pao_Coin.png_50px" ;
+    ns1:release "Japanese:_May_17,_2024" ;
+    ns1:size "300" ;
+    ns1:title "_tt_バトルマスターデッキ_Battle_Master_Deck_" .
+
+ns1:Battle_Mind_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "SM10_Battle_Mind_Deck.jpg" ;
+    ns1:coin "File:UNB_Purple_Mewtwo_Coin.png_50px" ;
+    ns1:expansion "_TCG_Unbroken_Bonds_" ;
+    ns1:release "May_3,_2019" ;
+    ns1:title "File:Battle_Mind_logo.png_120px" ;
+    ns1:types "_e_Fire__e_Psychic_" .
+
+ns1:Battle_Party_Set_\(ATCG\) a ns1:Deck ;
+    ns2:caption "Battle_Party_Set_contents" ;
+    ns2:image "CSMP_Contents.png" ;
+    ns1:release "April_15,_2023" ;
+    ns1:size "300" ;
+    ns1:title "_tt_对战派对组合_Battle_Party_Set_" .
+
+ns1:Battle_Ruler_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "XY10_Battle_Ruler_Deck.jpg" ;
+    ns1:coin "File:FCO_Green_Zygarde_Coin.png_50px" ;
+    ns1:expansion "_TCG_Fates_Collide_" ;
+    ns1:release "May_2,_2016" ;
+    ns1:title "File:Battle_Ruler_logo.png_120px" ;
+    ns1:types "_e_Fighting__e_Grass_" .
+
+ns1:Battle_Starter_Decks_\(TCG\) a ns1:Deck ;
+    ns2:caption "Collective_box_art" ;
+    ns2:image "BattleStarterDecks.jpg" ;
+    ns1:release "November_20,_2009" ;
+    ns1:title "_tt_バトルスタートデッキ_Battle_Start_Deck_" .
+
+ns1:Battle_Strength_Decks_\(TCG\) a ns1:Deck ;
+    ns2:caption "Collective_box_art" ;
+    ns2:image "Battle_Strength_Decks.jpg" ;
+    ns1:release "March_18,_2011" ;
+    ns1:title "_tt_バトル強化デッキ_Battle_Strength_Deck_" .
+
+<http://example.org/resource/deck/Battle_Styles_Build_&_Battle_Box_(TCG)> a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "SWSH5_Build_Battle_Box.jpg" ;
+    ns1:expansion "_TCG_Battle_Styles_" ;
+    ns1:title "Battle_Styles_Build_&_Battle_Box" ;
+    ns1:types "_e_Grass__e_Water__e_Fighting__e_Darkness__e_Metal_" .
+
+<http://example.org/resource/deck/Battle_Theme_Deck:_Victini_(TCG)> a ns1:Deck .
+
+ns1:Bebe_Deck_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "WCS2016_Bebe_Deck.jpg" ;
+    ns1:cards "" ;
+    ns1:size "280" ;
+    ns1:title "Bebe" ;
+    ns1:types "_e_Grass_" .
+
+ns1:Beginning_Set_\(TCG\) a ns1:Deck ;
+    ns2:caption "Beginning_Set_box_art" ;
+    ns2:image "BeginningSet.jpg" ;
+    ns1:coin "File:HS_Silver_Unova_Partners_Coin.png_50px/File:HS_Pink_Unova_Partners_Coin.png_50px/File:HS_DX_Silver_Unova_Partners_Coin.png_50pxFile:HS_DX_Pink_Unova_Partners_Coin.png_50px/File:HSPlus_Silver_Unova_Partners_Coin.png_50px/File:HSP_Silver_Unova_Partners_Coin.jpg_50px" ;
+    ns1:release "October_29,_2010_(Standard_versions)November_20,_2010_(DX_versions)August_5,_2011_(Plus_version)November_18,_2011_(Pikachu_version)" ;
+    ns1:title "_tt_はじめてセット/はじめてセット_ｆｏｒガール_Beginning_Set/Beginning_Set_for_Girls_" .
+
+<http://example.org/resource/deck/Black_&_White_Trainer_Kit_(TCG)> a ns1:Deck ;
+    ns2:caption "Package_art" ;
+    ns2:image "BWTrainerKit.jpg" ;
+    ns1:coin "File:BWTK_Silver_Symbols_Coin.png_50px" ;
+    ns1:release "September_12,_2011" ;
+    ns1:title "Black_&_White_Trainer_Kit" ;
+    ns1:types "_e_Fighting__e_Darkness_" .
+
+ns1:Black_Deck_Kit_\(TCG\) a ns1:Deck ;
+    ns2:caption "Package_art" ;
+    ns2:image "Team_Rocket_Strikes_Back_-_Black_Deck_Kit.jpg" ;
+    ns1:coin "File:PCG3S_Silver_Rocket_Coin.png_50px" ;
+    ns1:expansion "_TCG_Rocket_Gang_Strikes_Back_" ;
+    ns1:release "October_15,_2004" ;
+    ns1:title "_tt_構築済みデッキ_ロケット団ハーフデッキW_-black-_Pre-built_Deck_Rocket_Gang_Half_Deck_W_-black-_" ;
+    ns1:types "_e_Grass__e_Fire__e_Fighting__e_Darkness_" .
+
+ns1:Black_Dragon_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "WCS2016_Black_Dragon.jpg" ;
+    ns1:cards "" ;
+    ns1:size "280" ;
+    ns1:title "Black_Dragon" ;
+    ns1:types "_e_Darkness__e_Dragon_" .
+
+ns1:Black_Kyurem-EX_Battle_Strength_Deck_\(TCG\) a ns1:Deck .
+
+ns1:Blackout_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "O1_Blackout_Deck.jpg" ;
+    ns1:coin "File:Wizards_Silver_Chansey_Coin.png_50px" ;
+    ns1:expansion "_TCG_Base_Set_" ;
+    ns1:release "January_9,_1999" ;
+    ns1:title "Blackout" ;
+    ns1:types "_e_Water__e_Fighting_" .
+
+ns1:Blaine_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "O7_Blaine_Deck.jpg" ;
+    ns1:coin "File:GC_Purple_Alakazam_Coin.png_50px" ;
+    ns1:expansion "_TCG_Gym_Challenge_" ;
+    ns1:release "October_16,_2000" ;
+    ns1:title "Blaine" ;
+    ns1:types "_e_Fire_" .
+
+<http://example.org/resource/deck/Blastoise_+_Kyurem-EX_Combo_Deck_(TCG)> a ns1:Deck .
+
+ns1:Blaziken_Tech_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "WCS2004_Blaziken_Tech_Deck.jpg" ;
+    ns1:cards "_TCG_ID_EX_Ruby_&_Sapphire_Blaziken_3_,__TCG_ID_EX_Team_Magma_vs_Team_Aqua_Blaziken_ex_89_,__TCG_ID_EX_Ruby_&_Sapphire_Delcatty_5_" ;
+    ns1:size "280" ;
+    ns1:title "Blaziken_Tech" ;
+    ns1:types "_e_Fire__e_Lightning_" .
+
+ns1:Blazing_Volcano_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "SM8_Blazing_Volcano_Deck.jpg" ;
+    ns1:coin "" ;
+    ns1:expansion "_TCG_Lost_Thunder_" ;
+    ns1:release "November_2,_2018" ;
+    ns1:title "File:Blazing_Volcano_logo.png_120px" ;
+    ns1:types "_e_Fire__e_Grass_" .
+
+ns1:Bliss_Control_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "WCS2008_Bliss_Control_Deck.png" ;
+    ns1:cards "_TCG_ID_Mysterious_Treasures_Blissey_5_" ;
+    ns1:size "220" ;
+    ns1:title "Bliss_Control" ;
+    ns1:types "_e_Colorless_" .
+
+ns1:Blue_Assault_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "BW1_Blue_Assault_Deck.jpg" ;
+    ns1:coin "File:BW1_Blue_Partners_Coin.png_50px" ;
+    ns1:expansion "_TCG_Black_&_White_" ;
+    ns1:release "April_6,_2011" ;
+    ns1:title "File:Blue_Assault_logo.png_120px" ;
+    ns1:types "_e_Water__e_Lightning_" .
+
+ns1:BodyGuard_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "O3_BodyGuard_Deck.jpg" ;
+    ns1:coin "File:Wizards_Brown_Aerodactyl_Coin.png_50px" ;
+    ns1:expansion "_TCG_Fossil_" ;
+    ns1:release "October_10,_1999" ;
+    ns1:title "BodyGuard" ;
+    ns1:types "_e_Grass__e_Fighting_" .
+
+ns1:Bolt_Twister_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "XY4_Bolt_Twister_Deck.jpg" ;
+    ns1:coin "File:PHF_Purple_Mega_Gengar_Coin.png_50px" ;
+    ns1:expansion "_TCG_Phantom_Forces_" ;
+    ns1:release "November_5,_2014" ;
+    ns1:title "Bolt_Twister" ;
+    ns1:types "_e_Lightning__e_Water_" .
+
+ns1:Boltevoir_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "WCS2010_Boltevoir_Deck.jpg" ;
+    ns1:cards "_TCG_ID_Secret_Wonders_Gardevoir_7_,__TCG_ID_Arceus_Spiritomb_32_" ;
+    ns1:size "280" ;
+    ns1:title "Boltevoir" ;
+    ns1:types "_e_Psychic__e_Fighting_" .
+
+ns1:Bombardment_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "DP6_Bombardment_Deck.jpg" ;
+    ns1:coin "File:DP6_Silver_GliscorMewtwo_Coin.png_50px_" ;
+    ns1:expansion "_TCG_Legends_Awakened_" ;
+    ns1:release "August_20,_2008" ;
+    ns1:title "File:Bombardment_logo.png_120px" ;
+    ns1:types "_e_Water__e_Fighting_" .
+
+ns1:Brain_Wave_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "N2_Brain_Wave_Deck.jpg" ;
+    ns1:coin "File:Wizards_Metal_Lugia_Coin.png_50px" ;
+    ns1:expansion "_TCG_Neo_Discovery_" ;
+    ns1:release "June_1,_2001" ;
+    ns1:title "Brain_Wave" ;
+    ns1:types "_e_Psychic__e_Water_" .
+
+ns1:Breakthrough_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "EX11_Breakthrough_Deck.jpg" ;
+    ns1:coin "File:EX11_Green_Energy_Coin.jpg_50px" ;
+    ns1:expansion "_TCG_EX_Delta_Species_" ;
+    ns1:release "October_31,_2005" ;
+    ns1:title "File:Breakthrough_logo.png_120px" ;
+    ns1:types "_e_Grass__e_Lightning__e_Metal_" .
+
+ns1:Bright_Aura_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "WCS2005_Bright_Aura_Deck.jpg" ;
+    ns1:cards "_TCG_ID_EX_Emerald_Medicham_ex_95_,__TCG_ID_EX_Deoxys_Jirachi_9_" ;
+    ns1:size "280" ;
+    ns1:title "Bright_Aura" ;
+    ns1:types "_e_Fighting__e_Psychic__e_Metal_" .
+
+ns1:Bright_Tide_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "SM1_Bright_Tide_Deck.jpg" ;
+    ns1:coin "File:SUM_Blue_Popplio_Coin.png_50px" ;
+    ns1:expansion "_TCG_Sun_&_Moon_" ;
+    ns1:release "January_20,_2017" ;
+    ns1:title "File:Bright_Tide_logo.png_120px" ;
+    ns1:types "_e_Water__e_Lightning_" .
+
+<http://example.org/resource/deck/Brilliant_Stars_Build_&_Battle_Box_(TCG)> a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "SWSH9_Build_Battle_Box.jpg" ;
+    ns1:expansion "_TCG_Brilliant_Stars_" ;
+    ns1:title "Brilliant_Stars_Build_&_Battle_Box" ;
+    ns1:types "_e_Fire__e_Fighting__e_Darkness__e_Colorless_" .
+
+ns1:Brilliant_Thunder_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "XY2_Brilliant_Thunder_Deck.jpg" ;
+    ns1:coin "File:FLF_Orange_Charizard_Coin.png_50px" ;
+    ns1:expansion "_TCG_Flashfire_" ;
+    ns1:release "May_7,_2014" ;
+    ns1:title "Brilliant_Thunder" ;
+    ns1:types "_e_Fire__e_Lightning_" .
+
+ns1:Brock_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "O6_Brock_Deck.jpg" ;
+    ns1:coin "File:Wizards_Blue_Starmie_Coin.png_50px" ;
+    ns1:expansion "_TCG_Gym_Heroes_" ;
+    ns1:release "August_14,_2000" ;
+    ns1:title "Brock" ;
+    ns1:types "_e_Fighting_" .
+
+ns1:Brushfire_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "O1_Brushfire_Deck.jpg" ;
+    ns1:coin "File:Wizards_Silver_Chansey_Coin.png_50px" ;
+    ns1:expansion "_TCG_Base_Set_" ;
+    ns1:release "January_9,_1999" ;
+    ns1:title "File:Brushfire_logo.png_120px" ;
+    ns1:types "_e_Fire__e_Grass_" .
+
+ns1:Burning_Shadows_Prerelease_Kit_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "" ;
+    ns1:expansion "_TCG_Burning_Shadows_" ;
+    ns1:title "Burning_Shadows_Prerelease_Kit" ;
+    ns1:types "_e_Grass__e_Psychic__e_Fighting__e_Darkness_" .
+
+ns1:Burning_Spark_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "XY8_Burning_Spark_Deck.jpg" ;
+    ns1:coin "File:BKT_Pink_Mega_Mewtwo_Coin.png_50px" ;
+    ns1:expansion "_TCG_BREAKthrough_" ;
+    ns1:release "November_4,_2015" ;
+    ns1:title "Burning_Spark" ;
+    ns1:types "_e_Lightning__e_Fire_" .
+
+ns1:Burning_Winds_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "XY4_Burning_Winds_Deck.jpg" ;
+    ns1:coin "File:PHF_Silver_Mega_Gengar_Coin.png_50px" ;
+    ns1:expansion "_TCG_Phantom_Forces_" ;
+    ns1:release "November_5,_2014" ;
+    ns1:title "Burning_Winds" ;
+    ns1:types "_e_Fire__e_Grass_" .
+
+ns1:Buzzroc_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "WCS2018_Buzzroc_Deck.jpg" ;
+    ns1:release "November_14,_2018" ;
+    ns1:title "Buzzroc" ;
+    ns1:types "_e_Fighting_" .
+
+ns1:CMT_Deck_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "WCS2012_CMT_Deck.jpg" ;
+    ns1:cards "_TCG_ID_Triumphant_Celebi_92_,_Mewtwo-EX_(Next_Destinies_54)_Mewtwo_EX_,__TCG_ID_Noble_Victories_Terrakion_73_" ;
+    ns1:size "280" ;
+    ns1:title "CMT" ;
+    ns1:types "_e_Fighting__e_Grass_" .
+
+ns1:Caravan_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "EX2_Caravan_Deck.jpg" ;
+    ns1:coin "File:EX02_Gold_Treecko_Coin.jpg_50px" ;
+    ns1:expansion "_TCG_EX_Sandstorm_" ;
+    ns1:release "September_18,_2003" ;
+    ns1:title "File:Caravan_logo.png_120px" ;
+    ns1:types "_e_Grass__e_Fire_" .
+
+<http://example.org/resource/deck/Celestial_Storm_Build_&_Battle_Box_(TCG)> a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "SM7_Build_Battle_Box.jpg" ;
+    ns1:expansion "_TCG_Celestial_Storm_" ;
+    ns1:title "Celestial_Storm_Build_&_Battle_Box" ;
+    ns1:types "_e_Water__e_Lightning__e_Psychic__e_Metal_" .
+
+ns1:Challenge_V_Starter_Deck_\(ATCG\) a ns1:Deck ;
+    ns2:caption "Chinese_box_art" ;
+    ns2:image "SCB_V_Starter_Deck_Chinese.jpg" ;
+    ns1:release "Traditional_Chinese:_January_29,_2021Thai:_March_26,_2021Indonesian:_May_21,_2021" ;
+    ns1:title "Challenge_V_Starter_Deck" .
+
+ns1:Chaos_Control_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "HS2_Chaos_Control_Deck.jpg" ;
+    ns1:coin "File:HS2_Blue_Tyranitar_Coin.png_50px" ;
+    ns1:expansion "_TCG_Unleashed_" ;
+    ns1:release "May_12,_2010" ;
+    ns1:title "File:Chaos_Control_logo.png_120px" ;
+    ns1:types "_e_Psychic__e_Fighting__e_Darkness_" .
+
+<http://example.org/resource/deck/Charizard_&_Grimmsnarl_VMAX_Starter_Sets_(TCG)> a ns1:Deck ;
+    ns2:caption "Collective_box_art" ;
+    ns2:image "Charizard_Grimmsnarl_VMAX_Starter_Sets.jpg" ;
+    ns1:coin "File:SC_Silver_Gigantamax_Charizard_Coin.png_50px/File:SC_Silver_Gigantamax_Grimmsnarl_Coin.png_50px" ;
+    ns1:release "March_27,_2020_(Original_versions)December_4,_2020_(Second_Charizard_version)" ;
+    ns1:size "280" ;
+    ns1:title "_tt_スターターセットVMAX_VMAX_Starter_Sets_" .
+
+ns1:Charizard_Theme_Deck_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "SWSH4_Charizard_Deck.jpg" ;
+    ns1:coin "" ;
+    ns1:expansion "_TCG_Vivid_Voltage_" ;
+    ns1:release "November_13,_2020" ;
+    ns1:title "Charizard_Theme_Deck" ;
+    ns1:types "_e_Fire_" .
+
+ns1:Charizard_VSTAR_vs_Rayquaza_VMAX_Special_Deck_Set_\(TCG\) a ns1:Deck ;
+    ns2:caption "Special_Deck_Set" ;
+    ns2:image "Charizard_VSTAR_vs_Rayquaza_VMAX_Special_Deck_Set.jpg" ;
+    ns1:coin "File:SO_Red_Charizard_Coin.jpg_50pxFile:SO_Green_Rayquaza_Coin.jpg_50px" ;
+    ns1:release "Japanese:_November_4,_2022Traditional_Chinese:_January_13,_2023" ;
+    ns1:size "200" ;
+    ns1:title "_tt_スペシャルデッキセット_リザードンVSTAR_vs_レックウザVMAX_Charizard_VSTAR_vs_Rayquaza_VMAX_Special_Deck_Set_" ;
+    ns1:types "_e_Fire__e_Lightning__e_Dragon_" .
+
+ns1:Charizard_ex_League_Battle_Deck_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "Charizard_ex_League_Battle_Deck.jpg" ;
+    ns1:release "November_15,_2024" ;
+    ns1:title "Charizard_ex_League_Battle_Deck" ;
+    ns1:types "_e_fire_" .
+
+ns1:Cheryl_Again_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "WCS2022_Cheryl_Again_Deck.jpg" ;
+    ns1:release "March_3,_2023" ;
+    ns1:title "Cheryl_Again" ;
+    ns1:types "_e_Fighting_" .
+
+ns1:Chespin_Deck_\(TCG\) a ns1:Deck ;
+    ns2:caption "Boxart" ;
+    ns2:image "Chespin_Kalos_Starter_Set_Deck.jpg" ;
+    ns1:coin "File:KSS_Green_Chespin_Coin.png_50px" ;
+    ns1:title "Chespin_Deck" ;
+    ns1:types "_e_Grass__e_Fairy_" .
+
+<http://example.org/resource/deck/Chilling_Reign_Build_&_Battle_Box_(TCG)> a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "SWSH6_Build_Battle_Box.jpg" ;
+    ns1:expansion "_TCG_Chilling_Reign_" ;
+    ns1:title "Chilling_Reign_Build_&_Battle_Box" ;
+    ns1:types "_e_Fire__e_Water__e_Psychic__e_Fighting_" .
+
+ns1:Cinderace_Theme_Deck_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "SWSH1_Cinderace_Deck.jpg" ;
+    ns1:coin "" ;
+    ns1:expansion "_TCG_Sword_&_Shield_" ;
+    ns1:release "February_7,_2020" ;
+    ns1:title "Cinderace_Theme_Deck" ;
+    ns1:types "_e_Fire_" .
+
+ns1:Clanging_Thunder_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "SM4_Clanging_Thunder_Deck.jpg" ;
+    ns1:coin "File:CIN_Gold_Kommo-o_Coin.png_50px" ;
+    ns1:expansion "_TCG_Crimson_Invasion_" ;
+    ns1:release "November_3,_2017" ;
+    ns1:title "File:Clanging_Thunder_logo.png_120px" ;
+    ns1:types "_e_Dragon__e_Lightning__e_Fighting_" .
+
+ns1:Cold_Fire_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "BW7_Cold_Fire_Deck.jpg" ;
+    ns1:coin "File:BW7_Red_White_Kyurem_Coin.png_50px" ;
+    ns1:expansion "_TCG_Boundaries_Crossed_" ;
+    ns1:release "November_7,_2012" ;
+    ns1:title "File:Cold_Fire_logo.png_120px" ;
+    ns1:types "_e_Water__e_Fire__e_Dragon_" .
+
+ns1:Cold_Fusion_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "N1_Cold_Fusion_Deck.jpg" ;
+    ns1:coin "File:Wizards_Metal_Lugia_Coin.png_50px" ;
+    ns1:expansion "_TCG_Neo_Genesis_" ;
+    ns1:release "December_16,_2000" ;
+    ns1:title "Cold_Fusion" ;
+    ns1:types "_e_Lightning__e_Water_" .
+
+ns1:Collection_Packs_\(TCG\) a ns1:Deck ;
+    ns2:caption "Collective_box_art" ;
+    ns2:image "CollectionPacks.jpg" ;
+    ns1:release "April_18,_2009" ;
+    ns1:title "_tt_コレクションパック_Collection_Pack_" .
+
+ns1:Colorless_Lugia_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "WCS2023_Colorless_Lugia.jpg" ;
+    ns1:release "March_1,_2024" ;
+    ns1:title "Colorless_Lugia" ;
+    ns1:types "_e_Colorless_" .
+
+<http://example.org/resource/deck/Cosmic_Eclipse_Build_&_Battle_Box_(TCG)> a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "SM12_Build_Battle_Box.jpg" ;
+    ns1:expansion "_TCG_Cosmic_Eclipse_" ;
+    ns1:title "Cosmic_Eclipse_Build_&_Battle_Box" ;
+    ns1:types "_e_Grass__e_Fire__e_Water__e_Psychic_" .
+
+ns1:Crazy_Punch_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "WCS2014_Crazy_Punch_Deck.jpg" ;
+    ns1:cards "" ;
+    ns1:size "280" ;
+    ns1:title "Crazy_Punch" ;
+    ns1:types "_e_Fairy_" .
+
+ns1:Cresselia_Deck_\(KTCG\) a ns1:Deck ;
+    ns2:caption "Boxart" ;
+    ns2:image "None.png" ;
+    ns1:expansion "_KTCG_Dark_Side_of_the_Crescent_Moon_" ;
+    ns1:release "November_4,_2010" ;
+    ns1:title "Cresselia_Deck크레세리아_덱" ;
+    ns1:types "_e_Psychic__e_Fighting__e_Colorless_" .
+
+ns1:Crimson_Invasion_Prerelease_Kit_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "" ;
+    ns1:expansion "_TCG_Crimson_Invasion_" ;
+    ns1:title "Crimson_Invasion_Prerelease_Kit" ;
+    ns1:types "_e_Grass__e_Psychic__e_Fighting__e_Metal_" .
+
+ns1:Crowned_Tiger_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "WCS2009_Crowned_Tiger_Deck.jpg" ;
+    ns1:cards "Luxray_GL_LV.X_(Rising_Rivals_109)_Luxray__SP_GL__Luxray_GL_LV.X_(Rising_Rivals_109)_LV.X,_Dialga_G_LV.X_(Platinum_122)_Dialga__SP_G__Dialga_G_LV.X_(Platinum_122)_LV.X" ;
+    ns1:size "280" ;
+    ns1:title "Crowned_Tiger" ;
+    ns1:types "_e_Psychic__e_Lightning_" .
+
+ns1:Cutting_Edge_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "PL2_Cutting_Edge_Deck.jpg" ;
+    ns1:coin "File:PL2_Gold_InfernapeGallade_Coin.png_50px" ;
+    ns1:expansion "_TCG_Rising_Rivals_" ;
+    ns1:release "May_16,_2009" ;
+    ns1:title "File:Cutting_Edge_logo.png_120px" ;
+    ns1:types "_e_Grass__e_Psychic_" .
+
+ns1:Dark_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "N4_Dark_Deck.jpg" ;
+    ns1:coin "File:Wizards_Metal_Lugia_Coin.png_50px" ;
+    ns1:expansion "_TCG_Neo_Destiny_" ;
+    ns1:release "February_28,_2002" ;
+    ns1:title "Dark" ;
+    ns1:types "_e_Fire__e_Psychic_" .
+
+ns1:Dark_Blast_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "EX16_Dark_Blast_Deck.jpg" ;
+    ns1:coin "File:ADV1S_Orange_Torchic_Coin.png_50px" ;
+    ns1:expansion "_TCG_EX_Power_Keepers_" ;
+    ns1:release "February_14,_2007" ;
+    ns1:title "File:Dark_Blast_logo.png_120px" ;
+    ns1:types "_e_Fire__e_Darkness_" .
+
+ns1:Dark_Hammer_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "XY3_Dark_Hammer_Deck.jpg" ;
+    ns1:coin "File:FFI_Blue_Mega_Lucario_Coin.png_50px" ;
+    ns1:expansion "_TCG_Furious_Fists_" ;
+    ns1:release "August_13,_2014" ;
+    ns1:title "Dark_Hammer" ;
+    ns1:types "_e_Fighting__e_Darkness_" .
+
+ns1:Dark_Rampage_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "DP7_Dark_Rampage_Deck.jpg" ;
+    ns1:coin "File:DP7_Silver_Energy_Coin.png_50px" ;
+    ns1:expansion "_TCG_Stormfront_" ;
+    ns1:release "November_5,_2008" ;
+    ns1:title "File:Dark_Rampage_logo.png_120px" ;
+    ns1:types "_e_Darkness__e_Fighting_" .
+
+ns1:Dark_Tyranitar_Deck_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "WCS2005_Dark_Tyranitar_Deck.jpg" ;
+    ns1:cards "_TCG_ID_EX_Team_Rocket_Returns_Dark_Tyranitar_19_,__TCG_ID_EX_Team_Rocket_Returns_Dark_Tyranitar_20_" ;
+    ns1:size "280" ;
+    ns1:title "Dark_Tyranitar" ;
+    ns1:types "_e_Darkness__e_Fighting__e_Metal_" .
+
+<http://example.org/resource/deck/Darkness_Ablaze_Build_&_Battle_Box_(TCG)> a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "SWSH3_Build_Battle_Box.jpg" ;
+    ns1:expansion "_TCG_Darkness_Ablaze_" ;
+    ns1:title "Darkness_Ablaze_Build_&_Battle_Box" ;
+    ns1:types "_e_Grass__e_Lightning__e_Darkness__e_Water__e_Colorless_" .
+
+ns1:Darkrai_Deck_\(KTCG\) a ns1:Deck ;
+    ns2:caption "Boxart" ;
+    ns2:image "None.png" ;
+    ns1:expansion "_KTCG_Dark_Side_of_the_Crescent_Moon_" ;
+    ns1:release "November_4,_2010" ;
+    ns1:title "Darkrai_Deck다크라이_덱" ;
+    ns1:types "_e_Water__e_Darkness__e_Colorless_" .
+
+ns1:Darkrai_Deck_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "WCS2013_Darkrai_Deck.jpg" ;
+    ns1:cards "" ;
+    ns1:size "280" ;
+    ns1:title "Darkrai_Deck" ;
+    ns1:types "_e_Darkness_" .
+
+ns1:Daybreak_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "HS3_Daybreak_Deck.jpg" ;
+    ns1:coin "File:HS3_Gold_Cyndaquil_Coin.png_50px" ;
+    ns1:expansion "_TCG_Undaunted_" ;
+    ns1:release "August_18,_2010" ;
+    ns1:title "File:Daybreak_logo.png_120px" ;
+    ns1:types "_e_Psychic__e_Grass_" .
+
+<http://example.org/resource/deck/Deluxe_Battle_Decks—Koraidon_ex_&_Miraidon_ex_(TCG)> a ns1:Deck ;
+    ns2:caption "Collective_box_art" ;
+    ns1:coin "File:S2023CC_Red_Koraidon_Coin.jpg_50px/File:S2023CC_Blue_Miraidon_Coin.jpg_50px" ;
+    ns1:release "August_23,_2024" ;
+    ns1:title "Deluxe_Battle_Decks—Koraidon_ex_&_Miraidon_ex" ;
+    ns1:types "_e_Psychic__e_Fighting__e_Dragon_" .
+
+<http://example.org/resource/deck/Deluxe_Battle_Decks—Meowscarada_ex_&_Quaquaval_ex_(TCG)> a ns1:Deck ;
+    ns2:caption "Collective_box_art" ;
+    ns1:coin "File:DBD_Green_Meowscarada_Coin.jpg_50px/File:DBD_Blue_Quaquaval_Coin.jpg_50px" ;
+    ns1:release "September_1,_2023" ;
+    ns1:title "Deluxe_Battle_Decks—Meowscarada_ex_&_Quaquaval_ex" ;
+    ns1:types "_e_Grass__e_Water_" .
+
+<http://example.org/resource/deck/Deluxe_Battle_Decks—Ninetales_ex_&_Zapdos_ex_(TCG)> a ns1:Deck ;
+    ns2:caption "Collective_box_art" ;
+    ns1:release "March_22,_2024" ;
+    ns1:title "Deluxe_Battle_Decks—Ninetales_ex_&_Zapdos_ex" ;
+    ns1:types "_e_Fire__e_Lightning_" .
+
+ns1:Demo_Game_\(TCG\) a ns1:Deck ;
+    ns2:caption "Booster_pack" ;
+    ns2:image "Demo_Game_Booster_Pack.png" ;
+    ns1:expansion "_TCG_Base_Set_" ;
+    ns1:image_size "50px" ;
+    ns1:release "December_1998[https://web.archive.org/web/20230323231915/https://thepokenest.com/products/factory-sealed-1998-pokemon-demo-game-pack_Factory_Sealed_1998_Pokémon_Demo_Game_Pack]._ThePokeNest._Archived_from_the_[https://thepokenest.com/products/factory-sealed-1998-pokemon-demo-game-pack_original]_on_March_23,_2023._Retrieved_May_21,_2023." ;
+    ns1:title "Demo_Game" ;
+    ns1:types "_e_Lightning__e_Fighting__e_Grass__e_Fire_" .
+
+ns1:Deoxys_Constructed_Starter_Deck_\(TCG\) a ns1:Deck ;
+    ns2:caption "Package_art" ;
+    ns2:image "DeoxysConstructedStarterDeck.jpg" ;
+    ns1:coin "File:PCG2S_Silver_Deoxys_Coin.png_50px" ;
+    ns1:expansion "_TCG_Clash_of_the_Blue_Sky_" ;
+    ns1:release "July_1,_2004" ;
+    ns1:title "_tt_構築済みスターター_デオキシスデッキ_Pre-built_Starter_Deoxys_Deck_" ;
+    ns1:types "_e_Grass__e_Psychic__e_Fighting_" .
+
+ns1:Destruction_Fang_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "SM4_Destruction_Fang_Deck.jpg" ;
+    ns1:coin "File:CIN_Silver_Hydreigon_Coin.png_50px" ;
+    ns1:expansion "_TCG_Crimson_Invasion_" ;
+    ns1:release "November_3,_2017" ;
+    ns1:title "File:Destruction_Fang_logo.png_120px" ;
+    ns1:types "_e_Darkness__e_Psychic_" .
+
+ns1:Destruction_Rush_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "XY1_Destruction_Rush_Deck.jpg" ;
+    ns1:coin "File:XY_Silver_Yveltal_Coin.png_50px" ;
+    ns1:expansion "_TCG_XY_" ;
+    ns1:release "February_5,_2014" ;
+    ns1:title "Destruction_Rush" ;
+    ns1:types "_e_Fighting__e_Darkness_" .
+
+ns1:Devastation_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "O5_Devastation_Deck.jpg" ;
+    ns1:coin "File:Wizards_Silver_Meowth_Coin.png_50px" ;
+    ns1:expansion "_TCG_Team_Rocket_" ;
+    ns1:release "April_24,_2000" ;
+    ns1:title "Devastation" ;
+    ns1:types "_e_Grass__e_Water_" .
+
+ns1:Dialga_Deck_\(KTCG\) a ns1:Deck ;
+    ns2:caption "Boxart" ;
+    ns2:image "KoreanDialgaDeck.png" ;
+    ns1:expansion "_KTCG_Collapse_of_Time_&_Space_" ;
+    ns1:release "August_19,_2010" ;
+    ns1:title "Dialga_Deck구축덱_디아루가_덱_" ;
+    ns1:types "_e_Lightning__e_Fighting__e_Metal_" .
+
+ns1:Dialga_LV.X_Constructed_Standard_Deck_\(TCG\) a ns1:Deck .
+
+<http://example.org/resource/deck/Diamond_&_Pearl_Trainer_Kit_(TCG)> a ns1:Deck ;
+    ns2:caption "Package_art" ;
+    ns2:image "DPTrainerKit.jpg" ;
+    ns1:coin "File:DPTK_Silver_Manaphy_Coin.png_50px" ;
+    ns1:release "September_24,_2007" ;
+    ns1:title "Diamond_&_Pearl_Trainer_Kit" ;
+    ns1:types "_e_Water__e_Fighting_" .
+
+ns1:Double_Burst_GX_Starter_Deck_\(ATCG\) a ns1:Deck ;
+    ns2:caption "Chinese_box_art" ;
+    ns2:image "AS5D_GX_Starter_Deck_Chinese.jpg" ;
+    ns1:expansion "_ATCG_Double_Burst_" ;
+    ns1:release "Traditional_Chinese:_February_18,_2020Thai:_February_27,_2020" ;
+    ns1:title "Double_Burst_GX_Starter_Deck" .
+
+ns1:DragonSnarl_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "BW6_DragonSnarl_Deck.jpg" ;
+    ns1:coin "File:BW6_Cracked_Rayquaza_Coin.png_50px" ;
+    ns1:expansion "_TCG_Dragons_Exalted_" ;
+    ns1:release "August_15,_2012" ;
+    ns1:title "File:DragonSnarl_logo.png_120px" ;
+    ns1:types "_e_Psychic__e_Darkness__e_Dragon_" .
+
+ns1:DragonSpeed_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "BW6_DragonSpeed_Deck.jpg" ;
+    ns1:coin "File:BW6_Emerald_Rayquaza_Coin.png_50px" ;
+    ns1:expansion "_TCG_Dragons_Exalted_" ;
+    ns1:release "August_15,_2012" ;
+    ns1:title "File:DragonSpeed_logo.png_120px" ;
+    ns1:types "_e_Water__e_Fighting__e_Dragon_" .
+
+ns1:Dragones_y_Sombras_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "WCS2018_Dragones_y_Sombras.jpg" ;
+    ns1:title "Dragones_y_Sombras" ;
+    ns1:types "_e_Dragon_" .
+
+ns1:Dreams_Come_True_Collection_GX_Starter_Deck_\(ATCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "AC2D_GX_Starter_Deck.jpg" ;
+    ns1:expansion "_ATCG_Dreams_Come_True_Collection_" ;
+    ns1:release "December_20,_2019" ;
+    ns1:title "Dreams_Come_True_Collection_GX_Starter_Deck" .
+
+ns1:Drednaw_Theme_Deck_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "SWSH4_Drednaw_Deck.jpg" ;
+    ns1:coin "" ;
+    ns1:expansion "_TCG_Vivid_Voltage_" ;
+    ns1:release "November_13,_2020" ;
+    ns1:title "Drednaw_Theme_Deck" ;
+    ns1:types "_e_Water_" .
+
+ns1:Drill_Point_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "PL2_Drill_Point_Deck.jpg" ;
+    ns1:coin "File:PL2_Silver_InfernapeGallade_Coin.png_50px" ;
+    ns1:expansion "_TCG_Rising_Rivals_" ;
+    ns1:release "May_16,_2009" ;
+    ns1:title "File:Drill_Point_logo.png_120px" ;
+    ns1:types "_e_Water__e_Fighting_" .
+
+ns1:Dynamax_Clash_Deck_Building_Box_\(ATCG\) a ns1:Deck ;
+    ns2:caption "Dynamax_Clash_Deck_Building_Box" ;
+    ns2:image "CSA_Box.png" ;
+    ns1:release "May_19,_2023" ;
+    ns1:size "250" ;
+    ns1:title "_tt_极巨争锋_卡组构筑礼盒_Arceus_&_Dialga_&_Palkia_GX_Premium_Deck_Building_Box_" .
+
+ns1:Dynamax_Clash_V_Starter_Deck_\(ATCG\) a ns1:Deck ;
+    ns2:caption "_Box_art" ;
+    ns2:image "CS1D_Box.png" ;
+    ns1:expansion "_ATCG_Dynamax_Clash_" ;
+    ns1:release "May_18,_2023" ;
+    ns1:title "_tt_极巨争锋_V起始卡组_Dynamax_Clash_V_Starter_Deck_" .
+
+ns1:EX_Battle_Stadium_\(TCG\) a ns1:Deck ;
+    ns2:caption "Package_art" ;
+    ns2:image "EX_Battle_Stadium.jpg" ;
+    ns1:coin "File:EXBS_Pink_Blissey_Coin.png_50px" ;
+    ns1:release "October_18,_2004" ;
+    ns1:title "EX_Battle_Stadium" ;
+    ns1:types "_e_Fire__e_Water__e_Psychic__e_Fighting_" .
+
+ns1:EX_Trainer_Kit_\(TCG\) a ns1:Deck ;
+    ns2:caption "Package_art" ;
+    ns2:image "EXTrainerKit.jpg" ;
+    ns1:coin "File:EXTK_Gold_Pikachu_Coin.jpg_50px" ;
+    ns1:release "June_2004" ;
+    ns1:title "EX_Trainer_Kit" ;
+    ns1:types "_e_Fire__e_Lightning__e_Colorless_" .
+
+ns1:EX_Trainer_Kit_2_\(TCG\) a ns1:Deck ;
+    ns2:caption "Package_art" ;
+    ns2:image "EXTrainerKit2.jpg" ;
+    ns1:coin "File:EX09_Gold_Energy_Coin.png_50px/File:EX09_Blue_Energy_Coin.png_50px/File:PCG2S_Silver_Rayquaza_Coin.png_50px/File:PCG2S_Silver_Deoxys_Coin.png_50px" ;
+    ns1:release "March_2006" ;
+    ns1:title "EX_Trainer_Kit_2" ;
+    ns1:types "_e_Fire__e_Lightning__e_Psychic_" .
+
+<http://example.org/resource/deck/Earth's_Groudon_ex_Constructed_Starter_Deck_(TCG)> a ns1:Deck ;
+    ns2:caption "Package_art" ;
+    ns2:image "EarthGroudonConstructedStarterDeck.jpg" ;
+    ns1:coin "File:PCG8S_Red_Groudon_Coin.png_50px" ;
+    ns1:expansion "_TCG_Miracle_Crystal_" ;
+    ns1:release "March_3,_2006_(Early_release)March_10,_2006_(General_release)" ;
+    ns1:title "_tt_構築済みスターター_大地のグラードンex_Pre-built_Starter_Earths_Groudon_ex_" ;
+    ns1:types "_e_Grass__e_Lightning__e_Fighting_" .
+
+<http://example.org/resource/deck/Earth's_Pulse_(TCG)> a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "XY5_Earth_Pulse_Deck.jpg" ;
+    ns1:coin "File:PRC_Red_Primal_Groudon_Coin.png_50px" ;
+    ns1:expansion "_TCG_Primal_Clash_" ;
+    ns1:release "February_4,_2015" ;
+    ns1:title "Earths_Pulse" ;
+    ns1:types "_e_Fighting__e_Lightning_" .
+
+ns1:Earth_Shower_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "EX14_Earth_Shower_Deck.jpg" ;
+    ns1:coin "File:PCG8S_Blue_Kyogre_Coin.png_50px" ;
+    ns1:expansion "_TCG_EX_Crystal_Guardians_" ;
+    ns1:release "August_30,_2006" ;
+    ns1:title "File:Earth_Shower_logo.png_120px" ;
+    ns1:types "_e_Water__e_Fighting_" .
+
+ns1:Echo_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "E1_Echo_Deck.jpg" ;
+    ns1:coin "File:Wizards_Metal_Pikachu_Coin.png_50px" ;
+    ns1:expansion "_TCG_Expedition_Base_Set_" ;
+    ns1:release "September_15,_2002" ;
+    ns1:title "Echo" ;
+    ns1:types "_e_Psychic__e_Colorless_" .
+
+ns1:Eeltwo_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "WCS2012_Eeltwo_Deck.jpg" ;
+    ns1:cards "Mewtwo-EX_(Next_Destinies_54)_Mewtwo_EX_,__TCG_ID_Noble_Victories_Eelektrik_40_" ;
+    ns1:size "280" ;
+    ns1:title "Eeltwo" ;
+    ns1:types "_e_Lightning__e_Psychic_" .
+
+ns1:Eevee-GX_Box_Sets_\(ATCG\) a ns1:Deck ;
+    ns2:caption "Collective_contents_of_the_Eevee-GX_Box_Sets" ;
+    ns2:image "CSMY_Contents.jpg" ;
+    ns1:release "Sylveon_Box:_January_6,_2023Leafeon_Box_/_Glaceon_Box:_January_11,_2023Espeon_Box_/_Umbreon_Box:_January_13,_2023" ;
+    ns1:size "250" ;
+    ns1:title "_tt_伊布GX套装礼盒_Eevee-GX_Box_Sets_" .
+
+ns1:Eevee-GX_Starter_Sets_\(TCG\) a ns1:Deck ;
+    ns2:caption "Collective_box_art" ;
+    ns2:image "Eevee-GX_Starter_Sets.jpg" ;
+    ns1:coin "File:SMI_Red_Eevee_Coin.png_50px/File:SMI_Blue_Eevee_Coin.png_50px/File:SMI_Yellow_Eevee_Coin.png_50px" ;
+    ns1:release "November_23,_2018" ;
+    ns1:size "300" ;
+    ns1:title "_tt_スターターセット_Starter_Set_" .
+
+ns1:Eevee_Heroes_VMAX_Special_Set_\(TCG\) a ns1:Deck ;
+    ns2:caption "Eevee_Heroes_VMAX_Special_Set" ;
+    ns2:image "Eevee_Heroes_VMAX_Special_Set.jpg" ;
+    ns1:release "May_28,_2021" ;
+    ns1:size "220" ;
+    ns1:title "_tt_VMAXスペシャルセット_イーブイヒーローズ_Eevee_Heroes_VMAX_Special_Set_" .
+
+ns1:Eeveelution_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "E3_Eeveelution_Deck.jpg" ;
+    ns1:coin "File:Wizards_Metal_Lugia_Coin.png_50px" ;
+    ns1:expansion "_TCG_Skyridge_" ;
+    ns1:release "May_12,_2003" ;
+    ns1:title "File:Eeveelution_logo.png_120px" ;
+    ns1:types "_e_Fire__e_Water__e_Lightning_" .
+
+ns1:Eeveelutions_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "WCS2006_Eeveelutions_Deck.jpg" ;
+    ns1:cards "_TCG_ID_EX_Delta_Species_Eevee_69_,__TCG_ID_EX_Delta_Species_Vaporeon_ex_110_,__TCG_ID_EX_Delta_Species_Jolteon_ex_109_,__TCG_ID_EX_Delta_Species_Flareon_ex_108_,__TCG_ID_EX_Unseen_Forces_Espeon_ex_102_,__TCG_ID_EX_Unseen_Forces_Umbreon_ex_112_" ;
+    ns1:title "Eeveelutions" ;
+    ns1:types "_e_Fire_" .
+
+ns1:Electric_Eye_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "XY9_Electric_Eye_Deck.jpg" ;
+    ns1:coin "File:BKP_Silver_Mega_Gyarados_Coin.png_50px_/_File:BKP_Cracked_Ice_Mega_Gyarados_Coin.png_50px_/_File:BKP_Pixel_Mega_Gyarados_Coin.png_50px" ;
+    ns1:expansion "_TCG_BREAKpoint_" ;
+    ns1:release "February_3,_2016" ;
+    ns1:title "File:Electric_Eye_logo.png_120px" ;
+    ns1:types "_e_Lightning__e_Psychic_" .
+
+ns1:Electric_Garden_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "E1_Electric_Garden_Deck.jpg" ;
+    ns1:coin "File:Wizards_Metal_Pikachu_Coin.png_50px" ;
+    ns1:expansion "_TCG_Expedition_Base_Set_" ;
+    ns1:release "September_15,_2002" ;
+    ns1:title "Electric_Garden" ;
+    ns1:types "_e_Grass__e_Lightning_" .
+
+ns1:Ember_Spark_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "HS1_Ember_Spark_Deck.jpg" ;
+    ns1:coin "File:HS1_Red_Cyndaquil_Coin.png_50px" ;
+    ns1:expansion "_TCG_HeartGold_&_SoulSilver_" ;
+    ns1:release "February_10,_2010" ;
+    ns1:title "File:Ember_Spark_logo.png_120px" ;
+    ns1:types "_e_Fire__e_Lightning_" .
+
+ns1:Emboar-EX_vs_Togekiss-EX_Deck_Kit_\(TCG\) a ns1:Deck ;
+    ns2:caption "Emboar-EX_vs_Togekiss-EX_Deck_Kit" ;
+    ns2:image "EmboarEX_vs_TogekissEX_Deck_Kit.jpg" ;
+    ns1:coin "File:XYE_Silver_Pikachu_Coin.png_50px" ;
+    ns1:release "July_18,_2015" ;
+    ns1:title "_tt_対戦スタートセット30「エンブオーEX_VS_トゲキッスEX」_Competition_Start_Set_30_Enbuoh-EX_VS_Togekiss-EX_" ;
+    ns1:types "_e_Fire__e_Lightning__e_Psychic__e_Fairy_" .
+
+ns1:Emerald_King_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "WCS2014_Emerald_King_Deck.jpg" ;
+    ns1:cards "" ;
+    ns1:size "280" ;
+    ns1:title "Emerald_King" ;
+    ns1:types "_e_Grass_" .
+
+ns1:Empotech_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "WCS2008_Empotech_Deck.png" ;
+    ns1:cards "_TCG_ID_Majestic_Dawn_Empoleon_17_,__TCG_ID_Great_Encounters_Claydol_15_,__TCG_ID_Diamond_&_Pearl_Dusknoir_2_" ;
+    ns1:size "220" ;
+    ns1:title "Empotech" ;
+    ns1:types "_e_Water_" .
+
+ns1:Enchanted_Echo_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "XY3_Enchanted_Echo_Deck.jpg" ;
+    ns1:coin "File:FFI_Silver_Mega_Lucario_Coin.png_50px" ;
+    ns1:expansion "_TCG_Furious_Fists_" ;
+    ns1:release "August_13,_2014" ;
+    ns1:title "Enchanted_Echo" ;
+    ns1:types "_e_Fairy__e_Grass_" .
+
+ns1:Endless_Night_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "DP4_Endless_Night_Deck.jpg" ;
+    ns1:coin "File:DPRD_Silver_Palkia_Coin.png_50px" ;
+    ns1:expansion "_TCG_Great_Encounters_" ;
+    ns1:release "February_13,_2008" ;
+    ns1:title "File:Endless_Night_logo.png_120px" ;
+    ns1:types "_e_Fire__e_Grass__e_Darkness_" .
+
+<http://example.org/resource/deck/Entry_Pack_'08_(TCG)> a ns1:Deck ;
+    ns2:caption "Entry_Pack_08_DX_box_art" ;
+    ns2:image "EntryPackDP08DX.jpg" ;
+    ns1:coin "File:DPEP08_Gold_Sinnoh_Partners_Coin.jpg_50px" ;
+    ns1:expansion "_TCG_Moonlit_Pursuit/Dawn_Dash_" ;
+    ns1:release "November_30,_2007" ;
+    ns1:title "_tt_エントリーパック_08/エントリーパック_08_DX_Entry_Pack_08/Entry_Pack_08_DX_" .
+
+ns1:Entry_Pack_\(TCG\) a ns1:Deck ;
+    ns2:caption "Package_art" ;
+    ns2:image "EntryPackDP.jpg" ;
+    ns1:coin "File:DP1_Silver_Sinnoh_Partners_Coin.jpg_50px" ;
+    ns1:expansion "_TCG_Space-Time_Creation_" ;
+    ns1:release "October_27,_2006" ;
+    ns1:title "_tt_エントリーパック_Entry_Pack_" .
+
+ns1:Entry_Pack_DPt_\(TCG\) a ns1:Deck ;
+    ns2:caption "Package_art" ;
+    ns2:image "EntryPackDPt.jpg" ;
+    ns1:coin "File:DPtEP_Red_Sinnoh_Partners_Coin.png_50px" ;
+    ns1:expansion "_TCG_Galactics_Conquest_" ;
+    ns1:release "October_10,_2008" ;
+    ns1:title "_tt_エントリーパック_Entry_Pack_" .
+
+ns1:Erika_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "O6_Erika_Deck.jpg" ;
+    ns1:coin "File:Wizards_Blue_Starmie_Coin.png_50px" ;
+    ns1:expansion "_TCG_Gym_Heroes_" ;
+    ns1:release "August_14,_2000" ;
+    ns1:title "Erika" ;
+    ns1:types "_e_Grass_" .
+
+ns1:Eternal_Time_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "DP4_Eternal_Time_Deck.jpg" ;
+    ns1:coin "File:DP3_Blue_Dialga_Coin.png_50px" ;
+    ns1:expansion "_TCG_Great_Encounters_" ;
+    ns1:release "February_13,_2008" ;
+    ns1:title "File:Eternal_Time_logo.png_120px" ;
+    ns1:types "_e_Fighting__e_Metal_" .
+
+<http://example.org/resource/deck/Everyone's_Exciting_Battle_(TCG)> a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "EveryoneExcitingBattle.jpg" ;
+    ns1:coin "File:WAK_Pink_Audino_Coin.png_50px" ;
+    ns1:release "November_16,_2012" ;
+    ns1:title "_tt_みんなのWAKUWAKUバトル_Everyones_Exciting_Battle_" ;
+    ns1:types "_e_Grass__e_Fire__e_Water__e_Lightning__e_Psychic__e_Fighting__e_Darkness__e_Metal_" .
+
+ns1:Evolution_V_Starter_Deck_\(ATCG\) a ns1:Deck ;
+    ns2:caption "Chinese_box_art" ;
+    ns2:image "SCC_V_Starter_Deck_Chinese.jpg" ;
+    ns1:release "Traditional_Chinese:_June_11,_2021Thai:_June_25,_2021Indonesian:_October_1,_2021" ;
+    ns1:title "Evolution_V_Starter_Deck" .
+
+ns1:Evolution_of_Chespin_\(KTCG\) a ns1:Deck ;
+    ns2:caption "Boxart" ;
+    ns2:image "EvolutionOfChespinDeck.jpg" ;
+    ns1:coin "File:FXY_Green_Kalos_Partners_Coin.png_50px" ;
+    ns1:release "March_4,_2014" ;
+    ns1:title "Evolution_of_Chespin_Half_Deck" ;
+    ns1:types "_e_Grass__e_Fairy_" .
+
+ns1:Evolution_of_Fennekin_\(KTCG\) a ns1:Deck ;
+    ns2:caption "Boxart" ;
+    ns2:image "EvolutionOfFennekinDeck.jpg" ;
+    ns1:coin "File:FXY_Red_Kalos_Partners_Coin.png_50px" ;
+    ns1:release "March_4,_2014" ;
+    ns1:title "Evolution_of_Fennekin_Half_Deck" ;
+    ns1:types "_e_Fire__e_Darkness_" .
+
+ns1:Evolution_of_Fire_\(KTCG\) a ns1:Deck .
+
+ns1:Evolution_of_Froakie_\(KTCG\) a ns1:Deck ;
+    ns2:caption "Boxart" ;
+    ns2:image "EvolutionOfFroakieDeck.jpg" ;
+    ns1:coin "File:FXY_Blue_Kalos_Partners_Coin.png_50px" ;
+    ns1:release "March_4,_2014" ;
+    ns1:title "Evolution_of_Froakie_Half_Deck" ;
+    ns1:types "_e_Water__e_Metal_" .
+
+ns1:Evolution_of_Grass_\(KTCG\) a ns1:Deck .
+
+ns1:Evolution_of_Water_\(KTCG\) a ns1:Deck .
+
+ns1:Evolutions_Prerelease_Kit_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "XY12_Prerelease_Kit.jpg" ;
+    ns1:expansion "_TCG_Evolutions_" ;
+    ns1:title "Evolutions_Prerelease_Kit" ;
+    ns1:types "_e_Fire__e_Water__e_Psychic__e_Fighting_" .
+
+<http://example.org/resource/deck/Evolving_Skies_Build_&_Battle_Box_(TCG)> a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "SWSH7_Build_Battle_Box.jpg" ;
+    ns1:expansion "_TCG_Evolving_Skies_" ;
+    ns1:title "Evolving_Skies_Build_&_Battle_Box" ;
+    ns1:types "_e_Lightning__e_Darkness__e_Psychic__e_Fighting__e_Grass_" .
+
+<http://example.org/resource/deck/Ex_Battle_Decks—Ampharos_&_Lucario_(TCG)> a ns1:Deck ;
+    ns2:caption "Collective_box_art" ;
+    ns1:coin "File:exBD_White_ex_Coin.jpg_50px" ;
+    ns1:release "May_5,_2023" ;
+    ns1:title "ex_Battle_Decks—Ampharos_&_Lucario" ;
+    ns1:types "_e_Lightning__e_Fighting_" .
+
+<http://example.org/resource/deck/Ex_Battle_Decks—Chien-Pao_&_Tinkaton_(TCG)> a ns1:Deck ;
+    ns2:caption "Collective_box_art" ;
+    ns1:coin "File:exBD_Aqua_ex_Coin.jpg_50px" ;
+    ns1:release "July_14,_2023" ;
+    ns1:title "ex_Battle_Decks—Chien-Pao_&_Tinkaton" ;
+    ns1:types "_e_Water__e_Psychic_" .
+
+<http://example.org/resource/deck/Ex_Battle_Decks—Greninja_&_Kangaskhan_(TCG)> a ns1:Deck ;
+    ns2:caption "Collective_box_art" ;
+    ns1:coin "File:exBD_White_ex_Coin.jpg_50px" ;
+    ns1:release "October_6,_2023" ;
+    ns1:title "ex_Battle_Decks—Greninja_&_Kangaskhan" ;
+    ns1:types "_e_Water__e_Grass_" .
+
+<http://example.org/resource/deck/Ex_Battle_Decks—Houndoom_&_Melmetal_(TCG)> a ns1:Deck ;
+    ns2:caption "Collective_box_art" ;
+    ns1:coin "File:exBD_White_ex_Coin.jpg_50px" ;
+    ns1:release "April_5,_2024" ;
+    ns1:title "ex_Battle_Decks—Houndoom_&_Melmetal" ;
+    ns1:types "_e_Darkness__e_Metal_" .
+
+<http://example.org/resource/deck/Ex_Battle_Decks—Tapu_Koko_&_Iron_Leaves_(TCG)> a ns1:Deck ;
+    ns1:coin "File:SVB_Aqua_ex_Coin.png_50px_(physical_products)File:exBD_White_ex_Coin.jpg_50px_(Pokémon_TCG_Live)" ;
+    ns1:release "October_18,_2024" ;
+    ns1:title "ex_Battle_Decks—Tapu_Koko_&_Iron_Leaves" ;
+    ns1:types "_e_Grass__e_Lightning_" .
+
+<http://example.org/resource/deck/Ex_Battle_Decks—Victini_&_Miraidon_(TCG)> a ns1:Deck ;
+    ns2:caption "Collective_box_art" ;
+    ns1:coin "File:ExBD_Aqua_ex_Coin.jpg_50px" ;
+    ns1:release "_July_12,_2024" ;
+    ns1:title "ex_Battle_Decks—Victini_&_Miraidon" ;
+    ns1:types "_e_Fire__e_Lightning_" .
+
+ns1:Ex_Compact_Deck_\(ATCG\) a ns1:Deck ;
+    ns2:caption "Box_art-->" ;
+    ns2:image "ex_Compact_Deck.png" ;
+    ns1:release "November_10,_2023" ;
+    ns1:size "300" ;
+    ns1:title "ex_Compact_Deck" .
+
+ns1:Ex_Special_Set_\(TCG\) a ns1:Deck ;
+    ns2:caption "ex_Special_Set" ;
+    ns2:image "ex_Special_Set.jpg" ;
+    ns1:release "Japanese:_May_19,_2023Traditional_Chinese:_June_2,_2023Korean:_July_7,_2023" ;
+    ns1:size "220" ;
+    ns1:title "_tt_exスペシャルセット_ex_Special_Set_" .
+
+ns1:Ex_Start_Decks_\(TCG\) a ns1:Deck ;
+    ns2:caption "Collective_box_art" ;
+    ns2:image "ex_Start_Decks.png" ;
+    ns1:coin "" ;
+    ns1:release "Japanese:July_7,_2023_(basic_and_Random_decks)November_24,_2023_(Tera_decks)Traditional_Chinese:July_21,_2023_(basic_and_Random_decks)Korean:September_8,_2023_(basic_decks)September_15,_2023_(Random_deck)" ;
+    ns1:size "300" ;
+    ns1:title "_tt_exスタートデッキ_ex_Start_Deck_" .
+
+<http://example.org/resource/deck/Ex_Starter_Set_Marnie's_Morpeko_&_Grimmsnarl_ex_(TCG)> a ns1:Deck ;
+    ns2:caption "Box_art-->" ;
+    ns2:image "none.png" ;
+    ns1:coin "File:None.png_50px-->" ;
+    ns1:release "February_21,_2025<!--" ;
+    ns1:title "_tt_スターターセットex_マリィのモルペコ&オーロンゲex_ex_Starter_Set_Marnies_Morpeko_&_Grimmsnarl_ex_<!--" .
+
+<http://example.org/resource/deck/Ex_Starter_Set_Pikachu_ex_&_Pawmot_(TCG)> a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "ex_Starter_Set_Pikachu_ex.png" ;
+    ns1:coin "File:SVC_Gold_Pikachu_Coin.png_50px/File:SVC_Silver_Pikachu_Coin.png_50px" ;
+    ns1:release "Japanese:_March_24,_2023Korean:_April_22,_2023Traditional_Chinese:_April_28,_2023" ;
+    ns1:title "_tt_スターターセットex_ピカチュウex&パーモット_ex_Starter_Set_Pikachu_ex_&_Pawmot_" .
+
+<http://example.org/resource/deck/Ex_Starter_Set_Steven's_Beldum_&_Metagross_ex_(TCG)> a ns1:Deck ;
+    ns2:caption "Box_art-->" ;
+    ns2:image "none.png" ;
+    ns1:coin "File:None.png_50px-->" ;
+    ns1:release "February_21,_2025<!--" ;
+    ns1:title "_tt_スターターセットex_ダイゴのダンバル&メタグロスex_ex_Starter_Set_Stevens_Beldum_&_Metagross_ex_<!--" .
+
+ns1:Ex_Starter_Sets_\(TCG\) a ns1:Deck ;
+    ns2:caption "Collective_box_art" ;
+    ns2:image "ex_Starter_Sets.jpg" ;
+    ns1:coin "File:SVAM_Green_Sprigatito_Coin.png_50px/File:SVAL_Red_Fuecoco_Coin.png_50px/File:SVAW_Blue_Quaxly_Coin.png_50px" ;
+    ns1:release "Japanese:_January_20,_2023Traditional_Chinese:_February_3,_2023Thai:_February_24,_2023Korean:_February_28,_2023Indonesian:_March_3,_2023" ;
+    ns1:size "300" ;
+    ns1:title "_tt_スターターセットex_ex_Starter_Set_" .
+
+ns1:Explosive_Edge_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "BW4_Explosive_Edge_Deck.jpg" ;
+    ns1:coin "File:BW4_Black_Unova_Legends_Coin.png_50px" ;
+    ns1:expansion "_TCG_Next_Destinies_" ;
+    ns1:release "February_8,_2012" ;
+    ns1:title "File:Explosive_Edge_logo.png_120px" ;
+    ns1:types "_e_Water__e_Fire_" .
+
+ns1:Exploud_Illustrated_Booklet_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "Exploud_Illustrated_Booklet_BR.jpg" ;
+    ns1:expansion "_TCG_EX_Emerald_" ;
+    ns1:release "March_2006" ;
+    ns1:title "Exploud_Livro_Ilustrado" ;
+    ns1:types "_e_Water__e_Psychic__e_Colorless_" .
+
+ns1:Extra_Regulation_Box_\(TCG\) a ns1:Deck ;
+    ns2:caption "Extra_Regulation_Box" ;
+    ns2:image "Extra_Regulation_Box.jpg" ;
+    ns1:release "October_4,_2019" ;
+    ns1:size "250" ;
+    ns1:title "_tt_エクストラレギュレーションBOX_Extra_Regulation_Box_" .
+
+ns1:Fast_Daze_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "BW3_Fast_Daze_Deck.jpg" ;
+    ns1:coin "File:BW3_Blue_EscavalierAccelgor_Coin.png_50px" ;
+    ns1:expansion "_TCG_Noble_Victories_" ;
+    ns1:release "November_2,_2011" ;
+    ns1:title "File:Fast_Daze_logo.png_120px" ;
+    ns1:types "_e_Grass__e_Fire_" .
+
+ns1:Fates_Collide_Prerelease_Kit_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "" ;
+    ns1:expansion "_TCG_Fates_Collide_" ;
+    ns1:title "Fates_Collide_Prerelease_Kit" ;
+    ns1:types "_e_Fire__e_Water__e_Fighting__e_Darkness_" .
+
+ns1:Fennekin_Deck_\(TCG\) a ns1:Deck ;
+    ns2:caption "Boxart" ;
+    ns2:image "Fennekin_Kalos_Starter_Set_Deck.jpg" ;
+    ns1:coin "File:KSS_Red_Fennekin_Coin.png_50px" ;
+    ns1:title "Fennekin_Deck" ;
+    ns1:types "_e_Fire__e_Darkness_" .
+
+ns1:Feraligatr_Constructed_Starter_Deck_\(TCG\) a ns1:Deck ;
+    ns2:caption "Package_art" ;
+    ns2:image "Golden_Sky_Silvery_Ocean_-_Feraligatr_Deck.jpg" ;
+    ns1:coin "File:PCG4S_Blue_Totodile_Coin.png_50px" ;
+    ns1:expansion "_TCG_Golden_Sky,_Silvery_Ocean_" ;
+    ns1:release "March_5,_2005" ;
+    ns1:title "_tt_構築済みスターター_オーダイルex★水_Pre-built_Starter_Ordile_ex★_Water_" ;
+    ns1:types "_e_Water__e_Lightning__e_Colorless_" .
+
+ns1:Feraligatr_ex_Epic_Collection_Deck_\(TCG\) a ns1:Deck .
+
+<http://example.org/resource/deck/Fire/Lightning_Battle_Strength_Set_(TCG)> a ns1:Deck ;
+    ns2:caption "Fire/Lightning_Battle_Strength_Set" ;
+    ns2:image "Fire_Lightning_Battle_Strength_Set.jpg" ;
+    ns1:release "December_26,_2015" ;
+    ns1:size "250" ;
+    ns1:title "_tt_バトル強化セット炎/雷_Fire/Lightning_Battle_Strength_Set_" .
+
+ns1:FireFang_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "EX3_FireFang_Deck.jpg" ;
+    ns1:coin "File:ADV3S_Blue_Salamence_Coin.png_50px" ;
+    ns1:expansion "_TCG_EX_Dragon_" ;
+    ns1:release "November_24,_2003" ;
+    ns1:title "File:FireFang_logo.png_120px" ;
+    ns1:types "_e_Fire__e_Water_" .
+
+ns1:FireMist_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "EX13_FireMist_Deck.jpg" ;
+    ns1:coin "File:EX13_Gold_Flygon_Coin.jpg_50px" ;
+    ns1:expansion "_TCG_EX_Holon_Phantoms_" ;
+    ns1:release "May_3,_2006" ;
+    ns1:title "File:FireMist_logo.png_120px" ;
+    ns1:types "_e_Fire__e_Fighting_" .
+
+ns1:FireRed_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "EX6_FireRed_Deck.jpg" ;
+    ns1:coin "File:PCG1S_Red_Charmander_Coin.png_50px" ;
+    ns1:expansion "_TCG_EX_FireRed_&_LeafGreen_" ;
+    ns1:release "August_30,_2004" ;
+    ns1:title "File:FireRed_logo.png_120px" ;
+    ns1:types "_e_Water__e_Fire_" .
+
+ns1:Fire_Box_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "WCS2019_Fire_Box_Deck.jpg" ;
+    ns1:release "November_22,_2019" ;
+    ns1:title "Fire_Box" ;
+    ns1:types "_e_Fire_" .
+
+ns1:First_Impact_GX_Starter_Deck_\(ATCG\) a ns1:Deck ;
+    ns2:caption "Thai_box_art" ;
+    ns2:image "AS1D_GX_Starter_Deck_Thai.jpg" ;
+    ns1:expansion "_ATCG_First_Impact_" ;
+    ns1:release "Thai:_February_1,_2019Indonesian:_August_11,_2019" ;
+    ns1:title "First_Impact_GX_Starter_Deck" .
+
+ns1:Flamemaster_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "PL4_Flamemaster_Deck.jpg" ;
+    ns1:coin "" ;
+    ns1:expansion "_TCG_Platinum:_Arceus_Arceus_" ;
+    ns1:release "November_4,_2009" ;
+    ns1:title "File:Flamemaster_logo.png_120px" ;
+    ns1:types "_e_Fire__e_Grass_" .
+
+ns1:FloodRush_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "EX13_FloodRush_Deck.jpg" ;
+    ns1:coin "File:EX13_Silver_Rayquaza_Coin.png_50px" ;
+    ns1:expansion "_TCG_EX_Holon_Phantoms_" ;
+    ns1:release "May_3,_2006" ;
+    ns1:title "File:FloodRush_logo.png_120px" ;
+    ns1:types "_e_Water__e_Psychic_" .
+
+ns1:Flourish_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "PL1_Flourish_Deck.jpg" ;
+    ns1:coin "File:PL1_Green_Shaymin_Coin.png_50px" ;
+    ns1:expansion "_TCG_Platinum_" ;
+    ns1:release "February_11,_2009" ;
+    ns1:title "File:Flourish_logo.png_120px" ;
+    ns1:types "_e_Grass__e_Fire_" .
+
+ns1:Flygon_Constructed_Starter_Deck_\(TCG\) a ns1:Deck ;
+    ns2:caption "Package_art" ;
+    ns2:image "ADV3_Flygon_Deck.jpg" ;
+    ns1:coin "File:ADV3S_Green_Flygon_Coin.png_50px" ;
+    ns1:expansion "_TCG_Rulers_of_the_Heavens_" ;
+    ns1:release "June_25,_2003" ;
+    ns1:title "_tt_構築済みスターター_フライゴンデッキ_Pre-built_Starter_Flygon_Deck_" ;
+    ns1:types "_e_Grass__e_Lightning__e_Fighting__e_Colorless_" .
+
+ns1:Flyvees_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "WCS2007_Flyvees_Deck.jpg" ;
+    ns1:cards "_TCG_ID_EX_Dragon_Frontiers_Flygon_ex_δ_92_,__TCG_ID_EX_Delta_Species_Jolteon_ex_109_,__TCG_ID_EX_Delta_Species_Vaporeon_ex_110_" ;
+    ns1:size "280" ;
+    ns1:title "Flyvees" ;
+    ns1:types "_e_Psychic__e_Lightning_" .
+
+<http://example.org/resource/deck/Forbidden_Light_Build_&_Battle_Box_(TCG)> a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "SM6_Build_Battle_Box.jpg" ;
+    ns1:expansion "_TCG_Forbidden_Light_" ;
+    ns1:title "Forbidden_Light_Build_&_Battle_Box" ;
+    ns1:types "_e_Grass__e_Lightning__e_Psychic__e_Fighting_" .
+
+ns1:Forest_Force_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "DP5_Forest_Force_Deck.jpg" ;
+    ns1:coin "File:DP5_Silver_Sinnoh_Partners_Coin.png_50px" ;
+    ns1:expansion "_TCG_Majestic_Dawn_" ;
+    ns1:release "May_21,_2008" ;
+    ns1:title "File:Forest_Force_logo.png_120px" ;
+    ns1:types "_e_Grass__e_Psychic_" .
+
+ns1:Forest_Guardian_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "EX5_Forest_Guardian_Deck.jpg" ;
+    ns1:coin "File:EX05_Green_Celebi_Coin.png_50px" ;
+    ns1:expansion "_TCG_EX_Hidden_Legends_" ;
+    ns1:release "June_14,_2004" ;
+    ns1:title "File:Forest_Guardian_logo.png_120px" ;
+    ns1:types "_e_Colorless__e_Grass_" .
+
+ns1:Forest_Shadow_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "SM1_Forest_Shadow_Deck.jpg" ;
+    ns1:coin "File:SUM_Green_Rowlet_Coin.png_50px" ;
+    ns1:expansion "_TCG_Sun_&_Moon_" ;
+    ns1:release "January_20,_2017" ;
+    ns1:title "File:Forest_Shadow_logo.png_120px" ;
+    ns1:types "_e_Grass_" .
+
+ns1:Froakie_Deck_\(TCG\) a ns1:Deck ;
+    ns2:caption "Boxart" ;
+    ns2:image "Froakie_Kalos_Starter_Set_Deck.jpg" ;
+    ns1:coin "File:KSS_Blue_Froakie_Coin.png_50px" ;
+    ns1:title "Froakie_Deck" ;
+    ns1:types "_e_Water__e_Metal_" .
+
+ns1:Frost_Ray_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "BW9_Frost_Ray_Deck.jpg" ;
+    ns1:coin "File:BW9_Orange_Deoxys_Coin.png_50px" ;
+    ns1:expansion "_TCG_Plasma_Freeze_" ;
+    ns1:release "May_8,_2013" ;
+    ns1:title "File:Frost_Ray_logo.png_120px" ;
+    ns1:types "_e_Water__e_Lightning_" .
+
+ns1:Furious_Knights_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "BW3_Furious_Knights_Deck.jpg" ;
+    ns1:coin "File:BW3_Silver_EscavalierAccelgor_Coin.png_50px" ;
+    ns1:expansion "_TCG_Noble_Victories_" ;
+    ns1:release "November_2,_2011" ;
+    ns1:title "File:Furious_Knights_logo.png_120px" ;
+    ns1:types "_e_Lightning__e_Metal_" .
+
+<http://example.org/resource/deck/Fusion_Strike_Build_&_Battle_Box_(TCG)> a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "SWSH8_Build_Battle_Box.jpg" ;
+    ns1:expansion "_TCG_Fusion_Strike_" ;
+    ns1:title "Fusion_Strike_Build_&_Battle_Box" ;
+    ns1:types "_e_Fire__e_Water__e_Psychic__e_Dragon__e_Grass_" .
+
+ns1:GX_Starter_Decks_\(TCG\) a ns1:Deck ;
+    ns2:caption "Collective_box_art" ;
+    ns2:image "GX_Starter_Decks.jpg" ;
+    ns1:release "July_13,_2018" ;
+    ns1:size "220" ;
+    ns1:title "_tt_GXスタートデッキ_GX_Start_Decks_" .
+
+ns1:Galarian_Darmanitan_Theme_Deck_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "SWSH3_Galarian_Darmanitan_Deck.jpg" ;
+    ns1:coin "" ;
+    ns1:expansion "_TCG_Darkness_Ablaze_" ;
+    ns1:release "August_14,_2020" ;
+    ns1:title "Galarian_Darmanitan_Theme_Deck" ;
+    ns1:types "_e_Water_" .
+
+<http://example.org/resource/deck/Galarian_Sirfetch'd_Theme_Deck_(TCG)> a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "SWSH3_Galarian_Sirfetchd_Deck.jpg" ;
+    ns1:coin "File:DAA_Green_Sirfetchd_Coin.png_50px" ;
+    ns1:expansion "_TCG_Darkness_Ablaze_" ;
+    ns1:release "August_14,_2020" ;
+    ns1:title "Galarian_Sirfetchd_Theme_Deck" ;
+    ns1:types "_e_Fighting_" .
+
+ns1:Garbanette_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "WCS2018_Garbanette_Deck.jpg" ;
+    ns1:release "November_14,_2018" ;
+    ns1:title "Garbanette" ;
+    ns1:types "_e_Psychic_" .
+
+ns1:Garchomp_Half_Deck_\(TCG\) a ns1:Deck .
+
+ns1:Garchomp_vs_Charizard_SP_Deck_Kit_\(TCG\) a ns1:Deck ;
+    ns2:caption "Package_art" ;
+    ns2:image "GarchompVSCharizardSPDeckKit.jpg" ;
+    ns1:coin "File:PL3_Pink_GarchompCharizard_Coin.png_50px" ;
+    ns1:expansion "_TCG_Beat_of_the_Frontier_" ;
+    ns1:release "March_6,_2009" ;
+    ns1:title "_tt_対戦スターターパックSP_ガブリアスVSリザードン_Competition_Starter_Pack_SP_Gaburias_VS_Lizardon_" .
+
+ns1:Gardevoir_ex_League_Battle_Deck_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "Gardevoir_ex_League_Battle_Deck.jpg" ;
+    ns1:release "April_19,_2024" ;
+    ns1:title "Gardevoir_ex_League_Battle_Deck" ;
+    ns1:types "_e_Psychic_" .
+
+ns1:Gears_of_Fire_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "XY11_Gears_of_Fire_Deck.jpg" ;
+    ns1:coin "File:STS_Red_Volcanion_Coin.png_50px_/_File:STS_Cracked_Ice_Volcanion_Coin.png_50px" ;
+    ns1:expansion "_TCG_Steam_Siege_" ;
+    ns1:release "August_3,_2016" ;
+    ns1:title "File:Gears_of_Fire_logo.png_120px" ;
+    ns1:types "_e_Fire__e_Metal_" .
+
+ns1:Generations_Start_Decks_\(TCG\) a ns1:Deck ;
+    ns2:caption "Collective_box_art-->" ;
+    ns2:image "Generations_Start_Decks.png" ;
+    ns1:coin "-->" ;
+    ns1:release "November_22,_2024<!--" ;
+    ns1:size "300" ;
+    ns1:title "_tt_スタートデッキGenerations_Generations_Start_Deck_<!--" .
+
+ns1:Gengar_Illustrated_Booklet_\(TCG\) a ns1:Deck ;
+    ns2:caption "Gengar_Illustrated_Booklet" ;
+    ns2:image "Gengar_Illustrated_Booklet_BR.jpg" ;
+    ns1:coin "" ;
+    ns1:expansion "_TCG_EX_Legend_Maker_" ;
+    ns1:release "" ;
+    ns1:title "Gengar_Livro_Ilustrado" ;
+    ns1:types "_e_Psychic__e_Fire__e_Colorless_" .
+
+ns1:Gift_Box_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "Latias_&_Latios_Gift_Set_-_Box_front.jpg" ;
+    ns1:coin "File:GB_Gold_Pikachu_Coin.png_50px" ;
+    ns1:release "November_17,_2003" ;
+    ns1:title "_tt_ギフトボックス_Gift_Box_" .
+
+ns1:Gift_Box_DPt_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "GiftBoxDPt.jpg" ;
+    ns1:release "November_20,_2008" ;
+    ns1:title "_tt_DPt_ギフトボックス_DPt_Gift_Box_" .
+
+ns1:Gift_Box_Emerald_\(TCG\) a ns1:Deck ;
+    ns2:caption "Gift_box_and_contents" ;
+    ns2:image "GiftBoxEmerald.jpg" ;
+    ns1:coin "File:GBE_Pixel_Pikachu_Coin.jpg_50px" ;
+    ns1:release "November_19,_2004" ;
+    ns1:title "_tt_ギフトボックス_エメラルドver._Gift_Box_Emerald_ver._" .
+
+<http://example.org/resource/deck/Gift_Box_Mew_•_Lucario_(TCG)> a ns1:Deck ;
+    ns2:caption "Gift_box_and_contents" ;
+    ns2:image "GiftBoxMewLucario.jpg" ;
+    ns1:coin "File:GBML_Bronze_Pikachu_Coin.png_50px" ;
+    ns1:release "November_16,_2005" ;
+    ns1:title "_tt_ギフトボックス_ミュウ・ルカリオver._Gift_Box_Mew_•_Lucario_ver._" .
+
+ns1:Giovanni_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "O7_Giovanni_Deck.jpg" ;
+    ns1:coin "File:GC_Purple_Alakazam_Coin.png_50px" ;
+    ns1:expansion "_TCG_Gym_Challenge_" ;
+    ns1:release "October_16,_2000" ;
+    ns1:title "Giovanni" ;
+    ns1:types "_e_Fighting_" .
+
+ns1:Giratina_vs_Dialga_Deck_Kit_\(TCG\) a ns1:Deck ;
+    ns2:caption "Package_art" ;
+    ns2:image "GiratinaVSDialgaDeckKit.jpg" ;
+    ns1:coin "File:PL1_Green_Shaymin_Coin.png_50px" ;
+    ns1:expansion "_TCG_Intense_Fight_in_the_Destroyed_Sky_" ;
+    ns1:release "July_10,_2008" ;
+    ns1:title "_tt_対戦スターターパック_ギラティナVSディアルガ_Competition_Starter_Pack_Giratina_VS_Dialga_" .
+
+ns1:Golden_Sky_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "EX10_Golden_Sky_Deck.jpg" ;
+    ns1:coin "File:EX10_Orange_Energy_Coin.png_50px" ;
+    ns1:expansion "_TCG_EX_Unseen_Forces_" ;
+    ns1:release "August_22,_2005" ;
+    ns1:title "File:Golden_Sky_logo.png_120px" ;
+    ns1:types "_e_Fire__e_Fighting_" .
+
+<http://example.org/resource/deck/Golduck_BREAK_+_Palkia-EX_Combo_Deck_(TCG)> a ns1:Deck ;
+    ns2:caption "Golduck_BREAK_Palkia-EX_Combo_Deck" ;
+    ns2:image "Golduck_BREAK_Palkia-EX_Combo_Deck.jpg" ;
+    ns1:coin "File:XYF_Silver_Golduck_Palkia_Coin.png_50px" ;
+    ns1:release "October_9,_2015" ;
+    ns1:size "220" ;
+    ns1:title "_tt_BREAKコンボデッキ60ゴルダックBREAK+パルキアEX_BREAK_Combo_Deck_60_GolduckBREAK+PalkiaEX_" ;
+    ns1:types "_e_Water_" .
+
+ns1:Golem_Illustrated_Booklet_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "Golem_Illustrated_Booklet_BR.png" ;
+    ns1:coin "" ;
+    ns1:expansion "_TCG_EX_Legend_Maker_" ;
+    ns1:release "December_2008" ;
+    ns1:title "Golem_Livro_Ilustrado" ;
+    ns1:types "_e_Fighting__e_Lightning__e_Colorless_" .
+
+ns1:Golisodor_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "WCS2017_Golisodor_Deck.jpg" ;
+    ns1:title "Golisodor" ;
+    ns1:types "_e_Grass__e_Psychic_" .
+
+<http://example.org/resource/deck/Grass/Fighting_Battle_Strength_Set_(TCG)> a ns1:Deck ;
+    ns2:caption "Grass/Fighting_Battle_Strength_Set" ;
+    ns2:image "Grass_Fighting_Battle_Strength_Set.jpg" ;
+    ns1:release "December_26,_2015" ;
+    ns1:size "250" ;
+    ns1:title "_tt_バトル強化セット_草/闘_Grass/Fighting_Battle_Strength_Set_" .
+
+ns1:Grass_Chopper_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "O4_Grass_Chopper_Deck.jpg" ;
+    ns1:coin "File:Wizards_Yellow_Pikachu_Coin.png_50px" ;
+    ns1:expansion "_TCG_Base_Set_2_" ;
+    ns1:release "February_24,_2000" ;
+    ns1:title "Grass_Chopper" ;
+    ns1:types "_e_Fighting__e_Grass_" .
+
+ns1:Green_Cyclone_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "EX14_Green_Cyclone_Deck.jpg" ;
+    ns1:coin "File:PCG8S_Red_Groudon_Coin.png_50px" ;
+    ns1:expansion "_TCG_EX_Crystal_Guardians_" ;
+    ns1:release "August_30,_2006" ;
+    ns1:title "File:Green_Cyclone_logo.png_120px" ;
+    ns1:types "_e_Grass_" .
+
+ns1:Green_Tornado_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "BW1_Green_Tornado_Deck.jpg" ;
+    ns1:coin "File:BW1_Green_Partners_Coin.png_50px" ;
+    ns1:expansion "_TCG_Black_&_White_" ;
+    ns1:release "April_6,_2011" ;
+    ns1:title "File:Green_Tornado_logo.png_120px" ;
+    ns1:types "_e_Grass__e_Psychic_" .
+
+ns1:Groundbreaker_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "EX12_Groundbreaker_Deck.jpg" ;
+    ns1:coin "File:EX12_Silver_Mew_Coin.png_50px" ;
+    ns1:expansion "_TCG_EX_Legend_Maker_" ;
+    ns1:release "February_13,_2006" ;
+    ns1:title "File:Groundbreaker_logo.png_120px" ;
+    ns1:types "_e_Grass__e_Fighting_" .
+
+ns1:Growth_Clash_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "HS1_Growth_Clash_Deck.jpg" ;
+    ns1:coin "File:HS1_Green_Chikorita_Coin.png_50px" ;
+    ns1:expansion "_TCG_HeartGold_&_SoulSilver_" ;
+    ns1:release "February_10,_2010" ;
+    ns1:title "File:Growth_Clash_logo.png_120px" ;
+    ns1:types "_e_Grass__e_Fighting_" .
+
+ns1:Guardians_Rising_Prerelease_Kit_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "" ;
+    ns1:expansion "_TCG_Guardians_Rising_" ;
+    ns1:title "Guardians_Rising_Prerelease_Kit" ;
+    ns1:types "_e_Grass__e_Water__e_Fighting__e_Darkness_" .
+
+ns1:Guren_Town_Gym_\(TCG\) a ns1:Deck ;
+    ns2:caption "Package_art" ;
+    ns2:image "GurenTownGymDeck.jpg" ;
+    ns1:coin "File:GTG_Red_Arcanine_Coin.png_50px" ;
+    ns1:expansion "_TCG_Challenge_from_the_Darkness_" ;
+    ns1:release "February_26,_1999" ;
+    ns1:title "_tt_グレンタウンジム_カツラ_Guren_Town_Gym_Katsura_" ;
+    ns1:types "_e_Fire_" .
+
+ns1:HS_Trainer_Kit_\(TCG\) a ns1:Deck ;
+    ns2:caption "Package_art" ;
+    ns2:image "HSTrainerKit.jpg" ;
+    ns1:coin "File:GB_Gold_Pikachu_Coin.png_50px/File:HSTK_Speckle_Pikachu_Coin.png_50px/File:EX10_Silver_Pikachu_Coin.jpg_50px" ;
+    ns1:release "May_12,_2010" ;
+    ns1:title "HS_Trainer_Kit" ;
+    ns1:types "_e_Water__e_Lightning_" .
+
+ns1:Hanada_City_Gym_\(TCG\) a ns1:Deck ;
+    ns2:caption "Package_art" ;
+    ns2:image "HanadaCityGymDeck.jpg" ;
+    ns1:coin "File:HCG_Blue_Starmie_Coin.png_50px" ;
+    ns1:expansion "_TCG_Leaders_Stadium_" ;
+    ns1:release "April_26,_1998" ;
+    ns1:title "_tt_ハナダシティジム_カスミ_Hanada_City_Gym_Kasumi_" ;
+    ns1:types "_e_Water_" .
+
+ns1:Happy_Luck_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "WCS2010_Happy_Luck_Deck.png" ;
+    ns1:cards "_TCG_ID_Stormfront_Gyarados_19_,_Luxray_GL_LV.X_(Rising_Rivals_109)_Luxray__SP_GL__Luxray_GL_LV.X_(Rising_Rivals_109)_LV.X,__TCG_ID_Great_Encounters_Felicitys_Drawing_98_" ;
+    ns1:size "280" ;
+    ns1:title "Happy_Luck" ;
+    ns1:types "_e_Water_" .
+
+ns1:Heatran_vs_Regigigas_Deck_Kit_\(TCG\) a ns1:Deck ;
+    ns2:caption "Package_art" ;
+    ns2:image "HeatranVSRegigigasDeckKit.jpg" ;
+    ns1:coin "File:DP5_Silver_GliscorMewtwo_Coin.png_50px" ;
+    ns1:expansion "_TCG_Cry_from_the_Mysterious/Temple_of_Anger_" ;
+    ns1:release "March_14,_2008" ;
+    ns1:title "_tt_対戦スターターパック_ヒードランVSレジギガス_Competition_Starter_Pack_Heatran_VS_Regigigas_" .
+
+ns1:Hidden_Moon_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "SM2_Hidden_Moon_Deck.jpg" ;
+    ns1:coin "File:GRI_Purple_Lunala_Coin.png_50px" ;
+    ns1:expansion "_TCG_Guardians_Rising_" ;
+    ns1:release "May_5,_2017" ;
+    ns1:title "File:Hidden_Moon_logo.png_120px" ;
+    ns1:types "_e_Psychic__e_Fire_" .
+
+ns1:Hidden_Shadow_GX_Starter_Deck_\(ITCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "AS3Di_GX_Starter_Deck.jpg" ;
+    ns1:expansion "_ATCG_Hidden_Shadow_" ;
+    ns1:release "December_30,_2019" ;
+    ns1:title "Hidden_Shadow_GX_Starter_Deck" .
+
+ns1:Hidden_Shadow_GX_Starter_Decks_\(TTCG\) a ns1:Deck ;
+    ns2:caption "Collective_box_art" ;
+    ns2:image "AS3D_GX_Starter_Decks.jpg" ;
+    ns1:expansion "Hidden_Shadow_(ATCG)_Hidden_Shadow" ;
+    ns1:release "August_11,_2019" ;
+    ns1:size "280" ;
+    ns1:title "Hidden_Shadow_GX_Starter_Decksซันแอนด์มูน_GX_Starter_Deck_เงาอำพราง" .
+
+ns1:High-Class_Decks_\(TCG\) a ns1:Deck ;
+    ns2:caption "Collective_box_art" ;
+    ns2:image "High-Class_Decks.jpg" ;
+    ns1:coin "File:SGG_Silver_Gigantamax_Gengar_Coin.png_50px/File:SGI_Silver_Gigantamax_Inteleon_Coin.png_50px" ;
+    ns1:release "May_28,_2021" ;
+    ns1:size "300" ;
+    ns1:title "_tt_ハイクラスデッキ_High-Class_Decks_" .
+
+ns1:Ho-Oh_Illustrated_Booklet_\(TCG\) a ns1:Deck ;
+    ns2:image "Ho-Oh_Illustrated_Booklet_BR.jpg" ;
+    ns1:expansion "_TCG_EX_Unseen_Forces_" ;
+    ns1:release "May_2006" ;
+    ns1:title "Ho-Oh_Livro_Ilustrado" ;
+    ns1:types "_e_Fire__e_Fighting_" .
+
+ns1:Ho-Oh_Legendary_Battle_Deck_\(TCG\) a ns1:Deck ;
+    ns2:caption "Package_art" ;
+    ns2:image "Ho-Oh_Legendary_Battle_Deck.jpg" ;
+    ns1:coin "" ;
+    ns1:title "Ho-Oh_Legendary_Battle_Deck" ;
+    ns1:types "_e_Grass__e_Fire__e_Water__e_Lightning__e_Psychic__e_Fighting__e_Darkness__e_Metal__e_Fairy__e_Dragon__e_Colorless_" .
+
+ns1:Holon_Research_Tower_Fire_Quarter_Deck_\(TCG\) a ns1:Deck ;
+    ns2:caption "Package_art" ;
+    ns2:image "HolonResearchTowerFireQuarterDeck.jpg" ;
+    ns1:expansion "_TCG_Holon_Research_Tower_" ;
+    ns1:release "September_30,_2005_(Early_release)October_7,_2005_(General_release)" ;
+    ns1:title "_tt_ホロンの研究塔ハーフデッキ1/2炎EX_Holon_Research_Tower_Half_Deck_1/2_Fire_EX_" ;
+    ns1:types "_e_Fire_" .
+
+ns1:Holon_Research_Tower_Lightning_Quarter_Deck_\(TCG\) a ns1:Deck ;
+    ns2:caption "Package_art" ;
+    ns2:image "HolonResearchTowerLightningQuarterDeck.jpg" ;
+    ns1:expansion "_TCG_Holon_Research_Tower_" ;
+    ns1:release "September_30,_2005_(Early_release)October_7,_2005_(General_release)" ;
+    ns1:title "_tt_ホロンの研究塔ハーフデッキ1/2雷EX_Holon_Research_Tower_Half_Deck_1/2_Lightning_EX_" ;
+    ns1:types "_e_Lightning_" .
+
+ns1:Holon_Research_Tower_Water_Quarter_Deck_\(TCG\) a ns1:Deck ;
+    ns2:caption "Package_art" ;
+    ns2:image "HolonResearchTowerWaterQuarterDeck.jpg" ;
+    ns1:expansion "_TCG_Holon_Research_Tower_" ;
+    ns1:release "September_30,_2005_(Early_release)October_7,_2005_(General_release)" ;
+    ns1:title "_tt_ホロンの研究塔ハーフデッキ1/2水EX_Holon_Research_Tower_Half_Deck_1/2_Water_EX_" ;
+    ns1:types "_e_Water_" .
+
+ns1:HonorStoise_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "WCS2015_HonorStoise.jpg" ;
+    ns1:cards "" ;
+    ns1:size "280" ;
+    ns1:title "HonorStoise" ;
+    ns1:types "_e_Water_" .
+
+ns1:Hot_Water_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "O4_Hot_Water_Deck.jpg" ;
+    ns1:coin "File:Wizards_Yellow_Pikachu_Coin.png_50px" ;
+    ns1:expansion "_TCG_Base_Set_2_" ;
+    ns1:release "February_24,_2000" ;
+    ns1:title "Hot_Water" ;
+    ns1:types "_e_Fire__e_Water_" .
+
+ns1:Hotfoot_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "N1_Hotfoot_Deck.jpg" ;
+    ns1:coin "File:Wizards_Metal_Lugia_Coin.png_50px" ;
+    ns1:expansion "_TCG_Neo_Genesis_" ;
+    ns1:release "December_16,_2000" ;
+    ns1:title "Hotfoot" ;
+    ns1:types "_e_Grass__e_Fire_" .
+
+ns1:Hydreigon_Half_Deck_\(TCG\) a ns1:Deck .
+
+ns1:Hydro_Fury_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "SM7_Hydro_Fury_Deck.jpg" ;
+    ns1:coin "" ;
+    ns1:expansion "_TCG_Celestial_Storm_" ;
+    ns1:release "August_3,_2018" ;
+    ns1:title "File:Hydro_Fury_logo.png_120px" ;
+    ns1:types "_e_Water__e_Fire_" .
+
+ns1:Hydrobloom_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "EX9_Hydrobloom_Deck.jpg" ;
+    ns1:coin "File:EX09_Blue_Energy_Coin.png_50px" ;
+    ns1:expansion "_TCG_EX_Emerald_" ;
+    ns1:release "May_9,_2005" ;
+    ns1:title "File:Hydrobloom_logo.png_120px" ;
+    ns1:types "_e_Water__e_Grass_" .
+
+ns1:Hyper_Metal_Chain_Deck_\(TCG\) a ns1:Deck .
+
+ns1:Ice_Path_FTW_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "WCS2017_Ice_Path_FTW_Deck.jpg" ;
+    ns1:title "Ice_Path_FTW" ;
+    ns1:types "_e_Water_" .
+
+ns1:Ice_Rider_Calyrex_VMAX_League_Battle_Deck_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "Ice_Rider_Calyrex_VMAX_League_Battle_Deck.jpg" ;
+    ns1:title "Ice_Rider_Calyrex_VMAX_League_Battle_Deck" ;
+    ns1:types "_e_Water_" .
+
+ns1:Ice_Rider_Palkia_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "WCS2022_Ice_Rider_Palkia_Deck.jpg" ;
+    ns1:release "March_3,_2023" ;
+    ns1:title "Ice_Rider_Palkia" ;
+    ns1:types "_e_Water_" .
+
+ns1:Ice_Shock_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "BW7_Ice_Shock_Deck.jpg" ;
+    ns1:coin "File:BW7_Blue_Black_Kyurem_Coin.png_50px" ;
+    ns1:expansion "_TCG_Boundaries_Crossed_" ;
+    ns1:release "November_7,_2012" ;
+    ns1:title "File:Ice_Shock_logo.png_120px" ;
+    ns1:types "_e_Water__e_Lightning__e_Dragon_" .
+
+ns1:Ignition_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "PL3_Ignition_Deck.jpg" ;
+    ns1:coin "File:PL3_Pink_GarchompCharizard_Coin.png_50px_" ;
+    ns1:expansion "_TCG_Supreme_Victors_" ;
+    ns1:release "August_19,_2009" ;
+    ns1:title "File:Ignition_logo.png_120px" ;
+    ns1:types "_e_Fire__e_Grass_" .
+
+ns1:Imperial_Command_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "SM5_Imperial_Command_Deck.jpg" ;
+    ns1:coin "File:UPR_Blue_Empoleon_Coin.png_50px" ;
+    ns1:expansion "_TCG_Ultra_Prism_" ;
+    ns1:release "February_2,_2018" ;
+    ns1:title "File:Imperial_Command_logo.png_120px" ;
+    ns1:types "_e_Water_" .
+
+<http://example.org/resource/deck/Imprison!_Gardevoir_ex_Constructed_Standard_Deck_(TCG)> a ns1:Deck ;
+    ns2:caption "Package_art" ;
+    ns2:image "ImprisonGardevoirexConstructedDeck.jpg" ;
+    ns1:coin "File:PCG9S_Silver_Gardevoir_Coin.png_50px" ;
+    ns1:expansion "_TCG_Offense_and_Defense_of_the_Furthest_Ends_" ;
+    ns1:release "June_29,_2006" ;
+    ns1:title "_tt_構築済みデッキ_封印!サーナイトex_Pre-built_Deck_Seal!_Sirnight_ex_" ;
+    ns1:types "_e_Fire__e_Psychic_" .
+
+ns1:Infernape_vs_Gallade_SP_Deck_Kit_\(TCG\) a ns1:Deck ;
+    ns2:caption "Package_art" ;
+    ns2:image "InfernapeVSGalladeSPDeckKit.jpg" ;
+    ns1:coin "File:PL2_Gold_InfernapeGallade_Coin.png_50px" ;
+    ns1:expansion "_TCG_Bonds_to_the_End_of_Time_" ;
+    ns1:release "December_26,_2008" ;
+    ns1:title "_tt_対戦スターターパックSP_ゴウカザルVSエルレイド_Competition_Starter_Pack_SP_Goukazaru_VS_Erureido_" .
+
+ns1:Inferno_Zone_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "DP1_Inferno_Zone_Deck.jpg" ;
+    ns1:coin "File:DP1_Red_Sinnoh_Partners_Coin.png_50px" ;
+    ns1:expansion "_TCG_Diamond_&_Pearl_" ;
+    ns1:release "May_23,_2007" ;
+    ns1:title "File:Inferno_Zone_logo.png_120px" ;
+    ns1:types "_e_Fire__e_Fighting_" .
+
+ns1:Infinite_Force_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "WCS2017_Infinite_Force_Deck.jpg" ;
+    ns1:title "Infinite_Force" ;
+    ns1:types "_e_Fairy__e_Fighting_" .
+
+ns1:Infinite_Power_V_Starter_Deck_\(ATCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "SC2D_V_Starter_Deck.jpg" ;
+    ns1:expansion "_ATCG_Infinite_Power_" ;
+    ns1:release "August_21,_2020" ;
+    ns1:title "Infinite_Power_V_Starter_Deck" .
+
+ns1:Infinite_Space_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "DP4_Infinite_Space_Deck.jpg" ;
+    ns1:coin "File:DP3_Pink_Palkia_Coin.png_50px" ;
+    ns1:expansion "_TCG_Great_Encounters_" ;
+    ns1:release "February_13,_2008" ;
+    ns1:title "File:Infinite_Space_logo.png_120px" ;
+    ns1:types "_e_Water__e_Psychic_" .
+
+ns1:Inteleon_Theme_Deck_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "SWSH1_Inteleon_Deck.jpg" ;
+    ns1:coin "" ;
+    ns1:expansion "_TCG_Sword_&_Shield_" ;
+    ns1:release "February_7,_2020" ;
+    ns1:title "Inteleon_Theme_Deck" ;
+    ns1:types "_e_Water_" .
+
+ns1:Inteleon_VMAX_League_Battle_Deck_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "Inteleon_VMAX_League_Battle_Deck.jpg" ;
+    ns1:title "Inteleon_VMAX_League_Battle_Deck" ;
+    ns1:types "_e_Water_" .
+
+ns1:Intimidation_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "WCS2008_Intimidation_Deck.png" ;
+    ns1:cards "_TCG_ID_Majestic_Dawn_Scizor_29_,__TCG_ID_Majestic_Dawn_Toxicroak_31_" ;
+    ns1:size "220" ;
+    ns1:title "Intimidation_" ;
+    ns1:types "_e_Psychic__e_Metal_" .
+
+ns1:Intro_Pack_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "IntroPack.jpg" ;
+    ns1:coin "File:IP_Pink_Chansey_Coin.png_50px" ;
+    ns1:release "July_30,_1999" ;
+    ns1:title "_tt_イントロパック_Intro_Pack_" .
+
+ns1:Intro_Pack_Neo_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "IntroPackNeo.jpg" ;
+    ns1:coin "File:IP_Pink_Chansey_Coin.png_50px" ;
+    ns1:release "April_6,_2001" ;
+    ns1:title "_tt_イントロパック★neo_Intro_Pack_★Neo_" .
+
+ns1:Iron_Tide_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "XY7_Iron_Tide_Deck.jpg" ;
+    ns1:coin "File:AOR_Silver_Primal_Kyogre_Coin.png_50px_/_File:AOR_Silver_Primal_Groudon_Coin.png_50px_/_File:AOR_Silver_Mega_Rayquaza_Coin.png_50px" ;
+    ns1:expansion "_TCG_Ancient_Origins_" ;
+    ns1:release "August_12,_2015" ;
+    ns1:title "Iron_Tide" ;
+    ns1:types "_e_Water__e_Metal_" .
+
+ns1:James_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "EX7_James_Deck.jpg" ;
+    ns1:coin "File:PCG3S_Red_Rocket_Coin.png_50px" ;
+    ns1:expansion "_TCG_EX_Team_Rocket_Returns_" ;
+    ns1:release "November_8,_2004" ;
+    ns1:title "File:James_logo.png_120px" ;
+    ns1:types "_e_Grass__e_Water__e_Lightning_" .
+
+ns1:Jetstream_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "EX8_Jetstream_Deck.jpg" ;
+    ns1:coin "File:PCG2S_Silver_Rayquaza_Coin.png_50px" ;
+    ns1:expansion "_TCG_EX_Deoxys_" ;
+    ns1:release "February_14,_2005" ;
+    ns1:title "File:Jetstream_logo.png_120px" ;
+    ns1:types "_e_Fire__e_Water__e_Lightning_" .
+
+ns1:Keldeo_Battle_Strength_Deck_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "KeldeoBattleStrengthDeck.jpg" ;
+    ns1:release "April_20,_2012" ;
+    ns1:title "_tt_バトル強化デッキ30_ケルディオ_Battle_Strength_Deck_Keldeo_" ;
+    ns1:types "_e_Water__e_Metal__e_Darkness_" .
+
+ns1:King_of_the_West_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "WCS2005_King_of_the_West_Deck.jpg" ;
+    ns1:cards "_TCG_ID_EX_Deoxys_Ludicolo_10_,__TCG_ID_EX_Deoxys_Magcargo_20_" ;
+    ns1:size "280" ;
+    ns1:title "King_of_the_West" ;
+    ns1:types "_e_Water_" .
+
+ns1:Koga_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "O7_Koga_Deck.jpg" ;
+    ns1:coin "File:GC_Purple_Alakazam_Coin.png_50px" ;
+    ns1:expansion "_TCG_Gym_Challenge_" ;
+    ns1:release "October_16,_2000" ;
+    ns1:title "Koga" ;
+    ns1:types "_e_Grass_" .
+
+ns1:Kuchiba_City_Gym_\(TCG\) a ns1:Deck ;
+    ns2:caption "Package_art" ;
+    ns2:image "KuchibaCityGymDeck.jpg" ;
+    ns1:coin "File:KCG_Yellow_Raichu_Coin.png_50px" ;
+    ns1:expansion "_TCG_Leaders_Stadium_" ;
+    ns1:release "July_25,_1998" ;
+    ns1:title "_tt_クチバシティジム_マチス_Kuchiba_City_Gym_Matisse_" ;
+    ns1:types "_e_Lightning_" .
+
+ns1:Laser_Focus_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "SM11_Laser_Focus_Deck.jpg" ;
+    ns1:coin "File:UNM_Gray_Necrozma_Coin.png_50px" ;
+    ns1:expansion "_TCG_Unified_Minds_" ;
+    ns1:release "August_2,_2019" ;
+    ns1:title "File:Laser_Focus_logo.png_120px" ;
+    ns1:types "_e_Psychic_" .
+
+ns1:Lava_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "LC1_Lava_Deck.jpg" ;
+    ns1:coin "File:Wizards_Metal_Lugia_Coin.png_50px" ;
+    ns1:expansion "_TCG_Legendary_Collection_" ;
+    ns1:release "May_24,_2002" ;
+    ns1:title "Lava" ;
+    ns1:types "_e_Fighting__e_Fire_" .
+
+ns1:Lavaflow_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "DP3_Lavaflow_Deck.jpg" ;
+    ns1:coin "File:DP3_Silver_Munchlax_Coin.png_50px" ;
+    ns1:expansion "_TCG_Secret_Wonders_" ;
+    ns1:release "November_7,_2007" ;
+    ns1:title "File:Lavaflow_logo.png_120px" ;
+    ns1:types "_e_Fire__e_Grass_" .
+
+ns1:LeafGreen_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "EX6_LeafGreen_Deck.jpg" ;
+    ns1:coin "File:PCG1S_Green_Bulbasaur_Coin.png_50px" ;
+    ns1:expansion "_TCG_EX_FireRed_&_LeafGreen_" ;
+    ns1:release "August_30,_2004" ;
+    ns1:title "File:LeafGreen_logo.png_120px" ;
+    ns1:types "_e_Grass__e_Lightning_" .
+
+ns1:Leaf_Charge_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "SM7_Leaf_Charge_Deck.jpg" ;
+    ns1:coin "" ;
+    ns1:expansion "_TCG_Celestial_Storm_" ;
+    ns1:release "August_3,_2018" ;
+    ns1:title "File:Leaf_Charge_logo.png_120px" ;
+    ns1:types "_e_Grass__e_Lightning_" .
+
+ns1:Leafeon_vs_Metagross_Expert_Deck_\(TCG\) a ns1:Deck .
+
+ns1:Legendary_Ascent_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "WCS2007_Legendary_Ascent_Deck.jpg" ;
+    ns1:cards "_TCG_ID_EX_Dragon_Frontiers_Rayquaza_ex_δ_97_,__TCG_ID_EX_Power_Keepers_Absol_ex_92_,__TCG_ID_EX_Legend_Maker_Mew_ex_88_" ;
+    ns1:size "280" ;
+    ns1:title "Legendary_Ascent" ;
+    ns1:types "_e_Lightning_" .
+
+ns1:Legendary_Clash_GX_Starter_Deck_\(ATCG\) a ns1:Deck ;
+    ns2:caption "Chinese_box_art" ;
+    ns2:image "AS6D_GX_Starter_Deck_Chinese.jpg" ;
+    ns1:expansion "_ATCG_Legendary_Clash_" ;
+    ns1:release "Traditional_Chinese:_April_10,_2020Thai:_May_24,_2020" ;
+    ns1:title "Legendary_Clash_GX_Starter_Deck" .
+
+ns1:Legends_Awakened_GX_Starter_Deck_\(ITCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "AS2Di_GX_Starter_Deck.jpg" ;
+    ns1:expansion "_ATCG_Legends_Awakened_" ;
+    ns1:release "October_26,_2019" ;
+    ns1:title "Legends_Awakened_GX_Starter_Deck" .
+
+ns1:Legends_Awakened_GX_Starter_Decks_\(TTCG\) a ns1:Deck ;
+    ns2:caption "Collective_box_art" ;
+    ns2:image "AS2D_GX_Starter_Decks.jpg" ;
+    ns1:expansion "_ATCG_Legends_Awakened_" ;
+    ns1:release "May_9,_2019" ;
+    ns1:size "280" ;
+    ns1:title "Legends_Awakened_GX_Starter_Decks" .
+
+<http://example.org/resource/deck/Let's_Play,_Eevee!_(TCG)> a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "Lets_Play_Eevee_Deck.jpg" ;
+    ns1:coin "" ;
+    ns1:release "May_3,_2019" ;
+    ns1:title "Lets_Play,_Eevee!" ;
+    ns1:types "_e_Fire___e_Colorless_" .
+
+<http://example.org/resource/deck/Let's_Play,_Pikachu!_(TCG)> a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "Lets_Play_Pikachu_Deck.jpg" ;
+    ns1:coin "" ;
+    ns1:release "May_3,_2019" ;
+    ns1:title "Lets_Play,_Pikachu!" ;
+    ns1:types "_e_Lightning_" .
+
+ns1:Light_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "N4_Light_Deck.jpg" ;
+    ns1:coin "File:Wizards_Metal_Lugia_Coin.png_50px" ;
+    ns1:expansion "_TCG_Neo_Destiny_" ;
+    ns1:release "February_28,_2002" ;
+    ns1:title "Light" ;
+    ns1:types "_e_Fighting__e_Water_" .
+
+ns1:Lightning_Bug_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "O4_Lightning_Bug_Deck.jpg" ;
+    ns1:coin "File:Wizards_Yellow_Pikachu_Coin.png_50px" ;
+    ns1:expansion "_TCG_Base_Set_2_" ;
+    ns1:release "February_24,_2000" ;
+    ns1:title "Lightning_Bug" ;
+    ns1:types "_e_Lightning__e_Grass_" .
+
+ns1:Lightning_Loop_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "SM10_Lightning_Loop_Deck.jpg" ;
+    ns1:coin "File:UNB_Light_Gold_Zeraora_Coin.png_50px" ;
+    ns1:expansion "_TCG_Unbroken_Bonds_" ;
+    ns1:release "May_3,_2019" ;
+    ns1:title "File:Lightning_Loop_logo.png_120px" ;
+    ns1:types "_e_Lightning_" .
+
+<http://example.org/resource/deck/Lillie's_Support_Box_(ATCG)> a ns1:Deck ;
+    ns2:caption "Lillies_Support_Box" ;
+    ns2:image "CSML_Box.png" ;
+    ns1:release "November_11,_2022" ;
+    ns1:size "250" ;
+    ns1:title "_tt_莉莉艾的声援专属礼盒_Lillies_Support_Box_" .
+
+ns1:LockDown_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "O3_LockDown_Deck.jpg" ;
+    ns1:coin "File:Wizards_Brown_Aerodactyl_Coin.png_50px" ;
+    ns1:expansion "_TCG_Fossil_" ;
+    ns1:release "October_10,_1999" ;
+    ns1:title "File:LockDown_logo.png_120px" ;
+    ns1:types "_e_Fire__e_Water_" .
+
+ns1:Lost_Box_Kyogre_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "WCS2023_Lost_Box_Kyogre.jpg" ;
+    ns1:release "March_1,_2024" ;
+    ns1:title "Lost_Box_Kyogre" ;
+    ns1:types "_e_Water__e_Lightning__e_Psychic_" .
+
+<http://example.org/resource/deck/Lost_Origin_Build_&_Battle_Box_(TCG)> a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "SWSH11_Build_Battle_Box.jpg" ;
+    ns1:expansion "_TCG_Lost_Origin_" ;
+    ns1:title "Lost_Origin_Build_&_Battle_Box" ;
+    ns1:types "_e_Grass__e_Water__e_Psychic__e_Fighting_" .
+
+<http://example.org/resource/deck/Lost_Thunder_Build_&_Battle_Box_(TCG)> a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "SM8_Build_Battle_Box.jpg" ;
+    ns1:expansion "_TCG_Lost_Thunder_" ;
+    ns1:title "Lost_Thunder_Build_&_Battle_Box" ;
+    ns1:types "_e_Water__e_Lightning__e_Psychic__e_Fairy_" .
+
+ns1:Lt._Surge_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "O6_Lt_Surge_Deck.jpg" ;
+    ns1:coin "File:Wizards_Blue_Starmie_Coin.png_50px" ;
+    ns1:expansion "_TCG_Gym_Heroes_" ;
+    ns1:release "August_14,_2000" ;
+    ns1:title "Lt._Surge" ;
+    ns1:types "_e_Lightning_" .
+
+ns1:Lugia_Illustrated_Booklet_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "Lugia_Illustrated_Booklet_BR.png" ;
+    ns1:expansion "_TCG_EX_Unseen_Forces_" ;
+    ns1:release "June_2006" ;
+    ns1:title "Lugia_Livro_Ilustrado" ;
+    ns1:types "_e_Grass__e_Water__e_Psychic_" .
+
+ns1:Lugia_Legendary_Battle_Deck_\(TCG\) a ns1:Deck ;
+    ns2:caption "Package_art" ;
+    ns2:image "Lugia_Legendary_Battle_Deck.jpg" ;
+    ns1:coin "" ;
+    ns1:title "Lugia_Legendary_Battle_Deck" ;
+    ns1:types "_e_Psychic__e_Colorless_" .
+
+ns1:Luminous_Frost_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "SM3_Luminous_Frost_Deck.jpg" ;
+    ns1:coin "File:BSH_Blue_Alolan_Ninetales_Coin.png_50px" ;
+    ns1:expansion "_TCG_Burning_Shadows_" ;
+    ns1:release "August_4,_2017" ;
+    ns1:title "File:Luminous_Frost_logo.png_120px" ;
+    ns1:types "_e_Water__e_Fire_" .
+
+ns1:LuxChomp_of_the_Spirit_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "WCS2010_LuxChomp_of_the_Spirit_Deck.jpg" ;
+    ns1:cards "Luxray_GL_LV.X_(Rising_Rivals_109)_Luxray__SP_GL__Luxray_GL_LV.X_(Rising_Rivals_109)_LV.X,_Garchomp_C_LV.X_(Supreme_Victors_145)_Garchomp__SP_C__Garchomp_C_LV.X_(Supreme_Victors_145)_LV.X" ;
+    ns1:size "280" ;
+    ns1:title "LuxChomp_of_the_Spirit" ;
+    ns1:types "_e_Lightning__e_Colorless_" .
+
+ns1:Luxdrill_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "WCS2009_Luxdrill_Deck.jpg" ;
+    ns1:cards "_TCG_ID_Great_Encounters_Beedrill_13_,__TCG_ID_Rising_Rivals_Beedrill_15_" ;
+    ns1:size "280" ;
+    ns1:title "Luxdrill" ;
+    ns1:types "_e_Grass_" .
+
+ns1:Lycanroc-GX_Full_Power_Battle_Starter_Set_\(KTCG\) a ns1:Deck ;
+    ns2:caption "Lycanroc-GX_Full_Power_Battle_Starter_Set" ;
+    ns2:image "Lycanroc-GX_Full_Power_Battle_Starter_Set.jpg_" ;
+    ns1:coin "File:SMB_Silver_Coin.png_50px" ;
+    ns1:release "March_20,_2017" ;
+    ns1:title "_tt_전격_스타터_세트「라이코_GX」_Lycanroc-GX_Full_Power_Battle_Starter_Set_" ;
+    ns1:types "_e_Fire__e_Water__e_Fighting__e_Colorless_" .
+
+ns1:M_Audino-EX_Mega_Battle_Deck_\(TCG\) a ns1:Deck ;
+    ns2:caption "M_Audino-EX_Mega_Battle_Deck" ;
+    ns2:image "M_Audino-EX_Mega_Battle_Deck.jpg" ;
+    ns1:coin "_File:XYH_Silver_Mega_Audino_Coin.png_50px" ;
+    ns1:release "March_18,_2016" ;
+    ns1:title "_tt_メガバトルデッキ60_MメガタブンネEX_M_Audino-EX_Mega_Battle_Deck_" ;
+    ns1:types "_e_Fairy__e_Colorless_" .
+
+ns1:M_Charizard-EX_Mega_Battle_Deck_\(TCG\) a ns1:Deck .
+
+ns1:M_Master_Deck_Build_Box_Power_Style_\(TCG\) a ns1:Deck ;
+    ns2:caption "M_Master_Deck_Build_Box_Power_Style" ;
+    ns2:image "M_Master_Deck_Build_Box_Power_Style.jpg" ;
+    ns1:release "August_7,_2015" ;
+    ns1:size "250" ;
+    ns1:title "_tt_MマスターデッキビルドBOX_パワースタイル_M_Master_Deck_Build_Box_Power_Style_" .
+
+ns1:M_Master_Deck_Build_Box_Speed_Style_\(TCG\) a ns1:Deck ;
+    ns2:caption "M_Master_Deck_Build_Box_Speed_Style" ;
+    ns2:image "M_Master_Deck_Build_Box_Speed_Style.jpg" ;
+    ns1:release "August_7,_2015" ;
+    ns1:size "250" ;
+    ns1:title "_tt_MマスターデッキビルドBOX_スピードスタイル_M_Master_Deck_Build_Box_Speed_Style_" .
+
+ns1:M_Rayquaza-EX_Mega_Battle_Deck_\(TCG\) a ns1:Deck ;
+    ns2:caption "M_Rayquaza-EX_Mega_Battle_Deck" ;
+    ns2:image "M_Rayquaza-EX_Mega_Battle_Deck.jpg" ;
+    ns1:coin "File:XYD_Gold_Mega_Rayquaza_Coin.png_50px" ;
+    ns1:release "March_14,_2015" ;
+    ns1:title "_tt_メガバトルデッキ60_MレックウザEX_M_Rayquaza-EX_Mega_Battle_Deck_" .
+
+ns1:Mach_Strike_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "SM5_Mach_Strike_Deck.jpg" ;
+    ns1:coin "File:UPR_Yellow_Gold_Garchomp_Coin.png_50px" ;
+    ns1:expansion "_TCG_Ultra_Prism_" ;
+    ns1:release "February_2,_2018" ;
+    ns1:title "File:Mach_Strike_logo.png_120px" ;
+    ns1:types "_e_Fighting_" .
+
+ns1:Machamp_Illustrated_Booklet_\(TCG\) a ns1:Deck ;
+    ns2:image "" ;
+    ns1:coin "" ;
+    ns1:expansion "_TCG_EX_Legend_Maker_" ;
+    ns1:release "" ;
+    ns1:title "Machamp_Livro_Ilustrado" ;
+    ns1:types "_e_Fighting__e_Grass_" .
+
+ns1:Magical_Symphony_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "WCS2016_Magical_Symphony.jpg" ;
+    ns1:cards "" ;
+    ns1:size "280" ;
+    ns1:title "Magical_Symphony" ;
+    ns1:types "_e_Metal__e_Colorless_" .
+
+ns1:Magma_Deck_Kit_\(TCG\) a ns1:Deck ;
+    ns2:caption "Package_art" ;
+    ns2:image "ADV_EX1_Magma_Deck_Kit.jpg" ;
+    ns1:coin "File:ADV4S_Orange_Magma_Coin.png_50px" ;
+    ns1:expansion "_TCG_Magma_VS_Aqua:_Two_Ambitions_" ;
+    ns1:release "October_24,_2003" ;
+    ns1:title "_tt_構築済みデッキ_マグマ団ハーフデッキW_Pre-built_Deck_Magma_Gang_Half_Deck_W_" ;
+    ns1:types "_e_Fire__e_Fighting__e_Darkness_" .
+
+ns1:Magma_Spirit_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "WCS2004_Magma_Spirit_Deck.jpg" ;
+    ns1:cards "_TCG_ID_EX_Team_Magma_vs_Team_Aqua_Team_Magmas_Groudon_9_" ;
+    ns1:size "280" ;
+    ns1:title "Magma_Spirit" ;
+    ns1:types "_e_Fighting__e_Psychic_" .
+
+ns1:Magmortar_vs_Electivire_Deck_Kit_\(TCG\) a ns1:Deck ;
+    ns2:caption "Package_art" ;
+    ns2:image "MagmortarVSElectivireDeckKit.jpg" ;
+    ns1:coin "File:DP4_Silver_MagmortarElectivire_Coin.png_50px" ;
+    ns1:expansion "_TCG_Moonlit_Pursuit/Dawn_Dash_" ;
+    ns1:release "October_26,_2007" ;
+    ns1:title "_tt_対戦スターターパック_ブーバーンVSエレキブル_Competition_Starter_Pack_Booburn_VS_Elekible_" .
+
+ns1:Master_Deck_Build_Box_EX_\(TCG\) a ns1:Deck .
+
+ns1:Master_Kit_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "MasterKit.jpg" ;
+    ns1:coin "File:MK_Silver_Energy_Coin.png_50px" ;
+    ns1:release "July_15,_2005" ;
+    ns1:title "_tt_マスターキット_Master_Kit_" .
+
+ns1:Meganium_Constructed_Starter_Deck_\(TCG\) a ns1:Deck ;
+    ns2:caption "Package_art" ;
+    ns2:image "Golden_Sky_Silvery_Ocean_-_Meganium_Deck.jpg" ;
+    ns1:coin "File:PCG4S_Green_Chikorita_Coin.png_50px" ;
+    ns1:expansion "_TCG_Golden_Sky,_Silvery_Ocean_" ;
+    ns1:release "March_5,_2005" ;
+    ns1:title "_tt_構築済みスターター_メガニウムex★草_Pre-built_Starter_Meganium_ex★_Grass_" ;
+    ns1:types "_e_Grass__e_Psychic__e_Colorless_" .
+
+ns1:Meganium_ex_Epic_Collection_Deck_\(TCG\) a ns1:Deck .
+
+ns1:Megazone_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "WCS2011_Megazone_Deck.jpg" ;
+    ns1:cards "_TCG_ID_Triumphant_Yanmega_98_,__TCG_ID_Triumphant_Magnezone_96_" ;
+    ns1:title "Megazone" ;
+    ns1:types "_e_Lightning_" .
+
+ns1:Mercury_\(TCG\) a ns1:Deck ;
+    ns1:cards "_TCG_ID_EX_Delta_Species_Gardevoir_δ_6_,__TCG_ID_EX_Delta_Species_Starmie_δ_15_" ;
+    ns1:title "Mercury" ;
+    ns1:types "_e_Psychic__e_Water__e_Metal_" .
+
+ns1:Metagross_Constructed_Starter_Deck_\(TCG\) a ns1:Deck ;
+    ns2:caption "Package_art" ;
+    ns2:image "ADV4_Metagross_Deck.jpg" ;
+    ns1:coin "File:ADV4S_Silver_Metagross_Coin.png_50px" ;
+    ns1:expansion "_TCG_Undone_Seal_" ;
+    ns1:release "January_16,_2004" ;
+    ns1:title "_tt_構築済みスターター_メタグロスデッキ_Pre-built_Starter_Metagross_Deck_" ;
+    ns1:types "_e_Psychic__e_Fighting__e_Metal_" .
+
+ns1:Metal_Surge_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "DP6_Metal_Surge_Deck.jpg" ;
+    ns1:coin "File:DP6_Brown_GliscorMewtwo_Coin.png_50px_" ;
+    ns1:expansion "_TCG_Legends_Awakened_" ;
+    ns1:release "August_20,_2008" ;
+    ns1:title "File:Metal_Surge_logo.png_120px" ;
+    ns1:types "_e_Grass__e_Metal_" .
+
+<http://example.org/resource/deck/Mew's_Revenge_(TCG)> a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "WCS2023_Mew_Revenge.jpg" ;
+    ns1:release "March_1,_2024" ;
+    ns1:title "Mews_Revenge" ;
+    ns1:types "_e_Psychic_" .
+
+ns1:Mew_VMAX_League_Battle_Deck_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "Mew_VMAX_League_Battle_Deck.jpg" ;
+    ns1:release "November_11,_2022" ;
+    ns1:title "Mew_VMAX_League_Battle_Deck" ;
+    ns1:types "_e_Psychic_" .
+
+ns1:Mewtrick_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "WCS2006_Mewtrick_Deck.jpg" ;
+    ns1:cards "_TCG_ID_EX_Deoxys_Manectric_ex_101_,__TCG_ID_EX_Legend_Maker_Mew_ex_88_" ;
+    ns1:title "Mewtrick" ;
+    ns1:types "_e_Lightning_" .
+
+ns1:Mewtwo_Mayhem_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "XY12_Mewtwo_Mayhem_Deck.jpg" ;
+    ns1:coin "File:EVO_Pink_Chansey_Coin.png_50px" ;
+    ns1:expansion "_TCG_Evolutions_" ;
+    ns1:release "November_2,_2016" ;
+    ns1:title "Mewtwo_Mayhem" ;
+    ns1:types "_e_Psychic__e_Fighting_" .
+
+ns1:Mewtwo_vs_Genesect_Deck_Kit_\(TCG\) a ns1:Deck .
+
+ns1:Mind_Blown_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "WCS2019_Mind_Blown_Deck.jpg" ;
+    ns1:release "November_22,_2019" ;
+    ns1:title "Mind_Blown" ;
+    ns1:types "_e_Fire__e_Psychic_" .
+
+ns1:Mind_Flood_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "HS1_Mind_Flood_Deck.jpg" ;
+    ns1:coin "File:HS1_Teal_Totodile_Coin.png_50px" ;
+    ns1:expansion "_TCG_HeartGold_&_SoulSilver_" ;
+    ns1:release "February_10,_2010" ;
+    ns1:title "File:Mind_Flood_logo.png_120px" ;
+    ns1:types "_e_Water__e_Psychic_" .
+
+ns1:Mind_Game_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "EX16_Mind_Game_Deck.jpg" ;
+    ns1:coin "File:EX16_Purple_Gardevoir_Coin.png_50px" ;
+    ns1:expansion "_TCG_EX_Power_Keepers_" ;
+    ns1:release "February_14,_2007" ;
+    ns1:title "File:Mind_Game_logo.png_120px" ;
+    ns1:types "_e_Psychic__e_Fighting_" .
+
+ns1:Mind_Machine_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "E3_Mind_Machine_Deck.jpg" ;
+    ns1:coin "File:Wizards_Metal_Lugia_Coin.png_50px" ;
+    ns1:expansion "_TCG_Skyridge_" ;
+    ns1:release "May_12,_2003" ;
+    ns1:title "File:Mind_Machine_logo.png_120px" ;
+    ns1:types "_e_Grass__e_Fire__e_Water__e_Lightning__e_Psychic__e_Fighting_" .
+
+ns1:Mind_Wipe_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "BW10_Mind_Wipe_Deck.jpg" ;
+    ns1:coin "File:BW10_Purple_Genesect_Coin.png_50px" ;
+    ns1:expansion "_TCG_Plasma_Blast_" ;
+    ns1:release "August_14,_2013" ;
+    ns1:title "File:Mind_Wipe_logo.png_120px" ;
+    ns1:types "_e_Psychic__e_Grass_" .
+
+<http://example.org/resource/deck/Mirage's_Mew_Constructed_Starter_Deck_(TCG)> a ns1:Deck ;
+    ns2:caption "Packaging" ;
+    ns2:image "MirageMewConstructedStarterDeck.jpg" ;
+    ns1:coin "File:PCG5S_Pink_Mew_Coin.png_50px" ;
+    ns1:expansion "_TCG_Mirage_Forest_" ;
+    ns1:release "June_30,_2005" ;
+    ns1:title "_tt_構築済みスターター_まぼろしのミュウ_Pre-built_Starter_Mirages_Mew_" ;
+    ns1:types "_e_Lightning__e_Psychic_" .
+
+ns1:Miraidon_ex_League_Battle_Deck_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "Miraidon_ex_League_Battle_Deck.jpg" ;
+    ns1:release "November_17,_2023" ;
+    ns1:title "Miraidon_ex_League_Battle_Deck" ;
+    ns1:types "_e_lightning_" .
+
+ns1:Misty_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "O6_Misty_Deck.jpg" ;
+    ns1:coin "File:Wizards_Blue_Starmie_Coin.png_50px" ;
+    ns1:expansion "_TCG_Gym_Heroes_" ;
+    ns1:release "August_14,_2000" ;
+    ns1:title "Misty" ;
+    ns1:types "_e_Water_" .
+
+ns1:Moltres_Legendary_Battle_Deck_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "Legendary_Battle_Deck_Moltres.jpg" ;
+    ns1:coin "File:LBD_Silver_Plasma_Coin.png_50px" ;
+    ns1:title "Moltres_Legendary_Battle_Deck" ;
+    ns1:types "_e_Fire__e_Darkness_" .
+
+<http://example.org/resource/deck/Movie_Commemoration_VS_Pack:_Aura's_Lucario_(TCG)> a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "Lucario_Movie_Commemoration_VS_Pack.jpg" ;
+    ns1:coin "File:VS8_Blue_Lucario_Coin.png_50px" ;
+    ns1:release "July_16,_2005" ;
+    ns1:title "_tt_映画公開記念VSパック_波導のルカリオ_Movie_Commemoration_VS_Pack:_Auras_Lucario_" ;
+    ns1:types "_e_Psychic__e_Fighting__e_Darkness__e_Metal_" .
+
+<http://example.org/resource/deck/Movie_Commemoration_VS_Pack:_Sea's_Manaphy_(TCG)> a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "Manaphy_Movie_Commemoration_VS_Pack.jpg" ;
+    ns1:coin "File:VS9_Blue_Manaphy_Coin.png_50px" ;
+    ns1:release "July_15,_2006" ;
+    ns1:title "_tt_映画公開記念VSパック_蒼海のマナフィ_Movie_Commemoration_VS_Pack:_Seas_Manaphy_" ;
+    ns1:types "_e_Grass__e_Fire__e_Water__e_Psychic_" .
+
+<http://example.org/resource/deck/Movie_Commemoration_VS_Pack:_Sky-Splitting_Deoxys_(TCG)> a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "Deoxys_Movie_Commemoration_VS_Pack.jpg" ;
+    ns1:coin "File:VS7_Silver_Munchlax_Coin.png_50px" ;
+    ns1:release "July_17,_2004" ;
+    ns1:title "_tt_映画公開記念VSパック_裂空のデオキシス_Movie_Commemoration_VS_Pack:_Sky-Splitting_Deoxys_" ;
+    ns1:types "_e_Psychic__e_Fire__e_Water_" .
+
+ns1:Movie_Commemoration_VS_Pack_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "MovieCommemorationVSPack.jpg" ;
+    ns1:coin "File:VS6_Gold_Jirachi_Coin.png_50px" ;
+    ns1:release "July_19,_2003" ;
+    ns1:title "_tt_映画公開記念VSパック_Movie_Commemoration_VS_Pack_" ;
+    ns1:types "_e_Grass__e_Psychic__e_Darkness_" .
+
+ns1:Mudkip_Constructed_Starter_Deck_\(TCG\) a ns1:Deck ;
+    ns2:caption "Package_art" ;
+    ns2:image "MudkipConstructedStarterDeck.jpg" ;
+    ns1:coin "File:ADV1S_Blue_Mudkip_Coin.png_50px" ;
+    ns1:expansion "_TCG_ADV_Expansion_Pack_Expansion_Pack_" ;
+    ns1:release "January_31,_2003" ;
+    ns1:title "_tt_築済みスターター_ミズゴロウデッキ_Pre-built_Starter_Mizugorou_Deck_" ;
+    ns1:types "_e_Water__e_Psychic__e_Metal_" .
+
+ns1:Mudkip_Illustrated_Booklet_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "_Mudkip_Illustrated_Booklet_BR.jpg" ;
+    ns1:expansion "_TCG_EX_Ruby_&_Sapphire__" ;
+    ns1:release "November_2005_" ;
+    ns1:title "_tt_Mudkip_Libro_Ilustrado_Mudkip_Illustrated_Booklet__" ;
+    ns1:types "_e_Water__e_Grass__e_Fighting__" .
+
+ns1:My_First_Battle_\(TCG\) a ns1:Deck ;
+    ns2:caption "Collective_box_art" ;
+    ns2:image "My_First_Battle.png" ;
+    ns1:coin "File:MFB_Bulbasaur_Pikachu_Coin.jpg_50px/File:MFB_Charmander_Squirtle_Coin.jpg_50px" ;
+    ns1:release "September_29,_2023" ;
+    ns1:size "250" ;
+    ns1:title "File:My_First_Battle_logo.png_200px" ;
+    ns1:types "_e_Grass__e_Lightning_/_e_Fire__e_Water_" .
+
+ns1:Mystic_Typhoon_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "XY2_Mystic_Typhoon_Deck.jpg" ;
+    ns1:coin "File:FLF_Silver_Charizard_Coin.png_50px" ;
+    ns1:expansion "_TCG_Flashfire_" ;
+    ns1:release "May_7,_2014" ;
+    ns1:title "Mystic_Typhoon" ;
+    ns1:types "_e_Water__e_Psychic_" .
+
+ns1:National_Beginning_Set_\(TCG\) a ns1:Deck .
+
+ns1:Neo_Starter_Deck_\(TCG\) a ns1:Deck ;
+    ns2:caption "Package_art" ;
+    ns2:image "NeoStarterDeck.jpg" ;
+    ns1:coin "File:NSD_Silver_Lugia_Coin.png_50px" ;
+    ns1:expansion "_TCG_Gold,_Silver,_to_a_New_World..._" ;
+    ns1:release "February_4,_2000" ;
+    ns1:title "_tt_スターターパック_Starter_Pack_" ;
+    ns1:types "Random" .
+
+ns1:Night_Striker_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "XY8_Night_Striker_Deck.jpg" ;
+    ns1:coin "File:BKT_Blue_Mega_Mewtwo_Coin.png_50px_/_File:BKT_Pixel_Mega_Mewtwo_Coin.png_50px__" ;
+    ns1:expansion "_TCG_BREAKthrough_" ;
+    ns1:release "November_4,_2015" ;
+    ns1:title "Night_Striker" ;
+    ns1:types "_e_Psychic__e_Darkness_" .
+
+ns1:Nightfall_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "HS3_Nightfall_Deck.jpg" ;
+    ns1:coin "File:HS3_Silver_Chikorita_Coin.png_50px" ;
+    ns1:expansion "_TCG_Undaunted_" ;
+    ns1:release "August_18,_2010" ;
+    ns1:title "File:Nightfall_logo.png_120px" ;
+    ns1:types "_e_Metal__e_Darkness_" .
+
+ns1:Ninja_Blitz_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "WCS2016_Ninja_Blitz.jpg" ;
+    ns1:cards "" ;
+    ns1:size "280" ;
+    ns1:title "Ninja_Blitz" ;
+    ns1:types "_e_Water_" .
+
+ns1:Nivi_City_Gym_\(TCG\) a ns1:Deck ;
+    ns2:caption "Package_art" ;
+    ns2:image "NiviCityGymDeck.jpg" ;
+    ns1:coin "File:NCG_Brown_Onix_Coin.png_50px" ;
+    ns1:expansion "_TCG_Leaders_Stadium_" ;
+    ns1:release "April_26,_1998" ;
+    ns1:title "_tt_ニビシティジム_タケシ_Nivi_City_Gym_Takeshi_" ;
+    ns1:types "_e_Fighting__e_Fire_" .
+
+ns1:Noivern_BREAK_Evolution_Pack_\(TCG\) a ns1:Deck ;
+    ns2:caption "Noivern_BREAK_Evolution_Pack" ;
+    ns2:image "Noivern_BREAK_Evolution_Pack.jpg" ;
+    ns1:release "September_26,_2015" ;
+    ns1:size "220" ;
+    ns1:title "_tt_BREAK進化パック「オンバーンBREAK」_BREAK_Evolution_Pack_OnvernBREAK_" .
+
+ns1:Noivern_BREAK_Half_Deck_\(KTCG\) a ns1:Deck .
+
+ns1:Oasis_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "EX2_Oasis_Deck.jpg" ;
+    ns1:coin "File:EX02_Green_Treecko_Coin.jpg_50px" ;
+    ns1:expansion "_TCG_EX_Sandstorm_" ;
+    ns1:release "September_18,_2003" ;
+    ns1:title "File:Oasis_logo.png_120px" ;
+    ns1:types "_e_Water__e_Fighting_" .
+
+<http://example.org/resource/deck/Obsidian_Flames_Build_&_Battle_Box_(TCG)> a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "SV3_Build_Battle_Box.jpg" ;
+    ns1:expansion "_TCG_Obsidian_Flames_" ;
+    ns1:title "Obsidian_Flames_Build_&_Battle_Box" ;
+    ns1:types "_e_Water__e_Psychic__e_Metal_" .
+
+<http://example.org/resource/deck/Ocean's_Core_(TCG)> a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "XY5_Ocean_Core_Deck.jpg" ;
+    ns1:coin "File:PRC_Blue_Primal_Kyogre_Coin.png_50px" ;
+    ns1:expansion "_TCG_Primal_Clash_" ;
+    ns1:release "February_4,_2015" ;
+    ns1:title "Oceans_Core" ;
+    ns1:types "_e_Water__e_Fire_" .
+
+<http://example.org/resource/deck/Ocean's_Kyogre_ex_Constructed_Starter_Deck_(TCG)> a ns1:Deck ;
+    ns2:caption "Package_art" ;
+    ns2:image "OceanKyogreConstructedStarterDeck.jpg" ;
+    ns1:coin "File:PCG8S_Blue_Kyogre_Coin.png_50px" ;
+    ns1:expansion "_TCG_Miracle_Crystal_" ;
+    ns1:release "March_3,_2006_(Early_release)March_10,_2006_(General_release)" ;
+    ns1:title "_tt_構築済みスターター_大海のカイオーガex_Pre-built_Starter_Oceans_Kyogre_ex_" ;
+    ns1:types "_e_Fire__e_Water__e_Psychic_" .
+
+ns1:Omastar_Illustrated_Booklet_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "Omastar_Illustrated_Booklet_BR.png" ;
+    ns1:expansion "_TCG_EX_Legend_Maker_" ;
+    ns1:release "" ;
+    ns1:title "Omastar_Livro_Ilustrado" ;
+    ns1:types "_e_Water__e_Lightning__e_Colorless_" .
+
+ns1:One-Turn-Knockout_\(TCG\) a ns1:Deck ;
+    ns1:cards "_TCG_ID_Gym_Challenge_Erikas_Jigglypuff_69_,__TCG_ID_Fossil_Aerodactyl_1_,__TCG_ID_Team_Rocket_Dark_Vileplume_13_,__TCG_Double_Colorless_Energy_" ;
+    ns1:title "One-Turn-Knockout" ;
+    ns1:types "_e_Colorless__e_Fighting__e_Grass_" .
+
+ns1:Origin_Forme_Palkia_VSTAR_League_Battle_Deck_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "Origin_Forme_Palkia_VSTAR_League_Battle_Deck.jpg" ;
+    ns1:release "May_5,_2023" ;
+    ns1:title "Origin_Forme_Palkia_VSTAR_League_Battle_Deck" ;
+    ns1:types "_e_water_" .
+
+ns1:Overflow_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "PL3_Overflow_Deck.jpg" ;
+    ns1:coin "File:PL3_Silver_GarchompCharizard_Coin.png_50px__" ;
+    ns1:expansion "_TCG_Supreme_Victors_" ;
+    ns1:release "August_19,_2009" ;
+    ns1:title "File:Overflow_logo.png_120px" ;
+    ns1:types "_e_Water__e_Psychic_" .
+
+ns1:Overgrowth_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "O1_Overgrowth_Deck.jpg" ;
+    ns1:coin "File:Wizards_Silver_Chansey_Coin.png_50px" ;
+    ns1:expansion "_TCG_Base_Set_" ;
+    ns1:release "January_9,_1999" ;
+    ns1:title "Overgrowth" ;
+    ns1:types "_e_Water__e_Grass_" .
+
+<http://example.org/resource/deck/Paldea_Evolved_Build_&_Battle_Box_(TCG)> a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "SV2_Build_Battle_Box.jpg" ;
+    ns1:expansion "_TCG_Paldea_Evolved_" ;
+    ns1:title "Paldea_Evolved_Build_&_Battle_Box" ;
+    ns1:types "_e_Water__e_Psychic__e_Darkness__e_Colorless_" .
+
+ns1:Palkia_Deck_\(KTCG\) a ns1:Deck ;
+    ns2:caption "Boxart" ;
+    ns2:image "KoreanPalkiaDeck.jpg" ;
+    ns1:expansion "_KTCG_Collapse_of_Time_&_Space_" ;
+    ns1:release "August_19,_2010" ;
+    ns1:title "Palkia_Deck__" ;
+    ns1:types "_e_Water__e_Psychic__e_Darkness_" .
+
+ns1:Palkia_LV.X_Constructed_Standard_Deck_\(TCG\) a ns1:Deck ;
+    ns2:caption "Package_art" ;
+    ns2:image "PalkiaLV.XConstructedStandardDeck.jpg" ;
+    ns1:coin "File:DP3_Pink_Palkia_Coin.png_50px" ;
+    ns1:expansion "_TCG_Shining_Darkness_" ;
+    ns1:release "July_5,_2007" ;
+    ns1:title "_tt_構築スタンダードデッキ_パルキアLV.X_Constructed_Standard_Deck_Palkia_LV.X_" ;
+    ns1:types "_e_Water__e_Psychic__e_Fighting_" .
+
+<http://example.org/resource/deck/Paradox_Rift_Build_&_Battle_Box_(TCG)> a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "SV4_Build_Battle_Box.jpg" ;
+    ns1:expansion "_TCG_Paradox_Rift_" ;
+    ns1:title "Paradox_Rift_Build_&_Battle_Box" ;
+    ns1:types "_e_Fire__e_Water__e_Psychic__e_Metal_" .
+
+ns1:Partners_V_Starter_Deck_\(ATCG\) a ns1:Deck ;
+    ns2:caption "Traditional_Chinese_box_art" ;
+    ns2:image "SCA_V_Starter_Deck_Chinese.jpg" ;
+    ns1:release "Traditional_Chinese:_November_27,_2020Thai:_January_29,_2021Indonesian:_March_21,_2021" ;
+    ns1:title "Partners_V_Starter_Deck" .
+
+ns1:Perfection_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "WCS2019_Perfection_Deck.jpg" ;
+    ns1:release "November_22,_2019" ;
+    ns1:title "Perfection" ;
+    ns1:types "_e_Fire__e_Psychic_" .
+
+ns1:Pesadelo_Prism_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "WCS2012_Pesadelo_Prism_Deck.jpg" ;
+    ns1:cards "Darkrai-EX_(Dark_Explorers_63)_Darkrai_EX_,_Mewtwo-EX_(Next_Destinies_54)_Mewtwo_EX_,__TCG_ID_Noble_Victories_Terrakion_73_" ;
+    ns1:size "280" ;
+    ns1:title "Pesadelo_Prism" ;
+    ns1:types "_e_Darkness__e_Fighting_" .
+
+<http://example.org/resource/deck/Pikachu_&_Charizard_Half_Deck_(ATCG)> a ns1:Deck ;
+    ns2:caption "Pikachu_&_Charizard_Half_Deck_boxart" ;
+    ns2:image "Pikachu_Charizad_Half_Deck.jpg" ;
+    ns1:release "December_8,_2022" ;
+    ns1:size "280" ;
+    ns1:title "Pikachu_&_Charizard_Half_Deck" .
+
+<http://example.org/resource/deck/Pikachu_&_Zekrom-GX_League_Battle_Deck_(TCG)> a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "PikachuZekromGX_League_Battle_Deck.jpg" ;
+    ns1:title "Pikachu_&_Zekrom-GX_League_Battle_Deck" ;
+    ns1:types "_e_Lightning_" .
+
+ns1:Pikachu_Power_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "XY12_Pikachu_Power_Deck.jpg" ;
+    ns1:coin "File:EVO_Silver_Chansey_Coin.png_50px" ;
+    ns1:expansion "_TCG_Evolutions_" ;
+    ns1:release "November_2,_2016" ;
+    ns1:title "Pikachu_Power" ;
+    ns1:types "_e_Lightning__e_Grass_" .
+
+ns1:Pikarom_Judge_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "WCS2019_Pikarom_Judge_Deck.jpg" ;
+    ns1:release "November_22,_2019" ;
+    ns1:title "Pikarom_Judge" ;
+    ns1:types "_e_Lightning_" .
+
+ns1:Plasma_Claw_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "BW8_Plasma_Claw_Deck.jpg" ;
+    ns1:coin "File:BW8_Blue_Plasma_Coin.png_50px" ;
+    ns1:expansion "_TCG_Plasma_Storm_" ;
+    ns1:release "February_6,_2013" ;
+    ns1:title "File:Plasma_Claw_logo.png_120px" ;
+    ns1:types "_e_Fire__e_Water__e_Dragon_" .
+
+ns1:Plasma_Power_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "WCS2014_Plasma_Power_Deck.jpg" ;
+    ns1:cards "" ;
+    ns1:size "280" ;
+    ns1:title "Plasma_Power" ;
+    ns1:types "_e_Lightning__e_Water_" .
+
+ns1:Plasma_Shadow_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "BW8_Plasma_Shadow_Deck.jpg" ;
+    ns1:coin "File:BW8_Silver_Plasma_Coin.png_50px" ;
+    ns1:expansion "_TCG_Plasma_Storm_" ;
+    ns1:release "February_6,_2013" ;
+    ns1:title "File:Plasma_Shadow_logo.png_120px" ;
+    ns1:types "_e_Psychic__e_Grass_" .
+
+ns1:Pokémon-e_Starter_Deck_\(TCG\) a ns1:Deck ;
+    ns2:caption "Pokémon-e_Starter_Deck" ;
+    ns2:image "EStarterDeck.jpg" ;
+    ns1:coin "File:EXBS_Pink_Blissey_Coin.png_50px" ;
+    ns1:expansion "_TCG_Base_Expansion_Pack_" ;
+    ns1:release "December_1,_2001" ;
+    ns1:title "_tt_スターターパック_Starter_Pack_" ;
+    ns1:types "Random" .
+
+ns1:Pokémon_Battle_Tour_09_Challenge_Deck_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "BattleTour09ChallengeDeck.jpg" ;
+    ns1:release "July_11,_2009" ;
+    ns1:title "_tt_ポケモンバトルツアー09_チャレンジデッキ_Pokémon_Battle_Tour_09_Challenge_Deck_" ;
+    ns1:types "_e_Fire_" .
+
+ns1:Pokémon_Card_Game_25th_Anniversary_Creatures_Deck_\(TCG\) a ns1:Deck ;
+    ns2:image "None.png" ;
+    ns1:release "December_2021" ;
+    ns1:size "150" ;
+    ns1:title "Creatures_Deck" ;
+    ns1:types "N/A" .
+
+ns1:Pokémon_Card_Game_Battle_Academy_\(TCG\) a ns1:Deck ;
+    ns2:caption "Logo" ;
+    ns2:image "Pokémon_Card_Game_Battle_Academy_Logo_Japanese.png" ;
+    ns1:coin "File:SVI_Silver_Pikachu_Coin.png_50px" ;
+    ns1:release "March_8,_2024" ;
+    ns1:title "_tt_バトルアカデミー_Battle_Academy_" .
+
+<http://example.org/resource/deck/Pokémon_GO_V_Battle_Deck—Mewtwo_vs._Melmetal_(TCG)> a ns1:Deck ;
+    ns2:caption "Pokémon_GO_V_Battle_Deck—Mewtwo_vs._Melmetal" ;
+    ns2:image "Pokémon_GO_V_Battle_Deck_Mewtwo_vs_Melmetal.jpg" ;
+    ns1:coin "File:PGOVBD_Purple_Mewtwo_Coin.png_50px/File:PGOVBD_Gray_Melmetal_Coin.png_50px" ;
+    ns1:release "July_1,_2022" ;
+    ns1:title "Pokémon_GO_V_Battle_Deck—Mewtwo_vs._Melmetal" ;
+    ns1:types "_e_Psychic__e_Metal_" .
+
+ns1:Pokémon_Trading_Card_Game_Classic_\(TCG\) a ns1:Deck ;
+    ns2:image "PTCG_Classic.jpg" ;
+    ns1:release "English:_November_17,_2023Japanese:_Late_October_2023Traditional_Chinese:_November_10,_2023Korean:_December_16,_2023" ;
+    ns1:title "Pokémon_Trading_Card_Game_Classic" ;
+    ns1:types "_e_Grass__e_Fire__e_Water_" .
+
+ns1:Polar_Frost_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "DP5_Polar_Frost_Deck.jpg" ;
+    ns1:coin "File:DP5_Gold_Sinnoh_Partners_Coin.png_50px" ;
+    ns1:expansion "_TCG_Majestic_Dawn_" ;
+    ns1:release "May_21,_2008" ;
+    ns1:title "File:Polar_Frost_logo.png_120px" ;
+    ns1:types "_e_Water__e_Lightning_" .
+
+ns1:Power_Cottonweed_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "WCS2010_Power_Cottonweed_Deck.png" ;
+    ns1:cards "_TCG_ID_HeartGold_&_SoulSilver_Jumpluff_6_,__TCG_ID_Great_Encounters_Claydol_15_,__TCG_ID_HeartGold_&_SoulSilver_Pokémon_Collector_97_" ;
+    ns1:size "280" ;
+    ns1:title "Power_Cottonweed" ;
+    ns1:types "_e_Grass_" .
+
+ns1:Power_Play_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "BW2_Power_Play_Deck.jpg" ;
+    ns1:coin "File:BW2_Silver_Unova_Legends_Coin.png_50px" ;
+    ns1:expansion "_TCG_Emerging_Powers_" ;
+    ns1:release "August_17,_2011" ;
+    ns1:title "File:Power_Play_logo.png_120px" ;
+    ns1:types "_e_Fighting__e_Water_" .
+
+ns1:Power_Reserve_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "O2_Power_Reserve_Deck.jpg" ;
+    ns1:coin "File:Wizards_Green_Vileplume_Coin.png_50px" ;
+    ns1:expansion "_TCG_Jungle_" ;
+    ns1:release "June_16,_1999" ;
+    ns1:title "Power_Reserve" ;
+    ns1:types "_e_Psychic__e_Grass_" .
+
+ns1:Power_Wave_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "EX15_Power_Wave_Deck.jpg" ;
+    ns1:coin "File:PCG4S_Blue_Totodile_Coin.png_50px" ;
+    ns1:expansion "_TCG_EX_Dragon_Frontiers_" ;
+    ns1:release "November_8,_2006" ;
+    ns1:title "File:Power_Wave_logo.png_120px" ;
+    ns1:types "_e_Lightning__e_Fighting_" .
+
+ns1:Powerhouse_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "DP3_Powerhouse_Deck.jpg" ;
+    ns1:coin "File:DP3_Gold_Munchlax_Coin.png_50px" ;
+    ns1:expansion "_TCG_Secret_Wonders_" ;
+    ns1:release "November_7,_2007" ;
+    ns1:title "File:Powerhouse_logo.png_120px" ;
+    ns1:types "_e_Lightning__e_Fighting_" .
+
+ns1:Premium_Trainer_Box_\(TCG\) a ns1:Deck ;
+    ns2:caption "Premium_Trainer_Box" ;
+    ns2:image "Premium_Trainer_Box.jpg" ;
+    ns1:coin "File:SMB_Silver_Coin.png_50px" ;
+    ns1:release "December_9,_2016" ;
+    ns1:size "220" ;
+    ns1:title "_tt_プレミアムトレーナーボックス_Premium_Trainer_Box_" .
+
+ns1:Premium_Trainer_Box_ex_\(TCG\) a ns1:Deck ;
+    ns2:caption "Premium_Trainer_Box_ex" ;
+    ns2:image "Premium_Trainer_Box_ex.jpg" ;
+    ns1:coin "File:SVB_Aqua_ex_Coin.png_50px" ;
+    ns1:release "Japanese:_January_20,_2023Traditional_Chinese:_March_3,_2023Korean:_April_21,_2023" ;
+    ns1:size "250" ;
+    ns1:title "_tt_プレミアムトレーナーボックスex_Premium_Trainer_Box_ex_" .
+
+ns1:Primal_Groudon_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "WCS2015_Primal_Groudon.jpg" ;
+    ns1:cards "" ;
+    ns1:size "280" ;
+    ns1:title "Primal_Groudon" ;
+    ns1:types "_e_Fighting_" .
+
+ns1:Psy_Crusher_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "BW9_Psy_Crusher_Deck.jpg" ;
+    ns1:coin "File:BW9_Blue_Deoxys_Coin.png_50px" ;
+    ns1:expansion "_TCG_Plasma_Freeze_" ;
+    ns1:release "May_8,_2013" ;
+    ns1:title "File:Psy_Crusher_logo.png_120px" ;
+    ns1:types "_e_Psychic__e_Grass_" .
+
+ns1:Psych_Out_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "O4_Psych_Out_Deck.jpg" ;
+    ns1:coin "File:Wizards_Yellow_Pikachu_Coin.png_50px" ;
+    ns1:expansion "_TCG_Base_Set_2_" ;
+    ns1:release "February_24,_2000" ;
+    ns1:title "Psych_Out" ;
+    ns1:types "_e_Psychic__e_Water_" .
+
+ns1:Psychic_Elegance_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "WCS2023_Psychic_Elegance.jpg" ;
+    ns1:release "March_1,_2024" ;
+    ns1:title "Psychic_Elegance" ;
+    ns1:types "_e_Psychic_" .
+
+ns1:Psychic_Lock_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "WCS2008_Psychic_Lock_Deck.png" ;
+    ns1:cards "_TCG_ID_Secret_Wonders_Gardevoir_7_,__TCG_ID_Secret_Wonders_Gallade_6_,__TCG_ID_Great_Encounters_Claydol_15_" ;
+    ns1:size "220" ;
+    ns1:title "Psychic_Lock" ;
+    ns1:types "_e_Psychic_" .
+
+<http://example.org/resource/deck/Punches_'n'_Bites_(TCG)> a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "WCS2015_Punches_N_Bites.jpg" ;
+    ns1:cards "" ;
+    ns1:size "280" ;
+    ns1:title "Punches_n_Bites" ;
+    ns1:types "_e_Water__e_Lightning_" .
+
+ns1:Queendom_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "WCS2005_Queendom_Deck.jpg" ;
+    ns1:cards "_TCG_ID_EX_FireRed_&_LeafGreen_Nidoqueen_9_,__TCG_ID_EX_FireRed_&_LeafGreen_Pidgeot_10_,__TCG_ID_EX_Hidden_Legends_Milotic_12_" ;
+    ns1:size "280" ;
+    ns1:title "Queendom" ;
+    ns1:types "_e_Grass__e_Fighting_" .
+
+ns1:Queengar_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "WCS2009_Queengar_Deck.jpg" ;
+    ns1:cards "_TCG_ID_Stormfront_Gengar_18_,__TCG_ID_Rising_Rivals_Nidoqueen_30_,__TCG_ID_Legends_Awakened_Uxie_43_,__TCG_ID_Great_Encounters_Claydol_15_" ;
+    ns1:size "280" ;
+    ns1:title "Queengar" ;
+    ns1:types "_e_Psychic_" .
+
+ns1:Quick_Construction_Packs_\(TCG\) a ns1:Deck ;
+    ns2:caption "Collective_box_art" ;
+    ns2:image "QuickConstructionPacks.jpg" ;
+    ns1:coin "File:QCPG_Green_Energy_Coin.png_50px/File:QCPFr_Red_Energy_Coin.png_50px/File:QCPW_Blue_Energy_Coin.png_50pxFile:QCPL_Yellow_Energy_Coin.jpg_50px/File:QCPP_Purple_Energy_Coin.png_50px/File:QCPFi_Orange_Energy_Coin.png_50px" ;
+    ns1:release "January_16,_2005" ;
+    ns1:title "_tt_クイック・コンストラクション・パック_Quick_Construction_Pack_" .
+
+ns1:Quick_Starter_Gift_Set_\(TCG\) a ns1:Deck ;
+    ns2:image "Quick_Starter_Gift_Set.png_" ;
+    ns1:coin "File:QSGS_Pink_Chansey_Coin.png_50px/File:QSGS_Green_Chansey_Coin.png_50px" ;
+    ns1:release "December_4,_1998_" ;
+    ns1:title "_tt_クイックスターターギフト_Quick_Starter_Gift__" .
+
+ns1:Raging_Sea_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "DP7_Raging_Sea_Deck.jpg" ;
+    ns1:coin "File:DP7_Green_Energy_Coin.png_50px" ;
+    ns1:expansion "_TCG_Stormfront_" ;
+    ns1:release "November_5,_2008" ;
+    ns1:title "File:Raging_Sea_logo.png_120px" ;
+    ns1:types "_e_Water__e_Grass_" .
+
+ns1:Raichu_BREAK_Evolution_Pack_\(TCG\) a ns1:Deck ;
+    ns2:caption "Raichu_BREAK_Evolution_Pack" ;
+    ns2:image "Raichu_BREAK_Evolution_Pack.jpg" ;
+    ns1:release "September_26,_2015" ;
+    ns1:size "220" ;
+    ns1:title "_tt_BREAK進化パック_ライチュウBREAK_BREAK_Evolution_Pack_RaichuBREAK_" .
+
+ns1:Raichu_BREAK_Half_Deck_\(KTCG\) a ns1:Deck .
+
+ns1:Raiders_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "BW5_Raiders_Deck.jpg" ;
+    ns1:coin "File:BW5_Silver_Zoroark_Coin.png_50px" ;
+    ns1:expansion "_TCG_Dark_Explorers_" ;
+    ns1:release "May_9,_2012" ;
+    ns1:title "File:Raiders_logo.png_120px" ;
+    ns1:types "_e_Psychic__e_Darkness_" .
+
+ns1:Raikou-GX_Starter_Set_Lightning_\(KTCG\) a ns1:Deck ;
+    ns2:caption "Raikou-GX_Starter_Set_Lightning" ;
+    ns2:image "Raikou-GX_Starter_Set_Lightning.jpg_" ;
+    ns1:coin "File:SMB_Silver_Coin.png_50px" ;
+    ns1:release "August_17,_2018" ;
+    ns1:title "_tt_전격_스타터_세트「라이코_GX」_Raikou-GX_Starter_Set_Lightning_" ;
+    ns1:types "_e_Lightning_" .
+
+ns1:Ralts_Illustrated_Booklet_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "Ralts_Illustrated_Booklet_BR.png" ;
+    ns1:expansion "_TCG_EX_Ruby_&_Sapphire_" ;
+    ns1:release "April_2006" ;
+    ns1:title "_tt_Ralts_Libro_Ilustrado_Ralts_Illustrated_Booklet_" ;
+    ns1:types "_e_Psychic__e_Fighting__e_Colorless_" .
+
+ns1:Rambolt_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "WCS2007_Rambolt_Deck.jpg" ;
+    ns1:cards "_TCG_ID_EX_Legend_Maker_Banette_ex_85_" ;
+    ns1:size "280" ;
+    ns1:title "Rambolt" ;
+    ns1:types "_e_Psychic_" .
+
+ns1:Rampardos_the_Attacker_\(TCG\) a ns1:Deck ;
+    ns2:caption "Package_art" ;
+    ns2:image "RampardostheAttacker.jpg" ;
+    ns1:coin "File:DP2_Brown_Cranidos_Coin.png_50px" ;
+    ns1:expansion "_TCG_Secret_of_the_Lakes_" ;
+    ns1:release "March_2,_2007" ;
+    ns1:title "_tt_構築ハーフデッキ_攻めのラムパルド_Constructed_Half_Deck_Rampald_the_Attacker_" ;
+    ns1:types "_e_Lightning__e_Fighting_" .
+
+ns1:Random_Basic_Pack_\(TCG\) a ns1:Deck .
+
+ns1:Random_Construction_Starter_Deck_\(TCG\) a ns1:Deck ;
+    ns2:caption "Package_art" ;
+    ns2:image "RandomConstructionStarterDeck.jpg" ;
+    ns1:coin "File:DPRD_Silver_Dialga_Coin.png_50px/File:DPRD_Silver_Palkia_Coin.png_50px" ;
+    ns1:expansion "_TCG_Space-Time_Creation_" ;
+    ns1:release "November_25,_2006_(Early_release)November_30,_2006_(General_release)" ;
+    ns1:title "_tt_ランダム構築スターター_スタンダードデッキ_Random_Construction_Starter_Standard_Deck_" ;
+    ns1:types "Random" .
+
+ns1:Random_Half_Deck_\(KTCG\) a ns1:Deck ;
+    ns2:caption "Random_Half_Deck" ;
+    ns2:image "Random_Half_Deck.jpg_" ;
+    ns1:release "December_24,_2019" ;
+    ns1:title "_tt_랜덤30장덱_Random_Half_Deck_" .
+
+ns1:Rapid_Strike_Urshifu_VMAX_League_Battle_Deck_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "Rapid_Strike_Urshifu_VMAX_League_Battle_Deck.jpg" ;
+    ns1:title "Rapid_Strike_Urshifu_VMAX_League_Battle_Deck" ;
+    ns1:types "_e_Fighting_" .
+
+ns1:Rayquaza_Constructed_Starter_Deck_\(TCG\) a ns1:Deck ;
+    ns2:image "RayquazaConstructedStarterDeck.jpg" ;
+    ns1:coin "File:PCG2S_Silver_Rayquaza_Coin.png_50px" ;
+    ns1:expansion "_TCG_Clash_of_the_Blue_Sky_" ;
+    ns1:release "July_1,_2004" ;
+    ns1:title "_tt_構築済みスターター_レックウザデッキ_Pre-built_Starter_Rayquaza_Deck_" ;
+    ns1:types "_e_Fire__e_Water__e_Lightning_" .
+
+ns1:Rayquaza_Illustrated_Booklet_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "Rayquaza_Illustrated_Booklet_BR.png" ;
+    ns1:expansion "_TCG_EX_Emerald_" ;
+    ns1:release "April_2006" ;
+    ns1:title "Rayquaza_Livro_Ilustrado" ;
+    ns1:types "_e_Fire__e_Lightning__e_Colorless_" .
+
+<http://example.org/resource/deck/Rebel_Clash_Build_&_Battle_Box_(TCG)> a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "SWSH2_Build_Battle_Box.jpg" ;
+    ns1:expansion "_TCG_Rebel_Clash_" ;
+    ns1:title "Rebel_Clash_Build_&_Battle_Box" ;
+    ns1:types "_e_Grass__e_Lightning__e_Fighting__e_Darkness_" .
+
+ns1:Rebellion_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "PL1_Rebellion_Deck.jpg" ;
+    ns1:coin "File:PL1_Silver_Shaymin_Coin.png_50px" ;
+    ns1:expansion "_TCG_Platinum_" ;
+    ns1:release "February_11,_2009" ;
+    ns1:title "File:Rebellion_logo.png_120px" ;
+    ns1:types "_e_Psychic__e_Fighting_" .
+
+ns1:Recon_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "CL1_Recon_Deck.jpg" ;
+    ns1:coin "File:CL_Green_Rayquaza_Coin.png_50px" ;
+    ns1:expansion "_TCG_Call_of_Legends_" ;
+    ns1:release "February_9,_2011" ;
+    ns1:title "File:Recon_logo.png_120px" ;
+    ns1:types "_e_Grass__e_Fire_" .
+
+ns1:Red_Frenzy_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "BW1_Red_Frenzy_Deck.jpg" ;
+    ns1:coin "File:BW1_Red_Partners_Coin.png_50px" ;
+    ns1:expansion "_TCG_Black_&_White_" ;
+    ns1:release "April_6,_2011" ;
+    ns1:title "File:Red_Frenzy_logo.png_120px" ;
+    ns1:types "_e_Fire__e_Fighting_" .
+
+ns1:Red_Genesect_Collection_\(TCG\) a ns1:Deck ;
+    ns2:caption "Boxart" ;
+    ns2:image "RedGenesectCollection.jpg" ;
+    ns1:coin "File:RGC_Red_Genesect_Coin.png_50px" ;
+    ns1:release "September_25,_2013" ;
+    ns1:title "File:Red_Genesect_Collection_logo.png_150px" ;
+    ns1:types "_e_Grass___e_Psychic___e_Colorless_" .
+
+ns1:Relentless_Flame_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "SM9_Relentless_Flame_Deck.jpg" ;
+    ns1:coin "" ;
+    ns1:expansion "_TCG_Team_Up_" ;
+    ns1:release "February_1,_2019" ;
+    ns1:title "File:Relentless_Flame_logo.png_120px" ;
+    ns1:types "_e_Fire_" .
+
+ns1:Reshiphlosion_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "WCS2011_Reshiphlosion_Deck.jpg" ;
+    ns1:cards "_TCG_ID_Black_&_White_Reshiram_26_,__TCG_ID_HeartGold_&_SoulSilver_Typhlosion_110_" ;
+    ns1:title "Reshiphlosion" ;
+    ns1:types "_e_Fire_" .
+
+ns1:Reshiram-EX_Battle_Strength_Deck_\(TCG\) a ns1:Deck .
+
+<http://example.org/resource/deck/Reshiram_&_Charizard-GX_League_Battle_Deck_(TCG)> a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "ReshiramCharizardGX_League_Battle_Deck.jpg" ;
+    ns1:title "Reshiram_&_Charizard-GX_League_Battle_Deck" ;
+    ns1:types "_e_Fire_" .
+
+ns1:Resilient_Life_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "XY1_Resilient_Life_Deck.jpg" ;
+    ns1:coin "File:XY_Silver_Xerneas_Coin.png_50px" ;
+    ns1:expansion "_TCG_XY_" ;
+    ns1:release "February_5,_2014" ;
+    ns1:title "Resilient_Life" ;
+    ns1:types "_e_Psychic__e_Fairy_" .
+
+ns1:Retort_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "CL1_Retort_Deck.jpg" ;
+    ns1:coin "File:CL_Blue_Lucario_Coin.png_50px" ;
+    ns1:expansion "_TCG_Call_of_Legends_" ;
+    ns1:release "February_9,_2011" ;
+    ns1:title "File:Retort_logo.png_120px" ;
+    ns1:types "_e_Fighting__e_Lightning_" .
+
+ns1:Rillaboom_Theme_Deck_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "SWSH1_Rillaboom_Deck.jpg" ;
+    ns1:coin "" ;
+    ns1:expansion "_TCG_Sword_&_Shield_" ;
+    ns1:release "February_7,_2020" ;
+    ns1:title "Rillaboom_Theme_Deck" ;
+    ns1:types "_e_Grass_" .
+
+ns1:Ring_of_Lightning_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "XY11_Ring_of_Lightning_Deck.jpg" ;
+    ns1:coin "File:STS_Gold_Hoopa_Coin.png_50px_/_File:STS_Cracked_Ice_Hoopa_Coin.png_50px" ;
+    ns1:expansion "_TCG_Steam_Siege_" ;
+    ns1:release "August_3,_2016" ;
+    ns1:title "File:Ring_of_Lightning_logo.png_120px" ;
+    ns1:types "_e_Psychic__e_Lightning_" .
+
+ns1:Roaring_Heat_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "SM1_Roaring_Heat_Deck.jpg" ;
+    ns1:coin "File:SUM_Red_Litten_Coin.png_50px" ;
+    ns1:expansion "_TCG_Sun_&_Moon_" ;
+    ns1:release "January_20,_2017" ;
+    ns1:title "File:Roaring_Heat_logo.png_120px" ;
+    ns1:types "_e_Fire__e_Fighting_" .
+
+ns1:Rock_Garden_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "E2_Rock_Garden_Deck.jpg" ;
+    ns1:coin "File:Wizards_Metal_Lugia_Coin.png_50px" ;
+    ns1:expansion "_TCG_Aquapolis_" ;
+    ns1:release "January_15,_2003" ;
+    ns1:title "Rock_Garden" ;
+    ns1:types "_e_Fighting__e_Grass_" .
+
+ns1:Rock_Steady_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "SM3_Rock_Steady_Deck.jpg" ;
+    ns1:coin "File:BSH_Orange_Lycanroc_Coin.png_50px" ;
+    ns1:expansion "_TCG_Burning_Shadows_" ;
+    ns1:release "August_4,_2017" ;
+    ns1:title "File:Rock_Steady_logo.png_120px" ;
+    ns1:types "_e_Fighting__e_Psychic_" .
+
+ns1:Rockruff_Full_Power_Deck_\(TCG\) a ns1:Deck ;
+    ns2:caption "Rockruff_Full_Power_Deck" ;
+    ns2:image "Rockruff_Full_Power_Deck.jpg" ;
+    ns1:release "December_15,_2016" ;
+    ns1:size "250" ;
+    ns1:title "_tt_イワンコ全力デッキ_Rockruff_Full_Power_Deck_" ;
+    ns1:types "_e_Fire__e_Water__e_Fighting__e_Colorless_" .
+
+ns1:Rocky_Beach_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "WCS2004_Rocky_Beach_Deck.jpg" ;
+    ns1:cards "_TCG_ID_EX_Ruby_&_Sapphire_Swampert_13_,__TCG_ID_EX_Team_Magma_vs_Team_Aqua_Swampert_ex_95_" ;
+    ns1:size "280" ;
+    ns1:title "Rocky_Beach" ;
+    ns1:types "_e_Water_" .
+
+ns1:Royal_Frost_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "DP1_Royal_Frost_Deck.jpg" ;
+    ns1:coin "File:DP1_Blue_Sinnoh_Partners_Coin.png_50px" ;
+    ns1:expansion "_TCG_Diamond_&_Pearl_" ;
+    ns1:release "May_23,_2007" ;
+    ns1:title "File:Royal_Frost_logo.png_120px" ;
+    ns1:types "_e_Water__e_Metal_" .
+
+ns1:Royal_Guard_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "HS4_Royal_Guard_Deck.jpg" ;
+    ns1:coin "File:HS4_Silver_Dialga_Coin.png_50px" ;
+    ns1:expansion "_TCG_Triumphant_" ;
+    ns1:release "November_3,_2010" ;
+    ns1:title "File:Royal_Guard_logo.png_120px" ;
+    ns1:types "_e_Fighting__e_Psychic_" .
+
+ns1:Ruby_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "EX1_Ruby_Deck.jpg" ;
+    ns1:coin "File:EX01_Orange_Torchic_Coin.png_50px" ;
+    ns1:expansion "_TCG_EX_Ruby_&_Sapphire_" ;
+    ns1:release "June_18,_2003" ;
+    ns1:title "Ruby" ;
+    ns1:types "_e_Fighting__e_Fire_" .
+
+ns1:Ruler_of_the_Black_Flame_Deck_Build_Box_\(TCG\) a ns1:Deck ;
+    ns2:caption "Ruler_of_the_Black_Flame_Deck_Build_Box" ;
+    ns2:image "Ruler_of_the_Black_Flame_Deck_Build_Box.jpg" ;
+    ns1:release "Japanese:_July_28,_2023Traditional_Chinese:_August_11,_2023" ;
+    ns1:size "250" ;
+    ns1:title "_tt_デッキビルドBOX_黒炎の支配者_Deck_Build_Box_Ruler_of_the_Black_Flame_" .
+
+ns1:Sabrina_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "O7_Sabrina_Deck.jpg" ;
+    ns1:coin "File:GC_Purple_Alakazam_Coin.png_50px" ;
+    ns1:expansion "_TCG_Gym_Challenge_" ;
+    ns1:release "October_16,_2000" ;
+    ns1:title "Sabrina" ;
+    ns1:types "_e_Psychic_" .
+
+ns1:Salamence_Constructed_Starter_Deck_\(TCG\) a ns1:Deck ;
+    ns2:caption "Package_art" ;
+    ns2:image "ADV3_Salamence_Deck.jpg" ;
+    ns1:coin "File:ADV3S_Blue_Salamence_Coin.png_50px" ;
+    ns1:expansion "_TCG_Rulers_of_the_Heavens_" ;
+    ns1:release "June_25,_2003" ;
+    ns1:title "_tt_構築済みスターター_ボーマンダデッキ_Pre-built_Starter_Bohmander_Deck_" ;
+    ns1:types "_e_Fire__e_Water__e_Colorless_" .
+
+ns1:Sample_Set_\(TCG\) a ns1:Deck ;
+    ns2:caption "5_card_e-Reader_Sample_Pack" ;
+    ns2:image "e-Reader_Sample_Pack.jpg" ;
+    ns1:release "August_2002_(EN)March_7,_2001_(Initial_JP_demonstration)August_24,_2001_(Later_JP_demonstration)" ;
+    ns1:size "100" ;
+    ns1:title "Sample_Set_tt_アプリケーションパック_Application_Pack_" .
+
+ns1:Samurai_Sniper_\(TCG\) a ns1:Deck ;
+    ns2:caption "" ;
+    ns2:image "WCS2017_Samurai_Sniper_Deck.jpg" ;
+    ns1:title "Samurai_Sniper" ;
+    ns1:types "_e_Grass_" .
+
+ns1:Sapphire_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "EX1_Sapphire_Deck.jpg" ;
+    ns1:coin "File:EX01_Blue_Mudkip_Coin.jpg_50px" ;
+    ns1:expansion "_TCG_EX_Ruby_&_Sapphire_" ;
+    ns1:release "June_18,_2003" ;
+    ns1:title "Sapphire" ;
+    ns1:types "_e_Water__e_Grass_" .
+
+<http://example.org/resource/deck/Scarlet_&_Violet_Build_&_Battle_Box_(TCG)> a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "SV1_Build_Battle_Box.jpg" ;
+    ns1:expansion "_TCG_Scarlet_&_Violet_" ;
+    ns1:title "Scarlet_&_Violet_Build_&_Battle_Box" ;
+    ns1:types "_e_Water__e_Lightning__e_Fighting__e_Metal_" .
+
+ns1:Shadow_Blaze_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "EX15_Shadow_Blaze_Deck.jpg" ;
+    ns1:coin "File:PCG4S_Red_Cyndaquil_Coin.jpg_50px" ;
+    ns1:expansion "_TCG_EX_Dragon_Frontiers_" ;
+    ns1:release "November_8,_2006" ;
+    ns1:title "File:Shadow_Blaze_logo.png_120px" ;
+    ns1:types "_e_Fire__e_Psychic_" .
+
+ns1:Shadow_Rider_Calyrex_VMAX_League_Battle_Deck_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "Shadow_Rider_Calyrex_VMAX_League_Battle_Deck.jpg" ;
+    ns1:title "Shadow_Rider_Calyrex_VMAX_League_Battle_Deck" ;
+    ns1:types "_e_Psychic_" .
+
+ns1:Shadowquake_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "EX12_Shadowquake_Deck.jpg" ;
+    ns1:coin "File:EX12_Pink_Mew_Coin.png_50px" ;
+    ns1:expansion "_TCG_EX_Legend_Maker_" ;
+    ns1:release "February_13,_2006" ;
+    ns1:title "File:Shadowquake_logo.png_120px" ;
+    ns1:types "_e_Water__e_Psychic_" .
+
+ns1:Shadows_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "BW5_Shadows_Deck.jpg" ;
+    ns1:coin "File:BW5_Red_Zoroark_Coin.png_50px" ;
+    ns1:expansion "_TCG_Dark_Explorers_" ;
+    ns1:release "May_9,_2012" ;
+    ns1:title "File:Shadows_logo.png_120px" ;
+    ns1:types "_e_Darkness__e_Water_" .
+
+ns1:Shining_Pokémon_Poké_Ball_Box_\(ATCG\) a ns1:Deck ;
+    ns2:caption "Shining_Pokémon_Poké_Ball_Box" ;
+    ns2:image "CSMJ_Box.png_" ;
+    ns1:release "March_17,_2023" ;
+    ns1:size "200" ;
+    ns1:title "_tt_精灵球礼盒：发光宝可梦_Poké_Ball_Box:_Shining_Pokémon_" .
+
+ns1:Shining_Synergy_GX_Starter_Deck_\(ATCG\) a ns1:Deck ;
+    ns2:caption "_Box_art" ;
+    ns2:image "CSM2D_Box.png" ;
+    ns1:expansion "_ATCG_Shining_Synergy_" ;
+    ns1:release "January_18,_2023" ;
+    ns1:title "_tt_GX起始卡组_交相辉映_Shining_Synergy_GX_Starter_Deck_" .
+
+<http://example.org/resource/deck/Shockwave!_Tyranitar_ex_Constructed_Standard_Deck_(TCG)> a ns1:Deck ;
+    ns2:caption "Package_art" ;
+    ns2:image "ShockwaveTyranitarexConstructedDeck.jpg" ;
+    ns1:coin "File:PCG9S_Gold_Tyranitar_Coin.png_50px" ;
+    ns1:expansion "_TCG_Offense_and_Defense_of_the_Furthest_Ends_" ;
+    ns1:release "June_29,_2006" ;
+    ns1:title "_tt_構築済みデッキ_雷震!バンギラスex_Pre-built_Deck_Thunder!_Bangiras_ex_" ;
+    ns1:types "_e_Lightning__e_Fighting_" .
+
+ns1:Silver_Deck_Kit_\(TCG\) a ns1:Deck ;
+    ns2:caption "Package_art" ;
+    ns2:image "Team_Rocket_Strikes_Back_-_Silver_Deck_Kit.jpg" ;
+    ns1:coin "File:PCG3S_Red_Rocket_Coin.png_50px" ;
+    ns1:expansion "_TCG_Rocket_Gang_Strikes_Back_" ;
+    ns1:release "October_15,_2004" ;
+    ns1:title "_tt_構築済みデッキ_ロケット団ハーフデッキW_-silver-_Pre-built_Deck_Rocket_Gang_Half_Deck_W_-silver-_" ;
+    ns1:types "_e_Water__e_Lightning__e_Colorless__e_Darkness_" .
+
+<http://example.org/resource/deck/Silver_Lance_&_Jet-Black_Spirit_Jumbo_Pack_Set_(TCG)> a ns1:Deck ;
+    ns2:caption "Silver_Lance_&_Jet-Black_Spirit_Jumbo_Pack_Set" ;
+    ns2:image "Silver_Lance_Jet-Black_Spirit_Jumbo_Pack_Set.jpg" ;
+    ns1:release "April_23,_2021" ;
+    ns1:title "_tt_ジャンボパックセット_白銀のランス＆漆黒のガイスト_Silver_Lance_&_Jet-Black_Spirit_Jumbo_Pack_Set_" .
+
+<http://example.org/resource/deck/Silver_Tempest_Build_&_Battle_Box_(TCG)> a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "SWSH12_Build_Battle_Box.jpg" ;
+    ns1:expansion "_TCG_Silver_Tempest_" ;
+    ns1:title "Silver_Tempest_Build_&_Battle_Box" ;
+    ns1:types "_e_Grass__e_Colorless__e_Psychic__e_Fire_" .
+
+ns1:Silvery_Ocean_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "EX10_Silvery_Ocean_Deck.jpg" ;
+    ns1:coin "File:EX10_Purple_Energy_Coin.png_50px" ;
+    ns1:expansion "_TCG_EX_Unseen_Forces_" ;
+    ns1:release "August_22,_2005" ;
+    ns1:title "File:Silvery_Ocean_logo.png_120px" ;
+    ns1:types "_e_Grass__e_Psychic_" .
+
+<http://example.org/resource/deck/Single_Strike_&_Rapid_Strike_Premium_Trainer_Boxes_(TCG)> a ns1:Deck ;
+    ns2:caption "Collective_box_art" ;
+    ns2:image "Single_Strike_Rapid_Strike_Premium_Trainer_Boxes.jpg" ;
+    ns1:coin "File:SF_Red_V_Coin.png_50px/File:SF_Blue_V_Coin.png_50px" ;
+    ns1:release "January_22,_2021" ;
+    ns1:size "220" ;
+    ns1:title "_tt_プレミアムトレーナーボックス_ICHIGEKI_Single_Strike_Premium_Trainer_Box__tt_プレミアムトレーナーボックス_RENGEKI_Rapid_Strike_Premium_Trainer_Box_" .
+
+ns1:Single_Strike_Urshifu_VMAX_League_Battle_Deck_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "Single_Strike_Urshifu_VMAX_League_Battle_Deck.jpg" ;
+    ns1:title "Single_Strike_Urshifu_VMAX_League_Battle_Deck" ;
+    ns1:types "_e_Fighting_" .
+
+ns1:Skull_Charge_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "DP2_Skull_Charge_Deck.jpg" ;
+    ns1:coin "File:DP2_Brown_Cranidos_Coin.png_50px" ;
+    ns1:expansion "_TCG_Mysterious_Treasures_" ;
+    ns1:release "August_22,_2007" ;
+    ns1:title "File:Skull_Charge_logo.png_120px" ;
+    ns1:types "_e_Grass__e_Fighting_" .
+
+ns1:Sky_Guardian_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "XY10_Sky_Guardian_Deck.jpg" ;
+    ns1:coin "File:FCO_Blue_Lugia_Coin.png_50px" ;
+    ns1:expansion "_TCG_Fates_Collide_" ;
+    ns1:release "May_2,_2016" ;
+    ns1:title "File:Sky_Guardian_logo.png_120px" ;
+    ns1:types "_e_Fire__e_Fairy_" .
+
+ns1:Sky_Ruler_GX_Starter_Deck_\(ITCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "AS4Di_GX_Starter_Deck.jpg" ;
+    ns1:expansion "_ATCG_Sky_Ruler_" ;
+    ns1:release "March_10,_2020" ;
+    ns1:title "Sky_Ruler_GX_Starter_Deck" .
+
+ns1:Sky_Ruler_GX_Starter_Deck_\(TTCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "AS4D_GX_Starter_Deck.jpg" ;
+    ns1:expansion "_ATCG_Sky_Ruler_" ;
+    ns1:release "November_22,_2019" ;
+    ns1:title "Sky_Ruler_GX_Starter_Deck" .
+
+ns1:Soaring_Storm_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "SM11_Soaring_Storm_Deck.jpg" ;
+    ns1:coin "File:UNM_Gold_Dragonite_Coin.png_50px" ;
+    ns1:expansion "_TCG_Unified_Minds_" ;
+    ns1:release "August_2,_2019" ;
+    ns1:title "File:Soaring_Storm_logo.png_120px" ;
+    ns1:types "_e_Water__e_Dragon__e_Lightning_" .
+
+ns1:Solar_Strike_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "BW10_Solar_Strike_Deck.jpg" ;
+    ns1:coin "File:BW10_Silver_Genesect_Coin.png_50px" ;
+    ns1:expansion "_TCG_Plasma_Blast_" ;
+    ns1:release "August_14,_2013" ;
+    ns1:title "File:Solar_Strike_logo.png_120px" ;
+    ns1:types "_e_Water__e_Fire_" .
+
+<http://example.org/resource/deck/Solgaleo-GX_&_Lunala-GX_Legendary_Starter_Set_(TCG)> a ns1:Deck ;
+    ns2:caption "Legendary_Starter_Set" ;
+    ns2:image "Solgaleo-GX_Lunala-GX_Legendary_Starter_Set.jpg" ;
+    ns1:coin "File:SME_Silver_Cosmog_Coin.png_50px" ;
+    ns1:release "November_10,_2017" ;
+    ns1:size "200" ;
+    ns1:title "_tt_スターターセット伝説_ソルガレオGX_ルナアーラGX_Solgaleo-GX_&_Lunala-GX_Legendary_Starter_Set_" ;
+    ns1:types "_e_Psychic__e_Metal__e_Colorless_" .
+
+ns1:Stallgon_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "WCS2009_Stallgon_Deck.jpg" ;
+    ns1:cards "_TCG_ID_Rising_Rivals_Flygon_5_,__TCG_ID_Rising_Rivals_Flygon_LV.X_105_,__TCG_ID_Legends_Awakened_Mewtwo_LV.X_144_" ;
+    ns1:size "280" ;
+    ns1:title "Stallgon" ;
+    ns1:types "_e_Fighting__e_Psychic_" .
+
+ns1:Starcharge_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "EX8_Starcharge_Deck.jpg" ;
+    ns1:coin "File:PCG2S_Silver_Deoxys_Coin.png_50px" ;
+    ns1:expansion "_TCG_EX_Deoxys_" ;
+    ns1:release "February_14,_2005" ;
+    ns1:title "File:Starcharge_logo.png_120px" ;
+    ns1:types "_e_Grass__e_Psychic_" .
+
+ns1:Start_Deck_100_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "Start_Deck_100.jpg" ;
+    ns1:release "Japanese:_December_17,_2021Traditional_Chinese:_February_18,_2022Korean:_April_23,_2022Simplified_Chinese:_May_17,_2024" ;
+    ns1:title "_tt_スタートデッキ100_Start_Deck_100_" .
+
+ns1:Start_Deck_100_CoroCoro_Comic_Version_\(TCG\) a ns1:Deck ;
+    ns2:caption "Start_Deck_100_CoroCoro_Comic_Version" ;
+    ns2:image "Start_Deck_100_CoroCoro_Comic_Version.jpg" ;
+    ns1:coin "File:SN_Silver_V_Coin.png_50px" ;
+    ns1:release "Japanese:_March_2022Korean:_May_27,_2022Traditional_Chinese:_October_2,_2022" ;
+    ns1:size "200" ;
+    ns1:title "_tt_スタートデッキ100_コロコロコミックver._Start_Deck_100_CoroCoro_Comic_Version_" .
+
+<http://example.org/resource/deck/Starter_Deck_&_Build_Sets_(TCG)> a ns1:Deck ;
+    ns2:caption "Collective_box_art" ;
+    ns2:image "Starter_Deck_Build_Sets.png" ;
+    ns1:coin "File:SVHK_Red_Koraidon_Coin.jpg_50px/File:SVHM_Purple_Miraidon_Coin.jpg_50px" ;
+    ns1:release "January_26,_2024" ;
+    ns1:title "_tt_スターターデッキ＆ビルドセット「古代のコライドンex」_Starter_Deck_&_Build_Set:_Ancient_Koraidon_ex__tt_スターターデッキ＆ビルドセット「未来のミライドンex」_Starter_Deck_&_Build_Set:_Future_Miraidon_ex_" .
+
+ns1:Starter_Deck_\(TCG\) a ns1:Deck ;
+    ns2:caption "Package_art" ;
+    ns2:image "ExpansionPackStarterDeck.jpg" ;
+    ns1:coin "File:SP_Silver_Chansey_Coin.png_50px" ;
+    ns1:expansion "_TCG_Expansion_Pack_" ;
+    ns1:release "October_20,_1996" ;
+    ns1:title "_tt_第1弾スターターパック_Series_1_Starter_Pack_" ;
+    ns1:types "Random" .
+
+ns1:Steam_Siege_Prerelease_Kit_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "" ;
+    ns1:expansion "_TCG_Steam_Siege_" ;
+    ns1:title "Steam_Siege_Prerelease_Kit" ;
+    ns1:types "_e_Grass__e_Fire__e_Water__e_Psychic_" .
+
+ns1:Steel_Sentinel_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "HS2_Steel_Sentinel_Deck.jpg" ;
+    ns1:coin "File:HS2_Silver_Steelix_Coin.png_50px" ;
+    ns1:expansion "_TCG_Unleashed_" ;
+    ns1:release "May_12,_2010" ;
+    ns1:title "File:Steel_Sentinel_logo.png_120px" ;
+    ns1:types "_e_Grass__e_Fighting__e_Metal_" .
+
+ns1:Steel_Sun_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "SM2_Steel_Sun_Deck.jpg" ;
+    ns1:coin "File:GRI_Orange_Solgaleo_Coin.png_50px" ;
+    ns1:expansion "_TCG_Guardians_Rising_" ;
+    ns1:release "May_5,_2017" ;
+    ns1:title "File:Steel_Sun_logo.png_120px" ;
+    ns1:types "_e_Metal__e_Psychic_" .
+
+ns1:Steelix_Constructed_Standard_Deck_\(TCG\) a ns1:Deck .
+
+ns1:Steeplechase_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "EX11_Steeplechase_Deck.jpg" ;
+    ns1:coin "File:EX11_Red_Energy_Coin.png_50px" ;
+    ns1:expansion "_TCG_EX_Delta_Species_" ;
+    ns1:release "October_31,_2005" ;
+    ns1:title "File:Steeplechase_logo.png_120px" ;
+    ns1:types "_e_Fire__e_Metal_" .
+
+<http://example.org/resource/deck/Stellar_Crown_Build_&_Battle_Box_(TCG)> a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "SV7_Build_Battle_Box.jpg" ;
+    ns1:expansion "_TCG_Stellar_Crown_" ;
+    ns1:title "Stellar_Crown_Build_&_Battle_Box" ;
+    ns1:types "_e_Grass__e_Water__e_Psychic__e_Colorless_" .
+
+ns1:Stellar_Miracle_Deck_Build_Box_\(TCG\) a ns1:Deck ;
+    ns2:caption "Stellar_Miracle_Deck_Build_Box" ;
+    ns2:image "Stellar_Miracle_Deck_Build_Box.png" ;
+    ns1:release "Japanese:_July_19,_2024" ;
+    ns1:size "250" ;
+    ns1:title "_tt_デッキビルドBOX_ステラミラクル_Deck_Build_Box_Stellar_Miracle_" .
+
+ns1:Stellar_Tera_Type_Starter_Sets_\(TCG\) a ns1:Deck ;
+    ns2:caption "Collective_box_art" ;
+    ns2:image "Stellar_Tera_Type_Starter_Sets.jpg" ;
+    ns1:coin "File:SVLN_Silver_Sylveon_Coin.png_50px/File:SVLS_Silver_Ceruledge_Coin.png_50px" ;
+    ns1:release "Japanese:_August_30,_2024" ;
+    ns1:size "300" ;
+    ns1:title "_tt_スターターセット_テラスタイプ：ステラ_Starter_Set_Tera_Type:_Stellar_" .
+
+ns1:Stone_Heart_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "XY7_Stone_Heart_Deck.jpg" ;
+    ns1:coin "File:AOR_Silver_Primal_Kyogre_Coin.png_50px_/_File:AOR_Silver_Primal_Groudon_Coin.png_50px_/_File:AOR_Silver_Mega_Rayquaza_Coin.png_50px" ;
+    ns1:expansion "_TCG_Ancient_Origins_" ;
+    ns1:release "August_12,_2015" ;
+    ns1:title "Stone_Heart" ;
+    ns1:types "_e_Grass__e_Fighting_" .
+
+ns1:Storm_Caller_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "SM8_Storm_Caller_Deck.jpg" ;
+    ns1:coin "" ;
+    ns1:expansion "_TCG_Lost_Thunder_" ;
+    ns1:release "November_2,_2018" ;
+    ns1:title "File:Storm_Caller_logo.png_120px" ;
+    ns1:types "_e_Lightning_" .
+
+ns1:Storm_Rider_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "XY6_Storm_Rider_Deck.jpg" ;
+    ns1:coin "File:ROS_Gold_Mega_Rayquaza_Coin.png_50px" ;
+    ns1:expansion "_TCG_Roaring_Skies_" ;
+    ns1:release "May_6,_2015" ;
+    ns1:title "File:Storm_Rider_logo.png_120px" ;
+    ns1:types "_e_Lightning__e_Grass_" .
+
+ns1:Storm_Surge_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "EX14_Storm_Surge_Deck.jpg" ;
+    ns1:coin "File:PCG8S_Blue_Kyogre_Coin.png_50px" ;
+    ns1:expansion "_TCG_EX_Crystal_Guardians_" ;
+    ns1:release "August_30,_2006" ;
+    ns1:title "File:Storm_Surge_logo.png_120px" ;
+    ns1:types "_e_Water__e_Lightning_" .
+
+ns1:Storming_Emergence_GX_Starter_Deck_\(ATCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "CSM1D_Box.png" ;
+    ns1:expansion "_ATCG_Storming_Emergence_" ;
+    ns1:release "October_28,_2022" ;
+    ns1:title "Storming_Emergence_GX_Starter_Deck" .
+
+ns1:Stormshaper_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "PL4_Stormshaper_Deck.jpg" ;
+    ns1:coin "" ;
+    ns1:expansion "_TCG_Platinum:_Arceus_Arceus_" ;
+    ns1:release "November_4,_2009" ;
+    ns1:title "File:Stormshaper_logo.png_120px" ;
+    ns1:types "_e_Lightning__e_Psychic_" .
+
+ns1:Strength_V_Starter_Deck_\(ATCG\) a ns1:Deck ;
+    ns2:caption "Chinese_box_art" ;
+    ns2:image "SCD_V_Starter_Deck_Chinese.jpg" ;
+    ns1:release "Traditional_Chinese:_October_8,_2021Indonesian:_January_21,_2022Thai:_February_25,_2022" ;
+    ns1:title "Strength_V_Starter_Deck" .
+
+<http://example.org/resource/deck/Sun_&_Moon_Family_Pokémon_Card_Game_(TCG)> a ns1:Deck ;
+    ns2:caption "Family_Pokémon_Card_Game" ;
+    ns2:image "Sun_Moon_Family_Pokémon_Card_Game.jpg" ;
+    ns1:release "March_15,_2019" ;
+    ns1:size "200" ;
+    ns1:title "_tt_ファミリーポケモンカードゲーム_Family_Pokémon_Card_Game_" .
+
+<http://example.org/resource/deck/Sun_&_Moon_Prerelease_Kit_(TCG)> a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "" ;
+    ns1:expansion "_TCG_Sun_&_Moon_" ;
+    ns1:title "Sun_&_Moon_Prerelease_Kit" ;
+    ns1:types "_e_Grass__e_Water__e_Psychic__e_Fighting_" .
+
+<http://example.org/resource/deck/Sun_&_Moon_Starter_Set_(TCG)> a ns1:Deck ;
+    ns2:caption "Starter_Sets" ;
+    ns2:image "SM_Stater_Set.jpg" ;
+    ns1:coin "File:SMA_Green_Alola_Partners_Coin.png_50px/File:SMA_Red_Alola_Partners_Coin.png_50px/File:SMA_Blue_Alola_Partners_Coin.png_50px" ;
+    ns1:release "December_9,_2016" ;
+    ns1:size "300" ;
+    ns1:title "_tt_スターターセット_Starter_Set_" .
+
+<http://example.org/resource/deck/Sun_&_Moon_Trainer_Kit:_Alolan_Sandslash_&_Alolan_Ninetales_(TCG)> a ns1:Deck ;
+    ns2:caption "Package_art" ;
+    ns2:image "SunMoonTrainerKit_AlolanSandslashAlolanNinetales.jpg" ;
+    ns1:coin "File:SMTK_Silver_Rotom_Dex_Coin.png_50px" ;
+    ns1:release "June_1,_2018" ;
+    ns1:title "Sun_&_Moon_Trainer_Kit:_Alolan_Sandslash_&_Alolan_Ninetales" ;
+    ns1:types "_e_Metal__e_Water__e_Fairy__e_Grass_" .
+
+<http://example.org/resource/deck/Sun_&_Moon_Trainer_Kit:_Lycanroc_&_Alolan_Raichu_(TCG)> a ns1:Deck ;
+    ns2:caption "Package_art" ;
+    ns2:image "SM_Trainer_Kit_Alolan_Raichu_Lycanroc.jpg" ;
+    ns1:coin "File:SMTK_Silver_Alolan_Raichu_Coin.png_50px" ;
+    ns1:release "April_21,_2017" ;
+    ns1:title "Sun_&_Moon_Trainer_Kit:_Lycanroc_&_Alolan_Raichu" ;
+    ns1:types "_e_Fighting__e_Lightning_" .
+
+<http://example.org/resource/deck/Suns_&_Moons_(TCG)> a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "WCS2006_Suns_and_Moons_Deck.jpg" ;
+    ns1:cards "_TCG_ID_EX_Deoxys_Solrock_47_,__TCG_ID_EX_Deoxys_Lunatone_36_" ;
+    ns1:title "Suns_&_Moons" ;
+    ns1:types "_e_Fighting_" .
+
+<http://example.org/resource/deck/Super_Legend_Set:_Xerneas-EX_&_Yveltal-EX_(TCG)> a ns1:Deck ;
+    ns2:caption "Super_Legend_Set" ;
+    ns2:image "Super_Legend_Set_Xerneas-EX_Yveltal-EX.jpg" ;
+    ns1:coin "File:XYC_Xerneas_Yveltal_Coin.png_50px" ;
+    ns1:release "November_14,_2014" ;
+    ns1:size "250" ;
+    ns1:title "_tt_スーパーレジェンドセット60_ゼルネアスEX・イベルタルEX_Super_Legend_Set:_XerneasEX_&_YveltalEX_" .
+
+ns1:Swift_Empoleon_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "WCS2007_Swift_Empoleon_Deck.jpg" ;
+    ns1:cards "_TCG_ID_Diamond_&_Pearl_Empoleon_4_" ;
+    ns1:size "280" ;
+    ns1:title "Swift_Empoleon" ;
+    ns1:types "_e_Water_" .
+
+<http://example.org/resource/deck/Sword_&_Shield_Build_&_Battle_Box_(TCG)> a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "SWSH1_Build_Battle_Box.jpg" ;
+    ns1:expansion "_TCG_Sword_&_Shield_" ;
+    ns1:title "Sword_&_Shield_Build_&_Battle_Box" ;
+    ns1:types "_e_Grass__e_Water__e_Metal__e_Darkness__e_Colorless_" .
+
+<http://example.org/resource/deck/Sword_&_Shield_Family_Pokémon_Card_Game_(TCG)> a ns1:Deck ;
+    ns2:caption "Family_Pokémon_Card_Game" ;
+    ns2:image "Sword_Shield_Family_Pokémon_Card_Game.jpg" ;
+    ns1:release "Japanese:_July_9,_2021Korean:_November_27,_2021Traditional_Chinese:_August_6,_2021Simplified_Chinese:_November_17,_2023Thai:_November_26,_2021_(Anytime,_Anywhere_version)" ;
+    ns1:size "200" ;
+    ns1:title "_tt_ファミリーポケモンカードゲーム_Family_Pokémon_Card_Game_" .
+
+<http://example.org/resource/deck/Sword_&_Shield_Premium_Trainer_Box_(TCG)> a ns1:Deck ;
+    ns2:caption "Sword_&_Shield_Premium_Trainer_Box" ;
+    ns2:image "Sword_Shield_Premium_Trainer_Box.jpg" ;
+    ns1:coin "File:SB_Silver_V_Coin.png_50px" ;
+    ns1:release "December_6,_2019" ;
+    ns1:size "220" ;
+    ns1:title "_tt_プレミアムトレーナーボックス　ソード＆シールド_Sword_&_Shield_Premium_Trainer_Box_" .
+
+<http://example.org/resource/deck/Sword_&_Shield_V_Starter_Deck_(ATCG)> a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "SC1D_V_Starter_Deck_Thai.jpg" ;
+    ns1:expansion "_ATCG_Sword_&_Shield_" ;
+    ns1:release "Traditional_Chinese:_June_19,_2020Thai:_September_8,_2020Indonesian:_November_21,_2020" ;
+    ns1:title "Sword_&_Shield_V_Starter_Deck" .
+
+ns1:Tactics_Decks_\(ATCG\) a ns1:Deck ;
+    ns2:caption "Collective_box_art" ;
+    ns2:image "SVT_Tactics_Decks_Traditional_Chinese.png" ;
+    ns1:coin "" ;
+    ns1:release "Traditional_Chinese:_July_19,_2024Indonesian/Thai:_August_16,_2024" ;
+    ns1:size "300" ;
+    ns1:title "Tactics_Decks" .
+
+ns1:Tag_Team_Collection_GX_Starter_Deck_\(ATCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "AC3D_GX_Starter_Deck.jpg" ;
+    ns1:expansion "_ATCG_Tag_Team_Collection_" ;
+    ns1:release "July_10,_2020" ;
+    ns1:title "Tag_Team_Collection_GX_Starter_Deck" .
+
+ns1:Tag_Team_GX_Deck_Build_Box_\(TCG\) a ns1:Deck ;
+    ns2:caption "Japanese_Tag_Team_GX_Deck_Build_Box" ;
+    ns2:image "Tag_Team_GX_Deck_Build_Box.jpg" ;
+    ns1:coin "File:SMB_Silver_Coin.png_50px_Korean_version_only_(In_Korean_version_only)" ;
+    ns1:release "Japanese:_March_1,_2019__Korean:_June_4,_2019" ;
+    ns1:size "250" ;
+    ns1:title "_tt_デッキビルドBOX「TAG_TEAM_GX」_Tag_Team_GX_Deck_Build_Box_" .
+
+ns1:Tag_Team_GX_Premium_Trainer_Box_\(TCG\) a ns1:Deck ;
+    ns2:caption "Tag_Team_GX_Premium_Trainer_Box" ;
+    ns2:image "Tag_Team_GX_Premium_Trainer_Box.jpg" ;
+    ns1:coin "File:SMJ_Gold_Coin.png_50px" ;
+    ns1:release "December_7,_2018" ;
+    ns1:size "220" ;
+    ns1:title "_tt_プレミアムトレーナーボックス_TAG_TEAM_GX_Tag_Team_GX_Premium_Trainer_Box_" .
+
+ns1:Tag_Team_GX_Starter_Sets_\(TCG\) a ns1:Deck ;
+    ns2:caption "Collective_box_art" ;
+    ns2:image "Tag_Team_GX_Starter_Sets.jpg" ;
+    ns1:coin "File:SMM_Silver_Espeon_Deoxys_Coin.png_50px/File:SMM_Silver_Umbreon_Darkrai_Coin.png_50px" ;
+    ns1:release "May_31,_2019" ;
+    ns1:size "300" ;
+    ns1:title "_tt_スターターセット_TAG_TEAM_GX_Tag_Team_GX_Starter_Set_" .
+
+ns1:Tamamushi_City_Gym_\(TCG\) a ns1:Deck ;
+    ns2:caption "Package_art" ;
+    ns2:image "TamamushiCityGymDeck.jpg" ;
+    ns1:coin "File:TCG_Green_Gloom_Coin.png_50px" ;
+    ns1:expansion "_TCG_Leaders_Stadium_" ;
+    ns1:release "July_25,_1998" ;
+    ns1:title "_tt_タマムシシティジム_エリカ_Tamamushi_City_Gym_Erika_" ;
+    ns1:types "_e_Grass_" .
+
+ns1:Tapu_Bulu-GX_Enhanced_Starter_Set_\(TCG\) a ns1:Deck ;
+    ns2:caption "Deckbox" ;
+    ns2:image "TapuBuluGXEnhancedStarterSet.jpg" ;
+    ns1:release "March_17,_2017" ;
+    ns1:title "Tapu_Bulu-GX_Enhanced_Starter_Setスターターセット改造_カプ・ブルルGX" ;
+    ns1:types "_e_Grass__e_Lightning_" .
+
+ns1:Team_Aqua_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "EX4_Team_Aqua_Deck.jpg" ;
+    ns1:coin "File:ADV4S_Blue_Aqua_Coin.png_50px" ;
+    ns1:expansion "_TCG_EX_Team_Magma_vs_Team_Aqua_" ;
+    ns1:release "March_15,_2004" ;
+    ns1:title "File:Team_Aqua_logo.png_120px" ;
+    ns1:types "_e_Water__e_Lightning_" .
+
+ns1:Team_Magma_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "EX4_Team_Magma_Deck.jpg" ;
+    ns1:coin "File:ADV4S_Orange_Magma_Coin.png_50px" ;
+    ns1:expansion "_TCG_EX_Team_Magma_vs_Team_Aqua_" ;
+    ns1:release "March_15,_2004" ;
+    ns1:title "File:Team_Magma_logo.png_120px" ;
+    ns1:types "_e_Fire__e_Fighting_" .
+
+<http://example.org/resource/deck/Team_Plasma's_Powered_Half_Deck_(TCG)> a ns1:Deck .
+
+ns1:Team_Plasma_Battle_Gift_Set_\(TCG\) a ns1:Deck .
+
+ns1:Team_Rushdown_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "WCS2004_Team_Rushdown_Deck.jpg" ;
+    ns1:cards "_TCG_ID_EX_Ruby_&_Sapphire_Gardevoir_7_,__TCG_ID_EX_Sandstorm_Gardevoir_ex_96_" ;
+    ns1:size "280" ;
+    ns1:title "Team_Rushdown" ;
+    ns1:types "_e_Psychic__e_Lightning_" .
+
+<http://example.org/resource/deck/Team_Up_Build_&_Battle_Box_(TCG)> a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "SM9_Build_Battle_Box.jpg" ;
+    ns1:expansion "_TCG_Team_Up_" ;
+    ns1:title "Team_Up_Build_&_Battle_Box" ;
+    ns1:types "_e_Fire__e_Lightning__e_Psychic__e_Metal_" .
+
+<http://example.org/resource/deck/Temporal_Forces_Build_&_Battle_Box_(TCG)> a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "SV5_Build_Battle_Box.jpg" ;
+    ns1:expansion "_TCG_Temporal_Forces_" ;
+    ns1:title "Temporal_Forces_Build_&_Battle_Box" ;
+    ns1:types "_e_Water__e_Metal__e_Dragon__e_Dragon_" .
+
+ns1:Terastal_Starter_Sets_\(TCG\) a ns1:Deck ;
+    ns2:caption "Collective_box_art" ;
+    ns2:image "Terastal_Starter_Sets.png" ;
+    ns1:coin "File:SVEM_Silver_Mewtwo_Coin.png_50px/File:SVEL_Silver_Skeledirge_Coin.png_50px" ;
+    ns1:release "Japanese:_September_22,_2023Traditional_Chinese:_September_29,_2023" ;
+    ns1:size "300" ;
+    ns1:title "_tt_スターターセットテラスタル_Terastal_Starter_Set_" .
+
+ns1:Terra_Firma_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "DP1_Terra_Firma_Deck.jpg" ;
+    ns1:coin "File:DP1_Green_Sinnoh_Partners_Coin.png_50px" ;
+    ns1:expansion "_TCG_Diamond_&_Pearl_" ;
+    ns1:release "May_23,_2007" ;
+    ns1:title "File:Terra_Firma_logo.png_120px" ;
+    ns1:types "_e_Grass__e_Darkness_" .
+
+ns1:Terraki-Mewtwo_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "WCS2012_Terraki-Mewtwo_Deck.jpg" ;
+    ns1:cards "Mewtwo-EX_(Next_Destinies_54)_Mewtwo_EX_,__TCG_ID_Noble_Victories_Terrakion_73_" ;
+    ns1:size "280" ;
+    ns1:title "Terraki-Mewtwo" ;
+    ns1:types "_e_Psychic__e_Fighting_" .
+
+ns1:The_Flying_Hammer_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "WCS2015_The_Flying_Hammer.jpg" ;
+    ns1:cards "" ;
+    ns1:size "280" ;
+    ns1:title "The_Flying_Hammer" ;
+    ns1:types "_e_Fighting__e_Psychic_" .
+
+ns1:The_Shape_of_Mew_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "WCS2022_The_Shape_of_Mew_Deck.jpg" ;
+    ns1:release "March_3,_2023" ;
+    ns1:title "The_Shape_of_Mew" ;
+    ns1:types "_e_Psychic_" .
+
+ns1:The_Truth_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "WCS2011_The_Truth_Deck.jpg" ;
+    ns1:cards "_TCG_ID_Undaunted_Vileplume_24_,__TCG_ID_Black_&_White_Reuniclus_57_,__TCG_ID_HeartGold_&_SoulSilver_Donphan_107_" ;
+    ns1:title "The_Truth" ;
+    ns1:types "_e_Fire__e_Fighting_" .
+
+ns1:Theater_Limited_VS_Pack_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "5th_Movie_Half_Deck_pack.jpg" ;
+    ns1:coin "File:VS_Alto_Mare_LatiasLatios_Coin.png_50px" ;
+    ns1:release "July_13,_2002" ;
+    ns1:title "_tt_劇場限定VSパック_Theater_Limited_VS_Pack_" ;
+    ns1:types "_e_Grass__e_Water__e_Psychic__e_Fighting_" .
+
+ns1:Thunderstorm_\(TCG\) a ns1:Deck ;
+    ns2:caption "Included_in_the_Thunderstorm_Gift_Box" ;
+    ns2:image "Thunderstormbox.png" ;
+    ns1:release "2000" ;
+    ns1:title "Tempest" ;
+    ns1:types "_e_Lightning__e_Water__e_Colorless_" .
+
+ns1:Togedemaru_Deck_\(TCG\) a ns1:Deck ;
+    ns1:release "January_14,_2017" ;
+    ns1:title "_tt_トゲデマルデッキ_Togedemaru_Deck_" .
+
+ns1:Torchic_Constructed_Starter_Deck_\(TCG\) a ns1:Deck ;
+    ns2:caption "Package_art" ;
+    ns2:image "TorchicConstructedStarterDeck.jpg" ;
+    ns1:coin "File:ADV1S_Orange_Torchic_Coin.png_50px" ;
+    ns1:expansion "_TCG_ADV_Expansion_Pack_Expansion_Pack_" ;
+    ns1:release "January_31,_2003" ;
+    ns1:title "_tt_築済みスターター_アチャモデッキ_Pre-built_Starter_Achamo_Deck_" ;
+    ns1:types "_e_Fire__e_Lightning__e_Darkness_" .
+
+ns1:Torchic_Illustrated_Booklet_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "Torchic_Illustrated_Booklet_BR.jpg" ;
+    ns1:expansion "_TCG_EX_Ruby_&_Sapphire__" ;
+    ns1:release "September_2005_" ;
+    ns1:title "_tt_Torchic_Libro_Ilustrado_Torchic_Illustrated_Booklet__" ;
+    ns1:types "_e_Lightning__e_Fire__e_Darkness__e_Colorless__" .
+
+ns1:Torrential_Cannon_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "SM9_Torrential_Cannon_Deck.jpg" ;
+    ns1:coin "File:TEU_Blue_Blastoise_Coin.png_50px" ;
+    ns1:expansion "_TCG_Team_Up_" ;
+    ns1:release "February_1,_2019" ;
+    ns1:title "File:Torrential_Cannon_logo.png_120px" ;
+    ns1:types "_e_Water_" .
+
+<http://example.org/resource/deck/Torterra/Infernape/Empoleon/Raichu_Random_Constructed_Half_Decks_(KTCG)> a ns1:Deck .
+
+ns1:Towering_Heights_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "SM12_Towering_Heights_Deck.jpg" ;
+    ns1:coin "" ;
+    ns1:expansion "_TCG_Cosmic_Eclipse_" ;
+    ns1:release "November_1,_2019" ;
+    ns1:title "File:Towering_Heights_logo.png_120px" ;
+    ns1:types "_e_Fighting_" .
+
+ns1:Toxic_Tricks_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "BW2_Toxic_Tricks_Deck.jpg" ;
+    ns1:coin "File:BW2_Gold_Unova_Legends_Coin.png_50px" ;
+    ns1:expansion "_TCG_Emerging_Powers_" ;
+    ns1:release "August_17,_2011" ;
+    ns1:title "File:Toxic_Tricks_logo.png_120px" ;
+    ns1:types "_e_Psychic__e_Fire_" .
+
+<http://example.org/resource/deck/Trainer's_Toolkit_(TCG)> a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "Trainer_Toolkit.jpg" ;
+    ns1:title "Trainers_Toolkit" ;
+    ns1:types "_e_Grass__e_Fire__e_Water__e_Lightning__e_Psychic__e_Fighting__e_Darkness__e_Metal_" .
+
+<http://example.org/resource/deck/Trainer's_Toolkit_2021_(TCG)> a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "Trainer_Toolkit_2021.jpg" ;
+    ns1:title "Trainers_Toolkit_2021" ;
+    ns1:types "_e_Grass__e_Fire__e_Water__e_Lightning__e_Psychic__e_Fighting__e_Darkness__e_Metal_" .
+
+<http://example.org/resource/deck/Trainer's_Toolkit_2022_(TCG)> a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "Trainer_Toolkit_2022.jpg" ;
+    ns1:title "Trainers_Toolkit_2022" ;
+    ns1:types "_e_Grass__e_Fire__e_Water__e_Lightning__e_Psychic__e_Fighting__e_Darkness__e_Metal_" .
+
+<http://example.org/resource/deck/Trainer's_Toolkit_2023_(TCG)> a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "Trainer_Toolkit_2023.jpg" ;
+    ns1:title "Trainers_Toolkit_2023" ;
+    ns1:types "_e_Grass__e_Fire__e_Water__e_Lightning__e_Psychic__e_Fighting__e_Darkness__e_Metal_" .
+
+<http://example.org/resource/deck/Trainer's_Toolkit_2024_(TCG)> a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "Trainer_Toolkit_2024.jpg" ;
+    ns1:title "Trainers_Toolkit_2024" ;
+    ns1:types "_e_Grass__e_Fire__e_Water__e_Lightning__e_Psychic__e_Fighting__e_Darkness__e_Metal_" .
+
+ns1:Trainer_Battle_Decks_\(TCG\) a ns1:Deck ;
+    ns2:caption "Collective_box_art" ;
+    ns2:image "Trainer_Battle_Decks.jpg" ;
+    ns1:coin "File:SMK_Brown_Brock_Coin.png_50px/File:SMK_Blue_Misty_Coin.png_50px" ;
+    ns1:release "January_25,_2019" ;
+    ns1:size "220" ;
+    ns1:title "_tt_トレーナーバトルデッキ_Trainer_Battle_Deck_" .
+
+ns1:Trainer_Deck_A_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "Trainer_Deck_A_Brocks.png" ;
+    ns1:expansion "_TCG_Base_Set_" ;
+    ns1:image_size "50px" ;
+    ns1:release "1999©1999_Wizards_of_the_Coast_Wizards_of_the_Coast,_Inc._Trainer_Deck_A,_Brock_BROCKS_DECK_copyright_information_listed_on_the_box._Wizards_of_the_Coast,_Inc._1999." ;
+    ns1:title "Trainer_Deck_A" ;
+    ns1:types "_e_Fighting_" .
+
+ns1:Trainer_Deck_B_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "Trainer_Deck_B_Mistys.png" ;
+    ns1:expansion "_TCG_Base_Set_" ;
+    ns1:release "1999©1999_Wizards_of_the_Coast_Wizards_of_the_Coast,_Inc._Trainer_Deck_B,_Misty_MISTYS_DECK_copyright_information_listed_on_the_box._Wizards_of_the_Coast,_Inc._1999." ;
+    ns1:title "Trainer_Deck_B" ;
+    ns1:types "_e_Water_" .
+
+ns1:Transformation_V_Starter_Deck_\(ATCG\) a ns1:Deck ;
+    ns2:caption "Thai_box_art" ;
+    ns2:image "SCF_V_Starter_Deck_Thai.png" ;
+    ns1:release "Thai:_November_11,_2022Indonesian:_November_25,_2022" ;
+    ns1:title "Transformation_V_Starter_Deck" .
+
+ns1:Treecko_Constructed_Starter_Deck_\(TCG\) a ns1:Deck ;
+    ns2:caption "Package_art" ;
+    ns2:image "TreeckoConstructedStarterDeck.jpg" ;
+    ns1:coin "File:ADV1S_Green_Treecko_Coin.png_50px" ;
+    ns1:expansion "_TCG_ADV_Expansion_Pack_Expansion_Pack_" ;
+    ns1:release "January_31,_2003" ;
+    ns1:title "_tt_築済みスターター_キモリデッキ_Pre-built_Starter_Kimori_Deck_" ;
+    ns1:types "_e_Grass__e_Fighting__e_Colorless_" .
+
+ns1:Treecko_Illustrated_Booklet_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "Treecko_Illustrated_Booklet_BR.png" ;
+    ns1:expansion "_TCG_EX_Ruby_&_Sapphire__" ;
+    ns1:release "April_2006_" ;
+    ns1:title "_tt_Treecko_Libro_Ilustrado_Treecko_Illustrated_Booklet__" ;
+    ns1:types "_e_Fighting__e_Grass__e_Colorless__" .
+
+ns1:Trevgor_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "WCS2014_Trevgor_Deck.jpg" ;
+    ns1:cards "" ;
+    ns1:size "280" ;
+    ns1:title "Trevgor" ;
+    ns1:types "_e_Grass_" .
+
+ns1:Tropical_Takedown_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "SM6_Tropical_Takedown_Deck.jpg" ;
+    ns1:coin "File:FLI_Light_Gold_Alolan_Exeggutor_Coin.png_50px" ;
+    ns1:expansion "_TCG_Forbidden_Light_" ;
+    ns1:release "May_4,_2018" ;
+    ns1:title "File:Tropical_Takedown_logo.png_120px" ;
+    ns1:types "_e_Grass_" .
+
+ns1:Trouble_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "O5_Trouble_Deck.jpg" ;
+    ns1:coin "File:Wizards_Silver_Meowth_Coin.png_50px" ;
+    ns1:expansion "_TCG_Team_Rocket_" ;
+    ns1:release "April_24,_2000" ;
+    ns1:title "Trouble" ;
+    ns1:types "_e_Psychic__e_Grass_" .
+
+ns1:Turmoil_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "LC1_Turmoil_Deck.jpg" ;
+    ns1:coin "File:Wizards_Metal_Lugia_Coin.png_50px" ;
+    ns1:expansion "_TCG_Legendary_Collection_" ;
+    ns1:release "May_24,_2002" ;
+    ns1:title "Turmoil" ;
+    ns1:types "_e_Lightning__e_Water_" .
+
+ns1:Turtonator_Deck_\(TCG\) a ns1:Deck ;
+    ns1:release "January_14,_2017" ;
+    ns1:title "_tt_バクガメスデッキ_Turtonator_Deck_" .
+
+<http://example.org/resource/deck/Twilight_Masquerade_Build_&_Battle_Box_(TCG)> a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "SV6_Build_Battle_Box.jpg" ;
+    ns1:expansion "_TCG_Twilight_Masquerade_" ;
+    ns1:title "Twilight_Masquerade_Build_&_Battle_Box" ;
+    ns1:types "_e_Grass__e_Fire__e_Water__e_Dragon_" .
+
+ns1:Twilight_Rogue_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "SM6_Twilight_Rogue_Deck.jpg" ;
+    ns1:coin "File:FLI_Light_Gold_Lycanroc_Coin.png_50px" ;
+    ns1:expansion "_TCG_Forbidden_Light_" ;
+    ns1:release "May_4,_2018" ;
+    ns1:title "File:Twilight_Rogue_logo.png_120px" ;
+    ns1:types "_e_Fighting__e_Psychic_" .
+
+ns1:Twinboar_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "WCS2011_Twinboar_Deck.jpg" ;
+    ns1:cards "_TCG_ID_Black_&_White_Reshiram_26_,__TCG_ID_Black_&_White_Emboar_20_,__TCG_ID_Triumphant_Magnezone_96_" ;
+    ns1:title "Twinboar" ;
+    ns1:types "_e_Fire__e_Lightning_" .
+
+ns1:Typhlosion_Constructed_Starter_Deck_\(TCG\) a ns1:Deck ;
+    ns2:caption "Package_art" ;
+    ns2:image "Golden_Sky_Silvery_Ocean_-_Typhlosion_Deck.jpg" ;
+    ns1:coin "File:PCG4S_Red_Cyndaquil_Coin.jpg_50px" ;
+    ns1:expansion "_TCG_Golden_Sky,_Silvery_Ocean_" ;
+    ns1:release "March_5,_2005" ;
+    ns1:title "_tt_構築済みスターター_バクフーンex★炎_Pre-built_Starter_Bakphoon_ex★_Fire_" ;
+    ns1:types "_e_Fire__e_Fighting__e_Colorless_" .
+
+ns1:Typhlosion_ex_Epic_Collection_Deck_\(TCG\) a ns1:Deck .
+
+ns1:Tyranitar_Constructed_Standard_Deck_\(TCG\) a ns1:Deck .
+
+ns1:Tyranitar_Half_Deck_\(TCG\) a ns1:Deck ;
+    ns2:caption "Packaging_for_the_Half_deck" ;
+    ns2:image "TyranitarHalfDeck.jpg" ;
+    ns1:coin "File:VS_Aqua_Celebi_Coin.png_50px" ;
+    ns1:expansion "_TCG_Pokémon_VS_" ;
+    ns1:release "August_26,_2001_(English)July_7,_2001_(Japanese)" ;
+    ns1:title "Tyranitar_Half_Deck" ;
+    ns1:types "_e_Grass__e_Fire__e_Water__e_Lightning__e_Psychic__e_Fighting__e_Colorless__and_possibly__e_Darkness_" .
+
+ns1:Ultimate_Team_Plasma_\(TCG\) a ns1:Deck ;
+    ns2:image "WCS2013_Ultimate_Team_Plasma_Deck.jpg" ;
+    ns1:cards "" ;
+    ns1:size "280" ;
+    ns1:title "Ultimate_Team_Plasma" ;
+    ns1:types "_e_Water__e_Lightning_" .
+
+ns1:Ultra_Prism_Prerelease_Kit_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "SM5_Prerelease_Kit.jpg" ;
+    ns1:expansion "_TCG_Ultra_Prism_" ;
+    ns1:title "Ultra_Prism_Prerelease_Kit" ;
+    ns1:types "_e_Water__e_Lightning__e_Fighting__e_Metal_" .
+
+<http://example.org/resource/deck/Ultra_Sun_&_Ultra_Moon_Deck_Build_Boxes_(TCG)> a ns1:Deck ;
+    ns2:caption "Collective_box_art" ;
+    ns2:image "Ultra_Sun_Ultra_Moon_Deck_Build_Boxes.jpg" ;
+    ns1:release "February_16,_2018" ;
+    ns1:size "220" ;
+    ns1:title "_tt_デッキビルドBOX「ウルトラサン」_Ultra_Sun_Deck_Build_Box__tt_デッキビルドBOX「ウルトラムーン」_Ultra_Moon_Deck_Build_Box_" .
+
+<http://example.org/resource/deck/Ultra_Sun_&_Ultra_Moon_Premium_Trainer_Box_(TCG)> a ns1:Deck ;
+    ns2:caption "Ultra_Sun_&_Ultra_Moon_Premium_Trainer_Box" ;
+    ns2:image "Ultra_Sun_Ultra_Moon_Premium_Trainer_Box.jpg" ;
+    ns1:coin "File:SMF_Silver_Coin.png_50px" ;
+    ns1:release "December_8,_2017" ;
+    ns1:size "220" ;
+    ns1:title "_tt_プレミアムトレーナーボックス_ウルトラサン・ウルトラムーン_Ultra_Sun_&_Ultra_Moon_Premium_Trainer_Box_" .
+
+<http://example.org/resource/deck/Unbroken_Bonds_Build_&_Battle_Box_(TCG)> a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "SM10_Build_Battle_Box.jpg" ;
+    ns1:expansion "_TCG_Unbroken_Bonds_" ;
+    ns1:title "Unbroken_Bonds_Build_&_Battle_Box" ;
+    ns1:types "_e_Fire__e_Water__e_Fighting__e_Metal_" .
+
+<http://example.org/resource/deck/Unified_Minds_Build_&_Battle_Box_(TCG)> a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "SM11_Build_Battle_Box.jpg" ;
+    ns1:expansion "_TCG_Unified_Minds_" ;
+    ns1:title "Unified_Minds_Build_&_Battle_Box" ;
+    ns1:types "_e_Grass__e_Water__e_Psychic__e_Fighting_" .
+
+ns1:Unseen_Depths_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "SM12_Unseen_Depths_Deck.jpg" ;
+    ns1:coin "" ;
+    ns1:expansion "_TCG_Cosmic_Eclipse_" ;
+    ns1:release "November_1,_2019" ;
+    ns1:title "File:Unseen_Depths_logo.png_120px" ;
+    ns1:types "_e_Water_" .
+
+ns1:V-UNION_Special_Card_Sets_\(TCG\) a ns1:Deck ;
+    ns2:caption "Collective_box_art" ;
+    ns2:image "V-UNION_Special_Card_Sets.jpg" ;
+    ns1:release "Japanese:_August_20,_2021Traditional_Chinese:_August_27,_2021Korean:_October_15,_2021" ;
+    ns1:size "300" ;
+    ns1:title "_tt_スペシャルカードセット_Special_Card_Set_" .
+
+ns1:VMAX_Special_Set_\(TCG\) a ns1:Deck ;
+    ns2:caption "VMAX_Special_Set" ;
+    ns2:image "VMAX_Special_Set.jpg" ;
+    ns1:release "October_23,_2020" ;
+    ns1:size "220" ;
+    ns1:title "_tt_VMAXスペシャルセット_VMAX_Special_Set_" .
+
+<http://example.org/resource/deck/VSTAR_&_VMAX_High-Class_Decks_(TCG)> a ns1:Deck ;
+    ns2:caption "Collective_box_art" ;
+    ns2:image "VSTAR_VMAX_High-Class_Decks.jpg" ;
+    ns1:coin "File:SPZ_Gold_Zeraora_Coin.png_50px/File:SPD_Purple_Deoxys_Coin.png_50px" ;
+    ns1:release "Japanese:_July_15,_2022Traditional_Chinese:_August_26,_2022" ;
+    ns1:title "_tt_VSTAR&VMAX_ハイクラスデッキ_VSTAR_&_VMAX_High-Class_Decks_" .
+
+ns1:VSTAR_Premium_Trainer_Box_\(TCG\) a ns1:Deck ;
+    ns2:caption "VSTAR_Premium_Trainer_Box" ;
+    ns2:image "VSTAR_Premium_Trainer_Box.jpg" ;
+    ns1:coin "File:SK_Gold_V_Coin.png_50px" ;
+    ns1:release "Japanese:_January_14,_2022_Traditional_Chinese:_January_28,_2022" ;
+    ns1:size "220" ;
+    ns1:title "_tt_プレミアムトレーナーボックス_VSTAR_VSTAR_Premium_Trainer_Box_" .
+
+ns1:VSTAR_Special_Set_\(TCG\) a ns1:Deck ;
+    ns2:caption "VSTAR_Special_Set" ;
+    ns2:image "VSTAR_Special_Set.jpg" ;
+    ns1:release "Japanese:_August_5,_2022_Traditional_Chinese:_August_26,_2022" ;
+    ns1:size "220" ;
+    ns1:title "_tt_VSTARスペシャルセット_VSTAR_Special_Set_" .
+
+ns1:VSTAR_Starter_Sets_\(TCG\) a ns1:Deck ;
+    ns2:caption "Collective_box_art" ;
+    ns2:image "Lucario_Darkrai_VSTAR_Starter_Sets.jpg" ;
+    ns1:coin "File:SLL_Gold_Lucario_Coin.png_50px/File:SLD_Gold_Darkrai_Coin.png_50px" ;
+    ns1:release "Japanese:_February_25,_2022Traditional_Chinese:_March_11,_2022" ;
+    ns1:size "280" ;
+    ns1:title "_tt_スターターセットVSTAR_VSTAR_Starter_Sets_" .
+
+<http://example.org/resource/deck/V_Battle_Deck—Lycanroc_vs._Corviknight_(TCG)> a ns1:Deck ;
+    ns2:caption "V_Battle_Deck—Lycanroc_vs._Corviknight" ;
+    ns2:image "V_Battle_Deck_Lycanroc_vs_Corviknight.jpg" ;
+    ns1:coin "File:VBD_Bronze_Lycanroc_Coin.png_50px/File:VBD_Silver_Corviknight_Coin.png_50px" ;
+    ns1:release "February_25,_2022" ;
+    ns1:title "V_Battle_Deck—Lycanroc_vs._Corviknight" ;
+    ns1:types "_e_Fighting__e_Metal_" .
+
+<http://example.org/resource/deck/V_Battle_Deck—Rayquaza_vs._Noivern_(TCG)> a ns1:Deck ;
+    ns2:caption "V_Battle_Deck—Rayquaza_vs._Noivern" ;
+    ns2:image "V_Battle_Deck_Rayquaza_vs_Noivern.jpg" ;
+    ns1:coin "File:VBD_Gold_Rayquaza_Coin.jpg_50px/File:VBD_Bronze_Noivern_Coin.jpg_50px" ;
+    ns1:release "October_8,_2021" ;
+    ns1:title "V_Battle_Deck—Rayquaza_vs._Noivern" ;
+    ns1:types "_e_Dragon___e_Fire___e_Lightning___e_Darkness___e_Psychic_" .
+
+<http://example.org/resource/deck/V_Battle_Deck—Venusaur_vs._Blastoise_(TCG)> a ns1:Deck ;
+    ns2:caption "V_Battle_Deck—Venusaur_vs._Blastoise" ;
+    ns2:image "V_Battle_Deck_Venusaur_vs_Blastoise.jpg" ;
+    ns1:coin "File:VBD_Blue_Blastoise_Coin.png_50px/File:VBD_Green_Venusaur_Coin.png_50px" ;
+    ns1:release "February_5,_2021" ;
+    ns1:title "V_Battle_Deck—Venusaur_vs._Blastoise" ;
+    ns1:types "_e_Grass__e_Water_" .
+
+<http://example.org/resource/deck/V_Battle_Deck—Victini_vs._Gardevoir_(TCG)> a ns1:Deck ;
+    ns2:caption "V_Battle_Deck—Victini_vs._Gardevoir" ;
+    ns2:image "V_Battle_Deck_Victini_vs_Gardevoir.jpg" ;
+    ns1:coin "File:VBD_Orange_Victini_Coin.png_50px/File:VBD_Purple_Gardevoir_Coin.png_50px" ;
+    ns1:release "May_7,_2021" ;
+    ns1:title "V_Battle_Deck—Victini_vs._Gardevoir" ;
+    ns1:types "_e_Fire__e_Psychic_" .
+
+<http://example.org/resource/deck/V_Battle_Deck—Zeraora_vs._Deoxys_(TCG)> a ns1:Deck ;
+    ns2:caption "V_Battle_Deck—Zeraora_vs._Deoxys" ;
+    ns2:image "V_Battle_Deck_Zeraora_vs_Deoxys.jpg" ;
+    ns1:coin "File:VBD_Gold_Zeraora_Coin.jpg_50px/File:VBD_Red_Deoxys_Coin.jpg_50px" ;
+    ns1:release "October_14,_2022" ;
+    ns1:title "V_Battle_Deck—Zeraora_vs._Deoxys" ;
+    ns1:types "_e_Lightning__e_Psychic_" .
+
+ns1:V_Starter_Decks_\(TCG\) a ns1:Deck ;
+    ns2:caption "Collective_box_art" ;
+    ns2:image "V_Starter_Decks.jpg" ;
+    ns1:release "July_10,_2020" ;
+    ns1:size "220" ;
+    ns1:title "_tt_Vスタートデッキ_V_Start_Decks_" .
+
+ns1:V_Starter_Sets_\(ATCG\) a ns1:Deck ;
+    ns2:caption "Collective_box_art" ;
+    ns2:image "V_Starter_Sets_F.jpg" ;
+    ns1:release "November_4,_2022" ;
+    ns1:size "300" ;
+    ns1:title "_tt_V初階牌組_V_Starter_Set_" .
+
+ns1:V_Starter_Sets_\(TCG\) a ns1:Deck ;
+    ns2:caption "Collective_box_art" ;
+    ns2:image "V_Starter_Sets.jpg" ;
+    ns1:coin "File:SA_Silver_Grookey_Coin.png_50px/File:SA_Silver_Scorbunny_Coin.png_50px/File:SA_Silver_Sobble_Coin.png_50px/File:SA_Silver_Morpeko_Coin.png_50px/File:SA_Silver_Stonjourner_Coin.png_50px" ;
+    ns1:release "November_29,_2019" ;
+    ns1:title "_tt_スターターセットV_V_Starter_Sets_" .
+
+<http://example.org/resource/deck/Venusaur/Charizard/Blastoise_Random_Constructed_Starter_Decks_(TCG)> a ns1:Deck ;
+    ns2:caption "Collective_package_art" ;
+    ns2:image "RandomConstructedStarterDecks.jpg" ;
+    ns1:coin "File:PCG1S_Green_Bulbasaur_Coin.png_50px/File:PCG1S_Red_Charmander_Coin.png_50px/File:PCG1S_Blue_Squirtle_Coin.png_50px" ;
+    ns1:expansion "_TCG_Flight_of_Legends_" ;
+    ns1:release "March_19,_2004" ;
+    ns1:title "_tt_ランダム構築スターター_Random_Constructed_Starter_" .
+
+<http://example.org/resource/deck/Venusaur_&_Blastoise_Half_Deck_(ATCG)> a ns1:Deck ;
+    ns2:caption "Venusaur_&_Blastoise_Half_Deck_boxart" ;
+    ns2:image "Venusaur_Blastoise_Half_Deck.jpg" ;
+    ns1:release "December_8,_2022" ;
+    ns1:size "280" ;
+    ns1:title "Venusaur_&_Blastoise_Half_Deck" .
+
+<http://example.org/resource/deck/Venusaur_&_Blastoise_VMAX_Starter_Sets_(TCG)> a ns1:Deck ;
+    ns2:caption "Collective_box_art" ;
+    ns2:image "Venusaur_Blastoise_VMAX_Starter_Sets.jpg" ;
+    ns1:coin "File:SEF_Green_Gigantamax_Venusaur_Coin.png_50px/File:SEK_Blue_Gigantamax_Blastoise_Coin.png_50px" ;
+    ns1:release "December_4,_2020" ;
+    ns1:size "280" ;
+    ns1:title "_tt_スターターセットVMAX_VMAX_Starter_Sets_" .
+
+<http://example.org/resource/deck/Venusaur_&_Charizard_&_Blastoise_Special_Deck_Set_ex_(TCG)> a ns1:Deck ;
+    ns2:caption "Venusaur_&_Charizard_&_Blastoise_Special_Deck_Set_ex" ;
+    ns2:image "Venusaur_Charizard_Blastoise_Special_Deck_Set_ex_contents.png" ;
+    ns1:coin "" ;
+    ns1:release "Japanese:_November_10,_2023Korean:_December_13,_2023" ;
+    ns1:size "300" ;
+    ns1:title "_tt_スペシャルデッキセットex_フシギバナ・リザードン・カメックス_Venusaur_&_Charizard_&_Blastoise_Special_Deck_Set_ex_" ;
+    ns1:types "_e_Grass__e_Fire__e_Water_" .
+
+ns1:Verdant_Frost_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "HS4_Verdant_Frost_Deck.jpg" ;
+    ns1:coin "File:HS4_Gold_Palkia_Coin.png_50px" ;
+    ns1:expansion "_TCG_Triumphant_" ;
+    ns1:release "November_3,_2010" ;
+    ns1:title "File:Verdant_Frost_logo.png_120px" ;
+    ns1:types "_e_Grass__e_Water_" .
+
+ns1:Victory_Map_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "WCS2018_Victory_Map_Deck.jpg" ;
+    ns1:title "Victory_Map" ;
+    ns1:types "_e_Psychic__e_Darkness_" .
+
+<http://example.org/resource/deck/Vivid_Voltage_Build_&_Battle_Box_(TCG)> a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "SWSH4_Build_Battle_Box.jpg" ;
+    ns1:expansion "_TCG_Vivid_Voltage_" ;
+    ns1:title "Vivid_Voltage_Build_&_Battle_Box" ;
+    ns1:types "_e_Fire__e_Fighting__e_Colorless__e_Water_" .
+
+ns1:Voltage_Vortex_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "BW4_Voltage_Vortex_Deck.jpg" ;
+    ns1:coin "File:BW4_White_Unova_Legends_Coin.png_50px" ;
+    ns1:expansion "_TCG_Next_Destinies_" ;
+    ns1:release "February_8,_2012" ;
+    ns1:title "File:Voltage_Vortex_logo.png_120px" ;
+    ns1:types "_e_Lightning__e_Darkness_" .
+
+ns1:Wallop_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "N2_Wallop_Deck.jpg" ;
+    ns1:coin "File:Wizards_Metal_Lugia_Coin.png_50px" ;
+    ns1:expansion "_TCG_Neo_Discovery_" ;
+    ns1:release "June_1,_2001" ;
+    ns1:title "Wallop" ;
+    ns1:types "_e_Grass__e_Fighting_" .
+
+<http://example.org/resource/deck/Water/Psychic_Battle_Strength_Set_(TCG)> a ns1:Deck ;
+    ns2:caption "Water/Psychic_Battle_Strength_Set" ;
+    ns2:image "Water_Psychic_Battle_Strength_Set.jpg" ;
+    ns1:release "December_26,_2015" ;
+    ns1:size "250" ;
+    ns1:title "_tt_バトル強化セット_水/超_Water/Psychic_Battle_Strength_Set_" .
+
+ns1:Water_Blast_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "O2_Water_Blast_Deck.jpg" ;
+    ns1:coin "File:Wizards_Green_Vileplume_Coin.png_50px" ;
+    ns1:expansion "_TCG_Jungle_" ;
+    ns1:release "June_16,_1999" ;
+    ns1:title "Water_Blast" ;
+    ns1:types "_e_Water__e_Fighting_" .
+
+ns1:Wave_Slasher_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "XY9_Wave_Slasher_Deck.jpg" ;
+    ns1:coin "File:BKP_Red_Mega_Gyarados_Coin.png_50px_/_File:BKP_Confetti_Mega_Gyarados_Coin.png_50px_/_File:BKP_Red_Cracked_Ice_Mega_Gyarados_Coin.png_50px" ;
+    ns1:expansion "_TCG_BREAKpoint_" ;
+    ns1:release "February_3,_2016" ;
+    ns1:title "File:Wave_Slasher_logo.png_120px" ;
+    ns1:types "_e_Water__e_Grass_" .
+
+ns1:White_Kyurem-EX_Battle_Strength_Deck_\(TCG\) a ns1:Deck .
+
+ns1:Wildfire_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "EX9_Wildfire_Deck.jpg" ;
+    ns1:coin "File:EX09_Gold_Energy_Coin.png_50px" ;
+    ns1:expansion "_TCG_EX_Emerald_" ;
+    ns1:release "May_9,_2005" ;
+    ns1:title "File:Wildfire_logo.png_120px" ;
+    ns1:types "_e_Lightning__e_Fire_" .
+
+ns1:WindBlast_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "EX3_WindBlast_Deck.jpg" ;
+    ns1:coin "File:ADV3S_Green_Flygon_Coin.png_50px" ;
+    ns1:expansion "_TCG_EX_Dragon_" ;
+    ns1:release "November_24,_2003" ;
+    ns1:title "File:WindBlast_logo.png_120px" ;
+    ns1:types "_e_Grass__e_Lightning_" .
+
+ns1:Wish_Maker_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "EX5_Wish_Maker_Deck.jpg" ;
+    ns1:coin "File:EX05_Silver_Jirachi_Coin.jpg_50px" ;
+    ns1:expansion "_TCG_EX_Hidden_Legends_" ;
+    ns1:release "June_14,_2004" ;
+    ns1:title "File:Wish_Maker_logo.png_120px" ;
+    ns1:types "_e_Psychic__e_Water_" .
+
+<http://example.org/resource/deck/XY_Trainer_Kit:_Bisharp_&_Wigglytuff_(TCG)> a ns1:Deck .
+
+<http://example.org/resource/deck/XY_Trainer_Kit:_Latias_&_Latios_(TCG)> a ns1:Deck ;
+    ns2:caption "Package_art" ;
+    ns2:image "XYTrainerKit_Latias_Latios.jpg" ;
+    ns1:coin "File:XYTK_Silver_Hoenn_Partners_Coin.png_50px/File:XYTK_Gold_Hoenn_Partners_Coin.png_50px" ;
+    ns1:release "April_29,_2015" ;
+    ns1:title "XY_Trainer_Kit:_Latias_&_Latios" ;
+    ns1:types "_e_Grass__e_Psychic__e_Fighting_" .
+
+<http://example.org/resource/deck/XY_Trainer_Kit:_Pikachu_Libre_&_Suicune_(TCG)> a ns1:Deck ;
+    ns2:caption "Package_art" ;
+    ns2:image "XYTrainerKit_PikachuLibre_Suicune.jpg" ;
+    ns1:coin "File:XYTK_Silver_Pikachu_Coin.png_50px/File:XYTK_Gold_Pikachu_Coin.png_50px" ;
+    ns1:release "April_27,_2016" ;
+    ns1:title "XY_Trainer_Kit:_Pikachu_Libre_&_Suicune" ;
+    ns1:types "_e_Lightning__e_Water_" .
+
+ns1:XY_Trainer_Kit_\(TCG\) a ns1:Deck ;
+    ns2:caption "Package_art" ;
+    ns2:image "XYTrainerKit.jpg" ;
+    ns1:coin "File:XYTK_Silver_Kalos_Partners_Coin.png_50px/File:XYTK_Gold_Kalos_Partners_Coin.png_50px" ;
+    ns1:release "March_12,_2014" ;
+    ns1:title "XY_Trainer_Kit" ;
+    ns1:types "_e_Psychic__e_Darkness__e_Fairy_" .
+
+ns1:Xerneas_Half_Deck_\(TCG\) a ns1:Deck .
+
+ns1:Yamabuki_City_Gym_\(TCG\) a ns1:Deck ;
+    ns2:caption "Package_art" ;
+    ns2:image "YamabukiCityGymDeck.jpg" ;
+    ns1:coin "File:YCG_Purple_Alakazam_Coin.png_50px" ;
+    ns1:expansion "_TCG_Challenge_from_the_Darkness_" ;
+    ns1:release "February_26,_1999" ;
+    ns1:title "_tt_ヤマブキシティジム_ナツメ_Yamabuki_City_Gym_Natsume_" ;
+    ns1:types "_e_Psychic_" .
+
+ns1:Yveltal_Half_Deck_\(TCG\) a ns1:Deck .
+
+<http://example.org/resource/deck/Zacian_&_Zamazenta_vs_Eternatus_Special_Deck_Set_(TCG)> a ns1:Deck ;
+    ns2:caption "Special_Deck_Set" ;
+    ns2:image "Zacian_Zamazenta_vs_Eternatus_Special_Deck_Set.jpg" ;
+    ns1:coin "File:SJ_Blue_Zacian_Coin.png_50pxFile:SJ_Pink_Zamazenta_Coin.png_50px" ;
+    ns1:release "Japanese:_November_5,_2021Traditional_Chinese:_January_28,_2022" ;
+    ns1:size "200" ;
+    ns1:title "_tt_スペシャルデッキセット_ザシアン・ザマゼンタ_vs_ムゲンダイナ_Zacian_&_Zamazenta_vs_Eternatus_Special_Deck_Set_" ;
+    ns1:types "_e_Darkness__e_Metal_" .
+
+<http://example.org/resource/deck/Zacian_+_Zamazenta_Box_(TCG)> a ns1:Deck ;
+    ns2:caption "Zacian_+_Zamazenta_Box" ;
+    ns2:image "Zacian_Zamazenta_Box.jpg" ;
+    ns1:release "December_27,_2019" ;
+    ns1:size "220" ;
+    ns1:title "_tt_ザシアン＋ザマゼンタBOX_Zacian_+_Zamazenta_Box_" .
+
+ns1:Zacian_Theme_Deck_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "SWSH2_Zacian_Deck.jpg" ;
+    ns1:coin "" ;
+    ns1:expansion "_TCG_Rebel_Clash_" ;
+    ns1:release "May_1,_2020" ;
+    ns1:title "Zacian_Theme_Deck" ;
+    ns1:types "_e_Metal_" .
+
+ns1:Zacian_V_League_Battle_Deck_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "Zacian_V_League_Battle_Deck.jpg" ;
+    ns1:title "Zacian_V_League_Battle_Deck" ;
+    ns1:types "_e_Metal_" .
+
+ns1:Zamazenta_Theme_Deck_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "SWSH2_Zamazenta_Deck.jpg" ;
+    ns1:coin "" ;
+    ns1:expansion "_TCG_Rebel_Clash_" ;
+    ns1:release "May_1,_2020" ;
+    ns1:title "Zamazenta_Theme_Deck" ;
+    ns1:types "_e_Metal_" .
+
+<http://example.org/resource/deck/Zap!_(TCG)> a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "O1_Zap!_Deck.jpg" ;
+    ns1:coin "File:Wizards_Silver_Chansey_Coin.png_50px" ;
+    ns1:expansion "_TCG_Base_Set_" ;
+    ns1:release "January_9,_1999" ;
+    ns1:title "Zap!" ;
+    ns1:types "_e_Lightning__e_Psychic_" .
+
+ns1:Zapdos_Legendary_Battle_Deck_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "Legendary_Battle_Deck_Zapdos.jpg" ;
+    ns1:coin "File:LBD_Silver_Plasma_Coin.png_50px" ;
+    ns1:title "Zapdos_Legendary_Battle_Deck" ;
+    ns1:types "_e_Lightning__e_Psychic_" .
+
+ns1:Zekrom-EX_Battle_Strength_Deck_\(TCG\) a ns1:Deck ;
+    ns2:caption "Box_art" ;
+    ns2:image "BattleStrengthDeckZekromEX.jpg" ;
+    ns1:coin "File:BKZ_Gold_Zekrom_Coin.png_50px" ;
+    ns1:release "October_21,_2011" ;
+    ns1:title "_tt_バトル強化デッキ６０「ゼクロムＥＸ」_Battle_Strength_Deck_ZekromEX_" ;
+    ns1:types "_e_Grass__e_Lightning_" .
+
+ns1:Zygarde-EX_Perfect_Battle_Deck_\(TCG\) a ns1:Deck ;
+    ns2:caption "Zygarde-EX_Perfect_Battle_Deck" ;
+    ns2:image "Zygarde-EX_Perfect_Battle_Deck.jpg" ;
+    ns1:coin "_File:XYG_Silver_Zygarde_Coin.png_50px" ;
+    ns1:release "March_18,_2016" ;
+    ns1:title "_tt_パーフェクトバトルデッキ60_ジガルデEX_Zygarde-EX_Perfect_Battle_Deck_" ;
+    ns1:types "_e_Fighting_" .
+

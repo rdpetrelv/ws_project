@@ -1,0 +1,17 @@
+
+<http://example.org/resource/dw/Dream_Park_(Dream_World)> a <http://example.org/resource/dw/DW> .
+
+<http://example.org/resource/dw/Icy_Cave_(Dream_World)> a <http://example.org/resource/dw/DW> .
+
+<http://example.org/resource/dw/Pleasant_Forest_(Dream_World)> a <http://example.org/resource/dw/DW> .
+
+<http://example.org/resource/dw/Pokémon_Café_Forest_(Dream_World)> a <http://example.org/resource/dw/DW> .
+
+<http://example.org/resource/dw/Rugged_Mountain_(Dream_World)> a <http://example.org/resource/dw/DW> .
+
+<http://example.org/resource/dw/Sparkling_Sea_(Dream_World)> a <http://example.org/resource/dw/DW> .
+
+<http://example.org/resource/dw/Spooky_Manor_(Dream_World)> a <http://example.org/resource/dw/DW> .
+
+<http://example.org/resource/dw/Windswept_Sky_(Dream_World)> a <http://example.org/resource/dw/DW> .
+

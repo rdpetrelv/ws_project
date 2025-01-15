@@ -1,131 +1,132 @@
-@prefix local: <http://example.org/character/> .
+@prefix local: <http://example.org/resource/character/> .
+@prefix localProperty: <http://example.org/property/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix schema: <http://schema.org/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix localRegion: <http://example.org/region/> .
-@prefix localLocation: <http://example.org/location/> .
+@prefix localRegion: <http://example.org/resource/region/> .
+@prefix localLocation: <http://example.org/resource/location/> .
 
 
 local:Character rdf:type rdfs:Class ;
     rdfs:label "Character"@en ;
     rdfs:comment "A character entity, including information such as name, age, appearance, and background."@en .
 
-local:color rdf:type rdf:Property ;
+localProperty:color rdf:type rdf:Property ;
     rdfs:label "color"@en ;
     rdfs:comment "Main color for the template of the character."@en ;
     rdfs:domain local:Character ;
     rdfs:range schema:color .
 
-local:bordercolor rdf:type rdf:Property ;
+localProperty:bordercolor rdf:type rdf:Property ;
     rdfs:label "border color"@en ;
     rdfs:comment "Color of the border around the character template."@en ;
     rdfs:domain local:Character ;
     rdfs:range schema:color .
 
-local:corecolor rdf:type rdf:Property ;
+localProperty:corecolor rdf:type rdf:Property ;
     rdfs:label "core color"@en ;
     rdfs:comment "Color of the left-side column in the character infobox."@en ;
     rdfs:domain local:Character ;
     rdfs:range schema:color .
 
-schema:name rdf:type rdf:Property ;
+localProperty:name rdf:type rdf:Property ;
     rdfs:label "name"@en ;
     rdfs:comment "The character's full name, including titles."@en ;
     rdfs:domain local:Character ;
     rdfs:range xsd:string .
 
-local:jname rdf:type rdf:Property ;
+localProperty:jname rdf:type rdf:Property ;
     rdfs:label "Japanese name"@en ;
     rdfs:comment "The character's Japanese name in Japanese characters."@en ;
     rdfs:domain local:Character ;
     rdfs:range xsd:string .
 
-local:tmname rdf:type rdf:Property ;
+localProperty:tmname rdf:type rdf:Property ;
     rdfs:label "trademark name"@en ;
     rdfs:comment "The character's Japanese trademark name in English."@en ;
     rdfs:domain local:Character ;
     rdfs:range xsd:string .
 
-local:jtranslit rdf:type rdf:Property ;
+localProperty:jtranslit rdf:type rdf:Property ;
     rdfs:label "romanized name"@en ;
     rdfs:comment "Romanized version of the character's Japanese name."@en ;
     rdfs:domain local:Character ;
     rdfs:range xsd:string .
 
-local:textcolor rdf:type rdf:Property ;
+localProperty:textcolor rdf:type rdf:Property ;
     rdfs:label "text color"@en ;
     rdfs:comment "The color of the text for names in the template."@en ;
     rdfs:domain local:Character ;
     rdfs:range schema:color .
 
-local:slogan rdf:type rdf:Property ;
+localProperty:slogan rdf:type rdf:Property ;
     rdfs:label "slogan"@en ;
     rdfs:comment "A slogan associated with the character, if any."@en ;
     rdfs:domain local:Character ;
     rdfs:range xsd:string .
 
-local:image rdf:type rdf:Property ;
+localProperty:image rdf:type rdf:Property ;
     rdfs:label "image"@en ;
     rdfs:comment "The image of the character from the Bulbapedia archives."@en ;
     rdfs:domain local:Character ;
     rdfs:range xsd:string .
 
-local:caption rdf:type rdf:Property ;
+localProperty:caption rdf:type rdf:Property ;
     rdfs:label "image caption"@en ;
     rdfs:comment "Description of the image, including source details."@en ;
     rdfs:domain local:Character ;
     rdfs:range xsd:string .
 
-local:age rdf:type rdf:Property ;
+localProperty:age rdf:type rdf:Property ;
     rdfs:label "age"@en ;
     rdfs:comment "The character's officially sourced age."@en ;
     rdfs:domain local:Character ;
     rdfs:range xsd:integer .
 
-local:birthday rdf:type rdf:Property ;
+localProperty:birthday rdf:type rdf:Property ;
     rdfs:label "birthday"@en ;
     rdfs:comment "The character's officially sourced birthday."@en ;
     rdfs:domain local:Character ;
     rdfs:range xsd:date .
 
-local:gender rdf:type rdf:Property ;
+localProperty:gender rdf:type rdf:Property ;
     rdfs:label "gender"@en ;
     rdfs:comment "The character's gender."@en ;
     rdfs:domain local:Character ;
     rdfs:range schema:gender .
 
-local:height rdf:type rdf:Property ;
+localProperty:height rdf:type rdf:Property ;
     rdfs:label "height"@en ;
     rdfs:comment "The character's officially sourced height."@en ;
     rdfs:domain local:Character ;
     rdfs:range xsd:string .
 
-local:eyes rdf:type rdf:Property ;
+localProperty:eyes rdf:type rdf:Property ;
     rdfs:label "eye color"@en ;
     rdfs:comment "The character's eye color."@en ;
     rdfs:domain local:Character ;
     rdfs:range schema:color .
 
-local:hair rdf:type rdf:Property ;
+localProperty:hair rdf:type rdf:Property ;
     rdfs:label "hair color"@en ;
     rdfs:comment "The character's hair color."@en ;
     rdfs:domain local:Character ;
     rdfs:range schema:color .
 
-local:hometown rdf:type rdf:Property ;
+localProperty:hometown rdf:type rdf:Property ;
     rdfs:label "hometown"@en ;
     rdfs:comment "The current area where the character lives."@en ;
     rdfs:domain local:Character ;
     rdfs:range localLocation:Location .
 
-local:region rdf:type local:Region ;
+localProperty:region rdf:type local:Region ;
     rdfs:label "region"@en ;
     rdfs:comment "The current region where the character resides."@en ;
     rdfs:domain local:Character ;
     rdfs:range localRegion:Region .
 
-local:relatives rdf:type rdf:Property ;
+localProperty:relatives rdf:type rdf:Property ;
     rdfs:label "relatives"@en ;
     rdfs:comment "Relatives of the character, with relationship details."@en ;
     rdfs:domain local:Character ;

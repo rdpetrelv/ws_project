@@ -1,0 +1,36 @@
+Secret Storage 1
+Secret Storage 2
+Secret Storage 3
+Secret Storage 4
+Secret Storage 5
+Secret Storage 6
+Secret Storage 7
+Secret Storage 8
+Secret Storage 9
+Secret Storage 10
+Secret Storage 11
+Secret Storage 12
+Secret Storage 13
+Secret Storage 14
+Secret Storage 15
+Secret Storage 16
+Secret Storage 17
+Secret Storage 18
+Secret Storage 19
+Secret Storage 20
+Huge Storage 1
+Huge Storage 2
+Huge Storage 3
+Huge Storage 5
+Huge Storage 4
+Phobos Mobile No.1: Phobos Train
+Phobos Mobile No.2: Phobos Jet
+Phobos Mobile No.3: Phobos Drill
+Phobos Mobile No.4: Phobos Sub
+Phobos Mobile No.5: Phobos Walker
+Phobos Secret Fort: Phobosphere
+SOL Laboratory 1
+SOL Laboratory 2
+SOL Laboratory 3
+SOL Laboratory 4
+SOL Laboratory 5

@@ -1,0 +1,2406 @@
+@prefix ns1: <http://example.org/resource/book/> .
+@prefix ns2: <http://example.org/property/> .
+
+ns1:A_Pokémon_Snow-Down a ns1:Book .
+
+<http://example.org/resource/book/A_Pokémon_Super_Story!> a ns1:Book ;
+    ns2:image "_M17_iBook_cover.png" ;
+    ns1:ISBN "_N/A" ;
+    ns1:author "_The_Pokémon_Company_International" ;
+    ns1:image_size "_200px" ;
+    ns1:published "_November_17,_2015" ;
+    ns1:publisher "_The_Pokémon_Company_International" ;
+    ns1:series "_no" ;
+    ns1:title "_A_Pokémon_Super_Story!_Diancie_and_the_Cocoon_of_Destruction" .
+
+ns1:A_Shipful_of_Shivers_\(book\) a ns1:Book .
+
+<http://example.org/resource/book/All-New_Collector's_Sticker_Book> a ns1:Book .
+
+ns1:All_Fired_Up_\(book\) a ns1:Book .
+
+ns1:Amazing_Pokémon_Guidebook a ns1:Book ;
+    ns2:image "AmazingGuidebook.png" ;
+    ns1:ISBN "0766618862" ;
+    ns1:author "Modern_Publishing" ;
+    ns1:image_size "250px" ;
+    ns1:published "April_2005" ;
+    ns1:publisher "Modern_Publishing" ;
+    ns1:series "no" ;
+    ns1:title "Amazing_Pokémon_Guidebook" .
+
+ns1:An_Illustrated_Book_of_POCKET_MONSTERS a ns1:Book ;
+    ns2:image "Pocket_Monsters_Zukan.png" ;
+    ns1:ISBN "4893664948" ;
+    ns1:author "Creatures,_Inc." ;
+    ns1:image_size "200px" ;
+    ns1:published "April_5,_1996[https://pkmnheight.blogspot.com/2021/01/blog-post.html_インドぞうを深追いするな]:_裏設定の宝庫『ポケットモンスター図鑑』_(Japanese)" ;
+    ns1:publisher "_wp_Famitsu_" ;
+    ns1:series "no" ;
+    ns1:title "An_Illustrated_Book_of_POCKET_MONSTERS" .
+
+<http://example.org/resource/book/Ancient_Origins_Player's_Guide_(TCG)> a ns1:Book .
+
+<http://example.org/resource/book/Arsham's_Pokédex> a ns1:Book ;
+    ns2:image "Daniel_Arshams_Pokédex.jpg" ;
+    ns1:ISBN "9784568105407" ;
+    ns1:author "" ;
+    ns1:image_size "200px" ;
+    ns1:published "April_4,_2022" ;
+    ns1:publisher "Bijutsu_Shuppan-Sha" ;
+    ns1:series "no_" ;
+    ns1:title "Arshams_Pokédex" .
+
+<http://example.org/resource/book/Ash's_Triple_Threat> a ns1:Book .
+
+<http://example.org/resource/book/Ash_Ketchum,_Pokémon_Detective> a ns1:Book .
+
+ns1:Ash_Takes_the_Cake a ns1:Book ;
+    ns2:image "Ash_Takes_the_Cake_cover.jpg" ;
+    ns1:ISBN "9781339028033" ;
+    ns1:author "Maria_S._Barbo" ;
+    ns1:image_size "250px" ;
+    ns1:published "April_2,_2024" ;
+    ns1:publisher "File:Scholastic_logo.png_164px" ;
+    ns1:series "no" ;
+    ns1:title "Ash_Takes_the_Cake" .
+
+ns1:Ash_to_the_Rescue a ns1:Book .
+
+ns1:Attack_of_the_Prehistoric_Pokémon_\(book\) a ns1:Book .
+
+ns1:Attack_of_the_Prehistoric_Pokémon_\(picture_book\) a ns1:Book .
+
+<http://example.org/resource/book/BREAKpoint_Player's_Guide_(TCG)> a ns1:Book ;
+    ns2:image "BREAKpoint_Player_Guide.jpg" ;
+    ns1:ISBN "None" ;
+    ns1:author "Wolfgang_Baur" ;
+    ns1:image_size "250px" ;
+    ns1:published "2016" ;
+    ns1:publisher "The_Pokémon_Company_International" ;
+    ns1:series "no" ;
+    ns1:title "BREAKpoint_Players_Guide" .
+
+<http://example.org/resource/book/BREAKthrough_Player's_Guide_(TCG)> a ns1:Book ;
+    ns2:image "BREAKthrough_Player_Guide_X.jpg" ;
+    ns1:ISBN "None" ;
+    ns1:author "Wolfgang_Baur" ;
+    ns1:image_size "250px" ;
+    ns1:published "2016" ;
+    ns1:publisher "The_Pokémon_Company_International" ;
+    ns1:series "no" ;
+    ns1:title "BREAKthrough_Players_Guide" .
+
+ns1:Battle_for_the_Bolt_Badge a ns1:Book .
+
+ns1:Battle_for_the_Zephyr_Badge a ns1:Book .
+
+ns1:Beckett_Unofficial_Guide_To_Pokémon_2008_Price_Guide a ns1:Book .
+
+<http://example.org/resource/book/Beckett_Unofficial_Guide_To_Pokémon_Diamond_&_Pearl> a ns1:Book ;
+    ns2:image "Beckett_Unofficial_Guide_To_Pokémon_Diamond_and_Pearl.png" ;
+    ns1:ISBN "1930692676" ;
+    ns1:author "Alex_Lucard,_Michael_Lucas,_Steve_Fritz" ;
+    ns1:image_size "250px" ;
+    ns1:published "July_10,_2007" ;
+    ns1:publisher "Beckett_Media" ;
+    ns1:series "no" ;
+    ns1:title "Beckett_Unofficial_Guide_To_Pokémon_Diamond_&_Pearl" .
+
+ns1:Become_a_Pokémon_Trainer a ns1:Book .
+
+<http://example.org/resource/book/Bellossom's_Big_Battle> a ns1:Book .
+
+<http://example.org/resource/book/Black_&_White_Pokémon_Trading_Card_Game_Rules> a ns1:Book .
+
+<http://example.org/resource/book/Black_&_White_Pokémon_Trading_Card_Game_Rules_(Boundaries_Crossed)> a ns1:Book .
+
+ns1:Bug_Pokédex_\(book\) a ns1:Book ;
+    ns2:image "Bug_Pokédex_book.png" ;
+    ns1:ISBN "0439721911" ;
+    ns1:author "Tracey_West_and_Katherine_Noll" ;
+    ns1:image_size "250px" ;
+    ns1:next "_book_Ice_&_Fighting_Pokédex_" ;
+    ns1:previous "_book_Rock_&_Ground_Pokédex_" ;
+    ns1:published "May_2005" ;
+    ns1:publisher "File:Scholastic_logo.png_164px" ;
+    ns1:title "Pokémon_Bug_Pokédex" .
+
+<http://example.org/resource/book/Bulbasaur's_Bad_Day> a ns1:Book .
+
+ns1:Bulbasaur_\(Pokémon_Pack_Pals\) a ns1:Book .
+
+ns1:Bye_Bye_Butterfree_\(book\) a ns1:Book ;
+    ns2:image "Bye_Bye_Butterfree.png" ;
+    ns1:ISBN "0307132668" ;
+    ns1:author "Diane_Muldrow" ;
+    ns1:image_size "250px" ;
+    ns1:published "September_1999" ;
+    ns1:publisher "File:Golden_Books_logo.png_120px" ;
+    ns1:series "no" ;
+    ns1:title "Bye_Bye_Butterfree" .
+
+<http://example.org/resource/book/Case_Files_(Pokémon:_Detective_Pikachu)> a ns1:Book ;
+    ns2:image "Case_Files_Pokémon_Detective_Pikachu.png" ;
+    ns1:ISBN "1338529447" ;
+    ns1:author "Simcha_Whitehill,_Meredith_Rusu" ;
+    ns1:image_size "250" ;
+    ns1:published "March_26,_2019" ;
+    ns1:publisher "File:Scholastic_logo.png_164px_link=Scholastic" ;
+    ns1:series "no" ;
+    ns1:title "Case_Files_(Pokémon:_Detective_Pikachu)" .
+
+<http://example.org/resource/book/Catch_Oshawott!_A_Pokémon_Look_&_Listen_Set> a ns1:Book .
+
+<http://example.org/resource/book/Catch_Pikachu!_DELUXE_Look_&_Listen_Set> a ns1:Book .
+
+<http://example.org/resource/book/Catch_Snivy!_A_Pokémon_Look_&_Listen_Set> a ns1:Book ;
+    ns2:image "Snivy_Look_and_Listen.png" ;
+    ns1:ISBN "1604381574" ;
+    ns1:author "Pikachu_Press" ;
+    ns1:image_size "250px" ;
+    ns1:next "Catch_Tepig!_A_Pokémon_Look_&_Listen_Set" ;
+    ns1:previous "Catch_Pikachu!_DELUXE_Look_&_Listen_Set" ;
+    ns1:published "April_3,_2012" ;
+    ns1:publisher "The_Pokémon_Company_International" ;
+    ns1:title "Catch_Snivy!_A_Pokémon_Look_&_Listen_Set" .
+
+<http://example.org/resource/book/Catch_Tepig!_A_Pokémon_Look_&_Listen_Set> a ns1:Book .
+
+<http://example.org/resource/book/Catch_That_Wobbuffet!> a ns1:Book .
+
+ns1:Celebi_Rescue a ns1:Book .
+
+<http://example.org/resource/book/Charizard,_Go!> a ns1:Book .
+
+ns1:Coal_Badge_Battle a ns1:Book .
+
+<http://example.org/resource/book/Collecting_Pokémon:_An_Unauthorized_Handbook_and_Price_Guide> a ns1:Book .
+
+<http://example.org/resource/book/Cosmic_Eclipse_Player's_Guide_(TCG)> a ns1:Book .
+
+ns1:Create_and_Trace_Sinnoh_Heroes a ns1:Book .
+
+ns1:Deoxys_in_Danger a ns1:Book .
+
+ns1:Destiny_Deoxys_\(book\) a ns1:Book .
+
+<http://example.org/resource/book/Detective_Pikachu:_Episode_0—Eevee's_Case> a ns1:Book ;
+    ns2:image "Detective_Pikachu_Episode_0_Eevees_Case.png" ;
+    ns1:ISBN "N/A" ;
+    ns1:author "Hiroyuki_Jinnai" ;
+    ns1:image_size "250px" ;
+    ns1:published "March_23,_2018" ;
+    ns1:publisher "The_Pokémon_Company" ;
+    ns1:series "no" ;
+    ns1:title "Detective_Pikachu:_Episode_0—Eevees_Case" .
+
+<http://example.org/resource/book/Detective_Pikachu:_Sticker_Activity_Book> a ns1:Book ;
+    ns2:image "Detective_Pikachu_Sticker_Activity_Book.png" ;
+    ns1:ISBN "140835960X" ;
+    ns1:author "Pokémon" ;
+    ns1:image_size "250" ;
+    ns1:published "May_2,_2019" ;
+    ns1:publisher "Orchard_Books" ;
+    ns1:series "no" ;
+    ns1:title "Detective_Pikachu:_Sticker_Activity_Book" .
+
+<http://example.org/resource/book/Detective_Pikachu:_Story_of_the_Movie> a ns1:Book ;
+    ns2:image "Detective_Pikachu_Story_of_the_Movie_cover.png" ;
+    ns1:ISBN "9781408359617" ;
+    ns1:author "Pokémon" ;
+    ns1:image_size "200" ;
+    ns1:published "May_16,_2019" ;
+    ns1:publisher "Orchard_Books" ;
+    ns1:series "no" ;
+    ns1:title "Detective_Pikachu:_Story_of_the_Movie" .
+
+ns1:Detective_Pikachu_Movie_Journal a ns1:Book ;
+    ns2:image "Detective_Pikachu_Movie_Journal.png" ;
+    ns1:ISBN "1407196766" ;
+    ns1:author "Charlie_Wilson" ;
+    ns1:image_size "250" ;
+    ns1:published "April_4,_2019" ;
+    ns1:publisher "File:Scholastic_logo.png_164px_link=Scholastic" ;
+    ns1:series "no" ;
+    ns1:title "Detective_Pikachu_Movie_Journal" .
+
+<http://example.org/resource/book/Dragon_&_Poison_Pokédex_(book)> a ns1:Book ;
+    ns2:image "Dragon_Poison_Pokédex_book.png" ;
+    ns1:ISBN "0439721857" ;
+    ns1:author "Katherine_Noll" ;
+    ns1:image_size "250px" ;
+    ns1:next "_book_Rock_&_Ground_Pokédex_" ;
+    ns1:previous "_book_Water_Pokédex_" ;
+    ns1:published "March_2005" ;
+    ns1:publisher "File:Scholastic_logo.png_164px" ;
+    ns1:title "Pokémon_Dragon_&_Poison_Pokédex" .
+
+ns1:Electric_Pokédex_\(book\) a ns1:Book ;
+    ns2:image "Electric_Pokédex_book.png" ;
+    ns1:ISBN "0439721547" ;
+    ns1:author "Katherine_Noll_and_Tracey_West" ;
+    ns1:image_size "250px" ;
+    ns1:next "_book_Grass_Pokédex_" ;
+    ns1:previous "_book_Fire_Pokédex_" ;
+    ns1:published "November_2004" ;
+    ns1:publisher "Image:Scholastic_logo.png_164px" ;
+    ns1:title "Pokémon_Electric_Pokédex" .
+
+ns1:Electric_Pokémon_\(Pokémon_Keychain_Book\) a ns1:Book .
+
+ns1:Electric_Shock_Showdown_\(book\) a ns1:Book .
+
+<http://example.org/resource/book/Everyone's_Pokémon_Ranch_Official_Guide_to_Playing> a ns1:Book ;
+    ns2:image "Everyones_Pokemon_Ranch_Official_Guide_to_Playing_jacket_cover.png" ;
+    ns1:ISBN "9784840123297" ;
+    ns1:author "" ;
+    ns1:image_size "200px" ;
+    ns1:next "N/A" ;
+    ns1:previous "N/A" ;
+    ns1:published "June_13,_2008Everyones_Pokémon_Ranch_Official_Guide_to_Playing._pg_112." ;
+    ns1:publisher "Media_Factory" ;
+    ns1:title "Everyones_Pokémon_Ranch_Official_Guide_to_Playing" .
+
+<http://example.org/resource/book/Evolutions_Player's_Guide_(TCG)> a ns1:Book .
+
+<http://example.org/resource/book/Extreme_Pokémon:_The_Guide_for_the_Ultimate_Fan> a ns1:Book ;
+    ns2:image "Extreme_Pokémon_cover.png" ;
+    ns1:ISBN "0439194016" ;
+    ns1:author "Michael_Teitelbaum" ;
+    ns1:image_size "250px" ;
+    ns1:pages "96" ;
+    ns1:published "July_2000" ;
+    ns1:publisher "File:Scholastic_logo.png_164px" ;
+    ns1:series "no" ;
+    ns1:title "Extreme_Pokémon:_The_Guide_for_the_Ultimate_Fan" .
+
+<http://example.org/resource/book/Fates_Collide_Player's_Guide_(TCG)> a ns1:Book ;
+    ns2:image "Fates_Collide_Player_Guide.jpg" ;
+    ns1:ISBN "None" ;
+    ns1:author "Wolfgang_Baur" ;
+    ns1:image_size "250px" ;
+    ns1:published "2016" ;
+    ns1:publisher "The_Pokémon_Company_International" ;
+    ns1:series "no" ;
+    ns1:title "Fates_Collide_Players_Guide" .
+
+ns1:Fire_Pokédex_\(book\) a ns1:Book ;
+    ns2:image "Fire_Pokédex_book.png" ;
+    ns1:ISBN "0439720982" ;
+    ns1:author "Katherine_Noll_and_Tracey_West" ;
+    ns1:image_size "250px" ;
+    ns1:next "_book_Electric_Pokédex_" ;
+    ns1:previous "N/A" ;
+    ns1:published "October_2004" ;
+    ns1:publisher "Image:Scholastic_logo.png_164px" ;
+    ns1:title "Pokémon_Fire_Pokédex" .
+
+ns1:Fire_Pokémon_\(Pokémon_Keychain_Book\) a ns1:Book .
+
+ns1:Flying_Pokédex_\(book\) a ns1:Book ;
+    ns2:image "Flying_Pokédex_book.png" ;
+    ns1:ISBN "0439721970" ;
+    ns1:author "Katherine_Noll_and_Tracey_West" ;
+    ns1:image_size "250px" ;
+    ns1:next "_book_Normal_Pokédex_" ;
+    ns1:previous "_book_Ice_&_Fighting_Pokédex_" ;
+    ns1:published "July_2005" ;
+    ns1:publisher "Image:Scholastic_logo.png_164px" ;
+    ns1:title "Pokémon_Flying_Pokédex" .
+
+<http://example.org/resource/book/Fun_with_Pokémon!> a ns1:Book ;
+    ns2:image "Fun_with_Pokémon_VIZ_cover.png" ;
+    ns1:ISBN "9784097272885" ;
+    ns1:author "Hiroshi_Takase" ;
+    ns1:image_size "250px" ;
+    ns1:next "Pokémon!_Fun_with_Mazes_&_Puzzles" ;
+    ns1:previous "N/A" ;
+    ns1:published "November_1,_2003" ;
+    ns1:publisher "Shogakukan" ;
+    ns1:title "Fun_with_Pokémon!" .
+
+<http://example.org/resource/book/Furious_Fists_Player's_Guide_(TCG)> a ns1:Book .
+
+<http://example.org/resource/book/Generations_Player's_Guide_(TCG)> a ns1:Book .
+
+<http://example.org/resource/book/Get_Well,_Pikachu!> a ns1:Book .
+
+<http://example.org/resource/book/Ghost,_Dark_&_Steel_Pokédex_(book)> a ns1:Book ;
+    ns2:image "Ghost_Dark_Steel_Pokédex_book.png" ;
+    ns1:ISBN "0439721776" ;
+    ns1:author "Katherine_Noll_and_Tracey_West" ;
+    ns1:image_size "250px" ;
+    ns1:next "_book_Water_Pokédex_" ;
+    ns1:previous "_book_Grass_Pokédex_" ;
+    ns1:published "January_2005" ;
+    ns1:publisher "File:Scholastic_logo.png_164px" ;
+    ns1:title "Pokémon_Ghost,_Dark,_&_Steel_Pokédex" .
+
+<http://example.org/resource/book/Go_West,_Young_Ash> a ns1:Book .
+
+<http://example.org/resource/book/Good-Bye,_Lapras> a ns1:Book .
+
+ns1:Grass_Pokédex_\(book\) a ns1:Book ;
+    ns2:image "Grass_Pokédex_book.png" ;
+    ns1:ISBN "0439721571" ;
+    ns1:author "Katherine_Noll_and_Tracey_West" ;
+    ns1:image_size "250px" ;
+    ns1:next "_book_Ghost,_Dark_&_Steel_Pokédex_" ;
+    ns1:previous "_book_Electric_Pokédex_" ;
+    ns1:published "December_2004" ;
+    ns1:publisher "Image:Scholastic_logo.png_164px" ;
+    ns1:title "Pokémon_Grass_Pokédex" .
+
+ns1:Grovyle_Trouble a ns1:Book .
+
+ns1:Gym_Challenge_Strategy_Guide_\(TCG\) a ns1:Book .
+
+ns1:Gym_Heroes_Strategy_Guide_\(TCG\) a ns1:Book .
+
+<http://example.org/resource/book/Haunted!> a ns1:Book ;
+    ns2:image "Haunted_cover.png" ;
+    ns1:ISBN "0439800013" ;
+    ns1:author "Tracey_West" ;
+    ns1:image_size "250px" ;
+    ns1:next "Phantom_Unmasked_" ;
+    ns1:previous "N/A" ;
+    ns1:published "January_2006" ;
+    ns1:publisher "Scholastic" ;
+    ns1:title "Haunted!" .
+
+<http://example.org/resource/book/Hidden_Fates_Player's_Guide_(TCG)> a ns1:Book .
+
+<http://example.org/resource/book/Hoothoot's_Haunted_Forest> a ns1:Book .
+
+ns1:How_To_Draw_Sinnoh_Heroes a ns1:Book .
+
+ns1:How_To_Draw_Sinnoh_Superstars a ns1:Book .
+
+ns1:How_To_Draw_the_Newest_Pokémon a ns1:Book .
+
+ns1:How_to_Draw_Johto_Heroes a ns1:Book ;
+    ns2:image "How_to_draw_Johto_Heroes.jpg" ;
+    ns1:ISBN "9780545248266" ;
+    ns1:author "Ron_Zalme" ;
+    ns1:image_size "200px" ;
+    ns1:next "How_to_Draw_Unova_Heroes" ;
+    ns1:previous "How_To_Draw_Sinnoh_Heroes" ;
+    ns1:published "2010" ;
+    ns1:publisher "Scholastic" ;
+    ns1:title "How_to_Draw_Johto_Heroes" .
+
+ns1:How_to_Draw_Pokémon_\(1999\) a ns1:Book .
+
+ns1:How_to_Draw_Pokémon_\(2002\) a ns1:Book .
+
+ns1:How_to_Draw_Unova_Heroes a ns1:Book ;
+    ns2:image "How_to_draw_Unova_Heroes.jpg" ;
+    ns1:ISBN "9780545350860" ;
+    ns1:author "Ron_Zalme" ;
+    ns1:image_size "200px" ;
+    ns1:next "Pokémon:_How_to_Draw_Kalos_Edition" ;
+    ns1:previous "How_to_Draw_Johto_Heroes" ;
+    ns1:published "2011" ;
+    ns1:publisher "Scholastic" ;
+    ns1:title "How_to_Draw_Unova_Heroes" .
+
+<http://example.org/resource/book/I_Choose_You!_(book)> a ns1:Book .
+
+<http://example.org/resource/book/Ice_&_Fighting_Pokédex_(book)> a ns1:Book ;
+    ns2:image "Ice_Fighting_Pokédex_book.png" ;
+    ns1:ISBN "0439721946" ;
+    ns1:author "Katherine_Noll_and_Tracey_West" ;
+    ns1:image_size "250px" ;
+    ns1:next "_book_Flying_Pokédex_" ;
+    ns1:previous "_book_Bug_Pokédex_" ;
+    ns1:published "June_2005" ;
+    ns1:publisher "Image:Scholastic_logo.png_164px" ;
+    ns1:title "Pokémon_Ice_&_Fighting_Pokédex" .
+
+ns1:Island_of_the_Giant_Pokémon_\(book\) a ns1:Book .
+
+ns1:Journey_to_the_Orange_Islands a ns1:Book ;
+    ns2:image "OrangeIslandsBook.png" ;
+    ns1:ISBN "0439169429" ;
+    ns1:author "Tracey_West" ;
+    ns1:image_size "250px" ;
+    ns1:next "Secret_of_the_Pink_Pokémon" ;
+    ns1:previous "Return_of_the_Squirtle_Squad" ;
+    ns1:published "May_2000" ;
+    ns1:publisher "Scholastic" ;
+    ns1:title "Journey_to_the_Orange_Islands" .
+
+ns1:Kalos_Essential_Activity_Book a ns1:Book .
+
+<http://example.org/resource/book/Legendary_Pokémon:_The_Essential_Guide_-_Sinnoh_Edition> a ns1:Book ;
+    ns2:image "Legendary_Guide.png" ;
+    ns1:ISBN "0545160235" ;
+    ns1:author "Katherine_Fang" ;
+    ns1:image_size "250px" ;
+    ns1:published "July_2009" ;
+    ns1:publisher "File:Scholastic_logo.png_164px" ;
+    ns1:series "no" ;
+    ns1:title "Legendary_Pokémon:_The_Essential_Guide_-_Sinnoh_Edition" .
+
+<http://example.org/resource/book/Legendary_and_Mythical_Guidebook:_Deluxe_Edition> a ns1:Book ;
+    ns2:image "Legendary_and_Mythical_Guidebook_Deluxe_Edition.jpg" ;
+    ns1:ISBN "978-1338279368" ;
+    ns1:author "Simcha_Whitehill" ;
+    ns1:image_size "250px" ;
+    ns1:next "None" ;
+    ns1:previous "Official_Guide_to_Legendary_and_Mythical_Pokémon" ;
+    ns1:published "January_1,_2019" ;
+    ns1:publisher "File:Scholastic_logo.png_164px" ;
+    ns1:title "Legendary_and_Mythical_Guidebook:_Deluxe_Edition" .
+
+<http://example.org/resource/book/Let's_Find_Pokémon!> a ns1:Book .
+
+<http://example.org/resource/book/Let's_Play_Pokémon_(TCG)> a ns1:Book .
+
+<http://example.org/resource/book/Let_It_Snow!> a ns1:Book .
+
+ns1:Lucario_and_the_Mystery_of_Mew_\(book\) a ns1:Book .
+
+ns1:Meet_Ash a ns1:Book ;
+    ns2:image "Meet_Ash.png" ;
+    ns1:ISBN "9780756644321" ;
+    ns1:author "Michael_Teitelbaum" ;
+    ns1:image_size "250px" ;
+    ns1:published "2008" ;
+    ns1:publisher "File:BradyGames_logo.jpg_82px" ;
+    ns1:series "no" ;
+    ns1:title "Meet_Ash" .
+
+ns1:Meet_Buizel_and_Friends a ns1:Book .
+
+ns1:Meet_the_Pokémon a ns1:Book .
+
+<http://example.org/resource/book/Meowth,_the_Big_Mouth> a ns1:Book .
+
+ns1:Meowth_\(Pokémon_Pack_Pals\) a ns1:Book .
+
+ns1:Mewtwo_Returns_\(book\) a ns1:Book .
+
+ns1:Mewtwo_Strikes_Back_\(book\) a ns1:Book .
+
+<http://example.org/resource/book/Monster_Kids:_How_Pokémon_Taught_a_Generation_to_Catch_Them_All> a ns1:Book .
+
+<http://example.org/resource/book/Nidoran's_New_Friend> a ns1:Book .
+
+ns1:Night_in_the_Haunted_Tower a ns1:Book .
+
+ns1:Normal_Pokédex_\(book\) a ns1:Book ;
+    ns2:image "Normal_Pokédex_book.png" ;
+    ns1:ISBN "0439722004" ;
+    ns1:author "Tracey_West_and_Katherine_Noll" ;
+    ns1:image_size "250px" ;
+    ns1:next "_book_Psychic_Pokédex_" ;
+    ns1:previous "_book_Flying_Pokédex_" ;
+    ns1:published "August_2005" ;
+    ns1:publisher "Image:Scholastic_logo.png_164px" ;
+    ns1:title "Pokémon_Normal_Pokédex" .
+
+ns1:Normal_Pokémon_\(Pokémon_Keychain_Book\) a ns1:Book .
+
+ns1:Official_Guide_to_Legendary_and_Mythical_Pokémon a ns1:Book ;
+    ns2:image "Legendary_and_Mythical_Pokemon_Guide.jpeg" ;
+    ns1:ISBN "978-1338112917" ;
+    ns1:author "Simcha_Whitehill" ;
+    ns1:image_size "250px" ;
+    ns1:next "Legendary_and_Mythical_Guidebook:_Deluxe_Edition" ;
+    ns1:previous "None" ;
+    ns1:published "August_30,_2016" ;
+    ns1:publisher "File:Scholastic_logo.png_164px" ;
+    ns1:title "Official_Guide_to_Legendary_and_Mythical_Pokémon" .
+
+<http://example.org/resource/book/Official_Pokémon_Advanced_Collector's_Sticker_Book_4> a ns1:Book .
+
+ns1:Official_Pokémon_Crystal_Version_Perfect_Guide a ns1:Book .
+
+ns1:Official_Pokémon_Gold_and_Silver_Adventure_Guide a ns1:Book ;
+    ns2:image "Versus_Books_Gold_Silver_guide_cover.png" ;
+    ns1:ISBN "0970347324" ;
+    ns1:author "Versus_Books_Staff" ;
+    ns1:image_size "250px" ;
+    ns1:published "October_2000" ;
+    ns1:publisher "Versus_Books" ;
+    ns1:series "no" ;
+    ns1:title "Official_Pokémon_Gold_and_Silver_Adventure_Guide" .
+
+ns1:Official_Pokémon_Pokédex a ns1:Book .
+
+<http://example.org/resource/book/Official_Pokémon_Pokédex:_Gold_Version_and_Silver_Version> a ns1:Book ;
+    ns2:image "Brady_Games_Official_Pokémon_Pokédex_Gold_Version_and_Silver_Version.png" ;
+    ns1:ISBN "0744000564" ;
+    ns1:author "Brady_Games_Staff" ;
+    ns1:image_size "250px" ;
+    ns1:next "Pokémon_Crystal_Version:_Official_Pocket_Guide" ;
+    ns1:previous "Pokémon_Gold_Version_and_Silver_Version:_Official_Pocket_Guide" ;
+    ns1:published "January_2001" ;
+    ns1:publisher "Brady_Games" ;
+    ns1:series "yes" ;
+    ns1:title "Official_Pokémon_Pokédex:_Gold_Version_and_Silver_Version" .
+
+ns1:Official_Pokémon_Special_Pikachu_Edition_Perfect_Guide a ns1:Book .
+
+ns1:Official_Pokémon_Stadium_2_Perfect_Guide a ns1:Book .
+
+ns1:Official_Pokémon_Trading_Card_Game_Perfect_Guide a ns1:Book .
+
+ns1:PB01 a ns1:Book ;
+    ns2:image "PB01.png" ;
+    ns1:ISBN "1569313830" ;
+    ns1:author "Akihito_Toda" ;
+    ns1:image_size "250px" ;
+    ns1:next "PB02_Come_Out,_Squirtle!" ;
+    ns1:previous "N/A" ;
+    ns1:published "October_6,_1999" ;
+    ns1:publisher "VIZ_Media" ;
+    ns1:title "Charmander_Sees_a_Ghost" .
+
+ns1:PB02 a ns1:Book ;
+    ns2:image "PB02_EN_Second_Edition.png" ;
+    ns1:ISBN "1421509334" ;
+    ns1:author "Tomoaki_Imakuni" ;
+    ns1:image_size "250px" ;
+    ns1:next "PB03_Bulbasaurs_Trouble" ;
+    ns1:previous "PB01_Charmander_Sees_a_Ghost" ;
+    ns1:published "September_19,_2006_tt_*_second_edition_" ;
+    ns1:publisher "VIZ_Media" ;
+    ns1:title "Come_Out,_Squirtle!" .
+
+ns1:PB03 a ns1:Book ;
+    ns2:image "PB03_EN.png" ;
+    ns1:ISBN "1569313857" ;
+    ns1:author "Akihito_Toda" ;
+    ns1:image_size "250px" ;
+    ns1:next "PB04_Pikachus_Day" ;
+    ns1:previous "PB02_Come_Out,_Squirtle!" ;
+    ns1:published "October_6,_1999" ;
+    ns1:publisher "VIZ_Media" ;
+    ns1:title "Bulbasaurs_Trouble" .
+
+ns1:PB04 a ns1:Book .
+
+ns1:PB05 a ns1:Book .
+
+ns1:PB06 a ns1:Book .
+
+ns1:PB07 a ns1:Book .
+
+ns1:PB08 a ns1:Book .
+
+ns1:PB09 a ns1:Book .
+
+ns1:PB10 a ns1:Book .
+
+ns1:PB11 a ns1:Book .
+
+ns1:PB12 a ns1:Book .
+
+ns1:PB13 a ns1:Book ;
+    ns2:image "PB13_EN_Second_Edition.png" ;
+    ns1:ISBN "1421509369" ;
+    ns1:author "Junko_Wada" ;
+    ns1:image_size "250px" ;
+    ns1:next "PB25_First_Prize_for_Starmie_ENPB14_Where_is_Beedles_Father_JP_" ;
+    ns1:previous "PB24_Eevees_Weather_Report_ENPB12_Sihorn_and_the_Planets_Navel_JP" ;
+    ns1:published "January_16,_2007" ;
+    ns1:publisher "VIZ_Media" ;
+    ns1:title "Digletts_Birtyday_Party" .
+
+ns1:PB14 a ns1:Book .
+
+ns1:PB15 a ns1:Book .
+
+ns1:PB16 a ns1:Book .
+
+ns1:PB17 a ns1:Book ;
+    ns2:image "PB17_EN_Second_Edition.png" ;
+    ns1:ISBN "1421509326" ;
+    ns1:author "Sumiyoshi_Kizuki" ;
+    ns1:image_size "200px" ;
+    ns1:next "PB30_Jigglypuffs_Magic_Lullaby_ENPB18_Seel_to_the_Rescue!_JP" ;
+    ns1:previous "PB42_Meet_Mew!_ENPB16_Ready,_Set,_Dodo!_JP" ;
+    ns1:published "November_21,_2006" ;
+    ns1:publisher "VIZ_Media" ;
+    ns1:title "Snorlaxs_Snack" .
+
+ns1:PB18 a ns1:Book ;
+    ns2:image "SeelToTheRescue.png" ;
+    ns1:ISBN "1569314888" ;
+    ns1:author "Kazuaki_Yamamoto" ;
+    ns1:image_size "250px" ;
+    ns1:next "_PB48_Mewtwos_Watching_You!_ENPB19_Spherical_Marumine_JP" ;
+    ns1:previous "PB25_First_Prize_for_Starmie_ENPB17_Snorlaxs_Snack_JP" ;
+    ns1:published "October_1,_2000" ;
+    ns1:publisher "VIZ_Media" ;
+    ns1:title "Seel_to_the_Rescue" .
+
+ns1:PB19 a ns1:Book .
+
+ns1:PB20 a ns1:Book ;
+    ns2:image "PB20_JP.png" ;
+    ns1:ISBN "4097287206" ;
+    ns1:author "Akihito_Toda" ;
+    ns1:image_size "200" ;
+    ns1:next "PB21_Tattu_Likes_the_Sea" ;
+    ns1:previous "PB19_Spherical_Marumine" ;
+    ns1:published "October_1997" ;
+    ns1:publisher "Shogakukan" ;
+    ns1:title "Not_Yet,_Caterpie" .
+
+ns1:PB21 a ns1:Book .
+
+ns1:PB22 a ns1:Book .
+
+ns1:PB23 a ns1:Book .
+
+ns1:PB24 a ns1:Book .
+
+ns1:PB25 a ns1:Book .
+
+ns1:PB26 a ns1:Book .
+
+ns1:PB27 a ns1:Book .
+
+ns1:PB28 a ns1:Book ;
+    ns2:image "PB28_JP.png" ;
+    ns1:ISBN "4097287281" ;
+    ns1:author "Junko_Igarashi" ;
+    ns1:next "PB29_Nazonokusas_Hide_and_Seek" ;
+    ns1:previous "PB27_A_Star_for_Tauros" ;
+    ns1:published "March_1998" ;
+    ns1:publisher "Shogakukan" ;
+    ns1:title "Beroringa_Licks_Everything" .
+
+ns1:PB29 a ns1:Book .
+
+ns1:PB30 a ns1:Book .
+
+ns1:PB31 a ns1:Book .
+
+ns1:PB32 a ns1:Book ;
+    ns2:image "PB32_JP.png" ;
+    ns1:ISBN "409728732X" ;
+    ns1:author "Junko_Wada" ;
+    ns1:next "PB33_Little_Ghost" ;
+    ns1:previous "PB31_The_Names_Karakara" ;
+    ns1:published "June_1998" ;
+    ns1:publisher "Shogakukan" ;
+    ns1:title "I_Want_to_Become_a_Kamex" .
+
+ns1:PB33 a ns1:Book .
+
+ns1:PB34 a ns1:Book .
+
+ns1:PB35 a ns1:Book .
+
+ns1:PB36 a ns1:Book .
+
+ns1:PB37 a ns1:Book .
+
+ns1:PB38 a ns1:Book .
+
+ns1:PB39 a ns1:Book .
+
+ns1:PB40 a ns1:Book .
+
+ns1:PB41 a ns1:Book .
+
+ns1:PB42 a ns1:Book ;
+    ns2:image "PB42_EN.png" ;
+    ns1:ISBN "1421509350" ;
+    ns1:author "Akihito_Toda" ;
+    ns1:image_size "250px" ;
+    ns1:next "PB17_Snorlaxs_Snack_ENPB43_Nyarths_Moon-viewing_Soba_JP_" ;
+    ns1:previous "PB40_Dragonites_Christmas_ENPB41_What_Is_a_Trancell_JP" ;
+    ns1:published "November_21,_2006" ;
+    ns1:publisher "VIZ_Media" ;
+    ns1:title "Meet_Mew!" .
+
+ns1:PB43 a ns1:Book .
+
+ns1:PB44 a ns1:Book .
+
+ns1:PB45 a ns1:Book .
+
+ns1:PB46 a ns1:Book .
+
+ns1:PB47 a ns1:Book .
+
+ns1:PB48 a ns1:Book ;
+    ns2:image "PB48_EN.png" ;
+    ns1:ISBN "1569315337" ;
+    ns1:author "Akihito_Toda" ;
+    ns1:image_size "200px" ;
+    ns1:next "PB34_Magnemites_Mission_ENN/A_JP" ;
+    ns1:previous "PB18_Seel_to_the_Rescue!_ENPB47_Togepis_Tears_JP" ;
+    ns1:published "March,_2001_First_edition_(As_Mewtwo_is_Watching_You!)May_6,_2001" ;
+    ns1:publisher "VIZ_Media" ;
+    ns1:title "Mewtwos_Watching_You!" .
+
+ns1:PBAG1 a ns1:Book .
+
+ns1:PBAG2 a ns1:Book ;
+    ns1:ISBN "4091148786" ;
+    ns1:author "Akihito_Toda" ;
+    ns1:next "N/A" ;
+    ns1:previous "PBAG1_Pichu-Pichu_Staring_Contest!" ;
+    ns1:published "2003-06" ;
+    ns1:publisher "Shogakukan" ;
+    ns1:title "PokéPoké_Oekaki!" .
+
+ns1:PBD01 a ns1:Book ;
+    ns2:image "_" ;
+    ns1:ISBN "N/A" ;
+    ns1:author "Akihito_Toda" ;
+    ns1:next "PBD02_The_Mysterious_Rainbow_of_Colors" ;
+    ns1:previous "N/A" ;
+    ns1:published "September_1,_2005" ;
+    ns1:publisher "Pokémon_Daisuki_Club" ;
+    ns1:title "The_Mysterious_Lines" .
+
+ns1:PBD02 a ns1:Book .
+
+ns1:PBGS1 a ns1:Book .
+
+ns1:PBGS2 a ns1:Book .
+
+ns1:PBGS3 a ns1:Book .
+
+ns1:PBGS4 a ns1:Book .
+
+ns1:PBGS5 a ns1:Book .
+
+ns1:PBGS6 a ns1:Book .
+
+ns1:PBGS7 a ns1:Book .
+
+ns1:PBGS8 a ns1:Book ;
+    ns2:image "PBGS8_EN.png" ;
+    ns1:ISBN "1569317615" ;
+    ns1:author "Akihito_Toda" ;
+    ns1:image_size "250px" ;
+    ns1:next "PBGS9_Corsolas_Brave_New_World" ;
+    ns1:previous "PBGS7_Wake_up,_Lugia!" ;
+    ns1:published "October_6,_2002" ;
+    ns1:publisher "VIZ_Media" ;
+    ns1:title "Look_out_Houndour" .
+
+ns1:PBGS9 a ns1:Book .
+
+ns1:PBM1 a ns1:Book .
+
+ns1:PBM2 a ns1:Book .
+
+ns1:POKÉMON_Detective_Pikachu_Movie_Novel a ns1:Book ;
+    ns2:image "Pokémon_Detective_Pikachu_Movie_Novel.png" ;
+    ns1:ISBN "1338529420" ;
+    ns1:author "Sonia_Sander" ;
+    ns1:image_size "250" ;
+    ns1:published "May_14,_2019" ;
+    ns1:publisher "File:Scholastic_logo.png_164px_link=Scholastic" ;
+    ns1:series "no" ;
+    ns1:title "POKÉMON_Detective_Pikachu_Movie_Novel" .
+
+<http://example.org/resource/book/POKÉMON_X_KOGEI:_Playful_Encounters_of_Pokémon_and_Japanese_Craft> a ns1:Book ;
+    ns2:image "POKÉMON_X_KOGEI_Catalog.jpg" ;
+    ns1:ISBN "9784808712686" ;
+    ns1:author "National_Crafts_Museum" ;
+    ns1:image_size "200px" ;
+    ns1:published "April_6,_2023" ;
+    ns1:publisher "Tokyo_Bijutsu_Co.,Ltd." ;
+    ns1:series "no_" ;
+    ns1:title "POKÉMON_X_KOGEI:_Playful_Encounters_of_Pokémon_and_Japanese_Craft" .
+
+<http://example.org/resource/book/Phantom_Forces_Player's_Guide_(TCG)> a ns1:Book .
+
+ns1:Phantom_Unmasked a ns1:Book ;
+    ns2:image "Phantom_Unmasked.png" ;
+    ns1:ISBN "0439800005" ;
+    ns1:author "Tracey_West" ;
+    ns1:image_size "250px" ;
+    ns1:next "N/A_" ;
+    ns1:previous "Haunted!" ;
+    ns1:published "January_2006" ;
+    ns1:publisher "Scholastic" ;
+    ns1:title "Phantom_Unmasked" .
+
+<http://example.org/resource/book/Pichu's_Apple_Company> a ns1:Book .
+
+<http://example.org/resource/book/Pikachu's_Global_Adventure> a ns1:Book ;
+    ns2:image "Pikachus_global_adventure.png" ;
+    ns1:ISBN "978-0822332879" ;
+    ns1:author "Joseph_Tobin" ;
+    ns1:image_size "250px" ;
+    ns1:pages "306" ;
+    ns1:published "February_2004" ;
+    ns1:publisher "Duke_University_Press" ;
+    ns1:series "no" ;
+    ns1:title "Pikachus_Global_Adventure" .
+
+<http://example.org/resource/book/Pikachu's_Rescue_Adventure_(book)> a ns1:Book ;
+    ns2:image "Pikachus_rescue_adventure.png" ;
+    ns1:ISBN "0439199697" ;
+    ns1:author "Tracey_West" ;
+    ns1:image_size "220px" ;
+    ns1:next "_book_Pikachu_and_Pichu_" ;
+    ns1:previous "_book_Pikachus_Vacation_" ;
+    ns1:published "July_2000" ;
+    ns1:publisher "Scholastic" ;
+    ns1:title "Pikachus_Rescue_Adventure" .
+
+<http://example.org/resource/book/Pikachu's_Vacation_(book)> a ns1:Book .
+
+ns1:Pikachu_\(Pokémon_Pack_Pals\) a ns1:Book .
+
+ns1:Pikachu_and_Pichu_\(book\) a ns1:Book .
+
+ns1:Pikachu_in_Love a ns1:Book .
+
+<http://example.org/resource/book/Plasma_Blast_Player's_Guide_(TCG)> a ns1:Book .
+
+<http://example.org/resource/book/Plasma_Storm_Player's_Guide_(TCG)> a ns1:Book .
+
+<http://example.org/resource/book/Platinum_Player's_Guide_(TCG)> a ns1:Book .
+
+<http://example.org/resource/book/Pocket_Monsters:_The_Animation> a ns1:Book ;
+    ns2:image "Pocket_Monsters-_The_Animation_volume_1_cover.png" ;
+    ns1:ISBN "Multiple" ;
+    ns1:author "Takeshi_Shudō" ;
+    ns1:image_size "250px" ;
+    ns1:published "Vol._1:_October_1997Vol._2:_October_1999" ;
+    ns1:publisher "Shogakukan" ;
+    ns1:series "no" ;
+    ns1:title "Pocket_Monsters:_The_Animation" .
+
+<http://example.org/resource/book/PokéPark_Wii:_Pikachu's_Adventure:_Prima's_Official_Strategy_Guide> a ns1:Book ;
+    ns2:image "Prima_Guide_PokéPark.png" ;
+    ns1:ISBN "9780307470911" ;
+    ns1:author "The_Pokémon_Company_International" ;
+    ns1:image_size "200px" ;
+    ns1:next "Pokémon_Trading_Card_Game:_Primas_Official_Strategy_Guide" ;
+    ns1:previous "Pokémon_Ranger:_Guardian_Signs:_Primas_Official_Strategy_Guide" ;
+    ns1:published "November_1,_2010" ;
+    ns1:publisher "Prima_Games" ;
+    ns1:title "PokéPark_Wii:_Pikachus_Adventure:_Primas_Official_Strategy_Guide" .
+
+ns1:PokéRAP_\(book\) a ns1:Book ;
+    ns2:image "_PokeRap_sheet_music.jpg" ;
+    ns1:ISBN "_1575602709" ;
+    ns1:author "_N/A" ;
+    ns1:image_size "_200px" ;
+    ns1:published "_October_1999" ;
+    ns1:publisher "__wp_Cherry_Lane_Music_" ;
+    ns1:series "_no" ;
+    ns1:title "_PokéRAP" .
+
+ns1:PokéSPedia a ns1:Book ;
+    ns2:image "PokéSPedia.png" ;
+    ns1:ISBN "4091990487" ;
+    ns1:author "" ;
+    ns1:image_size "200px" ;
+    ns1:published "August_8,_2017" ;
+    ns1:publisher "Shogakukan" ;
+    ns1:series "no" ;
+    ns1:title "PokéSPedia" .
+
+<http://example.org/resource/book/Pokémon!_Fun_with_Mazes_&_Puzzles> a ns1:Book ;
+    ns2:image "Pokémon_Fun_with_Mazes_and_Puzzles_VIZ_cover.png" ;
+    ns1:ISBN "9784097272991" ;
+    ns1:author "Hiroshi_Takase" ;
+    ns1:image_size "250px" ;
+    ns1:next "Pokémon:_Counting_and_Hide-and-Seek" ;
+    ns1:pages "32" ;
+    ns1:previous "Fun_with_Pokémon!" ;
+    ns1:published "July_13,_2007" ;
+    ns1:publisher "Shogakukan" ;
+    ns1:title "Pokémon!_Fun_with_Mazes_&_Puzzles" .
+
+<http://example.org/resource/book/Pokémon:_Battle_with_the_Ultra_Beast> a ns1:Book ;
+    ns2:image "" ;
+    ns1:ISBN "978-3-338-62712-1" ;
+    ns1:author "Simcha_Whitehill" ;
+    ns1:image_size "" ;
+    ns1:next "Pokémon:_Grand_Trial_Showdown" ;
+    ns1:pages "128" ;
+    ns1:previous "None" ;
+    ns1:published "2019" ;
+    ns1:publisher "File:Scholastic_logo.png_164px" ;
+    ns1:title "Pokémon:_Battle_with_The_Ultra_Beast" .
+
+<http://example.org/resource/book/Pokémon:_Counting_and_Hide-and-Seek> a ns1:Book ;
+    ns2:image "Pokémon_Counting_and_Hide-and-Seek.png" ;
+    ns1:ISBN "9784097263692" ;
+    ns1:author "Hiroshi_Takase" ;
+    ns1:image_size "250px" ;
+    ns1:next "Pokémon:_Exciting_Super_Mazes" ;
+    ns1:pages "32" ;
+    ns1:previous "Pokémon!_Fun_with_Mazes_&_Puzzles" ;
+    ns1:published "December_16,_2008" ;
+    ns1:publisher "Shogakukan" ;
+    ns1:title "Pokémon:_Counting_and_Hide-and-Seek" .
+
+<http://example.org/resource/book/Pokémon:_Exciting_Super_Mazes> a ns1:Book ;
+    ns2:image "Pokémon_Exciting_Super_Mazes.png" ;
+    ns1:ISBN "9784097264590" ;
+    ns1:author "Hiroshi_Takase" ;
+    ns1:image_size "250px" ;
+    ns1:next "Pokémon_XY:_Exciting_Mazes_&_Puzzles" ;
+    ns1:previous "Pokémon:_Counting_and_Hide-and-Seek" ;
+    ns1:published "December_8,_2011" ;
+    ns1:publisher "Shogakukan" ;
+    ns1:title "Pokémon:_Exciting_Super_Mazes" .
+
+<http://example.org/resource/book/Pokémon:_Grand_Trial_Showdown> a ns1:Book ;
+    ns2:image "" ;
+    ns1:ISBN "978-1-338-62711-4" ;
+    ns1:author "Simcha_Whitehill" ;
+    ns1:image_size "" ;
+    ns1:next "None" ;
+    ns1:pages "128" ;
+    ns1:previous "Pokémon:_Battle_with_the_Ultra_Beast" ;
+    ns1:published "2019" ;
+    ns1:publisher "File:Scholastic_logo.png_164px" ;
+    ns1:title "Pokémon:_Grand_Trial_Showdown" .
+
+<http://example.org/resource/book/Pokémon:_Greatest_Battles> a ns1:Book ;
+    ns2:image "Pkmngreatestbattles.png" ;
+    ns1:ISBN "0439686733" ;
+    ns1:author "Maria_S._Barbo" ;
+    ns1:image_size "250px" ;
+    ns1:published "2004" ;
+    ns1:publisher "Image:Scholastic_logo.png_164px" ;
+    ns1:series "no" ;
+    ns1:title "Pokémon:_Greatest_Battles" .
+
+<http://example.org/resource/book/Pokémon:_Kalos_Beginner's_Handbook> a ns1:Book ;
+    ns2:image "Kalos_Beginners_Handbook.png" ;
+    ns1:ISBN "0545643961" ;
+    ns1:author "Simcha_Whitehill" ;
+    ns1:image_size "250" ;
+    ns1:published "January_7,_2014" ;
+    ns1:publisher "File:Scholastic_logo.png_164px" ;
+    ns1:series "no" ;
+    ns1:title "Pokémon:_Kalos_Beginners_Handbook" .
+
+<http://example.org/resource/book/Pokémon:_Let's_Go,_Pikachu!_&_Pokémon:_Let's_Go,_Eevee!:_Official_Trainer's_Guide_&_Pokédex> a ns1:Book ;
+    ns2:image "Prima_LGPE_cover.png" ;
+    ns1:ISBN "9780744019810" ;
+    ns1:author "Several" ;
+    ns1:image_size "x200" ;
+    ns1:next "Pokémon_Sword_&_Pokémon_Shield:_The_Official_Galar_Region_Strategy_Guide" ;
+    ns1:previous "Pokémon_Ultra_Sun_&_Pokémon_Ultra_Moon_Edition:_The_Official_National_Pokédex" ;
+    ns1:published "November_23,_2018" ;
+    ns1:publisher "File:The_Pokémon_Company_International_logo.png_130px_link=The_Pokémon_Company_International" ;
+    ns1:title "Pokémon:_Lets_Go,_Pikachu!_&_Pokémon:_Lets_Go,_Eevee!:_Official_Trainers_Guide_&_Pokédex" .
+
+<http://example.org/resource/book/Pokémon:_Official_Nintendo_Player's_Guide> a ns1:Book .
+
+<http://example.org/resource/book/Pokémon:_Sinnoh_Hall_of_Fame> a ns1:Book ;
+    ns2:image "SinnohHOF.png" ;
+    ns1:ISBN "0545151260" ;
+    ns1:author "Katherine_Fang" ;
+    ns1:image_size "250px" ;
+    ns1:published "October_1,_2009" ;
+    ns1:publisher "Image:Scholastic_logo.png_164px" ;
+    ns1:series "No" ;
+    ns1:title "Pokémon:_Sinnoh_Hall_Of_Fame" .
+
+<http://example.org/resource/book/Pokémon:_Special_Edition_for_Yellow,_Red_and_Blue:_Official_Nintendo_Player's_Guide> a ns1:Book .
+
+ns1:Pokémon_\(Pathways_to_Adventure\) a ns1:Book .
+
+<http://example.org/resource/book/Pokémon_+_Nobunaga's_Ambition:_Visual_Setting_Guide> a ns1:Book ;
+    ns2:image "Pokemon_Nobunagas_Ambition_Visual_Setting_Guide_jacket_cover.jpg" ;
+    ns1:ISBN "9784775808412" ;
+    ns1:author "" ;
+    ns1:image_size "200px" ;
+    ns1:pages "128" ;
+    ns1:published "March_30,_2012Pokémon_+_Nobunagas_Ambition:_Visual_Setting_Guide._pg_128." ;
+    ns1:publisher "_wp_Koei_Tecmo_" ;
+    ns1:series "No" ;
+    ns1:title "Pokémon_+_Nobunagas_Ambition:_Visual_Setting_Guide" .
+
+<http://example.org/resource/book/Pokémon_10th_Anniversary_Collector's_Edition_Complete_Pokédex> a ns1:Book .
+
+<http://example.org/resource/book/Pokémon_2.B.A._Master:_Piano_Fun!> a ns1:Book ;
+    ns2:image "_Pokemon_2BA_Master_Piano_Fun.jpg" ;
+    ns1:ISBN "_157560308X" ;
+    ns1:author "_N/A" ;
+    ns1:image_size "_200px" ;
+    ns1:published "_January_2000" ;
+    ns1:publisher "__wp_Cherry_Lane_Music_" ;
+    ns1:series "_no" ;
+    ns1:title "_Pokémon_2.B.A._Master:_Piano_Fun!_Pack" .
+
+<http://example.org/resource/book/Pokémon_2.B.A._Master:_Recorder_Fun!> a ns1:Book ;
+    ns2:image "_Recorder_fun.jpg" ;
+    ns1:ISBN "_1575603241" ;
+    ns1:author "_N/A" ;
+    ns1:image_size "_156px" ;
+    ns1:published "_November_1999" ;
+    ns1:publisher "__wp_Cherry_Lane_Music_" ;
+    ns1:series "_no" ;
+    ns1:title "_Pokemon_2.B.A._Master:_Recorder_Fun!_Pack" .
+
+ns1:Pokémon_2.B.A._Master_\(book\) a ns1:Book ;
+    ns2:image "_Piano_Book.png" ;
+    ns1:ISBN "_157560289X" ;
+    ns1:author "_N/A" ;
+    ns1:image_size "_135px" ;
+    ns1:published "_March_2000" ;
+    ns1:publisher "__wp_Cherry_Lane_Music_" ;
+    ns1:series "_no" ;
+    ns1:title "_Pokemon_2.B.A._Master" .
+
+<http://example.org/resource/book/Pokémon_4Ever:_The_Voice_of_the_Forest_Sticker_Storybook> a ns1:Book ;
+    ns2:image "Pokémon_4Ever_The_Voice_of_the_Forest_Sticker_Storybook.png" ;
+    ns1:ISBN "0439389208" ;
+    ns1:author "Tracey_West" ;
+    ns1:image_size "250px" ;
+    ns1:published "December_1,_2002" ;
+    ns1:publisher "Scholastic" ;
+    ns1:series "no" ;
+    ns1:title "Pokémon_4Ever:_The_Voice_of_the_Forest_Sticker_Storybook" .
+
+ns1:Pokémon_4Ever_-_The_Voice_of_the_Forest_\(book\) a ns1:Book .
+
+ns1:Pokémon_Academy_\(book\) a ns1:Book .
+
+ns1:Pokémon_Activity_Book_\(1999\) a ns1:Book .
+
+ns1:Pokémon_Activity_Book_\(2009\) a ns1:Book .
+
+ns1:Pokémon_Alola_Region_Handbook a ns1:Book ;
+    ns2:image "Alola_Region_Handbook.png" ;
+    ns1:ISBN "978-1338148626" ;
+    ns1:author "" ;
+    ns1:image_size "250px" ;
+    ns1:next "Pokémon_Super_Deluxe_Essential_Handbook" ;
+    ns1:previous "Pokémon_Classic_Collectors_Handbook" ;
+    ns1:published "July_25,_2017" ;
+    ns1:publisher "File:Scholastic_logo.png_164px" ;
+    ns1:title "Pokémon_Alola_Region_Handbook" .
+
+<http://example.org/resource/book/Pokémon_Battle_Revolution:_Official_Nintendo_Player's_Guide> a ns1:Book .
+
+<http://example.org/resource/book/Pokémon_Black_&_Pokémon_White_Versions:_Official_National_Pokédex> a ns1:Book .
+
+<http://example.org/resource/book/Pokémon_Black_2_and_White_2:_Prima's_Official_Strategy_Guide> a ns1:Book .
+
+<http://example.org/resource/book/Pokémon_Black_Version_2_&_Pokémon_White_Version_2:_The_Official_National_Pokédex> a ns1:Book .
+
+ns1:Pokémon_Black_Version_and_Pokémon_White_Version_Handbook a ns1:Book ;
+    ns2:image "Pokémon_Black_and_White_Handbook.jpg" ;
+    ns1:ISBN "978-0545316521" ;
+    ns1:author "" ;
+    ns1:image_size "250px" ;
+    ns1:next "Pokémon_Essential_Handbook" ;
+    ns1:previous "Pokémon_Johto_Handbook" ;
+    ns1:published "August_1,_2011" ;
+    ns1:publisher "File:Scholastic_logo.png_164px" ;
+    ns1:title "Pokémon_Black_Version_and_Pokémon_White_Version_Handbook" .
+
+<http://example.org/resource/book/Pokémon_Black_and_White:_Prima's_Official_Strategy_Guide> a ns1:Book .
+
+ns1:Pokémon_Black_and_White_Pokédex a ns1:Book .
+
+ns1:Pokémon_Brilliant_Diamond_ART_Book_and_Pokémon_Shining_Pearl_ART_Book a ns1:Book ;
+    ns2:image "BDSP_Artbook_Cover_Diamond.png" ;
+    ns1:ISBN "" ;
+    ns1:author "" ;
+    ns1:image2 "BDSP_Artbook_Cover_Pearl.png" ;
+    ns1:image_size "200px" ;
+    ns1:image_size2 "200px" ;
+    ns1:next "Pokémon_LEGENDS_Arceus_ART_Book" ;
+    ns1:pages "32" ;
+    ns1:previous "Pokémon_Sword_and_Pokémon_Shield_GALAR_ART_Book" ;
+    ns1:published "November_19,_2021Pokémon_Brilliant_Diamond_Art_Book._pg_32.Pokémon_Shining_Pearl_Art_Book._pg_32." ;
+    ns1:publisher "OVERLAP,_Inc." ;
+    ns1:title "Pokémon_Brilliant_Diamond_ART_Book" ;
+    ns1:title2 "Pokémon_Shining_Pearl_ART_Book" .
+
+<http://example.org/resource/book/Pokémon_Card_GB2:_Here_Comes_Team_GR!_Official_Guidebook> a ns1:Book ;
+    ns2:image "Pokémon_Card_GB_2_guide_cover_JP.png" ;
+    ns1:ISBN "4840102848" ;
+    ns1:author "Pokémon_Card_Trainers_Editorial_Department" ;
+    ns1:image_size "200px" ;
+    ns1:next "N/A" ;
+    ns1:previous "Pokémon_Card_GB_Official_Guidebook" ;
+    ns1:published "May_1,_2001" ;
+    ns1:publisher "Media_Factory" ;
+    ns1:title "Pokémon_Card_GB2:_Here_Comes_Team_GR!_Official_Guidebook" .
+
+ns1:Pokémon_Card_GB_Final_Tactical_Book a ns1:Book ;
+    ns2:image "Pokémon_Card_GB_Final_Tactical_Book.png" ;
+    ns1:ISBN "4091026753" ;
+    ns1:author "" ;
+    ns1:image_size "200px" ;
+    ns1:next "N/A" ;
+    ns1:previous "N/A" ;
+    ns1:published "February_20,_1999Pokémon_Card_GB_Final_Tactical_Book._pg_128." ;
+    ns1:publisher "Shogakukan" ;
+    ns1:title "Pokémon_Card_GB_Final_Tactical_Book" .
+
+ns1:Pokémon_Card_GB_Official_Guidebook a ns1:Book ;
+    ns2:image "Pokémon_Card_GB_guide_cover_JP.png" ;
+    ns1:ISBN "4889918019" ;
+    ns1:author "Shūsuke_Motomiya_and_One_Up" ;
+    ns1:image_size "200px" ;
+    ns1:next "Pokémon_Card_GB2:_Here_Comes_Team_GR!_Official_Guidebook" ;
+    ns1:previous "N/A" ;
+    ns1:published "January_29,_1999" ;
+    ns1:publisher "Media_Factory" ;
+    ns1:title "Pokémon_Card_GB_Official_Guidebook" .
+
+ns1:Pokémon_Card_Game_Art_Collection a ns1:Book ;
+    ns2:image "Pokemon_Card_Game_Art_Collection_cover.png" ;
+    ns1:ISBN "9784865541557" ;
+    ns1:author "" ;
+    ns1:image_size "200px" ;
+    ns1:pages "192" ;
+    ns1:published "September_16,_2016" ;
+    ns1:publisher "OVERLAP,_Inc." ;
+    ns1:title "Pokémon_Card_Game_Art_Collection" .
+
+ns1:Pokémon_Card_Official_Book_2000 a ns1:Book ;
+    ns2:image "Pokémon_Card_Official_Book_2000.png" ;
+    ns1:ISBN "4840100020" ;
+    ns1:author "Media_Factory" ;
+    ns1:image_size "200px" ;
+    ns1:published "February_18,_2000" ;
+    ns1:publisher "Media_Factory" ;
+    ns1:series "no" ;
+    ns1:title "Pokémon_Card_Official_Book_2000" .
+
+ns1:Pokémon_Challenge a ns1:Book .
+
+<http://example.org/resource/book/Pokémon_Classic_Collector's_Handbook> a ns1:Book ;
+    ns2:image "Classic_Collectors.png" ;
+    ns1:ISBN "978-1338158236" ;
+    ns1:author "Silje_Watson" ;
+    ns1:image_size "250px" ;
+    ns1:next "Pokémon_Alola_Region_Handbook" ;
+    ns1:previous "Pokémon_Deluxe_Essential_Handbook" ;
+    ns1:published "December_27,_2016" ;
+    ns1:publisher "Image:Scholastic_logo.png_164px" ;
+    ns1:title "Pokémon_Classic_Collectors_Handbook" .
+
+<http://example.org/resource/book/Pokémon_Collector's_Value_Guide> a ns1:Book .
+
+ns1:Pokémon_Collector_Series_No.1 a ns1:Book .
+
+<http://example.org/resource/book/Pokémon_Colosseum:_Official_Nintendo_Player's_Guide> a ns1:Book .
+
+<http://example.org/resource/book/Pokémon_Colosseum:_Official_Strategy_Guide> a ns1:Book .
+
+<http://example.org/resource/book/Pokémon_Colosseum:_Prima's_Official_Strategy_Guide> a ns1:Book ;
+    ns2:image "Prima_Official_Strategy_Guide_Colosseum.png" ;
+    ns1:ISBN "0-7615-4429-1" ;
+    ns1:author "Levi_Buchanan" ;
+    ns1:image_size "200px" ;
+    ns1:next "Pokémon_XD:_Gale_of_Darkness:_Primas_Official_Strategy_Guide" ;
+    ns1:previous "Pokémon_Stadium_2:_Primas_Official_Strategy_Guide" ;
+    ns1:published "March_23,_2004" ;
+    ns1:publisher "Prima_Games" ;
+    ns1:title "Pokémon_Colosseum:_Primas_Official_Strategy_Guide" .
+
+<http://example.org/resource/book/Pokémon_Crystal:_Official_Nintendo_Player's_Guide> a ns1:Book .
+
+<http://example.org/resource/book/Pokémon_Crystal:_Prima's_Official_Strategy_Guide> a ns1:Book .
+
+<http://example.org/resource/book/Pokémon_Crystal_Version:_Official_Pocket_Guide> a ns1:Book .
+
+<http://example.org/resource/book/Pokémon_Deluxe_Activity_Book:_Johto_Edition> a ns1:Book ;
+    ns2:image "Deluxe_Activity_Book_Johto_Edition.png" ;
+    ns1:ISBN "0545112095" ;
+    ns1:author "Katherine_Fang" ;
+    ns1:image_size "200px" ;
+    ns1:next "None" ;
+    ns1:previous "Pokémon_Deluxe_Activity_Book:_Sinnoh_Edition" ;
+    ns1:published "April_1,_2010" ;
+    ns1:publisher "Scholastic" ;
+    ns1:title "Pokémon_Deluxe_Activity_Book:_Johto_Edition" .
+
+<http://example.org/resource/book/Pokémon_Deluxe_Activity_Book:_Sinnoh_Edition> a ns1:Book .
+
+ns1:Pokémon_Deluxe_Essential_Handbook a ns1:Book ;
+    ns2:image "Deluxe_Essential.png" ;
+    ns1:ISBN "978-0545795661" ;
+    ns1:author "Cris_Silvestri" ;
+    ns1:image_size "250px" ;
+    ns1:next "Pokémon_Classic_Collectors_Handbook" ;
+    ns1:previous "Pokémon_Kalos_Region_Handbook" ;
+    ns1:published "July_28,_2015" ;
+    ns1:publisher "File:Scholastic_logo.png_164px" ;
+    ns1:title "Pokémon_Deluxe_Essential_Handbook" .
+
+<http://example.org/resource/book/Pokémon_Diamond_&_Pearl_Sticker_Collection> a ns1:Book .
+
+<http://example.org/resource/book/Pokémon_Diamond_and_Pearl:_Official_Nintendo_Player's_Guide> a ns1:Book .
+
+<http://example.org/resource/book/Pokémon_Diamond_and_Pearl:_Prima's_Official_Strategy_Guide> a ns1:Book ;
+    ns2:image "Prima_DP.png" ;
+    ns1:ISBN "9780761556343" ;
+    ns1:author "Lawrence_Neves,_Katherine_Fang,_Kristina_Naudus,_Cris_Silvestri" ;
+    ns1:image_size "200px" ;
+    ns1:next "Pokémon_Diamond_and_Pearl_Pokédex" ;
+    ns1:previous "Pokémon_10th_Anniversary_Collectors_Edition_Complete_Pokédex" ;
+    ns1:published "April_22,_2007" ;
+    ns1:publisher "Prima_Games" ;
+    ns1:title "Pokémon_Diamond_and_Pearl:_Primas_Official_Strategy_Guide" .
+
+<http://example.org/resource/book/Pokémon_Diamond_and_Pearl:_The_Ultimate_National_Pokédex> a ns1:Book .
+
+ns1:Pokémon_Diamond_and_Pearl_Pokédex a ns1:Book ;
+    ns2:image "Prima_Official_Strategy_Guide_DP_Pokédex.png" ;
+    ns1:ISBN "9780761556350" ;
+    ns1:author "_Lawrence_Neves,_Kristina_Naudus,_Cris_Silvestri,_Ian_Levenstein" ;
+    ns1:image_size "200px" ;
+    ns1:next "Pokémon_Platinum:_Primas_Official_Strategy_Guide" ;
+    ns1:previous "Pokémon_Diamond_and_Pearl:_Primas_Official_Strategy_Guide" ;
+    ns1:published "May_27,_2007" ;
+    ns1:publisher "Prima_Games" ;
+    ns1:title "Pokémon_Diamond_and_Pearl_Pokédex" .
+
+<http://example.org/resource/book/Pokémon_Emerald:_Official_Nintendo_Player's_Guide> a ns1:Book .
+
+<http://example.org/resource/book/Pokémon_Emerald:_Prima's_Official_Strategy_Guide> a ns1:Book ;
+    ns2:image "Prima_E.png" ;
+    ns1:ISBN "9780761551072" ;
+    ns1:author "Elizabeth_M._Hollinger" ;
+    ns1:image_size "250px" ;
+    ns1:next "Pokémon_10th_Anniversary_Collectors_Edition_Complete_Pokédex" ;
+    ns1:previous "Pokémon_FireRed_and_LeafGreen:_Primas_Official_Strategy_Guide" ;
+    ns1:published "April_26,_2005" ;
+    ns1:publisher "Prima_Games" ;
+    ns1:title "Pokémon_Emerald:_Primas_Official_Strategy_Guide" .
+
+ns1:Pokémon_Essential_Handbook a ns1:Book ;
+    ns2:image "Pokémon_Essential_Handbook_Cover.jpg" ;
+    ns1:ISBN "978-0545427715" ;
+    ns1:author "Cris_Silvestri" ;
+    ns1:image_size "250px" ;
+    ns1:next "Pokémon_Kalos_Region_Handbook" ;
+    ns1:previous "Pokémon_Black_Version_and_Pokémon_White_Version_Handbook" ;
+    ns1:published "August_1,_2012" ;
+    ns1:publisher "Image:Scholastic_logo.png_164px" ;
+    ns1:title "Pokémon_Essential_Handbook" .
+
+<http://example.org/resource/book/Pokémon_Find_'Em_All:_The_Search_for_Zoroark_Discover_Unova!> a ns1:Book .
+
+<http://example.org/resource/book/Pokémon_FireRed_and_LeafGreen:_Official_Nintendo_Player's_Guide> a ns1:Book .
+
+<http://example.org/resource/book/Pokémon_FireRed_and_LeafGreen:_Prima's_Official_Strategy_Guide> a ns1:Book ;
+    ns2:image "Prima_FRLG.png" ;
+    ns1:ISBN "0761547088" ;
+    ns1:author "Eric_ECM_Mylonas" ;
+    ns1:image_size "200px" ;
+    ns1:next "Pokémon_Emerald:_Primas_Official_Strategy_Guide" ;
+    ns1:previous "Pokémon_Ruby_and_Sapphire:_Primas_Official_Strategy_Guide" ;
+    ns1:published "September_14,_2004" ;
+    ns1:publisher "Prima_Games" ;
+    ns1:title "Pokémon_FireRed_and_LeafGreen:_Primas_Official_Strategy_Guide" .
+
+ns1:Pokémon_Five-Finger_Piano a ns1:Book .
+
+<http://example.org/resource/book/Pokémon_Gold_&_Silver:_Prima's_Official_Strategy_Guide> a ns1:Book .
+
+<http://example.org/resource/book/Pokémon_Gold_Silver:_The_Adventure_Continues!> a ns1:Book .
+
+ns1:Pokémon_Gold_Silver_\(book\) a ns1:Book .
+
+<http://example.org/resource/book/Pokémon_Gold_Silver_Crystal:_Prima's_Official_Strategy_Guide> a ns1:Book .
+
+<http://example.org/resource/book/Pokémon_Gold_Version_and_Silver_Version:_Official_Pocket_Guide> a ns1:Book .
+
+<http://example.org/resource/book/Pokémon_Gold_and_Silver:_Official_Nintendo_Player's_Guide> a ns1:Book ;
+    ns2:image "Pokémon_Gold_and_Silver_Official_Nintendo_Player_Guide.png" ;
+    ns1:ISBN "9781930206045" ;
+    ns1:author "Nintendo_Power_Team" ;
+    ns1:image_size "200px" ;
+    ns1:next "Pokémon_Crystal:_Official_Nintendo_Players_Guide" ;
+    ns1:previous "Pokémon:_Special_Edition_for_Yellow,_Red_and_Blue:_Official_Nintendo_Players_Guide" ;
+    ns1:published "October_15,_2000Nintendo_Power_Nintendo_Power/Generation_II_Vol._136_(September_2000),_[https://archive.org/details/nintendo-power-issue-136-september-2000/page/n125/mode/2up_p._122]" ;
+    ns1:publisher "File:Nintendo_Power_magazine_logo.png_100px_link=Nintendo_Power" ;
+    ns1:title "Pokémon_Gold_and_Silver:_Official_Nintendo_Players_Guide" .
+
+ns1:Pokémon_Gold_and_Silver_Adventure_Clear_Guide a ns1:Book ;
+    ns2:image "Pokémon_Gold_and_Silver_Adventure_Clear_Guide_jacket_cover_JP.jpg" ;
+    ns1:ISBN "9784840100038" ;
+    ns1:author "Media_Factory" ;
+    ns1:image_size "200px" ;
+    ns1:next "N/A" ;
+    ns1:previous "N/A" ;
+    ns1:published "December_22,_1999Pokémon_Gold_and_Silver_Adventure_Clear_Guide._pg_224." ;
+    ns1:publisher "Media_Factory" ;
+    ns1:title "Pokémon_Gold_and_Silver_Adventure_Clear_Guide" .
+
+ns1:Pokémon_Gold_and_Silver_Official_Perfect_Guide a ns1:Book .
+
+ns1:Pokémon_Gold_and_Silver_Pokédex a ns1:Book ;
+    ns2:image "Pokemon_Gold_and_Silver_Pokemon_Encyclopedia_jacket_cover.png" ;
+    ns1:ISBN "9784091028341" ;
+    ns1:author "" ;
+    ns1:image_size "200px" ;
+    ns1:next "N/A" ;
+    ns1:previous "N/A" ;
+    ns1:published "March_10,_2000Pokémon_Gold_and_Silver_Pokédex._pg_208." ;
+    ns1:publisher "Shogakukan" ;
+    ns1:title "Pokémon_Gold_and_Silver_Pokédex" .
+
+ns1:Pokémon_Hall_of_Fame_\(book\) a ns1:Book ;
+    ns2:image "Halloffame.jpg" ;
+    ns1:ISBN "0439686741" ;
+    ns1:author "Katherine_Noll_and_Tracey_West" ;
+    ns1:image_size "250px" ;
+    ns1:published "October_2004" ;
+    ns1:publisher "Scholastic" ;
+    ns1:series "no" ;
+    ns1:title "Pokémon_Hall_of_Fame" .
+
+ns1:Pokémon_Handbook_to_the_Galar_Region a ns1:Book ;
+    ns2:image "Handbook_to_the_Galar_Region.png" ;
+    ns1:ISBN "978-1338592528" ;
+    ns1:author "" ;
+    ns1:image_size "250px" ;
+    ns1:next "Pokémon_Super_Extra_Deluxe_Essential_Handbook" ;
+    ns1:previous "Pokémon_Super_Deluxe_Essential_Handbook" ;
+    ns1:published "July_7,_2020" ;
+    ns1:publisher "File:Scholastic_logo.png_164px" ;
+    ns1:title "Pokémon_Handbook_to_the_Galar_Region" .
+
+<http://example.org/resource/book/Pokémon_HeartGold_and_SoulSilver:_Prima's_Official_Strategy_Guide> a ns1:Book ;
+    ns2:image "Prima_Official_Strategy_Guide_HGSS.png" ;
+    ns1:ISBN "9780307468031" ;
+    ns1:author "The_Pokémon_Company_International" ;
+    ns1:image_size "200px" ;
+    ns1:next "Pokémon_HeartGold_and_SoulSilver_Pokédex" ;
+    ns1:previous "Pokémon_Platinum:_Primas_Official_Strategy_Guide" ;
+    ns1:published "March_14,_2010" ;
+    ns1:publisher "Prima_Games" ;
+    ns1:title "Pokémon_HeartGold_and_SoulSilver:_Primas_Official_Strategy_Guide" .
+
+ns1:Pokémon_HeartGold_and_SoulSilver_Pokédex a ns1:Book ;
+    ns2:image "Prima_Pokémon_HeartGold_and_SoulSilver_Pokédex.png" ;
+    ns1:ISBN "9780307468055" ;
+    ns1:author "The_Pokémon_Company_International" ;
+    ns1:image_size "200px" ;
+    ns1:next "Pokémon_Black_and_White:_Primas_Official_Strategy_Guide" ;
+    ns1:previous "Pokémon_HeartGold_and_SoulSilver:_Primas_Official_Strategy_Guide" ;
+    ns1:published "April_27,_2010" ;
+    ns1:publisher "Prima_Games" ;
+    ns1:title "Pokémon_HeartGold_and_SoulSilver_Pokédex" .
+
+<http://example.org/resource/book/Pokémon_Holiday_Hi-Jynx:_Sticker_Storybook> a ns1:Book .
+
+ns1:Pokémon_Johto_Handbook a ns1:Book ;
+    ns2:image "Pokémon_Johto_Handbook_Cover.jpg" ;
+    ns1:ISBN "978-0545151320" ;
+    ns1:author "Scholastic" ;
+    ns1:image_size "250px" ;
+    ns1:next "Pokémon_Black_Version_and_Pokémon_White_Version_Handbook" ;
+    ns1:previous "Pokémon_Ultimate_Handbook" ;
+    ns1:published "June_1,_2010" ;
+    ns1:publisher "Image:Scholastic_logo.png_164px" ;
+    ns1:title "Pokémon_Johto_Handbook" .
+
+ns1:Pokémon_Kalos_Region_Handbook a ns1:Book ;
+    ns2:image "PokémonKalosRegionHandbook.jpg" ;
+    ns1:ISBN "978-0545646024" ;
+    ns1:author "Scholastic" ;
+    ns1:image_size "250px" ;
+    ns1:next "Pokémon_Deluxe_Essential_Handbook" ;
+    ns1:previous "Pokémon_Essential_Handbook" ;
+    ns1:published "July_29,_2014" ;
+    ns1:publisher "Image:Scholastic_logo.png_164px" ;
+    ns1:title "Pokémon_Kalos_Region_Handbook" .
+
+ns1:Pokémon_Kanto_Handbook a ns1:Book ;
+    ns2:image "Pokémon_Kanto_Handbook_Cover.jpg" ;
+    ns1:ISBN "978-0-439-74146-0" ;
+    ns1:author "Katherine_Noll" ;
+    ns1:image_size "250px" ;
+    ns1:next "Pokémon_Sinnoh_Handbook" ;
+    ns1:previous "The_Official_Pokémon_Advanced_Handbook_4" ;
+    ns1:published "2005" ;
+    ns1:publisher "Image:Scholastic_logo.png_164px" ;
+    ns1:title "Pokémon_Kanto_Handbook" .
+
+ns1:Pokémon_LEGENDS_Arceus_ART_Book a ns1:Book ;
+    ns2:image "Pokemon_Legends_Arceus_Art_Book_cover.jpg" ;
+    ns1:ISBN "" ;
+    ns1:author "" ;
+    ns1:image_size "200px" ;
+    ns1:next "Pokémon_Scarlet_ART_Book_and_Pokémon_Violet_ART_Book" ;
+    ns1:pages "32" ;
+    ns1:previous "Pokémon_Brilliant_Diamond_ART_Book_and_Pokémon_Shining_Pearl_ART_Book" ;
+    ns1:published "January_28,_2022Pokémon_Legends:_Arceus_Art_Book._pg_32." ;
+    ns1:publisher "OVERLAP,_Inc." ;
+    ns1:title "Pokémon_LEGENDS_Arceus_ART_Book" .
+
+<http://example.org/resource/book/Pokémon_Made_Simple!> a ns1:Book .
+
+ns1:Pokémon_Magnet_Play_Book a ns1:Book .
+
+ns1:Pokémon_Master_Pokédex a ns1:Book .
+
+ns1:Pokémon_Maze_Book_No.1 a ns1:Book .
+
+ns1:Pokémon_Maze_Book_No.2 a ns1:Book .
+
+ns1:Pokémon_Movie_Companion a ns1:Book ;
+    ns2:image "" ;
+    ns1:ISBN "9780744018455" ;
+    ns1:author "Simcha_Whitehill" ;
+    ns1:image_size "250px" ;
+    ns1:published "November_7,_2017" ;
+    ns1:publisher "Prima_Games" ;
+    ns1:series "no" ;
+    ns1:title "Pokémon_Movie_Companion" .
+
+<http://example.org/resource/book/Pokémon_Mystery_Dungeon:_Explorers_of_Sky:_Prima's_Official_Strategy_Guide> a ns1:Book .
+
+<http://example.org/resource/book/Pokémon_Mystery_Dungeon:_Explorers_of_Time_and_Explorers_of_Darkness:_Prima's_Official_Strategy_Guide> a ns1:Book .
+
+<http://example.org/resource/book/Pokémon_Mystery_Dungeon:_Official_Nintendo_Player's_Guide> a ns1:Book .
+
+<http://example.org/resource/book/Pokémon_Mystery_Dungeon:_Red_Rescue_Team_and_Blue_Rescue_Team:_Prima's_Official_Strategy_Guide> a ns1:Book .
+
+<http://example.org/resource/book/Pokémon_Mystery_Dungeon_Explorer's_Guide> a ns1:Book ;
+    ns2:image "Mystery_Dungeon_Time_Explorer_Guide.png" ;
+    ns1:ISBN "N/A" ;
+    ns1:author "" ;
+    ns1:image2 "Mystery_Dungeon_Darkness_Explorer_Guide.png" ;
+    ns1:image_size "200px" ;
+    ns1:image_size2 "200px" ;
+    ns1:published "2008" ;
+    ns1:publisher "Nintendo_of_America" ;
+    ns1:series "no" ;
+    ns1:title "Pokémon_Mystery_Dungeon:_Explorers_of_Time_-_Explorers_Guide" ;
+    ns1:title2 "Pokémon_Mystery_Dungeon:_Explorers_of_Darkness_-_Explorers_Guide" .
+
+<http://example.org/resource/book/Pokémon_Mystery_Dungeon_Rescuer's_Guide> a ns1:Book ;
+    ns2:image "Mystery_Dungeon_Rescuer_Guide.jpg" ;
+    ns1:ISBN "N/A" ;
+    ns1:author "N/A" ;
+    ns1:image_size "200px" ;
+    ns1:published "2006" ;
+    ns1:publisher "N/A" ;
+    ns1:series "no" ;
+    ns1:title "Pokémon_Mystery_Dungeon_-_Rescuers_Guide" .
+
+ns1:Pokémon_New_Character_Special a ns1:Book .
+
+<http://example.org/resource/book/Pokémon_Omega_Ruby_&_Pokémon_Alpha_Sapphire:_The_Official_Hoenn_Region_Strategy_Guide> a ns1:Book ;
+    ns2:image "Prima_ORAS_cover.png" ;
+    ns1:ISBN "9781101898208" ;
+    ns1:author "Steve_Stratton_(Prima_Games)Shusuke_Motomiya_(original_Japanese_version)" ;
+    ns1:image_size "x200" ;
+    ns1:next "Pokémon_Omega_Ruby_&_Pokémon_Alpha_Sapphire:_The_Official_National_Pokédex" ;
+    ns1:previous "Pokémon_X_&_Pokémon_Y:_The_Official_Kalos_Region_Pokédex_&_Postgame_Adventure_Guide" ;
+    ns1:published "November_21,_2014" ;
+    ns1:publisher "File:The_Pokémon_Company_International_logo.png_130px_link=Pokémon_Company_International" ;
+    ns1:title "Pokémon_Omega_Ruby_&_Pokémon_Alpha_Sapphire:_The_Official_Hoenn_Region_Strategy_Guide" .
+
+<http://example.org/resource/book/Pokémon_Omega_Ruby_&_Pokémon_Alpha_Sapphire:_The_Official_National_Pokédex> a ns1:Book ;
+    ns2:image "Prima_ORAS_National_Pokédex.png" ;
+    ns1:ISBN "9781101898284" ;
+    ns1:author "Shusuke_Motomiya_(original_Japanese_version)Prima_Games" ;
+    ns1:image_size "200px" ;
+    ns1:next "Pokémon_Sun_&_Pokémon_Moon:_The_Official_Strategy_Guide" ;
+    ns1:previous "Pokémon_Omega_Ruby_&_Pokémon_Alpha_Sapphire:_The_Official_Hoenn_Region_Strategy_Guide" ;
+    ns1:published "May_8,_2015" ;
+    ns1:publisher "File:The_Pokémon_Company_International_logo.png_130px_link=Pokémon_Company_International" ;
+    ns1:title "Pokémon_Omega_Ruby_&_Pokémon_Alpha_Sapphire:_The_Official_National_Pokédex" .
+
+ns1:Pokémon_Omega_Ruby_and_Pokémon_Alpha_Sapphire_New_Hoenn_ART_Book a ns1:Book ;
+    ns2:image "Pokemon_Omega_Ruby_and_Pokemon_Alpha_Sapphire_New_Hoenn_ART_Book_cover.jpg" ;
+    ns1:ISBN "" ;
+    ns1:author "" ;
+    ns1:image_size "200px" ;
+    ns1:next "Pokémon_Sun_and_Pokémon_Moon_Alola_ART_Book" ;
+    ns1:pages "32" ;
+    ns1:previous "Art_Book_With_Pokémon_Cries" ;
+    ns1:published "November_21,_2014Pokémon_Omega_Ruby_and_Pokémon_Alpha_Sapphire_New_Hoenn_ART_Book._pg_32." ;
+    ns1:publisher "OVERLAP,_Inc." ;
+    ns1:title "Pokémon_Omega_Ruby_and_Pokémon_Alpha_Sapphire_New_Hoenn_ART_Book" .
+
+ns1:Pokémon_Origami a ns1:Book .
+
+<http://example.org/resource/book/Pokémon_Origami:_Fold_Your_Own_Pokémon> a ns1:Book .
+
+ns1:Pokémon_Origami_2 a ns1:Book ;
+    ns2:image "Pokémon_Origami_2.png" ;
+    ns1:ISBN "1569314152" ;
+    ns1:author "VIZ_Media" ;
+    ns1:image_size "250px" ;
+    ns1:next "Pokémon_Origami_3:_Gold_&_Silver" ;
+    ns1:previous "Pokémon_Origami" ;
+    ns1:published "2000" ;
+    ns1:publisher "File:VIZ_Media_logo.png_82px" ;
+    ns1:series "yes" ;
+    ns1:title "Pokémon_Origami_2" .
+
+<http://example.org/resource/book/Pokémon_Origami_3:_Gold_&_Silver> a ns1:Book ;
+    ns1:next "_None_" .
+
+<http://example.org/resource/book/Pokémon_Pinball:_Nintendo_Official_Guide_Book> a ns1:Book ;
+    ns2:image "Pokemon_Pinball_Nintendo_Official_Guide_Book_jacket_cover.png" ;
+    ns1:ISBN "9784091026972" ;
+    ns1:author "" ;
+    ns1:image_size "200px" ;
+    ns1:next "N/A" ;
+    ns1:previous "N/A" ;
+    ns1:published "May_20,_1999Pokémon_Pinball:_Nintendo_Official_Guide_Book._pg_82." ;
+    ns1:publisher "Shogakukan" ;
+    ns1:title "Pokémon_Pinball:_Nintendo_Official_Guide_Book" .
+
+<http://example.org/resource/book/Pokémon_Platinum:_Prima's_Official_Strategy_Guide> a ns1:Book .
+
+ns1:Pokémon_Platinum_Official_Complete_Clear_Guide a ns1:Book ;
+    ns1:ISBN "9784840124386" ;
+    ns1:author "" ;
+    ns1:next "N/A" ;
+    ns1:previous "N/A" ;
+    ns1:published "" ;
+    ns1:publisher "Media_Factory" ;
+    ns1:title "Pokémon_Platinum_Official_Complete_Clear_Guide" .
+
+ns1:Pokémon_Pocket_Pokédex a ns1:Book .
+
+<http://example.org/resource/book/Pokémon_Pocket_Trainer's_Guide> a ns1:Book ;
+    ns2:image "FRLG_Pocket_Trainers_Guide.png" ;
+    ns1:ISBN "N/A" ;
+    ns1:author "N/A" ;
+    ns1:image_size "200px" ;
+    ns1:published "2004" ;
+    ns1:publisher "N/A" ;
+    ns1:series "no" ;
+    ns1:title "Pokémon_-_Pocket_Trainers_Guide" .
+
+ns1:Pokémon_Pop_Quiz a ns1:Book .
+
+<http://example.org/resource/book/Pokémon_Pop_Quiz_2:_The_Johto_Journeys> a ns1:Book .
+
+<http://example.org/resource/book/Pokémon_Pop_Quiz_3:_Brain_Busters> a ns1:Book ;
+    ns2:image "PopQuiz3.jpg" ;
+    ns1:ISBN "0439429927" ;
+    ns1:author "Tracey_West" ;
+    ns1:image_size "200px" ;
+    ns1:next "N/A" ;
+    ns1:previous "Pokémon_Pop_Quiz_2:_The_Johto_Journeys" ;
+    ns1:published "2002" ;
+    ns1:publisher "Scholastic" ;
+    ns1:title "Pokémon_Pop_Quiz_3:_Brain_Busters" .
+
+<http://example.org/resource/book/Pokémon_Ranger:_Guardian_Signs:_Prima's_Official_Strategy_Guide> a ns1:Book .
+
+<http://example.org/resource/book/Pokémon_Ranger:_Nintendo_Official_Guidebook> a ns1:Book ;
+    ns2:image "Pokemon_Ranger_Nintendo_Official_Guidebook_jacket_cover.png" ;
+    ns1:ISBN "9784091062949" ;
+    ns1:author "" ;
+    ns1:image_size "200px" ;
+    ns1:next "N/A" ;
+    ns1:previous "N/A" ;
+    ns1:published "May_10,_2006Pokémon_Ranger:_Nintendo_Official_Guidebook._pg_240." ;
+    ns1:publisher "Shogakukan" ;
+    ns1:title "Pokémon_Ranger:_Nintendo_Official_Guidebook" .
+
+<http://example.org/resource/book/Pokémon_Ranger:_Official_Nintendo_Player's_Guide> a ns1:Book .
+
+<http://example.org/resource/book/Pokémon_Ranger:_Prima's_Official_Strategy_Guide> a ns1:Book .
+
+<http://example.org/resource/book/Pokémon_Ranger:_Shadows_of_Almia:_Prima's_Official_Strategy_Guide> a ns1:Book .
+
+ns1:Pokémon_Ranger_and_the_Temple_of_the_Sea_\(book\) a ns1:Book ;
+    ns2:image "Pokemon_Ranger_and_the_temple_of_the_sea_book.png" ;
+    ns1:ISBN "0545009936" ;
+    ns1:author "Tracey_West" ;
+    ns1:image_size "250px" ;
+    ns1:next "_book_The_Rise_of_Darkrai_" ;
+    ns1:previous "_book_Lucario_and_the_Mystery_of_Mew_" ;
+    ns1:published "March_31,_2007" ;
+    ns1:publisher "Scholastic" ;
+    ns1:title "Pokémon_Ranger_and_the_Temple_of_the_Sea" .
+
+<http://example.org/resource/book/Pokémon_Red_and_Blue:_Prima's_Official_Strategy_Guide> a ns1:Book .
+
+<http://example.org/resource/book/Pokémon_Ruby_&_Sapphire:_Official_Trainer's_Guide> a ns1:Book ;
+    ns1:ISBN "0744002583" ;
+    ns1:author "Phillip_Marcus" ;
+    ns1:next "N/A" ;
+    ns1:previous "Pokémon_Crystal_Version:_Official_Pocket_Guide" ;
+    ns1:published "March_2003" ;
+    ns1:publisher "BradyGames" ;
+    ns1:title "Pokémon_Ruby_&_Sapphire:_Official_Trainers_Guide" .
+
+<http://example.org/resource/book/Pokémon_Ruby_and_Sapphire:_Official_Nintendo_Player's_Guide> a ns1:Book .
+
+<http://example.org/resource/book/Pokémon_Ruby_and_Sapphire:_Prima's_Official_Strategy_Guide> a ns1:Book .
+
+ns1:Pokémon_Scarlet_ART_Book_and_Pokémon_Violet_ART_Book a ns1:Book ;
+    ns2:image "Pokemon_Scarlet_Art_Book_cover.jpg" ;
+    ns1:ISBN "" ;
+    ns1:author "" ;
+    ns1:image2 "Pokemon_Violet_Art_Book_cover.jpg" ;
+    ns1:image_size "200px" ;
+    ns1:image_size2 "200px" ;
+    ns1:next "_N/A" ;
+    ns1:pages "32" ;
+    ns1:previous "_Pokémon_LEGENDS_Arceus_ART_Book" ;
+    ns1:published "November_18,_2022Pokémon_Scarlet_ART_Book._pg_32.Pokémon_Violet_ART_Book._pg_32." ;
+    ns1:publisher "OVERLAP,_Inc." ;
+    ns1:title "Pokémon_Scarlet_ART_Book" ;
+    ns1:title2 "Pokémon_Violet_ART_Book" .
+
+ns1:Pokémon_Sinnoh_Handbook a ns1:Book ;
+    ns2:image "Pokémon_Sinnoh_Handbook.png" ;
+    ns1:ISBN "978-0-545-00072-7" ;
+    ns1:author "Tracey_West,_Katherine_Noll" ;
+    ns1:image_size "250px" ;
+    ns1:next "Pokémon_Ultimate_Handbook" ;
+    ns1:previous "Pokémon_Kanto_Handbook" ;
+    ns1:published "September_2007" ;
+    ns1:publisher "Image:Scholastic_logo.png_164px" ;
+    ns1:title "Pokémon_Sinnoh_Handbook" .
+
+<http://example.org/resource/book/Pokémon_Snap:_Official_Nintendo_Player's_Guide> a ns1:Book .
+
+ns1:Pokémon_Snap_\(book\) a ns1:Book .
+
+<http://example.org/resource/book/Pokémon_Stadium:_Official_Battle_Guide> a ns1:Book .
+
+<http://example.org/resource/book/Pokémon_Stadium:_Official_Nintendo_Player's_Guide> a ns1:Book .
+
+<http://example.org/resource/book/Pokémon_Stadium:_Prima's_Official_Strategy_Guide> a ns1:Book .
+
+<http://example.org/resource/book/Pokémon_Stadium_2:_Official_Nintendo_Player's_Guide> a ns1:Book .
+
+<http://example.org/resource/book/Pokémon_Stadium_2:_Prima's_Official_Strategy_Guide> a ns1:Book .
+
+<http://example.org/resource/book/Pokémon_Stadium_2:_Ultimate_Battle_Guide> a ns1:Book .
+
+ns1:Pokémon_Sticker_Activity_Book a ns1:Book .
+
+<http://example.org/resource/book/Pokémon_Sticker_Book:_Black_Edition> a ns1:Book .
+
+<http://example.org/resource/book/Pokémon_Sticker_Book:_Victini_Edition> a ns1:Book .
+
+<http://example.org/resource/book/Pokémon_Sticker_Book:_White_Edition> a ns1:Book .
+
+ns1:Pokémon_Sticker_Series_No.2 a ns1:Book ;
+    ns2:image "Sticker_Series_2.png" ;
+    ns1:ISBN "0307103110" ;
+    ns1:author "Illustrated_by_Emilie_Kong" ;
+    ns1:image_size "200" ;
+    ns1:next "Pokémon_Sticker_Series_No.3" ;
+    ns1:previous "Pokémon_Sticker_Series_No.1" ;
+    ns1:published "1999" ;
+    ns1:publisher "File:Golden_Books_logo.png_120px" ;
+    ns1:title "Pokémon_Sticker_Series_#2" .
+
+ns1:Pokémon_Sticker_Series_No.3 a ns1:Book ;
+    ns2:image "Sticker_Series_3.png" ;
+    ns1:ISBN "0307103129" ;
+    ns1:author "Illustrated_by_Linda_Karl" ;
+    ns1:image_size "200" ;
+    ns1:next "Pokémon_Sticker_Series_No.4" ;
+    ns1:previous "Pokémon_Sticker_Series_No.2" ;
+    ns1:published "1999" ;
+    ns1:publisher "File:Golden_Books_logo.png_120px" ;
+    ns1:title "Pokémon_Sticker_Series_#3" .
+
+ns1:Pokémon_Stickédex a ns1:Book .
+
+<http://example.org/resource/book/Pokémon_Sun_&_Pokémon_Moon:_The_Official_Alola_Region_Pokédex_&_Postgame_Adventure_Guide> a ns1:Book ;
+    ns2:image "Prima_SM_Pokédex_cover.png" ;
+    ns1:ISBN "0744018080" ;
+    ns1:author "Steve_Stratton" ;
+    ns1:image_size "x200" ;
+    ns1:next "Pokémon_Ultra_Sun_&_Pokémon_Ultra_Moon:_The_Official_Alola_Region_Strategy_Guide" ;
+    ns1:previous "Pokémon_Sun_&_Pokémon_Moon:_The_Official_Strategy_Guide" ;
+    ns1:published "February_28,_2017" ;
+    ns1:publisher "File:The_Pokémon_Company_International_logo.png_130px_link=The_Pokémon_Company_International" ;
+    ns1:title "Pokémon_Sun_&_Pokémon_Moon:_The_Official_Alola_Region_Pokédex_&_Postgame_Adventure_Guide" .
+
+<http://example.org/resource/book/Pokémon_Sun_&_Pokémon_Moon:_The_Official_Strategy_Guide> a ns1:Book ;
+    ns2:image "Prima_SM_cover.png" ;
+    ns1:ISBN "0744017475" ;
+    ns1:author "N/A" ;
+    ns1:image_size "x200" ;
+    ns1:next "Pokémon_Sun_&_Pokémon_Moon:_The_Official_Alola_Region_Pokédex_&_Postgame_Adventure_Guide" ;
+    ns1:previous "Pokémon_Omega_Ruby_&_Pokémon_Alpha_Sapphire:_The_Official_National_Pokédex" ;
+    ns1:published "November_25,_2016" ;
+    ns1:publisher "File:The_Pokémon_Company_International_logo.png_130px_link=The_Pokémon_Company_International" ;
+    ns1:title "Pokémon_Sun_&_Pokémon_Moon:_The_Official_Strategy_Guide" .
+
+ns1:Pokémon_Sun_and_Pokémon_Moon_Alola_ART_Book a ns1:Book ;
+    ns2:image "Pokemon_Sun_and_Pokemon_Moon_Alola_ART_Book_cover.jpg" ;
+    ns1:ISBN "" ;
+    ns1:author "" ;
+    ns1:image_size "200px" ;
+    ns1:next "Pokémon_Ultra_Sun_and_Pokémon_Ultra_Moon_Alola_ART_Book" ;
+    ns1:pages "32" ;
+    ns1:previous "Pokémon_Omega_Ruby_and_Pokémon_Alpha_Sapphire_New_Hoenn_ART_Book" ;
+    ns1:published "November_18,_2016Pokémon_Sun_and_Pokémon_Moon_Alola_ART_Book_._pg_32." ;
+    ns1:publisher "OVERLAP,_Inc." ;
+    ns1:title "Pokémon_Sun_and_Pokémon_Moon_Alola_ART_Book" .
+
+<http://example.org/resource/book/Pokémon_Super_Activity_Book:_Do_You_Know_Unova?> a ns1:Book .
+
+ns1:Pokémon_Super_Deluxe_Essential_Handbook a ns1:Book ;
+    ns2:image "Super_Deluxe_Essential_Handbook.png" ;
+    ns1:ISBN "978-1338230895" ;
+    ns1:author "Cris_Silvestri_and_Simcha_Whitehill" ;
+    ns1:image_size "250px" ;
+    ns1:next "Pokémon_Handbook_to_the_Galar_Region" ;
+    ns1:previous "Pokémon_Alola_Region_Handbook" ;
+    ns1:published "July_31,_2018" ;
+    ns1:publisher "File:Scholastic_logo.png_164px" ;
+    ns1:title "Pokémon_Super_Deluxe_Essential_Handbook" .
+
+ns1:Pokémon_Super_Duper_Extra_Deluxe_Essential_Handbook a ns1:Book ;
+    ns2:image "Super_Duper_Extra_Deluxe_Essential_Handbook.png" ;
+    ns1:ISBN "978-1339028019" ;
+    ns1:author "" ;
+    ns1:image_size "250px" ;
+    ns1:next "N/A" ;
+    ns1:previous "Pokémon_Scarlet_&_Violet_Handbook" ;
+    ns1:published "August_6,_2024" ;
+    ns1:publisher "File:Scholastic_logo.png_164px" ;
+    ns1:title "Pokémon_Super_Duper_Extra_Deluxe_Essential_Handbook" .
+
+ns1:Pokémon_Super_Extra_Deluxe_Essential_Handbook a ns1:Book ;
+    ns2:image "Super_Extra_Deluxe_Essential_Handbook.png" ;
+    ns1:ISBN "978-1338714128" ;
+    ns1:author "" ;
+    ns1:image_size "250px" ;
+    ns1:next "Pokémon_Scarlet_&_Violet_Handbook" ;
+    ns1:previous "Pokémon_Handbook_to_the_Galar_Region" ;
+    ns1:published "September_1,_2021" ;
+    ns1:publisher "File:Scholastic_logo.png_164px" ;
+    ns1:title "Pokémon_Super_Extra_Deluxe_Essential_Handbook" .
+
+<http://example.org/resource/book/Pokémon_Super_Sticker_Book:_Unova_Region!> a ns1:Book .
+
+<http://example.org/resource/book/Pokémon_Sword_&_Pokémon_Shield:_The_Official_Galar_Region_Pokédex> a ns1:Book ;
+    ns2:image "Prima_Pokémon_Sword_and_Shield_Pokédex.jpg" ;
+    ns1:ISBN "1604382058" ;
+    ns1:author "Several" ;
+    ns1:image_size "x200" ;
+    ns1:previous "Pokémon_Sword_&_Pokémon_Shield:_The_Official_Galar_Region_Strategy_Guide" ;
+    ns1:published "January_7,_2020" ;
+    ns1:publisher "File:The_Pokémon_Company_International_logo.png_130px_link=The_Pokémon_Company_International" ;
+    ns1:title "Pokémon_Sword_&_Pokémon_Shield:_The_Official_Galar_Region_Pokédex" .
+
+<http://example.org/resource/book/Pokémon_Sword_&_Pokémon_Shield:_The_Official_Galar_Region_Strategy_Guide> a ns1:Book ;
+    ns2:image "Prima_Pokémon_Sword_and_Shield_Strategy_Guide.jpg" ;
+    ns1:ISBN "9781604382044" ;
+    ns1:author "Several" ;
+    ns1:image_size "x200" ;
+    ns1:next "Pokémon_Sword_&_Pokémon_Shield:_The_Official_Galar_Region_Pokédex" ;
+    ns1:pages "384" ;
+    ns1:previous "Pokémon:_Lets_Go,_Pikachu!_&_Pokémon:_Lets_Go,_Eevee!:_Official_Trainers_Guide_&_Pokédex" ;
+    ns1:published "December_10,_2019" ;
+    ns1:publisher "File:The_Pokémon_Company_International_logo.png_130px_link=The_Pokémon_Company_International" ;
+    ns1:title "Pokémon_Sword_&_Pokémon_Shield:_The_Official_Galar_Region_Strategy_Guide" .
+
+ns1:Pokémon_Tattoo_Series_No.1 a ns1:Book .
+
+ns1:Pokémon_Tattoo_Series_No.2 a ns1:Book .
+
+ns1:Pokémon_Tattoo_Series_No.3 a ns1:Book .
+
+ns1:Pokémon_Timelines a ns1:Book ;
+    ns2:image "Pokémon_Timelines.jpg" ;
+    ns1:ISBN "9780593844014" ;
+    ns1:author "Katherine_Andreou_and_Glenn_Dakin[https://www.pokemon.com/us/pokemon-news/revisit-ashs-pokemon-the-series-journey-with-the-pokemon-timelines-book_Revisit_Ash’s_Pokémon_the_Series_Journey_with_the_Pokémon_Timelines_Book],_Pokémon.com,_October_15,_2024_" ;
+    ns1:image_size "250px" ;
+    ns1:published "2024" ;
+    ns1:publisher "DK_Children" ;
+    ns1:series "no" ;
+    ns1:title "Pokémon_Timelines" .
+
+ns1:Pokémon_Top_10_Handbook a ns1:Book ;
+    ns2:image "Top10Handbook.png" ;
+    ns1:ISBN "0-439-89047-0" ;
+    ns1:author "Tracey_West" ;
+    ns1:image_size "230px" ;
+    ns1:published "2007[http://www.amazon.ca/exec/obidos/ASIN/0439890470_Pokemon_Top_10_Handbook:_Amazon.ca:_Tracey_West:_Books]_(retrieved_January_17,_2010)" ;
+    ns1:publisher "Image:Scholastic_logo.png_164px" ;
+    ns1:series "no" ;
+    ns1:title "Pokémon_Top_10_Handbook" .
+
+<http://example.org/resource/book/Pokémon_Trading_Card_Game:_Official_Nintendo_Player's_Guide> a ns1:Book .
+
+<http://example.org/resource/book/Pokémon_Trading_Card_Game:_Prima's_Official_Strategy_Guide> a ns1:Book .
+
+<http://example.org/resource/book/Pokémon_Trading_Card_Game:_Prima's_Official_Strategy_Guide_(video_game_version)> a ns1:Book .
+
+<http://example.org/resource/book/Pokémon_Trading_Card_Game_Fossil_Expansion_Player's_Guide> a ns1:Book .
+
+ns1:Pokémon_Trading_Card_Game_Illustration_Collection a ns1:Book ;
+    ns2:image "Pokemon_Trading_Card_Game_Illustration_Collection_cover_English.png" ;
+    ns1:ISBN "" ;
+    ns1:image_size "200px" ;
+    ns1:pages "192" ;
+    ns1:published "2016" ;
+    ns1:publisher "US:_The_Pokémon_Company_InternationalJP:_OVERLAP,_Inc." ;
+    ns1:title "Pokémon_Trading_Card_Game_Illustration_Collection" .
+
+<http://example.org/resource/book/Pokémon_Trading_Card_Game_Player's_Guide> a ns1:Book .
+
+<http://example.org/resource/book/Pokémon_Trainer's_Guide> a ns1:Book ;
+    ns2:image "Pokémon_Trainer_Guide_cover.jpg" ;
+    ns1:ISBN "978-1-884364-25-9" ;
+    ns1:author "Mark_MacDonald,_Brian_Brokaw,_J._Douglas_Arnold,_Mark_Elies" ;
+    ns1:image_size "250px" ;
+    ns1:published "1999" ;
+    ns1:publisher "Sandwich_Islands" ;
+    ns1:series "no" ;
+    ns1:title "Pokémon_Trainers_Guide" .
+
+<http://example.org/resource/book/Pokémon_Trainer's_Survival_Guide> a ns1:Book ;
+    ns2:image "Pokémon_Trainer_Survival_guide_cover.jpg" ;
+    ns1:ISBN "1884364330" ;
+    ns1:author "Mark_MacDonald" ;
+    ns1:image_size "250px" ;
+    ns1:published "1998" ;
+    ns1:publisher "Sandwich_Islands_Publishing" ;
+    ns1:series "no" ;
+    ns1:title "Pokémon_Trainers_Survival_Guide" .
+
+ns1:Pokémon_Training_Manual a ns1:Book ;
+    ns2:image "" ;
+    ns1:ISBN "978-1338279658" ;
+    ns1:author "Simcha_Whitehill" ;
+    ns1:image_size "250px" ;
+    ns1:published "October_30,_2018" ;
+    ns1:publisher "File:Scholastic_logo.png_164px" ;
+    ns1:series "no" ;
+    ns1:title "Pokémon_Training_Manual" .
+
+ns1:Pokémon_Ultimate_Handbook a ns1:Book ;
+    ns2:image "PokémonUltimateHandbook.jpg" ;
+    ns1:ISBN "978-0545078863" ;
+    ns1:author "Cris_Silvestri" ;
+    ns1:image_size "250px" ;
+    ns1:next "Pokémon_Johto_Handbook" ;
+    ns1:previous "Pokémon_Sinnoh_Handbook" ;
+    ns1:published "October_1,_2008" ;
+    ns1:publisher "Image:Scholastic_logo.png_164px" ;
+    ns1:title "Pokémon_Ultimate_Handbook" .
+
+<http://example.org/resource/book/Pokémon_Ultra_Sun_&_Pokémon_Ultra_Moon:_The_Official_Alola_Region_Strategy_Guide> a ns1:Book ;
+    ns2:image "Prima_USUM_cover.png" ;
+    ns1:ISBN "074401882X" ;
+    ns1:author "Several" ;
+    ns1:image_size "x200" ;
+    ns1:next "Pokémon_Ultra_Sun_&_Pokémon_Ultra_Moon_Edition:_The_Official_National_Pokédex" ;
+    ns1:previous "Pokémon_Sun_&_Pokémon_Moon:_The_Official_Alola_Region_Pokédex_&_Postgame_Adventure_Guide" ;
+    ns1:published "November_24,_2017" ;
+    ns1:publisher "File:The_Pokémon_Company_International_logo.png_130px_link=The_Pokémon_Company_International" ;
+    ns1:title "Pokémon_Ultra_Sun_&_Pokémon_Ultra_Moon:_The_Official_Alola_Region_Strategy_Guide" .
+
+<http://example.org/resource/book/Pokémon_Ultra_Sun_&_Pokémon_Ultra_Moon_Edition:_The_Official_National_Pokédex> a ns1:Book ;
+    ns2:image "Prima_USUM_Pokédex_cover.png" ;
+    ns1:ISBN "0744019362" ;
+    ns1:author "N/A" ;
+    ns1:image_size "x200" ;
+    ns1:next "Pokémon:_Lets_Go,_Pikachu!_&_Pokémon:_Lets_Go,_Eevee!:_Official_Trainers_Guide_&_Pokédex" ;
+    ns1:previous "Pokémon_Ultra_Sun_&_Pokémon_Ultra_Moon:_The_Official_Alola_Region_Strategy_Guide" ;
+    ns1:published "December_12,_2017" ;
+    ns1:publisher "File:The_Pokémon_Company_International_logo.png_130px_link=The_Pokémon_Company_International" ;
+    ns1:title "Pokémon_Ultra_Sun_&_Pokémon_Ultra_Moon_Edition:_The_Official_National_Pokédex" .
+
+ns1:Pokémon_Ultra_Sun_and_Pokémon_Ultra_Moon_Alola_ART_Book a ns1:Book ;
+    ns2:image "Pokemon_Ultra_Sun_and_Ultra_Pokemon_Moon_Alola_ART_Book_cover.jpg" ;
+    ns1:ISBN "" ;
+    ns1:author "" ;
+    ns1:image_size "200px" ;
+    ns1:next "Pokémon_Ultra_Sun_and_Ultra_Moon_Essentials_Concept_Art_Book" ;
+    ns1:pages "" ;
+    ns1:previous "Pokémon_Sun_and_Pokémon_Moon_Alola_ART_Book" ;
+    ns1:published "November_17,_2017Pokémon_Ultra_Sun_and_Pokémon_Ultra_Moon_Alola_ART_Book._pg_32." ;
+    ns1:publisher "OVERLAP,_Inc." ;
+    ns1:title "Pokémon_Ultra_Sun_and_Pokémon_Ultra_Moon_Alola_ART_Book" .
+
+<http://example.org/resource/book/Pokémon_Unofficial_Card_Collector's_Guide> a ns1:Book .
+
+ns1:Pokémon_Visual_Companion a ns1:Book ;
+    ns2:image "Pokémon_Visual_Companion.png" ;
+    ns1:ISBN "9781465403926" ;
+    ns1:author "Simcha_Whitehill,_Lawrence_Neves,_Katherine_Fang,_Cris_Silvestri" ;
+    ns1:image_size "250px" ;
+    ns1:next "Pokémon_Visual_Companion:_Second_Edition" ;
+    ns1:previous "Pokémon_Visual_Guide" ;
+    ns1:published "2013" ;
+    ns1:publisher "Image:BradyGames_logo.jpg_82px" ;
+    ns1:series "yes" ;
+    ns1:title "Pokémon_Visual_Companion" .
+
+<http://example.org/resource/book/Pokémon_Visual_Companion:_Second_Edition> a ns1:Book ;
+    ns2:image "Pokémon_Visual_Companion_Second_Edition.png" ;
+    ns1:ISBN "9780744017601" ;
+    ns1:author "Simcha_Whitehill,_Lawrence_Neves,_Katherine_Fang,_Cris_Silvestri" ;
+    ns1:image_size "250px" ;
+    ns1:next "Pokémon_Visual_Companion:_Third_Edition" ;
+    ns1:previous "Pokémon_Visual_Companion" ;
+    ns1:published "November_15,_2016" ;
+    ns1:publisher "Prima_Games" ;
+    ns1:series "yes" ;
+    ns1:title "Pokémon_Visual_Companion:_Second_Edition" .
+
+<http://example.org/resource/book/Pokémon_Visual_Companion:_Third_Edition> a ns1:Book ;
+    ns2:image "Pokémon_Visual_Companion_Third_Edition.png" ;
+    ns1:ISBN "9780744021974" ;
+    ns1:author "Simcha_Whitehill,_Lawrence_Neves,_Katherine_Fang,_Cris_Silvestri,_Glenn_Dakin" ;
+    ns1:image_size "250px" ;
+    ns1:next "N/A" ;
+    ns1:previous "Pokémon_Visual_Companion:_Second_Edition" ;
+    ns1:published "September_15,_2020" ;
+    ns1:publisher "DK" ;
+    ns1:series "yes" ;
+    ns1:title "Pokémon_Visual_Companion:_Third_Edition" .
+
+ns1:Pokémon_Visual_Guide a ns1:Book ;
+    ns2:image "Pokemon_visual_guide.png" ;
+    ns1:ISBN "9780756644307" ;
+    ns1:author "Katherine_Fang" ;
+    ns1:image_size "250px" ;
+    ns1:next "Pokémon_Visual_Companion" ;
+    ns1:previous "N/A" ;
+    ns1:published "2008" ;
+    ns1:publisher "File:BradyGames_logo.jpg_82px" ;
+    ns1:series "yes" ;
+    ns1:title "Pokémon_Visual_Guide" .
+
+<http://example.org/resource/book/Pokémon_White:_Fastest_Strategy_Guide_Mini> a ns1:Book ;
+    ns2:image "Pokemon_White_Fastest_Strategy_Guide_Mini_cover.jpg" ;
+    ns1:ISBN "9784091064639" ;
+    ns1:author "" ;
+    ns1:image_size "200px" ;
+    ns1:next "N/A" ;
+    ns1:previous "N/A" ;
+    ns1:published "November_3,_2010Pokémon_White:_Fastest_Strategy_Guide_Mini._pg_228." ;
+    ns1:publisher "Shogakukan" ;
+    ns1:title "Pokémon_White:_Fastest_Strategy_Guide_Mini" .
+
+<http://example.org/resource/book/Pokémon_Write_Your_Own_Adventures!> a ns1:Book .
+
+<http://example.org/resource/book/Pokémon_XD:_Gale_of_Darkness:_Official_Nintendo_Player's_Guide> a ns1:Book .
+
+<http://example.org/resource/book/Pokémon_XD:_Gale_of_Darkness:_Prima's_Official_Strategy_Guide> a ns1:Book ;
+    ns2:image "Pokémon_XD_Gale_of_Darkness_Prima_Official_Strategy_Guide.png" ;
+    ns1:ISBN "9780761551904" ;
+    ns1:author "James_Hogwood_" ;
+    ns1:image_size "200px" ;
+    ns1:next "Pokémon_Trading_Card_Game:_Primas_Official_Strategy_Guide_(video_game_version)_Pokémon_Trading_Card_Game:_Primas_Official_Strategy_Guide" ;
+    ns1:previous "Pokémon_Colosseum:_Primas_Official_Strategy_Guide" ;
+    ns1:published "October_11,_2005" ;
+    ns1:publisher "Prima_Games" ;
+    ns1:title "Pokémon_XD:_Gale_of_Darkness:_Primas_Official_Strategy_Guide" .
+
+<http://example.org/resource/book/Pokémon_XY:_Exciting_Mazes_&_Puzzles> a ns1:Book ;
+    ns2:image "Pokémon_XY_Exciting_Mazes_and_Puzzles.png" ;
+    ns1:ISBN "9784097265566" ;
+    ns1:author "Hiroshi_Takase" ;
+    ns1:image_size "250px" ;
+    ns1:next "N/A" ;
+    ns1:previous "Pokémon:_Exciting_Super_Mazes" ;
+    ns1:published "October_15,_2014" ;
+    ns1:publisher "Shogakukan" ;
+    ns1:title "Pokémon_XY:_Exciting_Mazes_&_Puzzles" .
+
+<http://example.org/resource/book/Pokémon_X_&_Pokémon_Y:_The_Official_Kalos_Region_Guidebook> a ns1:Book ;
+    ns2:image "Prima_XY_cover.png" ;
+    ns1:ISBN "0804161992" ;
+    ns1:author "#Credits_Various" ;
+    ns1:image_size "200px" ;
+    ns1:next "Pokémon_X_&_Pokémon_Y:_The_Official_Kalos_Region_Pokédex_&_Postgame_Adventure_Guide" ;
+    ns1:previous "Pokémon_Black_Version_2_&_Pokémon_White_Version_2:_The_Official_National_Pokédex" ;
+    ns1:published "_tt_October_14,_2013_Regular_size__tt_November_26,_2013_Pocket_size_" ;
+    ns1:publisher "File:The_Pokémon_Company_International_logo.png_130px_link=The_Pokémon_Company_International" ;
+    ns1:title "Pokémon_X_&_Pokémon_Y:_The_Official_Kalos_Region_Guidebook" .
+
+<http://example.org/resource/book/Pokémon_X_&_Pokémon_Y:_The_Official_Kalos_Region_Pokédex_&_Postgame_Adventure_Guide> a ns1:Book ;
+    ns2:image "XY_Pokédex_Postgame_Guide.png" ;
+    ns1:ISBN "9781908172570" ;
+    ns1:author "#Credits_Various" ;
+    ns1:image_size "200px" ;
+    ns1:next "Pokémon_Omega_Ruby_&_Pokémon_Alpha_Sapphire:_The_Official_Hoenn_Region_Strategy_Guide" ;
+    ns1:previous "Pokémon_X_&_Pokémon_Y:_The_Official_Kalos_Region_Guidebook" ;
+    ns1:published "_tt_December_11,_2013_Regular_size__tt_February_4,_2014_Pocket_size_" ;
+    ns1:publisher "File:The_Pokémon_Company_International_logo.png_130px_link=The_Pokémon_Company_International_tt_OVERLAP,_Inc._Japanese_" ;
+    ns1:title "Pokémon_&_Pokémon_Y:_The_Official_Kalos_Region_Pokédex_&_Postgame_Adventure_Guide" .
+
+<http://example.org/resource/book/Pokémon_Yellow:_Prima's_Official_Strategy_Guide> a ns1:Book .
+
+ns1:Pokémon_the_First_Movie_\(picture_book\) a ns1:Book .
+
+ns1:Pokémon_the_Movie_2000_\(book\) a ns1:Book .
+
+ns1:Pokémon_the_Movie_3_-_Spell_of_the_Unown_\(book\) a ns1:Book .
+
+ns1:Prepare_for_Trouble a ns1:Book .
+
+<http://example.org/resource/book/Primal_Clash_Player's_Guide_(TCG)> a ns1:Book .
+
+ns1:Prize_Pokémon a ns1:Book .
+
+ns1:Psychic_Pokédex_\(book\) a ns1:Book ;
+    ns2:image "Psychic_Pokédex_book.png" ;
+    ns1:ISBN "043972204" ;
+    ns1:author "Katherine_Noll_and_Tracey_West" ;
+    ns1:image_size "250px" ;
+    ns1:next "N/A" ;
+    ns1:previous "_book_Normal_Pokédex_" ;
+    ns1:published "September_2005" ;
+    ns1:publisher "Image:Scholastic_logo.png_164px" ;
+    ns1:title "Pokémon_Psychic_Pokédex" .
+
+ns1:Psyduck_Ducks_Out a ns1:Book .
+
+ns1:Race_to_Danger a ns1:Book .
+
+ns1:Raichu_Shows_Off a ns1:Book .
+
+ns1:Return_of_the_Squirtle_Squad a ns1:Book ;
+    ns2:image "Return_of_the_Squirtle_Squad_cover.png" ;
+    ns1:ISBN "9780439154291" ;
+    ns1:author "Tracey_West" ;
+    ns1:image_size "250px" ;
+    ns1:next "Journey_to_the_Orange_Islands" ;
+    ns1:previous "Splashdown_in_Cerulean_City" ;
+    ns1:published "April_2000" ;
+    ns1:publisher "Scholastic" ;
+    ns1:title "Return_of_the_Squirtle_Squad" .
+
+<http://example.org/resource/book/Roaring_Skies_Player's_Guide_(TCG)> a ns1:Book ;
+    ns2:image "Roaring_Skies_Player_Guide.jpg" ;
+    ns1:ISBN "None" ;
+    ns1:author "Wolfgang_Baur" ;
+    ns1:image_size "250px" ;
+    ns1:published "2015" ;
+    ns1:publisher "The_Pokémon_Company_International" ;
+    ns1:series "no" ;
+    ns1:title "Roaring_Skies_Players_Guide" .
+
+<http://example.org/resource/book/Rock_&_Ground_Pokédex_(book)> a ns1:Book ;
+    ns2:image "Rock_Ground_Pokédex_book.png" ;
+    ns1:ISBN "0439721881" ;
+    ns1:author "Katherine_Noll" ;
+    ns1:image_size "250px" ;
+    ns1:next "_book_Bug_Pokédex_" ;
+    ns1:previous "_book_Dragon_&_Poison_Pokédex_" ;
+    ns1:published "April_2005" ;
+    ns1:publisher "Image:Scholastic_logo.png_164px" ;
+    ns1:title "Pokémon_Rock_&_Ground_Pokédex" .
+
+<http://example.org/resource/book/Satoshi_Tajiri:_New_Game_Design> a ns1:Book .
+
+<http://example.org/resource/book/Satoshi_Tajiri:_Pokémon_Creator> a ns1:Book .
+
+<http://example.org/resource/book/Save_Our_Squirtle!> a ns1:Book .
+
+ns1:Save_the_Shieldon a ns1:Book .
+
+<http://example.org/resource/book/Scyther,_Heart_of_a_Champion> a ns1:Book ;
+    ns2:image "Scyther_Heart_of_a_Champion_cover.png" ;
+    ns1:ISBN "0439169453" ;
+    ns1:author "Sheila_Sweeny" ;
+    ns1:image_size "250px" ;
+    ns1:next "Race_to_Danger" ;
+    ns1:previous "The_Four-Star_Challenge" ;
+    ns1:published "August_2000" ;
+    ns1:publisher "Scholastic" ;
+    ns1:title "Scyther,_Heart_of_a_Champion" .
+
+ns1:Secret_of_the_Pink_Pokémon a ns1:Book ;
+    ns2:image "Secret_of_the_Pink_Pokémon_cover.png" ;
+    ns1:ISBN "0439169437" ;
+    ns1:author "Tracey_West" ;
+    ns1:image_size "250px" ;
+    ns1:next "The_Four-Star_Challenge" ;
+    ns1:previous "Journey_to_the_Orange_Islands" ;
+    ns1:published "June_2000" ;
+    ns1:publisher "Scholastic" ;
+    ns1:title "Secret_of_the_Pink_Pokémon" .
+
+ns1:Secrets_of_the_GS_Ball a ns1:Book .
+
+<http://example.org/resource/book/Shōko_Nakagawa:_Pokémon_Taught_Me_The_Meaning_of_Life> a ns1:Book .
+
+<http://example.org/resource/book/Snack_Attack!_(book)> a ns1:Book ;
+    ns2:image "Snackattack.png" ;
+    ns1:ISBN "0439559928" ;
+    ns1:author "Tracey_West" ;
+    ns1:image_size "250px" ;
+    ns1:next "Time_Out_For_Torchic" ;
+    ns1:previous "Get_Well,_Pikachu!" ;
+    ns1:published "January_2004" ;
+    ns1:publisher "File:Scholastic_logo.png_164px" ;
+    ns1:title "Snack_Attack!" .
+
+ns1:Snorlax_Takes_a_Stand a ns1:Book .
+
+ns1:Splashdown_in_Cerulean_City a ns1:Book .
+
+ns1:Squirtle_\(Pokémon_Pack_Pals\) a ns1:Book ;
+    ns2:image "Squirtle_Pack_Pals.jpg" ;
+    ns1:ISBN "9780439202756" ;
+    ns1:author "Howard_Dewin" ;
+    ns1:image_size "250px" ;
+    ns1:next "N/A" ;
+    ns1:previous "_OBP_Bulbasaur_Pokémon_Pack_Pals_" ;
+    ns1:published "November_2000" ;
+    ns1:publisher "Scholastic" ;
+    ns1:title "Squirtle_Up_Close_and_Personal" .
+
+<http://example.org/resource/book/Steam_Siege_Player's_Guide_(TCG)> a ns1:Book .
+
+ns1:Super_Sinnoh_Sticker_Book a ns1:Book .
+
+<http://example.org/resource/book/Super_Sleuth_(Pokémon:_Detective_Pikachu)> a ns1:Book ;
+    ns2:image "Super_Sleuth_Pokémon_Detective_Pikachu_cover.png" ;
+    ns1:ISBN "1338529463" ;
+    ns1:author "Simcha_Whitehill,_Kate_Howard" ;
+    ns1:image_size "250" ;
+    ns1:published "May_14,_2019" ;
+    ns1:publisher "File:Scholastic_logo.png_164px_link=Scholastic" ;
+    ns1:series "no" ;
+    ns1:title "Super_Sleuth_(Pokémon:_Detective_Pikachu)" .
+
+<http://example.org/resource/book/Surf's_Up,_Pikachu!_(Pokémon_Junior)> a ns1:Book .
+
+<http://example.org/resource/book/Sword_&_Shield_Player's_Guide_(TCG)> a ns1:Book .
+
+ns1:Talent_Showdown a ns1:Book .
+
+ns1:Tamamushi_University_Pocket_Book a ns1:Book ;
+    ns2:image "Encyclopedia_pokemonica.jpg" ;
+    ns1:ISBN "None" ;
+    ns1:author "Unknown" ;
+    ns1:image_size "200px" ;
+    ns1:next "Tamamushi_University_Note_Book_Mini" ;
+    ns1:pages "40" ;
+    ns1:previous "None" ;
+    ns1:published "July_1998" ;
+    ns1:publisher "File:Shogakukan_logo.png_50px" ;
+    ns1:title "Tamamushi_University_Pocket_Book" .
+
+<http://example.org/resource/book/Team_Rocket_Blasts_Off!> a ns1:Book .
+
+ns1:Team_Rocket_Strategy_Guide_\(TCG\) a ns1:Book .
+
+ns1:Team_Rocket_Truce a ns1:Book .
+
+<http://example.org/resource/book/Team_Rocket_to_the_Rescue!> a ns1:Book .
+
+ns1:Teaming_Up_With_Totodile a ns1:Book .
+
+ns1:The_Chikorita_Challenge a ns1:Book ;
+    ns2:image "The_Chikorita_Challenge.png" ;
+    ns1:ISBN "0439221137" ;
+    ns1:author "Tracey_West" ;
+    ns1:image_size "250px" ;
+    ns1:next "_book_All_Fired_Up_" ;
+    ns1:previous "Battle_for_the_Zephyr_Badge" ;
+    ns1:published "June_2001" ;
+    ns1:publisher "Scholastic" ;
+    ns1:title "The_Chikorita_Challenge" .
+
+ns1:The_Complete_Pokémon_Pocket_Guide a ns1:Book ;
+    ns2:image "Pocketguide.png" ;
+    ns1:ISBN "1421523256/1421523264" ;
+    ns1:author "Unknown" ;
+    ns1:image_size "250px" ;
+    ns1:published "October_14,_2008" ;
+    ns1:publisher "Image:VIZ_Media_logo.png_82px" ;
+    ns1:series "no" ;
+    ns1:title "The_Complete_Pokémon_Pocket_Guide" .
+
+ns1:The_Complete_Pokémon_Pocket_Guide_\(2024\) a ns1:Book ;
+    ns2:image "Pocketguide2.png" ;
+    ns1:ISBN "1421523256/1421523264" ;
+    ns1:author "Unknown" ;
+    ns1:image_size "250px" ;
+    ns1:published "April_23,_2024_(Vol._1)May_28,_2024_(Vol._2)" ;
+    ns1:publisher "Image:VIZ_Media_logo.png_82px" ;
+    ns1:series "no" ;
+    ns1:title "The_Complete_Pokémon_Pocket_Guide" .
+
+ns1:The_Four-Star_Challenge a ns1:Book ;
+    ns2:image "Four_Star_Challenge.png" ;
+    ns1:ISBN "9780439169448" ;
+    ns1:author "Howard_Dewin" ;
+    ns1:image_size "250px" ;
+    ns1:next "Scyther,_Heart_of_a_Champion" ;
+    ns1:previous "Secret_of_the_Pink_Pokémon" ;
+    ns1:published "August_2000" ;
+    ns1:publisher "Scholastic" ;
+    ns1:title "The_Four-Star_Challenge" .
+
+ns1:The_Haunted_Gym a ns1:Book .
+
+ns1:The_Lost_Riolu a ns1:Book .
+
+ns1:The_Memorial_Book_of_Orange_Islands a ns1:Book ;
+    ns2:image "The_Memorial_Book_of_Orange_Islands.png" ;
+    ns1:ISBN "4091015530" ;
+    ns1:author "N/A" ;
+    ns1:image_size "200px" ;
+    ns1:pages "127" ;
+    ns1:published "November_1,_1999" ;
+    ns1:publisher "Shogakukan" ;
+    ns1:series "no" ;
+    ns1:title "The_Memorial_Book_of_Orange_Islands" .
+
+ns1:The_Official_Pokémon_Advanced_Handbook_4 a ns1:Book ;
+    ns2:image "The_Official_Pokémon_Advanced_Handbook_4_cover.png" ;
+    ns1:ISBN "0439559898" ;
+    ns1:author "Maria_S._Barbo" ;
+    ns1:image_size "250px" ;
+    ns1:next "Pokémon_Kanto_Handbook" ;
+    ns1:previous "The_Official_Pokémon_Handbook_3" ;
+    ns1:published "2003" ;
+    ns1:publisher "Image:Scholastic_logo.png_164px" ;
+    ns1:title "The_Official_Pokémon_Advanced_Handbook_#4" .
+
+<http://example.org/resource/book/The_Official_Pokémon_Collector's_Sticker_Book> a ns1:Book .
+
+<http://example.org/resource/book/The_Official_Pokémon_Collector's_Sticker_Book_2> a ns1:Book .
+
+<http://example.org/resource/book/The_Official_Pokémon_Collector's_Sticker_Book_3> a ns1:Book .
+
+ns1:The_Official_Pokémon_Handbook a ns1:Book ;
+    ns2:image "The_Official_Pokémon_Handbook_second_edition_cover.png" ;
+    ns1:ISBN "0439103975" ;
+    ns1:author "Maria_S._Barbo" ;
+    ns1:image_size "250px" ;
+    ns1:next "The_Official_Pokémon_Handbook_2_The_Official_Pokémon_Handbook_#2" ;
+    ns1:pages "144_(original)160_(deluxe)" ;
+    ns1:previous "None" ;
+    ns1:published "July_1999" ;
+    ns1:publisher "File:Scholastic_logo.png_164px" ;
+    ns1:title "The_Official_Pokémon_Handbook" .
+
+ns1:The_Official_Pokémon_Handbook_2 a ns1:Book ;
+    ns2:image "Handbook2.png" ;
+    ns1:ISBN "0439154227" ;
+    ns1:author "Maria_S._Barbo" ;
+    ns1:image_size "250px" ;
+    ns1:next "The_Official_Pokémon_Handbook_3" ;
+    ns1:previous "The_Official_Pokémon_Handbook" ;
+    ns1:published "January_2001" ;
+    ns1:publisher "File:Scholastic_logo.png_164px" ;
+    ns1:title "The_Official_Pokémon_Handbook_#2" .
+
+ns1:The_Official_Pokémon_Handbook_3 a ns1:Book ;
+    ns2:image "The_Official_Pokémon_Handbook_3_cover.png" ;
+    ns1:ISBN "978-0439317474" ;
+    ns1:author "Josh_Izzo,_Stephanie_Howze" ;
+    ns1:image_size "250px" ;
+    ns1:next "The_Official_Pokémon_Advanced_Handbook_4" ;
+    ns1:previous "The_Official_Pokémon_Handbook_2" ;
+    ns1:published "September_2001" ;
+    ns1:publisher "File:Scholastic_logo.png_164px" ;
+    ns1:title "The_Official_Pokémon_Handbook_#3" .
+
+ns1:The_Rise_of_Darkrai_\(book\) a ns1:Book ;
+    ns2:image "" ;
+    ns1:ISBN "Unknown" ;
+    ns1:author "" ;
+    ns1:image_size "250px" ;
+    ns1:next "None_" ;
+    ns1:previous "_book_Pokémon_Ranger_and_the_Temple_of_the_Sea_" ;
+    ns1:published "" ;
+    ns1:publisher "" ;
+    ns1:title "The_Rise_of_Darkrai" .
+
+ns1:The_Snubbull_Blues a ns1:Book .
+
+ns1:The_Wobbuffet_Village a ns1:Book .
+
+ns1:Theatrical_Version_Pocket_Monsters_Diamond_and_Pearl_All_Movies_Perfect_Guide a ns1:Book ;
+    ns2:image "Theatrical_Version_Pocket_Monsters_Diamond_and_Pearl_All_Movies_Perfect_Guide.png" ;
+    ns1:ISBN "4092800606" ;
+    ns1:author "Unknown" ;
+    ns1:image_size "250px" ;
+    ns1:published "July_1,_2007" ;
+    ns1:publisher "Shogakukan" ;
+    ns1:series "no" ;
+    ns1:title "Theatrical_Version_Pocket_Monsters_Diamond_and_Pearl_All_Movies_Perfect_Guide" .
+
+ns1:Thundershock_in_Pummelo_Stadium a ns1:Book .
+
+ns1:Time_Out_For_Torchic a ns1:Book ;
+    ns2:image "TofT.png" ;
+    ns1:ISBN "9780439720960" ;
+    ns1:author "Tracey_West" ;
+    ns1:image_size "250px" ;
+    ns1:next "N/A_" ;
+    ns1:previous "_book_Snack_Attack!_" ;
+    ns1:published "October_2004" ;
+    ns1:publisher "Scholastic" ;
+    ns1:title "Time_Out_for_Torchic" .
+
+<http://example.org/resource/book/Togepi_Springs_Into_Action!> a ns1:Book .
+
+ns1:Tough_Enough a ns1:Book .
+
+ns1:Two_of_a_Kind a ns1:Book .
+
+ns1:Unofficial_Beckett_Pokémon_Collector_Price_Guide a ns1:Book ;
+    ns2:image "Beckett_Unofficial_Pokémon_Collector_Price_Guide.jpg" ;
+    ns1:ISBN "9781887432962" ;
+    ns1:author "Doug_Kale" ;
+    ns1:image_size "250px" ;
+    ns1:published "May_1,_2000" ;
+    ns1:publisher "Beckett_Publications" ;
+    ns1:series "no" ;
+    ns1:title "Unofficial_Beckett_Pokémon_Collector_Price_Guide" .
+
+ns1:Water_Pokédex_\(book\) a ns1:Book ;
+    ns2:image "Water_Pokédex_book.png" ;
+    ns1:ISBN "0439721822" ;
+    ns1:author "Katherine_Noll_and_Tracey_West" ;
+    ns1:image_size "250px" ;
+    ns1:next "_book_Dragon_&_Poison_Pokédex_" ;
+    ns1:previous "_book_Ghost,_Dark_&_Steel_Pokédex_" ;
+    ns1:published "February_2005" ;
+    ns1:publisher "Image:Scholastic_logo.png_164px" ;
+    ns1:title "Pokémon_Water_Pokédex" .
+
+ns1:Water_Pokémon_\(Pokémon_Keychain_Book\) a ns1:Book .
+
+ns1:Welcome_To_Sinnoh_Activity_Book a ns1:Book .
+
+<http://example.org/resource/book/Where_Are_You_Pikachu?> a ns1:Book .
+
+ns1:Winner_Takes_All a ns1:Book .
+
+<http://example.org/resource/book/World's_Best_Pokémon_Drawing_Book> a ns1:Book .
+
+ns1:World_of_Sinnoh a ns1:Book .
+
+ns1:Worlds_of_Adventure a ns1:Book ;
+    ns2:image "Worlds_of_Adventure.png" ;
+    ns1:ISBN "9781840883558_" ;
+    ns1:author "Michael_Teitelbaum" ;
+    ns1:image_size "200px" ;
+    ns1:published "2000" ;
+    ns1:publisher "Readers_Digest_Childrens_PublishingThe_Five_Mile_Press_tt_*_Australia_" ;
+    ns1:series "no" ;
+    ns1:title "Worlds_of_Adventure" .
+
+ns1:Wrath_of_the_Legends a ns1:Book .
+
+<http://example.org/resource/book/XY_Player's_Guide_(TCG)> a ns1:Book .
+
+ns1:You_Can_Be_a_Pokémon_Master_Artist a ns1:Book .
+

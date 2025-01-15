@@ -1,0 +1,857 @@
+@prefix ns1: <http://example.org/resource/tcgpromo/> .
+@prefix ns2: <http://example.org/property/> .
+
+ns1:10th_Movie_Commemoration_Set_\(TCG\) a ns1:TCGPromo .
+
+ns1:11th_Movie_Commemoration_Set_\(TCG\) a ns1:TCGPromo ;
+    ns2:caption "File_front" ;
+    ns2:image "SetSymbol11th_Movie_Commemoration_Set.png" ;
+    ns1:cards "9" ;
+    ns1:date "July_19,_2008_(Theatrical_release)August_1,_2008_(Commercial_release)" ;
+    ns1:logo "Movie_11_Commemoration.jpg" ;
+    ns1:setname "11th_Movie_Commemoration_Set_tt_映画公開記念　プレミアムシート_Movie_Commemoration_Premium_Sheet_" ;
+    ns1:symbol "yes" .
+
+ns1:ADV-P_Promotional_cards_\(TCG\) a ns1:TCGPromo .
+
+ns1:BW-P_Promotional_cards_\(TCG\) a ns1:TCGPromo .
+
+ns1:BW_Black_Star_Promos_\(TCG\) a ns1:TCGPromo .
+
+ns1:Battle_Elite_\(ATCG\) a ns1:TCGPromo ;
+    ns2:image "SetSymbol_Battle_Elite.png" ;
+    ns1:cards "88" ;
+    ns1:date "December_16,_2022" ;
+    ns1:logo "Battle_Elite_Logo.png" ;
+    ns1:setname "Battle_Elite强化包_对战精英" ;
+    ns1:symbol "yes" .
+
+ns1:Battle_Region_\(TCG\) a ns1:TCGPromo ;
+    ns2:image "SetSymbolBattle_Region.png" ;
+    ns1:cards "93" ;
+    ns1:date "February_25,_2022" ;
+    ns1:logo "S9a_Battle_Region_Logo.png" ;
+    ns1:setname "Enhanced_Expansion_Pack:_Battle_Region強化拡張パック_バトルリージョン" ;
+    ns1:symbol "yes" .
+
+ns1:Best_of_Game_\(TCG\) a ns1:TCGPromo .
+
+ns1:Brilliant_Counterattack_\(ATCG\) a ns1:TCGPromo ;
+    ns2:image "SetSymbol_Brilliant_Counterattack.png" ;
+    ns1:cards "79" ;
+    ns1:date "September_29,_2023" ;
+    ns1:logo "CS2.5_logo.png" ;
+    ns1:setname "Brilliant_Counterattack强化包_璀璨反击" ;
+    ns1:symbol "no" .
+
+<http://example.org/resource/tcgpromo/Champion's_Path_(TCG)> a ns1:TCGPromo ;
+    ns2:image "SetSymbolChampion_Path.png" ;
+    ns1:cards "80" ;
+    ns1:date "September_25,_2020" ;
+    ns1:logo "Champion_Path_Logo_EN.png" ;
+    ns1:setname "Champions_Path" ;
+    ns1:symbol "yes" .
+
+ns1:Champion_Road_\(TCG\) a ns1:TCGPromo ;
+    ns2:image "SetSymbolChampion_Road.png" ;
+    ns1:cards "86" ;
+    ns1:date "May_3,_2018" ;
+    ns1:logo "SM6b_Logo.png" ;
+    ns1:setname "Champion_Road強化拡張パックチャンピオンロード" ;
+    ns1:symbol "yes" .
+
+ns1:Collection_File_Sets_\(TCG\) a ns1:TCGPromo ;
+    ns2:image "SetSymbolTerastal_Fest_ex.png" ;
+    ns1:cards "-->" ;
+    ns1:date "January_24,_2025" ;
+    ns1:logo "None.png" ;
+    ns1:setname "Collection_File_Setsコレクションファイルセット" ;
+    ns1:symbol "no<!--" .
+
+ns1:Crimson_Haze_\(TCG\) a ns1:TCGPromo ;
+    ns2:image "SetSymbolCrimson_Haze.png" ;
+    ns1:cards "96" ;
+    ns1:date "March_22,_2024" ;
+    ns1:logo "SV5a_Crimson_Haze_Logo.png" ;
+    ns1:setname "Enhanced_Expansion_Pack:_Crimson_Haze強化拡張パック_クリムゾンヘイズ" ;
+    ns1:symbol "yes" .
+
+ns1:DP-P_Promotional_cards_\(TCG\) a ns1:TCGPromo ;
+    ns2:image "SetSymbolPromo.png" ;
+    ns1:cards "127" ;
+    ns1:period "December_2006_-_January_2009" ;
+    ns1:setname "DP-P_Promotional_cards" ;
+    ns1:symbol "yes" .
+
+ns1:DP_Black_Star_Promos_\(TCG\) a ns1:TCGPromo .
+
+ns1:DPt-P_Promotional_cards_\(TCG\) a ns1:TCGPromo ;
+    ns2:image "SetSymbolPromo.png" ;
+    ns1:cards "51" ;
+    ns1:period "October_2008_-_August_2009" ;
+    ns1:setname "DPt-P_Promotional_cards" ;
+    ns1:symbol "yes" .
+
+ns1:Dark_Order_\(TCG\) a ns1:TCGPromo ;
+    ns2:image "SetSymbolDark_Order.png" ;
+    ns1:cards "65" ;
+    ns1:date "October_5,_2018" ;
+    ns1:logo "SM8a_Logo.png" ;
+    ns1:setname "Dark_Order強化拡張パックダークオーダー" ;
+    ns1:symbol "yes" .
+
+ns1:Dark_Phantasma_\(TCG\) a ns1:TCGPromo ;
+    ns2:image "SetSymbolDark_Phantasma.png" ;
+    ns1:cards "99" ;
+    ns1:date "May_13,_2022" ;
+    ns1:logo "S10a_Dark_Phantasma_Logo.png" ;
+    ns1:setname "Enhanced_Expansion_Pack:_Dark_Phantasma強化拡張パック_ダークファンタズマ" ;
+    ns1:symbol "yes" .
+
+ns1:Dream_League_\(TCG\) a ns1:TCGPromo ;
+    ns2:image "SetSymbolDream_League.png" ;
+    ns1:cards "75" ;
+    ns1:date "August_2,_2019" ;
+    ns1:logo "SM11b_Logo.png" ;
+    ns1:setname "Dream_League強化拡張パックドリームリーグ" ;
+    ns1:symbol "yes" .
+
+ns1:Dynamax_Tactics_\(ATCG\) a ns1:TCGPromo ;
+    ns2:image "SetSymbol_Dynamax_Tactics.png" ;
+    ns1:cards "96" ;
+    ns1:date "June_28,_2023" ;
+    ns1:logo "CS1.5_logo.png" ;
+    ns1:setname "Dynamax_Tactics强化包_极巨攻防" ;
+    ns1:symbol "no" .
+
+ns1:Eevee_Heroes_\(TCG\) a ns1:TCGPromo ;
+    ns2:image "SetSymbolEevee_Heroes.png" ;
+    ns1:cards "101" ;
+    ns1:date "May_28,_2021" ;
+    ns1:logo "S6a_Eevee_Heroes_Logo.png" ;
+    ns1:setname "Enhanced_Expansion_Pack:_Eevee_Heroes強化拡張パック_イーブイヒーローズ" ;
+    ns1:symbol "yes" .
+
+<http://example.org/resource/tcgpromo/Enhanced_Expansion_Pack_Sun_&_Moon_(TCG)> a ns1:TCGPromo ;
+    ns2:image "SetSymbolSM1Plus.png" ;
+    ns1:cards "68" ;
+    ns1:date "January_27,_2017" ;
+    ns1:logo "SM1Plus_Logo.png" ;
+    ns1:setname "Enhanced_Expansion_Pack_Sun_&_Moon強化拡張パック_サン＆ムーン" ;
+    ns1:symbol "yes" .
+
+ns1:Explosive_Walker_\(TCG\) a ns1:TCGPromo ;
+    ns2:image "SetSymbolExplosive_Walker.png" ;
+    ns1:cards "86" ;
+    ns1:date "April_24,_2020" ;
+    ns1:logo "S2a_Logo.png" ;
+    ns1:setname "Explosive_Walker強化拡張パック_爆炎ウォーカー" ;
+    ns1:symbol "yes" .
+
+ns1:Facing_a_New_Trial_\(TCG\) a ns1:TCGPromo ;
+    ns2:image "SetSymbolFacing_a_New_Trial.png" ;
+    ns1:cards "66" ;
+    ns1:date "April_21,_2017" ;
+    ns1:logo "SM2Plus_Logo.png" ;
+    ns1:setname "Facing_a_New_Trial強化拡張パック新たなる試練の向こう" ;
+    ns1:symbol "yes" .
+
+ns1:Fairy_Rise_\(TCG\) a ns1:TCGPromo ;
+    ns2:image "SetSymbolFairy_Rise.png" ;
+    ns1:cards "63" ;
+    ns1:date "August_3,_2018" ;
+    ns1:logo "SM7b_Logo.png" ;
+    ns1:setname "Fairy_Rise強化拡張パックフェアリーライズ" ;
+    ns1:symbol "yes" .
+
+ns1:Full_Metal_Wall_\(TCG\) a ns1:TCGPromo ;
+    ns2:image "SetSymbolFull_Metal_Wall.png" ;
+    ns1:cards "69" ;
+    ns1:date "February_1,_2019" ;
+    ns1:logo "SM9b_Logo.png" ;
+    ns1:setname "Full_Metal_Wall強化拡張パックフルメタルウォール" ;
+    ns1:symbol "yes" .
+
+ns1:GG_End_\(TCG\) a ns1:TCGPromo ;
+    ns2:image "SetSymbolGG_End.png" ;
+    ns1:cards "69" ;
+    ns1:date "April_5,_2019" ;
+    ns1:logo "SM10a_Logo.png" ;
+    ns1:setname "GG_End強化拡張パックジージーエンド" ;
+    ns1:symbol "yes" .
+
+ns1:GX_Battle_Boost_\(TCG\) a ns1:TCGPromo ;
+    ns2:image "SetSymbolGX_Battle_Boost.png" ;
+    ns1:cards "125" ;
+    ns1:date "October_20,_2017" ;
+    ns1:logo "SM4Plus_Logo.png" ;
+    ns1:setname "High_Class_Pack:_GX_Battle_BoostハイクラスパックGXバトルブースト" ;
+    ns1:symbol "yes" .
+
+ns1:Golden_Energy_\(ATCG\) a ns1:TCGPromo ;
+    ns2:image "SetSymbolCSM2.1.png" ;
+    ns1:cards "45+" ;
+    ns1:date "September_9,_2023" ;
+    ns1:setname "Golden_Energy专题包_辉金能量" ;
+    ns1:symbol "no" .
+
+ns1:HGSS_Black_Star_Promos_\(TCG\) a ns1:TCGPromo .
+
+ns1:Incandescent_Arcana_\(TCG\) a ns1:TCGPromo ;
+    ns2:image "SetSymbolIncandescent_Arcana.png" ;
+    ns1:cards "94" ;
+    ns1:date "September_2,_2022" ;
+    ns1:setname "Enhanced_Expansion_Pack:_Incandescent_Arcana強化拡張パック_白熱のアルカナ" ;
+    ns1:symbol "yes" .
+
+ns1:J_Promotional_cards_\(TCG\) a ns1:TCGPromo ;
+    ns2:image "SetSymbolPromo.png" ;
+    ns1:cards "2" ;
+    ns1:period "August_2001_-_July_2002" ;
+    ns1:setname "J_Promotional_cards" ;
+    ns1:symbol "yes" .
+
+ns1:L-P_Promotional_cards_\(TCG\) a ns1:TCGPromo ;
+    ns2:image "SetSymbolPromo.png" ;
+    ns1:cards "79" ;
+    ns1:period "September_2009_-_August_2010" ;
+    ns1:setname "L-P_Promotional_cards" ;
+    ns1:symbol "yes" .
+
+ns1:Legendary_Heartbeat_\(TCG\) a ns1:TCGPromo ;
+    ns2:image "SetSymbolLegendary_Heartbeat.png" ;
+    ns1:cards "94" ;
+    ns1:date "July_10,_2020" ;
+    ns1:logo "S3a_Logo.png" ;
+    ns1:setname "Legendary_Heartbeat強化拡張パック_伝説の鼓動" ;
+    ns1:symbol "yes" .
+
+ns1:Legendary_Shine_Collection_\(TCG\) a ns1:TCGPromo ;
+    ns2:image "SetSymbolLegendary_Shine_Collection.png" ;
+    ns1:cards "27" ;
+    ns1:date "July_18,_2015" ;
+    ns1:logo "CP2_Logo.png" ;
+    ns1:setname "Legendary_Shine_Collectionコンセプトパック伝説キラコレクション" ;
+    ns1:symbol "yes" .
+
+ns1:Lost_Link_\(TCG\) a ns1:TCGPromo ;
+    ns2:image "SetSymbolLost_Link.png" ;
+    ns1:cards "40" ;
+    ns1:date "April_16,_2010" ;
+    ns1:logo "Lost_Link_Logo.png" ;
+    ns1:setname "Lost_Link強化パック_ロストリンク" ;
+    ns1:symbol "yes" .
+
+<http://example.org/resource/tcgpromo/McDonald's_Collection_(TCG)> a ns1:TCGPromo .
+
+<http://example.org/resource/tcgpromo/McDonald's_Collection_2012_(TCG)> a ns1:TCGPromo .
+
+<http://example.org/resource/tcgpromo/McDonald's_Collection_2013_(TCG)> a ns1:TCGPromo .
+
+<http://example.org/resource/tcgpromo/McDonald's_Collection_2014_(TCG)> a ns1:TCGPromo ;
+    ns2:image "SetSymbolMcDonalds_Collection_2014.png" ;
+    ns1:cards "12" ;
+    ns1:date "May_23rd-June_12th,_2014" ;
+    ns1:setname "McDonalds_Collection_2014" ;
+    ns1:symbol "yes" .
+
+<http://example.org/resource/tcgpromo/McDonald's_Collection_2015_(TCG)> a ns1:TCGPromo ;
+    ns2:image "SetSymbolMcDonalds_Collection_2015.png" ;
+    ns1:cards "12" ;
+    ns1:period "October_14,_2015_(France)November_27_-_December_23,_2015_(US)" ;
+    ns1:setname "McDonalds_Collection_2015" ;
+    ns1:symbol "yes" .
+
+<http://example.org/resource/tcgpromo/McDonald's_Collection_2016_(TCG)> a ns1:TCGPromo ;
+    ns2:image "SetSymbolMcDonalds_Collection_2016.png" ;
+    ns1:cards "12" ;
+    ns1:date "August_19,_2016" ;
+    ns1:setname "McDonalds_Collection_2016" ;
+    ns1:symbol "yes" .
+
+<http://example.org/resource/tcgpromo/McDonald's_Collection_2017_(TCG)> a ns1:TCGPromo ;
+    ns2:image "SetSymbolMcDonalds_Collection_2017.png" ;
+    ns1:cards "12" ;
+    ns1:period "July_-_August,_2017_(Australia)September_-_October,_2017_(Europe)November_7_-_December_4,_2017_(US)January_3_-_February_6,_2018_(UK)" ;
+    ns1:setname "McDonalds_Collection_2017" ;
+    ns1:symbol "yes" .
+
+<http://example.org/resource/tcgpromo/McDonald's_Collection_2018_(TCG)> a ns1:TCGPromo ;
+    ns2:image "SetSymbolMcDonalds_Collection_2018.png" ;
+    ns1:cards "40_(French_version)12_(English_version)" ;
+    ns1:period "June_13_-_July_10,_2018_(France)October_16_-_November_12,_2018_(US)" ;
+    ns1:setname "McDonalds_Collection_2018" ;
+    ns1:symbol "yes" .
+
+<http://example.org/resource/tcgpromo/McDonald's_Collection_2019_(TCG)> a ns1:TCGPromo ;
+    ns2:image "SetSymbolMcDonalds_Collection_2019.png" ;
+    ns1:cards "12_(English_version)40_(French_version)" ;
+    ns1:period "October_15_-_November_11,_2019_(US)From_October_30,_2019_(France)From_November_7,_2019_(Germany)January_1_-_January_28,_2020_(UK)" ;
+    ns1:setname "McDonalds_Collection_2019" ;
+    ns1:symbol "yes" .
+
+<http://example.org/resource/tcgpromo/McDonald's_Collection_2021_(TCG)> a ns1:TCGPromo ;
+    ns2:image "SetSymbolMcDonalds_Collection_2021.png" ;
+    ns1:cards "25" ;
+    ns1:period "From_February_9,_2021" ;
+    ns1:setname "McDonalds_Collection_2021" ;
+    ns1:symbol "yes" .
+
+<http://example.org/resource/tcgpromo/McDonald's_Collection_2022_(TCG)> a ns1:TCGPromo ;
+    ns2:image "SetSymbolMcDonalds_Collection_2022.png" ;
+    ns1:cards "15" ;
+    ns1:logo "Match_Battle_logo.png" ;
+    ns1:period "From_August_3,_2022" ;
+    ns1:setname "McDonalds_Collection_2022" ;
+    ns1:symbol "yes" .
+
+<http://example.org/resource/tcgpromo/McDonald's_Collection_2023_(TCG)> a ns1:TCGPromo ;
+    ns2:image "SetSymbolMcDonalds_Collection_2023.png" ;
+    ns1:cards "15" ;
+    ns1:logo "Match_Battle_logo.png" ;
+    ns1:period "From_July_27,_2023" ;
+    ns1:setname "McDonalds_Collection_2023" ;
+    ns1:symbol "yes" .
+
+<http://example.org/resource/tcgpromo/McDonald's_Pokémon-e_Minimum_Pack_(TCG)> a ns1:TCGPromo .
+
+ns1:Miscellaneous_Promotional_cards_\(TCG\) a ns1:TCGPromo ;
+    ns1:cards "Ongoing" ;
+    ns1:period "May_1999_-_Present" ;
+    ns1:setname "Miscellaneous_Promotional_cards" ;
+    ns1:symbol "no" .
+
+ns1:Movie_Commemoration_Random_Pack_\(TCG\) a ns1:TCGPromo ;
+    ns2:image "SetSymbolMovie_Commemoration_Random_Pack.png" ;
+    ns1:cards "_tt_30_22_standard_cards,_8_energy_cards_" ;
+    ns1:date "July_18,_2009" ;
+    ns1:setname "_tt_映画公開記念ランダムパック_Movie_Commemoration_Random_Pack_" ;
+    ns1:symbol "yes" .
+
+<http://example.org/resource/tcgpromo/Mythical_&_Legendary_Dream_Shine_Collection_(TCG)> a ns1:TCGPromo ;
+    ns2:image "SetSymbolMythical_Legendary_Dream_Shine_Collection.png" ;
+    ns1:cards "38" ;
+    ns1:date "July_16,_2016" ;
+    ns1:logo "CP5_Logo.png" ;
+    ns1:setname "Mythical_&_Legendary_Dream_Shine_Collectionコンセプトパック幻・伝説ドリームキラコレクション" ;
+    ns1:symbol "yes" .
+
+ns1:Night_Unison_\(TCG\) a ns1:TCGPromo ;
+    ns2:image "SetSymbolNight_Unison.png" ;
+    ns1:cards "70" ;
+    ns1:date "January_11,_2019" ;
+    ns1:logo "SM9a_Logo.png" ;
+    ns1:setname "Night_Unison強化拡張パックナイトユニゾン" ;
+    ns1:symbol "yes" .
+
+ns1:Nintendo_Black_Star_Promos_\(TCG\) a ns1:TCGPromo .
+
+ns1:PCG-P_Promotional_cards_\(TCG\) a ns1:TCGPromo ;
+    ns2:image "SetSymbolPromo.png" ;
+    ns1:cards "154" ;
+    ns1:period "February_2004_-_July_2006" ;
+    ns1:setname "PCG-P_Promotional_cards" ;
+    ns1:symbol "yes" .
+
+ns1:PLAY_Promotional_cards_\(TCG\) a ns1:TCGPromo .
+
+ns1:POP_Series_1_\(TCG\) a ns1:TCGPromo .
+
+ns1:POP_Series_2_\(TCG\) a ns1:TCGPromo ;
+    ns2:image "SetSymbolPOP_Series_2.png" ;
+    ns1:cards "17" ;
+    ns1:period "August_2005_-_April_2006" ;
+    ns1:setname "POP_Series_2" ;
+    ns1:symbol "yes" .
+
+ns1:POP_Series_3_\(TCG\) a ns1:TCGPromo .
+
+ns1:POP_Series_4_\(TCG\) a ns1:TCGPromo .
+
+ns1:POP_Series_5_\(TCG\) a ns1:TCGPromo .
+
+ns1:POP_Series_6_\(TCG\) a ns1:TCGPromo .
+
+ns1:POP_Series_7_\(TCG\) a ns1:TCGPromo .
+
+ns1:POP_Series_8_\(TCG\) a ns1:TCGPromo .
+
+ns1:POP_Series_9_\(TCG\) a ns1:TCGPromo .
+
+ns1:PPP_Promotional_cards_\(TCG\) a ns1:TCGPromo .
+
+ns1:P_Promotional_cards_\(TCG\) a ns1:TCGPromo .
+
+ns1:Paradise_Dragona_\(TCG\) a ns1:TCGPromo ;
+    ns2:image "SetSymbolParadise_Dragona.png" ;
+    ns1:cards "94" ;
+    ns1:date "September_13,_2024" ;
+    ns1:logo "None.png" ;
+    ns1:setname "Enhanced_Expansion_Pack:_Paradise_Dragona強化拡張パック_楽園ドラゴーナ" ;
+    ns1:symbol "yes" .
+
+ns1:Peerless_Fighters_\(TCG\) a ns1:TCGPromo ;
+    ns2:image "SetSymbolPeerless_Fighters.png" ;
+    ns1:cards "96" ;
+    ns1:date "March_19,_2021" ;
+    ns1:logo "S5a_Peerless_Fighters_Logo.png" ;
+    ns1:setname "Enhanced_Expansion_Pack:_Peerless_Fighters強化拡張パック_双璧のファイター" ;
+    ns1:symbol "yes" .
+
+<http://example.org/resource/tcgpromo/Pikachu's_New_Friends_(TCG)> a ns1:TCGPromo ;
+    ns2:caption "Pikachus_New_Friends" ;
+    ns2:image "SetSymbolPikachu_New_Friends.png" ;
+    ns1:cards "4" ;
+    ns1:date "November_18,_2016" ;
+    ns1:logo "SM_Pikachu_New_Friends.jpg" ;
+    ns1:setname "Pikachus_New_Friendsピカチュウと新しい仲間たち" ;
+    ns1:symbol "yes" .
+
+ns1:Pikachu_World_Collection_\(TCG\) a ns1:TCGPromo ;
+    ns1:cards "_9" ;
+    ns1:date "_September_12,_2000" ;
+    ns1:logo "_Pikachu-World-Collection-binder.jpg" ;
+    ns1:setname "_Pikachu_World_Collection" ;
+    ns1:symbol "_no" .
+
+<http://example.org/resource/tcgpromo/Play!_Pokémon_Prize_Pack_Series_Five_(TCG)> a ns1:TCGPromo ;
+    ns1:cards "86_" ;
+    ns1:logo "None.png" ;
+    ns1:period "August_14,_2024" ;
+    ns1:setname "Play!_Pokémon_Prize_Pack_Series_Five" ;
+    ns1:symbol "no" .
+
+<http://example.org/resource/tcgpromo/Play!_Pokémon_Prize_Pack_Series_Four_(TCG)> a ns1:TCGPromo ;
+    ns1:cards "86" ;
+    ns1:logo "Play!_Pokémon_Prize_Pack_Series_Four_logo.png" ;
+    ns1:period "February_14,_2024" ;
+    ns1:setname "Play!_Pokémon_Prize_Pack_Series_Four" ;
+    ns1:symbol "no" .
+
+<http://example.org/resource/tcgpromo/Play!_Pokémon_Prize_Pack_Series_One_(TCG)> a ns1:TCGPromo ;
+    ns1:cards "170_" ;
+    ns1:logo "Play!_Pokémon_Prize_Pack_Series_One_logo.png_" ;
+    ns1:period "November_9_2022" ;
+    ns1:setname "Play!_Pokémon_Prize_Pack_Series_One" ;
+    ns1:symbol "no" .
+
+<http://example.org/resource/tcgpromo/Play!_Pokémon_Prize_Pack_Series_Three_(TCG)> a ns1:TCGPromo ;
+    ns1:cards "163" ;
+    ns1:logo "Play!_Pokémon_Prize_Pack_Series_Three_logo.png" ;
+    ns1:period "August_14,_2023" ;
+    ns1:setname "Play!_Pokémon_Prize_Pack_Series_Three" ;
+    ns1:symbol "no" .
+
+<http://example.org/resource/tcgpromo/Play!_Pokémon_Prize_Pack_Series_Two_(TCG)> a ns1:TCGPromo ;
+    ns1:cards "154" ;
+    ns1:logo "Play!_Pokémon_Prize_Pack_Series_Two_logo.png" ;
+    ns1:period "January_19,_2023" ;
+    ns1:setname "Play!_Pokémon_Prize_Pack_Series_Two" ;
+    ns1:symbol "no" .
+
+ns1:PokéKyun_Collection_\(TCG\) a ns1:TCGPromo ;
+    ns2:image "SetSymbolPokéKyun_Collection.png" ;
+    ns1:cards "32" ;
+    ns1:date "January_29,_2016" ;
+    ns1:logo "CP3_Logo.png" ;
+    ns1:setname "PokéKyun_Collectionコンセプトパックポケキュンコレクション" ;
+    ns1:symbol "yes" .
+
+ns1:PokéPark_Premium_Files_\(TCG\) a ns1:TCGPromo ;
+    ns2:caption "PokéPark_Logo" ;
+    ns2:image "SetSymbolPokéPark_Forest.png" ;
+    ns1:cards "18" ;
+    ns1:date "March_18,_2005" ;
+    ns1:logo "Pokémon_The_Park_2005_Logo.png" ;
+    ns1:setname "PokéPark_Premium_Filesポケパークプレミアムファイル" ;
+    ns1:symbol "yes" .
+
+ns1:Poké_Card_Creator_Pack_\(TCG\) a ns1:TCGPromo .
+
+ns1:Pokémon_Countdown_Calendar_\(TCG\) a ns1:TCGPromo ;
+    ns1:cards "24" ;
+    ns1:date "October_2008" ;
+    ns1:logo "CountdownCalendar.jpg" ;
+    ns1:setname "Pokémon_Countdown_Calendar" ;
+    ns1:symbol "no" .
+
+ns1:Pokémon_Futsal_\(TCG\) a ns1:TCGPromo ;
+    ns2:image "SetSymbolPokémon_Futsal.png" ;
+    ns1:cards "5" ;
+    ns1:date "September_11,_2020" ;
+    ns1:logo "Pokémon_Futsal_Logo.png" ;
+    ns1:setname "Pokémon_Futsal" ;
+    ns1:symbol "yes" .
+
+ns1:Pokémon_Rumble_\(TCG\) a ns1:TCGPromo .
+
+ns1:Pokémon_Surprise_Calendar_\(TCG\) a ns1:TCGPromo ;
+    ns1:cards "24" ;
+    ns1:date "October_2010" ;
+    ns1:logo "Pokémon_Surprise_Calendar.png" ;
+    ns1:setname "Pokémon_Überraschungskalender" ;
+    ns1:symbol "no" .
+
+ns1:Premium_Champion_Pack_\(TCG\) a ns1:TCGPromo ;
+    ns2:image "SetSymbolPremium_Champion_Pack.png" ;
+    ns1:cards "131" ;
+    ns1:date "April_16,_2016" ;
+    ns1:logo "CP4_Logo.png" ;
+    ns1:setname "Premium_Champion_PackプレミアムチャンピオンパックEX×M×BREAK" ;
+    ns1:symbol "yes" .
+
+ns1:Prerelease_cards_\(TCG\) a ns1:TCGPromo ;
+    ns1:cards "_tt_167_168_if_the_Raichu_error_card_is_counted_" ;
+    ns1:period "August_1999_-_Present" ;
+    ns1:setname "Prerelease_cards" ;
+    ns1:symbol "no" .
+
+ns1:Promo_Card_Pack_25th_Anniversary_Edition_\(TCG\) a ns1:TCGPromo ;
+    ns1:cards "25" ;
+    ns1:date "October_22,_2021" ;
+    ns1:logo "S8a-P_Promo_Card_Pack_25th_Anniversary_Edition.jpg" ;
+    ns1:setname "Promo_Card_Pack_25th_Anniversary_Editionプロモカードパック_25th_ANNIVERSARY_edition" ;
+    ns1:symbol "no" .
+
+ns1:Raging_Surf_\(TCG\) a ns1:TCGPromo ;
+    ns2:image "SetSymbolRaging_Surf.png" ;
+    ns1:cards "92" ;
+    ns1:date "September_22,_2023" ;
+    ns1:logo "SV3a_Raging_Surf_Logo.png" ;
+    ns1:setname "Enhanced_Expansion_Pack:_Raging_Surf強化拡張パック_レイジングサーフ" ;
+    ns1:symbol "yes" .
+
+ns1:Red_Star_Promos_\(TCGO\) a ns1:TCGPromo ;
+    ns2:image "TCGO_Red_Star_Promos.png" ;
+    ns1:cards "20" ;
+    ns1:period "2014_-_2016" ;
+    ns1:setname "Red_Star_Promos" ;
+    ns1:symbol "yes" .
+
+ns1:Remix_Bout_\(TCG\) a ns1:TCGPromo ;
+    ns2:image "SetSymbolRemix_Bout.png" ;
+    ns1:cards "80" ;
+    ns1:date "July_5,_2019" ;
+    ns1:logo "SM11a_Logo.png" ;
+    ns1:setname "Remix_Bout強化拡張パックリミックスバウト" ;
+    ns1:symbol "yes" .
+
+ns1:S-P_Promotional_cards_\(ITCG\) a ns1:TCGPromo ;
+    ns2:image "SetSymbol_SMPromo.png" ;
+    ns1:cards "378+" ;
+    ns1:period "November_2020_-_February_2023" ;
+    ns1:setname "S-P_Promotional_cards" ;
+    ns1:symbol "yes" .
+
+ns1:S-P_Promotional_cards_\(KTCG\) a ns1:TCGPromo ;
+    ns2:image "SetSymbol_SMPromo.png" ;
+    ns1:cards "184+" ;
+    ns1:period "January_2020_-_February_2023" ;
+    ns1:setname "S-P_Promotional_cards" ;
+    ns1:symbol "yes" .
+
+ns1:S-P_Promotional_cards_\(SCTCG\) a ns1:TCGPromo ;
+    ns2:image "SetSymbol_SMPromo.png" ;
+    ns1:cards "Ongoing" ;
+    ns1:period "May_28,_2023_-_present" ;
+    ns1:setname "S-P_Promotional_cards" ;
+    ns1:symbol "yes" .
+
+ns1:S-P_Promotional_cards_\(TCG\) a ns1:TCGPromo ;
+    ns2:image "SetSymbol_SMPromo.png" ;
+    ns1:cards "Ongoing" ;
+    ns1:period "November_2019_-_Present" ;
+    ns1:setname "S-P_Promotional_cards" ;
+    ns1:symbol "yes" .
+
+ns1:S-P_Promotional_cards_\(TCTCG\) a ns1:TCGPromo ;
+    ns2:image "SetSymbol_SMPromo.png" ;
+    ns1:cards "229+" ;
+    ns1:period "June_2020_-_February_2023" ;
+    ns1:setname "S-P_Promotional_cards" ;
+    ns1:symbol "yes" .
+
+ns1:S-P_Promotional_cards_\(TTCG\) a ns1:TCGPromo ;
+    ns2:image "SetSymbol_SMPromo.png" ;
+    ns1:cards "144+" ;
+    ns1:period "September_2020_-_January_2023" ;
+    ns1:setname "S-P_Promotional_cards" ;
+    ns1:symbol "yes" .
+
+ns1:SM-P_Promotional_cards_\(ITCG\) a ns1:TCGPromo ;
+    ns2:image "SetSymbol_SMPromo.png" ;
+    ns1:cards "185" ;
+    ns1:period "May_2019_-_March_2021" ;
+    ns1:setname "SM-P_Promotional_cards" ;
+    ns1:symbol "yes" .
+
+ns1:SM-P_Promotional_cards_\(KTCG\) a ns1:TCGPromo ;
+    ns2:image "SetSymbol_SMPromo.png" ;
+    ns1:cards "Ongoing" ;
+    ns1:period "November_2016_-_Present" ;
+    ns1:setname "SM-P_Promotional_cards" ;
+    ns1:symbol "yes" .
+
+ns1:SM-P_Promotional_cards_\(SCTCG\) a ns1:TCGPromo ;
+    ns2:image "SetSymbol_SMPromo.png" ;
+    ns1:cards "74_tt_*_61_numbered_with_unique_attributes_plus_13_unnumbered_with_unique_attributes_" ;
+    ns1:period "October_28,_2022_-_July_15,_2023" ;
+    ns1:setname "SM-P_Promotional_cards" ;
+    ns1:symbol "yes" .
+
+ns1:SM-P_Promotional_cards_\(TCG\) a ns1:TCGPromo ;
+    ns2:image "SetSymbol_SMPromo.png" ;
+    ns1:cards "437_tt_*_408_numbered_plus_29_unnumbered_with_unique_attributes_" ;
+    ns1:period "November_2016_-_October_2019" ;
+    ns1:setname "SM-P_Promotional_cards" ;
+    ns1:symbol "yes" .
+
+ns1:SM-P_Promotional_cards_\(TCTCG\) a ns1:TCGPromo ;
+    ns2:image "SetSymbol_SMPromo.png" ;
+    ns1:cards "78" ;
+    ns1:period "October_2019_-_September_2020" ;
+    ns1:setname "SM-P_Promotional_cards" ;
+    ns1:symbol "yes" .
+
+ns1:SM-P_Promotional_cards_\(TTCG\) a ns1:TCGPromo ;
+    ns2:image "SetSymbol_SMPromo.png" ;
+    ns1:cards "109_tt_*_100_numbered_plus_9_unnumbered_with_unique_attributes_" ;
+    ns1:period "May_2019_-_February_2021" ;
+    ns1:setname "SM-P_Promos" ;
+    ns1:symbol "yes" .
+
+ns1:SM_Black_Star_Promos_\(TCG\) a ns1:TCGPromo ;
+    ns2:image "SetSymbolPromo.png" ;
+    ns1:cards "251" ;
+    ns1:period "November_2016_-_November_2021" ;
+    ns1:setname "SM_Black_Star_Promos" ;
+    ns1:symbol "yes" .
+
+ns1:SV-P_Promotional_cards_\(ITCG\) a ns1:TCGPromo ;
+    ns2:image "SetSymbol_SMPromo.png" ;
+    ns1:cards "Ongoing" ;
+    ns1:period "March_3,_2023_-_Present" ;
+    ns1:setname "SV-P_Promotional_cards" ;
+    ns1:symbol "yes" .
+
+ns1:SV-P_Promotional_cards_\(KTCG\) a ns1:TCGPromo ;
+    ns2:image "SetSymbol_SMPromo.png" ;
+    ns1:cards "Ongoing" ;
+    ns1:period "February_28,_2023_-_Present" ;
+    ns1:setname "SV-P_Promotional_cards" ;
+    ns1:symbol "yes" .
+
+ns1:SV-P_Promotional_cards_\(SCTCG\) a ns1:TCGPromo ;
+    ns2:image "SetSymbol_SMPromo.png" ;
+    ns1:cards "Ongoing" ;
+    ns1:period "August_3,_2024_-_Present" ;
+    ns1:setname "SV-P_Promotional_cards" ;
+    ns1:symbol "yes" .
+
+ns1:SV-P_Promotional_cards_\(TCG\) a ns1:TCGPromo ;
+    ns2:image "SetSymbol_SMPromo.png" ;
+    ns1:cards "Ongoing" ;
+    ns1:period "November_18,_2022_-_Present" ;
+    ns1:setname "SV-P_Promotional_cards" ;
+    ns1:symbol "yes" .
+
+ns1:SV-P_Promotional_cards_\(TCTCG\) a ns1:TCGPromo ;
+    ns2:image "SetSymbol_SMPromo.png" ;
+    ns1:cards "Ongoing" ;
+    ns1:period "November_18,_2022_-_Present" ;
+    ns1:setname "SV-P_Promotional_cards" ;
+    ns1:symbol "yes" .
+
+ns1:SV-P_Promotional_cards_\(TTCG\) a ns1:TCGPromo ;
+    ns2:image "SetSymbol_SMPromo.png" ;
+    ns1:cards "Ongoing" ;
+    ns1:period "February_24,_2023_-_Present" ;
+    ns1:setname "SV-P_Promotional_cards" ;
+    ns1:symbol "yes" .
+
+ns1:SVE_Basic_Energies_\(TCG\) a ns1:TCGPromo ;
+    ns2:image "SetSymbolSVE_Basic_Energies.png" ;
+    ns1:cards "16" ;
+    ns1:period "March_31,_2023" ;
+    ns1:setname "SVE_Basic_Energies" ;
+    ns1:setsymbol "yes" .
+
+ns1:SVP_Black_Star_Promos_\(TCG\) a ns1:TCGPromo ;
+    ns2:image "SetSymbolSVP_Black_Star_Promos.png" ;
+    ns1:cards "Ongoing" ;
+    ns1:period "January_2023_-_Present" ;
+    ns1:setname "SVP_Black_Star_Promos" ;
+    ns1:symbol "yes" .
+
+ns1:SWSH_Black_Star_Promos_\(TCG\) a ns1:TCGPromo ;
+    ns2:image "SetSymbolPromo.png" ;
+    ns1:cards "307" ;
+    ns1:period "November_2019_-_August_2023" ;
+    ns1:setname "SWSH_Black_Star_Promos" ;
+    ns1:symbol "yes" .
+
+ns1:Shiny_Collection_\(TCG\) a ns1:TCGPromo ;
+    ns2:image "SetSymbolShiny_Collection.png" ;
+    ns1:cards "25" ;
+    ns1:date "February_1,_2013" ;
+    ns1:logo "Shiny_Collection_Logo.png" ;
+    ns1:setname "Shiny_Collectionコンセプトパックシャイニーコレクション" ;
+    ns1:symbol "yes" .
+
+ns1:Sky_Legend_\(TCG\) a ns1:TCGPromo ;
+    ns2:image "SetSymbolSky_Legend.png" ;
+    ns1:cards "69" ;
+    ns1:date "April_26,_2019" ;
+    ns1:logo "SM10b_Logo.png" ;
+    ns1:setname "Sky_Legend強化拡張パックスカイレジェンド" ;
+    ns1:symbol "yes" .
+
+ns1:Southern_Islands_\(TCG\) a ns1:TCGPromo .
+
+ns1:Striking_Competition_\(ATCG\) a ns1:TCGPromo ;
+    ns2:image "SetSymbol_Striking_Competition.png" ;
+    ns1:cards "99" ;
+    ns1:date "March_17,_2023" ;
+    ns1:logo "Striking_Competition_Logo.png" ;
+    ns1:setname "Striking_Competition强化包_炫奇争胜" ;
+    ns1:symbol "no" .
+
+ns1:T_Promotional_cards_\(TCG\) a ns1:TCGPromo ;
+    ns2:image "SetSymbolTrainer_Magazine.png" ;
+    ns1:cards "24" ;
+    ns1:period "January_2002_-_March_2003" ;
+    ns1:setname "T_Promotional_cards" ;
+    ns1:symbol "yes" .
+
+ns1:Tag_All_Stars_\(TCG\) a ns1:TCGPromo ;
+    ns2:image "SetSymbolTag_All_Stars.png" ;
+    ns1:cards "226" ;
+    ns1:date "October_4,_2019" ;
+    ns1:logo "SM12a_Logo.png" ;
+    ns1:setname "Tag_All_Starsハイクラスパック_TAG_TEAM_GXタッグオールスターズ" ;
+    ns1:symbol "yes" .
+
+ns1:Terastal_Fest_ex_\(TCG\) a ns1:TCGPromo ;
+    ns2:image "SetSymbolTerastal_Fest_ex.png" ;
+    ns1:cards "237" ;
+    ns1:date "December_6,_2024" ;
+    ns1:logo "SV8a_Terastal_Fest_ex_Logo.png" ;
+    ns1:setname "High_Class_Pack:_Terastal_Fest_exハイクラスパック_テラスタルフェスex" ;
+    ns1:symbol "yes" .
+
+ns1:The_Best_of_XY_\(TCG\) a ns1:TCGPromo ;
+    ns2:image "SetSymbolXY_reprint.png" ;
+    ns1:cards "188" ;
+    ns1:date "April_21,_2017" ;
+    ns1:logo "The_Best_of_XY_Logo.png" ;
+    ns1:setname "THE_BEST_OF_XYハイクラスパックTHE_BEST_OF_XY" ;
+    ns1:symbol "yes" .
+
+ns1:Thunderclap_Spark_\(TCG\) a ns1:TCGPromo ;
+    ns2:image "SetSymbolThunderclap_Spark.png" ;
+    ns1:cards "73" ;
+    ns1:date "July_6,_2018" ;
+    ns1:logo "SM7a_Logo.png" ;
+    ns1:setname "Thunderclap_Spark強化拡張パック迅雷スパーク" ;
+    ns1:symbol "yes" .
+
+ns1:Trick_or_Trade_2022_\(TCG\) a ns1:TCGPromo ;
+    ns1:cards "_30" ;
+    ns1:date "_September_1,_2022" ;
+    ns1:logo "_Trick_or_Trade.png" ;
+    ns1:setname "_Trick_or_Trade" ;
+    ns1:symbol "_no" .
+
+ns1:Trick_or_Trade_2023_\(TCG\) a ns1:TCGPromo ;
+    ns1:cards "_30" ;
+    ns1:date "_September_1,_2023" ;
+    ns1:logo "_Trick_or_Trade_2023.png" ;
+    ns1:setname "_Trick_or_Trade" ;
+    ns1:symbol "_no" .
+
+ns1:Trick_or_Trade_2024_\(TCG\) a ns1:TCGPromo ;
+    ns1:cards "_30" ;
+    ns1:date "_August_30,_2024" ;
+    ns1:logo "_Trick_or_Trade_2024.png" ;
+    ns1:setname "_Trick_or_Trade" ;
+    ns1:symbol "_no" .
+
+ns1:Triplet_Beat_\(TCG\) a ns1:TCGPromo ;
+    ns2:image "SetSymbolTriplet_Beat.png" ;
+    ns1:cards "103" ;
+    ns1:date "Japanese:_March_10,_2023Traditional_Chinese:_March_24,_2023Indonesian:_April_21,_2023Thai:_April_28,_2023Korean:_May_3,_2023" ;
+    ns1:logo "SV1a_Triplet_Beat_Logo.png" ;
+    ns1:setname "Enhanced_Expansion_Pack:_Triplet_Beat強化拡張パック_トリプレットビート" ;
+    ns1:symbol "yes" .
+
+ns1:Ultra_Force_\(TCG\) a ns1:TCGPromo ;
+    ns2:image "SetSymbolUltra_Force.png" ;
+    ns1:cards "63" ;
+    ns1:date "January_19,_2018" ;
+    ns1:logo "SM5Plus_Logo.png" ;
+    ns1:setname "Ultra_Force強化拡張パックウルトラフォース" ;
+    ns1:symbol "yes" .
+
+ns1:Unnumbered_Promotional_cards_\(TCG\) a ns1:TCGPromo ;
+    ns1:cards "Ongoing" ;
+    ns1:period "October_1996_-_Present" ;
+    ns1:setname "Unnumbered_Promotional_cards" ;
+    ns1:symbol "no" .
+
+ns1:VMAX_Climax_\(TCG\) a ns1:TCGPromo ;
+    ns2:image "SetSymbolVMAX_Climax.png" ;
+    ns1:cards "285" ;
+    ns1:date "December_3,_2021" ;
+    ns1:logo "S8b_VMAX_Climax_Logo.png" ;
+    ns1:setname "High_Class_PackVMAX_Climaxハイクラスパック_VMAXクライマックス" ;
+    ns1:symbol "yes" .
+
+ns1:VMAX_Rising_\(TCG\) a ns1:TCGPromo ;
+    ns2:image "SetSymbolVMAX_Rising.png" ;
+    ns1:cards "86" ;
+    ns1:date "February_7,_2020" ;
+    ns1:logo "S1a_Logo.png" ;
+    ns1:setname "VMAX_Rising強化拡張パック_VMAXライジング" ;
+    ns1:symbol "yes" .
+
+ns1:Vending_Machine_cards_\(TCG\) a ns1:TCGPromo .
+
+ns1:W_Promotional_cards_\(TCG\) a ns1:TCGPromo .
+
+ns1:Winner_cards_\(TCG\) a ns1:TCGPromo .
+
+ns1:Wizards_Black_Star_Promos_\(TCG\) a ns1:TCGPromo ;
+    ns2:image "SetSymbolPromo.png" ;
+    ns1:cards "53" ;
+    ns1:period "July_1999_-_March_2003" ;
+    ns1:setname "Wizards_Black_Star_Promos" ;
+    ns1:symbol "yes" .
+
+ns1:World_Collection_\(TCG\) a ns1:TCGPromo ;
+    ns2:image "_SetSymbolPikachu_World_Collection_2010.png" ;
+    ns1:cards "_9" ;
+    ns1:date "_July_8,_2010_(Japan)November,_2010_(International)__" ;
+    ns1:logo "_World_Collection.jpg" ;
+    ns1:setname "_World_Collection" ;
+    ns1:symbol "_yes" .
+
+ns1:XY-P_Promotional_cards_\(TCG\) a ns1:TCGPromo ;
+    ns2:image "SetSymbolPromo.png" ;
+    ns1:cards "453_tt_*_298_numbered_plus_155_unnumbered_with_unique_attributes_" ;
+    ns1:period "August_2013_-_February_2017" ;
+    ns1:setname "XY-P_Promotional_cards" ;
+    ns1:symbol "yes" .
+
+ns1:XY_Black_Star_Promos_\(TCG\) a ns1:TCGPromo ;
+    ns2:image "SetSymbolPromo.png" ;
+    ns1:cards "211" ;
+    ns1:period "October_2013_-_May_2017" ;
+    ns1:setname "XY_Black_Star_Promos" ;
+    ns1:symbol "yes" .
+
+ns1:Yellow_A_Alternate_cards_\(TCG\) a ns1:TCGPromo ;
+    ns1:cards "79" ;
+    ns1:period "May_2017_-_November_2020" ;
+    ns1:setname "Yellow_A_Alternate_cards" ;
+    ns1:symbol "no" .
+

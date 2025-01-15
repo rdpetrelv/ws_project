@@ -1,0 +1,167 @@
+Pallet Town
+Lavender Town
+New Bark Town
+Agate Village
+Phenac City
+Viridian City
+Pyrite Town
+Pewter City
+Petalburg City
+Rustboro City
+Ecruteak City
+Littleroot Town
+Ever Grande City
+The Under
+Saffron City
+Celadon City
+Vermilion City
+Cinnabar Island
+Fuchsia City
+Olivine City
+Goldenrod City
+Mauville City
+Cianwood City
+Mahogany Town
+Verdanturf Town
+Azalea Town
+Blackthorn City
+Violet City
+Cherrygrove City
+Slateport City
+Dewford Town
+Fallarbor Town
+Seafoam Islands
+Indigo Plateau
+Mossdeep City
+Lavaridge Town
+Fortree City
+Lilycove City
+Pacifidlog Town
+Oldale Town
+Gateon Port
+Twinleaf Town
+Sandgem Town
+Ringtown
+Fall City
+Summerland
+Wintown
+One Island (town)
+Two Island (town)
+Three Island (town)
+Seven Island (town)
+Jubilife City
+Canalave City
+Oreburgh City
+Floaroma Town
+Eterna City
+Snowpoint City
+Celestic Town
+Solaceon Town
+Hearthome City
+Veilstone City
+Pastoria City
+Sunyshore City
+Pokémon League (Sinnoh)
+Four Island (town)
+Five Island (town)
+Six Island (town)
+Resort Area
+Fight Area
+Survival Area
+Ranger School
+Pueltown
+Vientown
+Cerulean City
+Haruba Village
+Chicole Village
+Boyleland
+Shiver Camp
+Sootopolis City
+Pokémon League (Hoenn)
+Frontier Access
+Cocona Village
+Rand's House
+Tilt Village
+Aqua Resort
+Castelia City
+Safari Zone Gate
+White Forest
+Black City
+Nacrene City
+Striaton City
+Nuvema Town
+Accumula Town
+Pokémon League (Unova)
+Nimbasa City
+Icirrus City
+Driftveil City
+Mistralton City
+Opelucid City
+Lacunosa Town
+Anville Town
+Undella Town
+Aspertia City
+Virbank City
+Floccesy Town
+Humilau City
+Lentimas Town
+Lumiose City
+Santalune City
+Vaniville Town
+Shalour City
+Kiloude City
+Aquacorde Town
+Camphrier Town
+Cyllage City
+Ambrette Town
+Geosenge Town
+Laverre City
+Coumarine City
+Dendemille Town
+Anistar City
+Couriway Town
+Snowbelle City
+Pokémon League (Kalos)
+Hau'oli City
+Iki Town
+Heahea City
+Paniola Town
+Konikoni City
+Tapu Village
+Po Town
+Malie City
+Seafolk Village
+Pokémon League (Alola)
+Ultra Megalopolis
+Postwick
+Wedgehurst
+Motostoke
+Ballonlea
+Turffield
+Hulbury
+Hammerlocke
+Circhester
+Stow-on-Side
+Spikemuth
+Wyndon
+Wyndon Stadium
+Freezington
+Jubilife Village
+Ancient Retreat
+Diamond Settlement
+Pearl Settlement
+Mesagoza
+Artazon
+Levincia
+Cabo Poco
+Los Platos
+Cortondo
+Montenevera
+Cascarrafa
+Medali
+Alfornada
+Porto Marinada
+Zapapico
+Pokémon League (Paldea)
+Mossui Town
+Loyalty Plaza

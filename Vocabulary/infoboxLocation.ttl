@@ -1,7 +1,10 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix schema: <http://schema.org/> .
-@prefix local: <http://example.org/location/> .
+@prefix local: <http://example.org/resource/location/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix localRegion: <http://example.org/resource/region/> .
+@prefix localCharacter: <http://example.org/resource/character/> .
+@prefix localMove: <http://example.org/resource/move/> .
 
 
 
@@ -33,11 +36,11 @@ local:mapDescription a rdfs:Property ;
     rdfs:domain local:Location ;
     rdfs:range xsd:string .
 
-schema:addressRegion a rdfs:Property ;
+local:Region a rdfs:Property ;
     rdfs:label "Region"@en ;
     rdfs:comment "The region where the location is situated (e.g., Kanto, Johto)."@en ;
     rdfs:domain local:Location ;
-    rdfs:range xsd:string .
+    rdfs:range localRegion:Region .
 
 # Appears in generations
 local:appearsInGeneration a rdfs:Property ;

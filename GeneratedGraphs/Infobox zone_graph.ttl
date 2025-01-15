@@ -1,0 +1,212 @@
+@prefix ns1: <http://example.org/resource/zone/> .
+@prefix ns2: <http://example.org/property/> .
+
+ns1:Arbor_Area a ns1:zone ;
+    ns2:color <bug> ;
+    ns2:image "Arbor_Area" ;
+    ns2:name "Arbor_Area" ;
+    ns1:area1 "Windmill_Way" ;
+    ns1:area1d "Near_the_Windmill" ;
+    ns1:area2 "Verdant_Court" ;
+    ns1:area2d "In_front_of_Serperiors_Chamber" ;
+    ns1:color2 "grass" ;
+    ns1:jap "Flora_Area" ;
+    ns1:japchar "フローラエリア" ;
+    ns1:k "_p_Serperior_" ;
+    ns1:z1 "Cove_Area" ;
+    ns1:z2 "Arcane_Area" .
+
+ns1:Arcane_Area a ns1:zone ;
+    ns2:color <grass> ;
+    ns2:image "Arcane_Area" ;
+    ns2:name "Arcane_Area" ;
+    ns1:area1 "Lakeshore" ;
+    ns1:area1d "Near_the_field_of_flowers" ;
+    ns1:color2 "dragon" ;
+    ns1:jap "Arcana_Area" ;
+    ns1:japchar "アルカナエリア" ;
+    ns1:k "None" ;
+    ns1:z1 "_Arbor_Area" .
+
+ns1:Beach_Zone a ns1:zone ;
+    ns2:color <water> ;
+    ns2:image "Beach_zone" ;
+    ns2:name "Beach_Zone" ;
+    ns1:color2 "electric" ;
+    ns1:d "_Near_the_shore_on_the_far_left_side_of_the_map" ;
+    ns1:jap "Beach_Zone" ;
+    ns1:japchar "ビーチゾーン" ;
+    ns1:l "__p_Empoleon_" ;
+    ns1:z1 "Meeting_Place" ;
+    ns1:z2 "Iceberg_Zone" .
+
+ns1:Cavern_Zone a ns1:zone ;
+    ns2:color <ground> ;
+    ns2:name "Cavern_Zone" ;
+    ns1:color2 "grass" ;
+    ns1:d "_In_front_of_the_hot_spring." ;
+    ns1:jap "Cave_Zone" ;
+    ns1:japchar "ケイブゾーン" ;
+    ns1:l "__p_Blaziken_" ;
+    ns1:z1 "Meeting_Place" ;
+    ns1:z2 "Lava_Zone" .
+
+ns1:Cove_Area a ns1:zone ;
+    ns2:image "Cove_Area" ;
+    ns2:name "Cove_Area" ;
+    ns1:area1 "Seasong_Beach" ;
+    ns1:area1d "In_front_of_the_lighthouse" ;
+    ns1:area2 "Cove_Town" ;
+    ns1:area2d "In_the_square" ;
+    ns1:jap "Port_Area" ;
+    ns1:japchar "ポートエリア" ;
+    ns1:k "_p_Samurott_" ;
+    ns1:z1 "_Arbor_Area" ;
+    ns1:z2 "_Crag_Area" ;
+    ns1:z3 "_Tech_Area" .
+
+ns1:Crag_Area a ns1:zone ;
+    ns2:color <rock> ;
+    ns2:image "Crag_Area" ;
+    ns2:name "Crag_Area" ;
+    ns1:area1 "Rockridge_Fort" ;
+    ns1:area1d "On_the_upper_level" ;
+    ns1:area2 "Colosseum" ;
+    ns1:area2d "In_front_of_the_cave" ;
+    ns1:color2 "fire" ;
+    ns1:jap "Rock_Area" ;
+    ns1:japchar "ロックエリア" ;
+    ns1:k "_p_Emboar_" ;
+    ns1:z1 "_Cove_Area" .
+
+ns1:Flower_Zone a ns1:zone ;
+    ns2:color <grass> ;
+    ns2:image "Flower_zone" ;
+    ns2:name "Flower_Zone" ;
+    ns1:color2 "flying" ;
+    ns1:d "On_a_small_ledge_near_the_dais" ;
+    ns1:jap "Flower_Zone" ;
+    ns1:japchar "フラワーゾーン" ;
+    ns1:l "_p_Rayquaza_" ;
+    ns1:z1 "Granite_Zone" .
+
+ns1:Granite_Zone a ns1:zone ;
+    ns2:color <dragon> ;
+    ns2:name "Granite_Zone" ;
+    ns1:color2 "ground" ;
+    ns1:d "In_front_of_Flygons_gate." ;
+    ns1:jap "Stone_Zone" ;
+    ns1:japchar "ストーンゾーン" ;
+    ns1:l "_p_Rayquaza_" ;
+    ns1:z1 "Meeting_Place" ;
+    ns1:z2 "Flower_Zone" .
+
+ns1:Haunted_Zone a ns1:zone ;
+    ns2:color <ghost> ;
+    ns2:image "Haunted_zone" ;
+    ns2:name "Haunted_Zone" ;
+    ns1:color2 "dark" ;
+    ns1:d "On_the_bridge_near_the_entrance_to_the_zone." ;
+    ns1:jap "House_Zone" ;
+    ns1:japchar "ハウスゾーン" ;
+    ns1:l "_p_Rotom_" ;
+    ns1:z1 "Meeting_Place" .
+
+ns1:Iceberg_Zone a ns1:zone ;
+    ns2:color <ice> ;
+    ns2:image "Iceberg_zone" ;
+    ns2:name "Iceberg_Zone" ;
+    ns1:color2 "water" ;
+    ns1:d "_Near_the_icicle_tree_and_Prinplups_chairlift." ;
+    ns1:jap "Ice_Zone" ;
+    ns1:japchar "アイスゾーン" ;
+    ns1:l "__p_Empoleon_" ;
+    ns1:z1 "Beach_Zone" .
+
+ns1:Lava_Zone a ns1:zone ;
+    ns2:color <rock> ;
+    ns2:image "Lava_zone" ;
+    ns2:name "Lava_Zone" ;
+    ns1:color2 "fire" ;
+    ns1:d "In_front_of_the_furnace." ;
+    ns1:jap "Magma_Zone" ;
+    ns1:japchar "マグマゾーン" ;
+    ns1:l "_p_Blaziken_" ;
+    ns1:z1 "Cavern_Zone" .
+
+ns1:Meadow_Zone a ns1:zone ;
+    ns2:image "Meadow_zone" ;
+    ns2:name "Meadow_Zone" ;
+    ns1:d "On_the_island_between_the_bridges." ;
+    ns1:jap "Green_Zone" ;
+    ns1:japchar "グリーンゾーン" ;
+    ns1:l "_p_Venusaur_" ;
+    ns1:z1 "PokéPark_Entrance" ;
+    ns1:z2 "Meeting_Place" .
+
+ns1:Meeting_Place a ns1:zone ;
+    ns2:name "Meeting_Place" ;
+    ns1:d "_Next_to_the_tree_house" ;
+    ns1:jap "The_Meeting_Plaza" ;
+    ns1:japchar "つどいのひろば" ;
+    ns1:l "_None" ;
+    ns1:z1 "Meadow_Zone" ;
+    ns1:z2 "Beach_Zone" ;
+    ns1:z3 "Cavern_Zone" ;
+    ns1:z4 "Haunted_Zone" ;
+    ns1:z5 "Granite_Zone" ;
+    ns1:z6 "Sky_Pavilion" .
+
+ns1:PokéPark_Entrance a ns1:zone ;
+    ns2:image "Pokepark_entrance" ;
+    ns2:name "PokéPark_Entrance" ;
+    ns1:d "_None" ;
+    ns1:jap "" ;
+    ns1:japchar "" ;
+    ns1:l "_None" ;
+    ns1:z1 "Meadow_Zone" .
+
+ns1:Sky_Pavilion a ns1:zone ;
+    ns2:color <water> ;
+    ns2:name "Sky_Pavilion" ;
+    ns1:color2 "flying" ;
+    ns1:d "_None" ;
+    ns1:jap "Sky_Garden" ;
+    ns1:japchar "スカイガーデン" ;
+    ns1:l "_None" ;
+    ns1:z1 "Meeting_Place" .
+
+ns1:Tech_Area a ns1:zone ;
+    ns2:color <dark> ;
+    ns2:image "Tech_Area" ;
+    ns2:name "Tech_Area" ;
+    ns1:area1 "Train_Depot" ;
+    ns1:area1d "Next_to_Conkeldurr" ;
+    ns1:area2 "Unawarehouse" ;
+    ns1:area2d "To_the_right_of_the_entrance" ;
+    ns1:area3 "Scientorium" ;
+    ns1:area3d "Across_from_the_lab" ;
+    ns1:color2 "electric" ;
+    ns1:jap "Scrap_Area" ;
+    ns1:japchar "スクラップエリア" ;
+    ns1:k "_p_Conkeldurr__(currently)__p_Honchkrow__(formerly)" ;
+    ns1:z1 "Cove_Area" .
+
+<bug> a <http://schema.org/color> .
+
+<dark> a <http://schema.org/color> .
+
+<dragon> a <http://schema.org/color> .
+
+<ghost> a <http://schema.org/color> .
+
+<ground> a <http://schema.org/color> .
+
+<ice> a <http://schema.org/color> .
+
+<grass> a <http://schema.org/color> .
+
+<rock> a <http://schema.org/color> .
+
+<water> a <http://schema.org/color> .
+

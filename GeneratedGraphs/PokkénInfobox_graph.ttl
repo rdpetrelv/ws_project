@@ -1,0 +1,196 @@
+@prefix ns1: <http://example.org/resource/pokkén/> .
+@prefix ns2: <http://example.org/property/> .
+
+ns1:Aegislash_\(Pokkén\) a ns1:Pokkén ;
+    ns2:jname "ギルガルド" ;
+    ns1:HP "510" ;
+    ns1:burst "Underworld_Ruler" ;
+    ns1:jtrans "Gillgard" ;
+    ns1:pokemon "Aegislash" ;
+    ns1:style "Technical" ;
+    ns1:versions "Switch" .
+
+ns1:Blastoise_\(Pokkén\) a ns1:Pokkén ;
+    ns2:jname "カメックス" ;
+    ns1:HP "660" ;
+    ns1:burst "Destructive_Cannon" ;
+    ns1:jtrans "Kamex" ;
+    ns1:pokemon "Blastoise" ;
+    ns1:style "Power" ;
+    ns1:versions "Switch" .
+
+ns1:Blaziken_\(Pokkén\) a ns1:Pokkén ;
+    ns2:jname "バシャーモ" ;
+    ns1:HP "600" ;
+    ns1:burst "Gatling_Flame_Kicks" ;
+    ns1:jtrans "Bursyamo" ;
+    ns1:pokemon "Blaziken" ;
+    ns1:style "Standard" .
+
+ns1:Braixen_\(Pokkén\) a ns1:Pokkén ;
+    ns2:jname "テールナー" ;
+    ns1:HP "540" ;
+    ns1:burst "Psyfirecracker" ;
+    ns1:jtrans "Tairenar" ;
+    ns1:pokemon "Braixen" ;
+    ns1:style "Standard" .
+
+ns1:Chandelure_\(Pokkén\) a ns1:Pokkén ;
+    ns2:jname "シャンデラ" ;
+    ns1:HP "510" ;
+    ns1:burst "Final_Flicker" ;
+    ns1:jtrans "Chandela" ;
+    ns1:pokemon "Chandelure" ;
+    ns1:style "Power" .
+
+ns1:Charizard_\(Pokkén\) a ns1:Pokkén ;
+    ns2:jname "リザードン" ;
+    ns1:HP "600" ;
+    ns1:burst "Searing_Blaze" ;
+    ns1:jtrans "Lizardon" ;
+    ns1:pokemon "Charizard" ;
+    ns1:style "Power" .
+
+ns1:Croagunk_\(Pokkén\) a ns1:Pokkén ;
+    ns2:jname "グレッグル" ;
+    ns1:HP "540" ;
+    ns1:burst "Alter_Ego_Army" ;
+    ns1:jtrans "Gureggru" ;
+    ns1:pokemon "Croagunk" ;
+    ns1:style "Speed" ;
+    ns1:versions "Arcade_and_Switch" .
+
+ns1:Darkrai_\(Pokkén\) a ns1:Pokkén ;
+    ns2:jname "ダークライ" ;
+    ns1:HP "540" ;
+    ns1:burst "Infinite_Eclipse" ;
+    ns1:jtrans "Darkrai" ;
+    ns1:pokemon "Darkrai" ;
+    ns1:style "Technical" ;
+    ns1:versions "Arcade_and_Switch" .
+
+ns1:Decidueye_\(Pokkén\) a ns1:Pokkén ;
+    ns2:jname "ジュナイパー" ;
+    ns1:HP "570" ;
+    ns1:burst "Shining_Feather" ;
+    ns1:jtrans "Junaiper" ;
+    ns1:pokemon "Decidueye" ;
+    ns1:style "Standard" ;
+    ns1:versions "Switch" .
+
+ns1:Empoleon_\(Pokkén\) a ns1:Pokkén ;
+    ns2:jname "エンペルト" ;
+    ns1:HP "630" ;
+    ns1:burst "Deep_Blue_Monarch" ;
+    ns1:jtrans "Emperte" ;
+    ns1:pokemon "Empoleon" ;
+    ns1:style "Standard" ;
+    ns1:versions "Arcade_and_Switch" .
+
+ns1:Garchomp_\(Pokkén\) a ns1:Pokkén ;
+    ns2:jname "ガブリアス" ;
+    ns1:HP "660" ;
+    ns1:burst "Outrage_Smasher" ;
+    ns1:jtrans "Gaburias" ;
+    ns1:pokemon "Garchomp" ;
+    ns1:style "Power" .
+
+ns1:Gardevoir_\(Pokkén\) a ns1:Pokkén ;
+    ns2:jname "サーナイト" ;
+    ns1:HP "540" ;
+    ns1:burst "Fairy_Tempest" ;
+    ns1:jtrans "Sirnight" ;
+    ns1:pokemon "Gardevoir" ;
+    ns1:style "Technical" .
+
+ns1:Gengar_\(Pokkén\) a ns1:Pokkén ;
+    ns2:jname "ゲンガー" ;
+    ns1:HP "510" ;
+    ns1:burst "Shadow_Drop" ;
+    ns1:jtrans "Gangar" ;
+    ns1:pokemon "Gengar" ;
+    ns1:style "Technical" .
+
+ns1:Lucario_\(Pokkén\) a ns1:Pokkén ;
+    ns2:jname "ルカリオ" ;
+    ns1:HP "600" ;
+    ns1:burst "Aura_Blast" ;
+    ns1:jtrans "Lucario" ;
+    ns1:pokemon "Lucario" ;
+    ns1:style "Standard" .
+
+ns1:Machamp_\(Pokkén\) a ns1:Pokkén ;
+    ns2:jname "カイリキー" ;
+    ns1:HP "660" ;
+    ns1:burst "Dynamic_Fury" ;
+    ns1:jtrans "Kairiky" ;
+    ns1:pokemon "Machamp" ;
+    ns1:style "Power" .
+
+ns1:Mewtwo_\(Pokkén\) a ns1:Pokkén ;
+    ns2:jname "ミュウツー" ;
+    ns1:HP "600" ;
+    ns1:burst "Psydisaster" ;
+    ns1:jtrans "Mewtwo" ;
+    ns1:pokemon "Mewtwo" ;
+    ns1:style "Standard" ;
+    ns1:versions "All_versions_(requires_beating_Ferrum#Ferrum_League_Red_League_in_Wii_U_Version)_" .
+
+ns1:Pikachu_\(Pokkén\) a ns1:Pokkén ;
+    ns2:jname "ピカチュウ" ;
+    ns1:HP "570" ;
+    ns1:burst "Volt_Shock_Fist" ;
+    ns1:jtrans "Pikachu" ;
+    ns1:pokemon "Pikachu" ;
+    ns1:style "Standard" .
+
+ns1:Pikachu_Libre_\(Pokkén\) a ns1:Pokkén ;
+    ns2:jname "マスクド・ピカチュウ" ;
+    ns1:HP "570" ;
+    ns1:burst "Thunderclap_Press" ;
+    ns1:jtrans "Masked_Pikachu" ;
+    ns1:pokemon "Pikachu_Libre" ;
+    ns1:style "Speed" .
+
+ns1:Sceptile_\(Pokkén\) a ns1:Pokkén ;
+    ns2:jname "ジュカイン" ;
+    ns1:HP "570" ;
+    ns1:burst "Forests_Flash" ;
+    ns1:jtrans "Jukain" ;
+    ns1:pokemon "Sceptile" ;
+    ns1:style "Speed" .
+
+ns1:Scizor_\(Pokkén\) a ns1:Pokkén ;
+    ns2:jname "ハッサム" ;
+    ns1:HP "600" ;
+    ns1:burst "Iron_Meteor_Dive" ;
+    ns1:jtrans "Hassam" ;
+    ns1:pokemon "Scizor" ;
+    ns1:style "Power" ;
+    ns1:versions "Arcade_and_Switch" .
+
+ns1:Shadow_Mewtwo a ns1:Pokkén ;
+    ns2:jname "ダークミュウツー" ;
+    ns1:HP "480" ;
+    ns1:burst "Dark_Nova" ;
+    ns1:jtrans "Dark_Mewtwo" ;
+    ns1:pokemon "Shadow_Mewtwo" ;
+    ns1:style "Technical" ;
+    ns1:versions "All_versions_(requires_beating_Ferrum#Ferrum_League_Chroma_League/using_Amiibo_amiibo_card_in_Wii_U_version)_" .
+
+ns1:Suicune_\(Pokkén\) a ns1:Pokkén ;
+    ns2:jname "スイクン" ;
+    ns1:HP "630" ;
+    ns1:burst "True_Sheer_Cold" ;
+    ns1:jtrans "Suicune" ;
+    ns1:pokemon "Suicune" ;
+    ns1:style "Standard" .
+
+ns1:Weavile_\(Pokkén\) a ns1:Pokkén ;
+    ns2:jname "マニューラ" ;
+    ns1:HP "540" ;
+    ns1:burst "Sonic_Slash" ;
+    ns1:jtrans "Manyula" ;
+    ns1:pokemon "Weavile" ;
+    ns1:style "Speed" .
+

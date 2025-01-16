@@ -1,0 +1,77 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix local: <http://example.org/resource/vocab#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+
+# Ability Shacl
+local:AbilityShape a sh:NodeShape ;
+    sh:targetClass local:Ability ;
+    sh:property [
+        sh:path schema:name ;
+        sh:datatype xsd:string ;
+        sh:minCount 1 ;
+        sh:description "Name of the ability."@en ;
+
+    ] ;
+    sh:property [
+        sh:path local:introducedInGeneration  ;
+        sh:datatype xsd:integer ;
+        sh:in (3 4 5 6 7 8 9) ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+        sh:description "The generation the ability was introduced in, ranging from 3 to 9."@en ;
+    ] ;
+    sh:property [
+        sh:path local:noCategory ;
+        sh:datatype xsd:boolean ;
+        sh:minCount 0 ;
+        sh:maxCount 1 ;
+        sh:description "Indicates whether to suppress categorization."@en ;
+    ] ;
+    sh:property [
+        sh:path local:colorScheme ;
+        sh:datatype xsd:string ;
+        sh:minCount 0 ;
+        sh:maxCount 1 ;
+        sh:description "The color scheme for the infobox."@en ;
+    ] ;
+    sh:property [
+        sh:path local:flavorTextGen3 ;
+        sh:datatype xsd:string ;
+        sh:description "Flavor text for Generation III."@en ;
+    ] ;
+    sh:property [
+        sh:path local:flavorTextGen4 ;
+        sh:datatype xsd:string ;
+        sh:description "Flavor text for Generation IV."@en ;
+    ] ;
+    sh:property [
+        sh:path local:flavorTextGen5 ;
+        sh:datatype xsd:string ;
+        sh:description "Flavor text for Generation V."@en ;
+    ] ;
+    sh:property [
+        sh:path local:flavorTextGen6 ;
+        sh:datatype xsd:string ;
+        sh:description "Flavor text for Generation VI."@en ;
+    ] ;
+    sh:property [
+        sh:path local:flavorTextGen7 ;
+        sh:datatype xsd:string ;
+        sh:description "Flavor text for Generation VII."@en ;
+    ] ;
+    sh:property [
+        sh:path local:flavorTextGen8 ;
+        sh:datatype xsd:string ;
+        sh:description "Flavor text for Generation VIII."@en ;
+    ] ;
+    sh:property [
+        sh:path local:flavorTextGen9 ;
+        sh:datatype xsd:string ;
+        sh:description "Flavor text for Generation IX."@en ;
+    ] ;
+    sh:property [
+        sh:path schema:color ;
+        sh:datatype xsd:string ;
+        sh:description "The color scheme for the infobox."@en ;
+    ] .

@@ -1,0 +1,71 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix local: <http://example.org/resource/vocab#> .
+
+
+local:LocationShape a sh:NodeShape ;
+    sh:targetClass local:Location ;
+
+    # Name is required
+    sh:property [
+        sh:path schema:name ;
+        sh:datatype xsd:string ;
+        sh:minCount 1 ;
+        sh:description "The English name of the location."@en ;
+    ] ;
+
+    # Slogan
+    sh:property [
+        sh:path local:slogan ;
+        sh:datatype xsd:string ;
+        sh:description "A slogan or tagline associated with the location."@en ;
+    ] ;
+
+    # Image
+    sh:property [
+        sh:path schema:image ;
+        sh:datatype xsd:anyURI ;
+        sh:description "An image depicting the location."@en ;
+    ] ;
+
+    # Image size
+    sh:property [
+        sh:path local:imageSize ;
+        sh:datatype xsd:string ;
+        sh:description "The dimensions of the image."@en ;
+    ] ;
+
+    # Map description
+    sh:property [
+        sh:path local:mapDescription ;
+        sh:datatype xsd:string ;
+        sh:description "A brief description of the map for the location."@en ;
+    ] ;
+
+    # Region
+    sh:property [
+        sh:path local:addressRegion ;
+        sh:datatype xsd:string ;
+        sh:description "The region where the location is situated."@en ;
+    ] ;
+
+    # Appears in generations
+    sh:property [
+        sh:path local:appearsInGeneration ;
+        sh:datatype xsd:string , xsd:integer ;
+        sh:description "The Pokémon game generations in which the location appears."@en ;
+    ] ;
+
+    # Location type
+    sh:property [
+        sh:path local:locationType ;
+        sh:datatype xsd:string ;
+        sh:description "The type of location, such as a town, road, or special area."@en ;
+    ] ;
+
+    # Map file
+    sh:property [
+        sh:path local:mapFile ;
+        sh:datatype xsd:anyURI ;
+        sh:description "The file or URI of the map representing the location."@en ;
+    ] .

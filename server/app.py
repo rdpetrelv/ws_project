@@ -51,7 +51,10 @@ def page(entity_type,entity_name):
             if str(s) == entity_uri:  
                 predicate = str(p)#g.qname(p) 
                 value = str(o)
-                results[predicate].append(value)
+                is_url = ":" in value
+
+                results[predicate].append({"value" : value , "is_url" : is_url })
+        print(results)
     return render_template("page.html" , entity_name = f"{entity_type}/{entity_name}" ,  results = results)
 
 

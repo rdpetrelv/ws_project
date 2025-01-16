@@ -49,9 +49,11 @@
           </td>
           <td>
             <ul>
-              {% for obj in objects %}
-              <li>{{ obj }}</li>
-              {% endfor %}
+              {% for obj in objects %} {% if obj.is_url %}
+              <li><a href="{{ obj.value }}">{{ obj.value }}</a></li>
+              {% else %}
+              <li>{{ obj.value }}</li>
+              {% endif %} {% endfor %}
             </ul>
           </td>
         </tr>

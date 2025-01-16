@@ -1,0 +1,165 @@
+AbilityInfobox
+AbilityInfobox/desc
+AbilityInfobox/header
+AbilityInfoboxNoncat
+AdvArcInfobox
+AnimeLocationInfobox
+AnimePokémonInfobox
+ArchetypeInfobox
+BadgeInfobox
+BattleEInfobox
+BattleEInfobox/Prize
+BattrioExpansionInfobox
+BattrioPuckInfobox
+BerryInfobox
+Blueinfobox
+Boardgame Infobox
+BookInfobox
+CDInfobox
+Celadonkey/PokemonInfobox
+ChapInfobox
+Character Infobox
+Character Infobox/Anime
+Character Infobox/Game
+Character Infobox/Manga
+Character Infobox/Team
+CharInfobox
+CharInfoboxUser
+Company Infobox
+Console infobox
+CountryInfobox
+DeckInfobox
+DuelInfobox
+DuelInfobox/Figure
+DuelInfobox/Footer
+DuelInfobox/Header
+Dungeon infobox
+DWGame
+DWInfobox
+Pokémon Infobox
+EnergyCardInfobox
+EpisodeInfobox
+EpisodeInfobox2
+EpisodeInfoboxShort
+EpisodeInfoboxSpecial
+FA Infobox
+Facility infobox
+Fan site
+Facility Infobox
+Ga-OleInfobox
+GenInfo
+GlitchMoveInfobox
+GlitchPkmnInfobox
+GlitchPkmnInfoboxNocat
+GlitchSpriteBox
+GymInfobox
+IllustStoryInfobox
+Infobox game
+Infobox island
+Infobox location
+Infobox walkthrough
+Infobox zone
+InfoboxBlock
+InfoboxTV
+Item
+Item/I
+ItemInfobox/BagRow
+ItemInfobox/BagRowBottom
+ItemInfobox/Flavor
+ItemInfobox/FlavorRow
+ItemInfobox/Fling
+ItemInfobox/FlingEffect
+ItemInfobox/foot
+ItemInfobox/head
+ItemInfobox/MD
+ItemInfobox/NaturalGift
+ItemInfobox/NaturalGift/6
+KingdomInfobox
+Kogoro/SeasonInfobox
+MagazineInfobox
+MastersChapInfobox
+MastersEventInfobox
+MastersInfobox
+MastersSkillInfobox
+MDMoveInfobox
+Merchandise Infobox
+MerchCollectionInfobox
+MezastarInfobox
+BattrioPuckInfobox
+MoveInfobox
+MoveInfoboxNoncat
+MovieInfobox
+Mystery Dungeon location
+Nairbnroh/Sandbox
+MoveInfobox
+NintendoService
+Podcast
+PokkénInfobox
+Pokémon Center Infobox
+Pokémon Infobox
+Pokémon Infobox/GO
+PokémoncardInfobox
+PokémoncardInfobox/Expansion
+PokémoncardInfobox/Footer
+PokémonInfobox
+PokémonInfoboxNoncat
+PokéstarMovie
+PokéWalkerInfobox
+RangerLocationInfobox
+RegionInfobox
+Ribbon
+Romanoff Blitzer/Sandbox
+Route infobox
+GOSeasonInfobox
+Season Infobox
+Season Infobox/EpiEntry
+Season Infobox/EpiFooter
+Season Infobox/EpiHeader
+SeasonInfobox
+SkyEpInfobox
+SleepIsland
+Song
+TCGEnergyCardInfobox
+TCGEnergyCardInfobox/Expansion
+TCGEnergyCardInfobox/Footer
+TCGEnergyCardInfobox/ReleaseInfo
+TCGExpansionInfobox
+TCGGBInfobox
+TCGPocketDeckInfobox
+TCGPocketEventInfobox
+TCGPocketExpansionInfobox
+TCGPromoInfobox
+TCGTrainerCardInfobox
+TCGTrainerCardInfobox/Expansion
+TCGTrainerCardInfobox/Footer
+TCGTrainerCardInfobox/Fossil
+TCGTrainerCardInfobox/ReleaseInfo
+Team Infobox
+TehPerson/MoveInfobox
+TFGCardInfobox
+TFGCardInfobox/Expansion
+TFGCrystalInfobox
+TFGInfobox
+TFGInfobox/Footer
+TFGInfobox/Trainer
+TFGPearlInfobox
+Theme Park Infobox
+Tiddlywinks/AdvInfo
+Tiddlywinks/AdvInfo/footer
+Tiddlywinks/AdvInfo/header
+Tiddlywinks/AdvInfo/pubrow
+MoveInfobox
+TournamentInfobox
+Town infobox
+TrainercardInfobox
+TrainerClassInfobox
+TrettaInfobox
+TrettaSetInfobox
+Trozei location infobox
+UniteInfobox
+UserPokémonInfobox
+VolumeInfobox
+WarlordInfobox
+WarriorInfobox
+WeatherInfobox
+

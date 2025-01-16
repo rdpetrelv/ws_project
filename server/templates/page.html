@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{ results.entity_name }}</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+      }
+      h1 {
+        color: #333;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+      }
+      table,
+      th,
+      td {
+        border: 1px solid #ddd;
+      }
+      th,
+      td {
+        padding: 10px;
+        text-align: left;
+      }
+      th {
+        background-color: #f4f4f4;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Entity: {{ entity_name }}</h1>
+    <p>
+      Show Turtle format:
+      <a href="/resource/{{ entity_name }}" target="_blank">View Turtle</a>
+    </p>
+    <table>
+      <thead>
+        <tr>
+          <th>Predicate</th>
+          <th>Objects</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for predicate, objects in results.items() %}
+        <tr>
+          <td>
+            <a href="{{ predicate }}">{{ predicate }}</a>
+          </td>
+          <td>
+            <ul>
+              {% for obj in objects %}
+              <li>{{ obj }}</li>
+              {% endfor %}
+            </ul>
+          </td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </body>
+</html>

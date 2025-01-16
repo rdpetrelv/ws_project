@@ -1,0 +1,110 @@
+@prefix ns1: <http://example.org/resource/badge/> .
+@prefix ns2: <http://example.org/property/> .
+
+ns1:Boulder_Badge a ns1:Badge ;
+    ns2:color <rock> ;
+    ns2:jname "グレーバッジ" ;
+    ns2:name "Boulder_Badge" ;
+    ns1:cap "Lv._20_sup/7_PE_" ;
+    ns1:giver "Brock" ;
+    ns1:jtrans "Gray_Badge" ;
+    ns1:move "Flash" ;
+    ns1:next "Draft:Cascade_Badge_Cascade_Badge" ;
+    ns1:tmhm "HM05" .
+
+ns1:Cascade_Badge a ns1:Badge ;
+    ns2:color <water> ;
+    ns2:jname "ブルーバッジ" ;
+    ns2:name "Cascade_Badge" ;
+    ns1:cap "Lv._30" ;
+    ns1:givers "Misty,__an_Daisy_" ;
+    ns1:jtrans "Blue_Badge" ;
+    ns1:move "Cut" ;
+    ns1:next "Draft:Thunder_Badge_Thunder_Badge" ;
+    ns1:prev "Draft:Boulder_Badge_Boulder_Badge" ;
+    ns1:tmhm "HM01" .
+
+ns1:Earth_Badge a ns1:Badge ;
+    ns2:color <ground> ;
+    ns2:jname "グリーンバッジ" ;
+    ns2:name "Earth_Badge" ;
+    ns1:cap "Lv._100" ;
+    ns1:givers "Giovanni,__ga_Blue_,_Jessie,_James,__MTR_" ;
+    ns1:jtrans "Green_Badge" ;
+    ns1:move "Rock_Climb" ;
+    ns1:prev "Draft:Volcano_Badge_Volcano_Badge" ;
+    ns1:tmhm "HM08" .
+
+ns1:Gym_Badge a ns1:Badge ;
+    ns2:color <Bug> ;
+    ns2:image "SVbadge_VictoryRoad_Bug.png" ;
+    ns2:jname "ジムバッジ" ;
+    ns2:name "Gym_Badge" ;
+    ns1:cap "20_+_5_*_BadgeCount" ;
+    ns1:giver "Katy" ;
+    ns1:jtrans "Gym_Badge" ;
+    ns1:next "Draft:Gym_Badge_(Grass)_Gym_Badge_(Grass)" .
+
+ns1:Plain_Badge a ns1:Badge ;
+    ns2:color <Normal> ;
+    ns2:jname "レギュラーバッジ_" ;
+    ns2:name "Plain_Badge" ;
+    ns1:cap "No_change" ;
+    ns1:giver "Whitney" ;
+    ns1:jtrans "Regular_Badge" ;
+    ns1:move "Strength" ;
+    ns1:next "Draft:Fog_Badge_Fog_Badge" ;
+    ns1:prev "Draft:Hive_Badge_Hive_Badge" ;
+    ns1:stat "Speed" ;
+    ns1:tmhm "HM04" .
+
+ns1:Star_Badge a ns1:Badge ;
+    ns2:color <Dark> ;
+    ns2:image "SVbadge_StarfallStreet_Dark.png" ;
+    ns2:jname "ダンバッジ" ;
+    ns2:name "Star_Badge" ;
+    ns1:cap "No_change" ;
+    ns1:giver "Giacomo" ;
+    ns1:jtrans "Team_Badge" ;
+    ns1:next "Draft:Star_Badge_(Fire)_Star_Badge_(Fire)" ;
+    ns1:prev "Draft:Gym_Badge_(Ice)_Gym_Badge_(Ice)" .
+
+ns1:Thunder_Badge a ns1:Badge ;
+    ns2:color <electric> ;
+    ns2:jname "オレンジバッジ" ;
+    ns2:name "Thunder_Badge" ;
+    ns1:cap "10_+_10_*_BadgeCount_sup/7_PE_" ;
+    ns1:giver "Lt._Surge" ;
+    ns1:jtrans "Orange_Badge" ;
+    ns1:move "Fly" ;
+    ns1:next "Draft:Rainbow_Badge_Rainbow_Badge" ;
+    ns1:prev "Draft:Cascade_Badge_Cascade_Badge" ;
+    ns1:tmhm "HM02" .
+
+ns1:Titan_Badge a ns1:Badge ;
+    ns2:color <Rock> ;
+    ns2:image "SVbadge_PathOfLegends_Rock.png" ;
+    ns2:jname "ヌシバッジ" ;
+    ns2:name "Titan_Badge" ;
+    ns1:cap "No_change" ;
+    ns1:giver "Arven" ;
+    ns1:jtrans "Leader_Badge" ;
+    ns1:next "Draft:Titan_Badge_(Flying)_Titan_Badge_(Flying)" ;
+    ns1:prev "Draft:Star_Badge_(Fighting)_Star_Badge_(Fighting)" .
+
+<Bug> a <http://schema.org/color> .
+
+<Dark> a <http://schema.org/color> .
+
+<Normal> a <http://schema.org/color> .
+
+<Rock> a <http://schema.org/color> .
+
+<electric> a <http://schema.org/color> .
+
+<ground> a <http://schema.org/color> .
+
+<rock> a <http://schema.org/color> .
+
+<water> a <http://schema.org/color> .
+

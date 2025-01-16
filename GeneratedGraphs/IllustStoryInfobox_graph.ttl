@@ -1,0 +1,109 @@
+@prefix ns1: <http://example.org/resource/illuststory/> .
+@prefix ns2: <http://example.org/property/> .
+
+ns1:A_Precious_Golden_Razz_Berry a ns1:IllustStory ;
+    ns2:image "LarvitarPokémonGO37.jpg" ;
+    ns2:jname "たいせつなきんのズリのみ" ;
+    ns2:name "A_Precious_Golden_Razz_Berry" ;
+    ns1:author "Saji_Komori[https://twitter.com/kosaji_ippai/status/1537687696256438277_小森さじ_-_Twitter]" ;
+    ns1:cards "_TCG_ID_Pokémon_GO_Larvitar_37__(_TCG_Pokémon_GO_)" ;
+    ns1:date "Jube_17,_2022_(Japanese)September_1,_2022_(English)" ;
+    ns1:illus "sui" ;
+    ns1:number "31" .
+
+ns1:An_Unexpected_Encounter_with_Mewtwo a ns1:IllustStory ;
+    ns2:image "MewtwoVPokémonGO72.jpg" ;
+    ns2:jname "ミュウツーとの_ruby_邂逅_かいこう_" ;
+    ns2:name "An_Unexpected_Encounter_with_Mewtwo" ;
+    ns1:author "Saji_Komori[https://twitter.com/kosaji_ippai/status/1537687696256438277_小森さじ_-_Twitter]" ;
+    ns1:cards "_TCG_ID_Pokémon_GO_Mewtwo_V_72__(_TCG_Pokémon_GO_)" ;
+    ns1:date "June_17,_2022_(Japanese)July_6,_2022_(English)" ;
+    ns1:illus "N-DESIGN_Inc." ;
+    ns1:number "30" .
+
+<http://example.org/resource/illuststory/Big_Haul!_Rah-rah,_Magikarp!> a ns1:IllustStory ;
+    ns2:image "MagikarpPokémonGO21.jpg" ;
+    ns2:jname "大漁！“フレーフレー”コイキング！" ;
+    ns2:name "Big_Haul!_Rah-rah,_Magikarp!" ;
+    ns1:author "Aya_Satsuki[https://twitter.com/kosaji_ippai/status/1466648428432494594_小森さじ_-_Twitter]、Dec_3,_2021" ;
+    ns1:cards "_TCG_ID_Pokémon_GO_Magikarp_21__(_TCG_Pokémon_GO_)" ;
+    ns1:date "June_17,_2022_(Japanese)July_6,_2022_(English)" ;
+    ns1:illus "N-DESIGN_Inc." ;
+    ns1:number "34" .
+
+<http://example.org/resource/illuststory/Gather_Round!_To_the_Wall_of_Blissey!> a ns1:IllustStory ;
+    ns2:image "BlisseyPokémonGO52.jpg" ;
+    ns2:jname "集え！ハピナスの砦！" ;
+    ns2:name "Gather_Round!_To_the_Wall_of_Blissey!" ;
+    ns1:author "Aya_Satsuki[https://twitter.com/kosaji_ippai/status/1466648428432494594_小森さじ_-_Twitter]、Dec_3,_2021" ;
+    ns1:cards "_TCG_ID_Pokémon_GO_Blissey_52__(_TCG_Pokémon_GO_)" ;
+    ns1:date "June_17,_2022_(Japanese)September_1,_2022_(English)" ;
+    ns1:illus "Teeziro" ;
+    ns1:number "35" .
+
+ns1:Hopeless_Freeloader a ns1:IllustStory ;
+    ns2:image "OctilleryBrilliantStarsTG3.jpg" ;
+    ns2:jname "こまった居候" ;
+    ns2:name "Hopeless_Freeloader" ;
+    ns1:author "Aya_Satsuki[http://www.origamix.co.jp/satsuki-aya/__皐月_彩_–_オリガミクスパートナーズ株式会社_ORIGAMIX_PARTNERS_Inc.]_([https://web.archive.org/web/20221208150052/http://www.origamix.co.jp/satsuki-aya/_archived_copy])" ;
+    ns1:cards "_TCG_ID_VMAX_Climax_Octillery_191__(_TCG_VMAX_Climax_)" ;
+    ns1:date "December_3,_2021" ;
+    ns1:illus "Shinya_Komatsu" ;
+    ns1:number "05" .
+
+ns1:No_Matter_What_You_Look_Like a ns1:IllustStory ;
+    ns2:image "SpinarakPokémonGO6.jpg" ;
+    ns2:jname "姿かたちが変わっても" ;
+    ns2:name "No_Matter_What_You_Look_Like" ;
+    ns1:author "Aya_Satsuki[http://www.origamix.co.jp/satsuki-aya/_皐月_彩_–_オリガミクスパートナーズ株式会社_ORIGAMIX_PARTNERS_Inc.]" ;
+    ns1:cards "_TCG_ID_Pokémon_GO_Spinarak_6__and__TCG_ID_Pokémon_GO_Ditto_53__(_TCG_Pokémon_GO_)" ;
+    ns1:date "June_17,_2022_(Japanese)September_1,_2022_(English)" ;
+    ns1:illus "Yuka_Morii" ;
+    ns1:illus2 "Misa_Tsutsui" ;
+    ns1:image2 "DittoPokémonGO53.jpg" ;
+    ns1:number "32" .
+
+ns1:Nothing_But_Rumors a ns1:IllustStory ;
+    ns2:image "DruddigonBrilliantStars113.jpg" ;
+    ns2:jname "ウワサのみ" ;
+    ns2:name "Nothing_But_Rumors" ;
+    ns1:author "Saji_Komori[https://twitter.com/kosaji_ippai/status/1466648428432494594_小森さじ_-_Twitter]、Dec_3,_2021" ;
+    ns1:cards "_TCG_ID_VMAX_Climax_Druddigon_121__(_TCG_VMAX_Climax_)_TCG_ID_VMAX_Climax_Snorunt_34__(_TCG_VMAX_Climax_)_TCG_ID_VMAX_Climax_Cherubi_5__(_TCG_VMAX_Climax_)" ;
+    ns1:date "December_3,_2021" ;
+    ns1:illus "Ryo_Ueda" ;
+    ns1:illus2 "HYOGONOSUKE" ;
+    ns1:illus3 "Naoyo_Kimura" ;
+    ns1:image2 "SnoruntBrilliantStars34.jpg" ;
+    ns1:image3 "CherubiBrilliantStars12.jpg" ;
+    ns1:number "03" .
+
+ns1:Professors_Research a ns1:IllustStory ;
+    ns2:image "ProfessorResearchCelebrations23.jpg" ;
+    ns2:jname "博士の研究" ;
+    ns2:name "Professors_Research" ;
+    ns1:author "Saji_Komori_[https://twitter.com/kosaji_ippai/status/1466650908516036608_小森さじ_-_Twitter]、Dec_3,_2021" ;
+    ns1:cards "_TCG_ID_25th_Anniversary_Collection_Professors_Research_3__(_TCG_25th_Anniversary_Collection_)" ;
+    ns1:date "October_22,_2021" ;
+    ns1:illus "KIYOTAKA_OSHIYAMA" ;
+    ns1:number "02" .
+
+ns1:The_Rainbow_Foot a ns1:IllustStory ;
+    ns2:image "PikachuVSWSHPromo143.jpg" ;
+    ns2:jname "虹のふもと" ;
+    ns2:name "The_Rainbow_Foot" ;
+    ns1:author "Aya_Satsuki_[http://www.origamix.co.jp/satsuki-aya/__皐月_彩_–_オリガミクスパートナーズ株式会社_ORIGAMIX_PARTNERS_Inc.]_([https://web.archive.org/web/20221208150052/http://www.origamix.co.jp/satsuki-aya/_archived_copy])" ;
+    ns1:cards "_TCG_ID_25th_Anniversary_Collection_Pikachu_V_20__(_TCG_25th_Anniversary_Collection_)" ;
+    ns1:date "October_22,_2021" ;
+    ns1:illus "HYOGONOSUKE" ;
+    ns1:number "01" .
+
+ns1:Weedle_Tends_to_Poison_Jab a ns1:IllustStory ;
+    ns2:image "WeedleChillingReign1.jpg" ;
+    ns2:jname "ビードルは毒づきがち" ;
+    ns2:name "Weedle_Tends_to_Poison_Jab" ;
+    ns1:author "Saji_Komori[https://twitter.com/kosaji_ippai/status/1466650908516036608_小森さじ_-_Twitter]、Dec_3,_2021" ;
+    ns1:cards "_TCG_ID_VMAX_Climax_Weedle_1__(_TCG_VMAX_Climax_)" ;
+    ns1:date "December_3,_2021" ;
+    ns1:illus "Sanosuke_Sakuma" ;
+    ns1:number "04" .
+

@@ -1,0 +1,104 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix schema: <http://schema.org/> .
+@prefix local: <http://example.org/resource/pokémon/> .
+@prefix localMove: <http://example.org/resource/move/> .
+@prefix localRegion: <http://example.org/resource/region/> .
+@prefix localLocation: <http://example.org/resource/location/> .
+@prefix localCharacter: <http://example.org/resource/character/> .
+
+
+local:Pokémon a rdfs:Class ;
+    rdfs:label "Pokémon"@en ;
+    rdfs:comment "A class representing a Pokémon."@en ;
+    rdfs:subClassOf schema:Thing .
+
+local:name a rdfs:Property ;
+    rdfs:label "Name"@en ;
+    rdfs:comment "The Pokémon's name in English."@en ;
+    rdfs:domain local:Pokémon ;
+    rdfs:range xsd:string .
+
+local:jname a rdfs:Property ;
+    rdfs:label "Japanese Name"@en ;
+    rdfs:comment "The Pokémon's name in Japanese."@en ;
+    rdfs:domain local:Pokémon ;
+    rdfs:range xsd:string .
+
+local:tmname a rdfs:Property ;
+    rdfs:label "Trademark Name"@en ;
+    rdfs:comment "Translation of the Japanese name. Use the trademarked version if available."@en ;
+    rdfs:domain local:Pokémon ;
+    rdfs:range xsd:string .
+
+local:jtranslit a rdfs:Property ;
+    rdfs:label "Japanese Transliteration"@en ;
+    rdfs:comment "Japanese name in rōmaji."@en ;
+    rdfs:domain local:Pokémon ;
+    rdfs:range xsd:string .
+
+local:category a rdfs:Property ;
+    rdfs:label "Category" ;
+    rdfs:comment "The Pokémon's category name from the Pokédex." ;
+    rdfs:domain local:Pokémon ;
+    rdfs:range local:category .
+
+local:ndex a rdfs:Property ;
+    rdfs:label "National Dex Number" ;
+    rdfs:comment "National Pokédex number." ;
+    rdfs:domain local:Pokémon ;
+    rdfs:range xsd:integer .
+
+local:type1 a rdfs:Property ;
+    rdfs:label "Type 1" ;
+    rdfs:comment "The Pokémon's primary type." ;
+    rdfs:domain local:Pokémon ;
+    rdfs:range local:type .
+
+local:type2 a rdfs:Property ;
+    rdfs:label "Type 2" ;
+    rdfs:comment "The Pokémon's secondary type (optional)." ;
+    rdfs:domain local:Pokémon ;
+    rdfs:range local:type .
+
+local:ability1 a rdfs:Property ;
+    rdfs:label "Ability 1" ;
+    rdfs:comment "The Pokémon's first ability." ;
+    rdfs:domain local:Pokémon ;
+    rdfs:range local:ability .
+
+local:ability2 a rdfs:Property ;
+    rdfs:label "Ability 2" ;
+    rdfs:comment "The Pokémon's second ability (optional)." ;
+    rdfs:domain local:Pokémon ;
+    rdfs:range local:ability .
+
+local:abilityd a rdfs:Property ;
+    rdfs:label "Hidden Ability" ;
+    rdfs:comment "The Pokémon's hidden ability (optional)." ;
+    rdfs:domain local:Pokémon ;
+    rdfs:range local:ability .
+
+local:height-m a rdfs:Property ;
+    rdfs:label "Height (meters)" ;
+    rdfs:comment "The Pokémon's height in meters." ;
+    rdfs:domain local:Pokémon ;
+    rdfs:range xsd:decimal .
+
+local:weight-kg a rdfs:Property ;
+    rdfs:label "Weight (kilograms)" ;
+    rdfs:comment "The Pokémon's weight in kilograms." ;
+    rdfs:domain local:Pokémon ;
+    rdfs:range xsd:decimal .
+
+local:color a rdfs:Property ;
+    rdfs:label "Color" ;
+    rdfs:comment "The Pokémon's color listed in the Pokédex." ;
+    rdfs:domain local:Pokémon ;
+    rdfs:range schema:color .
+
+local:friendship a rdfs:Property ;
+    rdfs:label "Friendship" ;
+    rdfs:comment "The Pokémon's base friendship value." ;
+    rdfs:domain local:Pokémon ;
+    rdfs:range xsd:integer .

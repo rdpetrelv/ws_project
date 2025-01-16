@@ -1,0 +1,167 @@
+@prefix ns1: <http://example.org/property/> .
+@prefix ns2: <http://example.org/resource/trainerclass/> .
+
+ns2:Aqua_Admin a ns2:TrainerClass ;
+    ns1:bordercolor <_alpha_sapphire_color_dark_> ;
+    ns1:caption "Aqua_Admins_Matt_and_Shelly_in__pkmn_Omega_Ruby_and_Alpha_Sapphire_" ;
+    ns1:color <_alpha_sapphire_color_> ;
+    ns1:corecolor <_alpha_sapphire_color_light_> ;
+    ns1:gender <Both> ;
+    ns1:image "Omega_Ruby_Alpha_Sapphire_Matt.png_size=150px" ;
+    ns1:name "Aqua_Admin" ;
+    ns2:anime "AG027_A_Three_Team_Scheme!" ;
+    ns2:games "_game_Ruby_and_Sapphire_s_Sapphire_,__v2_Emerald__pkmn_Omega_Ruby_and_Alpha_Sapphire_Alpha_Sapphire_" ;
+    ns2:image2 "Omega_Ruby_Alpha_Sapphire_Shelly.png_size2=125px" ;
+    ns2:intro "Generation_III" ;
+    ns2:jpname "アクアだんかんぶ" ;
+    ns2:jptrans "Team_Aqua_Executive" ;
+    ns2:jptranslit "Akua-dan_Kanbu" ;
+    ns2:manga "PS192_Stick_This_in_Your_Craw,_Crawdaunt!_I_(_pkmn_Adventures_)" ;
+    ns2:members "Matt,_Shelly_adv_Amber__tt_*_Adventures_only_" .
+
+ns2:Aroma_Lady a ns2:TrainerClass ;
+    ns1:bordercolor <_grass_color_dark_> ;
+    ns1:caption "VS_model_from__pkmn_Brilliant_Diamond_and_Shining_Pearl_" ;
+    ns1:color <_grass_color_> ;
+    ns1:corecolor <_grass_color_light_> ;
+    ns1:gender <Female> ;
+    ns1:image "VSAroma_Lady_BDSP.png_size=130px" ;
+    ns1:name "Aroma_Lady" ;
+    ns2:TCG "Evolving_Skies" ;
+    ns2:anime "M12_Arceus_and_the_Jewel_of_Life_(Pokémon_animated_series_Animated_series)" ;
+    ns2:card "_TCG_ID_Evolving_Skies_Aroma_Lady_141_" ;
+    ns2:games "_5v2_Ruby_Sapphire_Emerald_FireRed_LeafGreen__5v2_Diamond_Pearl_Platinum_HeartGold_SoulSilver__pkmn_Omega_Ruby_and_Alpha_Sapphire__pkmn_Brilliant_Diamond_and_Shining_Pearl__pkmn_Battrio_" ;
+    ns2:intro "Generation_III" ;
+    ns2:jpname "アロマなおねえさん" ;
+    ns2:jptrans "Aroma_Lady" ;
+    ns2:jptranslit "Aromana_Onēsan" ;
+    ns2:manga "PS319_Verily_Vanquishing_Vileplume_I_(_pkmn_Adventures_)" .
+
+ns2:Battle_Girl a ns2:TrainerClass ;
+    ns1:bordercolor <_fighting_color_dark_> ;
+    ns1:caption "VS_model_from__pkmn_Brilliant_Diamond_and_Shining_Pearl_" ;
+    ns1:color <_fighting_color_> ;
+    ns1:corecolor <_fighting_color_light_> ;
+    ns1:gender <Female_only> ;
+    ns1:image "VSBattle_Girl_BDSP.png_size=120px" ;
+    ns1:name "Battle_Girl" ;
+    ns2:anime "AG030_A_Meditite_Fight!" ;
+    ns2:counterpart "_tc_Black_Belt_" ;
+    ns2:games "_3v2_Ruby_Sapphire_Emerald__5v2_Diamond_Pearl_Platinum_HeartGold_SoulSilver__tt_*_In_HGSS,_Battle_Frontier_only__4v_Black_White__pkmn_X_and_Y_X,_Y_,__pkmn_Omega_Ruby_and_Alpha_Sapphire_Omega_Ruby,_and_Alpha_Sapphire__pkmn_Brilliant_Diamond_and_Shining_Pearl_" ;
+    ns2:intro "Generation_III" ;
+    ns2:jpname "バトルガール" ;
+    ns2:jptrans "Battle_Girl" ;
+    ns2:jptranslit "Batoru_Gāru" ;
+    ns2:manga "PS319_Verily_Vanquishing_Vileplume_I_(_pkmn_Adventures_)DPA25_Clash!_Hareta_vs._Koya_(_pkmn_Diamond_and_Pearl_Adventure!_)" ;
+    ns2:members "_ho_Shauna_" .
+
+ns2:Elite_Four a ns2:TrainerClass ;
+    ns1:bordercolor <_Pokémon_color_dark_> ;
+    ns1:caption "Artwork_of__ga_Chase__and__ga_Elaine__confronting_the_Kanto_Elite_Fourin__LGPE_" ;
+    ns1:color <_Pokémon_color_> ;
+    ns1:corecolor <_Pokémon_color_light_> ;
+    ns1:gender <Both> ;
+    ns1:image "PE_Elite_Four.png_size=300px" ;
+    ns1:name "Elite_Four" ;
+    ns2:anime "EP071_To_Master_the_Onixpected!_(_aniseries_PTS_)HZ018_Flying_Pikachu,_Rising_Higher_and_Higher!_(_aniseries_HZ_Horizons_)PO04_File_4:_Charizard_(_pkmn_Origins_)PG03_The_Challenger_(_pkmn_Generations_)PE04_The_Visionary_(_pkmn_Evolutions_)PPW01_Breathe_Out_(Pokémon:_Paldean_Winds_Paldean_Winds)" ;
+    ns2:games "_3v2_Red_Blue_Yellow__3v2_Gold_Silver_Crystal__5v2_Ruby_Sapphire_Emerald_FireRed_LeafGreen__5v2_Diamond_Pearl_Platinum_HeartGold_SoulSilver__4v_Black_White__pkmn_X_and_Y_X,_Y_,__pkmn_Omega_Ruby_and_Alpha_Sapphire_Omega_Ruby,_and_Alpha_Sapphire__pkmn_Sun_and_Moon_Sun,_Moon_,__pkmn_Ultra_Sun_and_Ultra_Moon_Ultra_Sun,_Ultra_Moon_,__LGPE_Lets_Go,_Pikachu!,_and_Lets_Go,_Eevee!__pkmn_Brilliant_Diamond_and_Shining_Pearl__pkmn_Scarlet_and_Violet__pkmn_Stadium_,__pkmn_Stadium_2__pkmn_Puzzle_League_,__pkmn_Puzzle_Challenge__pkmn_Masters_EX_" ;
+    ns2:intro "Generation_I" ;
+    ns2:jpname "四天王" ;
+    ns2:jptrans "The_Big_Four" ;
+    ns2:jptranslit "Shitennō" ;
+    ns2:manga "PS040_A_Charizard...and_a_Champion_(_pkmn_Adventures_)PZ10_(_pkmn_Zensho_)DPA24_Haretas_Hearts_Desire_(Pokémon_Diamond_and_Pearl_Adventure!_DPA!)HZM03_(_OBP_Anime_Pocket_Monsters:_Liko_and_Roys_Adventure_manga_)" ;
+    ns2:members "#In_the_core_series_games_See_list" .
+
+ns2:Gym_Leader a ns2:TrainerClass ;
+    ns1:bordercolor <_Pokémon_color_dark_> ;
+    ns1:caption "Artwork_from__g_Sword_and_Shield__of__ga_Victor__facing_Gym_Leader_Milo" ;
+    ns1:color <_Pokémon_color_> ;
+    ns1:corecolor <_Pokémon_color_light_> ;
+    ns1:gender <Both> ;
+    ns1:image "Sword_Shield_Gym_Challenge_artwork.png_size=250px" ;
+    ns1:name "Gym_Leader" ;
+    ns2:altnames "Pokémon_Leader_(Generation_I)ジムのムリーダー_(Gyms_Leader)__(Generation_I)Leader_(Generations__gen_I_-_gen_VI_)" ;
+    ns2:anime "EP001_Pokémon_-_I_Choose_You!_(_aniseries_PTS_)HZ010_Nemona_and_Brassius_and..._(_aniseries_HZ_Horizons_)PO01_File_1:_Red_(_pkmn_Origins_)PG02_The_Chase_(_pkmn_Generations_)TW01_Letter_(Pokémon:_Twilight_Wings_Twilight_Wings)PE01_The_Champion_(_pkmn_Evolutions_)PPW02_Breathe_Out_(Pokémon:_Paldean_Winds_Paldean_Winds)" ;
+    ns2:games "_3v2_Red_Blue_Yellow__3v2_Gold_Silver_Crystal__5v2_Ruby_Sapphire_Emerald_FireRed_LeafGreen__5v2_Diamond_Pearl_Platinum_HeartGold_SoulSilver__4v_Black_White__pkmn_X_and_Y_X,_Y_,__pkmn_Omega_Ruby_and_Alpha_Sapphire_Omega_Ruby,_and_Alpha_Sapphire_Pokémon:_Lets_Go,_Pikachu!_and_Lets_Go,_Eevee!_Lets_Go,_Pikachu!_and_Lets_Go,_Eevee!_pkmn_Sword_and_Shield_Sword,_Shield_,__pkmn_Brilliant_Diamond_and_Shining_Pearl_Brilliant_Diamond,_and_Shining_Pearl__pkmn_Scarlet_and_Violet__pkmn_Stadium_,__pkmn_Stadium_2__pkmn_Puzzle_League_,__pkmn_Puzzle_Challenge__pkmn_Masters_EX_" ;
+    ns2:intro "Generation_I" ;
+    ns2:jpname "ジムリーダー" ;
+    ns2:jptrans "Gym_Leader" ;
+    ns2:jptranslit "Jimu_Rīdā" ;
+    ns2:manga "PS005_Onix_Is_On!_(_pkmn_Adventures_)ET01_Pikachu,_I_See_You!_(The_Electric_Tale_of_Pikachu)PZ02_(_pkmn_Zensho_)GB02_Falkner,_the_Bird_Keepers_Challenge!!_(Pokémon_Gold_&_Silver:_The_Golden_Boys_The_Golden_Boys)JBA1_(Pocket_Monsters_HGSS_Jōs_Big_Adventure_HGSS_Jōs_Big_Adventure)" ;
+    ns2:members "#List_of_Gym_Leaders_See_list" .
+
+ns2:Magma_Admin a ns2:TrainerClass ;
+    ns1:bordercolor <_omega_ruby_color_dark_> ;
+    ns1:caption "Magma_Admins_Tabitha_and_Courtney_in__pkmn_Omega_Ruby_and_Alpha_Sapphire_" ;
+    ns1:color <_omega_ruby_color_> ;
+    ns1:corecolor <_omega_ruby_color_light_> ;
+    ns1:gender <Both> ;
+    ns1:image "Omega_Ruby_Alpha_Sapphire_Tabitha.png_size=150px" ;
+    ns1:name "Magma_Admin" ;
+    ns2:anime "AG027_A_Three-Team_Scheme!_(Pokémon_animated_series_Animated_series)" ;
+    ns2:games "_game_Ruby_and_Sapphire_s_Ruby_,__v2_Emerald__pkmn_Omega_Ruby_and_Alpha_Sapphire_Omega_Ruby_" ;
+    ns2:image2 "Omega_Ruby_Alpha_Sapphire_Courtney.png_size2=105px" ;
+    ns2:intro "Generation_III" ;
+    ns2:jpname "マグマだんかんぶ" ;
+    ns2:jptrans "Team_Magma_Executive" ;
+    ns2:jptranslit "Magma-dan_Kanbu" ;
+    ns2:manga "PS199_Adding_It_Up_with_Plusle_&_Minun_II_(_pkmn_Adventures_)" ;
+    ns2:members "Tabitha,_CourtneyBlaise_tt_*_Adventures_only_" .
+
+ns2:Pokémon_Breeder a ns2:TrainerClass ;
+    ns1:bordercolor <_grass_color_dark_> ;
+    ns1:caption "VS_models_from__pkmn_Brilliant_Diamond_and_Shining_Pearl_" ;
+    ns1:color <_grass_color_> ;
+    ns1:corecolor <_grass_color_light_> ;
+    ns1:gender <Both_tt_*_In_FRLG,_female_only_> ;
+    ns1:image "VSPokémon_Breeder_M_BDSP.png_size=180px" ;
+    ns1:name "Pokémon_Breeder" ;
+    ns2:TCG "Base_Set" ;
+    ns2:anime "EP005_Showdown_in_Pewter_City_(Pokémon_animated_series_Animated_series)PE04_The_Plan_(_pkmn_Evolutions_)" ;
+    ns2:card "_TCG_ID_Base_Set_Pokémon_Breeder_76_" ;
+    ns2:games "_5v2_Ruby_Sapphire_Emerald_FireRed_LeafGreen__5v2_Diamond_Pearl_Platinum_HeartGold_SoulSilver__4v_Black_White__pkmn_X_and_Y_X,_Y_,__pkmn_Omega_Ruby_and_Alpha_Sapphire_Omega_Ruby,_and_Alpha_Sapphire__pkmn_Sun_and_Moon_Sun,_Moon_,__pkmn_Ultra_Sun_and_Ultra_Moon_Ultra_Sun,_and_Ultra_Moon__pkmn_Sword_and_Shield_Sword,_Shield_,__pkmn_Brilliant_Diamond_and_Shining_Pearl_Brilliant_Diamond,_and_Shining_Pearl__pkmn_Battrio__pkmn_Masters_EX_-->" ;
+    ns2:image2 "VSPokémon_Breeder_F_BDSP.png_size2=180px" ;
+    ns2:intro "Generation_III" ;
+    ns2:jpname "ポケモンブリーダー" ;
+    ns2:jptrans "Pokémon_Breeder" ;
+    ns2:jptranslit "Pokémon_Burīdā" ;
+    ns2:members "Day-Care_Couple,__adv_Gold__(for_breeders_in_animation,_please_see_#Notable_Breeders_the_list_below)" .
+
+<Both_tt_*_In_FRLG,_female_only_> a <http://schema.org/gender> .
+
+<Female> a <http://schema.org/gender> .
+
+<Female_only> a <http://schema.org/gender> .
+
+<_alpha_sapphire_color_> a <http://schema.org/color> .
+
+<_alpha_sapphire_color_dark_> a <http://schema.org/color> .
+
+<_alpha_sapphire_color_light_> a <http://schema.org/color> .
+
+<_fighting_color_> a <http://schema.org/color> .
+
+<_fighting_color_dark_> a <http://schema.org/color> .
+
+<_fighting_color_light_> a <http://schema.org/color> .
+
+<_omega_ruby_color_> a <http://schema.org/color> .
+
+<_omega_ruby_color_dark_> a <http://schema.org/color> .
+
+<_omega_ruby_color_light_> a <http://schema.org/color> .
+
+<_Pokémon_color_> a <http://schema.org/color> .
+
+<_Pokémon_color_dark_> a <http://schema.org/color> .
+
+<_Pokémon_color_light_> a <http://schema.org/color> .
+
+<_grass_color_> a <http://schema.org/color> .
+
+<_grass_color_dark_> a <http://schema.org/color> .
+
+<_grass_color_light_> a <http://schema.org/color> .
+
+<Both> a <http://schema.org/gender> .
+

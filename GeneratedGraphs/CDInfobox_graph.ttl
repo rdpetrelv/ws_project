@@ -1,0 +1,817 @@
+@prefix ns1: <http://example.org/property/> .
+@prefix ns2: <http://example.org/resource/cd/> .
+
+ns2:10th_Anniversary_Pokémon_Happy_Birthday_Concert a ns2:CD .
+
+ns2:2024_Pokémon_World_Championships a ns2:CD ;
+    ns1:caption "Album_cover" ;
+    ns1:image "2024_Pokémon_World_Championships_album_cover.jpg" ;
+    ns1:name "2024_Pokémon_World_Championships" ;
+    ns2:by "Pokémon" ;
+    ns2:catalogue_number "N/A" ;
+    ns2:colorscheme "Alola" ;
+    ns2:date "August_8,_2024" ;
+    ns2:image_size "200px" ;
+    ns2:tracks "10" .
+
+ns2:24_-twenty_four- a ns2:CD ;
+    ns1:caption "Cover_art" ;
+    ns1:image "24_twenty_four.png" ;
+    ns1:name "24_-twenty_four-" ;
+    ns2:by "DefSTAR_RECORDS" ;
+    ns2:catalogue_number "DFCL-1288/9_tt_*_Limited_Edition_,_DFCL-1290_tt_*_Regular_Edition_" ;
+    ns2:colorscheme "Frontier" ;
+    ns2:date "July_12,_2006" ;
+    ns2:image_size "250" ;
+    ns2:tracks "13" .
+
+ns2:ALIVE a ns2:CD ;
+    ns1:caption "Limited_Edition_cover_art" ;
+    ns1:image "ALIVE_Limited_Edition_CD.jpg" ;
+    ns1:name "ALIVE" ;
+    ns2:by "_wp_Ariola_Japan__" ;
+    ns2:catalogue_number "BVCL-1415〜1416_tt_*_Limited_Edition_A_BVCL-1417〜1418_tt_*_Limited_Edition_B_BVCL-1419_tt_*_Regular_Edition_BVCL-1420_tt_*_Member_Solo_Jacket_Edition_YUJIN_ver._BVCL-1421_tt_*_Member_Solo_Jacket_Edition_GAEUL_ver._BVCL-1422_tt_*_Member_Solo_Jacket_Edition_REI_ver._BVCL-1423_tt_*_Member_Solo_Jacket_Edition_WONYOUNG_ver._BVCL-1424_tt_*_Member_Solo_Jacket_Edition_LIZ_ver._BVCL-1425_tt_*_Member_Solo_Jacket_Edition_LEESEO_ver._BVCL-1426_tt_*_Limited_Edition_" ;
+    ns2:colorscheme "Paldea" ;
+    ns2:date "August_28,_2024" ;
+    ns2:image_size "250" ;
+    ns2:subtitled "ALIVE" ;
+    ns2:tracks "5_tt_*_Limited_Edition_A/Limited_Edition_B/Regular_Edition/Member_Solo_Jacket_Edition_6_tt_*_Limited_Edition_" .
+
+ns2:A_Small_Thing_\(single\) a ns2:CD .
+
+ns2:Acacia___Gravity a ns2:CD .
+
+ns2:Advance_Adventure_\(CD\) a ns2:CD .
+
+ns2:Aim_for_that_Hill_\(single\) a ns2:CD .
+
+ns2:Aim_to_Be_a_Pokémon_Master_\(CD\) a ns2:CD .
+
+ns2:Aim_to_Be_a_Pokémon_Master_-20th_Anniversary- a ns2:CD ;
+    ns1:caption "Regular_Edition_cover_art" ;
+    ns1:image "Aim_to_Be_a_Pokémon_Master_20th_Anniversary_CD.png" ;
+    ns1:name "Aim_to_Be_a_Pokémon_Master_-20th_Anniversary-" ;
+    ns2:by "_wp_Sony_Music_Entertainment_Japan_SME_Records_" ;
+    ns2:catalogue_number "SECL-2227/2228_tt_*_Limited_Edition_,_SECL-2229_tt_*_Regular_Edition_" ;
+    ns2:colorscheme "Alola_" ;
+    ns2:date "November_29,_2017" ;
+    ns2:image_size "250" ;
+    ns2:subtitled "めざせポケモンマスター_-20th_Anniversary-" ;
+    ns2:tracks "9" .
+
+ns2:Aim_to_Be_a_Pokémon_Master___One_Hundred_Fifty-One a ns2:CD .
+
+<http://example.org/resource/cd/Alola!!___Pose> a ns2:CD .
+
+ns2:Antenna_of_the_Heart_\(single\) a ns2:CD .
+
+<http://example.org/resource/cd/Arceus:_To_a_Conquering_Spacetime_Music_Collection> a ns2:CD .
+
+ns2:Battle_Frontier_\(CD\) a ns2:CD .
+
+<http://example.org/resource/cd/Best_Wishes!___Fanfare_of_the_Heart> a ns2:CD .
+
+ns2:Biri-Biri a ns2:CD ;
+    ns1:caption "CD_+_T-Shirt_(White)_cover_art" ;
+    ns1:image "Biri-Biri_White.jpg" ;
+    ns1:name "Biri-Biri" ;
+    ns2:by "_wp_YOASOBI_" ;
+    ns2:catalogue_number "XSCL-80~81_tt_*_CD_+_T-Shirt_(White)_XSCL-82~83_tt_*_CD_+_T-Shirt_(Black)_XSJL-1_tt_*_Scarlet_Disc_XSJL-2_tt_*_Violet_Disc_" ;
+    ns2:colorscheme "Paldea" ;
+    ns2:date "March_13,_2024" ;
+    ns2:image_size "250" ;
+    ns2:subtitled "Biri-Biri" ;
+    ns2:tracks "3" .
+
+ns2:Breath a ns2:CD ;
+    ns1:caption "Anime_Edition_cover_art" ;
+    ns1:image "Breath_Anime.png" ;
+    ns1:name "Breath" ;
+    ns2:by "_wp_Sony_Music_Entertainment_Japan_SME_Records_" ;
+    ns2:catalogue_number "SECL-2307/8_tt_*_Limited_Edition_,_SECL-2309_tt_*_Regular_Edition_,_SECL-2310/11_tt_*_Anime_Edition_" ;
+    ns2:colorscheme "SM_" ;
+    ns2:date "July_25,_2018" ;
+    ns2:image_size "x250" ;
+    ns2:subtitled "ブレス" ;
+    ns2:tracks "_tt_3_Regular_and_Limited_Edition_/_tt_4_Anime_Edition_" .
+
+<http://example.org/resource/cd/Can_You_Draw_All_the_Pokémon?_(CD)> a ns2:CD .
+
+<http://example.org/resource/cd/Can_You_Name_All_the_Pokémon?_BW_(single)> a ns2:CD .
+
+<http://example.org/resource/cd/Can_You_Name_All_the_Pokémon_Neo?_(single)> a ns2:CD .
+
+<http://example.org/resource/cd/Can_You_Name_Draw_All_The_Pokémon?_(video)> a ns2:CD .
+
+<http://example.org/resource/cd/Can_You_Play_Pokémon?> a ns2:CD .
+
+<http://example.org/resource/cd/Celebi:_Encounter_Beyond_Time_Original_Soundtrack> a ns2:CD .
+
+<http://example.org/resource/cd/Challenger!!_(CD)> a ns2:CD .
+
+ns2:Daybreak_Meteor_Shower_\(CD\) a ns2:CD .
+
+ns2:Dialga_vs._Palkia_vs._Darkrai_Music_Collection a ns2:CD .
+
+<http://example.org/resource/cd/Don't_Say_You_Love_Me_(single)> a ns2:CD .
+
+ns2:DreamDream_\(single\) a ns2:CD .
+
+<http://example.org/resource/cd/Emperor_of_the_Crystal_Tower:_Entei_Music_Collection> a ns2:CD .
+
+ns2:Everyones_StoryMusic_Collection a ns2:CD ;
+    ns1:caption "CD_cover_art" ;
+    ns1:image "Everyones_Story_Music_Collection.png" ;
+    ns1:name "Everyones_StoryMusic_Collection" ;
+    ns2:by "Sony_Music_Direct" ;
+    ns2:catalogue_number "MHCL-30532" ;
+    ns2:colorscheme "Alola_" ;
+    ns2:date "July_25,_2018" ;
+    ns2:image_size "250" ;
+    ns2:tracks "51" .
+
+ns2:Exciting_Pokémon_Relay_\(single\) a ns2:CD .
+
+<http://example.org/resource/cd/Exclusive_Target_Mix!> a ns2:CD .
+
+<http://example.org/resource/cd/Exclusive_Toys_R_Us_Mix!> a ns2:CD .
+
+<http://example.org/resource/cd/ExtremeSpeed_Genesect:_Mewtwo_Awakens___Pikachu_and_Eevee_Friends_Music_Collection> a ns2:CD .
+
+<http://example.org/resource/cd/Face_Forward_Team_Rocket!_(single)> a ns2:CD .
+
+<http://example.org/resource/cd/Full_of_Energy!!_Pokémon_Song_Collection> a ns2:CD .
+
+ns2:Future_Connection a ns2:CD ;
+    ns1:caption "Limited_Edition_cover_art" ;
+    ns1:image "Future_Connection_Limited.png" ;
+    ns1:name "Future_Connection" ;
+    ns2:by "_wp_Sony_Music_Entertainment_Japan_SME_Records__" ;
+    ns2:catalogue_number "SECL-2286_tt_*_Regular_Edition_SECL-2287/88_tt_*_Limited_Edition_" ;
+    ns2:colorscheme "Alola" ;
+    ns2:date "May_2,_2018" ;
+    ns2:image_size "250" ;
+    ns2:subtitled "未来コネクション" ;
+    ns2:tracks "_tt_4_Regular_Edition_/_tt_5_Limited_Edition_" .
+
+<http://example.org/resource/cd/Game_Boy:_Entire_Pokémon_Sounds_Collection_CD> a ns2:CD .
+
+<http://example.org/resource/cd/Giratina_and_the_Sky's_Bouquet:_Shaymin_Music_Collection> a ns2:CD .
+
+<http://example.org/resource/cd/Guardian_Gods_of_the_City_of_Water:_Latias_and_Latios_Music_Collection> a ns2:CD .
+
+ns2:Halo a ns2:CD ;
+    ns1:caption "Regular_Edition_cover_art" ;
+    ns1:image "Halo_cover.png" ;
+    ns1:name "Halo" ;
+    ns2:by "_wp_Sony_Music_Entertainment_Japan_Sony_Music_Labels__" ;
+    ns2:catalogue_number "SRCL-12707/12708_tt_*_Limited_Edition_SRCL-12709_tt_*_Regular_Edition_" ;
+    ns2:colorscheme "Paldea" ;
+    ns2:date "December_13,_2023" ;
+    ns2:image_size "250" ;
+    ns2:subtitled "ハロ" ;
+    ns2:tracks "4_tt_*_Limited_Edition_3_tt_*_Regular_Edition_" .
+
+ns2:Have_a_Good_Time_Here a ns2:CD ;
+    ns1:caption "Cover_art" ;
+    ns1:image "Have_a_Good_Time_Here_cover.jpg" ;
+    ns1:name "Have_a_Good_Time_Here" ;
+    ns2:by "Warner_Music_Japan" ;
+    ns2:catalogue_number "WPCL-13527" ;
+    ns2:colorscheme "Hoso" ;
+    ns2:date "December_13,_2023" ;
+    ns2:image_size "250" ;
+    ns2:subtitled "君の居場所（Have_a_Good_Time_Here）" ;
+    ns2:tracks "8" .
+
+ns2:Heart-Pounding_Diary a ns2:CD ;
+    ns1:caption "Limited_Edition_cover_art" ;
+    ns1:image "Heart-Pounding_Diary_Limited.png" ;
+    ns1:name "Heart-Pounding_Diary" ;
+    ns2:by "_wp_Sony_Music_Entertainment_Japan_SME_Records__" ;
+    ns2:catalogue_number "SRCL-12525/12526_tt_*_Deluxe_Limited_Edition_SRCL-12527_tt_*_Regular_Edition_SRCL-12528/12529_tt_*_Limited_Edition_" ;
+    ns2:colorscheme "Paldea" ;
+    ns2:date "May_31,_2023" ;
+    ns2:image_size "250" ;
+    ns2:subtitled "ドキメキダイアリー" ;
+    ns2:tracks "7" .
+
+<http://example.org/resource/cd/Hello!_Thank_You!_(single)> a ns2:CD .
+
+ns2:Hide_and_Seek_\(single\) a ns2:CD .
+
+<http://example.org/resource/cd/High_Touch!_2009_(CD)> a ns2:CD .
+
+<http://example.org/resource/cd/High_Touch!___Surely_Tomorrow> a ns2:CD .
+
+<http://example.org/resource/cd/I_Choose_You!Music_Collection> a ns2:CD ;
+    ns1:caption "CD_cover_art" ;
+    ns1:image "I_Choose_You_Music_Collection.png" ;
+    ns1:name "I_Choose_You!Music_Collection" ;
+    ns2:by "Sony_Music_Direct" ;
+    ns2:catalogue_number "MHCL-30464" ;
+    ns2:colorscheme "Alola_" ;
+    ns2:date "July_26,_2017" ;
+    ns2:image_size "250" ;
+    ns2:tracks "56" .
+
+ns2:I_Will_Be_With_You_\(single\) a ns2:CD .
+
+ns2:Koko_Music_Collection a ns2:CD ;
+    ns1:caption "CD_cover_art" ;
+    ns1:image "Koko_Music_Collection.png" ;
+    ns1:name "Koko_Music_Collection" ;
+    ns2:by "primo_passoSony_Music_Direct" ;
+    ns2:catalogue_number "MHCL-30664" ;
+    ns2:colorscheme "Galar_" ;
+    ns2:date "December_23,_2020" ;
+    ns2:image_size "250" ;
+    ns2:tracks "38" .
+
+ns2:Koko_Theme_Song_Collection a ns2:CD ;
+    ns1:caption "Regular_Edition_cover_art" ;
+    ns1:image "Koko_Theme_Song_Collection.png" ;
+    ns1:name "Koko_Theme_Song_Collection" ;
+    ns2:by "_wp_Sony_Music_Entertainment_Japan_SME_Records_" ;
+    ns2:catalogue_number "SECL-2580/1_tt_*_Limited_Edition_SECL-2582_tt_*_Regular_Edition_" ;
+    ns2:colorscheme "Galar_" ;
+    ns2:date "December_23,_2020" ;
+    ns2:image_size "250" ;
+    ns2:tracks "10" .
+
+<http://example.org/resource/cd/Kyurem_VS_the_Sacred_Swordsman:_Keldeo___Meloetta's_Dazzling_Recital_Music_Collection> a ns2:CD .
+
+<http://example.org/resource/cd/Let's_Join_Hands___Forbidden_Karma> a ns2:CD .
+
+<http://example.org/resource/cd/Let's_Trade_Please_(CD)> a ns2:CD .
+
+ns2:Let_me_battle a ns2:CD ;
+    ns1:caption "Limited_Edition_cover_art" ;
+    ns1:image "Let_me_battle_Limited_Edition_Art.png" ;
+    ns1:name "Let_me_battle" ;
+    ns2:by "_wp_Sony_Music_Entertainment_Japan_Sony_Music_Labels_" ;
+    ns2:catalogue_number "SRCL-12945~12947_tt_*_Limited_Edition_SRCL-12948_tt_*_Regular_Edition_" ;
+    ns2:colorscheme "Paldea" ;
+    ns2:date "September_4,_2024" ;
+    ns2:image_size "250" ;
+    ns2:tracks "12" .
+
+<http://example.org/resource/cd/Lets_Dance_with_Pokémon_with_J☆DeeZ> a ns2:CD ;
+    ns1:caption "CD_cover_art" ;
+    ns1:image "Lets_Dance_with_Pokémon_with_JDeeZ.jpg" ;
+    ns1:name "Lets_Dance_with_Pokémon_with_J☆DeeZ" ;
+    ns2:by "_wp_Sony_Music_Entertainment_Japan_Sony_Music_Records_" ;
+    ns2:catalogue_number "SRCL-8570-1" ;
+    ns2:colorscheme "Kalos" ;
+    ns2:date "July_23,_2014" ;
+    ns2:image_size "250" ;
+    ns2:subtitled "ポケモンで踊ろう_with_J☆DeeZ" ;
+    ns2:tracks "4" .
+
+ns2:Limited_FOV_of_a_Shut-In a ns2:CD ;
+    ns1:caption "Regular_Edition_cover_art" ;
+    ns1:image "Limited_FOV_of_a_Shut-In.png" ;
+    ns1:name "Limited_FOV_of_a_Shut-In" ;
+    ns2:by "_wp_JVC_Kenwood_Victor_Entertainment_Victor_Entertainment_" ;
+    ns2:catalogue_number "VIZL-1394/5_tt_*_Limited_Edition_VICL-65022_tt_*_Regular_Edition_" ;
+    ns2:colorscheme "LGPE" ;
+    ns2:date "July_4,_2018" ;
+    ns2:image_size "250" ;
+    ns2:subtitled "ひきこもり情報弱者" ;
+    ns2:tracks "12" .
+
+<http://example.org/resource/cd/L·O·V·E·L·Y_~Dreaming_LOVELY_BOY~_(single)> a ns2:CD .
+
+ns2:Mad-Paced_Getter_\(single\) a ns2:CD .
+
+ns2:Maiden_War a ns2:CD .
+
+ns2:Mailing_out_My_Voice a ns2:CD ;
+    ns1:caption "Limited_Pokémon_Edition_cover_art" ;
+    ns1:image "Mailing_out_My_Voice_Limited_Pokémon.jpg" ;
+    ns1:name "Mailing_out_My_Voice" ;
+    ns2:by "_wp_Epic/Sony_Records_Epic_Records_Japan_" ;
+    ns2:catalogue_number "ESCL-4640/1_tt_*_Limited_Edition_,_ESCL-4642_tt_*_Regular_Edition_,_ESCL-4643_tt_*_Limited_Pokémon_Edition_" ;
+    ns2:colorscheme "XYZ" ;
+    ns2:date "July_13,_2016" ;
+    ns2:image_size "250" ;
+    ns2:subtitled "ポストに声を投げ入れて" ;
+    ns2:tracks "_tt_1_Limited_Pokémon_Edition_/_tt_2_Regular_and_Limited_Edition_" .
+
+ns2:Marching_March_\(single\) a ns2:CD .
+
+ns2:Mega_V___Sunshine a ns2:CD .
+
+ns2:Memories_\(single\) a ns2:CD .
+
+ns2:Message_of_the_Wind_\(CD\) a ns2:CD .
+
+<http://example.org/resource/cd/Mew_and_the_Wave-Guiding_Hero:_Lucario_Music_Collection> a ns2:CD .
+
+ns2:Mewtwo_Strikes_Back_EvolutionMusic_Collection a ns2:CD ;
+    ns1:caption "CD_cover_art" ;
+    ns1:image "Mewtwo_Strikes_Back_Evolution_Music_Collection.png" ;
+    ns1:name "Mewtwo_Strikes_Back_EvolutionMusic_Collection" ;
+    ns2:by "primo_passoSony_Music_Direct" ;
+    ns2:catalogue_number "MHCL-30606~8,_MHCL-30609" ;
+    ns2:colorscheme "Alola_" ;
+    ns2:date "July_24,_2019" ;
+    ns2:image_size "250" ;
+    ns2:tracks "N/A" .
+
+<http://example.org/resource/cd/Mirage_Pokémon:_Lugia's_Explosive_Birth_Music_Collection> a ns2:CD .
+
+ns2:Music_from_4Kids_TV a ns2:CD ;
+    ns1:caption "CD_cover_art" ;
+    ns1:image "4Kids_CD.png" ;
+    ns1:name "Music_from_4Kids_TV" ;
+    ns2:by "4Kids_Entertainment_and_Cherry_Lane_Publishing" ;
+    ns2:catalogue_number "N/A" ;
+    ns2:colorscheme "Hoso" ;
+    ns2:date "October_18,_2005" ;
+    ns2:subtitled "" ;
+    ns2:tracks "18" .
+
+ns2:Nijirald___Chan-Dan a ns2:CD .
+
+<http://example.org/resource/cd/OK!_(single)> a ns2:CD .
+
+ns2:ONE_\(single\) a ns2:CD .
+
+ns2:OT_WORKS a ns2:CD ;
+    ns1:caption "Limited_Edition_cover_art" ;
+    ns1:image "OT_WORKS_Limited.png" ;
+    ns1:name "OT_WORKS" ;
+    ns2:by "_wp_Sony_Music_Entertainment_Japan_SME_Records_" ;
+    ns2:catalogue_number "SECL-2282/3_tt_*_Limited_Edition_SECL-2284_tt_*_Regular_Edition_" ;
+    ns2:colorscheme "Alola" ;
+    ns2:date "April_25,_2018" ;
+    ns2:image_size "250" ;
+    ns2:tracks "_tt_12_Regular_Edition_/_tt_12+8_Limited_Edition_" .
+
+ns2:PARADISE_Endless_Fighters a ns2:CD .
+
+ns2:PREZENT a ns2:CD ;
+    ns1:caption "CD_cover" ;
+    ns1:image "PREZENT_Limited_Anime_Edition.jpg" ;
+    ns1:name "PREZENT" ;
+    ns2:by "ZEROBASEONE" ;
+    ns2:catalogue_number "BVCL-1442_tt_*_Limited_Edition_A_BVCL-1444_tt_*_Limited_Edition_B_BVCL-1446_tt_*_Regular_Edition_BVCL-1447_tt_*_Limited_Anime_Edition_" ;
+    ns2:colorscheme "Paldea" ;
+    ns2:date "January_29,_2025" ;
+    ns2:image_size "250" ;
+    ns2:subtitled "PREZENT" ;
+    ns2:tracks "6" .
+
+ns2:Pika_Pika_Massaichu_\(CD\) a ns2:CD .
+
+<http://example.org/resource/cd/Pikachu's_Winter_Vacation_Soundtrack> a ns2:CD .
+
+ns2:Pikachu_the_Movie_Song_Best_1998-2008 a ns2:CD .
+
+ns2:Please_Let_There_Be_Good_Weather_Tomorrow_\(single\) a ns2:CD .
+
+<http://example.org/resource/cd/Pocket_Monsters:_Liko_and_Roys_Adventure_Original_Soundtrack> a ns2:CD ;
+    ns1:caption "CD_cover_art" ;
+    ns1:image "Pocket_Monsters_Liko_and_Roy_Adventure_Original_Soundtrack.png" ;
+    ns1:name "Pocket_Monsters:_Liko_and_Roys_Adventure_Original_Soundtrack" ;
+    ns2:by "primo_passo" ;
+    ns2:catalogue_number "MHCL-30990" ;
+    ns2:colorscheme "Paldea" ;
+    ns2:date "June_19,_2024" ;
+    ns2:image_size "250" ;
+    ns2:subtitled "テレビアニメ「ポケットモンスター　リコとロイの冒険」オリジナル・サウンドトラック" ;
+    ns2:tracks "42" .
+
+<http://example.org/resource/cd/Pocket_Monsters_AG_(New_&_Best)> a ns2:CD .
+
+<http://example.org/resource/cd/Pocket_Monsters_Best_Wishes!_Season_2_(CD)> a ns2:CD .
+
+ns2:Pocket_Monsters_OST_\(Vol._1\) a ns2:CD .
+
+ns2:Pocket_Monsters_OST_\(Vol._2\) a ns2:CD .
+
+ns2:Pocket_Monsters_Original_Soundtrack a ns2:CD ;
+    ns1:caption "CD_cover_art" ;
+    ns1:image "Pocket_Monsters_TV_Anime_Original_Soundtrack.png",
+        "Pocket_Monsters_TV_Anime_Original_Soundtrack_Volume_2.png" ;
+    ns1:name "Pocket_Monsters_Original_Soundtrack" ;
+    ns2:by "primo_passo" ;
+    ns2:catalogue_number "MHCL-30658",
+        "MHCL-30727MHXX-03998_(Deluxe_Edition)" ;
+    ns2:colorscheme "Galar_" ;
+    ns2:date "June_22,_2022",
+        "November_4,_2020" ;
+    ns2:image_size "250" ;
+    ns2:subtitled "テレビアニメ「ポケットモンスター」オリジナル・サウンドトラック",
+        "テレビアニメ「ポケットモンスター」オリジナル・サウンドトラックVol.2" ;
+    ns2:tracks "4255_(Deluxe_Edition)",
+        "58" .
+
+ns2:Pocket_Monsters_Original_Soundtrack_Best a ns2:CD .
+
+ns2:Pocket_Monsters_Sound_Anime_Collection a ns2:CD .
+
+<http://example.org/resource/cd/Pocket_Monsters_XY&Z_TV_Anime_Character_Song_Project_Collection_Volume_1> a ns2:CD .
+
+<http://example.org/resource/cd/Pocket_Monsters_XY&Z_TV_Anime_Character_Song_Project_Collection_Volume_2> a ns2:CD .
+
+<http://example.org/resource/cd/Pokémon:_Let's_Go,_Pikachu!_&_Pokémon:_Let's_Go,_Eevee!_Super_Music_Collection> a ns2:CD .
+
+<http://example.org/resource/cd/Pokémon:_Mewtwo_Strikes_Back—Evolution> a ns2:CD ;
+    ns1:caption "Cover_art" ;
+    ns1:image "Pokémon_Mewtwo_Strikes_Back_Evolution_single.png" ;
+    ns1:name "Pokémon:_Mewtwo_Strikes_Back—Evolution" ;
+    ns2:by "The_Pokémon_Company_International" ;
+    ns2:catalogue_number "N/A" ;
+    ns2:colorscheme "Alola_" ;
+    ns2:date "September_7,_2021" ;
+    ns2:image_size "250" ;
+    ns2:tracks "2" .
+
+ns2:Pokémon_2.B.A._Master a ns2:CD .
+
+<http://example.org/resource/cd/Pokémon_25:_The_Album> a ns2:CD ;
+    ns1:caption "Pokémon_25:_The_Album_cover" ;
+    ns1:image "Pokémon_25_The_Album_cover.png" ;
+    ns1:name "Pokémon_25:_The_Album" ;
+    ns2:by "_wp_Capitol_Records_" ;
+    ns2:catalogue_number "N/A" ;
+    ns2:colorscheme "Galar" ;
+    ns2:date "October_15,_2021" ;
+    ns2:image_size "x200" ;
+    ns2:tracks "14" .
+
+<http://example.org/resource/cd/Pokémon_25:_The_Blue_EP> a ns2:CD ;
+    ns1:caption "Pokémon_25:_The_Blue_EP_cover" ;
+    ns1:image "Pokémon_25_The_Blue_EP_cover.png" ;
+    ns1:name "Pokémon_25:_The_Blue_EP" ;
+    ns2:by "_wp_Capitol_Records_" ;
+    ns2:catalogue_number "N/A" ;
+    ns2:colorscheme "Galar" ;
+    ns2:date "August_20,_2021" ;
+    ns2:image_size "x200" ;
+    ns2:tracks "3" .
+
+<http://example.org/resource/cd/Pokémon_25:_The_Red_EP> a ns2:CD ;
+    ns1:caption "Pokémon_25:_The_Red_EP_cover" ;
+    ns1:image "Pokémon_25_The_Red_EP_cover.png" ;
+    ns1:name "Pokémon_25:_The_Red_EP" ;
+    ns2:by "_wp_Capitol_Records_" ;
+    ns2:catalogue_number "N/A" ;
+    ns2:colorscheme "Galar" ;
+    ns2:date "August_6,_2021" ;
+    ns2:image_size "x200" ;
+    ns2:tracks "3" .
+
+<http://example.org/resource/cd/Pokémon_3:_The_Ultimate_Soundtrack> a ns2:CD .
+
+<http://example.org/resource/cd/Pokémon_Black_&_Pokémon_White:_Super_Music_Collection> a ns2:CD .
+
+<http://example.org/resource/cd/Pokémon_Black_2_&_Pokémon_White_2:_Super_Music_Collection> a ns2:CD .
+
+ns2:Pokémon_Christmas_Bash a ns2:CD .
+
+ns2:Pokémon_Daily_Express_CD-ROM a ns2:CD .
+
+ns2:Pokémon_Detective_PikachuOriginal_Motion_Picture_Soundtrack a ns2:CD ;
+    ns1:caption "Cover_art" ;
+    ns1:image "Pokémon_Detective_Pikachu_Original_Motion_Picture_Soundtrack.png" ;
+    ns1:name "Pokémon_Detective_PikachuOriginal_Motion_Picture_Soundtrack" ;
+    ns2:by "_wp_Sony_Classical_Records_Sony_Classical__wp_Sony_Music_Entertainment_Japan_Sony_Music_Japan_International__tt_*_Japan_" ;
+    ns2:catalogue_number "19075943872SICP-6096_tt_*_Japan_" ;
+    ns2:colorscheme "Pika_" ;
+    ns2:date "May_3,_2019" ;
+    ns2:image_size "250" ;
+    ns2:tracks "_tt_27_International_/_tt_28_Japan_" .
+
+<http://example.org/resource/cd/Pokémon_Diamond_&_Pokémon_Pearl:_Super_Music_Collection> a ns2:CD .
+
+<http://example.org/resource/cd/Pokémon_FireRed_&_Pokémon_LeafGreen:_Super_Music_Collection> a ns2:CD .
+
+<http://example.org/resource/cd/Pokémon_Gotta_Catch_'em_Live!> a ns2:CD .
+
+<http://example.org/resource/cd/Pokémon_Gotta_Catch_the_Sound!> a ns2:CD .
+
+<http://example.org/resource/cd/Pokémon_Healing_~Listening_to_healing_music_with_Psyduck> a ns2:CD ;
+    ns1:caption "Cover_art" ;
+    ns1:image "Pokémon_Healing_Listening_to_healing_music_with_Psyduck.png" ;
+    ns1:name "Pokémon_Healing_~Listening_to_healing_music_with_Psyduck" ;
+    ns2:by "_jwp_デラ_Della_Inc._" ;
+    ns2:catalogue_number "DLLS-101" ;
+    ns2:colorscheme "SS_" ;
+    ns2:date "December_13,_2019" ;
+    ns2:image_size "250" ;
+    ns2:subtitled "ポケモン・ヒーリング～コダックと聴く癒しの音楽" ;
+    ns2:tracks "8" .
+
+<http://example.org/resource/cd/Pokémon_HeartGold_&_Pokémon_SoulSilver:_Super_Music_Collection> a ns2:CD ;
+    ns1:caption "English_front-cover_album_artwork,_featuring__p_Ho-Oh__and__p_Lugia_" ;
+    ns1:image "Pokémon_HeartGold_Pokémon_SoulSilver_Super_Music_Collection.png" ;
+    ns1:name "Pokémon_HeartGold_&_Pokémon_SoulSilver:_Super_Music_Collection" ;
+    ns2:by "The_Pokémon_CompanyPikachu_Records_(_wp_Media_Factory_)" ;
+    ns2:catalogue_number "ZMCP-5243" ;
+    ns2:colorscheme "HGSS_" ;
+    ns2:date "Japan:October_28,_2009_(physical_album)July_25,_2012_(iTunes)[http://www.pocketmonsters.net/articles/1385/_Pokémon_Game_Soundtracks_to_be_Released_on_iTunes_-_Pocketmonsters.Net]International:January_14,_2014_(iTunes)" ;
+    ns2:image_size "250" ;
+    ns2:subtitled "ニンテンドーDS_ポケモン_ハートゴールド&ソウルシルバー_ミュージック・スーパーコンプリート" ;
+    ns2:tracks "270" .
+
+ns2:Pokémon_LEGENDS_Arceus_Super_Music_Collection a ns2:CD .
+
+ns2:Pokémon_Movie_Anime_Theme_Song_Collection a ns2:CD .
+
+ns2:Pokémon_Movie_Music_Collection a ns2:CD ;
+    ns1:caption "Cover_art" ;
+    ns1:image "Pokémon_Movie_Music_Collection.png" ;
+    ns1:name "Pokémon_Movie_Music_Collection" ;
+    ns2:by "_TPCi_Pokémon_" ;
+    ns2:catalogue_number "N/A" ;
+    ns2:colorscheme "Kalos_" ;
+    ns2:date "December_23,_2017" ;
+    ns2:image_size "250" ;
+    ns2:tracks "11" .
+
+ns2:Pokémon_Music_Collective a ns2:CD ;
+    ns1:caption "Regular_Edition_cover_art" ;
+    ns1:image "Pokémon_Music_Collective_cover.jpg" ;
+    ns1:name "Pokémon_Music_Collective" ;
+    ns2:by "_wp_Universal_Music_Japan__" ;
+    ns2:catalogue_number "UICE-9111_tt_*_Limited_Edition_UICE-4003_tt_*_Regular_Edition_" ;
+    ns2:colorscheme "Paldea" ;
+    ns2:date "September_27,_2023" ;
+    ns2:image_size "250" ;
+    ns2:subtitled "Pokémon_Music_Collective" ;
+    ns2:tracks "5" .
+
+<http://example.org/resource/cd/Pokémon_Omega_Ruby_&_Pokémon_Alpha_Sapphire:_Super_Music_Collection> a ns2:CD .
+
+<http://example.org/resource/cd/Pokémon_Radio_Show!_Team_Rocket's_Secret_Empire_Rare_Pilot_Edition> a ns2:CD .
+
+<http://example.org/resource/cd/Pokémon_Radio_Show!_Team_Rocket's_Secret_Empire_Volume_1_-_Jessie_Edition> a ns2:CD .
+
+<http://example.org/resource/cd/Pokémon_Radio_Show!_Team_Rocket's_Secret_Empire_Volume_2_-_James_Edition> a ns2:CD .
+
+<http://example.org/resource/cd/Pokémon_Radio_Show!_Team_Rocket's_Secret_Empire_Volume_3_-_Meowth_Edition> a ns2:CD .
+
+<http://example.org/resource/cd/Pokémon_Radio_Show!_Team_Rocket's_Secret_Empire_~Selection~> a ns2:CD .
+
+<http://example.org/resource/cd/Pokémon_Ranger_and_the_Prince_of_the_Sea:_Manaphy_Music_Collection> a ns2:CD .
+
+<http://example.org/resource/cd/Pokémon_Red_&_Pokémon_Green:_Super_Music_Collection> a ns2:CD .
+
+<http://example.org/resource/cd/Pokémon_Reorchestrated:_Kanto_Symphony> a ns2:CD .
+
+<http://example.org/resource/cd/Pokémon_Ruby_&_Pokémon_Sapphire:_Super_Music_Collection> a ns2:CD .
+
+<http://example.org/resource/cd/Pokémon_Scarlet_-_Violet_+_The_Hidden_Treasure_of_Area_Zero_Super_Music_Collection> a ns2:CD .
+
+ns2:Pokémon_Song_Best a ns2:CD .
+
+ns2:Pokémon_Song_Best_Collection a ns2:CD .
+
+ns2:Pokémon_Song_Best_Collection_2 a ns2:CD .
+
+<http://example.org/resource/cd/Pokémon_Sun_&_Pokémon_Moon:_Super_Music_Collection> a ns2:CD .
+
+<http://example.org/resource/cd/Pokémon_Sword_-_Shield_+_Expansion_Pass_Super_Music_Collection> a ns2:CD .
+
+<http://example.org/resource/cd/Pokémon_Symphonic_Medley___GLORY_DAY_~That_Shining_Day~> a ns2:CD .
+
+ns2:Pokémon_TV_Anime_Theme_Song_BEST_2019-2022 a ns2:CD ;
+    ns1:caption "Regular_Edition_cover_art" ;
+    ns1:image "Pokémon_TV_Anime_Theme_Song_BEST_2019-2022.png" ;
+    ns1:name "Pokémon_TV_Anime_Theme_Song_BEST_2019-2022" ;
+    ns2:by "Sony_Music_Labels" ;
+    ns2:catalogue_number "SRCL-12073~5_(Limited_Edition_A)SRCL-12076~8_(Limited_Edition_B)SRCL-12079_(Regular_Edition)" ;
+    ns2:colorscheme "Galar_" ;
+    ns2:date "October_26,_2022" ;
+    ns2:image_size "250" ;
+    ns2:subtitled "ポケモンTVアニメ主題歌_BEST_2019-2022" ;
+    ns2:tracks "6" .
+
+ns2:Pokémon_TV_Anime_Theme_Song_BEST_OF_BEST_OF_BEST_1997-2023 a ns2:CD ;
+    ns1:caption "Regular_Edition_cover_art" ;
+    ns1:image "Pokémon_TV_Anime_Theme_Song_BEST_OF_BEST_OF_BEST_1997-2023.png" ;
+    ns1:name "Pokémon_TV_Anime_Theme_Song_BEST_OF_BEST_OF_BEST_1997-2023" ;
+    ns2:by "Sony_Music_Labels" ;
+    ns2:catalogue_number "SRCL-12380~89_(Limited_Edition,_Blu-ray)SRCL-12390~99_(Limited_Edition,_DVD)SRCL-12400~07_(Regular_Edition)SRXX-04553_(Selected_Edition)" ;
+    ns2:colorscheme "Galar_" ;
+    ns2:date "February_1,_2023" ;
+    ns2:image_size "250" ;
+    ns2:subtitled "ポケモンTVアニメ主題歌_BEST_OF_BEST_OF_BEST_1997-2023" ;
+    ns2:tracks "79_(Limited_Edition/Regular_Edition)78_(Selected_Edition)" .
+
+ns2:Pokémon_TV_Anime_Theme_Song_Collection a ns2:CD .
+
+ns2:Pokémon_TV_Anime_Theme_Song_Collection_2 a ns2:CD .
+
+ns2:Pokémon_Theme_\(single\) a ns2:CD .
+
+ns2:Pokémon_World a ns2:CD ;
+    ns1:caption "CD_cover_art_featuring__p_Marill_" ;
+    ns1:image "PokemonWorldCD.jpg" ;
+    ns1:name "Pokémon_World" ;
+    ns2:by "KOCH_Records" ;
+    ns2:catalogue_number "KOC-CD-8903" ;
+    ns2:colorscheme "Orange_" ;
+    ns2:date "February_8,_2000" ;
+    ns2:image_size "200px" ;
+    ns2:subtitled "" ;
+    ns2:tracks "3" .
+
+<http://example.org/resource/cd/Pokémon_X_&_Pokémon_Y:_Super_Music_Collection> a ns2:CD .
+
+ns2:Pokémon_X_\(CD\) a ns2:CD .
+
+ns2:Pokémon_feat._Hatsune_Miku_Project_VOLTAGE_18_Types_Songs_Collection a ns2:CD .
+
+ns2:Pokémon_the_First_Movie_\(score\) a ns2:CD .
+
+ns2:Pokémon_the_First_Movie_\(soundtrack\) a ns2:CD .
+
+<http://example.org/resource/cd/Pokémon_the_Movie:_Secrets_of_the_Jungle> a ns2:CD ;
+    ns1:caption "Cover_art" ;
+    ns1:image "Pokémon_the_Movie_Secrets_of_the_Jungle_single.png" ;
+    ns1:name "Pokémon_the_Movie:_Secrets_of_the_Jungle" ;
+    ns2:by "The_Pokémon_Company_International" ;
+    ns2:catalogue_number "N/A" ;
+    ns2:colorscheme "Galar_" ;
+    ns2:date "September_7,_2021" ;
+    ns2:image_size "250" ;
+    ns2:tracks "3" .
+
+ns2:Pokémon_the_Movie_2000_\(score\) a ns2:CD .
+
+ns2:Pokémon_the_Movie_2000_\(soundtrack\) a ns2:CD .
+
+ns2:Polka_O_Dolka_\(CD\) a ns2:CD .
+
+<http://example.org/resource/cd/RVR〜ライジングボルテッカーズラップ〜> a ns2:CD ;
+    ns1:caption "Cover_art" ;
+    ns1:image "RVR_Rising_Volt_Tacklers_Rap_Cover.jpg" ;
+    ns1:name "RVR〜ライジングボルテッカーズラップ〜" ;
+    ns2:by "_wp_Sony_Music_Entertainment_Japan_Sony_Music_Labels_" ;
+    ns2:catalogue_number "BVCL-1357/8" ;
+    ns2:colorscheme "Paldea" ;
+    ns2:date "December_27,_2023" ;
+    ns2:image_size "250" ;
+    ns2:subtitled "RVR_~Rising_Volt_Tacklers_Rap~" ;
+    ns2:tracks "14" .
+
+<http://example.org/resource/cd/Ready_Go!_(CD)> a ns2:CD .
+
+ns2:Reconnect_Grown a ns2:CD .
+
+ns2:Riding_on_Lapras_\(single\) a ns2:CD .
+
+ns2:Roaring_All-Stars___Life_Only_Comes_Once a ns2:CD .
+
+<http://example.org/resource/cd/Ruler_of_Illusions:_Zoroark_Music_Collection> a ns2:CD ;
+    ns1:caption "CD_cover_art" ;
+    ns1:image "Ruler_of_Illusions_Zoroark_Music_Collection.png" ;
+    ns1:name "Ruler_of_Illusions:_Zoroark_Music_Collection" ;
+    ns2:by "Pikachu_Records" ;
+    ns2:catalogue_number "ZMCP-5652" ;
+    ns2:colorscheme "HGSS" ;
+    ns2:date "August_4,_2010" ;
+    ns2:image_size "250" ;
+    ns2:tracks "48" .
+
+ns2:Singing_Pokémon_Encyclopedia a ns2:CD .
+
+<http://example.org/resource/cd/Sky-Splitting_Visitor:_Deoxys_Music_Collection> a ns2:CD .
+
+ns2:Smiling_Face_\(single\) a ns2:CD .
+
+ns2:Soaring_Pokémon_Kids_\(CD\) a ns2:CD .
+
+ns2:Song_of_Origin___Nice_Buddy_\(single\) a ns2:CD .
+
+<http://example.org/resource/cd/Sound_Picture_Box_-_It's_a_White_Tomorrow!_Team_Rocket> a ns2:CD .
+
+ns2:Sound_Picture_Box_-_The_Birth_of_Mewtwo a ns2:CD .
+
+<http://example.org/resource/cd/Spurt!___I_Won't_Lose!_~Haruka's_Theme~> a ns2:CD .
+
+ns2:Summerly_Slope a ns2:CD ;
+    ns1:caption "Limited_edition_jack_sleeve" ;
+    ns1:image "Summerly_Slope_CD_jacket_sleeve.jpg" ;
+    ns1:name "Summerly_Slope" ;
+    ns2:by "_wp_Epic/Sony_Records_Epic_Records_Japan_" ;
+    ns2:catalogue_number "ESCL-4074" ;
+    ns2:colorscheme "Unova2" ;
+    ns2:date "July_3,_2013" ;
+    ns2:image_size "250px" ;
+    ns2:tracks "4" .
+
+ns2:Team_Rocket_Forever_\(CD\) a ns2:CD .
+
+<http://example.org/resource/cd/The_Archdjinni_of_the_Rings:_Hoopa_Music_Collection> a ns2:CD .
+
+<http://example.org/resource/cd/The_Cocoon_of_Destruction_and_Diancie___Pikachu,_What's_This_Key_For?_Music_Collection> a ns2:CD .
+
+ns2:The_Day_a_Rainbow_Was_Born_\(single\) a ns2:CD .
+
+<http://example.org/resource/cd/The_Greatest_-_Everyday!_(CD)> a ns2:CD .
+
+ns2:The_Master_Saga a ns2:CD .
+
+ns2:The_Power_of_One_\(single\) a ns2:CD .
+
+ns2:The_Rivals_\(CD\) a ns2:CD .
+
+ns2:The_Sky___The_Voice_\(single\) a ns2:CD .
+
+ns2:To_My_Best_Friend a ns2:CD ;
+    ns1:caption "CD_cover_art_featuring__Ash__and__AP_Pikachu__as_stamps_on_a_letter" ;
+    ns1:image "BokunoBestFriende.png" ;
+    ns1:name "To_My_Best_Friend" ;
+    ns2:by "Pikachu_Records" ;
+    ns2:catalogue_number "ZMCP-1192" ;
+    ns2:colorscheme "Johto" ;
+    ns2:date "February_7,_2001" ;
+    ns2:image_size "250" ;
+    ns2:tracks "4" .
+
+ns2:Together_2007 a ns2:CD .
+
+ns2:Together_With_the_Wind a ns2:CD ;
+    ns1:caption "Deluxe_and_Limited_Edition_cover_art" ;
+    ns1:image "Together_With_the_Wind_Deluxe_Limited.png" ;
+    ns1:name "Together_With_the_Wind" ;
+    ns2:by "_wp_Sony_Music_Entertainment_Japan_Sony_Music_Records_" ;
+    ns2:catalogue_number "SRCL-11181~3_tt_*_Deluxe_Edition_,_SRCL-11184_tt_*_Regular_Edition_,_SRCL-11185_tt_*_Limited_Edition_" ;
+    ns2:colorscheme "SM_" ;
+    ns2:date "July_10,_2019" ;
+    ns2:image_size "250" ;
+    ns2:subtitled "風といっしょに" ;
+    ns2:tracks "5" .
+
+ns2:Together_With_the_Wind_\(1998_single\) a ns2:CD .
+
+<http://example.org/resource/cd/Together___By_Your_Side_~Hikari's_Theme~> a ns2:CD .
+
+ns2:Toi_et_moi_\(single\) a ns2:CD .
+
+ns2:Totally_Pokémon a ns2:CD .
+
+ns2:Tweedia_\(single\) a ns2:CD .
+
+ns2:V___Santa_Claus_at_850_Yen_Per_Hour a ns2:CD .
+
+<http://example.org/resource/cd/Victini_and_the_Black_Hero:_Zekrom___Victini_and_the_White_Hero:_Reshiram_Music_Collections> a ns2:CD .
+
+ns2:Volcanion_and_the_Mechanical_MagearnaMusic_Collection_ a ns2:CD ;
+    ns1:caption "CD_cover_art_" ;
+    ns1:image "Volcanion_and_the_Mechanical_Magearna_Music_Collection.png" ;
+    ns1:name "Volcanion_and_the_Mechanical_MagearnaMusic_Collection_" ;
+    ns2:by "Sony_Music_Direct_" ;
+    ns2:catalogue_number "MHCL-30391" ;
+    ns2:colorscheme "XYZ_" ;
+    ns2:date "July_27,_2016_" ;
+    ns2:image_size "250_" ;
+    ns2:tracks "50" .
+
+<http://example.org/resource/cd/Which_One_~_Is_It?_(CD)> a ns2:CD .
+
+<http://example.org/resource/cd/Wishing_Star_of_the_Seven_Nights:_Jirachi_Music_Collection> a ns2:CD .
+
+<http://example.org/resource/cd/You're_Not_Alone_(single)> a ns2:CD .
+
+ns2:アイスクリーム_シンドローム_ a ns2:CD ;
+    ns1:caption "Limited_Pokémon_Edition_cover_art" ;
+    ns1:image "Ice_Cream_Syndrome.png_" ;
+    ns1:name "アイスクリーム_シンドローム_" ;
+    ns2:by "スキマスイッチ_Sukima_Switch_" ;
+    ns2:catalogue_number "AUCL-33_tt_*_Regular_Edition_AUCL-34_tt_*_Limited_Pokémon_Edition_AUCL-20010_tt_*_Limited_Edition_" ;
+    ns2:colorscheme "HGSS" ;
+    ns2:date "July_7,_2010_" ;
+    ns2:image_size "250px_" ;
+    ns2:subtitled "Ice_Cream_Syndrome_" ;
+    ns2:tracks "4_" .
+
+ns2:ニャースのパーティ_ a ns2:CD ;
+    ns1:caption "CD_cover_art_" ;
+    ns1:image "Meowths_Party.jpg_" ;
+    ns1:name "ニャースのパーティ_" ;
+    ns2:by "Pikachu_Records_" ;
+    ns2:catalogue_number "ZMDP-1027_" ;
+    ns2:colorscheme "Johto_" ;
+    ns2:date "October_27,_1999_" ;
+    ns2:image_size "200px_" ;
+    ns2:subtitled "Meowths_Party" ;
+    ns2:tracks "5_" .
+
+<http://example.org/resource/cd/ピッカーン！> a ns2:CD ;
+    ns1:caption "CD_cover" ;
+    ns1:image "Sparkle_A_Cover.png" ;
+    ns1:name "ピッカーン！" ;
+    ns2:by "Giga_&_TeddyLoid" ;
+    ns2:catalogue_number "TBD" ;
+    ns2:colorscheme "Paldea" ;
+    ns2:date "February_5,_2025" ;
+    ns2:image_size "250" ;
+    ns2:subtitled "Pikkaan!" ;
+    ns2:tracks "3" .
+

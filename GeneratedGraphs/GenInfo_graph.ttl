@@ -1,0 +1,19 @@
+
+<http://example.org/resource/geninfo/Generation_I> a <http://example.org/resource/geninfo/GenInfo> .
+
+<http://example.org/resource/geninfo/Generation_II> a <http://example.org/resource/geninfo/GenInfo> .
+
+<http://example.org/resource/geninfo/Generation_III> a <http://example.org/resource/geninfo/GenInfo> .
+
+<http://example.org/resource/geninfo/Generation_IV> a <http://example.org/resource/geninfo/GenInfo> .
+
+<http://example.org/resource/geninfo/Generation_IX> a <http://example.org/resource/geninfo/GenInfo> .
+
+<http://example.org/resource/geninfo/Generation_V> a <http://example.org/resource/geninfo/GenInfo> .
+
+<http://example.org/resource/geninfo/Generation_VI> a <http://example.org/resource/geninfo/GenInfo> .
+
+<http://example.org/resource/geninfo/Generation_VII> a <http://example.org/resource/geninfo/GenInfo> .
+
+<http://example.org/resource/geninfo/Generation_VIII> a <http://example.org/resource/geninfo/GenInfo> .
+

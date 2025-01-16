@@ -1,0 +1,100 @@
+@prefix ns1: <http://example.org/resource/tcgpocketevent/> .
+@prefix ns2: <http://example.org/property/> .
+
+ns1:Blastoise_Drop_event a ns1:TCGPocketEvent ;
+    ns2:caption "Event_banner_featuring__TCG_ID_Promo-A_Blastoise_29_" ;
+    ns2:image "TCGP_Banner_Blastoise_Drop_Event.png" ;
+    ns2:jname "カメックスドロップイベント" ;
+    ns2:name "Blastoise_Drop_event" ;
+    ns1:etype "Drop_event" ;
+    ns1:firstrun "January_1_to_15,_2025" ;
+    ns1:jtrans "Kamex_Drop_Event" ;
+    ns1:type "Water" .
+
+ns1:Fire_Pokémon_Mass_Outbreak_Event a ns1:TCGPocketEvent ;
+    ns2:caption "Event_banner_featuring__TCG_ID_Genetic_Apex_Arcanine_ex_41_" ;
+    ns2:image "TCGP_Banner_Fire_Pokémon_Mass_Outbreak_Event.png" ;
+    ns2:jname "炎ポケモン大量発生イベント" ;
+    ns2:name "Fire_Pokémon_Mass_Outbreak_Event" ;
+    ns1:etype "Mass_Outbreak_event" ;
+    ns1:firstrun "November_22_to_28,_2024" ;
+    ns1:jtrans "Fire_Pokémon_Mass_Outbreak_Event" ;
+    ns1:type "Fire" .
+
+ns1:Genetic_Apex_Emblem_Event_1 a ns1:TCGPocketEvent ;
+    ns2:caption "Event_banner_featuring_the_events_Gold_Emblem" ;
+    ns2:image "TCGP_Banner_Genetic_Apex_Emblem_Event_1.png" ;
+    ns2:jname "最強の遺伝子_エンブレムイベント1" ;
+    ns2:name "Genetic_Apex_Emblem_Event_1" ;
+    ns1:etype "Emblem_event" ;
+    ns1:firstrun "November_7_to_28,_2024" ;
+    ns1:jtrans "Strongest_Gene_Emblem_Event_1" ;
+    ns1:type "Colorless" .
+
+ns1:Genetic_Apex_SP_Emblem_Event_1 a ns1:TCGPocketEvent ;
+    ns2:caption "Event_banner_featuring_the_events_Gold_Emblem" ;
+    ns2:image "TCGP_Banner_Genetic_Apex_SP_Emblem_Event_1.png" ;
+    ns2:jname "最強の遺伝子_エンブレムイベント1_SP" ;
+    ns2:name "Genetic_Apex_SP_Emblem_Event_1" ;
+    ns1:etype "Emblem_event" ;
+    ns1:firstrun "December_9_to_16,_2024" ;
+    ns1:jtrans "Strongest_Gene_Emblem_Event_1_SP" ;
+    ns1:type "Colorless" .
+
+ns1:Lapras_ex_Drop_event a ns1:TCGPocketEvent ;
+    ns2:caption "Event_banner_featuring__TCG_ID_Promo-A_Lapras_ex_14_" ;
+    ns2:image "TCGP_Banner_Lapras_ex_Drop_Event.png" ;
+    ns2:jname "ラプラスexドロップイベント" ;
+    ns2:name "Lapras_ex_Drop_event" ;
+    ns1:etype "Drop_event" ;
+    ns1:firstrun "November_5_to_18,_2024" ;
+    ns1:jtrans "Laplace_ex_Drop_Event" ;
+    ns1:type "Water" .
+
+ns1:Lightning-type_Pokémon_Mass_Outbreak_Event a ns1:TCGPocketEvent ;
+    ns2:caption "Event_banner_featuring__TCG_ID_Genetic_Apex_Zapdos_ex_104_" ;
+    ns2:image "TCGP_Banner_Lightning_type_Pokémon_Mass_Outbreak_Event.png" ;
+    ns2:jname "雷ポケモン大量発生イベント" ;
+    ns2:name "Lightning-type_Pokémon_Mass_Outbreak_Event" ;
+    ns1:etype "Mass_Outbreak_event" ;
+    ns1:firstrun "December_26,_2024_to_January_1,_2025" ;
+    ns1:jtrans "Lightning_Pokémon_Mass_Outbreak_Event" ;
+    ns1:type "Lightning" .
+
+ns1:Mythical_Island_Emblem_Event a ns1:TCGPocketEvent ;
+    ns2:caption "Event_banner_featuring_the_events_Gold_Emblem" ;
+    ns2:image "TCGP_Banner_Mythical_Island_Emblem_Event.png" ;
+    ns2:jname "幻のいる島_エンブレムイベント" ;
+    ns2:name "Mythical_Island_Emblem_Event" ;
+    ns1:etype "Emblem_event" ;
+    ns1:firstrun "December_20,_2024_to_January_10,_2025" ;
+    ns1:jtrans "Strongest_Gene_Emblem_Event_1" .
+
+ns1:Venusaur_Drop_Event a ns1:TCGPocketEvent ;
+    ns2:caption "Event_banner_featuring__TCG_ID_Promo-A_Venusaur_18_" ;
+    ns2:image "TCGP_Banner_Venusaur_Drop_Event.png" ;
+    ns2:jname "フシギバナドロップイベント" ;
+    ns2:name "Venusaur_Drop_Event" ;
+    ns1:etype "Drop_event" ;
+    ns1:firstrun "November_29_to_December_13,_2024" ;
+    ns1:jtrans "Fushigibana_Drop_Event" ;
+    ns1:type "Grass" .
+
+ns1:Wonder_Pick_Event a ns1:TCGPocketEvent ;
+    ns2:caption "Event_banner_featuring__p_Bulbasaur__promo_and__p_Venusaur__accessories",
+        "Event_banner_featuring__p_Meowth__promo_and_accessories",
+        "Event_banner_featuring__p_Squirtle__promo_and__ga_Blue_/_p_Blastoise__accessories" ;
+    ns2:image "TCGP_Banner_Wonder_Pick_Event_Blastoise_Part_1.png",
+        "TCGP_Banner_Wonder_Pick_Event_Meowth_Part_1.png",
+        "TCGP_Banner_Wonder_Pick_Event_Venusaur_Part_1.png" ;
+    ns2:jname "ゲットチャレンジイベント" ;
+    ns2:name "Wonder_Pick_Event" ;
+    ns1:etype "Wonder_pick_event" ;
+    ns1:firstrun "December_6_to_20,_2024_(Part_1)December_13_to_20,_2024_(Part_2)",
+        "November_1_to_15,_2024_(Part_1)November_8_to_15,_2024_(Part_2)",
+        "_tt_January_8_to_22,_2025_(Part_1)_Bonus_Pick_&_Chancey_Pick_are_offset_a_day_and_run_from_January_7_to_21,_2025_January_15_to_22,_2025_(Part_2)" ;
+    ns1:jtrans "Get_Challenge_Event" ;
+    ns1:type "Colorless",
+        "Grass",
+        "Water" .
+

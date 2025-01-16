@@ -1,0 +1,153 @@
+@prefix ns1: <http://example.org/resource/merchandise/> .
+@prefix ns2: <http://example.org/property/> .
+
+<_Australia> a <http://example.org/resource/region/Region> .
+
+<_Japan> a <http://example.org/resource/region/Region> .
+
+<_North_America,_Europe,_Australia> a <http://example.org/resource/region/Region> .
+
+ns1:_Build-A-Bear_Workshop_collection a ns1:Merchandise ;
+    ns2:caption "_Build-A-Bear_presents_Pokémon_logo" ;
+    ns2:image "_Build-A-Bear_Workshop_presents_Pokémon_logo.png" ;
+    ns2:name "_Build-A-Bear_Workshop_collection" ;
+    ns2:region <http://example.org/resource/region/_North_America,_Europe,_Australia> ;
+    ns1:gen "_Generation_VI_VI_-_Generation_IX_IX" ;
+    ns1:image_size "_275px" ;
+    ns1:links "_" ;
+    ns1:manufacturer "__wp_Build-A-Bear_Workshop_Build-A-Bear_Workshop,_Inc._" ;
+    ns1:release "_December_2015_-_present_" ;
+    ns1:type "_Plush_toys" .
+
+<http://example.org/resource/merchandise/_Coles_Builders:_Pokémon_Edition> a ns1:Merchandise ;
+    ns2:age "_5+" ;
+    ns2:caption "_Coles_Builders:_Pokémon_Edition_logo" ;
+    ns2:image "_Coles_Builders_Pokémon_logo.png" ;
+    ns2:name "_Coles_Builders:_Pokémon_Edition" ;
+    ns2:region <http://example.org/resource/region/_Australia> ;
+    ns1:caption2 "_Pack" ;
+    ns1:date "_February_7_-_March_26,_2024" ;
+    ns1:image2 "_Coles_Builder_pack.png" ;
+    ns1:image_size "_275px" ;
+    ns1:image_size2 "_275px" ;
+    ns1:links "_" ;
+    ns1:manufacturer "__wp_Coles_Supermarkets_Coles_" ;
+    ns1:type "_Cardboard_models" .
+
+ns1:_Ionix a ns1:Merchandise ;
+    ns2:age "_6_-_14" ;
+    ns2:caption "_Ionix_logo" ;
+    ns2:image "_Ionix_logo.png" ;
+    ns2:name "_Ionix" ;
+    ns1:caption2 "_shapeshifting_into__p_Venusaur__and_Mega_Venusaur" ;
+    ns1:date "_2014" ;
+    ns1:image2 "_Venusaur_evolution_Ionix.png" ;
+    ns1:image_size "_150px" ;
+    ns1:image_size2 "_250px" ;
+    ns1:links "_" ;
+    ns1:manufacturer "__wp_Spin_Master_" ;
+    ns1:type "_Construction_toys" .
+
+ns1:_Mega_Pokémon a ns1:Merchandise ;
+    ns2:age "_6+_to_12+" ;
+    ns2:caption "_Mega_logo" ;
+    ns2:image "_Mega_logo.png" ;
+    ns2:name "_Mega_Pokémon" ;
+    ns1:caption2 "_Promotional_image" ;
+    ns1:date "_2017[https://web.archive.org/web/20170606184731/https://www.megaconstrux.com/en-us/community/news/built-to-battle-announcing-our-new-pokemon-line_1_Built_to_Battle:_Announcing_Our_New_Pokémon_Line!_-_Mega_Brands]_(archived_from_the_original_June_6,_2017;_retrieved_April_17,_2020)_-_present" ;
+    ns1:image2 "_Construx_Promo_Banner_2018.png" ;
+    ns1:image_size "_150px" ;
+    ns1:image_size2 "_250px" ;
+    ns1:links "_United_States:_[https://www.megaconstrux.com/en-us/pokemon_megaconstrux.com]" ;
+    ns1:manufacturer "__wp_Mega_Brands__(_wp_Mattel_)" ;
+    ns1:type "_Construction_toys" .
+
+<http://example.org/resource/merchandise/_Mighty_Beanz_Pokémon:_Advanced> a ns1:Merchandise ;
+    ns2:age "_5+" ;
+    ns2:caption "_Mighty_Beanz_logo" ;
+    ns2:image "_Mighty_Beanz_logo.png" ;
+    ns2:name "_Mighty_Beanz_Pokémon:_Advanced" ;
+    ns1:caption2 "_5-pack" ;
+    ns1:date "_2005" ;
+    ns1:image2 "_MightyBeanz5Pack.png" ;
+    ns1:image_size "_250px" ;
+    ns1:image_size2 "_200px" ;
+    ns1:links "_" ;
+    ns1:manufacturer "__wp_Moose_Toys_" ;
+    ns1:type "_Toys" .
+
+ns1:_Pocket_Monsters_Carddass a ns1:Merchandise ;
+    ns2:caption "_Current_Cardass_logo" ;
+    ns2:image "_Bandai_Carddass_logo.jpg" ;
+    ns2:name "_Pocket_Monsters_Carddass" ;
+    ns1:date "_1996_-_1997" ;
+    ns1:image_size "_250px" ;
+    ns1:links "_" ;
+    ns1:manufacturer "_Bandai" ;
+    ns1:type "_Trading_cards" .
+
+ns1:_Pokémon_Dunkin_Boomer_cards a ns1:Merchandise ;
+    ns2:caption "_Dunkin_logo" ;
+    ns2:image "_Logo_dunkin_bubble_gum.jpg" ;
+    ns2:name "_Pokémon_Dunkin_Boomer_cards" ;
+    ns1:date "_1999_-_2001" ;
+    ns1:image_size "_250px" ;
+    ns1:manufacturer "_Dunkin_Boomer_(_wp_Mars_Inc._)" ;
+    ns1:type "_Trading_cards" .
+
+ns1:_Pokémon_Kids a ns1:Merchandise ;
+    ns2:age "_3+" ;
+    ns2:caption "_Pokémon_Kids_logo" ;
+    ns2:image "_Pokémon_Kids_logo.png" ;
+    ns2:name "_Pokémon_Kids" ;
+    ns1:caption2 "_Standard_Box_Contents" ;
+    ns1:date "_October_1996_—_Ongoing" ;
+    ns1:image2 "_PokemonKidsContents.jpg" ;
+    ns1:image_size "_300px" ;
+    ns1:image_size2 "_300px" ;
+    ns1:links "_Japan:_[https://www.bandai.co.jp/candy/pokemonkids/_bandai.co.jp/candy/pokemonkids/]" ;
+    ns1:manufacturer "_Bandai" ;
+    ns1:subtitle "_ポケモンキッズ" ;
+    ns1:type "_Figurines" .
+
+ns1:_Pokémon_Lamincards a ns1:Merchandise ;
+    ns2:caption "_Pokémon_Lamincards_booster_pack" ;
+    ns2:image "_Pokémon_Lamincards_booster.jpg" ;
+    ns2:name "_Pokémon_Lamincards" ;
+    ns1:date "_2004_-_2006" ;
+    ns1:image_size "_250px" ;
+    ns1:links "_Italy:_[https://web.archive.org/web/20060505235932/http://www.edibas.it/descrizione.aspn=3322&p=207_edibas.it]_(archived)" ;
+    ns1:manufacturer "_Edibas_Collections" ;
+    ns1:type "_Trading_cards" .
+
+ns1:_Pokémon_Magic_Message_cards a ns1:Merchandise ;
+    ns2:caption "_Magic_Message_logo" ;
+    ns2:image "_Magic_message_logo.jpg" ;
+    ns2:name "_Pokémon_Magic_Message_cards" ;
+    ns1:date "_2006" ;
+    ns1:image_size "_250px" ;
+    ns1:manufacturer "_Merlin_/_Topps" ;
+    ns1:type "_Trading_cards" .
+
+ns1:_Pokémon_Merlin_cards a ns1:Merchandise ;
+    ns2:caption "_Merlin_logo" ;
+    ns2:image "_Merlin-collections-logo.jpg" ;
+    ns2:name "_Pokémon_Merlin_cards" ;
+    ns1:date "_1999_-_2005" ;
+    ns1:image_size "_250px" ;
+    ns1:manufacturer "_Merlin_Collections" ;
+    ns1:type "_Trading_cards" .
+
+ns1:_Pokémon_Plamo a ns1:Merchandise ;
+    ns2:age "_6+" ;
+    ns2:caption "_Pokémon_Plamo_logo" ;
+    ns2:image "_Pokémon_Plamo_logo.png" ;
+    ns2:name "_Pokémon_Plamo" ;
+    ns2:region <http://example.org/resource/region/_Japan> ;
+    ns1:date "_2009[https://bandai-hobby.net/item/6003/_Pokemon_Plastic_Model_Collection_No.1_Evolution_Series_Meganium_Evolution_Set_-_Bandai_Hobby_Site]_(retrieved_January_11,_2025)_-_present" ;
+    ns1:image_size "_250px" ;
+    ns1:links "_Japan:_[https://bandai-hobby.net/site/pokepla/_bandai-hobby.net/site/pokepla/]" ;
+    ns1:manufacturer "_Bandai_Namco_Bandai_Spirits" ;
+    ns1:subtitle "_ポケプラ" ;
+    ns1:type "_Model_kits" .
+

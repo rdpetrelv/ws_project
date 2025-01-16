@@ -1,0 +1,192 @@
+@prefix ns1: <http://example.org/resource/facility/> .
+@prefix ns2: <http://example.org/property/> .
+
+ns1:Arcade a ns1:Facility ;
+    ns2:color <arcade> ;
+    ns2:image "Battle_Roulette.png" ;
+    ns2:jname "バトルルーレット" ;
+    ns2:name "Arcade" ;
+    ns2:slogan "Where_Events_Sway_Outcomes" ;
+    ns1:BP "Few" ;
+    ns1:bpr "7" ;
+    ns1:brain "Arcade_Star_Dahlia" ;
+    ns1:brainlink "Dahlia" ;
+    ns1:brainvs "VSDahlia" ;
+    ns1:gold "49" ;
+    ns1:jtrans "Battle_Roulette" ;
+    ns1:partdoub "3" ;
+    ns1:partsing "3" ;
+    ns1:silver "21" .
+
+ns1:Arena a ns1:Facility ;
+    ns2:image "Battle_Arena_E.png" ;
+    ns2:jname "バトルアリーナ" ;
+    ns2:name "Arena" ;
+    ns2:slogan "Let_the_toughest_teams_gather!" ;
+    ns1:bpr "7" ;
+    ns1:brain "Arena_Tycoon_Greta" ;
+    ns1:brainlink "Greta" ;
+    ns1:brainsprite "Spr_E_Greta" ;
+    ns1:gold "56" ;
+    ns1:jtrans "Battle_Arena" ;
+    ns1:partsing "3" ;
+    ns1:silver "28" ;
+    ns1:symbol "Guts" .
+
+ns1:Castle a ns1:Facility ;
+    ns2:color <castle> ;
+    ns2:image "Battle_Castle.png" ;
+    ns2:jname "バトルキャッスル" ;
+    ns2:name "Castle" ;
+    ns2:slogan "Manage_Battles_with_Castle_Points" ;
+    ns1:BP "Normal" ;
+    ns1:bpr "7" ;
+    ns1:brain "Castle_Valet_Darach" ;
+    ns1:brainlink "Darach" ;
+    ns1:brainvs "VSDarach" ;
+    ns1:gold "49" ;
+    ns1:jtrans "Battle_Castle" ;
+    ns1:partdoub "3" ;
+    ns1:partsing "3" ;
+    ns1:silver "21" .
+
+ns1:Dome a ns1:Facility ;
+    ns2:image "Battle_Dome_E.png" ;
+    ns2:jname "バトルドーム" ;
+    ns2:name "Dome" ;
+    ns2:slogan "Your_path_to_the_invincible_superstar!" ;
+    ns1:bpr "4" ;
+    ns1:brain "Dome_Ace_Tucker" ;
+    ns1:brainlink "Tucker" ;
+    ns1:brainsprite "Spr_E_Tucker" ;
+    ns1:gold "10" ;
+    ns1:jtrans "Battle_Dome" ;
+    ns1:partdoub "3" ;
+    ns1:partsing "3" ;
+    ns1:silver "5" ;
+    ns1:symbol "Tactics" .
+
+ns1:Factory a ns1:Facility ;
+    ns2:color <factory> ;
+    ns2:image "Battle_Factory_E.png",
+        "Battle_Factory_IV.png" ;
+    ns2:jname "バトルファクトリー" ;
+    ns2:name "Factory" ;
+    ns2:slogan "Seek_out_the_toughest_POKéMON!",
+        "Win_Consecutively_with_Rental_Pokémon" ;
+    ns1:BP "Many" ;
+    ns1:bpr "7" ;
+    ns1:brain "Factory_Head_Noland",
+        "Factory_Head_Thorton" ;
+    ns1:brainlink "Noland",
+        "Thorton" ;
+    ns1:brainsprite "Spr_E_Noland" ;
+    ns1:brainvs "VSThorton" ;
+    ns1:gold "42",
+        "49" ;
+    ns1:jtrans "Battle_Factory" ;
+    ns1:partdoub "3" ;
+    ns1:partsing "3" ;
+    ns1:silver "21" ;
+    ns1:symbol "Knowledge" .
+
+ns1:Hall a ns1:Facility ;
+    ns2:color <hall> ;
+    ns2:image "Battle_Hall.png" ;
+    ns2:jname "バトルステージ" ;
+    ns2:name "Hall" ;
+    ns2:slogan "Let_Each_Pokémon_Seek_No._1" ;
+    ns1:BP "Few" ;
+    ns1:bpr "10" ;
+    ns1:brain "Hall_Matron_Argenta" ;
+    ns1:brainlink "Argenta" ;
+    ns1:brainvs "VSArgenta" ;
+    ns1:gold "170" ;
+    ns1:jtrans "Battle_Stage" ;
+    ns1:partdoub "2" ;
+    ns1:partsing "1" ;
+    ns1:silver "50" .
+
+ns1:Palace a ns1:Facility ;
+    ns2:image "Battle_Palace_E.png" ;
+    ns2:jname "バトルパレス" ;
+    ns2:name "Palace" ;
+    ns2:slogan "Keep_your_eyes_on_POKéMON_battles!" ;
+    ns1:bpr "7" ;
+    ns1:brain "Palace_Maven_Spenser" ;
+    ns1:brainlink "Spenser" ;
+    ns1:brainsprite "Spr_E_Spenser" ;
+    ns1:gold "42" ;
+    ns1:jtrans "Battle_Palace" ;
+    ns1:partdoub "3" ;
+    ns1:partsing "3" ;
+    ns1:silver "21" ;
+    ns1:symbol "Spirits" .
+
+ns1:Pike a ns1:Facility ;
+    ns2:image "Battle_Pike_E.png" ;
+    ns2:jname "バトルチューブ" ;
+    ns2:name "Pike" ;
+    ns2:slogan "Choose_one_of_three_paths!" ;
+    ns1:bpr "7" ;
+    ns1:brain "Pike_Queen_Lucy" ;
+    ns1:brainlink "Lucy" ;
+    ns1:brainsprite "Spr_E_Lucy" ;
+    ns1:counter "Rooms_per_round" ;
+    ns1:gold "10" ;
+    ns1:jtrans "Battle_Tube" ;
+    ns1:partsing "3" ;
+    ns1:silver "2" ;
+    ns1:symbol "Luck" .
+
+ns1:Pyramid a ns1:Facility ;
+    ns2:image "Battle_Pyramid_E.png" ;
+    ns2:jname "バトルピラミッド" ;
+    ns2:name "Pyramid" ;
+    ns2:slogan "Advance_through_the_Battle_Quest!" ;
+    ns1:bpr "7" ;
+    ns1:brain "Pyramid_King_Brandon" ;
+    ns1:brainlink "Brandon" ;
+    ns1:brainsprite "Spr_E_Brandon" ;
+    ns1:counter "Number_of_floors" ;
+    ns1:gold "10" ;
+    ns1:jtrans "Battle_Pyramid" ;
+    ns1:partsing "3" ;
+    ns1:silver "3" ;
+    ns1:symbol "Brave" .
+
+ns1:Tower a ns1:Facility ;
+    ns2:color <tower> ;
+    ns2:image "Battle_Tower_E.png",
+        "Battle_Tower_IV.png" ;
+    ns2:jname "バトルタワー" ;
+    ns2:name "Tower" ;
+    ns2:slogan "Keep_the_win_streak_as_the_toughest_TRAINER!",
+        "Never_Lose!_Keep_Winning!" ;
+    ns1:BP "Normal" ;
+    ns1:bpr "7" ;
+    ns1:brain "Salon_Maiden_Anabel",
+        "Tower_Tycoon_Palmer" ;
+    ns1:brainlink "Anabel",
+        "Palmer" ;
+    ns1:brainsprite "Spr_E_Anabel" ;
+    ns1:brainvs "VSPalmer" ;
+    ns1:gold "49",
+        "70" ;
+    ns1:jtrans "Battle_Tower" ;
+    ns1:partdoub "4" ;
+    ns1:partsing "3" ;
+    ns1:silver "21",
+        "35" ;
+    ns1:symbol "Ability" .
+
+<arcade> a <http://schema.org/color> .
+
+<castle> a <http://schema.org/color> .
+
+<factory> a <http://schema.org/color> .
+
+<hall> a <http://schema.org/color> .
+
+<tower> a <http://schema.org/color> .
+

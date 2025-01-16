@@ -1,0 +1,218 @@
+@prefix ns1: <http://example.org/resource/advarc/> .
+@prefix ns2: <http://example.org/property/> .
+
+<Alola> a <http://example.org/resource/region/Region> .
+
+<Galar> a <http://example.org/resource/region/Region> .
+
+<Hoenn> a <http://example.org/resource/region/Region> .
+
+<Johto> a <http://example.org/resource/region/Region> .
+
+<Kalos> a <http://example.org/resource/region/Region> .
+
+<Paldea> a <http://example.org/resource/region/Region> .
+
+<Sevii_Islands> a <http://example.org/resource/region/Region> .
+
+<Sinnoh> a <http://example.org/resource/region/Region> .
+
+<Unova> a <http://example.org/resource/region/Region> .
+
+<http://example.org/resource/advarc/Black_&_White> a ns1:AdvArc ;
+    ns2:caption "Several_characters" ;
+    ns2:image "BW_chapter.png_!_250px" ;
+    ns2:name "Black_&_White" ;
+    ns2:region <http://example.org/resource/region/Unova> ;
+    ns1:firstch "PS461" ;
+    ns1:lastch "PS524" ;
+    ns1:next "Black_2_&_White_2_" ;
+    ns1:number "10" ;
+    ns1:numchs "64" ;
+    ns1:prev "HeartGold_&_SoulSilver" .
+
+<http://example.org/resource/advarc/Black_2_&_White_2> a ns1:AdvArc ;
+    ns2:caption "The_main_characters" ;
+    ns2:image "B2W2_chapter.png_!_250px" ;
+    ns2:name "Black_2_&_White_2" ;
+    ns2:region <http://example.org/resource/region/Unova> ;
+    ns1:colorscheme "B2W2" ;
+    ns1:firstch "PS525" ;
+    ns1:lastch "PS548" ;
+    ns1:next "X_&_Y" ;
+    ns1:number "11" ;
+    ns1:numchs "24" ;
+    ns1:prev "Black_&_White" .
+
+<http://example.org/resource/advarc/Diamond_&_Pearl> a ns1:AdvArc ;
+    ns2:caption "The_Sinnoh_Pokédex_holders_and_their_first_partner_Pokémon" ;
+    ns2:image "DP_chapter.png_!_250px" ;
+    ns2:name "Diamond_&_Pearl" ;
+    ns2:region <http://example.org/resource/region/Sinnoh> ;
+    ns1:firstch "PS338" ;
+    ns1:lastch "PS416" ;
+    ns1:next "Platinum_" ;
+    ns1:number "7" ;
+    ns1:numchs "79" ;
+    ns1:prev "Emerald" .
+
+ns1:Emerald a ns1:AdvArc ;
+    ns2:caption "The_Pokédex_holders_of_the_Emerald_arc" ;
+    ns2:image "Emerald_chapter.png_!_300px" ;
+    ns2:name "Emerald" ;
+    ns2:region <http://example.org/resource/region/Hoenn> ;
+    ns1:firstch "PS303" ;
+    ns1:lastch "PS337" ;
+    ns1:next "Diamond_&_Pearl_" ;
+    ns1:number "6" ;
+    ns1:numchs "35" ;
+    ns1:prev "FireRed_&_LeafGreen" .
+
+<http://example.org/resource/advarc/FireRed_&_LeafGreen> a ns1:AdvArc ;
+    ns2:caption "" ;
+    ns2:image "FRLG_chapter.png_!_300px" ;
+    ns2:name "FireRed_&_LeafGreen" ;
+    ns2:region <http://example.org/resource/region/Sevii_Islands> ;
+    ns1:firstch "PS268" ;
+    ns1:lastch "PS302" ;
+    ns1:next "Emerald_" ;
+    ns1:number "5" ;
+    ns1:numchs "35" ;
+    ns1:prev "Ruby_&_Sapphire" .
+
+<http://example.org/resource/advarc/Gold,_Silver_&_Crystal> a ns1:AdvArc ;
+    ns2:caption "The_Pokédex_holders_of_the_third_arc" ;
+    ns2:image "Gold_Silver_and_Crystal.png_!_300px" ;
+    ns2:name "Gold,_Silver_&_Crystal" ;
+    ns2:region <http://example.org/resource/region/Johto> ;
+    ns1:firstch "PS091" ;
+    ns1:lastch "PS180" ;
+    ns1:next "Ruby_&_Sapphire_" ;
+    ns1:number "3" ;
+    ns1:numchs "90" ;
+    ns1:prev "Yellow" .
+
+<http://example.org/resource/advarc/HeartGold_&_SoulSilver> a ns1:AdvArc ;
+    ns2:caption "Gold_and_Silver_with_the_Four_Executives_of_Team_Rocket_in_the_HeartGold_&_SoulSiver_arc" ;
+    ns2:image "HGSS_chapter_Adventures.png_!_250px" ;
+    ns2:name "HeartGold_&_SoulSilver" ;
+    ns2:region <http://example.org/resource/region/Johto> ;
+    ns1:firstch "PS442" ;
+    ns1:lastch "PS460" ;
+    ns1:next "Black_&_White_" ;
+    ns1:number "9" ;
+    ns1:numchs "19" ;
+    ns1:prev "Platinum" .
+
+<http://example.org/resource/advarc/Omega_Ruby_&_Alpha_Sapphire> a ns1:AdvArc ;
+    ns2:caption "" ;
+    ns2:image "Omega_Ruby_&_Alpha_Sapphire_chapter.png_!_250px" ;
+    ns2:name "Omega_Ruby_&_Alpha_Sapphire" ;
+    ns2:region <http://example.org/resource/region/Hoenn> ;
+    ns1:colorscheme "ORAS" ;
+    ns1:firstch "PS596" ;
+    ns1:lastch "PAORAS21" ;
+    ns1:next "Sun,_Moon,_Ultra_Sun_&_Ultra_Moon_" ;
+    ns1:number "13" ;
+    ns1:numchs "22" ;
+    ns1:prev "X_&_Y" .
+
+ns1:Platinum a ns1:AdvArc ;
+    ns2:caption "Platinum_and_Looker_in_the_Platinum_arc" ;
+    ns2:image "Platinum_arc.png_!_300px" ;
+    ns2:name "Platinum" ;
+    ns2:region <http://example.org/resource/region/Sinnoh> ;
+    ns1:firstch "PS417" ;
+    ns1:lastch "PS441" ;
+    ns1:next "HeartGold_&_SoulSilver_" ;
+    ns1:number "8" ;
+    ns1:numchs "25" ;
+    ns1:prev "Diamond_&_Pearl" .
+
+<http://example.org/resource/advarc/Red,_Green_&_Blue> a ns1:AdvArc ;
+    ns2:caption "_adv_Red_,__adv_Green_,_and__adv_Blue__with_their_first_partner_Pokémon" ;
+    ns2:image "Red,_Green_and_Blue_Adventures.png_!_250px" ;
+    ns2:name "Red,_Green_&_Blue" ;
+    ns1:Region "Kanto" ;
+    ns1:firstch "PS001" ;
+    ns1:lastch "PS040" ;
+    ns1:next "Yellow_" ;
+    ns1:number "1" ;
+    ns1:numchs "40" .
+
+<http://example.org/resource/advarc/Ruby_&_Sapphire> a ns1:AdvArc ;
+    ns2:caption "_Adv_Ruby_,__Adv_Sapphire_,__p_Groudon_,__p_Kyogre_,_and__p_Rayquaza_" ;
+    ns2:image "Ruby_Sapphire_chapter_Adventures.png_!_300px" ;
+    ns2:name "Ruby_&_Sapphire" ;
+    ns2:region <http://example.org/resource/region/Hoenn> ;
+    ns1:firstch "PS181" ;
+    ns1:lastch "PS267" ;
+    ns1:next "FireRed_&_LeafGreen_" ;
+    ns1:number "4" ;
+    ns1:numchs "87" ;
+    ns1:prev "Gold,_Silver_&_Crystal" .
+
+<http://example.org/resource/advarc/Scarlet_&_Violet> a ns1:AdvArc ;
+    ns2:caption "" ;
+    ns2:image "Pokémon_Adventures_SV_volume_1_artwork.png_!_250px" ;
+    ns2:name "Scarlet_&_Violet" ;
+    ns2:region <http://example.org/resource/region/Paldea> ;
+    ns1:colorscheme "SV" ;
+    ns1:firstch "PASV01" ;
+    ns1:lastch "unknown" ;
+    ns1:next "" ;
+    ns1:number "16" ;
+    ns1:numchs "In_progress" ;
+    ns1:prev "Sword_&_Shield" .
+
+<http://example.org/resource/advarc/Sun,_Moon,_Ultra_Sun_&_Ultra_Moon> a ns1:AdvArc ;
+    ns2:caption "" ;
+    ns2:image "Sun_Moon_chapter.png_!_250px" ;
+    ns2:name "Sun,_Moon,_Ultra_Sun_&_Ultra_Moon" ;
+    ns2:region <http://example.org/resource/region/Alola> ;
+    ns1:colorscheme "SM" ;
+    ns1:firstch "PASM01" ;
+    ns1:lastch "PASM37" ;
+    ns1:next "Sword_&_Shield_" ;
+    ns1:number "14" ;
+    ns1:numchs "37" ;
+    ns1:prev "Omega_Ruby_&_Alpha_Sapphire" .
+
+<http://example.org/resource/advarc/Sword_&_Shield> a ns1:AdvArc ;
+    ns2:caption "" ;
+    ns2:image "Sword_Shield_chapter.png_!_250px" ;
+    ns2:name "Sword_&_Shield" ;
+    ns2:region <http://example.org/resource/region/Galar> ;
+    ns1:colorscheme "SS" ;
+    ns1:firstch "PASS01" ;
+    ns1:lastch "PASS43" ;
+    ns1:next "Scarlet_&_Violet" ;
+    ns1:number "15" ;
+    ns1:numchs "43" ;
+    ns1:prev "Sun,_Moon,_Ultra_Sun_&_Ultra_Moon" .
+
+<http://example.org/resource/advarc/X_&_Y> a ns1:AdvArc ;
+    ns2:caption "The_main_characters" ;
+    ns2:image "XY_chapter.png_!_250px" ;
+    ns2:name "X_&_Y" ;
+    ns2:region <http://example.org/resource/region/Kalos> ;
+    ns1:colorscheme "XY" ;
+    ns1:firstch "PS549" ;
+    ns1:lastch "PS595" ;
+    ns1:next "Omega_Ruby_&_Alpha_Sapphire_" ;
+    ns1:number "12" ;
+    ns1:numchs "47" ;
+    ns1:prev "Black_2_&_White_2" .
+
+ns1:Yellow a ns1:AdvArc ;
+    ns2:caption "_adv_Yellow__and_Pika" ;
+    ns2:image "Yellow_chapter.png_!_250px" ;
+    ns2:name "Yellow" ;
+    ns1:Region "Kanto" ;
+    ns1:firstch "PS041" ;
+    ns1:lastch "PS090" ;
+    ns1:next "Gold,_Silver_&_Crystal_" ;
+    ns1:number "2" ;
+    ns1:numchs "50" ;
+    ns1:prev "Red,_Green_&_Blue" .
+

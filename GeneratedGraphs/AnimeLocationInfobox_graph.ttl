@@ -1,0 +1,110 @@
+@prefix ns1: <http://example.org/resource/animelocation/> .
+@prefix ns2: <http://example.org/property/> .
+
+<Johto> a <http://example.org/resource/region/Region> .
+
+<Orange_Islands> a <http://example.org/resource/region/Region> .
+
+ns1:Blue_Point_Isle a ns1:AnimeLocation ;
+    ns2:caption "Blue_Point_Isle" ;
+    ns2:image "Blue_Point_Island.png" ;
+    ns2:name "Blue_Point_Isle" ;
+    ns2:region <http://example.org/resource/region/Johto> ;
+    ns1:characters "青岩島" ;
+    ns1:epicode "EP210" ;
+    ns1:episode "Around_the_Whirlpool" ;
+    ns1:imagesize "250px" ;
+    ns1:japanese "Seigan_Isle" .
+
+ns1:Inland_City a ns1:AnimeLocation ;
+    ns2:image "Inland_City.png" ;
+    ns2:name "Inland_City" ;
+    ns2:region <http://example.org/resource/region/Johto> ;
+    ns1:characters "クガシティ" ;
+    ns1:epicode "EP210" ;
+    ns1:episode "Around_the_Whirlpool" ;
+    ns1:imagesize "250px" ;
+    ns1:japanese "Kuga_City" .
+
+ns1:Ogi_Isle a ns1:AnimeLocation ;
+    ns2:image "Ogi_Island.png" ;
+    ns2:name "Ogi_Isle" ;
+    ns2:region <http://example.org/resource/region/Johto> ;
+    ns1:characters "沖島" ;
+    ns1:epicode "EP219" ;
+    ns1:episode "Hi_Ho_Silver..._Away!" ;
+    ns1:japanese "Oki_Isle" ;
+    ns1:size "250" .
+
+ns1:Palace_of_Victory a ns1:AnimeLocation ;
+    ns2:image "Palace_of_Victory.png" ;
+    ns2:name "Palace_of_Victory" ;
+    ns2:region <http://example.org/resource/region/Orange_Islands> ;
+    ns1:characters "ウィナーズパレス" ;
+    ns1:colorscheme "Orange" ;
+    ns1:epicode "EP111" ;
+    ns1:episode "Hello,_Pummelo!" ;
+    ns1:imagesize "250px" ;
+    ns1:japanese "Winners_Palace" .
+
+ns1:Pudgy_Pidgey_Isle a ns1:AnimeLocation ;
+    ns2:caption "Pudgy_Pidgey_Isle_(left)" ;
+    ns2:image "Pudgy_Pidgey_Isle.png" ;
+    ns2:name "Pudgy_Pidgey_Isle" ;
+    ns2:region <http://example.org/resource/region/Johto> ;
+    ns1:characters "デカポッポ島" ;
+    ns1:epicode "EP211" ;
+    ns1:episode "Fly_Me_to_the_Moon" ;
+    ns1:imagesize "250px" ;
+    ns1:japanese "Deka_Poppo_Isle" .
+
+ns1:Red_Rock_Isle a ns1:AnimeLocation ;
+    ns2:caption "Red_Rock_Isle" ;
+    ns2:image "Red_Rock_Island.png" ;
+    ns2:name "Red_Rock_Isle" ;
+    ns2:region <http://example.org/resource/region/Johto> ;
+    ns1:characters "赤岩島" ;
+    ns1:epicode "EP214" ;
+    ns1:episode "Mantine_Overboard!" ;
+    ns1:imagesize "250px" ;
+    ns1:japanese "Sekigan_Isle" .
+
+ns1:Scarlet_City a ns1:AnimeLocation ;
+    ns2:image "Scarlet_City.png" ;
+    ns2:name "Scarlet_City" ;
+    ns2:region <http://example.org/resource/region/Johto> ;
+    ns1:characters "カクイシティ" ;
+    ns1:epicode "EP214" ;
+    ns1:episode "Mantine_Overboard!" ;
+    ns1:imagesize "250px" ;
+    ns1:japanese "Kakui_City" .
+
+ns1:Sento_Cherry_Town a ns1:AnimeLocation ;
+    ns2:name "Sento_Cherry_Town" ;
+    ns1:characters "セントチェリータウン" ;
+    ns1:colorscheme "Johto" ;
+    ns1:epicode "EP272" ;
+    ns1:episode "Johto_Photo_Finish" ;
+    ns1:japanese "St._Cherry_Town" .
+
+ns1:Silver_Rock_Isle a ns1:AnimeLocation ;
+    ns2:caption "Silver_Rock_Isle" ;
+    ns2:image "Silver_Rock_Island.png" ;
+    ns2:name "Silver_Rock_Isle" ;
+    ns2:region <http://example.org/resource/region/Johto> ;
+    ns1:characters "銀岩島" ;
+    ns1:epicode "EP218" ;
+    ns1:episode "Plant_It_Now..._Diglett_Later" ;
+    ns1:imagesize "250px" ;
+    ns1:japanese "Gingan_Isle" .
+
+ns1:Yellow_Rock_Isle a ns1:AnimeLocation ;
+    ns2:image "Yellow_Rock_Island.png" ;
+    ns2:name "Yellow_Rock_Isle" ;
+    ns2:region <http://example.org/resource/region/Johto> ;
+    ns1:characters "黄岩島" ;
+    ns1:epicode "EP213" ;
+    ns1:episode "A_Corsola_Caper!" ;
+    ns1:imagesize "250px" ;
+    ns1:japanese "Ōgan_Isle" .
+

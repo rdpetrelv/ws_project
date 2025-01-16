@@ -44,7 +44,7 @@ This project focuses on extracting Pokémon-related data from Bulbapedia. The go
 ├── server/                       # Hosts the interface for the Knowledge Graph
 ├── utils.py                      # Utility functions for various processes
 ├── Vocabulary file               # Contains defined vocabulary for entities
-├── SHACL file                    # Contains SHACL shapes for entity validation
+├── SHACL/*                       # Contains SHACL shapes for entity validation
 └── README.md                     # Project documentation
 ```
 
@@ -60,14 +60,6 @@ The extracted data is structured into a Knowledge Graph that captures the relati
 - **Server Hosting**: Hosted the Knowledge Graph interface for user interaction.
 
 ## Usage
-1. Run `load_templates_names.py` to extract infobox template names.
-2. Use `fetch_by_infobox.py` to fetch pages associated with a specific infobox.
-3. Process the extracted Wikitext dynamically with `Bulbabot.ipynb`.
-4. Host the interface using the scripts in `server/`.
+1. Run `server/app.py` to run the server.
 
-## Contact
-For further questions or contributions, feel free to reach out.
 
-- **Author**: [Your Name]
-- **Email**: your.email@example.com
-- **GitHub**: [Your GitHub Profile Link]

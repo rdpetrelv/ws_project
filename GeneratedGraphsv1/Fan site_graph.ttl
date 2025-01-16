@@ -1,0 +1,1918 @@
+@prefix ns1: <http://example.org/resource/fansite/> .
+@prefix ns2: <http://example.org/property/> .
+
+ns1:52Poké_Wiki a ns1:Fansite ;
+    ns2:bordercolor <e34234> ;
+    ns2:caption "52Poké_Wikis_logo" ;
+    ns2:color <f1a099> ;
+    ns2:corecolor <e34234> ;
+    ns2:image "52PokéWikiLogo.png" ;
+    ns2:slogan "no" ;
+    ns1:articles "yes" ;
+    ns1:create "Summer_2006" ;
+    ns1:creator "_zh_User:Mudkip_Mudkip_" ;
+    ns1:defunct "no" ;
+    ns1:forumname "[https://52poke.net/_Pokémon_Zone]" ;
+    ns1:forums "yes" ;
+    ns1:lang "_wp_Chinese_language_Chinese_" ;
+    ns1:mascot "None" ;
+    ns1:noarticles "30,478_tt_+_as_of_January_22,_2023_" ;
+    ns1:reason "no" ;
+    ns1:run "2006_-_Present" ;
+    ns1:sitename "52Poké_Wiki" ;
+    ns1:size "100" ;
+    ns1:status "Active" ;
+    ns1:weblink "_zh_首页_Main_page_" .
+
+ns1:ARMS_Institute a ns1:Fansite ;
+    ns2:bordercolor <_black_color_dark_> ;
+    ns2:caption "ARMS_Institutes_logo" ;
+    ns2:color <_electric_color_light_> ;
+    ns2:corecolor <_electric_color_> ;
+    ns2:image "ARMS_Institute_logo.png" ;
+    ns2:slogan "no" ;
+    ns1:articles "yes" ;
+    ns1:create "May_1,_2017" ;
+    ns1:creator "_ai_User:Gomtuu_Gomtuu_" ;
+    ns1:defunct "no" ;
+    ns1:forum "no" ;
+    ns1:lang "English" ;
+    ns1:noarticles "450_tt_+_as_of_October_21,_2022_" ;
+    ns1:reason "no" ;
+    ns1:run "May_1,_2017_-_Present" ;
+    ns1:sitename "ARMS_Institute" ;
+    ns1:status "Active" ;
+    ns1:weblink "_ai_Home_Main_Page_" .
+
+ns1:Azure_Heights a ns1:Fansite ;
+    ns2:bordercolor <_water_color_dark_> ;
+    ns2:caption "Site_logo" ;
+    ns2:color <_water_color_light_> ;
+    ns2:corecolor <_water_color_> ;
+    ns2:image "Azure_Heights_logo.png" ;
+    ns2:slogan "no" ;
+    ns1:articles "no" ;
+    ns1:create "c._2000" ;
+    ns1:creator "M.W.F_et_al" ;
+    ns1:defunct "no" ;
+    ns1:forum "yes" ;
+    ns1:forumname "Azure_Heights_Forum" ;
+    ns1:lang "English" ;
+    ns1:mascot "_p_Porygon_,__p_Koffing_,_&__p_Magikarp_" ;
+    ns1:reason "no" ;
+    ns1:run "2000_-_Present" ;
+    ns1:sitename "Azure_Heights_Pokémon_Laboratory" ;
+    ns1:size "100" ;
+    ns1:status "Active" ;
+    ns1:weblink "[https://www.math.miami.edu/~jam/azure/_Main_page]" .
+
+ns1:Azurilland_Wiki a ns1:Fansite ;
+    ns2:bordercolor <_blue_color_dark_> ;
+    ns2:caption "" ;
+    ns2:color <_water_color_light_> ;
+    ns2:corecolor <_beauty_color_> ;
+    ns2:image "Azurilland_Wiki_logo.png" ;
+    ns2:slogan "no" ;
+    ns1:articles "yes" ;
+    ns1:close "November_30,_2020" ;
+    ns1:create "August_14,_2012" ;
+    ns1:creator "Curse_Staff" ;
+    ns1:defunct "yes" ;
+    ns1:forum "yes" ;
+    ns1:forumname "Marriland_Forums" ;
+    ns1:lang "_English" ;
+    ns1:mascot "_p_Marill_" ;
+    ns1:noarticles "6,042_tt_+_as_of_closure_" ;
+    ns1:reason "yes" ;
+    ns1:reason2 "Merged_with_Pokémon_Wiki_(Fandom)_Pokémon_Wiki;_Archived" ;
+    ns1:run "2012_-_2020" ;
+    ns1:sitename "Azurilland_Wiki" ;
+    ns1:size "150" ;
+    ns1:status "Archived" ;
+    ns1:weblink "[https://pokemon-archive.fandom.com/wiki/Azurilland_Wiki_Main_Page]" .
+
+ns1:BulbaNewsNOW a ns1:Fansite ;
+    ns2:bordercolor <D1421E> ;
+    ns2:caption "BulbaNewsNOWs_logo,_the_same_as_the_Bulbanews_logo,_with_a_redder_beacon." ;
+    ns2:color <ED9C88> ;
+    ns2:corecolor <D1421E> ;
+    ns2:image "BNNLogo.png" ;
+    ns2:slogan "no" ;
+    ns1:articles "no" ;
+    ns1:create "May_20,_2012" ;
+    ns1:creator "Bulbagarden_Executive_Policymakers" ;
+    ns1:defunct "no" ;
+    ns1:forumname "[http://forums.bulbagarden.net/index.php_BMGf]" ;
+    ns1:forums "yes" ;
+    ns1:lang "English" ;
+    ns1:mascot "_u_BulbaBot_" ;
+    ns1:reason "no" ;
+    ns1:run "2012–present" ;
+    ns1:sitename "BulbaNewsNOW" ;
+    ns1:size "100" ;
+    ns1:status "Active" ;
+    ns1:weblink "[https://twitter.com/BulbanewsNOW_BulbaNewsNOW]" .
+
+ns1:Bulbagarden a ns1:Fansite .
+
+ns1:Bulbagarden_Archives a ns1:Fansite ;
+    ns2:bordercolor <_steel_color_> ;
+    ns2:caption "Bulbagarden_Archives_logo,_the_same_as_the_Bulbapedia_logo,_but_gray_and_partially_transparent" ;
+    ns2:color <_steel_color_light_> ;
+    ns2:corecolor <_steel_color_> ;
+    ns2:image "Bulbagarden_Archives_logo.png" ;
+    ns2:slogan "no" ;
+    ns1:articles "no" ;
+    ns1:create "April_10,_2005" ;
+    ns1:creator "_u_Zhen_Lin_" ;
+    ns1:defunct "no" ;
+    ns1:forumname "[https://forums.bulbagarden.net/index.php_BMGf]" ;
+    ns1:forums "yes" ;
+    ns1:images "yes" ;
+    ns1:lang "English" ;
+    ns1:mascot "_u_BulbaBot_" ;
+    ns1:noimages "255,886_tt_+_as_of_October_25,_2024_" ;
+    ns1:reason "no" ;
+    ns1:run "2005–present" ;
+    ns1:sitename "Bulbagarden_Archives" ;
+    ns1:size "100" ;
+    ns1:status "Active" ;
+    ns1:weblink "a:Main_Page_Main_Page" .
+
+ns1:Bulbagarden_Discord a ns1:Fansite .
+
+ns1:Bulbagarden_forums a ns1:Fansite .
+
+ns1:Bulbakaki a ns1:Fansite ;
+    ns2:bordercolor <_bulba_color_> ;
+    ns2:caption "_The_Bulbakaki_logo_and_mascot,_a__p_Smeargle_." ;
+    ns2:color <_bulba_color_light_> ;
+    ns2:corecolor <_bulba_color_> ;
+    ns2:image "Bulbakaki_logo.png" ;
+    ns2:slogan "no" ;
+    ns1:articles "no" ;
+    ns1:close "2015" ;
+    ns1:create "2004" ;
+    ns1:creator "_u_Archaic__and__u_Kasumi_" ;
+    ns1:defunct "yes" ;
+    ns1:forumname "[http://forums.bulbagarden.net/index.php_BMGf]__weblink=http://oekaki.bulbagarden.net" ;
+    ns1:lang "English" ;
+    ns1:mascot "_p_Smeargle_" ;
+    ns1:reason "no_" ;
+    ns1:run "2004–2015" ;
+    ns1:sitename "Bulbakaki" ;
+    ns1:size "100" ;
+    ns1:status "Defunct" .
+
+ns1:Bulbanews a ns1:Fansite ;
+    ns2:bordercolor <D1421E> ;
+    ns2:caption "Bulbanews_logo,_the_bulb_of_a__p_Bulbasaur__with_a__i_Poké_Ball__and_radio_signal_superimposed_on_it" ;
+    ns2:color <ED9C88> ;
+    ns2:corecolor <D1421E> ;
+    ns2:image "Bulbanews_logo.png" ;
+    ns1:articles "yes" ;
+    ns1:create "April_2,_2005" ;
+    ns1:creator "_u_Zhen_Lin_" ;
+    ns1:defunct "no" ;
+    ns1:forumname "[http://forums.bulbagarden.net/index.php_BMGf]" ;
+    ns1:forums "yes" ;
+    ns1:lang "English" ;
+    ns1:mascot "_p_Bulbasaur_" ;
+    ns1:noarticles "3,084_tt_+_as_of_October_17,_2015_" ;
+    ns1:reason "no" ;
+    ns1:run "2005–present" ;
+    ns1:sitename "Bulbanews" ;
+    ns1:size "100" ;
+    ns1:sloganline "the_official_news_division_of_Bulbagarden.net_and_your_community_Pokémon_newspaper" ;
+    ns1:slogon "yes" ;
+    ns1:status "Active" ;
+    ns1:weblink "_n_Front_page_" .
+
+ns1:Bulbapedia a ns1:Fansite ;
+    ns2:bordercolor <_bulba_color_> ;
+    ns2:caption "Bulbapedias_logo,_the_bulb_of_a__p_Bulbasaur__with_a__i_Poké_Ball__superimposed_on_it" ;
+    ns2:color <_bulba_color_light_> ;
+    ns2:corecolor <_bulba_color_> ;
+    ns2:image "Bulbapedia_logo.png" ;
+    ns2:slogan "yes" ;
+    ns1:articles "yes" ;
+    ns1:create "February_14,_2005" ;
+    ns1:creator "_u_Archaic__and__u_Zhen_Lin_" ;
+    ns1:defunct "no" ;
+    ns1:forumname "[http://forums.bulbagarden.net/index.php_BMGf]" ;
+    ns1:forums "yes" ;
+    ns1:lang "English" ;
+    ns1:mascot "_p_Bulbasaur_" ;
+    ns1:noarticles "_NUMBEROFARTICLES_" ;
+    ns1:reason "no" ;
+    ns1:run "2005–present" ;
+    ns1:sitename "Bulbapedia" ;
+    ns1:size "100" ;
+    ns1:sloganline "the_community-driven_Pokémon_encyclopedia" ;
+    ns1:status "Active" ;
+    ns1:weblink "Main_Page" .
+
+ns1:Caterpie_Forest a ns1:Fansite .
+
+<http://example.org/resource/fansite/Chibi-Robo!_Wiki> a ns1:Fansite ;
+    ns2:bordercolor <_electric_color_dark_> ;
+    ns2:caption "Chibi-Robo!_Wikis_logo" ;
+    ns2:color <_electric_color_light_> ;
+    ns2:corecolor <_electric_color_> ;
+    ns2:image "Chibi-Robo!_Wiki_Logo.png" ;
+    ns2:slogan "no" ;
+    ns1:articles "yes" ;
+    ns1:create "_April_21,_2008" ;
+    ns1:creator "TheMG" ;
+    ns1:defunct "no" ;
+    ns1:forum "no" ;
+    ns1:lang "English" ;
+    ns1:noarticles "282_tt_+_as_of_August_22,_2024_" ;
+    ns1:reason "no" ;
+    ns1:run "2008_-_Present" ;
+    ns1:sitename "Chibi-Robo!_Wiki" ;
+    ns1:size "200" ;
+    ns1:status "Active" ;
+    ns1:weblink "[https://chibi-robo.wiki/wiki/Chibi-Robo_Wiki_Main_Page]" .
+
+<http://example.org/resource/fansite/Dogasu's_Backpack> a ns1:Fansite .
+
+ns1:Donkey_Kong_Wiki a ns1:Fansite ;
+    ns2:bordercolor <_yellow_color_dark_> ;
+    ns2:caption "The_logo_for_Donkey_Kong_Wiki" ;
+    ns2:color <_yellow_color_light_> ;
+    ns2:corecolor <_yellow_color_> ;
+    ns2:image "Donkey_Kong_Wiki_Logo.png" ;
+    ns2:slogan "yes" ;
+    ns1:articles "yes" ;
+    ns1:close "November_17,_2019" ;
+    ns1:create "May_25,_2008" ;
+    ns1:creator "Wiki443556" ;
+    ns1:defunct "yes" ;
+    ns1:forum "no" ;
+    ns1:forumname "" ;
+    ns1:lang "English" ;
+    ns1:mascot "_dk_Donkey_Kong__and__dk_Diddy_Kong_" ;
+    ns1:noarticles "1,375_tt_+_as_of_November_9,_2017_" ;
+    ns1:reason "no" ;
+    ns1:run "May_25,_2008_-_November_17,_2019" ;
+    ns1:sitename "Donkey_Kong_Wiki" ;
+    ns1:sloganline "The_Donkey_Kong_database!" ;
+    ns1:status "Merged" ;
+    ns1:weblink "_dk_Main_Page_" .
+
+ns1:Dragalia_Lost_Wiki a ns1:Fansite ;
+    ns2:bordercolor <_tcg_psychic_color_> ;
+    ns2:caption "Logo_for_Dragalia_Lost_Wiki" ;
+    ns2:color <_White_color_light_> ;
+    ns2:corecolor <_MD_Blue_color_light_> ;
+    ns2:image "Dragalia_Lost_Wiki_logo.png" ;
+    ns2:slogan "no" ;
+    ns1:articles "yes" ;
+    ns1:create "May_4,_2018" ;
+    ns1:creator "_dlw_User:Elaeagnifolia_Elaeagnifolia_" ;
+    ns1:defunct "no" ;
+    ns1:forum "no" ;
+    ns1:lang "English" ;
+    ns1:mascot "None" ;
+    ns1:noarticles "15,527_tt_+_as_of_October_21,_2022_" ;
+    ns1:reason "no" ;
+    ns1:run "2018_-_present" ;
+    ns1:sitename "Dragalia_Lost_Wiki" ;
+    ns1:size "200" ;
+    ns1:status "Active" ;
+    ns1:weblink "_dlw_Dragalia_Lost_Wiki_" .
+
+ns1:Dragon_Quest_Wiki a ns1:Fansite ;
+    ns2:bordercolor <_dragon_color_dark_> ;
+    ns2:caption "Logo_for_Dragon_Quest_wiki" ;
+    ns2:color <_dragon_color_> ;
+    ns2:corecolor <_dragon_color_light_> ;
+    ns2:image "Dragon_Quest_Wiki_Logo.png" ;
+    ns2:slogan "yes" ;
+    ns1:articles "yes" ;
+    ns1:create "2007" ;
+    ns1:creator "FlyingRagnar_and_Zenithian" ;
+    ns1:defunct "no" ;
+    ns1:forum "no" ;
+    ns1:lang "English" ;
+    ns1:mascot "Dragon" ;
+    ns1:noarticles "6,513_tt_+_as_of_October_21,_2022_" ;
+    ns1:reason "no" ;
+    ns1:run "2007_-_Present" ;
+    ns1:sitename "Dragon_Quest_Wiki" ;
+    ns1:size "180" ;
+    ns1:sloganline "The_online_game_guide_encyclopedia_about_the_Dragon_Quest_series_that_anyone_can_edit!" ;
+    ns1:status "Active" ;
+    ns1:weblink "[http://www.dragon-quest.org/_Main_page]" .
+
+ns1:Drawn_to_Life_Wapopedia a ns1:Fansite ;
+    ns2:bordercolor <_tcg_lightning_color_light_> ;
+    ns2:caption "Logo_for_Drawn_to_Life_Wapopedia" ;
+    ns2:color <_Tcg_water_color_light_> ;
+    ns2:corecolor <_Tcg_grass_color_light_> ;
+    ns2:image "Drawn_to_Life_Wapopedia_Logo.png" ;
+    ns2:slogan "yes" ;
+    ns1:articles "yes" ;
+    ns1:create "2008" ;
+    ns1:creator "Fandom_staff" ;
+    ns1:defunct "no" ;
+    ns1:forum "no" ;
+    ns1:lang "English" ;
+    ns1:mascot "None" ;
+    ns1:noarticles "951_tt_+_as_of_December_13,_2022_" ;
+    ns1:reason "no" ;
+    ns1:run "2008_-_Present" ;
+    ns1:sitename "Drawn_to_Life_Wapopedia" ;
+    ns1:size "180" ;
+    ns1:sloganline "The_ultimate_resource_about_the_Drawn_to_Life_series,_its_characters,_enemies,_and_gameplay_that_anyone_can_edit!" ;
+    ns1:status "Active" ;
+    ns1:weblink "[https://drawntolife.wiki/en/_Main_page]" .
+
+ns1:F-Zero_Wiki a ns1:Fansite ;
+    ns2:bordercolor <_orange_color_dark_> ;
+    ns2:caption "Logo_for_F-Zero_wiki" ;
+    ns2:color <_orange_color_light_> ;
+    ns2:corecolor <_orange_color_> ;
+    ns2:image "F-Zero_Wiki_Logo.png" ;
+    ns2:slogan "yes" ;
+    ns1:articles "yes" ;
+    ns1:create "November_6,_2007" ;
+    ns1:creator "Nsxdriven" ;
+    ns1:defunct "no" ;
+    ns1:forum "no" ;
+    ns1:forumname "[http://mutecity.org/forums/_Mute_City_Forums]" ;
+    ns1:lang "English" ;
+    ns1:mascot "_fzw_Captain_Falcon_" ;
+    ns1:noarticles "344_tt_+_as_of_October_21,_2022_" ;
+    ns1:reason "no" ;
+    ns1:run "November_6,_2007_-_Present" ;
+    ns1:sitename "F-Zero_Wiki" ;
+    ns1:size "180" ;
+    ns1:sloganline "The_F-Zero_Wiki_anyone_can_edit!" ;
+    ns1:status "Active" ;
+    ns1:weblink "_fzw_F-Zero_Wiki_" .
+
+ns1:Filb.de a ns1:Fansite ;
+    ns2:bordercolor <_blue_color_dark_> ;
+    ns2:caption "" ;
+    ns2:color <_blue_color_light_> ;
+    ns2:corecolor <_blue_color_> ;
+    ns2:image "Filb.de_logo.png" ;
+    ns2:slogan "_yes" ;
+    ns1:articles "no" ;
+    ns1:create "1999" ;
+    ns1:creator "Buoysel" ;
+    ns1:defunct "no" ;
+    ns1:forum "yes" ;
+    ns1:forumname "[http://www.filb.de/forum/_FilbBoard]" ;
+    ns1:lang "German" ;
+    ns1:mascot "Jet_(a_blue__p_Buizel_)" ;
+    ns1:reason "no" ;
+    ns1:run "1999_-_Present" ;
+    ns1:sitename "Filb.de" ;
+    ns1:size "150" ;
+    ns1:sloganline "__tt_Pokémon-News_und_-Informationen_Pokémon_news_and_information_" ;
+    ns1:status "Active" ;
+    ns1:weblink "[http://filb.de/_Main_Page]" .
+
+ns1:Fire_Emblem_Wiki a ns1:Fansite ;
+    ns2:bordercolor <_bronze_color_dark_> ;
+    ns2:caption "Fire_Emblem_Wikis_logo" ;
+    ns2:color <_bronze_color_light_> ;
+    ns2:corecolor <_bronze_color_> ;
+    ns2:image "Fire_Emblem_Wiki_Logo.png" ;
+    ns2:slogan "no" ;
+    ns1:articles "yes" ;
+    ns1:create "August_26th,_2010" ;
+    ns1:creator "_few_User:Izagar_Izagar_" ;
+    ns1:defunct "no" ;
+    ns1:forum "no" ;
+    ns1:lang "English" ;
+    ns1:noarticles "10,074_tt_+_as_of_October_21,_2022_" ;
+    ns1:reason "no" ;
+    ns1:run "2010_-_Present" ;
+    ns1:sitename "Fire_Emblem_Wiki" ;
+    ns1:size "230" ;
+    ns1:status "Active" ;
+    ns1:weblink "_few_Main_Page_Main_page_" .
+
+ns1:Glitch_City_Laboratories a ns1:Fansite ;
+    ns2:bordercolor <000> ;
+    ns2:caption "_The_logo_for_Glitch_City_Laboratories." ;
+    ns2:color <_silver_color_> ;
+    ns2:corecolor <_silver_color_> ;
+    ns2:image "GCL_logo.jpg" ;
+    ns2:slogan "no" ;
+    ns1:articles "yes" ;
+    ns1:create "December_2005" ;
+    ns1:creator "[https://forums.glitchcity.info/index.phpaction=profile;u=1_Abwayax]_(alias_Adrian_Malacoda)" ;
+    ns1:defunct "no" ;
+    ns1:forum "yes" ;
+    ns1:forumname "[https://forums.glitchcity.info/_GCL_Forums]" ;
+    ns1:lang "English" ;
+    ns1:mascot "The_Hooked_Metapod" ;
+    ns1:noarticles "3,517_tt_+_As_of_April_2,_2020_" ;
+    ns1:reason "no" ;
+    ns1:run "2003/2005_-_2020" ;
+    ns1:sitename "Glitch_City_Laboratories" ;
+    ns1:size "150" ;
+    ns1:status "Closed" ;
+    ns1:weblink "[https://glitchcity.info/wiki/Main_Page_Main_Page]" .
+
+ns1:Global_Trade_Station_Plus a ns1:Fansite .
+
+ns1:Golden_Sun_Universe a ns1:Fansite ;
+    ns2:bordercolor <_gold_color_dark_> ;
+    ns2:caption "The_logo_for_Golden_Sun_Universe" ;
+    ns2:color <_gold_color_light_> ;
+    ns2:corecolor <_gold_color_> ;
+    ns2:image "Golden_Sun_Universe_logo.png_!_250px" ;
+    ns2:slogan "yes" ;
+    ns1:articles "yes" ;
+    ns1:create "November_2,_2006" ;
+    ns1:creator "_gsu_User:Dracobolt_Dracobolt_" ;
+    ns1:defunct "no" ;
+    ns1:forum "no" ;
+    ns1:lang "English" ;
+    ns1:mascot "None" ;
+    ns1:noarticles "1,434_tt_+_as_of_October_21,_2022_" ;
+    ns1:reason "no" ;
+    ns1:run "November_2,_2006_-_Present" ;
+    ns1:sitename "Golden_Sun_Universe" ;
+    ns1:sloganline "The_Golden_Sun_database_that_anyone_can_edit!" ;
+    ns1:status "Active" ;
+    ns1:weblink "_gsu_Main_Page_" .
+
+ns1:Hard_Drop_Tetris_Wiki a ns1:Fansite ;
+    ns2:bordercolor <_steel_color_dark_> ;
+    ns2:caption "Hard_Drops_logo" ;
+    ns2:color <_steel_color_light_> ;
+    ns2:corecolor <_white_color_dark_> ;
+    ns2:image "Hard_Drop_Tetris_Wiki_logo.png" ;
+    ns2:slogan "no" ;
+    ns1:articles "yes" ;
+    ns1:create "March_2006_(Tetris_Concept)June_2009_(Hard_Drop)" ;
+    ns1:creator "_hdt_User:Blink_Blink_" ;
+    ns1:defunct "no" ;
+    ns1:forum "yes" ;
+    ns1:forumname "[http://www.harddrop.com/forums_Hard_Drop_Forums]" ;
+    ns1:lang "English" ;
+    ns1:mascot "None" ;
+    ns1:noarticles "786_tt_+_as_of_October_21,_2022_" ;
+    ns1:reason "no" ;
+    ns1:run "2006–2009_(as_Tetris_Concept)2009–present_(as_Hard_Drop)" ;
+    ns1:sitename "Hard_Drop_Tetris_Wiki" ;
+    ns1:size "200" ;
+    ns1:status "Active" ;
+    ns1:weblink "_hdt_Tetris_Wiki_" .
+
+ns1:Icaruspedia a ns1:Fansite ;
+    ns2:bordercolor <_flying_color_dark_> ;
+    ns2:caption "Logo_for_Icaruspedia" ;
+    ns2:color <_flying_color_light_> ;
+    ns2:corecolor <_flying_color_> ;
+    ns2:image "Icaruspedia_Logo.png" ;
+    ns2:slogan "yes" ;
+    ns1:articles "yes" ;
+    ns1:create "July_2,_2008" ;
+    ns1:creator "Kperfekt722" ;
+    ns1:defunct "no" ;
+    ns1:forum "no" ;
+    ns1:forumname "" ;
+    ns1:lang "English" ;
+    ns1:mascot "_ip_Pit_" ;
+    ns1:noarticles "722_tt_+_as_of_October_21,_2022_" ;
+    ns1:reason "no" ;
+    ns1:run "2008_-_Present" ;
+    ns1:sitename "Icaruspedia" ;
+    ns1:size "180" ;
+    ns1:sloganline "The_encyclopedia_for_all_things_about_the_Kid_Icarus_series_by_Nintendo." ;
+    ns1:status "Active" ;
+    ns1:weblink "_ip_Main_Page_" .
+
+ns1:Inkipedia a ns1:Fansite ;
+    ns2:bordercolor <_black_color_> ;
+    ns2:caption "Inkipedias_logo" ;
+    ns2:color <_electric_color_light_> ;
+    ns2:corecolor <_violet_color_> ;
+    ns2:image "Inkipedia_logo.png" ;
+    ns2:slogan "yes" ;
+    ns1:articles "yes" ;
+    ns1:create "June_10,_2014" ;
+    ns1:creator "_ink_User:Lumoshi_Lumoshi_" ;
+    ns1:defunct "no" ;
+    ns1:forum "no" ;
+    ns1:lang "English" ;
+    ns1:mascot "_ink_Inkling__and__ink_Octoling_" ;
+    ns1:noarticles "2,698_tt_+_as_of_October_21,_2022_" ;
+    ns1:reason "no" ;
+    ns1:run "2014_-_Present" ;
+    ns1:sitename "Inkipedia" ;
+    ns1:size "150" ;
+    ns1:sloganline "The_free_and_editable_Splatoon_wiki." ;
+    ns1:status "Active" ;
+    ns1:weblink "_ink_Main_Page_" .
+
+ns1:Kingdom_Hearts_Wiki a ns1:Fansite ;
+    ns2:bordercolor <_White_color_light_> ;
+    ns2:caption "Logo_for_Kingdom_Hearts_Wiki" ;
+    ns2:color <_tcg_darkness_color_> ;
+    ns2:corecolor <_White_color_light_> ;
+    ns2:image "Kingdom_Hearts_Wiki_Logo.png" ;
+    ns2:slogan "no" ;
+    ns1:articles "yes" ;
+    ns1:create "April_1,_2006" ;
+    ns1:creator "Riku5464" ;
+    ns1:defunct "no" ;
+    ns1:forum "no" ;
+    ns1:lang "English" ;
+    ns1:mascot "None" ;
+    ns1:noarticles "6,283_tt_+_as_of_January_20,_2023_" ;
+    ns1:reason "no" ;
+    ns1:run "2006_-_present" ;
+    ns1:sitename "Kingdom_Hearts_Wiki" ;
+    ns1:size "200" ;
+    ns1:status "Active" ;
+    ns1:weblink "_khw_Main_Page_" .
+
+ns1:Kovopedia a ns1:Fansite ;
+    ns2:bordercolor <_alpha_sapphire_color_light_> ;
+    ns2:caption "Logo_for_Kovopedia" ;
+    ns2:color <_alpha_sapphire_color_dark_> ;
+    ns2:corecolor <_white_color_light_> ;
+    ns2:image "Kovopedia_Logo.png" ;
+    ns2:slogan "yes" ;
+    ns1:articles "yes" ;
+    ns1:create "October_31,_2022" ;
+    ns1:creator "_kp_User:Rman41_Rman41_" ;
+    ns1:defunct "no" ;
+    ns1:forum "no" ;
+    ns1:lang "English" ;
+    ns1:mascot "_kp_Star_(species)_Star_" ;
+    ns1:noarticles "1,020_tt_+_as_of_December_11,_2024_" ;
+    ns1:reason "no" ;
+    ns1:run "2022_-_Present" ;
+    ns1:sitename "Kovopedia" ;
+    ns1:size "180" ;
+    ns1:sloganline "The_Magical_Vacation_wiki" ;
+    ns1:status "Active" ;
+    ns1:weblink "[https://kovopedia.com/wiki/Main_Page_Main_page]" .
+
+ns1:LANDpedia a ns1:Fansite ;
+    ns2:bordercolor <_fire_color_dark_> ;
+    ns2:caption "LANDpedias_logo" ;
+    ns2:color <_fire_color_light_> ;
+    ns2:corecolor <_fire_color_> ;
+    ns2:image "LANDpedia.png" ;
+    ns2:slogan "yes" ;
+    ns1:articles "yes" ;
+    ns1:close "February_2013" ;
+    ns1:create "July_2,_2006" ;
+    ns1:creator "[https://web.archive.org/web/20120905115703/http://wiki.pokeland.net:80/wiki/Usuário:JoJo_JoJo]" ;
+    ns1:defunct "yes" ;
+    ns1:forum "yes" ;
+    ns1:forumname "[http://www.forum.pokeland.net/p3/index.php_LAND_community]" ;
+    ns1:lang "Portuguese" ;
+    ns1:mascot "None" ;
+    ns1:noarticles "2,445[https://web.archive.org/web/20120920010430/http://wiki.pokeland.net:80/wiki/Página_principal_Main_page]_archived_in_September_20,_2012" ;
+    ns1:reason "no" ;
+    ns1:run "2006_-_2013" ;
+    ns1:sitename "LANDpedia" ;
+    ns1:size "100" ;
+    ns1:sloganline "_tt_A_enciclopédia_livre_Pokémon_que_todos_podem_editar_The_free_Pokémon_encyclopedia_that_everyone_can_edit_" ;
+    ns1:status "Offline" ;
+    ns1:weblink "[http://wiki.pokeland.net/wiki/Página_principal_Main_page]_([https://web.archive.org/web/20120920010430/http://wiki.pokeland.net/wiki/Página_principal_archive])" .
+
+ns1:La_Wikia_de_Pokéfanon a ns1:Fansite ;
+    ns2:bordercolor <_ice_color_> ;
+    ns2:caption "" ;
+    ns2:color <_sun_color_> ;
+    ns2:corecolor <_ice_color_> ;
+    ns2:image "La_Wikia_de_Pokéfanon.png" ;
+    ns2:slogan "no" ;
+    ns1:articles "yes" ;
+    ns1:create "2008" ;
+    ns1:creator "" ;
+    ns1:defunct "no" ;
+    ns1:forum "yes" ;
+    ns1:forumname "[https://pokefanon.fandom.com/es/wiki/Especial:Foro_Wiki_Forum]" ;
+    ns1:lang "Spanish" ;
+    ns1:mascot "None" ;
+    ns1:noarticles "22,616_tt_+_as_of_June_23,_2021_" ;
+    ns1:reason "no" ;
+    ns1:run "2008_-_Present" ;
+    ns1:sitename "La_Wikia_de_Pokéfanon" ;
+    ns1:size "150" ;
+    ns1:status "Active" ;
+    ns1:weblink "[https://pokefanon.fandom.com/es/wiki/La_Wikia_de_Pokéfanon_Main_Page]" .
+
+ns1:LegendaryPKMN a ns1:Fansite ;
+    ns2:bordercolor <_white_color_dark_> ;
+    ns2:caption "The_side_banner" ;
+    ns2:color <_white_color_light_> ;
+    ns2:corecolor <_white_color_> ;
+    ns2:image "Legendary_Pokémon_site_header.png" ;
+    ns2:slogan "no" ;
+    ns1:articles "no" ;
+    ns1:create "22_August_2001" ;
+    ns1:creator "_u_Arty2__(Hercules_Papatheodorou)" ;
+    ns1:defunct "no" ;
+    ns1:forumname "[https://legendarypkmn.net/forums/archive/_Legendary_Pokémon_Forums]_(archived)" ;
+    ns1:forums "yes" ;
+    ns1:lang "English_and_Greek" ;
+    ns1:mascot "_p_Mew_" ;
+    ns1:reason "no" ;
+    ns1:run "2001_-_Present" ;
+    ns1:sitename "LegendaryPKMN" ;
+    ns1:size "50" ;
+    ns1:status "Active" ;
+    ns1:weblink "[https://legendarypkmn.net_Main_page]" .
+
+ns1:Lylat_Wiki a ns1:Fansite ;
+    ns2:bordercolor <_normal_color_dark_> ;
+    ns2:caption "Logo_for_Lylat_Wiki,_featuring_the_Star_Fox_2005_emblem" ;
+    ns2:color <_ice_color_light_> ;
+    ns2:corecolor <_water_color_> ;
+    ns2:image "Lylat_Wiki_logo.png" ;
+    ns2:slogan "no" ;
+    ns1:articles "yes" ;
+    ns1:create "August_2010" ;
+    ns1:creator "_lw_User:Justin_Justin_" ;
+    ns1:defunct "no" ;
+    ns1:forum "no" ;
+    ns1:forumname "" ;
+    ns1:lang "English" ;
+    ns1:mascot "_lw_Fox_McCloud_Fox_,__lw_Krystal_,__lw_Falco_Lombardi_Falco__&__lw_Slippy_Toad_Slippy_" ;
+    ns1:noarticles "459_tt_+_as_of_October_21,_2022_" ;
+    ns1:reason "no" ;
+    ns1:run "August_2010_-_Present" ;
+    ns1:sitename "Lylat_Wiki" ;
+    ns1:status "Active" ;
+    ns1:weblink "_lw_Lylat_Wiki_Main_Page_" .
+
+ns1:Marriland a ns1:Fansite .
+
+ns1:Metroid_Wiki a ns1:Fansite ;
+    ns2:bordercolor <_poison_color_dark_> ;
+    ns2:caption "Metroid_Wikis_logo" ;
+    ns2:color <_poison_color_light_> ;
+    ns2:corecolor <_poison_color_> ;
+    ns2:image "Metroid_Wiki_logo.png" ;
+    ns2:slogan "no" ;
+    ns1:articles "yes" ;
+    ns1:create "January_27th,_2010" ;
+    ns1:creator "_met_User:Nathanial_Rumphol-Janc_Nathanial_Rumphol-Janc_" ;
+    ns1:defunct "no" ;
+    ns1:forum "no" ;
+    ns1:lang "English" ;
+    ns1:mascot "_met_Samus_Aran_" ;
+    ns1:noarticles "1,746_tt_+_as_of_October_21,_2022_" ;
+    ns1:reason "no" ;
+    ns1:run "2010_-_Present" ;
+    ns1:sitename "Metroid_Wiki" ;
+    ns1:size "200" ;
+    ns1:status "Active" ;
+    ns1:weblink "_met_Main_Page_Main_page_" .
+
+ns1:MiiWiki a ns1:Fansite ;
+    ns2:bordercolor <_GS_color_dark_> ;
+    ns2:caption "MiiWikis_logo" ;
+    ns2:color <_GS_color_light_> ;
+    ns2:corecolor <_GS_color_> ;
+    ns2:image "MiiWiki_Logo.png" ;
+    ns2:slogan "no" ;
+    ns1:articles "yes" ;
+    ns1:create "_March_28,_2021" ;
+    ns1:creator "_Mii_User:Kirb_Kirb_" ;
+    ns1:defunct "no" ;
+    ns1:forum "no" ;
+    ns1:lang "English" ;
+    ns1:noarticles "786_tt_+_as_of_September_17,_2024_" ;
+    ns1:reason "no" ;
+    ns1:run "2021_-_Present" ;
+    ns1:sitename "MiiWiki" ;
+    ns1:size "260" ;
+    ns1:status "Active" ;
+    ns1:weblink "_Mii_Main_Page_Main_page_" .
+
+ns1:National_Bulbagraphic a ns1:Fansite .
+
+ns1:NintendoWiki a ns1:Fansite ;
+    ns2:bordercolor <_white_color_dark_> ;
+    ns2:caption "The_logo_for_NintendoWiki" ;
+    ns2:color <_white_color_light_> ;
+    ns2:corecolor <_white_color_> ;
+    ns2:image "NintendoWiki.png" ;
+    ns2:slogan "yes" ;
+    ns1:articles "yes" ;
+    ns1:create "May_12,_2010" ;
+    ns1:creator "_u_Archaic_" ;
+    ns1:defunct "no" ;
+    ns1:forum "yes" ;
+    ns1:forumname "[http://www.niwanetwork.org/forums/_NIWA_forums]" ;
+    ns1:lang "English" ;
+    ns1:noarticles "2,348_tt_+_as_of_October_21,_2022_" ;
+    ns1:reason "no" ;
+    ns1:run "December_10,_2010_-_Present" ;
+    ns1:sitename "NintendoWiki" ;
+    ns1:sloganline "Your_source_on_Nintendo_Information." ;
+    ns1:status "Active" ;
+    ns1:weblink "_nw_Main_Page_" .
+
+ns1:Nookipedia a ns1:Fansite ;
+    ns2:bordercolor <_green_color_dark_> ;
+    ns2:caption "The_logo_for_Nookipedia" ;
+    ns2:color <_green_color_light_> ;
+    ns2:corecolor <_green_color_> ;
+    ns2:image "Nookipedia.png" ;
+    ns2:slogan "yes" ;
+    ns1:articles "yes" ;
+    ns1:create "July_12,_2010_(Original_wiki)October_23,_2010_(Current_wiki)" ;
+    ns1:creator "_np_User:Jake_Jake_" ;
+    ns1:defunct "no" ;
+    ns1:forum "no" ;
+    ns1:lang "English" ;
+    ns1:noarticles "19,002_tt_+_as_of_December_13,_2024_" ;
+    ns1:reason "no" ;
+    ns1:run "October_23,_2010_-_Present" ;
+    ns1:sitename "Nookipedia" ;
+    ns1:size "125" ;
+    ns1:sloganline "Your_community-driven_Animal_Crossing_wiki_encyclopedia!" ;
+    ns1:status "Active" ;
+    ns1:weblink "_np_Main_Page_" .
+
+<http://example.org/resource/fansite/PIRN:_Pokémon_Radio> a ns1:Fansite .
+
+ns1:PidgiWiki a ns1:Fansite ;
+    ns2:bordercolor <9F6F40> ;
+    ns2:caption "none" ;
+    ns2:color <CF8B54> ;
+    ns2:corecolor <9F6F40> ;
+    ns2:image "PidgiWiki_logo.png" ;
+    ns2:slogan "no" ;
+    ns1:articles "no" ;
+    ns1:create "February_2,_2010" ;
+    ns1:creator "[https://www.pidgi.net/wiki/User:Immewnity_immewnity]" ;
+    ns1:defunct "no" ;
+    ns1:forum "no" ;
+    ns1:images "yes" ;
+    ns1:lang "English" ;
+    ns1:mascot "_p_Pidgey_" ;
+    ns1:noimages "33,525_tt_+_as_of_April_9,_2022_" ;
+    ns1:reason "no" ;
+    ns1:run "2010_-_Present" ;
+    ns1:sitename "PidgiWiki" ;
+    ns1:size "120" ;
+    ns1:status "Active" ;
+    ns1:weblink "[https://www.pidgi.net/wiki/Main_Page_Main_Page]" .
+
+ns1:Pikipedia a ns1:Fansite ;
+    ns2:bordercolor <_bug_color_dark_> ;
+    ns2:caption "The_currrent_logo_for_Pikipedia." ;
+    ns2:color <_bug_color_light_> ;
+    ns2:corecolor <_bug_color__sitename=Pikipedia> ;
+    ns2:image "Pikipedia_logo.png" ;
+    ns2:slogan "no" ;
+    ns1:articles "yes" ;
+    ns1:create "December_3,_2005" ;
+    ns1:creator "_pk_User:Dark_Lord_Revan_Dark_Lord_Revan_" ;
+    ns1:defunct "no" ;
+    ns1:forum "yes" ;
+    ns1:forumname "[http://pikipedia.freeforums.net/_Social_forums]/_pk_Forum:Index_Wiki_forums_" ;
+    ns1:lang "English" ;
+    ns1:mascot "_pk_Chaenostoma_cordatum_Pikmin_Flower_" ;
+    ns1:noarticles "1,418_tt_+_as_of_October_21,_2022_" ;
+    ns1:reason "no" ;
+    ns1:run "December_3,_2005_-_Present" ;
+    ns1:status "Active" ;
+    ns1:weblink "_pk_Main_Page_" .
+
+ns1:Pikmin_Fanon a ns1:Fansite .
+
+ns1:PkStation a ns1:Fansite .
+
+ns1:PokeCollection a ns1:Fansite ;
+    ns2:bordercolor <A43F45> ;
+    ns2:caption "The_current_logo" ;
+    ns2:color <E57E86> ;
+    ns2:corecolor <D25960> ;
+    ns2:image "PokeCollection_Logo.jpg" ;
+    ns2:slogan "yes" ;
+    ns1:articles "no" ;
+    ns1:create "June_17,_2009" ;
+    ns1:creator "Asad_Naseem" ;
+    ns1:defunct "no" ;
+    ns1:forum "no" ;
+    ns1:lang "English" ;
+    ns1:mascot "_p_Spinda_" ;
+    ns1:reason "no" ;
+    ns1:run "2009_-_Present" ;
+    ns1:sitename "PokeCollection" ;
+    ns1:size "250" ;
+    ns1:sloganline "Interactivity_+_Integration" ;
+    ns1:status "Active" ;
+    ns1:weblink "[http://www.pokecollection.com_Website][http://www.youtube.com/pokecollection_YouTube][http://www.facebook.com/pokecollection_Facebook][http://www.twitter.com/pokecollection_Twitter][https://vine.co/pokecollection_Vine][http://www.instagram.com/pokecollection_Instagram][http://www.twitch.tv/pokecollection_Twitch][http://www.google.com/+pokecollection_Google+][http://www.ustream.tv/pokecollection_Ustream]" .
+
+ns1:PokeDream a ns1:Fansite .
+
+ns1:Pokeani a ns1:Fansite .
+
+ns1:Pokemonexperte a ns1:Fansite .
+
+ns1:Pokemopolis a ns1:Fansite .
+
+ns1:PokéBeach a ns1:Fansite .
+
+ns1:PokéCommunity a ns1:Fansite .
+
+ns1:PokéFanon a ns1:Fansite ;
+    ns2:bordercolor <9900cc> ;
+    ns2:caption "" ;
+    ns2:color <aaaaaa> ;
+    ns2:corecolor <66aaee> ;
+    ns2:image "Pokemon_Fanon_Logo.png" ;
+    ns2:slogan "yes" ;
+    ns1:articles "yes" ;
+    ns1:create "May_2006" ;
+    ns1:creator "Plateface" ;
+    ns1:defunct "no" ;
+    ns1:forum "yes" ;
+    ns1:forumname "[http://pokemonfanon.wikia.com/wiki/Special:Forum_Wiki_Forum]" ;
+    ns1:lang "English" ;
+    ns1:mascot "_p_Arceus_Shiny_Steel-type_Arceus_" ;
+    ns1:noarticles "23,612_tt_+_as_of_April_2,_2020_" ;
+    ns1:reason "no" ;
+    ns1:run "March_2007_-_Present" ;
+    ns1:sitename "PokéFanon" ;
+    ns1:size "150" ;
+    ns1:sloganline "The_official_unofficial_encyclopedia" ;
+    ns1:status "Active" ;
+    ns1:weblink "[http://pokemonfanon.wikia.com/wiki/Main_Page_Main_Page]" .
+
+ns1:PokéJungle.net a ns1:Fansite ;
+    ns2:bordercolor <_grass_color_dark_> ;
+    ns2:caption "PokéJungle.nets_logo,_featuring__p_Sewaddle_" ;
+    ns2:color <_grass_color_light_> ;
+    ns2:corecolor <_grass_color_> ;
+    ns2:image "_Pokejungle_logo.png" ;
+    ns2:slogan "no" ;
+    ns1:articles "no" ;
+    ns1:create "Late_2003" ;
+    ns1:creator "Paul_(pokejungle_or_PJ)" ;
+    ns1:defunct "no" ;
+    ns1:forumname "[http://pokejungle.net/forums/_PokéJungle_Forums]" ;
+    ns1:forums "yes" ;
+    ns1:lang "English" ;
+    ns1:mascot "_p_Sewaddle__tt_*_formerly_a_Leafeon_" ;
+    ns1:reason "no" ;
+    ns1:run "2003_-_Present" ;
+    ns1:sitename "PokéJungle.net" ;
+    ns1:size "190" ;
+    ns1:sloganline "" ;
+    ns1:status "Active" ;
+    ns1:weblink "[http://pokejungle.net/_Main_page]" .
+
+ns1:PokéWiki a ns1:Fansite ;
+    ns2:bordercolor <_water_color_dark_> ;
+    ns2:caption "PokéWikis_logo,_featuring__de_PokéWiki:Greenchu_Greenchu_" ;
+    ns2:color <_water_color_light_> ;
+    ns2:corecolor <_water_color_> ;
+    ns2:image "PokéWikiLogo.png" ;
+    ns2:slogan "yes" ;
+    ns1:articles "yes" ;
+    ns1:create "August_2005" ;
+    ns1:creator "_de_Benutzer:Buoysel_Buoysel_,__de_Benutzer:Matze_Matze_,_and__de_Benutzer:Frz_Frz_" ;
+    ns1:defunct "no" ;
+    ns1:forum "no" ;
+    ns1:lang "_wp_German_language_German_" ;
+    ns1:mascot "_de_PokéWiki:Greenchu_Greenchu_,_a_green__p_Pikachu_" ;
+    ns1:noarticles "40,126_tt_+_as_of_February_14,_2024_" ;
+    ns1:reason "no" ;
+    ns1:run "2005_-_Present" ;
+    ns1:sitename "PokéWiki" ;
+    ns1:size "275" ;
+    ns1:sloganline "_tt_Die_deutsche_Pokémon-Enzyklopädie_The_German_Pokémon_Encyclopedia_" ;
+    ns1:status "Active" ;
+    ns1:weblink "_de_Hauptseite_Main_page_" .
+
+ns1:Pokémon-France a ns1:Fansite ;
+    ns2:bordercolor <cccccc> ;
+    ns2:caption "The_current_Pokémon-France_logo" ;
+    ns2:color <aaaaaa> ;
+    ns2:corecolor <bbbbbb> ;
+    ns2:image "Pokémon-France_Logo.png" ;
+    ns2:slogan "Pokemon-France.com,_your_portal_to_Pokémon." ;
+    ns1:articles "no" ;
+    ns1:create "November_15,_1999" ;
+    ns1:creator "Bibou" ;
+    ns1:defunct "no" ;
+    ns1:forum "no_" ;
+    ns1:lang "French" ;
+    ns1:mascot "Unknown" ;
+    ns1:noarticles "no" ;
+    ns1:reason "no" ;
+    ns1:run "November_1999_-_Present" ;
+    ns1:sitename "Pokémon-France" ;
+    ns1:size "150" ;
+    ns1:status "Active" ;
+    ns1:weblink "[http://www.pokemon-france.com_Home_page]" .
+
+ns1:PokémonAus_Forums a ns1:Fansite .
+
+ns1:PokémonWorld a ns1:Fansite ;
+    ns2:bordercolor <_water_color_dark_> ;
+    ns2:caption "The_UK_Pokémon_Community" ;
+    ns2:color <_water_color_light_> ;
+    ns2:corecolor <_water_color_> ;
+    ns2:image "PWlogo3.png" ;
+    ns2:slogan "no" ;
+    ns1:articles "no" ;
+    ns1:close "August_28,_2012" ;
+    ns1:create "March_13,_2004" ;
+    ns1:creator "Pokérob" ;
+    ns1:defunct "yes" ;
+    ns1:forum "yes" ;
+    ns1:forumname "[http://pokemonworld.org.uk/index.php_PokémonWorld]" ;
+    ns1:lang "English" ;
+    ns1:mascot "_p_Chatot_" ;
+    ns1:noarticles "77_(Not_including_an_analysis_for_each_Pokémon_in_each_generation)" ;
+    ns1:reason "no" ;
+    ns1:run "2004_-_2012" ;
+    ns1:sitename "PokémonWorld" ;
+    ns1:size "150" ;
+    ns1:status "Defunct" ;
+    ns1:weblink "[http://pokemonworld.org.uk/_Main_Page]" .
+
+<http://example.org/resource/fansite/Pokémon_Aaah!> a ns1:Fansite .
+
+ns1:Pokémon_Abode a ns1:Fansite .
+
+ns1:Pokémon_Central a ns1:Fansite ;
+    ns2:bordercolor <_yellow_color_dark_> ;
+    ns2:caption "Pokémon_Central_logo,_a_stylized_yellow_Poké_Ball_with_a_P_and_a_C_inside" ;
+    ns2:color <_yellow_color_light_> ;
+    ns2:corecolor <_yellow_color_> ;
+    ns2:image "Pokémon_Central_logo.png" ;
+    ns2:slogan "no" ;
+    ns1:articles "no" ;
+    ns1:create "April_28,_2000" ;
+    ns1:creator "_it_Utente:Gkx_Gkx_" ;
+    ns1:defunct "no" ;
+    ns1:forum "yes" ;
+    ns1:forumname "[http://forum.pokemoncentral.it/_Pokémon_Central_forum]" ;
+    ns1:lang "Italian" ;
+    ns1:mascot "None" ;
+    ns1:reason "no" ;
+    ns1:run "2000_-_Present" ;
+    ns1:sitename "Pokémon_Central" ;
+    ns1:size "100" ;
+    ns1:status "Active" ;
+    ns1:weblink "[http://www.pokemoncentral.it/_Main_Page]" .
+
+ns1:Pokémon_Central_Wiki a ns1:Fansite ;
+    ns2:bordercolor <_ghost_color_dark_> ;
+    ns2:caption "Pokémon_Central_Wikis_logo,_a_stylized_blue_Poké_Ball_with_a_P_and_a_C_inside" ;
+    ns2:color <_ghost_color_light_> ;
+    ns2:corecolor <_ghost_color_> ;
+    ns2:image "Pokémon_Central_Wiki_logo.png" ;
+    ns2:slogan "yes" ;
+    ns1:articles "yes" ;
+    ns1:create "March_29,_2008" ;
+    ns1:creator "_it_User:Gkx_Gkx__and__it_User:Ipergorilla_Ipergorilla_" ;
+    ns1:defunct "no" ;
+    ns1:forum "yes" ;
+    ns1:forumname "[https://forum.pokemoncentral.it/_Pokémon_Central_forum]" ;
+    ns1:lang "Italian" ;
+    ns1:mascot "None" ;
+    ns1:noarticles "31569_tt_+_as_of_January_12,_2025_" ;
+    ns1:reason "no" ;
+    ns1:run "2008_-_Present" ;
+    ns1:sitename "Pokémon_Central_Wiki" ;
+    ns1:size "100" ;
+    ns1:sloganline "_tt_lenciclopedia_Pokémon_in_italiano_the_Pokémon_encyclopedia_in_Italian_" ;
+    ns1:status "Active" ;
+    ns1:weblink "_it_Home_Main_Page_" .
+
+ns1:Pokémon_Database a ns1:Fansite .
+
+ns1:Pokémon_Fan_Event_Center a ns1:Fansite .
+
+ns1:Pokémon_LAND a ns1:Fansite ;
+    ns2:bordercolor <_fire_color_dark_> ;
+    ns2:caption "" ;
+    ns2:color <_fire_color_light_> ;
+    ns2:corecolor <_fire_color_> ;
+    ns2:image "Pokémon_LAND_logo.png" ;
+    ns2:slogan "yes" ;
+    ns1:articles "no" ;
+    ns1:close "2020" ;
+    ns1:create "October_26,_1999" ;
+    ns1:creator "JoJo_and_Armageddon_®" ;
+    ns1:defunct "yes" ;
+    ns1:forum "yes" ;
+    ns1:forumname "[http://www.forum.pokeland.net/p3/index.php_LAND_community]" ;
+    ns1:lang "Portuguese" ;
+    ns1:mascot "None" ;
+    ns1:reason "no" ;
+    ns1:run "1999_-_2020" ;
+    ns1:sitename "Pokémon_LAND" ;
+    ns1:size "150" ;
+    ns1:sloganline "_tt_No_princípio,_agora_e_para_sempre_In_the_beginning,_now_and_forever_" ;
+    ns1:status "Offline" ;
+    ns1:weblink "[http://www.pokeland.net/_Main_Page]" .
+
+ns1:Pokémon_Millennium a ns1:Fansite .
+
+ns1:Pokémon_Online_\(battle_simulator\) a ns1:Fansite .
+
+ns1:Pokémon_Perfect a ns1:Fansite ;
+    ns2:bordercolor <_psychic_color_dark_> ;
+    ns2:caption "Site_logo" ;
+    ns2:color <_psychic_color_light_> ;
+    ns2:corecolor <_psychic_color_light_> ;
+    ns2:image "PokemonPerfect.png" ;
+    ns2:slogan "Pokémon_Practice_makes_Pokémon_Perfect" ;
+    ns1:articles "no" ;
+    ns1:create "2011" ;
+    ns1:creator "Lutra" ;
+    ns1:defunct "no" ;
+    ns1:forum "yes" ;
+    ns1:forumname "Pokémon_Perfect" ;
+    ns1:lang "English" ;
+    ns1:mascot "_p_Mew_" ;
+    ns1:reason "no" ;
+    ns1:run "2011_-_Present" ;
+    ns1:sitename "Pokémon_Perfect" ;
+    ns1:size "350" ;
+    ns1:status "Active" ;
+    ns1:weblink "[https://www.pokemonperfect.com/forums/index.php_Main_page]" .
+
+ns1:Pokémon_Polska a ns1:Fansite .
+
+ns1:Pokémon_Republic a ns1:Fansite ;
+    ns2:bordercolor <_blue_color_dark_> ;
+    ns2:caption "" ;
+    ns2:color <_blue_color_light_> ;
+    ns2:corecolor <_blue_color_> ;
+    ns2:image "noimage.png" ;
+    ns2:slogan "no" ;
+    ns1:articles "no" ;
+    ns1:close "June_20,_2016" ;
+    ns1:create "May_15,_2004" ;
+    ns1:creator "" ;
+    ns1:defunct "yes" ;
+    ns1:forum "no" ;
+    ns1:lang "Japanese" ;
+    ns1:mascot "None" ;
+    ns1:reason "no" ;
+    ns1:run "2004_-_2016" ;
+    ns1:sitename "Pokémon_Republic" ;
+    ns1:size "150" ;
+    ns1:status "Defunct" ;
+    ns1:weblink "[http://xn--rckteqa2e.com/_Main_Page]" .
+
+ns1:Pokémon_Showdown a ns1:Fansite ;
+    ns2:bordercolor <_water_color__> ;
+    ns2:caption "" ;
+    ns2:color <_silver_color_light__> ;
+    ns2:corecolor <_water_color_light__> ;
+    ns2:image "LogoPS.png_" ;
+    ns2:slogan "no_" ;
+    ns1:articles "no_" ;
+    ns1:create "October_2011_" ;
+    ns1:creator "Zarel_" ;
+    ns1:defunct "no_" ;
+    ns1:forum "yes_" ;
+    ns1:forumname "[http://pokemonshowdown.com/forums/_PS_Forums]_" ;
+    ns1:lang "English_" ;
+    ns1:mascot "_p_Meloetta__" ;
+    ns1:reason "no_" ;
+    ns1:run "2011_-_Present" ;
+    ns1:sitename "Pokémon_Showdown_" ;
+    ns1:size "146_" ;
+    ns1:status "Active_" ;
+    ns1:weblink "[http://pokemonshowdown.com/_Main_Page]" .
+
+ns1:Pokémon_Vortex a ns1:Fansite .
+
+ns1:Pokémon_Wiki a ns1:Fansite ;
+    ns2:bordercolor <_blue_color_dark_> ;
+    ns2:caption "Pokémon_Wikis_logo,_a__i_Poké_Ball__with_Game_Boy_Advance_GBA_sprites_of_the_Kanto_Kanto_first_partner_Pokémon_first_partner_Pokémon_above_Pokémon_in_katakana,_and_Wiki_in_English." ;
+    ns2:color <_blue_color_light_> ;
+    ns2:corecolor <_Diamond_color_> ;
+    ns2:image "PokémonWikiLogo.png" ;
+    ns2:slogan "yes" ;
+    ns1:articles "yes" ;
+    ns1:create "April_1,_2006" ;
+    ns1:creator "FPU" ;
+    ns1:defunct "no" ;
+    ns1:forum "no" ;
+    ns1:lang "_wp_Japanese_language_Japanese_" ;
+    ns1:mascot "_p_Squirtle_,__p_Bulbasaur__and__p_Charmander_" ;
+    ns1:noarticles "35,584_tt_+_as_of_October_21,_2022_" ;
+    ns1:reason "no" ;
+    ns1:run "2006_-_Present" ;
+    ns1:sitename "Pokémon_Wiki" ;
+    ns1:size "100" ;
+    ns1:sloganline "_tt_自由に利用可能なポケモンの辞典。_The_freely_available_Pokémon_dictionary_" ;
+    ns1:status "Active" ;
+    ns1:weblink "_ja_メインページ_Main_page_" .
+
+ns1:Pokémon_Wiki_\(Fandom\) a ns1:Fansite ;
+    ns2:bordercolor <_blue_color_dark_> ;
+    ns2:caption "Pokémon_Wikis_logo" ;
+    ns2:color <_yellow_color_light_> ;
+    ns2:corecolor <_white_color_> ;
+    ns2:image "Pokémon_Wiki_Spring-Summer_logo.png" ;
+    ns2:slogan "no" ;
+    ns1:articles "yes" ;
+    ns1:create "January_27,_2005" ;
+    ns1:creator "Jellochuu" ;
+    ns1:defunct "no" ;
+    ns1:forum "yes" ;
+    ns1:forumname "[https://pokemon.fandom.com/wiki/Forum:Index_Wiki_Forum]" ;
+    ns1:lang "English" ;
+    ns1:mascot "Lunala" ;
+    ns1:noarticles "20,344_tt_+_as_of_September_19,_2024_" ;
+    ns1:reason "no" ;
+    ns1:run "2005_-_Present" ;
+    ns1:sitename "Pokémon_Wiki" ;
+    ns1:size "150" ;
+    ns1:status "Active" ;
+    ns1:weblink "[https://pokemon.fandom.com/wiki/Pokémon_Wiki_Main_Page]" .
+
+ns1:Pokémon_Wiki_\(Korean\) a ns1:Fansite ;
+    ns2:bordercolor <_poison_color_light_> ;
+    ns2:caption "" ;
+    ns2:color <FFF> ;
+    ns2:corecolor <_grass_color_light_> ;
+    ns2:image "Pokémon_Wiki_(Korean).png" ;
+    ns2:slogan "yes" ;
+    ns1:articles "yes" ;
+    ns1:create "" ;
+    ns1:creator "Dlagockd_" ;
+    ns1:defunct "no" ;
+    ns1:forum "yes" ;
+    ns1:forumname "[http://ko.pokemon.wikia.com/wiki/특수기능:포럼_Wiki_Forum]" ;
+    ns1:lang "Korean" ;
+    ns1:mascot "Wiki_Berry" ;
+    ns1:noarticles "12,414_tt_+_as_of_March_18,_2021_" ;
+    ns1:reason "no" ;
+    ns1:run "October_11,_2009_-_Present" ;
+    ns1:sitename "포켓몬_위키" ;
+    ns1:size "150" ;
+    ns1:sloganline "_tt_지금_당신이_알고_있는_정보를_공유해_보세요!_Share_what_you_know_now!_" ;
+    ns1:status "Active" ;
+    ns1:weblink "[http://ko.pokemon.wikia.com/wiki/대문_Main_Page]" .
+
+ns1:Pokémon_Zone a ns1:Fansite .
+
+ns1:Poképédia a ns1:Fansite ;
+    ns2:bordercolor <_yellow_color_dark_> ;
+    ns2:caption "Poképédias_logo,_featuring__p_Uxie__with_open_eyes_and_a_puzzle_piece_around_its_neck" ;
+    ns2:color <_yellow_color_light_> ;
+    ns2:corecolor <_yellow_color_> ;
+    ns2:image "PoképédiaLogo.png" ;
+    ns2:slogan "yes" ;
+    ns1:articles "yes" ;
+    ns1:create "August_2,_2007" ;
+    ns1:creator "User:Misdre_Misdre" ;
+    ns1:defunct "no" ;
+    ns1:forum "yes" ;
+    ns1:forumname "[http://forum.pokepedia.fr/_Poképédia_:_le_Forum]" ;
+    ns1:lang "French" ;
+    ns1:mascot "_p_Uxie_" ;
+    ns1:noarticles "48,264_tt_+_as_of_December_10,_2024_" ;
+    ns1:reason "no" ;
+    ns1:run "2007_-_Present" ;
+    ns1:sitename "Poképédia" ;
+    ns1:size "100" ;
+    ns1:sloganline "_tt_Lencyclopédie_Pokémon_à_laquelle_tout_le_monde_peut_participer_!_The_Pokémon_encyclopedia_where_anyone_can_contribute!_" ;
+    ns1:status "Active" ;
+    ns1:weblink "_fr_Portail:Accueil_Main_page_" .
+
+ns1:Pokéteca a ns1:Fansite ;
+    ns2:bordercolor <_rock_color_dark_> ;
+    ns2:caption "Pokétecas_logo" ;
+    ns2:color <_rock_color_light_> ;
+    ns2:corecolor <_rock_color_> ;
+    ns2:image "Pokéteca_Logo.png" ;
+    ns2:slogan "yes" ;
+    ns1:articles "yes" ;
+    ns1:close "August_2013" ;
+    ns1:create "September_1,_2008" ;
+    ns1:creator "Habieru" ;
+    ns1:defunct "yes" ;
+    ns1:forum "no" ;
+    ns1:lang "Spanish" ;
+    ns1:mascot "_p_Hoothoot_" ;
+    ns1:noarticles "2,458[https://wikiapiary.com/wiki/Pok%C3%A9teca_WikiApirary]" ;
+    ns1:reason "no" ;
+    ns1:run "2008_-_2013" ;
+    ns1:sitename "Pokéteca" ;
+    ns1:size "250" ;
+    ns1:sloganline "_tt_La_enciclopedia_Pokémon_en_español_The_Pokémon_encyclopedia_in_Spanish_" ;
+    ns1:status "Offline" ;
+    ns1:weblink "[http://poketeca.com/wiki/Página_principal_Main_page]_([https://web.archive.org/web/20130517224326/http://poketeca.com:80/wiki/Página_principal_archive])" .
+
+ns1:Psypoke a ns1:Fansite .
+
+ns1:Rhythm_Heaven_Wiki a ns1:Fansite ;
+    ns2:bordercolor <_Violet_color_dark_> ;
+    ns2:caption "Rhythm_Heaven_Wikis_logo" ;
+    ns2:color <_Violet_color_light_> ;
+    ns2:corecolor <_Violet_color_> ;
+    ns2:image "Rhythm_Heaven_Wiki_logo.png" ;
+    ns2:slogan "no" ;
+    ns1:articles "yes" ;
+    ns1:create "_June_12,_2009" ;
+    ns1:creator "James233" ;
+    ns1:defunct "no" ;
+    ns1:forum "no" ;
+    ns1:lang "English" ;
+    ns1:noarticles "621_tt_+_as_of_May_16,_2024_" ;
+    ns1:reason "no" ;
+    ns1:run "2009_-_Present" ;
+    ns1:sitename "Rhythm_Heaven_Wiki" ;
+    ns1:size "260" ;
+    ns1:status "Active" ;
+    ns1:weblink "_rhw_Main_Page_Main_page_" .
+
+ns1:Russian_Pokémon_Community a ns1:Fansite .
+
+ns1:Serebii.net a ns1:Fansite .
+
+ns1:SmashWiki a ns1:Fansite ;
+    ns2:bordercolor <bfbfdf> ;
+    ns2:caption "The_logo_for_SmashWiki" ;
+    ns2:color <f7f7fb> ;
+    ns2:corecolor <bfbfdf> ;
+    ns2:image "SmashWiki_logo.png" ;
+    ns2:slogan "yes" ;
+    ns1:articles "yes" ;
+    ns1:create "March_5,_2007" ;
+    ns1:creator "Gideon_(SmashBoards_version)Alexir55_(Wikia_version)" ;
+    ns1:defunct "no" ;
+    ns1:forum "no" ;
+    ns1:lang "English" ;
+    ns1:mascot "_sbw_Master_Hand_" ;
+    ns1:noarticles "20,534_tt_+_as_of_October_21,_2022_" ;
+    ns1:reason "no" ;
+    ns1:run "December_2005_-_Present" ;
+    ns1:sitename "SmashWiki" ;
+    ns1:size "150" ;
+    ns1:sloganline "the_Super_Smash_Bros._wiki_that_anyone_can_edit." ;
+    ns1:status "Active" ;
+    ns1:weblink "_sbw_Main_Page_" .
+
+ns1:Smogon a ns1:Fansite ;
+    ns2:bordercolor <_poison_color_dark_> ;
+    ns2:caption "" ;
+    ns2:color <_poison_color_light_> ;
+    ns2:corecolor <_poison_color_> ;
+    ns2:image "Smogon_logo.png" ;
+    ns2:slogan "yes" ;
+    ns1:articles "yes" ;
+    ns1:create "December_18,_2004" ;
+    ns1:creator "chaos" ;
+    ns1:defunct "no" ;
+    ns1:forum "yes" ;
+    ns1:forumname "_Smogon_University" ;
+    ns1:lang "English" ;
+    ns1:mascot "_p_Koffing_" ;
+    ns1:noarticles "148_tt_*_Not_including_an_analysis_for_each_Pokémon_in_each_generation,_moves,_items,_types,_Natures,_Dream_World_Project._Includes_CAP_" ;
+    ns1:reason "no" ;
+    ns1:run "2004_-_Present" ;
+    ns1:sitename "Smogon" ;
+    ns1:size "150" ;
+    ns1:sloganline "Pokémon_on_the_Internet:_Lets_make_it_happen" ;
+    ns1:status "Active" ;
+    ns1:weblink "[http://www.smogon.com/_Main_Page]" .
+
+ns1:Starfy_Wiki a ns1:Fansite ;
+    ns2:bordercolor <_crystal_color_dark_> ;
+    ns2:caption "Logo_for_Starfy_Wiki,_featuring_Starfy" ;
+    ns2:color <_crystal_color_light_> ;
+    ns2:corecolor <_crystal_color_> ;
+    ns2:image "Starfy_Wiki_logo.png" ;
+    ns2:slogan "yes" ;
+    ns1:articles "yes" ;
+    ns1:create "May_30,_2009" ;
+    ns1:creator "_lsw_User:BattleFranky202_BattleFranky202_" ;
+    ns1:defunct "no" ;
+    ns1:forum "no" ;
+    ns1:forumname "" ;
+    ns1:lang "English" ;
+    ns1:mascot "_lsw_Starfy_,__lsw_Starly__and__lsw_Moe_" ;
+    ns1:noarticles "1,409_tt_+_as_of_October_21,_2022_" ;
+    ns1:reason "no" ;
+    ns1:run "May_30,_2009_-_Present" ;
+    ns1:sitename "Starfy_Wiki" ;
+    ns1:size "180" ;
+    ns1:sloganline "The_wiki_about_The_Legendary_Starfy_series_(Japanese:_伝説のスタフィー_シリーズ)_that_anyone_can_edit!" ;
+    ns1:status "Active" ;
+    ns1:weblink "_lsw_Main_Page_" .
+
+ns1:StrategyWiki a ns1:Fansite ;
+    ns2:bordercolor <_dark_color_dark_> ;
+    ns2:caption "StrategyWikis_Vector_and_Monobook_skin_logo" ;
+    ns2:color <_dark_color_light_> ;
+    ns2:corecolor <_dark_color_> ;
+    ns2:image "StrategyWiki_Logo.png" ;
+    ns2:slogan "The_free_strategy_guide_and_walkthrough_wiki." ;
+    ns1:articles "yes" ;
+    ns1:create "18_December_2005" ;
+    ns1:creator "Brandon_Suit" ;
+    ns1:defunct "no" ;
+    ns1:forum "yes" ;
+    ns1:forumname "[http://forums.abxy.org/viewforum.phpf=19_ABXY_Forums]" ;
+    ns1:lang "English" ;
+    ns1:mascot "None" ;
+    ns1:noarticles "8,347_tt_+_as_of_October_21,_2022__game_guides,_of_which_816_are_complete" ;
+    ns1:reason "no" ;
+    ns1:run "18_December_2005_-_Present" ;
+    ns1:sitename "StrategyWiki" ;
+    ns1:status "Active" ;
+    ns1:weblink "_sw_Main_Page_" .
+
+ns1:Super_Mario_Wiki a ns1:Fansite ;
+    ns2:bordercolor <_red_color_> ;
+    ns2:caption "Super_Mario_Wikis_logo" ;
+    ns2:color <_red_color_light_> ;
+    ns2:corecolor <_white_color_light_> ;
+    ns2:image "Super_Mario_Wiki_logo.png" ;
+    ns2:slogan "no" ;
+    ns1:articles "yes" ;
+    ns1:create "August_12th,_2005" ;
+    ns1:creator "_smw_User:Porplemontage_Porplemontage_" ;
+    ns1:defunct "no" ;
+    ns1:forumname "[http://www.marioboards.com/index.php_Super_Mario_Boards]" ;
+    ns1:forums "yes" ;
+    ns1:lang "English" ;
+    ns1:mascot "_smw_Mario_" ;
+    ns1:noarticles "29,710_tt_+_as_of_November_6,_2024_" ;
+    ns1:reason "no" ;
+    ns1:run "2005_-_Present" ;
+    ns1:sitename "Super_Mario_Wiki" ;
+    ns1:size "150" ;
+    ns1:status "Active" ;
+    ns1:weblink "_smw_Main_Page_Main_page_" .
+
+ns1:TRsRockin a ns1:Fansite .
+
+ns1:Team_Robo a ns1:Fansite ;
+    ns2:bordercolor <_steel_color_dark__> ;
+    ns2:caption "_" ;
+    ns2:color <_steel_color__> ;
+    ns2:corecolor <_steel_color_light__> ;
+    ns2:image "TeamRobo_Logo.png" ;
+    ns2:slogan "yes_" ;
+    ns1:articles "no_" ;
+    ns1:create "February_2,_2010_" ;
+    ns1:creator "Ujin_Yumeno_" ;
+    ns1:defunct "no_" ;
+    ns1:forumname "_[http://www.teamrobo.com/forums/_Team_Robo_Forums]" ;
+    ns1:forums "yes_" ;
+    ns1:lang "English_" ;
+    ns1:mascot "_None_" ;
+    ns1:reason "no_" ;
+    ns1:run "2010_-_Present_" ;
+    ns1:sitename "Team_Robo_" ;
+    ns1:size "220" ;
+    ns1:sloganline "_Play!_Pokémon_Singapore_" ;
+    ns1:status "Active_" ;
+    ns1:weblink "[http://www.teamrobo.com/_Main_page]" .
+
+ns1:The_Cave_of_Dragonflies a ns1:Fansite .
+
+ns1:The_Cutting_Room_Floor a ns1:Fansite ;
+    ns2:bordercolor <_yellow_color_> ;
+    ns2:caption "The_Cutting_Room_Floors_logo" ;
+    ns2:color <_black_color_light_> ;
+    ns2:corecolor <_green_color_light_> ;
+    ns2:image "The_Cutting_Room_Floor_Logo.png" ;
+    ns2:slogan "no" ;
+    ns1:articles "yes" ;
+    ns1:create "February_2nd,_2010" ;
+    ns1:creator "[https://tcrf.net/User:Rachel_Mae_Rachel_Mae]" ;
+    ns1:defunct "no" ;
+    ns1:forumname "[https://jul.rustedlogic.net/forum.phpid=12_The_Cutting_Room_Floor]" ;
+    ns1:forums "yes" ;
+    ns1:lang "English" ;
+    ns1:mascot "[https://tcrf.net/File:Cactus.png_Super_Mario_64_Cactus]" ;
+    ns1:noarticles "29,950_tt_+_as_of_November_6,_2024_" ;
+    ns1:reason "no" ;
+    ns1:run "2009_-_Present" ;
+    ns1:sitename "The_Cutting_Room_Floor" ;
+    ns1:size "150" ;
+    ns1:status "Active" ;
+    ns1:weblink "[https://tcrf.net/The_Cutting_Room_Floor_Main_Page]" .
+
+ns1:The_PokéMasters a ns1:Fansite .
+
+ns1:The_Pokémon_World_Forums a ns1:Fansite .
+
+ns1:Twitch_Plays_Pokémon a ns1:Fansite ;
+    ns2:bordercolor <464646> ;
+    ns2:caption "Twitch_Plays_Pokémon_logo" ;
+    ns2:color <F5F5F5> ;
+    ns2:corecolor <B190E9> ;
+    ns2:image "Twitch_Plays_Pokémon_logo.png" ;
+    ns2:slogan "no" ;
+    ns1:articles "no" ;
+    ns1:create "February_14,_2014" ;
+    ns1:creator "Anonymous" ;
+    ns1:defunct "no" ;
+    ns1:forum "yes" ;
+    ns1:forumname "[https://www.reddit.com/r/twitchplayspokemon_Twitch_Plays_Pokémon_subreddit]" ;
+    ns1:lang "English" ;
+    ns1:mascot "Helix_Fossil" ;
+    ns1:reason "no" ;
+    ns1:run "2014_-_Present" ;
+    ns1:sitename "Twitch_Plays_Pokémon" ;
+    ns1:size "150" ;
+    ns1:status "Active" ;
+    ns1:weblink "[http://www.twitch.tv/twitchplayspokemon_Main_Page]" .
+
+ns1:Ukikipedia a ns1:Fansite ;
+    ns2:bordercolor <_Ingredients_color_dark_> ;
+    ns2:caption "Ukikipedias_logo" ;
+    ns2:color <_Rock_color_light_> ;
+    ns2:corecolor <_white_color_light_> ;
+    ns2:image "Ukikipedia_logo.png" ;
+    ns2:slogan "no" ;
+    ns1:articles "yes" ;
+    ns1:create "June_8th,_2018" ;
+    ns1:creator "_uki_User:Stick_Stick_" ;
+    ns1:defunct "no" ;
+    ns1:forum "no" ;
+    ns1:lang "English" ;
+    ns1:mascot "_uki_Ukiki_" ;
+    ns1:noarticles "706_tt_+_as_of_October_21,_2022_" ;
+    ns1:reason "no" ;
+    ns1:run "2018_-_Present" ;
+    ns1:sitename "Ukikipedia" ;
+    ns1:size "150" ;
+    ns1:status "Active" ;
+    ns1:weblink "_uki_Main_Page_Main_page_" .
+
+ns1:Ultimate_Pokémon_Center a ns1:Fansite ;
+    ns2:caption "UPC_Favicon" ;
+    ns2:image "UPC_Favicon.png" ;
+    ns2:slogan "no" ;
+    ns1:articles "no" ;
+    ns1:close "2016" ;
+    ns1:create "2000" ;
+    ns1:creator "Peter_O._(poccil)" ;
+    ns1:defunct "yes" ;
+    ns1:forumname "[https://web.archive.org/web/20110905130701/http://www.upokecenter.com:80/forum/_UPC_Forums]" ;
+    ns1:lang "English" ;
+    ns1:reason "no" ;
+    ns1:run "2000_-_2016" ;
+    ns1:sitename "Ultimate_Pokémon_Center" ;
+    ns1:size "64" ;
+    ns1:status "Defunct" ;
+    ns1:weblink "http://www.upokecenter.com/" .
+
+ns1:Ultimate_Pokémon_Network a ns1:Fansite ;
+    ns2:bordercolor <_black_color_dark__> ;
+    ns2:caption "_The_Forums_Banner" ;
+    ns2:color <_black_color__> ;
+    ns2:corecolor <_black_color_light__> ;
+    ns2:image "UPN_Logo.png_" ;
+    ns2:slogan "no_" ;
+    ns1:articles "no_" ;
+    ns1:create "2002_" ;
+    ns1:creator "Kuno_" ;
+    ns1:defunct "no_" ;
+    ns1:forum "yes_" ;
+    ns1:forumname "[http://forums.upnetwork.net/_UPN_forums]_" ;
+    ns1:lang "English_" ;
+    ns1:mascot "_p_Umbreon__" ;
+    ns1:reason "no_" ;
+    ns1:run "2002_-_Present" ;
+    ns1:sitename "_color_fff_Ultimate_Pokémon_Network_" ;
+    ns1:size "150_" ;
+    ns1:status "Active_" ;
+    ns1:weblink "[http://www.upnetwork.net/_Main_Page]" .
+
+ns1:United_European_Pokémon_Communities a ns1:Fansite .
+
+ns1:Wars_Wiki a ns1:Fansite ;
+    ns2:bordercolor <_blue_color_dark_> ;
+    ns2:caption "Logo_for_Wars_Wiki" ;
+    ns2:color <_blue_color_> ;
+    ns2:corecolor <_blue_color_light_> ;
+    ns2:image "Wars_Wiki_logo.png" ;
+    ns2:slogan "no" ;
+    ns1:articles "yes" ;
+    ns1:create "February,_2009" ;
+    ns1:creator "_ww_User:JoJo_JoJo_" ;
+    ns1:defunct "no" ;
+    ns1:forum "yes" ;
+    ns1:forumname "[http://forums.warscentral.com_Wars_Central_forums]_(defunct)" ;
+    ns1:lang "English" ;
+    ns1:mascot "_ww_Andy_" ;
+    ns1:noarticles "544_tt_+_as_of_October_21,_2022_" ;
+    ns1:reason "no" ;
+    ns1:run "2009_-_Present" ;
+    ns1:sitename "Wars_Wiki" ;
+    ns1:status "Active" ;
+    ns1:weblink "_ww_Main_Page_" .
+
+ns1:WiKirby a ns1:Fansite ;
+    ns2:bordercolor <_silver_color_> ;
+    ns2:caption "WiKirbys_logo" ;
+    ns2:color <_cute_color_light_> ;
+    ns2:corecolor <_yellow_color_light_> ;
+    ns2:image "WiKirby_logo.png" ;
+    ns2:slogan "yes" ;
+    ns1:articles "yes" ;
+    ns1:create "March_4,_2010" ;
+    ns1:creator "_wk_User:Axiomist_Axiomist_" ;
+    ns1:defunct "no" ;
+    ns1:forum "no" ;
+    ns1:lang "English" ;
+    ns1:mascot "_wk_Kirby_" ;
+    ns1:noarticles "4,468__tt_+_as_of_May_13,_2024_" ;
+    ns1:reason "no" ;
+    ns1:run "2010_-_Present" ;
+    ns1:sitename "WiKirby" ;
+    ns1:size "100" ;
+    ns1:sloganline "Its_a_wiki._About_Kirby." ;
+    ns1:status "Active" ;
+    ns1:weblink "_wk_Kirby_Wiki_Main_page_" .
+
+ns1:WikiBound a ns1:Fansite ;
+    ns2:bordercolor <_fire_color_dark_> ;
+    ns2:caption "The_logo_for_WikiBound" ;
+    ns2:color <_fire_color_light_> ;
+    ns2:corecolor <_fire_color_> ;
+    ns2:image "WikiBound_logo.png" ;
+    ns2:slogan "yes" ;
+    ns1:articles "yes" ;
+    ns1:create "February_24,_2010" ;
+    ns1:creator "_wb_User:Tacopill_Tacopill_" ;
+    ns1:defunct "no" ;
+    ns1:forum "no" ;
+    ns1:forumname "" ;
+    ns1:lang "English" ;
+    ns1:mascot "Earth" ;
+    ns1:noarticles "1,024_tt_+_as_of_October_21,_2022_" ;
+    ns1:reason "no" ;
+    ns1:run "February_2010_-_Present" ;
+    ns1:sitename "WikiBound" ;
+    ns1:size "150" ;
+    ns1:sloganline "Your_community-driven_Mother/EarthBound_encyclopedia" ;
+    ns1:status "Active" ;
+    ns1:weblink "_wb_WikiBound_" .
+
+ns1:WikiDex a ns1:Fansite ;
+    ns2:bordercolor <_gold_color_dark_> ;
+    ns2:caption "WikiDexs_logo." ;
+    ns2:color <_gold_color_> ;
+    ns2:corecolor <_gold_color_light_> ;
+    ns2:image "WikiDex.png" ;
+    ns2:slogan "yes" ;
+    ns1:articles "yes" ;
+    ns1:create "March_14,_2006" ;
+    ns1:creator "htfcuddles" ;
+    ns1:defunct "no" ;
+    ns1:forum "yes" ;
+    ns1:forumname "_es_Foro:Index_Foro_de_WikiDex_" ;
+    ns1:lang "Spanish" ;
+    ns1:mascot "Spiky-eared_Pichu_&_List_of_event_Pokémon_with_in-game_effects#Pichu_Pikachu-colored_Pichu" ;
+    ns1:noarticles "25,964_tt_+_as_of_October_21,_2022_" ;
+    ns1:owner "Ciencia_Al_Poder" ;
+    ns1:reason "no" ;
+    ns1:run "2006_-_Present" ;
+    ns1:sitename "WikiDex" ;
+    ns1:size "150" ;
+    ns1:sloganline "_tt_La_enciclopedia_Pokémon_en_español_The_Pokémon_Encyclopedia_in_Spanish_" ;
+    ns1:status "Active" ;
+    ns1:weblink "_es_WikiDex_Front_page_" .
+
+ns1:Wikinezka a ns1:Fansite ;
+    ns2:bordercolor <_red_color_dark_> ;
+    ns2:caption "Wikinezkas_logo,_a_simple__i_Poké_Ball__with_the_names_of_several_Pokémon_surrounding_it." ;
+    ns2:color <_red_color_light_> ;
+    ns2:corecolor <_red_color_> ;
+    ns2:image "WikinezkaLogo.png" ;
+    ns2:slogan "yes" ;
+    ns1:articles "yes" ;
+    ns1:close "June_2017" ;
+    ns1:create "January_1st,_2007" ;
+    ns1:creator "_u_Jerzy232_" ;
+    ns1:defunct "yes" ;
+    ns1:forum "yes" ;
+    ns1:forumname "[http://forum.pokemonpl.net/_Forum_Pokemon_Polska]_([https://web.archive.org/web/20170610090426/http://forum.pokemonpl.net/_archived])" ;
+    ns1:lang "Polish" ;
+    ns1:mascot "None" ;
+    ns1:noarticles "4,478[https://wikiapiary.com/wiki/Wikinezka_WikiApiary]" ;
+    ns1:reason "no" ;
+    ns1:run "2007_-_2017" ;
+    ns1:sitename "Wikinezka" ;
+    ns1:size "100" ;
+    ns1:sloganline "_tt_Polska_encyklopedia_Pokémon,_o_wolnej_treści._Polish_Pokémon_encyclopedia_with_free_content_" ;
+    ns1:status "Offline" ;
+    ns1:weblink "[http://wiki.pokemonpl.net/Strona_główna_Main_page]_([https://web.archive.org/web/20170610090426/http://wiki.pokemonpl.net:80/Strona_główna_Archived])" .
+
+ns1:Xeno_Series_Wiki a ns1:Fansite ;
+    ns2:bordercolor <_yellow_color_dark_> ;
+    ns2:caption "Logo_for_Xeno_Series_Wiki" ;
+    ns2:color <_yellow_color_light_> ;
+    ns2:corecolor <_yellow_color_> ;
+    ns2:image "Xeno_Series_Wiki_logo.png" ;
+    ns2:slogan "no" ;
+    ns1:articles "yes" ;
+    ns1:create "2020" ;
+    ns1:creator "_xsw_User:Sir_Teatei_Moonlight_Sir_Teatei_Moonlight_" ;
+    ns1:defunct "no" ;
+    ns1:forum "no" ;
+    ns1:lang "English" ;
+    ns1:mascot "None" ;
+    ns1:noarticles "30,511_tt_+_as_of_November_27,_2024_" ;
+    ns1:reason "no" ;
+    ns1:run "2020_-_Present" ;
+    ns1:sitename "Xeno_Series_Wiki" ;
+    ns1:status "Active" ;
+    ns1:weblink "_xsw_Main_Page_" .
+
+ns1:Zelda_Wiki a ns1:Fansite ;
+    ns2:bordercolor <_sapphire_color_dark_> ;
+    ns2:caption "Zelda_Wikis_logo_since_2022" ;
+    ns2:color <_water_color_dark_> ;
+    ns2:corecolor <_white_color_light_> ;
+    ns2:image "Zeldapedia_logo.png" ;
+    ns2:slogan "yes" ;
+    ns1:articles "yes" ;
+    ns1:create "April_24,_2005" ;
+    ns1:creator "_zw_User:GoldenChaos_Jess_Rappaport_" ;
+    ns1:defunct "no" ;
+    ns1:forumname "[http://zeldauniverse.net/forums/index.php/Board/191-Zelda-Wiki-Discussion-Center/_Zelda_Wiki_Discussion_Center]" ;
+    ns1:forums "yes" ;
+    ns1:lang "English" ;
+    ns1:noarticles "11,199_tt_+_as_of_October_21,_2022_" ;
+    ns1:reason "no" ;
+    ns1:run "2005_-_Present" ;
+    ns1:sitename "Zelda_Wiki" ;
+    ns1:size "150" ;
+    ns1:sloganline "The_Legend_of_Zelda_encyclopedia" ;
+    ns1:status "Active" ;
+    ns1:weblink "_zw_Main_Page_" .
+
+<000> a <http://schema.org/color> .
+
+<464646> a <http://schema.org/color> .
+
+<66aaee> a <http://schema.org/color> .
+
+<9900cc> a <http://schema.org/color> .
+
+<A43F45> a <http://schema.org/color> .
+
+<B190E9> a <http://schema.org/color> .
+
+<CF8B54> a <http://schema.org/color> .
+
+<D25960> a <http://schema.org/color> .
+
+<E57E86> a <http://schema.org/color> .
+
+<F5F5F5> a <http://schema.org/color> .
+
+<FFF> a <http://schema.org/color> .
+
+<_Diamond_color_> a <http://schema.org/color> .
+
+<_GS_color_> a <http://schema.org/color> .
+
+<_GS_color_dark_> a <http://schema.org/color> .
+
+<_GS_color_light_> a <http://schema.org/color> .
+
+<_Ingredients_color_dark_> a <http://schema.org/color> .
+
+<_MD_Blue_color_light_> a <http://schema.org/color> .
+
+<_Rock_color_light_> a <http://schema.org/color> .
+
+<_Tcg_grass_color_light_> a <http://schema.org/color> .
+
+<_Tcg_water_color_light_> a <http://schema.org/color> .
+
+<_Violet_color_> a <http://schema.org/color> .
+
+<_Violet_color_dark_> a <http://schema.org/color> .
+
+<_Violet_color_light_> a <http://schema.org/color> .
+
+<_alpha_sapphire_color_dark_> a <http://schema.org/color> .
+
+<_alpha_sapphire_color_light_> a <http://schema.org/color> .
+
+<_beauty_color_> a <http://schema.org/color> .
+
+<_black_color_> a <http://schema.org/color> .
+
+<_black_color__> a <http://schema.org/color> .
+
+<_black_color_dark_> a <http://schema.org/color> .
+
+<_black_color_dark__> a <http://schema.org/color> .
+
+<_black_color_light_> a <http://schema.org/color> .
+
+<_black_color_light__> a <http://schema.org/color> .
+
+<_bronze_color_> a <http://schema.org/color> .
+
+<_bronze_color_dark_> a <http://schema.org/color> .
+
+<_bronze_color_light_> a <http://schema.org/color> .
+
+<_bug_color__sitename=Pikipedia> a <http://schema.org/color> .
+
+<_bug_color_dark_> a <http://schema.org/color> .
+
+<_bug_color_light_> a <http://schema.org/color> .
+
+<_crystal_color_> a <http://schema.org/color> .
+
+<_crystal_color_dark_> a <http://schema.org/color> .
+
+<_crystal_color_light_> a <http://schema.org/color> .
+
+<_cute_color_light_> a <http://schema.org/color> .
+
+<_dark_color_> a <http://schema.org/color> .
+
+<_dark_color_dark_> a <http://schema.org/color> .
+
+<_dark_color_light_> a <http://schema.org/color> .
+
+<_dragon_color_> a <http://schema.org/color> .
+
+<_dragon_color_dark_> a <http://schema.org/color> .
+
+<_dragon_color_light_> a <http://schema.org/color> .
+
+<_electric_color_dark_> a <http://schema.org/color> .
+
+<_flying_color_> a <http://schema.org/color> .
+
+<_flying_color_dark_> a <http://schema.org/color> .
+
+<_flying_color_light_> a <http://schema.org/color> .
+
+<_ghost_color_> a <http://schema.org/color> .
+
+<_ghost_color_dark_> a <http://schema.org/color> .
+
+<_ghost_color_light_> a <http://schema.org/color> .
+
+<_grass_color_> a <http://schema.org/color> .
+
+<_grass_color_dark_> a <http://schema.org/color> .
+
+<_green_color_> a <http://schema.org/color> .
+
+<_green_color_dark_> a <http://schema.org/color> .
+
+<_ice_color_light_> a <http://schema.org/color> .
+
+<_normal_color_dark_> a <http://schema.org/color> .
+
+<_orange_color_> a <http://schema.org/color> .
+
+<_orange_color_dark_> a <http://schema.org/color> .
+
+<_orange_color_light_> a <http://schema.org/color> .
+
+<_psychic_color_dark_> a <http://schema.org/color> .
+
+<_red_color_dark_> a <http://schema.org/color> .
+
+<_rock_color_> a <http://schema.org/color> .
+
+<_rock_color_dark_> a <http://schema.org/color> .
+
+<_rock_color_light_> a <http://schema.org/color> .
+
+<_sapphire_color_dark_> a <http://schema.org/color> .
+
+<_silver_color_light__> a <http://schema.org/color> .
+
+<_steel_color__> a <http://schema.org/color> .
+
+<_steel_color_dark_> a <http://schema.org/color> .
+
+<_steel_color_dark__> a <http://schema.org/color> .
+
+<_steel_color_light__> a <http://schema.org/color> .
+
+<_sun_color_> a <http://schema.org/color> .
+
+<_tcg_darkness_color_> a <http://schema.org/color> .
+
+<_tcg_lightning_color_light_> a <http://schema.org/color> .
+
+<_tcg_psychic_color_> a <http://schema.org/color> .
+
+<_violet_color_> a <http://schema.org/color> .
+
+<_water_color__> a <http://schema.org/color> .
+
+<_water_color_light__> a <http://schema.org/color> .
+
+<bbbbbb> a <http://schema.org/color> .
+
+<cccccc> a <http://schema.org/color> .
+
+<f1a099> a <http://schema.org/color> .
+
+<f7f7fb> a <http://schema.org/color> .
+
+<9F6F40> a <http://schema.org/color> .
+
+<ED9C88> a <http://schema.org/color> .
+
+<_bulba_color_light_> a <http://schema.org/color> .
+
+<_electric_color_> a <http://schema.org/color> .
+
+<_gold_color_> a <http://schema.org/color> .
+
+<_gold_color_dark_> a <http://schema.org/color> .
+
+<_gold_color_light_> a <http://schema.org/color> .
+
+<_grass_color_light_> a <http://schema.org/color> .
+
+<_green_color_light_> a <http://schema.org/color> .
+
+<_ice_color_> a <http://schema.org/color> .
+
+<_poison_color_> a <http://schema.org/color> .
+
+<_poison_color_dark_> a <http://schema.org/color> .
+
+<_psychic_color_light_> a <http://schema.org/color> .
+
+<_red_color_> a <http://schema.org/color> .
+
+<_red_color_light_> a <http://schema.org/color> .
+
+<_steel_color_> a <http://schema.org/color> .
+
+<_steel_color_light_> a <http://schema.org/color> .
+
+<aaaaaa> a <http://schema.org/color> .
+
+<bfbfdf> a <http://schema.org/color> .
+
+<e34234> a <http://schema.org/color> .
+
+<_White_color_light_> a <http://schema.org/color> .
+
+<_blue_color_> a <http://schema.org/color> .
+
+<_electric_color_light_> a <http://schema.org/color> .
+
+<_fire_color_> a <http://schema.org/color> .
+
+<_fire_color_dark_> a <http://schema.org/color> .
+
+<_fire_color_light_> a <http://schema.org/color> .
+
+<_poison_color_light_> a <http://schema.org/color> .
+
+<_silver_color_> a <http://schema.org/color> .
+
+<_white_color_> a <http://schema.org/color> .
+
+<_white_color_dark_> a <http://schema.org/color> .
+
+<D1421E> a <http://schema.org/color> .
+
+<_blue_color_light_> a <http://schema.org/color> .
+
+<_bulba_color_> a <http://schema.org/color> .
+
+<_water_color_> a <http://schema.org/color> .
+
+<_water_color_dark_> a <http://schema.org/color> .
+
+<_water_color_light_> a <http://schema.org/color> .
+
+<_yellow_color_dark_> a <http://schema.org/color> .
+
+<_yellow_color_> a <http://schema.org/color> .
+
+<_blue_color_dark_> a <http://schema.org/color> .
+
+<_white_color_light_> a <http://schema.org/color> .
+
+<_yellow_color_light_> a <http://schema.org/color> .
+

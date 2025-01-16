@@ -1,0 +1,46 @@
+@prefix ns1: <http://example.org/resource/pokémoncenter/> .
+@prefix ns2: <http://example.org/property/> .
+
+ns1:_Pokémon_Center_New_York a ns1:PokémonCenter ;
+    ns2:name "_Pokémon_Center_New_York" ;
+    ns1:closed "_January_19,_2005[https://pokemoncenternewyork.com/history/_History_of_Pokémon_Center_New_York_-_Pokémon_Center_New_York_Historical_Website]_(retrieved_March_23,_2024)" ;
+    ns1:contact "" ;
+    ns1:contact_title "_Website" ;
+    ns1:location "_[https://maps.app.goo.gl/kdewXtswHbk2Njyo6_Rockefeller_Center,_New_York]" ;
+    ns1:logo "_Pokémon_Center_New_York_logo.png" ;
+    ns1:logo_size "_150px" ;
+    ns1:opened "_November_16,_2001[https://web.archive.org/web/20011119104638/http://www.pokemoncenter.com/pkstore/text_2.asp_Pokémon_says_“I_Choose_You!”_To_Rockefeller_Center_for_First_U.S._Store_Dedicated_To_the_Growing_Worldwide_Phenomenon_-_Pokémon_USA,_Inc.]_(archived_from_the_original_November_19,_2001;_retrieved_March_23,_2024)" ;
+    ns1:type "_Permanent" .
+
+ns1:_Pokémon_Center_Taipei a ns1:PokémonCenter ;
+    ns2:name "_Pokémon_Center_Taipei" ;
+    ns1:contact "_" ;
+    ns1:contact_title "_Website" ;
+    ns1:location "_Shin_Kong_Mitsukoshi_Taipei_Xinyi_Place_A11_3FNo._11,_Songshou_Rd,_Xinyi_District,_Taipei_City,_110" ;
+    ns1:logo "_Pokémon_Center_Taipei_Gen_IX_logo.png" ;
+    ns1:logo_size "_125px" ;
+    ns1:mascot "__p_Dragonite__&__p_Pikachu_" ;
+    ns1:opened "_December_8,_2023[https://tw.portal-pokemon.com/topics/event/2023128pokemon_center_taipei.html_On_December_8,_2023_(Fri),_the_grand_opening_of_Pokémon_Center_Taipei_will_be_held_in_Taipei,_Taiwan!_-_The_Pokémon_Company]_(Chinese)_(accessed_December_2,_2023)" ;
+    ns1:type "_Permanent" .
+
+ns1:_Pokémon_Center_Tohoku a ns1:PokémonCenter ;
+    ns2:name "_Pokémon_Center_Tohoku" ;
+    ns1:contact "__" ;
+    ns1:contact_title "_Contact_details" ;
+    ns1:location "_PARCO_Sendai,__wp_Sendai_,__wp_Miyagi_Prefecture_Miyagi_" ;
+    ns1:logo "_Pokémon_Center_Tohoku_Gen_IX_logo.png" ;
+    ns1:logo_size "_175px" ;
+    ns1:mascot "__p_Victini_,__p_Pikachu__&__p_Sprigatito_" ;
+    ns1:opened "_June_30,_2017" ;
+    ns1:type "_Permanent" .
+
+ns1:_Pokémon_Center_Tokyo_Bay a ns1:PokémonCenter ;
+    ns2:name "_Pokémon_Center_Tokyo_Bay" ;
+    ns1:contact "" ;
+    ns1:location "_LaLaport_Tokyo-Bay_West_Building_2F,_2-1-1,_Hamacho,_Funabashi_City,_Chiba" ;
+    ns1:logo "_Pokémon_Center_Tokyo_Bay_Gen_IX_logo.png" ;
+    ns1:logo_size "_150px" ;
+    ns1:mascot "__p_Ampharos_,__p_Marill__&__p_Pikachu_" ;
+    ns1:opened "_November_22,_2013[https://web.archive.org/web/20131016102948/http://www.pokemon.co.jp/ex/pokecen_tokyobay/_Pokemon_Official_Shop_“Pokemon_Center_Tokyo_Bay”_opens!_-_The_Pokémon_Company]_(archived_from_the_original_October_16,_2013;_retrieved_March_2,_2024)" ;
+    ns1:type "_Permanent" .
+

@@ -1,0 +1,375 @@
+Mt. Steel
+Tiny Woods
+Thunderwave Cave
+Sinister Woods
+Silent Chasm
+Mt. Thunder
+Great Canyon
+Lapis Cave
+Rock Path (Rescue Team)
+Mt. Blaze
+Snow Path
+Frosty Forest
+Mt. Freeze
+Magma Cavern
+Howling Forest
+Sky Tower
+Purity Forest
+Mt. Faraway
+Stormy Sea
+Silver Trench
+Meteor Cave
+Western Cave
+Wish Cave
+Buried Relic
+Far-Off Sea
+Joyous Tower
+Pitfall Valley
+Northern Range
+Desert Region
+Southern Cavern
+Waterfall Pond
+Wyvern Hill
+Fiery Field
+Solar Cave
+Lightning Field
+Northwind Field
+Darknight Relic
+Murky Cave
+Grand Sea
+Uproar Forest
+Oddity Cave
+Remains Island
+Fantasy Strait
+Unown Relic
+Beach Cave
+Dark Crater
+Final Maze
+World Abyss
+Spacial Rift
+Northern Desert
+Amp Plains
+Oran Forest
+Apple Woods
+Steam Cave
+Temporal Tower
+Aegis Cave
+Mt. Avalanche
+Mystery Jungle (Explorers of Time, Darkness, and Sky)
+Drenched Bluff
+Mt. Bristle
+Hidden Land
+Mystifying Forest
+Miracle Sea
+Waterfall Cave
+Marine Resort
+Surrounded Sea
+Mt. Travail (Explorers of Time, Darkness, and Sky)
+Concealed Ruins
+Quicksand Cave
+Happy Outlook
+Zero Isle North
+Zero Isle East
+Crevice Cave
+Zero Isle West
+Zero Isle South
+Shimmer Hill
+Mt. Mistral
+Foggy Forest
+Craggy Coast
+Mt. Horn
+Crystal Crossing
+The Nightmare
+Lost Wilderness
+Midnight Forest
+Brine Cave
+Crystal Cave
+Chasm Cave
+Dark Hill
+Dusk Forest
+Deep Dusk Forest
+Blizzard Island
+Giant Volcano
+Bottomless Sea
+Shimmer Desert
+Lake Afar
+Sky Stairway
+Zero Isle
+Labyrinth Cave
+Treeshroud Forest
+Tiny Meadow
+Serenity River
+Landslide Cave
+Lush Prairie
+Marvelous Sea
+Forest Path
+Star Cave
+Trial Forest
+Murky Forest
+Eastern Cave
+Fortune Ravine
+Hidden Shopkeeper Village
+Spring Cave
+Destiny Tower (Explorers of Sky)
+Dark Ice Mountain
+Icicle Forest
+Limestone Cavern
+Sky Peak Mountain Path
+Southern Jungle
+Boulder Quarry
+Barren Valley
+Dark Wasteland
+Spacial Cliffs
+Treacherous Waters
+Oblivion Forest
+Inferno Cave
+Southeastern Islands
+Vast Ice Mountain
+Zero Isle Center
+Right Cave Path
+Left Cave Path
+Reverse Mountain
+Ragged Mountain
+Stony Cave
+Hazy Pass
+Stompstump Peak
+Desolate Canyon
+Forest Grotto
+Mountain Pass
+Inflora Forest
+Breezy Meadow
+Tempting Path
+Crags of Lament
+Telluric Path
+Great Glacier
+Glacial Underpass
+Glacier Palace
+Redland Reaches
+Eastern Savanna
+Kilionea Road
+Forest of Shadows
+Daybreak Ridge
+Ochre Quarry
+Withered Savanna
+Holehills
+Scorching Desert
+Tyrian Maze
+Glacier Palace Eastern Spire
+Glacier Palace Western Spire
+Glacier Palace Great Spire
+Poké Forest
+Ivy Park
+Scalchop Beach
+Pika Land
+Skill Treasury
+Axe Rock
+Kecleon Bazaar
+Strongest Trail
+Mount Tepid
+Treat Road
+Ultimate Wilds
+Grove of Whispers
+Worldcore
+Freezing Pillar
+Windy Shoreline
+Canyon Foot
+Miragesands
+Silent Tundra
+Dreamy Island
+Moonlit Forest
+Rusty Mountain
+Jaws of the Abyss
+Smoking Mountain
+Cape at the Edge
+Slumbering Cave
+Path of No Return
+Hoarfrost Tower
+Turbulent Tor
+Eternal Ruins
+Ivory Peak
+Obsidian Edge
+Seasound Ruins
+Dubious Hill
+Dubious Valley
+Dubious Forest
+Cheerful Meadow
+Guiding Sea
+Buried Ruins (Gates to Infinity)
+Challenge River
+Mt. Clear
+Side Path
+Rock Path (Explorers of Time, Darkness, and Sky)
+Mt. Travail (Gates to Infinity)
+Sealed Ruin
+Little Plains
+Sunset Rockland
+Marsh Valley
+Exciting Meadow
+Cloudy Rockland
+Stream Forest
+Ruby Lake
+Chocolate Mountain
+Open Pass
+Uprise Range
+Sheer Mountain Range
+Gentle Slope Cave
+Lush Forest
+Foreboding Forest
+Drilbur Coal Mine
+Tree of Life: Trunk
+School Forest
+Glittering Mountain
+Revelation Mountain
+Cave of Training
+Ancient Barrow
+Purifying Cave
+Nectar Meadow
+Poliwrath River
+Mystical Forest
+Fire Island Volcano
+Showdown Mountain
+Abyssal Badlands
+Cave of the Deep
+Calm Craggy Area
+Mysterious Geoglyph
+Jewel Road
+Submerged Cave
+Prehistoric Ruins
+Road to Primeval Forest
+Tree of Life: Roots
+Sand Dune of Spirits
+Triangle Temple
+Pledge Hill
+Sunny Spot Hill
+Electric Wasteland
+Odd Field
+Forest of Fairies
+Longfield Cave
+Abundant Pass
+Flagstone Cave
+Friendly Meadow
+Thirsty Desert
+Seafloor Ruins
+Golden Suite
+Stealth Cavern
+Holey Meadow
+Serpentine Mountain Trail
+Sunbathed Garden
+Thrash Dungeon
+Peewee Meadow
+Leafy Highlands
+Mysterious Plains
+Berry Forest (Mystery Dungeon)
+Forest of Bounty
+Small Sand Dune
+Midnight Sun Gorge
+Sandy Cave (Mystery Dungeon)
+Elegant Gorge
+Pelipper Dungeon: Start
+Pelipper Dungeon: Middle
+Pelipper Dungeon: End
+Spiral Vortex
+Stone Field
+Headwater Hollow
+Island of Isolation
+Yellow Sand Labyrinth
+Waterfall Basin Grotto
+Bustling Valley
+Rolling Pass
+Maze Meadow
+Spring of Resolve
+Rough Tunnel
+Super Apple Forest
+Moonlit Cave
+Frosty Tree Steps
+World Tree
+Ghost Island
+Yellow Point
+Red Point
+Distress Mountain
+Dragon Gate
+Meteorite Crater
+Thorny Shadow Path
+Hall of Magic
+Valley of Strong Winds
+Cape of Wonders
+Altar of Ice
+Frozen Mountain
+Gooey Bog
+Sky Ruins
+Altar of Ice: Depths
+Deep Ocean Tunnel
+Temple Remains
+Sacred Ruins
+Hidden Cave
+Heart Lake
+Path of Fallen Leaves
+Crystalline Maze
+Little Canyon
+Giant Stone Meadow
+Fresh Meadow
+Blue Point
+Magma Chamber
+Freedom Coast
+Lake of Enlightenment
+Aurora's Edge
+Pumpkaboo Forest
+Frozen Falls
+Buried Ruins (Super Mystery Dungeon)
+Clear Lake
+Apex Mountain
+Stone Tree Mountain
+Secret Quarry
+Snowy Cave
+Fossil Excavation
+Isle of Light
+Prism Bridge
+Sea Shrine
+Ocean Tempest
+Island of Storms
+Lake of Mysterious Light
+Guidance Ruins
+Destiny Tower (Super Mystery Dungeon)
+Meowth in Black
+My Fair Misdreavus
+For a Few Boldores More
+Casameownca
+It's a Meownderful Life
+Sparkling Meadow
+Treasure Trove
+Uncharted Road
+Illusory Grotto
+Shady Rockland
+Ice Hill
+Mica Lake
+Chocolate Field
+Mystery Jungle (Super Mystery Dungeon)
+Path to Treasure Valley
+Fire Mountains
+Ripple Seas
+Mystery Plains
+Weird Mountain
+Secret Archipelago
+Unown Village
+Legendary Volcanic Island
+Final Mountain
+Jade Lake
+Chocolate Island
+Path to Treasure Mountain
+Storm Island
+Stormy Seas
+Mystery Marsh
+Weird Rockland
+Secret Highland
+Unown Resort
+Legendary Wetland
+Final Island (dungeon)
+Path to Treasure Island
+Light Summit
+Wave Seas
+Mystery Meadow
+Weird Forest
+Secret Rockmountain
+Unown Garden
+Legendary Mountains
+Final Cave

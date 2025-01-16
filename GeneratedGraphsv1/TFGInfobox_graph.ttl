@@ -1,0 +1,134 @@
+@prefix ns1: <http://example.org/resource/tfg/> .
+@prefix ns2: <http://example.org/property/> .
+
+ns1:Abra_\(Next_Quest_7\) a ns1:TFG .
+
+ns1:Absol_\(Next_Quest_8\) a ns1:TFG .
+
+ns1:Armaldo_\(Groundbreakers_1\) a ns1:TFG .
+
+ns1:Beedrill_\(Next_Quest_26\) a ns1:TFG .
+
+ns1:Blastoise_\(Groundbreakers_2\) a ns1:TFG .
+
+ns1:Brendan_\(Next_Quest_41\) a ns1:TFG .
+
+ns1:Brock_\(Next_Quest_39\) a ns1:TFG .
+
+ns1:Bulbasaur_\(Groundbreakers_3\) a ns1:TFG .
+
+ns1:Cacnea_\(Groundbreakers_4\) a ns1:TFG .
+
+ns1:Charizard_\(Next_Quest_1\) a ns1:TFG .
+
+ns1:Chimchar_\(Black_Star_Promo_2\) a ns1:TFG .
+
+ns1:Corsola_\(Next_Quest_15\) a ns1:TFG .
+
+ns1:Cyndaquil_\(Groundbreakers_5\) a ns1:TFG .
+
+ns1:Doduo_\(Next_Quest_27\) a ns1:TFG .
+
+ns1:Dratini a ns1:TFG ;
+    ns2:caption "Sculpted_by_Nakazawa_Hiroyuki" ;
+    ns2:image "DratiniNextQuest9.png" ;
+    ns2:jname "ミニリュウ" ;
+    ns2:name "Dratini" ;
+    ns1:figno "9/42" ;
+    ns1:figtype "Pokémon" ;
+    ns1:jtrans "Miniryu" ;
+    ns1:mp "2" ;
+    ns1:rarity "_rar_Rare_" ;
+    ns1:set "Next_Quest" ;
+    ns1:type "Colorless" ;
+    ns1:usfigno "7/42" .
+
+ns1:Eevee_\(Next_Quest_10\) a ns1:TFG .
+
+ns1:Ekans_\(Next_Quest_28\) a ns1:TFG .
+
+ns1:Elekid_\(Groundbreakers_6\) a ns1:TFG .
+
+ns1:Feraligatr_\(Next_Quest_2\) a ns1:TFG .
+
+ns1:Flaaffy_\(Groundbreakers_7\) a ns1:TFG .
+
+ns1:Golem_\(Next_Quest_16\) a ns1:TFG .
+
+ns1:Groudon_\(Next_Quest_3\) a ns1:TFG .
+
+ns1:Ho-Oh_\(Next_Quest_4\) a ns1:TFG .
+
+ns1:Judge_\(Black_Star_Promo_1\) a ns1:TFG .
+
+ns1:Kyogre_\(Next_Quest_5\) a ns1:TFG .
+
+ns1:Lugia_\(Next_Quest_6\) a ns1:TFG .
+
+ns1:Machop_\(Next_Quest_29\) a ns1:TFG .
+
+ns1:Mareep_\(Next_Quest_30\) a ns1:TFG .
+
+ns1:Marill_\(Next_Quest_31\) a ns1:TFG .
+
+ns1:Meowth_\(Next_Quest_11\) a ns1:TFG .
+
+ns1:Misty_\(Next_Quest_40\) a ns1:TFG .
+
+ns1:Mudkip_\(Next_Quest_17\) a ns1:TFG .
+
+ns1:Murkrow_\(Next_Quest_12\) a ns1:TFG .
+
+<http://example.org/resource/tfg/Nidoran♂_(Next_Quest_32)> a ns1:TFG .
+
+ns1:Pikachu_\(Next_Quest_18\) a ns1:TFG .
+
+ns1:Piplup_\(Black_Star_Promo_3\) a ns1:TFG .
+
+ns1:Raichu_\(Next_Quest_19\) a ns1:TFG .
+
+ns1:Salamence_\(Next_Quest_13\) a ns1:TFG .
+
+ns1:Scyther_\(Next_Quest_20\) a ns1:TFG .
+
+ns1:Sentret_\(Next_Quest_33\) a ns1:TFG .
+
+ns1:Shroomish_\(Next_Quest_34\) a ns1:TFG .
+
+ns1:Skarmory_\(Next_Quest_14\) a ns1:TFG .
+
+ns1:Spearow_\(Next_Quest_35\) a ns1:TFG .
+
+ns1:Tauros_\(Next_Quest_36\) a ns1:TFG .
+
+ns1:Teddiursa_\(Next_Quest_37\) a ns1:TFG .
+
+ns1:Torchic a ns1:TFG ;
+    ns2:caption "Sculpted_by_Enoki_Tomohide" ;
+    ns2:image "TorchicNextQuest21.png" ;
+    ns2:jname "アチャモ" ;
+    ns2:name "Torchic" ;
+    ns1:addcaption "360°_viewSculpted_by_Enoki_Tomohide" ;
+    ns1:addimage "TorchicNextQuest21Spin.png" ;
+    ns1:addimages "2" ;
+    ns1:figno "21/42" ;
+    ns1:figtype "Pokémon" ;
+    ns1:jtrans "Achamo" ;
+    ns1:mp "3" ;
+    ns1:rarity "_rar_Uncommon_" ;
+    ns1:set "Next_Quest" ;
+    ns1:type "Fire" ;
+    ns1:usfigno "33/42" .
+
+ns1:Treecko_\(Next_Quest_22\) a ns1:TFG .
+
+ns1:Turtwig_\(Black_Star_Promo_1\) a ns1:TFG .
+
+ns1:Voltorb_\(Next_Quest_23\) a ns1:TFG .
+
+ns1:Weedle_\(Next_Quest_38\) a ns1:TFG .
+
+ns1:Weezing_\(Next_Quest_24\) a ns1:TFG .
+
+ns1:Zangoose_\(Next_Quest_25\) a ns1:TFG .
+

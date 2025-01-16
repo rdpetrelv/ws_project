@@ -1,0 +1,5 @@
+
+<http://example.org/resource/tv/Kids_Station> a <http://example.org/resource/tv/TV> .
+
+<http://example.org/resource/tv/TV_Tokyo> a <http://example.org/resource/tv/TV> .
+

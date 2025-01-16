@@ -1,79 +1,794 @@
-@prefix ns1: <http://example.org/property/> .
-@prefix ns2: <http://example.org/resource/boardgame/> .
+@prefix BPD: <https://bulbapedia.bulbagarden.net/wiki/> .
+@prefix BPD1: <https://dbpedia.org/page/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix property: <http://example.org/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix resource: <http://example.org/resource/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://example.org/resource/boardgame/Monopoly:_Pokémon_Edition> a ns2:Boardgame ;
-    ns1:age "8+",
+resource:Boardgame a rdfs:Class .
+
+property:caption2 a rdf:Property .
+
+property:colorscheme a rdf:Property .
+
+property:date a rdf:Property .
+
+property:image2 a rdf:Property .
+
+property:image_size a rdf:Property .
+
+property:image_size2 a rdf:Property .
+
+property:links a rdf:Property .
+
+property:players a rdf:Property .
+
+property:publisher a rdf:Property .
+
+property:subtitled a rdf:Property .
+
+resource:Monopoly-Pokémon_Kanto_Edition.png a xsd:anyURI .
+
+<http://example.org/resource/Monopoly:_Pokémon_Edition> owl:sameAs <http://example.org/resource/boardgame/Monopoly:_Pokémon_Edition> .
+
+resource:Monopoly_Pokémon_2001_box.png a xsd:anyURI .
+
+resource:Monopoly_Pokémon_Johto_Edition.png a xsd:anyURI .
+
+resource:Poke-Tapa owl:sameAs <http://example.org/resource/boardgame/Poke-Tapa> .
+
+resource:Poke-tapa_Gen_I_Front.jpg a xsd:anyURI .
+
+resource:Pokemon_Monopoly_Game_1999.png a xsd:anyURI .
+
+resource:Pokémon_Battle_Chess_BW.png a xsd:anyURI .
+
+resource:_Pokémon_Babanuki_box_art.png a xsd:anyURI .
+
+resource:_ポケモンババ抜き owl:sameAs <http://example.org/resource/boardgame/_ポケモンババ抜き> .
+
+resource:ポケモンバトルチェス owl:sameAs <http://example.org/resource/boardgame/ポケモンバトルチェス> .
+
+<http://example.org/resource/boardgame/Monopoly:_Pokémon_Edition> a resource:Boardgame ;
+    property:age "8+",
         "8_to_adult" ;
-    ns1:caption "Box,_board_and_other_stuff_of_the_game",
+    property:bulbapediaImage <https://bulbapedia.bulbagarden.net/wiki/File:0001Bulbasaur.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:0004Charmander.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:0007Squirtle.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:001Bulbasaur.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:0025Pikachu.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:0039Jigglypuff.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:004Charmander.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:0052Meowth.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:0054Psyduck.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:007Squirtle.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:0104Cubone.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:0129Magikarp.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:0133Eevee.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:025Pikachu.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:039Jigglypuff.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:052Meowth.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:054Psyduck.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:104Cubone.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:129Magikarp.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:133Eevee.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Monopoly-Pokémon_Exclusive_Kanto_Edition.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Monopoly-Pokémon_Kanto_Edition.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Monopoly_Pokémon_2001_box.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Monopoly_Pokémon_Exclusive_Kanto_Edition_tokens.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Monopoly_Pokémon_Johto_Edition.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Monopoly_Pokémon_Kanto_Edition_counters.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Pokemon_Monopoly_Game_1999.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Pokémon_Monopoly_2014_prototype.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Project_Merchandise_logo.png> ;
+    property:bulbapediaMainImage <https://bulbapedia.bulbagarden.net/wiki/File:0001Bulbasaur.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Monopoly_Pokémon_2001_box.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Monopoly_Pokémon_Johto_Edition.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Pokemon_Monopoly_Game_1999.png> ;
+    property:bulbapediapage <https://bulbapedia.bulbagarden.net/wiki/Monopoly:_Pokémon_Edition_(1999)>,
+        <https://bulbapedia.bulbagarden.net/wiki/Monopoly:_Pokémon_Edition_(2001)>,
+        <https://bulbapedia.bulbagarden.net/wiki/Monopoly:_Pokémon_Johto_Edition>,
+        <https://bulbapedia.bulbagarden.net/wiki/Monopoly:_Pokémon_Kanto_Edition> ;
+    property:caption "Box,_board_and_other_stuff_of_the_game",
         "Games_box",
         "Kanto_edition",
         "Regular_tokens_edition" ;
-    ns1:image "Monopoly-Pokémon_Kanto_Edition.png",
-        "Monopoly_Pokémon_2001_box.png",
-        "Monopoly_Pokémon_Johto_Edition.png",
-        "Pokemon_Monopoly_Game_1999.png" ;
-    ns1:name "Monopoly:_Pokémon_Edition" ;
-    ns2:caption2 "Exclusive_Kanto_edition" ;
-    ns2:colorscheme "Johto",
+    property:caption2 "Exclusive_Kanto_edition" ;
+    property:colorscheme "Johto",
         "Kanto" ;
-    ns2:date "1999",
+    property:date "1999",
         "2001",
         "2016",
         "September_15,_2014_Kanto_edition2015_Exclusive_Kanto_edition" ;
-    ns2:image2 "Monopoly-Pokémon_Exclusive_Kanto_Edition.png" ;
-    ns2:image_size "300",
+    property:hasBulbapediaLink BPD:Absorb_\(move\),
+        BPD:Articuno_\(Pokémon\),
+        BPD:Ash_Ketchum,
+        BPD:Azumarill_\(Pokémon\),
+        BPD:Badge,
+        BPD:Bellossom_\(Pokémon\),
+        BPD:Blaine,
+        BPD:Blastoise_\(Pokémon\),
+        BPD:Blissey_\(Pokémon\),
+        BPD:Blue_\(game\),
+        BPD:Bonemerang_\(move\),
+        BPD:Brock,
+        <https://bulbapedia.bulbagarden.net/wiki/Brock's_Geodude>,
+        <https://bulbapedia.bulbagarden.net/wiki/Brock's_Onix>,
+        BPD:Bugsy,
+        <https://bulbapedia.bulbagarden.net/wiki/Bulbapedia:Project_Merchandise>,
+        <https://bulbapedia.bulbagarden.net/wiki/Bulbapedia:Projects>,
+        BPD:Bulbasaur_\(Pokémon\),
+        BPD:Charm_\(move\),
+        BPD:Charmander_\(Pokémon\),
+        BPD:Chikorita_\(Pokémon\),
+        BPD:Chuck,
+        BPD:Clair,
+        BPD:Clefable_\(Pokémon\),
+        BPD:Clefairy_\(Pokémon\),
+        BPD:Cubone_\(Pokémon\),
+        BPD:Cyndaquil_\(Pokémon\),
+        BPD:Dewgong_\(Pokémon\),
+        BPD:Dragonite_\(Pokémon\),
+        BPD:Eevee_\(Pokémon\),
+        BPD:Electabuzz_\(Pokémon\),
+        BPD:Entei_\(Pokémon\),
+        BPD:Erika,
+        BPD:Falkner,
+        BPD:Flail_\(move\),
+        BPD:Flamethrower_\(move\),
+        BPD:Gary_Oak,
+        BPD:Gastly_\(Pokémon\),
+        BPD:Gengar_\(Pokémon\),
+        BPD:Giovanni,
+        BPD:Girafarig_\(Pokémon\),
+        BPD:Gligar_\(Pokémon\),
+        BPD:Great_Ball,
+        BPD:Growlithe_\(Pokémon\),
+        BPD:Gym_Leader,
+        BPD:Hasbro,
+        BPD:Haunter_\(Pokémon\),
+        BPD:Heracross_\(Pokémon\),
+        BPD:Hitmonchan_\(Pokémon\),
+        BPD:Hitmonlee_\(Pokémon\),
+        BPD:Hoothoot_\(Pokémon\),
+        BPD:Hoppip_\(Pokémon\),
+        BPD:Houndour_\(Pokémon\),
+        BPD:Hydro_Pump_\(move\),
+        BPD:Jasmine,
+        BPD:Jigglypuff_\(Pokémon\),
+        BPD:Johto,
+        BPD:Johto_first_partner_Pokémon,
+        BPD:Kanto,
+        BPD:Kingdra_\(Pokémon\),
+        BPD:Koffing_\(Pokémon\),
+        BPD:Koga,
+        BPD:Leech_Seed_\(move\),
+        BPD:Lt._Surge,
+        <https://bulbapedia.bulbagarden.net/wiki/Lt._Surge's_Raichu>,
+        BPD:Magikarp_\(Pokémon\),
+        BPD:Magnemite_\(Pokémon\),
+        BPD:Mareep_\(Pokémon\),
+        BPD:Marill_\(Pokémon\),
+        BPD:Master_Ball,
+        BPD:Meowth_\(Pokémon\),
+        BPD:Mewtwo_\(Pokémon\),
+        BPD:Miltank_\(Pokémon\),
+        BPD:Misty,
+        <https://bulbapedia.bulbagarden.net/wiki/Misty's_Horsea>,
+        <https://bulbapedia.bulbagarden.net/wiki/Misty's_Starmie>,
+        <https://bulbapedia.bulbagarden.net/wiki/Misty's_Staryu>,
+        <https://bulbapedia.bulbagarden.net/wiki/Monopoly:_Pokémon_Edition_(1999)>,
+        <https://bulbapedia.bulbagarden.net/wiki/Monopoly:_Pokémon_Edition_(2001)>,
+        <https://bulbapedia.bulbagarden.net/wiki/Monopoly:_Pokémon_Johto_Edition>,
+        <https://bulbapedia.bulbagarden.net/wiki/Monopoly:_Pokémon_Kanto_Edition>,
+        BPD:Morty,
+        BPD:Mr._Mime_\(Pokémon\),
+        BPD:Muk_\(Pokémon\),
+        BPD:Nidoking_\(Pokémon\),
+        BPD:Nidoqueen_\(Pokémon\),
+        BPD:Noctowl_\(Pokémon\),
+        BPD:Original_series,
+        BPD:Pichu_\(Pokémon\),
+        BPD:Pidgeotto_\(Pokémon\),
+        BPD:Pikachu_\(Pokémon\),
+        BPD:Piloswine_\(Pokémon\),
+        BPD:Pineco_\(Pokémon\),
+        BPD:Pinsir_\(Pokémon\),
+        BPD:Poké_Ball,
+        BPD:Poké_Ball_\(item\),
+        BPD:Poké_Mart,
+        BPD:Pokémon,
+        BPD:Pokémon_Center,
+        BPD:Pokémon_Dollar,
+        BPD:Pokémon_FireRed_and_LeafGreen_Versions,
+        BPD:Pokémon_Gold_and_Silver_Versions,
+        BPD:Pokémon_Origins,
+        BPD:Pokémon_Red_and_Blue_Versions,
+        BPD:Pokémon_battle,
+        BPD:Poliwhirl_\(Pokémon\),
+        BPD:Ponyta_\(Pokémon\),
+        BPD:Primeape_\(Pokémon\),
+        BPD:Professor_Elm,
+        BPD:Professor_Oak,
+        BPD:Pryce,
+        BPD:Psychic_\(move\),
+        BPD:Psyduck_\(Pokémon\),
+        BPD:Quagsire_\(Pokémon\),
+        BPD:Raikou_\(Pokémon\),
+        BPD:Rapidash_\(Pokémon\),
+        BPD:Rest_\(move\),
+        BPD:Sabrina,
+        <https://bulbapedia.bulbagarden.net/wiki/Sabrina's_Kadabra>,
+        BPD:Scizor_\(Pokémon\),
+        BPD:Seel_\(Pokémon\),
+        BPD:Sentret_\(Pokémon\),
+        BPD:Sing_\(move\),
+        BPD:Skarmory_\(Pokémon\),
+        BPD:Skiploom_\(Pokémon\),
+        BPD:Sleep_\(status_condition\),
+        BPD:Snorlax_\(Pokémon\),
+        BPD:Snubbull_\(Pokémon\),
+        BPD:Spinarak_\(Pokémon\),
+        BPD:Squirtle_\(Pokémon\),
+        BPD:Stantler_\(Pokémon\),
+        BPD:Steelix_\(Pokémon\),
+        BPD:Suicune_\(Pokémon\),
+        BPD:Sunflora_\(Pokémon\),
+        BPD:Tangela_\(Pokémon\),
+        BPD:Team_Rocket,
+        BPD:Team_Rocket_trio,
+        BPD:Teleport_\(move\),
+        BPD:Thief_\(move\),
+        BPD:Thunderbolt_\(move\),
+        BPD:Togepi_\(Pokémon\),
+        BPD:Totodile_\(Pokémon\),
+        BPD:Ultra_Ball,
+        BPD:Venomoth_\(Pokémon\),
+        BPD:Victreebel_\(Pokémon\),
+        BPD:Vileplume_\(Pokémon\),
+        BPD:Vine_Whip_\(move\),
+        BPD:Voltorb_\(Pokémon\),
+        BPD:Weezing_\(Pokémon\),
+        BPD:Whitney,
+        BPD:Wobbuffet_\(Pokémon\),
+        BPD:Wooper_\(Pokémon\),
+        BPD:Zapdos_\(Pokémon\) ;
+    property:hasBulbapediaLinkedResoruce resource:Absorb_\(move\),
+        resource:Articuno_\(Pokémon\),
+        resource:Ash_Ketchum,
+        resource:Azumarill_\(Pokémon\),
+        resource:Badge,
+        resource:Bellossom_\(Pokémon\),
+        resource:Blaine,
+        resource:Blastoise_\(Pokémon\),
+        resource:Blissey_\(Pokémon\),
+        resource:Blue_\(game\),
+        resource:Bonemerang_\(move\),
+        resource:Brock,
+        <http://example.org/resource/Brock's_Geodude>,
+        <http://example.org/resource/Brock's_Onix>,
+        resource:Bugsy,
+        <http://example.org/resource/Bulbapedia:Project_Merchandise>,
+        <http://example.org/resource/Bulbapedia:Projects>,
+        resource:Bulbasaur_\(Pokémon\),
+        resource:Charm_\(move\),
+        resource:Charmander_\(Pokémon\),
+        resource:Chikorita_\(Pokémon\),
+        resource:Chuck,
+        resource:Clair,
+        resource:Clefable_\(Pokémon\),
+        resource:Clefairy_\(Pokémon\),
+        resource:Cubone_\(Pokémon\),
+        resource:Cyndaquil_\(Pokémon\),
+        resource:Dewgong_\(Pokémon\),
+        resource:Dragonite_\(Pokémon\),
+        resource:Eevee_\(Pokémon\),
+        resource:Electabuzz_\(Pokémon\),
+        resource:Entei_\(Pokémon\),
+        resource:Erika,
+        resource:Falkner,
+        resource:Flail_\(move\),
+        resource:Flamethrower_\(move\),
+        resource:Gary_Oak,
+        resource:Gastly_\(Pokémon\),
+        resource:Gengar_\(Pokémon\),
+        resource:Giovanni,
+        resource:Girafarig_\(Pokémon\),
+        resource:Gligar_\(Pokémon\),
+        resource:Great_Ball,
+        resource:Growlithe_\(Pokémon\),
+        resource:Gym_Leader,
+        resource:Hasbro,
+        resource:Haunter_\(Pokémon\),
+        resource:Heracross_\(Pokémon\),
+        resource:Hitmonchan_\(Pokémon\),
+        resource:Hitmonlee_\(Pokémon\),
+        resource:Hoothoot_\(Pokémon\),
+        resource:Hoppip_\(Pokémon\),
+        resource:Houndour_\(Pokémon\),
+        resource:Hydro_Pump_\(move\),
+        resource:Jasmine,
+        resource:Jigglypuff_\(Pokémon\),
+        resource:Johto,
+        resource:Johto_first_partner_Pokémon,
+        resource:Kanto,
+        resource:Kingdra_\(Pokémon\),
+        resource:Koffing_\(Pokémon\),
+        resource:Koga,
+        resource:Leech_Seed_\(move\),
+        resource:Lt._Surge,
+        <http://example.org/resource/Lt._Surge's_Raichu>,
+        resource:Magikarp_\(Pokémon\),
+        resource:Magnemite_\(Pokémon\),
+        resource:Mareep_\(Pokémon\),
+        resource:Marill_\(Pokémon\),
+        resource:Master_Ball,
+        resource:Meowth_\(Pokémon\),
+        resource:Mewtwo_\(Pokémon\),
+        resource:Miltank_\(Pokémon\),
+        resource:Misty,
+        <http://example.org/resource/Misty's_Horsea>,
+        <http://example.org/resource/Misty's_Starmie>,
+        <http://example.org/resource/Misty's_Staryu>,
+        <http://example.org/resource/Monopoly:_Pokémon_Edition_(1999)>,
+        <http://example.org/resource/Monopoly:_Pokémon_Edition_(2001)>,
+        <http://example.org/resource/Monopoly:_Pokémon_Johto_Edition>,
+        <http://example.org/resource/Monopoly:_Pokémon_Kanto_Edition>,
+        resource:Morty,
+        resource:Mr._Mime_\(Pokémon\),
+        resource:Muk_\(Pokémon\),
+        resource:Nidoking_\(Pokémon\),
+        resource:Nidoqueen_\(Pokémon\),
+        resource:Noctowl_\(Pokémon\),
+        resource:Original_series,
+        resource:Pichu_\(Pokémon\),
+        resource:Pidgeotto_\(Pokémon\),
+        resource:Pikachu_\(Pokémon\),
+        resource:Piloswine_\(Pokémon\),
+        resource:Pineco_\(Pokémon\),
+        resource:Pinsir_\(Pokémon\),
+        resource:Poké_Ball,
+        resource:Poké_Ball_\(item\),
+        resource:Poké_Mart,
+        resource:Pokémon,
+        resource:Pokémon_Center,
+        resource:Pokémon_Dollar,
+        resource:Pokémon_FireRed_and_LeafGreen_Versions,
+        resource:Pokémon_Gold_and_Silver_Versions,
+        resource:Pokémon_Origins,
+        resource:Pokémon_Red_and_Blue_Versions,
+        resource:Pokémon_battle,
+        resource:Poliwhirl_\(Pokémon\),
+        resource:Ponyta_\(Pokémon\),
+        resource:Primeape_\(Pokémon\),
+        resource:Professor_Elm,
+        resource:Professor_Oak,
+        resource:Pryce,
+        resource:Psychic_\(move\),
+        resource:Psyduck_\(Pokémon\),
+        resource:Quagsire_\(Pokémon\),
+        resource:Raikou_\(Pokémon\),
+        resource:Rapidash_\(Pokémon\),
+        resource:Rest_\(move\),
+        resource:Sabrina,
+        <http://example.org/resource/Sabrina's_Kadabra>,
+        resource:Scizor_\(Pokémon\),
+        resource:Seel_\(Pokémon\),
+        resource:Sentret_\(Pokémon\),
+        resource:Sing_\(move\),
+        resource:Skarmory_\(Pokémon\),
+        resource:Skiploom_\(Pokémon\),
+        resource:Sleep_\(status_condition\),
+        resource:Snorlax_\(Pokémon\),
+        resource:Snubbull_\(Pokémon\),
+        resource:Spinarak_\(Pokémon\),
+        resource:Squirtle_\(Pokémon\),
+        resource:Stantler_\(Pokémon\),
+        resource:Steelix_\(Pokémon\),
+        resource:Suicune_\(Pokémon\),
+        resource:Sunflora_\(Pokémon\),
+        resource:Tangela_\(Pokémon\),
+        resource:Team_Rocket,
+        resource:Team_Rocket_trio,
+        resource:Teleport_\(move\),
+        resource:Thief_\(move\),
+        resource:Thunderbolt_\(move\),
+        resource:Togepi_\(Pokémon\),
+        resource:Totodile_\(Pokémon\),
+        resource:Ultra_Ball,
+        resource:Venomoth_\(Pokémon\),
+        resource:Victreebel_\(Pokémon\),
+        resource:Vileplume_\(Pokémon\),
+        resource:Vine_Whip_\(move\),
+        resource:Voltorb_\(Pokémon\),
+        resource:Weezing_\(Pokémon\),
+        resource:Whitney,
+        resource:Wobbuffet_\(Pokémon\),
+        resource:Wooper_\(Pokémon\),
+        resource:Zapdos_\(Pokémon\) ;
+    property:hasExternalLink <http://www.hasbro.com/common/instruct/PokemonMonopolyCollector'sEdition(copyright2001).PDF>,
+        <http://www.hasbro.com/common/instruct/pokemon_monopoly.pdf> ;
+    property:image <Monopoly-Pokémon_Kanto_Edition.png>,
+        <Monopoly_Pokémon_2001_box.png>,
+        <Monopoly_Pokémon_Johto_Edition.png>,
+        <Pokemon_Monopoly_Game_1999.png> ;
+    property:image2 "Monopoly-Pokémon_Exclusive_Kanto_Edition.png" ;
+    property:image_size "300",
         "350" ;
-    ns2:image_size2 "300" ;
-    ns2:links "" ;
-    ns2:players "2_to_6" ;
-    ns2:publisher "USAopoly_wp_Hasbro_",
+    property:image_size2 "300" ;
+    property:links "" ;
+    property:name "Monopoly:_Pokémon_Edition" ;
+    property:players "2_to_6" ;
+    property:publisher "USAopoly_wp_Hasbro_",
         "_wp_Parker_Brothers__wp_Hasbro_" ;
-    ns2:subtitled "Collectors_Edition",
+    property:subtitled "Collectors_Edition",
         "Johto_Edition",
-        "Kanto_Edition" .
+        "Kanto_Edition" ;
+    owl:sameAs BPD1:Boardgame .
 
-ns2:Poke-Tapa a ns2:Boardgame ;
-    ns1:age "8_and_up" ;
-    ns1:caption "Box_art_from_first_version" ;
-    ns1:image "Poke-tapa_Gen_I_Front.jpg" ;
-    ns1:name "Poke-Tapa" ;
-    ns2:colorscheme "Kanto" ;
-    ns2:date "1999" ;
-    ns2:image_size "300" ;
-    ns2:links "" ;
-    ns2:players "2_to_4" ;
-    ns2:publisher "_wp_Estrela_(company)_Estrela_" ;
-    ns2:subtitled "" .
+<http://example.org/resource/boardgame/Poke-Tapa> a resource:Boardgame ;
+    property:age "8_and_up" ;
+    property:bulbapediaImage <https://bulbapedia.bulbagarden.net/wiki/File:Poke-tapa_Gen_I_Front.jpg>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Project_Merchandise_logo.png> ;
+    property:bulbapediaMainImage <https://bulbapedia.bulbagarden.net/wiki/File:Poke-tapa_Gen_I_Front.jpg> ;
+    property:bulbapediapage BPD:Poke-Tapa ;
+    property:caption "Box_art_from_first_version" ;
+    property:colorscheme "Kanto" ;
+    property:date "1999" ;
+    property:hasBulbapediaLink BPD:Ampharos_\(Pokémon\),
+        BPD:Arbok_\(Pokémon\),
+        BPD:Arcanine_\(Pokémon\),
+        BPD:Ariados_\(Pokémon\),
+        BPD:Azumarill_\(Pokémon\),
+        BPD:Bayleef_\(Pokémon\),
+        BPD:Bellossom_\(Pokémon\),
+        BPD:Blissey_\(Pokémon\),
+        BPD:Brazil,
+        <https://bulbapedia.bulbagarden.net/wiki/Bulbapedia:Project_Merchandise>,
+        <https://bulbapedia.bulbagarden.net/wiki/Bulbapedia:Projects>,
+        BPD:Bulbasaur_\(Pokémon\),
+        BPD:Butterfree_\(Pokémon\),
+        BPD:Caterpie_\(Pokémon\),
+        BPD:Charizard_\(Pokémon\),
+        BPD:Charmander_\(Pokémon\),
+        BPD:Chikorita_\(Pokémon\),
+        BPD:Clefairy_\(Pokémon\),
+        BPD:Croconaw_\(Pokémon\),
+        BPD:Cyndaquil_\(Pokémon\),
+        BPD:Ditto_\(Pokémon\),
+        BPD:Donphan_\(Pokémon\),
+        BPD:Dragonair_\(Pokémon\),
+        BPD:Dratini_\(Pokémon\),
+        BPD:Eevee_\(Pokémon\),
+        BPD:Electrode_\(Pokémon\),
+        BPD:Elekid_\(Pokémon\),
+        BPD:Feraligatr_\(Pokémon\),
+        BPD:Flareon_\(Pokémon\),
+        BPD:Generation_I,
+        BPD:Generation_II,
+        BPD:Gengar_\(Pokémon\),
+        BPD:Gligar_\(Pokémon\),
+        BPD:Gloom_\(Pokémon\),
+        BPD:Golduck_\(Pokémon\),
+        BPD:Grimer_\(Pokémon\),
+        BPD:Heracross_\(Pokémon\),
+        BPD:Ho-Oh_\(Pokémon\),
+        BPD:Hoothoot_\(Pokémon\),
+        BPD:Hoppip_\(Pokémon\),
+        BPD:Horsea_\(Pokémon\),
+        BPD:Jigglypuff_\(Pokémon\),
+        BPD:Jolteon_\(Pokémon\),
+        BPD:Jumpluff_\(Pokémon\),
+        BPD:Kabuto_\(Pokémon\),
+        BPD:Kabutops_\(Pokémon\),
+        BPD:Kangaskhan_\(Pokémon\),
+        BPD:Lanturn_\(Pokémon\),
+        BPD:Ledian_\(Pokémon\),
+        BPD:Ledyba_\(Pokémon\),
+        BPD:Lugia_\(Pokémon\),
+        BPD:Mareep_\(Pokémon\),
+        BPD:Marill_\(Pokémon\),
+        BPD:Meganium_\(Pokémon\),
+        BPD:Metapod_\(Pokémon\),
+        BPD:Mewtwo_\(Pokémon\),
+        BPD:Miltank_\(Pokémon\),
+        BPD:Natu_\(Pokémon\),
+        BPD:Nidoqueen_\(Pokémon\),
+        BPD:Nidorina_\(Pokémon\),
+        BPD:Pidgeot_\(Pokémon\),
+        BPD:Pidgey_\(Pokémon\),
+        BPD:Pikachu_\(Pokémon\),
+        BPD:Piloswine_\(Pokémon\),
+        BPD:Pokémon_Master_Trainer_\(1999\),
+        BPD:Poliwhirl_\(Pokémon\),
+        BPD:Primeape_\(Pokémon\),
+        BPD:Psyduck_\(Pokémon\),
+        BPD:Quagsire_\(Pokémon\),
+        BPD:Quilava_\(Pokémon\),
+        BPD:Raichu_\(Pokémon\),
+        BPD:Rattata_\(Pokémon\),
+        BPD:Sandshrew_\(Pokémon\),
+        BPD:Sandslash_\(Pokémon\),
+        BPD:Scizor_\(Pokémon\),
+        BPD:Sentret_\(Pokémon\),
+        BPD:Shellder_\(Pokémon\),
+        BPD:Skiploom_\(Pokémon\),
+        BPD:Slowbro_\(Pokémon\),
+        BPD:Slowking_\(Pokémon\),
+        BPD:Snubbull_\(Pokémon\),
+        BPD:Spinarak_\(Pokémon\),
+        BPD:Squirtle_\(Pokémon\),
+        BPD:Stantler_\(Pokémon\),
+        BPD:Steelix_\(Pokémon\),
+        BPD:Sudowoodo_\(Pokémon\),
+        BPD:Sunflora_\(Pokémon\),
+        BPD:Sunkern_\(Pokémon\),
+        BPD:Swinub_\(Pokémon\),
+        BPD:Tangela_\(Pokémon\),
+        BPD:Togepi_\(Pokémon\),
+        BPD:Togetic_\(Pokémon\),
+        BPD:Totodile_\(Pokémon\),
+        BPD:Typhlosion_\(Pokémon\),
+        BPD:Ursaring_\(Pokémon\),
+        BPD:Vaporeon_\(Pokémon\),
+        BPD:Venomoth_\(Pokémon\),
+        BPD:Venonat_\(Pokémon\),
+        BPD:Vileplume_\(Pokémon\),
+        BPD:Voltorb_\(Pokémon\),
+        BPD:Vulpix_\(Pokémon\),
+        BPD:Weedle_\(Pokémon\),
+        BPD:Weezing_\(Pokémon\),
+        BPD:Xatu_\(Pokémon\),
+        BPD:Yanma_\(Pokémon\) ;
+    property:hasBulbapediaLinkedResoruce resource:Ampharos_\(Pokémon\),
+        resource:Arbok_\(Pokémon\),
+        resource:Arcanine_\(Pokémon\),
+        resource:Ariados_\(Pokémon\),
+        resource:Azumarill_\(Pokémon\),
+        resource:Bayleef_\(Pokémon\),
+        resource:Bellossom_\(Pokémon\),
+        resource:Blissey_\(Pokémon\),
+        resource:Brazil,
+        <http://example.org/resource/Bulbapedia:Project_Merchandise>,
+        <http://example.org/resource/Bulbapedia:Projects>,
+        resource:Bulbasaur_\(Pokémon\),
+        resource:Butterfree_\(Pokémon\),
+        resource:Caterpie_\(Pokémon\),
+        resource:Charizard_\(Pokémon\),
+        resource:Charmander_\(Pokémon\),
+        resource:Chikorita_\(Pokémon\),
+        resource:Clefairy_\(Pokémon\),
+        resource:Croconaw_\(Pokémon\),
+        resource:Cyndaquil_\(Pokémon\),
+        resource:Ditto_\(Pokémon\),
+        resource:Donphan_\(Pokémon\),
+        resource:Dragonair_\(Pokémon\),
+        resource:Dratini_\(Pokémon\),
+        resource:Eevee_\(Pokémon\),
+        resource:Electrode_\(Pokémon\),
+        resource:Elekid_\(Pokémon\),
+        resource:Feraligatr_\(Pokémon\),
+        resource:Flareon_\(Pokémon\),
+        resource:Generation_I,
+        resource:Generation_II,
+        resource:Gengar_\(Pokémon\),
+        resource:Gligar_\(Pokémon\),
+        resource:Gloom_\(Pokémon\),
+        resource:Golduck_\(Pokémon\),
+        resource:Grimer_\(Pokémon\),
+        resource:Heracross_\(Pokémon\),
+        resource:Ho-Oh_\(Pokémon\),
+        resource:Hoothoot_\(Pokémon\),
+        resource:Hoppip_\(Pokémon\),
+        resource:Horsea_\(Pokémon\),
+        resource:Jigglypuff_\(Pokémon\),
+        resource:Jolteon_\(Pokémon\),
+        resource:Jumpluff_\(Pokémon\),
+        resource:Kabuto_\(Pokémon\),
+        resource:Kabutops_\(Pokémon\),
+        resource:Kangaskhan_\(Pokémon\),
+        resource:Lanturn_\(Pokémon\),
+        resource:Ledian_\(Pokémon\),
+        resource:Ledyba_\(Pokémon\),
+        resource:Lugia_\(Pokémon\),
+        resource:Mareep_\(Pokémon\),
+        resource:Marill_\(Pokémon\),
+        resource:Meganium_\(Pokémon\),
+        resource:Metapod_\(Pokémon\),
+        resource:Mewtwo_\(Pokémon\),
+        resource:Miltank_\(Pokémon\),
+        resource:Natu_\(Pokémon\),
+        resource:Nidoqueen_\(Pokémon\),
+        resource:Nidorina_\(Pokémon\),
+        resource:Pidgeot_\(Pokémon\),
+        resource:Pidgey_\(Pokémon\),
+        resource:Pikachu_\(Pokémon\),
+        resource:Piloswine_\(Pokémon\),
+        resource:Pokémon_Master_Trainer_\(1999\),
+        resource:Poliwhirl_\(Pokémon\),
+        resource:Primeape_\(Pokémon\),
+        resource:Psyduck_\(Pokémon\),
+        resource:Quagsire_\(Pokémon\),
+        resource:Quilava_\(Pokémon\),
+        resource:Raichu_\(Pokémon\),
+        resource:Rattata_\(Pokémon\),
+        resource:Sandshrew_\(Pokémon\),
+        resource:Sandslash_\(Pokémon\),
+        resource:Scizor_\(Pokémon\),
+        resource:Sentret_\(Pokémon\),
+        resource:Shellder_\(Pokémon\),
+        resource:Skiploom_\(Pokémon\),
+        resource:Slowbro_\(Pokémon\),
+        resource:Slowking_\(Pokémon\),
+        resource:Snubbull_\(Pokémon\),
+        resource:Spinarak_\(Pokémon\),
+        resource:Squirtle_\(Pokémon\),
+        resource:Stantler_\(Pokémon\),
+        resource:Steelix_\(Pokémon\),
+        resource:Sudowoodo_\(Pokémon\),
+        resource:Sunflora_\(Pokémon\),
+        resource:Sunkern_\(Pokémon\),
+        resource:Swinub_\(Pokémon\),
+        resource:Tangela_\(Pokémon\),
+        resource:Togepi_\(Pokémon\),
+        resource:Togetic_\(Pokémon\),
+        resource:Totodile_\(Pokémon\),
+        resource:Typhlosion_\(Pokémon\),
+        resource:Ursaring_\(Pokémon\),
+        resource:Vaporeon_\(Pokémon\),
+        resource:Venomoth_\(Pokémon\),
+        resource:Venonat_\(Pokémon\),
+        resource:Vileplume_\(Pokémon\),
+        resource:Voltorb_\(Pokémon\),
+        resource:Vulpix_\(Pokémon\),
+        resource:Weedle_\(Pokémon\),
+        resource:Weezing_\(Pokémon\),
+        resource:Xatu_\(Pokémon\),
+        resource:Yanma_\(Pokémon\) ;
+    property:hasExternalLink <https://ludopedia.com.br/jogo/pokemon-poke-tapa> ;
+    property:image <Poke-tapa_Gen_I_Front.jpg> ;
+    property:image_size "300" ;
+    property:links "" ;
+    property:name "Poke-Tapa" ;
+    property:players "2_to_4" ;
+    property:publisher "_wp_Estrela_(company)_Estrela_" ;
+    property:subtitled "" ;
+    owl:sameAs BPD1:Boardgame .
 
-ns2:_ポケモンババ抜き a ns2:Boardgame ;
-    ns1:age "_4+" ;
-    ns1:caption "_Pokémon_Babanuki" ;
-    ns1:image "_Pokémon_Babanuki_box_art.png" ;
-    ns1:name "_ポケモンババ抜き" ;
-    ns2:caption2 "_Pokémon_Babanuki_Super_High_Tension" ;
-    ns2:colorscheme "_Hoenn" ;
-    ns2:date "_May_11,_2019_Pokémon_BabanukiAugust_3,_2023_Pokémon_Babanuki_Super_High_Tension" ;
-    ns2:image2 "_Pokémon_Babanuki_Super_High_Tension_box_art.png" ;
-    ns2:image_size "_200" ;
-    ns2:image_size2 "_125" ;
-    ns2:links "_" ;
-    ns2:players "_3_-_6" ;
-    ns2:publisher "_The_Pokémon_Company" ;
-    ns2:subtitled "_Pokémon_Babanuki" .
+<http://example.org/resource/boardgame/_ポケモンババ抜き> a resource:Boardgame ;
+    property:age "_4+" ;
+    property:bulbapediaImage <https://bulbapedia.bulbagarden.net/wiki/File:Pokémon_Babanuki_Super_High_Tension_box_art.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Pokémon_Babanuki_box_art.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Project_Merchandise_logo.png> ;
+    property:bulbapediaMainImage <https://bulbapedia.bulbagarden.net/wiki/File:Pokémon_Babanuki_Super_High_Tension_box_art.png> ;
+    property:bulbapediapage BPD:Pokémon_Babanuki ;
+    property:caption "_Pokémon_Babanuki" ;
+    property:caption2 "_Pokémon_Babanuki_Super_High_Tension" ;
+    property:colorscheme "_Hoenn" ;
+    property:date "_May_11,_2019_Pokémon_BabanukiAugust_3,_2023_Pokémon_Babanuki_Super_High_Tension" ;
+    property:hasBulbapediaLink <https://bulbapedia.bulbagarden.net/wiki/Bulbapedia:Project_Merchandise>,
+        <https://bulbapedia.bulbagarden.net/wiki/Bulbapedia:Projects>,
+        BPD:Pokémon_Center_\(store\),
+        BPD:The_Pokémon_Company ;
+    property:hasBulbapediaLinkedResoruce <http://example.org/resource/Bulbapedia:Project_Merchandise>,
+        <http://example.org/resource/Bulbapedia:Projects>,
+        resource:Pokémon_Center_\(store\),
+        resource:The_Pokémon_Company ;
+    property:hasExternalLink <https://voice.pokemon.co.jp/stv/zenten/2019/04/post-9998.html>,
+        <https://www.pokemon.co.jp/goods/2023/08/230810_to01.html>,
+        <https://www.pokemoncenter-online.com/?main_page=product_list&sort=new&keyword=%E3%83%9D%E3%82%B1%E3%83%A2%E3%83%B3%E3%83%90%E3%83%90%E6%8A%9C%E3%81%8D_0803> ;
+    property:image <_Pokémon_Babanuki_box_art.png> ;
+    property:image2 "_Pokémon_Babanuki_Super_High_Tension_box_art.png" ;
+    property:image_size "_200" ;
+    property:image_size2 "_125" ;
+    property:links "_" ;
+    property:name "_ポケモンババ抜き" ;
+    property:players "_3_-_6" ;
+    property:publisher "_The_Pokémon_Company" ;
+    property:subtitled "_Pokémon_Babanuki" ;
+    owl:sameAs BPD1:Boardgame .
 
-ns2:ポケモンバトルチェス a ns2:Boardgame ;
-    ns1:age "6+" ;
-    ns1:caption "Pokémon_Battle_Chess_BW_Version" ;
-    ns1:image "Pokémon_Battle_Chess_BW.png" ;
-    ns1:name "ポケモンバトルチェス" ;
-    ns2:caption2 "Pokémon_Battle_Chess_W" ;
-    ns2:colorscheme "Unova" ;
-    ns2:date "December_26,_2011_Pokémon_Battle_Chess_BW_VersionMay_18,_2012_Pokémon_Battle_ChessDecember_28,_2012_Pokémon_Battle_Chess_W" ;
-    ns2:image2 "Pokémon_Battle_Chess_W.png" ;
-    ns2:image_size "300" ;
-    ns2:image_size2 "250" ;
-    ns2:links "_" ;
-    ns2:players "2" ;
-    ns2:publisher "The_Pokémon_Company" ;
-    ns2:subtitled "Pokémon_Battle_Chess" .
+<http://example.org/resource/boardgame/ポケモンバトルチェス> a resource:Boardgame ;
+    property:age "6+" ;
+    property:bulbapediaImage <https://bulbapedia.bulbagarden.net/wiki/File:0050Diglett.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:050Diglett.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Charizard_Red_Battle_Chess.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Egg2_Yellow_Battle_Chess.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Egg3_Yellow_Battle_Chess.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Egg_1_Green_Battle_Chess.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Egg_2_Green_Battle_Chess.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Egg_3_Green_Battle_Chess.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Egg_Yellow_Battle_Chess.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Emboar_Yellow_Battle_Chess.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Gyarados_Red_Battle_Chess.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Ho-Oh_Red_Battle_Chess.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Lugia_Red_Battle_Chess.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Magikarp_Red_Battle_Chess.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Meowth_Red_Battle_Chess.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Patrat_Yellow_Battle_Chess.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Pikachu_Red_Battle_Chess.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Pokémon_Battle_Chess.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Pokémon_Battle_Chess_BW.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Pokémon_Battle_Chess_W.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Pokémon_Battle_Chess_Web_logo.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Project_Merchandise_logo.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Project_Sidegames_logo.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Reshiram_Yellow_Battle_Chess.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Samurott_Blue_Battle_Chess.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Serperior_Yellow_Battle_Chess.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Togepi_Red_Battle_Chess.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Venusaur_Red_Battle_Chess.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Victini_Yellow_Battle_Chess.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Zekrom_Yellow_Battle_Chess.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Zoroark_Yellow_Battle_Chess.png> ;
+    property:bulbapediaMainImage <https://bulbapedia.bulbagarden.net/wiki/File:0050Diglett.png> ;
+    property:bulbapediapage BPD:Pokémon_Battle_Chess ;
+    property:caption "Pokémon_Battle_Chess_BW_Version" ;
+    property:caption2 "Pokémon_Battle_Chess_W" ;
+    property:colorscheme "Unova" ;
+    property:date "December_26,_2011_Pokémon_Battle_Chess_BW_VersionMay_18,_2012_Pokémon_Battle_ChessDecember_28,_2012_Pokémon_Battle_Chess_W" ;
+    property:hasBulbapediaLink <https://bulbapedia.bulbagarden.net/wiki/Bulbapedia:Project_Merchandise>,
+        <https://bulbapedia.bulbagarden.net/wiki/Bulbapedia:Project_Sidegames>,
+        <https://bulbapedia.bulbagarden.net/wiki/Bulbapedia:Projects>,
+        BPD:Charizard_\(Pokémon\),
+        BPD:Emboar_\(Pokémon\),
+        BPD:Gyarados_\(Pokémon\),
+        BPD:Ho-Oh_\(Pokémon\),
+        BPD:Lugia_\(Pokémon\),
+        BPD:Magikarp_\(Pokémon\),
+        BPD:Meowth_\(Pokémon\),
+        BPD:Patrat_\(Pokémon\),
+        BPD:Pikachu_\(Pokémon\),
+        BPD:Pokémon_Egg,
+        BPD:Reshiram_\(Pokémon\),
+        BPD:Samurott_\(Pokémon\),
+        BPD:Serperior_\(Pokémon\),
+        BPD:The_Pokémon_Company,
+        BPD:Togepi_\(Pokémon\),
+        BPD:Venusaur_\(Pokémon\),
+        BPD:Victini_\(Pokémon\),
+        BPD:Zekrom_\(Pokémon\),
+        BPD:Zoroark_\(Pokémon\) ;
+    property:hasBulbapediaLinkedResoruce <http://example.org/resource/Bulbapedia:Project_Merchandise>,
+        <http://example.org/resource/Bulbapedia:Project_Sidegames>,
+        <http://example.org/resource/Bulbapedia:Projects>,
+        resource:Charizard_\(Pokémon\),
+        resource:Emboar_\(Pokémon\),
+        resource:Gyarados_\(Pokémon\),
+        resource:Ho-Oh_\(Pokémon\),
+        resource:Lugia_\(Pokémon\),
+        resource:Magikarp_\(Pokémon\),
+        resource:Meowth_\(Pokémon\),
+        resource:Patrat_\(Pokémon\),
+        resource:Pikachu_\(Pokémon\),
+        resource:Pokémon_Egg,
+        resource:Reshiram_\(Pokémon\),
+        resource:Samurott_\(Pokémon\),
+        resource:Serperior_\(Pokémon\),
+        resource:The_Pokémon_Company,
+        resource:Togepi_\(Pokémon\),
+        resource:Venusaur_\(Pokémon\),
+        resource:Victini_\(Pokémon\),
+        resource:Zekrom_\(Pokémon\),
+        resource:Zoroark_\(Pokémon\) ;
+    property:hasExternalLink <http://www.pokemon-bc.com/>,
+        <http://www.pokemon-bc.com/document/images/PBC_manual_eng.pdf>,
+        <https://web.archive.org/web/20120320010404/http://www.pokemon.co.jp/info/2012/03/120315_g01.html?a001=news>,
+        <https://web.archive.org/web/20200808062827/http://www.pokemon-bc.com/battle/>,
+        <https://web.archive.org/web/20200808065551/http://www.pokemon-bc.com/product/>,
+        <https://web.archive.org/web/20201103054326/http://www.pokemon-bc.com/>,
+        <https://web.archive.org/web/20201111224117/http://www.pokemon-bc.com/document/images/PBC_bw_manual_eng.pdf>,
+        <https://www.mobygames.com/game/browser/pokmon-battle-chess-web-bw-version> ;
+    property:image <Pokémon_Battle_Chess_BW.png> ;
+    property:image2 "Pokémon_Battle_Chess_W.png" ;
+    property:image_size "300" ;
+    property:image_size2 "250" ;
+    property:links "_" ;
+    property:name "ポケモンバトルチェス" ;
+    property:players "2" ;
+    property:publisher "The_Pokémon_Company" ;
+    property:subtitled "Pokémon_Battle_Chess" ;
+    owl:sameAs BPD1:Boardgame .
 

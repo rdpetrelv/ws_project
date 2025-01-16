@@ -1,12 +1,9 @@
-@prefix local: <http://example.org/resource/character/> .
+@prefix local: <http://example.org/resource/> .
 @prefix localProperty: <http://example.org/property/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix schema: <http://schema.org/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix localRegion: <http://example.org/resource/region/> .
-@prefix localLocation: <http://example.org/resource/location/> .
-
 
 local:Character rdf:type rdfs:Class ;
     rdfs:label "Character"@en ;
@@ -118,13 +115,13 @@ localProperty:hometown rdf:type rdf:Property ;
     rdfs:label "hometown"@en ;
     rdfs:comment "The current area where the character lives."@en ;
     rdfs:domain local:Character ;
-    rdfs:range localLocation:Location .
+    rdfs:range local:Location .
 
 localProperty:region rdf:type local:Region ;
     rdfs:label "region"@en ;
     rdfs:comment "The current region where the character resides."@en ;
     rdfs:domain local:Character ;
-    rdfs:range localRegion:Region .
+    rdfs:range local:Region .
 
 localProperty:relatives rdf:type rdf:Property ;
     rdfs:label "relatives"@en ;

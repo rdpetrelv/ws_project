@@ -1,0 +1,5 @@
+
+<http://example.org/resource/glitchmove/List_of_glitch_moves_in_Generation_I> a <http://example.org/resource/glitchmove/GlitchMove> .
+
+<http://example.org/resource/glitchmove/Super_Glitch> a <http://example.org/resource/glitchmove/GlitchMove> .
+

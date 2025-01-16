@@ -1,110 +1,990 @@
-@prefix ns1: <http://example.org/resource/badge/> .
-@prefix ns2: <http://example.org/property/> .
+@prefix BPD: <https://bulbapedia.bulbagarden.net/wiki/> .
+@prefix BPD1: <https://dbpedia.org/page/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix property: <http://example.org/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix resource: <http://example.org/resource/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-ns1:Boulder_Badge a ns1:Badge ;
-    ns2:color <rock> ;
-    ns2:jname "グレーバッジ" ;
-    ns2:name "Boulder_Badge" ;
-    ns1:cap "Lv._20_sup/7_PE_" ;
-    ns1:giver "Brock" ;
-    ns1:jtrans "Gray_Badge" ;
-    ns1:move "Flash" ;
-    ns1:next "Draft:Cascade_Badge_Cascade_Badge" ;
-    ns1:tmhm "HM05" .
+resource:Badge a rdfs:Class .
 
-ns1:Cascade_Badge a ns1:Badge ;
-    ns2:color <water> ;
-    ns2:jname "ブルーバッジ" ;
-    ns2:name "Cascade_Badge" ;
-    ns1:cap "Lv._30" ;
-    ns1:givers "Misty,__an_Daisy_" ;
-    ns1:jtrans "Blue_Badge" ;
-    ns1:move "Cut" ;
-    ns1:next "Draft:Thunder_Badge_Thunder_Badge" ;
-    ns1:prev "Draft:Boulder_Badge_Boulder_Badge" ;
-    ns1:tmhm "HM01" .
+property:cap a rdf:Property .
 
-ns1:Earth_Badge a ns1:Badge ;
-    ns2:color <ground> ;
-    ns2:jname "グリーンバッジ" ;
-    ns2:name "Earth_Badge" ;
-    ns1:cap "Lv._100" ;
-    ns1:givers "Giovanni,__ga_Blue_,_Jessie,_James,__MTR_" ;
-    ns1:jtrans "Green_Badge" ;
-    ns1:move "Rock_Climb" ;
-    ns1:prev "Draft:Volcano_Badge_Volcano_Badge" ;
-    ns1:tmhm "HM08" .
+property:giver a rdf:Property .
 
-ns1:Gym_Badge a ns1:Badge ;
-    ns2:color <Bug> ;
-    ns2:image "SVbadge_VictoryRoad_Bug.png" ;
-    ns2:jname "ジムバッジ" ;
-    ns2:name "Gym_Badge" ;
-    ns1:cap "20_+_5_*_BadgeCount" ;
-    ns1:giver "Katy" ;
-    ns1:jtrans "Gym_Badge" ;
-    ns1:next "Draft:Gym_Badge_(Grass)_Gym_Badge_(Grass)" .
+property:givers a rdf:Property .
 
-ns1:Plain_Badge a ns1:Badge ;
-    ns2:color <Normal> ;
-    ns2:jname "レギュラーバッジ_" ;
-    ns2:name "Plain_Badge" ;
-    ns1:cap "No_change" ;
-    ns1:giver "Whitney" ;
-    ns1:jtrans "Regular_Badge" ;
-    ns1:move "Strength" ;
-    ns1:next "Draft:Fog_Badge_Fog_Badge" ;
-    ns1:prev "Draft:Hive_Badge_Hive_Badge" ;
-    ns1:stat "Speed" ;
-    ns1:tmhm "HM04" .
+property:move a rdf:Property .
 
-ns1:Star_Badge a ns1:Badge ;
-    ns2:color <Dark> ;
-    ns2:image "SVbadge_StarfallStreet_Dark.png" ;
-    ns2:jname "ダンバッジ" ;
-    ns2:name "Star_Badge" ;
-    ns1:cap "No_change" ;
-    ns1:giver "Giacomo" ;
-    ns1:jtrans "Team_Badge" ;
-    ns1:next "Draft:Star_Badge_(Fire)_Star_Badge_(Fire)" ;
-    ns1:prev "Draft:Gym_Badge_(Ice)_Gym_Badge_(Ice)" .
+property:next a rdf:Property .
 
-ns1:Thunder_Badge a ns1:Badge ;
-    ns2:color <electric> ;
-    ns2:jname "オレンジバッジ" ;
-    ns2:name "Thunder_Badge" ;
-    ns1:cap "10_+_10_*_BadgeCount_sup/7_PE_" ;
-    ns1:giver "Lt._Surge" ;
-    ns1:jtrans "Orange_Badge" ;
-    ns1:move "Fly" ;
-    ns1:next "Draft:Rainbow_Badge_Rainbow_Badge" ;
-    ns1:prev "Draft:Cascade_Badge_Cascade_Badge" ;
-    ns1:tmhm "HM02" .
+property:prev a rdf:Property .
 
-ns1:Titan_Badge a ns1:Badge ;
-    ns2:color <Rock> ;
-    ns2:image "SVbadge_PathOfLegends_Rock.png" ;
-    ns2:jname "ヌシバッジ" ;
-    ns2:name "Titan_Badge" ;
-    ns1:cap "No_change" ;
-    ns1:giver "Arven" ;
-    ns1:jtrans "Leader_Badge" ;
-    ns1:next "Draft:Titan_Badge_(Flying)_Titan_Badge_(Flying)" ;
-    ns1:prev "Draft:Star_Badge_(Fighting)_Star_Badge_(Fighting)" .
+property:stat a rdf:Property .
 
-<Bug> a <http://schema.org/color> .
+property:tmhm a rdf:Property .
 
-<Dark> a <http://schema.org/color> .
+resource:Boulder_Badge owl:sameAs <http://example.org/resource/badge/Boulder_Badge> .
 
-<Normal> a <http://schema.org/color> .
+resource:Bug a <http://schema.org/color> .
 
-<Rock> a <http://schema.org/color> .
+resource:Cascade_Badge owl:sameAs <http://example.org/resource/badge/Cascade_Badge> .
 
-<electric> a <http://schema.org/color> .
+resource:Dark a <http://schema.org/color> .
 
-<ground> a <http://schema.org/color> .
+resource:Earth_Badge owl:sameAs <http://example.org/resource/badge/Earth_Badge> .
 
-<rock> a <http://schema.org/color> .
+resource:Gym_Badge owl:sameAs <http://example.org/resource/badge/Gym_Badge> .
 
-<water> a <http://schema.org/color> .
+resource:Normal a <http://schema.org/color> .
+
+resource:Plain_Badge owl:sameAs <http://example.org/resource/badge/Plain_Badge> .
+
+resource:Rock a <http://schema.org/color> .
+
+resource:SVbadge_PathOfLegends_Rock.png a xsd:anyURI .
+
+resource:SVbadge_StarfallStreet_Dark.png a xsd:anyURI .
+
+resource:SVbadge_VictoryRoad_Bug.png a xsd:anyURI .
+
+resource:Star_Badge owl:sameAs <http://example.org/resource/badge/Star_Badge> .
+
+resource:Thunder_Badge owl:sameAs <http://example.org/resource/badge/Thunder_Badge> .
+
+resource:Titan_Badge owl:sameAs <http://example.org/resource/badge/Titan_Badge> .
+
+resource:electric a <http://schema.org/color> .
+
+resource:ground a <http://schema.org/color> .
+
+resource:rock a <http://schema.org/color> .
+
+resource:water a <http://schema.org/color> .
+
+<http://example.org/resource/badge/Boulder_Badge> a resource:Badge ;
+    property:bulbapediaImage <https://bulbapedia.bulbagarden.net/wiki/File:0050Diglett.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:050Diglett.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Ash_Boulder_Badge.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Ash_Kanto_Badges_EToP.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Boulder_Badge.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:BrockGymHeroes98.jpg>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:China_and_Taiwan_Flags.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:France_Flag.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Germany_Flag.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:GymBadgeXYPromoBrock.jpg>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Hong_Kong_Flag.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Italy_Flag.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Japan_Flag.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Pokémon_Puzzle_League_Boulder_Badge.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Rarity_Rare.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Rarity_Rare_Holo.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:South_Korea_Flag.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Spain_Flag.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:TCG_League_Cycle_1_Badges.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:TCG_League_Cycle_7_Badges.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Trainer_Card_FRLG_1Star_Female.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Trainer_Card_G.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Trainer_Card_HGSS_2Star.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Trainer_Card_LGP.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Trainer_Card_Y.png> ;
+    property:bulbapediaMainImage <https://bulbapedia.bulbagarden.net/wiki/File:0050Diglett.png> ;
+    property:bulbapediapage <https://bulbapedia.bulbagarden.net/wiki/Draft:Boulder_Badge> ;
+    property:cap "Lv._20_sup/7_PE_" ;
+    property:color <rock> ;
+    property:giver "Brock" ;
+    property:hasBulbapediaLink BPD:Badge,
+        BPD:Battle_item,
+        BPD:Blue_\(game\),
+        BPD:Brock,
+        BPD:Brock_\(Gym_Heroes_15\),
+        <https://bulbapedia.bulbagarden.net/wiki/Draft:Cascade_Badge>,
+        <https://bulbapedia.bulbagarden.net/wiki/Draft:Kanto_Badges>,
+        BPD:Escape_Rope,
+        BPD:Expanded_format_\(TCG\),
+        BPD:Field_move,
+        BPD:Flash_\(move\),
+        BPD:Great_Ball,
+        BPD:Gym_Badge_\(XY_Promo_203\),
+        BPD:Gym_Heroes_\(TCG\),
+        BPD:HM05,
+        BPD:Johto,
+        BPD:Kanto,
+        BPD:Kanto_Route_22,
+        <https://bulbapedia.bulbagarden.net/wiki/Leaders'_Stadium_(TCG)>,
+        BPD:Nivi_City_Gym_\(TCG\),
+        BPD:Obedience,
+        BPD:Pewter_City,
+        BPD:Pewter_Gym,
+        BPD:Poké_Mart,
+        <https://bulbapedia.bulbagarden.net/wiki/Pokémon:_Let's_Go,_Pikachu!_and_Let's_Go,_Eevee!>,
+        BPD:Pokémon_Champion,
+        BPD:Pokémon_Crystal_Version,
+        BPD:Pokémon_FireRed_and_LeafGreen_Versions,
+        BPD:Pokémon_Gold_and_Silver_Versions,
+        BPD:Pokémon_HeartGold_and_SoulSilver_Versions,
+        BPD:Pokémon_League_Rewards_\(TCG\),
+        BPD:Pokémon_Puzzle_League,
+        BPD:Pokémon_Red_and_Blue_Versions,
+        BPD:Pokémon_Red_and_Green_Versions,
+        BPD:Pokémon_Trading_Card_Game,
+        BPD:Pokémon_Trainer,
+        BPD:Pokémon_Yellow_Version,
+        BPD:Pokémon_in_French,
+        BPD:Pokémon_in_Germany,
+        BPD:Pokémon_in_Greater_China,
+        BPD:Pokémon_in_Italy,
+        BPD:Pokémon_in_South_Korea,
+        BPD:Pokémon_in_Spanish,
+        BPD:Pokémon_the_Series,
+        BPD:Rarity,
+        BPD:Repel,
+        BPD:Rival,
+        BPD:Rock_\(type\),
+        BPD:Standard_format_\(TCG\),
+        BPD:The_Electric_Tale_of_Pikachu,
+        BPD:XY-P_Promotional_cards_\(TCG\),
+        BPD:XY_Black_Star_Promos_\(TCG\) ;
+    property:hasBulbapediaLinkedResoruce resource:Badge,
+        resource:Battle_item,
+        resource:Blue_\(game\),
+        resource:Brock,
+        resource:Brock_\(Gym_Heroes_15\),
+        <http://example.org/resource/Draft:Cascade_Badge>,
+        <http://example.org/resource/Draft:Kanto_Badges>,
+        resource:Escape_Rope,
+        resource:Expanded_format_\(TCG\),
+        resource:Field_move,
+        resource:Flash_\(move\),
+        resource:Great_Ball,
+        resource:Gym_Badge_\(XY_Promo_203\),
+        resource:Gym_Heroes_\(TCG\),
+        resource:HM05,
+        resource:Johto,
+        resource:Kanto,
+        resource:Kanto_Route_22,
+        <http://example.org/resource/Leaders'_Stadium_(TCG)>,
+        resource:Nivi_City_Gym_\(TCG\),
+        resource:Obedience,
+        resource:Pewter_City,
+        resource:Pewter_Gym,
+        resource:Poké_Mart,
+        <http://example.org/resource/Pokémon:_Let's_Go,_Pikachu!_and_Let's_Go,_Eevee!>,
+        resource:Pokémon_Champion,
+        resource:Pokémon_Crystal_Version,
+        resource:Pokémon_FireRed_and_LeafGreen_Versions,
+        resource:Pokémon_Gold_and_Silver_Versions,
+        resource:Pokémon_HeartGold_and_SoulSilver_Versions,
+        resource:Pokémon_League_Rewards_\(TCG\),
+        resource:Pokémon_Puzzle_League,
+        resource:Pokémon_Red_and_Blue_Versions,
+        resource:Pokémon_Red_and_Green_Versions,
+        resource:Pokémon_Trading_Card_Game,
+        resource:Pokémon_Trainer,
+        resource:Pokémon_Yellow_Version,
+        resource:Pokémon_in_French,
+        resource:Pokémon_in_Germany,
+        resource:Pokémon_in_Greater_China,
+        resource:Pokémon_in_Italy,
+        resource:Pokémon_in_South_Korea,
+        resource:Pokémon_in_Spanish,
+        resource:Pokémon_the_Series,
+        resource:Rarity,
+        resource:Repel,
+        resource:Rival,
+        resource:Rock_\(type\),
+        resource:Standard_format_\(TCG\),
+        resource:The_Electric_Tale_of_Pikachu,
+        resource:XY-P_Promotional_cards_\(TCG\),
+        resource:XY_Black_Star_Promos_\(TCG\) ;
+    property:jname "グレーバッジ" ;
+    property:jtrans "Gray_Badge" ;
+    property:move "Flash" ;
+    property:name "Boulder_Badge" ;
+    property:next "Draft:Cascade_Badge_Cascade_Badge" ;
+    property:tmhm "HM05" ;
+    owl:sameAs BPD1:Badge .
+
+<http://example.org/resource/badge/Cascade_Badge> a resource:Badge ;
+    property:bulbapediaImage <https://bulbapedia.bulbagarden.net/wiki/File:0050Diglett.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:050Diglett.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Ash_Cascade_Badge.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Ash_Kanto_Badges_EToP.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Cascade_Badge.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:China_and_Taiwan_Flags.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:France_Flag.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Germany_Flag.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:GymBadgeXYPromoMisty.jpg>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Hong_Kong_Flag.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Italy_Flag.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Japan_Flag.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:MistyGymHeroes102.jpg>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Pokémon_Puzzle_League_Cascade_Badge.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Rarity_Rare.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Rarity_Rare_Holo.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:South_Korea_Flag.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Spain_Flag.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:TCG_League_Cycle_1_Badges.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:TCG_League_Cycle_7_Badges.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Trainer_Card_FRLG_1Star_Female.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Trainer_Card_G.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Trainer_Card_HGSS_2Star.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Trainer_Card_LGP.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Trainer_Card_Y.png> ;
+    property:bulbapediaMainImage <https://bulbapedia.bulbagarden.net/wiki/File:0050Diglett.png> ;
+    property:bulbapediapage <https://bulbapedia.bulbagarden.net/wiki/Draft:Cascade_Badge> ;
+    property:cap "Lv._30" ;
+    property:color <water> ;
+    property:givers "Misty,__an_Daisy_" ;
+    property:hasBulbapediaLink BPD:Badge,
+        BPD:Cerulean_Gym,
+        BPD:Cut_\(move\),
+        BPD:Cuttable_plant,
+        BPD:Daisy_\(anime\),
+        <https://bulbapedia.bulbagarden.net/wiki/Draft:Boulder_Badge>,
+        <https://bulbapedia.bulbagarden.net/wiki/Draft:Kanto_Badges>,
+        <https://bulbapedia.bulbagarden.net/wiki/Draft:Thunder_Badge>,
+        BPD:Expanded_format_\(TCG\),
+        BPD:Field_move,
+        BPD:Gym_Badge_\(XY_Promo_203\),
+        BPD:Gym_Heroes_\(TCG\),
+        BPD:HM01,
+        BPD:Hanada_City_Gym_\(TCG\),
+        BPD:Johto,
+        BPD:Kanto,
+        BPD:Kanto_Route_25,
+        <https://bulbapedia.bulbagarden.net/wiki/Leaders'_Stadium_(TCG)>,
+        BPD:Lure,
+        BPD:Misty,
+        BPD:Misty_\(Gym_Heroes_18\),
+        BPD:Pewter_City,
+        BPD:Poké_Mart,
+        <https://bulbapedia.bulbagarden.net/wiki/Pokémon:_Let's_Go,_Pikachu!_and_Let's_Go,_Eevee!>,
+        BPD:Pokémon_Champion,
+        BPD:Pokémon_Crystal_Version,
+        BPD:Pokémon_FireRed_and_LeafGreen_Versions,
+        BPD:Pokémon_Gold_and_Silver_Versions,
+        BPD:Pokémon_HeartGold_and_SoulSilver_Versions,
+        BPD:Pokémon_League_Rewards_\(TCG\),
+        BPD:Pokémon_Puzzle_League,
+        BPD:Pokémon_Red_and_Blue_Versions,
+        BPD:Pokémon_Red_and_Green_Versions,
+        BPD:Pokémon_Trading_Card_Game,
+        BPD:Pokémon_Trainer,
+        BPD:Pokémon_Yellow_Version,
+        BPD:Pokémon_in_French,
+        BPD:Pokémon_in_Germany,
+        BPD:Pokémon_in_Greater_China,
+        BPD:Pokémon_in_Italy,
+        BPD:Pokémon_in_South_Korea,
+        BPD:Pokémon_in_Spanish,
+        BPD:Pokémon_the_Series,
+        BPD:Rarity,
+        BPD:Standard_format_\(TCG\),
+        BPD:Super_Potion,
+        BPD:The_Electric_Tale_of_Pikachu,
+        BPD:Water_\(type\),
+        BPD:XY-P_Promotional_cards_\(TCG\),
+        BPD:XY_Black_Star_Promos_\(TCG\) ;
+    property:hasBulbapediaLinkedResoruce resource:Badge,
+        resource:Cerulean_Gym,
+        resource:Cut_\(move\),
+        resource:Cuttable_plant,
+        resource:Daisy_\(anime\),
+        <http://example.org/resource/Draft:Boulder_Badge>,
+        <http://example.org/resource/Draft:Kanto_Badges>,
+        <http://example.org/resource/Draft:Thunder_Badge>,
+        resource:Expanded_format_\(TCG\),
+        resource:Field_move,
+        resource:Gym_Badge_\(XY_Promo_203\),
+        resource:Gym_Heroes_\(TCG\),
+        resource:HM01,
+        resource:Hanada_City_Gym_\(TCG\),
+        resource:Johto,
+        resource:Kanto,
+        resource:Kanto_Route_25,
+        <http://example.org/resource/Leaders'_Stadium_(TCG)>,
+        resource:Lure,
+        resource:Misty,
+        resource:Misty_\(Gym_Heroes_18\),
+        resource:Pewter_City,
+        resource:Poké_Mart,
+        <http://example.org/resource/Pokémon:_Let's_Go,_Pikachu!_and_Let's_Go,_Eevee!>,
+        resource:Pokémon_Champion,
+        resource:Pokémon_Crystal_Version,
+        resource:Pokémon_FireRed_and_LeafGreen_Versions,
+        resource:Pokémon_Gold_and_Silver_Versions,
+        resource:Pokémon_HeartGold_and_SoulSilver_Versions,
+        resource:Pokémon_League_Rewards_\(TCG\),
+        resource:Pokémon_Puzzle_League,
+        resource:Pokémon_Red_and_Blue_Versions,
+        resource:Pokémon_Red_and_Green_Versions,
+        resource:Pokémon_Trading_Card_Game,
+        resource:Pokémon_Trainer,
+        resource:Pokémon_Yellow_Version,
+        resource:Pokémon_in_French,
+        resource:Pokémon_in_Germany,
+        resource:Pokémon_in_Greater_China,
+        resource:Pokémon_in_Italy,
+        resource:Pokémon_in_South_Korea,
+        resource:Pokémon_in_Spanish,
+        resource:Pokémon_the_Series,
+        resource:Rarity,
+        resource:Standard_format_\(TCG\),
+        resource:Super_Potion,
+        resource:The_Electric_Tale_of_Pikachu,
+        resource:Water_\(type\),
+        resource:XY-P_Promotional_cards_\(TCG\),
+        resource:XY_Black_Star_Promos_\(TCG\) ;
+    property:jname "ブルーバッジ" ;
+    property:jtrans "Blue_Badge" ;
+    property:move "Cut" ;
+    property:name "Cascade_Badge" ;
+    property:next "Draft:Thunder_Badge_Thunder_Badge" ;
+    property:prev "Draft:Boulder_Badge_Boulder_Badge" ;
+    property:tmhm "HM01" ;
+    owl:sameAs BPD1:Badge .
+
+<http://example.org/resource/badge/Earth_Badge> a resource:Badge ;
+    property:bulbapediaImage <https://bulbapedia.bulbagarden.net/wiki/File:0050Diglett.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:050Diglett.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Ash_Earth_Badge.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Ash_Kanto_Badges_EToP.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:China_and_Taiwan_Flags.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Earth_Badge.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:France_Flag.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Germany_Flag.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:GiovanniGymChallenge18.jpg>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:GymBadgeXYPromoGiovanni.jpg>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Hong_Kong_Flag.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Italy_Flag.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Japan_Flag.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Pokémon_Puzzle_League_Earth_Badge.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Rarity_Rare.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Rarity_Rare_Holo.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Red_Earth_Badge_PO.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:South_Korea_Flag.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Spain_Flag.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:TCG_League_Cycle_1_Badges.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:TCG_League_Cycle_7_Badges.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Trainer_Card_FRLG_1Star_Female.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Trainer_Card_G.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Trainer_Card_HGSS_2Star.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Trainer_Card_LGP.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Trainer_Card_Y.png> ;
+    property:bulbapediaMainImage <https://bulbapedia.bulbagarden.net/wiki/File:0050Diglett.png> ;
+    property:bulbapediapage <https://bulbapedia.bulbagarden.net/wiki/Draft:Earth_Badge> ;
+    property:cap "Lv._100" ;
+    property:color <ground> ;
+    property:givers "Giovanni,__ga_Blue_,_Jessie,_James,__MTR_" ;
+    property:hasBulbapediaLink BPD:AG132,
+        BPD:Agatha,
+        BPD:Ash_Ketchum,
+        BPD:Ash_Ketchum_\(EToP\),
+        BPD:Badge,
+        BPD:Blue_\(game\),
+        BPD:Cinnabar_Island,
+        <https://bulbapedia.bulbagarden.net/wiki/Draft:Kanto_Badges>,
+        <https://bulbapedia.bulbagarden.net/wiki/Draft:Volcano_Badge>,
+        BPD:EP063,
+        BPD:ET11,
+        BPD:Elite_Four,
+        BPD:Expanded_format_\(TCG\),
+        BPD:Field_move,
+        BPD:Full_Restore,
+        BPD:Gary_Oak,
+        BPD:Giovanni,
+        BPD:Giovanni_\(Gym_Challenge_18\),
+        BPD:Ground_\(type\),
+        BPD:Gym_Badge_\(XY_Promo_203\),
+        BPD:Gym_Challenge_\(TCG\),
+        BPD:Gym_Leader,
+        BPD:HM08,
+        BPD:Indigo_Plateau,
+        BPD:JBA6,
+        BPD:James,
+        BPD:Jessie,
+        BPD:Johto,
+        BPD:Jō,
+        BPD:Kanto,
+        BPD:Meowth_\(Team_Rocket\),
+        BPD:Obedience,
+        BPD:PM031,
+        BPD:PO03,
+        BPD:PZ09,
+        <https://bulbapedia.bulbagarden.net/wiki/Pocket_Monsters_HGSS_Jō's_Big_Adventure>,
+        BPD:Poké_Mart,
+        <https://bulbapedia.bulbagarden.net/wiki/Pokémon:_Let's_Go,_Pikachu!_and_Let's_Go,_Eevee!>,
+        BPD:Pokémon_Champion,
+        BPD:Pokémon_Crystal_Version,
+        BPD:Pokémon_FireRed_and_LeafGreen_Versions,
+        BPD:Pokémon_Gold_and_Silver_Versions,
+        BPD:Pokémon_HeartGold_and_SoulSilver_Versions,
+        BPD:Pokémon_League_Rewards_\(TCG\),
+        BPD:Pokémon_Origins,
+        BPD:Pokémon_Pocket_Monsters,
+        BPD:Pokémon_Puzzle_League,
+        BPD:Pokémon_Red_and_Green_Versions,
+        BPD:Pokémon_Trading_Card_Game,
+        BPD:Pokémon_Trainer,
+        BPD:Pokémon_Yellow_Version,
+        BPD:Pokémon_Zensho,
+        BPD:Pokémon_in_French,
+        BPD:Pokémon_in_Germany,
+        BPD:Pokémon_in_Greater_China,
+        BPD:Pokémon_in_Italy,
+        BPD:Pokémon_in_South_Korea,
+        BPD:Pokémon_in_Spanish,
+        BPD:Pokémon_the_Series,
+        BPD:Rarity,
+        BPD:Red_\(Origins\),
+        BPD:Red_\(Pocket_Monsters\),
+        BPD:Rock_Climb_\(move\),
+        BPD:Satoshi_\(Zensho\),
+        BPD:Standard_format_\(TCG\),
+        BPD:The_Electric_Tale_of_Pikachu,
+        BPD:Victory_Road_\(Kanto\),
+        BPD:Viridian_Gym,
+        BPD:XY-P_Promotional_cards_\(TCG\),
+        BPD:XY_Black_Star_Promos_\(TCG\) ;
+    property:hasBulbapediaLinkedResoruce resource:AG132,
+        resource:Agatha,
+        resource:Ash_Ketchum,
+        resource:Ash_Ketchum_\(EToP\),
+        resource:Badge,
+        resource:Blue_\(game\),
+        resource:Cinnabar_Island,
+        <http://example.org/resource/Draft:Kanto_Badges>,
+        <http://example.org/resource/Draft:Volcano_Badge>,
+        resource:EP063,
+        resource:ET11,
+        resource:Elite_Four,
+        resource:Expanded_format_\(TCG\),
+        resource:Field_move,
+        resource:Full_Restore,
+        resource:Gary_Oak,
+        resource:Giovanni,
+        resource:Giovanni_\(Gym_Challenge_18\),
+        resource:Ground_\(type\),
+        resource:Gym_Badge_\(XY_Promo_203\),
+        resource:Gym_Challenge_\(TCG\),
+        resource:Gym_Leader,
+        resource:HM08,
+        resource:Indigo_Plateau,
+        resource:JBA6,
+        resource:James,
+        resource:Jessie,
+        resource:Johto,
+        resource:Jō,
+        resource:Kanto,
+        resource:Meowth_\(Team_Rocket\),
+        resource:Obedience,
+        resource:PM031,
+        resource:PO03,
+        resource:PZ09,
+        <http://example.org/resource/Pocket_Monsters_HGSS_Jō's_Big_Adventure>,
+        resource:Poké_Mart,
+        <http://example.org/resource/Pokémon:_Let's_Go,_Pikachu!_and_Let's_Go,_Eevee!>,
+        resource:Pokémon_Champion,
+        resource:Pokémon_Crystal_Version,
+        resource:Pokémon_FireRed_and_LeafGreen_Versions,
+        resource:Pokémon_Gold_and_Silver_Versions,
+        resource:Pokémon_HeartGold_and_SoulSilver_Versions,
+        resource:Pokémon_League_Rewards_\(TCG\),
+        resource:Pokémon_Origins,
+        resource:Pokémon_Pocket_Monsters,
+        resource:Pokémon_Puzzle_League,
+        resource:Pokémon_Red_and_Green_Versions,
+        resource:Pokémon_Trading_Card_Game,
+        resource:Pokémon_Trainer,
+        resource:Pokémon_Yellow_Version,
+        resource:Pokémon_Zensho,
+        resource:Pokémon_in_French,
+        resource:Pokémon_in_Germany,
+        resource:Pokémon_in_Greater_China,
+        resource:Pokémon_in_Italy,
+        resource:Pokémon_in_South_Korea,
+        resource:Pokémon_in_Spanish,
+        resource:Pokémon_the_Series,
+        resource:Rarity,
+        resource:Red_\(Origins\),
+        resource:Red_\(Pocket_Monsters\),
+        resource:Rock_Climb_\(move\),
+        resource:Satoshi_\(Zensho\),
+        resource:Standard_format_\(TCG\),
+        resource:The_Electric_Tale_of_Pikachu,
+        resource:Victory_Road_\(Kanto\),
+        resource:Viridian_Gym,
+        resource:XY-P_Promotional_cards_\(TCG\),
+        resource:XY_Black_Star_Promos_\(TCG\) ;
+    property:jname "グリーンバッジ" ;
+    property:jtrans "Green_Badge" ;
+    property:move "Rock_Climb" ;
+    property:name "Earth_Badge" ;
+    property:prev "Draft:Volcano_Badge_Volcano_Badge" ;
+    property:tmhm "HM08" ;
+    owl:sameAs BPD1:Badge .
+
+<http://example.org/resource/badge/Gym_Badge> a resource:Badge ;
+    property:bulbapediaImage <https://bulbapedia.bulbagarden.net/wiki/File:SVbadge_VictoryRoad_Bug.png> ;
+    property:bulbapediaMainImage <https://bulbapedia.bulbagarden.net/wiki/File:SVbadge_VictoryRoad_Bug.png> ;
+    property:bulbapediapage <https://bulbapedia.bulbagarden.net/wiki/Draft:Gym_Badge_(Bug)> ;
+    property:cap "20_+_5_*_BadgeCount" ;
+    property:color <Bug> ;
+    property:giver "Katy" ;
+    property:hasBulbapediaLink BPD:Badge,
+        BPD:Bug_\(type\),
+        BPD:Cortondo_Gym,
+        <https://bulbapedia.bulbagarden.net/wiki/Draft:Gym_Badge_(Grass)>,
+        BPD:Gym_Leader,
+        BPD:Katy,
+        BPD:Obedience,
+        BPD:Paldea,
+        BPD:Pokémon_League_\(Paldea\) ;
+    property:hasBulbapediaLinkedResoruce resource:Badge,
+        resource:Bug_\(type\),
+        resource:Cortondo_Gym,
+        <http://example.org/resource/Draft:Gym_Badge_(Grass)>,
+        resource:Gym_Leader,
+        resource:Katy,
+        resource:Obedience,
+        resource:Paldea,
+        resource:Pokémon_League_\(Paldea\) ;
+    property:image <SVbadge_VictoryRoad_Bug.png> ;
+    property:jname "ジムバッジ" ;
+    property:jtrans "Gym_Badge" ;
+    property:name "Gym_Badge" ;
+    property:next "Draft:Gym_Badge_(Grass)_Gym_Badge_(Grass)" ;
+    owl:sameAs BPD1:Badge .
+
+<http://example.org/resource/badge/Plain_Badge> a resource:Badge ;
+    property:bulbapediaImage <https://bulbapedia.bulbagarden.net/wiki/File:Ash_Plain_Badge.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:France_Flag.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Germany_Flag.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Italy_Flag.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Plain_Badge.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Spain_Flag.png> ;
+    property:bulbapediaMainImage <https://bulbapedia.bulbagarden.net/wiki/File:Ash_Plain_Badge.png> ;
+    property:bulbapediapage <https://bulbapedia.bulbagarden.net/wiki/Draft:Plain_Badge> ;
+    property:cap "No_change" ;
+    property:color <Normal> ;
+    property:giver "Whitney" ;
+    property:hasBulbapediaLink BPD:Ash_Ketchum,
+        BPD:Badge,
+        BPD:Cut_\(move\),
+        <https://bulbapedia.bulbagarden.net/wiki/Draft:Fog_Badge>,
+        <https://bulbapedia.bulbagarden.net/wiki/Draft:Hive_Badge>,
+        <https://bulbapedia.bulbagarden.net/wiki/Draft:Johto_Badges>,
+        BPD:EP159,
+        BPD:Field_move,
+        BPD:GB13,
+        BPD:Gold_\(Golden_Boys\),
+        BPD:Goldenrod_City,
+        BPD:Goldenrod_Gym,
+        BPD:Gym_Leader,
+        BPD:Gym_Leader_Castle,
+        BPD:HM04,
+        BPD:Ilex_Forest,
+        BPD:Johto,
+        BPD:Lass_\(Trainer_class\),
+        BPD:Miltank_\(Pokémon\),
+        BPD:Milton,
+        BPD:Moomoo_Farm,
+        BPD:Movable_boulder,
+        BPD:Normal_\(type\),
+        BPD:PM084,
+        BPD:PS160,
+        BPD:Pokémon_Crystal_Version,
+        BPD:Pokémon_Gold_and_Silver_Versions,
+        BPD:Pokémon_HeartGold_and_SoulSilver_Versions,
+        BPD:Pokémon_Stadium_2,
+        BPD:Pokémon_Trainer,
+        BPD:Pokémon_in_French,
+        BPD:Pokémon_in_Germany,
+        BPD:Pokémon_in_Italy,
+        BPD:Pokémon_in_Spanish,
+        BPD:Red_\(Pocket_Monsters\),
+        BPD:SP02,
+        BPD:Silver_\(Adventures\),
+        BPD:Squirt_Bottle,
+        BPD:Stat,
+        BPD:Strength_\(move\),
+        BPD:Whitney ;
+    property:hasBulbapediaLinkedResoruce resource:Ash_Ketchum,
+        resource:Badge,
+        resource:Cut_\(move\),
+        <http://example.org/resource/Draft:Fog_Badge>,
+        <http://example.org/resource/Draft:Hive_Badge>,
+        <http://example.org/resource/Draft:Johto_Badges>,
+        resource:EP159,
+        resource:Field_move,
+        resource:GB13,
+        resource:Gold_\(Golden_Boys\),
+        resource:Goldenrod_City,
+        resource:Goldenrod_Gym,
+        resource:Gym_Leader,
+        resource:Gym_Leader_Castle,
+        resource:HM04,
+        resource:Ilex_Forest,
+        resource:Johto,
+        resource:Lass_\(Trainer_class\),
+        resource:Miltank_\(Pokémon\),
+        resource:Milton,
+        resource:Moomoo_Farm,
+        resource:Movable_boulder,
+        resource:Normal_\(type\),
+        resource:PM084,
+        resource:PS160,
+        resource:Pokémon_Crystal_Version,
+        resource:Pokémon_Gold_and_Silver_Versions,
+        resource:Pokémon_HeartGold_and_SoulSilver_Versions,
+        resource:Pokémon_Stadium_2,
+        resource:Pokémon_Trainer,
+        resource:Pokémon_in_French,
+        resource:Pokémon_in_Germany,
+        resource:Pokémon_in_Italy,
+        resource:Pokémon_in_Spanish,
+        resource:Red_\(Pocket_Monsters\),
+        resource:SP02,
+        resource:Silver_\(Adventures\),
+        resource:Squirt_Bottle,
+        resource:Stat,
+        resource:Strength_\(move\),
+        resource:Whitney ;
+    property:jname "レギュラーバッジ_" ;
+    property:jtrans "Regular_Badge" ;
+    property:move "Strength" ;
+    property:name "Plain_Badge" ;
+    property:next "Draft:Fog_Badge_Fog_Badge" ;
+    property:prev "Draft:Hive_Badge_Hive_Badge" ;
+    property:stat "Speed" ;
+    property:tmhm "HM04" ;
+    owl:sameAs BPD1:Badge .
+
+<http://example.org/resource/badge/Star_Badge> a resource:Badge ;
+    property:bulbapediaImage <https://bulbapedia.bulbagarden.net/wiki/File:SVbadge_StarfallStreet_Dark.png> ;
+    property:bulbapediaMainImage <https://bulbapedia.bulbagarden.net/wiki/File:SVbadge_StarfallStreet_Dark.png> ;
+    property:bulbapediapage <https://bulbapedia.bulbagarden.net/wiki/Draft:Star_Badge_(Dark)> ;
+    property:cap "No_change" ;
+    property:color <Dark> ;
+    property:giver "Giacomo" ;
+    property:hasBulbapediaLink BPD:Acid_Spray_\(move\),
+        BPD:Agility_\(move\),
+        BPD:Badge,
+        BPD:Bulldoze_\(move\),
+        BPD:Charge_Beam_\(move\),
+        BPD:Confuse_Ray_\(move\),
+        BPD:Damage_category,
+        BPD:Dark_\(type\),
+        <https://bulbapedia.bulbagarden.net/wiki/Draft:Gym_Badge_(Ice)>,
+        <https://bulbapedia.bulbagarden.net/wiki/Draft:Star_Badge_(Fire)>,
+        BPD:Draining_Kiss_\(move\),
+        BPD:Eerie_Impulse_\(move\),
+        BPD:Electric_\(type\),
+        BPD:Fairy_\(type\),
+        BPD:Fake_Tears_\(move\),
+        BPD:Fire_\(type\),
+        BPD:Fire_Spin_\(move\),
+        BPD:Foul_Play_\(move\),
+        BPD:Ghost_\(type\),
+        BPD:Giacomo,
+        BPD:Grass_\(type\),
+        BPD:Ground_\(type\),
+        BPD:Ice_\(type\),
+        BPD:Icy_Wind_\(move\),
+        BPD:Magical_Leaf_\(move\),
+        BPD:Move,
+        BPD:Mud_Shot_\(move\),
+        BPD:Night_Shade_\(move\),
+        BPD:Normal_\(type\),
+        BPD:Paldea,
+        BPD:Physical_move,
+        BPD:Poison_\(type\),
+        BPD:Poison_Tail_\(move\),
+        BPD:Psychic_\(type\),
+        BPD:Rock_\(type\),
+        BPD:Rock_Tomb_\(move\),
+        BPD:Scary_Face_\(move\),
+        <https://bulbapedia.bulbagarden.net/wiki/Segin_Squad's_Base>,
+        BPD:Sleep_Talk_\(move\),
+        BPD:Snarl_\(move\),
+        BPD:Special_move,
+        BPD:Status_move,
+        BPD:Stored_Power_\(move\),
+        BPD:TM,
+        BPD:TM003,
+        BPD:TM004,
+        BPD:TM006,
+        BPD:TM013,
+        BPD:TM017,
+        BPD:TM023,
+        BPD:TM024,
+        BPD:TM026,
+        BPD:TM028,
+        BPD:TM030,
+        BPD:TM033,
+        BPD:TM034,
+        BPD:TM035,
+        BPD:TM036,
+        BPD:TM037,
+        BPD:TM041,
+        BPD:TM042,
+        BPD:TM062,
+        BPD:TM070,
+        BPD:TM096,
+        BPD:TM_Machine,
+        BPD:Team_Star,
+        BPD:Type ;
+    property:hasBulbapediaLinkedResoruce resource:Acid_Spray_\(move\),
+        resource:Agility_\(move\),
+        resource:Badge,
+        resource:Bulldoze_\(move\),
+        resource:Charge_Beam_\(move\),
+        resource:Confuse_Ray_\(move\),
+        resource:Damage_category,
+        resource:Dark_\(type\),
+        <http://example.org/resource/Draft:Gym_Badge_(Ice)>,
+        <http://example.org/resource/Draft:Star_Badge_(Fire)>,
+        resource:Draining_Kiss_\(move\),
+        resource:Eerie_Impulse_\(move\),
+        resource:Electric_\(type\),
+        resource:Fairy_\(type\),
+        resource:Fake_Tears_\(move\),
+        resource:Fire_\(type\),
+        resource:Fire_Spin_\(move\),
+        resource:Foul_Play_\(move\),
+        resource:Ghost_\(type\),
+        resource:Giacomo,
+        resource:Grass_\(type\),
+        resource:Ground_\(type\),
+        resource:Ice_\(type\),
+        resource:Icy_Wind_\(move\),
+        resource:Magical_Leaf_\(move\),
+        resource:Move,
+        resource:Mud_Shot_\(move\),
+        resource:Night_Shade_\(move\),
+        resource:Normal_\(type\),
+        resource:Paldea,
+        resource:Physical_move,
+        resource:Poison_\(type\),
+        resource:Poison_Tail_\(move\),
+        resource:Psychic_\(type\),
+        resource:Rock_\(type\),
+        resource:Rock_Tomb_\(move\),
+        resource:Scary_Face_\(move\),
+        <http://example.org/resource/Segin_Squad's_Base>,
+        resource:Sleep_Talk_\(move\),
+        resource:Snarl_\(move\),
+        resource:Special_move,
+        resource:Status_move,
+        resource:Stored_Power_\(move\),
+        resource:TM,
+        resource:TM003,
+        resource:TM004,
+        resource:TM006,
+        resource:TM013,
+        resource:TM017,
+        resource:TM023,
+        resource:TM024,
+        resource:TM026,
+        resource:TM028,
+        resource:TM030,
+        resource:TM033,
+        resource:TM034,
+        resource:TM035,
+        resource:TM036,
+        resource:TM037,
+        resource:TM041,
+        resource:TM042,
+        resource:TM062,
+        resource:TM070,
+        resource:TM096,
+        resource:TM_Machine,
+        resource:Team_Star,
+        resource:Type ;
+    property:image <SVbadge_StarfallStreet_Dark.png> ;
+    property:jname "ダンバッジ" ;
+    property:jtrans "Team_Badge" ;
+    property:name "Star_Badge" ;
+    property:next "Draft:Star_Badge_(Fire)_Star_Badge_(Fire)" ;
+    property:prev "Draft:Gym_Badge_(Ice)_Gym_Badge_(Ice)" ;
+    owl:sameAs BPD1:Badge .
+
+<http://example.org/resource/badge/Thunder_Badge> a resource:Badge ;
+    property:bulbapediaImage <https://bulbapedia.bulbagarden.net/wiki/File:0050Diglett.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:050Diglett.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Ash_Kanto_Badges_EToP.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Ash_Thunder_Badge.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:China_and_Taiwan_Flags.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:France_Flag.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Germany_Flag.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:GymBadgeXYPromoLtSurge.jpg>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Hong_Kong_Flag.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Italy_Flag.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Japan_Flag.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:LtSurgeGymHeroes101.jpg>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Pokémon_Puzzle_League_Thunder_Badge.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Rarity_Rare.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Rarity_Rare_Holo.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:South_Korea_Flag.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Spain_Flag.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:TCG_League_Cycle_1_Badges.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:TCG_League_Cycle_7_Badges.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Thunder_Badge.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Trainer_Card_FRLG_1Star_Female.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Trainer_Card_G.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Trainer_Card_HGSS_2Star.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Trainer_Card_LGP.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Trainer_Card_Y.png> ;
+    property:bulbapediaMainImage <https://bulbapedia.bulbagarden.net/wiki/File:0050Diglett.png> ;
+    property:bulbapediapage <https://bulbapedia.bulbagarden.net/wiki/Draft:Thunder_Badge> ;
+    property:cap "10_+_10_*_BadgeCount_sup/7_PE_" ;
+    property:color <electric> ;
+    property:giver "Lt._Surge" ;
+    property:hasBulbapediaLink BPD:Badge,
+        BPD:Cut_\(move\),
+        BPD:Cuttable_plant,
+        <https://bulbapedia.bulbagarden.net/wiki/Draft:Cascade_Badge>,
+        <https://bulbapedia.bulbagarden.net/wiki/Draft:Kanto_Badges>,
+        <https://bulbapedia.bulbagarden.net/wiki/Draft:Rainbow_Badge>,
+        BPD:Electric_\(type\),
+        BPD:Expanded_format_\(TCG\),
+        BPD:Field_move,
+        BPD:Fly_\(move\),
+        BPD:Gym_Badge_\(XY_Promo_203\),
+        BPD:Gym_Heroes_\(TCG\),
+        BPD:HM01,
+        BPD:HM02,
+        BPD:Johto,
+        BPD:Kanto,
+        BPD:Kuchiba_City_Gym_\(TCG\),
+        BPD:Lt._Surge,
+        BPD:Lt._Surge_\(Gym_Heroes_17\),
+        BPD:Obedience,
+        BPD:Poké_Mart,
+        <https://bulbapedia.bulbagarden.net/wiki/Pokémon:_Let's_Go,_Pikachu!_and_Let's_Go,_Eevee!>,
+        BPD:Pokémon_Champion,
+        BPD:Pokémon_Crystal_Version,
+        BPD:Pokémon_FireRed_and_LeafGreen_Versions,
+        BPD:Pokémon_Gold_and_Silver_Versions,
+        BPD:Pokémon_HeartGold_and_SoulSilver_Versions,
+        BPD:Pokémon_League_Rewards_\(TCG\),
+        BPD:Pokémon_Puzzle_League,
+        BPD:Pokémon_Red_and_Blue_Versions,
+        BPD:Pokémon_Red_and_Green_Versions,
+        BPD:Pokémon_Trading_Card_Game,
+        BPD:Pokémon_Trainer,
+        BPD:Pokémon_Yellow_Version,
+        BPD:Pokémon_in_French,
+        BPD:Pokémon_in_Germany,
+        BPD:Pokémon_in_Greater_China,
+        BPD:Pokémon_in_Italy,
+        BPD:Pokémon_in_South_Korea,
+        BPD:Pokémon_in_Spanish,
+        BPD:Pokémon_the_Series,
+        BPD:Rarity,
+        BPD:Standard_format_\(TCG\),
+        BPD:Stat,
+        BPD:The_Electric_Tale_of_Pikachu,
+        BPD:Vermilion_Gym,
+        BPD:XY-P_Promotional_cards_\(TCG\),
+        BPD:XY_Black_Star_Promos_\(TCG\) ;
+    property:hasBulbapediaLinkedResoruce resource:Badge,
+        resource:Cut_\(move\),
+        resource:Cuttable_plant,
+        <http://example.org/resource/Draft:Cascade_Badge>,
+        <http://example.org/resource/Draft:Kanto_Badges>,
+        <http://example.org/resource/Draft:Rainbow_Badge>,
+        resource:Electric_\(type\),
+        resource:Expanded_format_\(TCG\),
+        resource:Field_move,
+        resource:Fly_\(move\),
+        resource:Gym_Badge_\(XY_Promo_203\),
+        resource:Gym_Heroes_\(TCG\),
+        resource:HM01,
+        resource:HM02,
+        resource:Johto,
+        resource:Kanto,
+        resource:Kuchiba_City_Gym_\(TCG\),
+        resource:Lt._Surge,
+        resource:Lt._Surge_\(Gym_Heroes_17\),
+        resource:Obedience,
+        resource:Poké_Mart,
+        <http://example.org/resource/Pokémon:_Let's_Go,_Pikachu!_and_Let's_Go,_Eevee!>,
+        resource:Pokémon_Champion,
+        resource:Pokémon_Crystal_Version,
+        resource:Pokémon_FireRed_and_LeafGreen_Versions,
+        resource:Pokémon_Gold_and_Silver_Versions,
+        resource:Pokémon_HeartGold_and_SoulSilver_Versions,
+        resource:Pokémon_League_Rewards_\(TCG\),
+        resource:Pokémon_Puzzle_League,
+        resource:Pokémon_Red_and_Blue_Versions,
+        resource:Pokémon_Red_and_Green_Versions,
+        resource:Pokémon_Trading_Card_Game,
+        resource:Pokémon_Trainer,
+        resource:Pokémon_Yellow_Version,
+        resource:Pokémon_in_French,
+        resource:Pokémon_in_Germany,
+        resource:Pokémon_in_Greater_China,
+        resource:Pokémon_in_Italy,
+        resource:Pokémon_in_South_Korea,
+        resource:Pokémon_in_Spanish,
+        resource:Pokémon_the_Series,
+        resource:Rarity,
+        resource:Standard_format_\(TCG\),
+        resource:Stat,
+        resource:The_Electric_Tale_of_Pikachu,
+        resource:Vermilion_Gym,
+        resource:XY-P_Promotional_cards_\(TCG\),
+        resource:XY_Black_Star_Promos_\(TCG\) ;
+    property:jname "オレンジバッジ" ;
+    property:jtrans "Orange_Badge" ;
+    property:move "Fly" ;
+    property:name "Thunder_Badge" ;
+    property:next "Draft:Rainbow_Badge_Rainbow_Badge" ;
+    property:prev "Draft:Cascade_Badge_Cascade_Badge" ;
+    property:tmhm "HM02" ;
+    owl:sameAs BPD1:Badge .
+
+<http://example.org/resource/badge/Titan_Badge> a resource:Badge ;
+    property:bulbapediaImage <https://bulbapedia.bulbagarden.net/wiki/File:SVbadge_PathOfLegends_Rock.png> ;
+    property:bulbapediaMainImage <https://bulbapedia.bulbagarden.net/wiki/File:SVbadge_PathOfLegends_Rock.png> ;
+    property:bulbapediapage <https://bulbapedia.bulbagarden.net/wiki/Draft:Titan_Badge_(Rock)> ;
+    property:cap "No_change" ;
+    property:color <Rock> ;
+    property:giver "Arven" ;
+    property:hasBulbapediaLink BPD:Arven,
+        BPD:Badge,
+        <https://bulbapedia.bulbagarden.net/wiki/Draft:Star_Badge_(Fighting)>,
+        <https://bulbapedia.bulbagarden.net/wiki/Draft:Titan_Badge_(Flying)>,
+        BPD:Klawf_\(Pokémon\),
+        BPD:Koraidon_\(game\),
+        BPD:Miraidon_\(game\),
+        BPD:Paldea,
+        BPD:Pokémon_Scarlet,
+        BPD:Pokémon_Violet,
+        BPD:Rock_\(type\),
+        BPD:South_Province_\(Area_Three\),
+        BPD:Titan_Pokémon ;
+    property:hasBulbapediaLinkedResoruce resource:Arven,
+        resource:Badge,
+        <http://example.org/resource/Draft:Star_Badge_(Fighting)>,
+        <http://example.org/resource/Draft:Titan_Badge_(Flying)>,
+        resource:Klawf_\(Pokémon\),
+        resource:Koraidon_\(game\),
+        resource:Miraidon_\(game\),
+        resource:Paldea,
+        resource:Pokémon_Scarlet,
+        resource:Pokémon_Violet,
+        resource:Rock_\(type\),
+        resource:South_Province_\(Area_Three\),
+        resource:Titan_Pokémon ;
+    property:image <SVbadge_PathOfLegends_Rock.png> ;
+    property:jname "ヌシバッジ" ;
+    property:jtrans "Leader_Badge" ;
+    property:name "Titan_Badge" ;
+    property:next "Draft:Titan_Badge_(Flying)_Titan_Badge_(Flying)" ;
+    property:prev "Draft:Star_Badge_(Fighting)_Star_Badge_(Fighting)" ;
+    owl:sameAs BPD1:Badge .
 

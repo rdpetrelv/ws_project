@@ -1,0 +1,845 @@
+@prefix ns1: <http://example.org/resource/battriopuck/> .
+@prefix ns2: <http://example.org/property/> .
+
+ns1:Ambipom_\(09-016\) a ns1:BattrioPuck .
+
+ns1:Arcanine_\(04-024\) a ns1:BattrioPuck .
+
+ns1:Articuno_\(04-010\) a ns1:BattrioPuck .
+
+ns1:Azelf_\(04-006\) a ns1:BattrioPuck .
+
+ns1:Azelf_\(09-008\) a ns1:BattrioPuck .
+
+ns1:Bastiodon_\(09-014\) a ns1:BattrioPuck .
+
+ns1:Bayleef_\(10-010\) a ns1:BattrioPuck .
+
+ns1:Beldum_\(11-029\) a ns1:BattrioPuck .
+
+ns1:Blastoise_\(01-007\) a ns1:BattrioPuck .
+
+ns1:Blastoise_\(03-008\) a ns1:BattrioPuck .
+
+ns1:Blastoise_\(04-009\) a ns1:BattrioPuck .
+
+ns1:Bonsly_\(11-022\) a ns1:BattrioPuck .
+
+ns1:Bronzong_\(03-013\) a ns1:BattrioPuck .
+
+ns1:Bronzor_\(03-026\) a ns1:BattrioPuck .
+
+ns1:Bronzor_\(04-032\) a ns1:BattrioPuck .
+
+ns1:Budew_\(03-028\) a ns1:BattrioPuck .
+
+ns1:Buizel_\(01-020\) a ns1:BattrioPuck .
+
+ns1:Buizel_\(02-026\) a ns1:BattrioPuck .
+
+ns1:Bulbasaur_\(01-030\) a ns1:BattrioPuck .
+
+ns1:Bulbasaur_\(03-030\) a ns1:BattrioPuck .
+
+ns1:Bulbasaur_\(04-034\) a ns1:BattrioPuck .
+
+ns1:Buneary_\(01-028\) a ns1:BattrioPuck .
+
+ns1:Buneary_\(02-030\) a ns1:BattrioPuck .
+
+ns1:Cacnea_\(09-036\) a ns1:BattrioPuck .
+
+ns1:Cacnea_\(11-036\) a ns1:BattrioPuck .
+
+ns1:Carnivine_\(01-024\) a ns1:BattrioPuck .
+
+ns1:Charizard a ns1:BattrioPuck ;
+    ns2:jname "リザードン" ;
+    ns2:name "Charizard" ;
+    ns2:tmname "Lizardon" ;
+    ns1:atktype "Fire" ;
+    ns1:attack "5" ;
+    ns1:defense "4" ;
+    ns1:deftype "Fire" ;
+    ns1:expno "03" ;
+    ns1:hp "82" ;
+    ns1:puckno "007" ;
+    ns1:rarity "Hyper" ;
+    ns1:speed "1" .
+
+ns1:Charizard_\(02-009\) a ns1:BattrioPuck .
+
+ns1:Charizard_\(04-008\) a ns1:BattrioPuck .
+
+ns1:Charmander a ns1:BattrioPuck ;
+    ns2:jname "ヒトカゲ" ;
+    ns2:name "Charmander" ;
+    ns2:tmname "Hitokage" ;
+    ns1:atktype "Fire" ;
+    ns1:attack "2" ;
+    ns1:defense "2" ;
+    ns1:deftype "Fire" ;
+    ns1:expno "02" ;
+    ns1:hp "41" ;
+    ns1:puckno "036" ;
+    ns1:rarity "Normal" ;
+    ns1:speed "4" .
+
+ns1:Charmander_\(01-031\) a ns1:BattrioPuck .
+
+ns1:Charmander_\(04-035\) a ns1:BattrioPuck .
+
+ns1:Charmeleon_\(01-013\) a ns1:BattrioPuck .
+
+ns1:Charmeleon_\(03-019\) a ns1:BattrioPuck .
+
+ns1:Charmeleon_\(04-019\) a ns1:BattrioPuck .
+
+ns1:Cherrim_\(01-018\) a ns1:BattrioPuck .
+
+ns1:Cherrim_\(02-024\) a ns1:BattrioPuck .
+
+ns1:Chikorita_\(10-022\) a ns1:BattrioPuck .
+
+ns1:Chimchar_\(02-023\) a ns1:BattrioPuck .
+
+ns1:Chimchar_\(03-023\) a ns1:BattrioPuck .
+
+ns1:Chimchar_\(04-029\) a ns1:BattrioPuck .
+
+ns1:Chimchar_\(09-022\) a ns1:BattrioPuck .
+
+ns1:Combee_\(09-026\) a ns1:BattrioPuck .
+
+ns1:Cranidos_\(09-024\) a ns1:BattrioPuck .
+
+ns1:Croagunk_\(04-033\) a ns1:BattrioPuck .
+
+ns1:Croagunk_\(09-029\) a ns1:BattrioPuck .
+
+ns1:Croconaw_\(10-012\) a ns1:BattrioPuck .
+
+ns1:Cyndaquil_\(10-023\) a ns1:BattrioPuck .
+
+ns1:Darkrai_\(02-003\) a ns1:BattrioPuck .
+
+ns1:Darkrai_\(03-002\) a ns1:BattrioPuck .
+
+ns1:Delibird_\(11-032\) a ns1:BattrioPuck .
+
+ns1:Dialga a ns1:BattrioPuck ;
+    ns2:jname "ディアルガ" ;
+    ns2:name "Dialga" ;
+    ns2:tmname "Dialga" ;
+    ns1:atktype "Dragon" ;
+    ns1:attack "5" ;
+    ns1:defense "5" ;
+    ns1:deftype "Dragon" ;
+    ns1:expno "01" ;
+    ns1:hp "110" ;
+    ns1:puckno "001" ;
+    ns1:rarity "Master" ;
+    ns1:speed "1" .
+
+ns1:Dialga_\(02-001\) a ns1:BattrioPuck .
+
+ns1:Dialga_\(09-002\) a ns1:BattrioPuck .
+
+ns1:Diglett_\(04-047\) a ns1:BattrioPuck .
+
+ns1:Dragonair a ns1:BattrioPuck ;
+    ns2:jname "ハクリュー" ;
+    ns2:name "Dragonair" ;
+    ns2:tmname "Hakuryu" ;
+    ns1:atktype "Dragon" ;
+    ns1:attack "3" ;
+    ns1:defense "2" ;
+    ns1:deftype "Dragon" ;
+    ns1:expno "04" ;
+    ns1:hp "72" ;
+    ns1:puckno "041" ;
+    ns1:rarity "Normal" ;
+    ns1:speed "3" .
+
+ns1:Dragonair_\(02-042\) a ns1:BattrioPuck .
+
+ns1:Dragonair_\(10-015\) a ns1:BattrioPuck .
+
+ns1:Dragonite_\(03-020\) a ns1:BattrioPuck .
+
+ns1:Drapion_\(03-017\) a ns1:BattrioPuck .
+
+ns1:Dratini_\(10-031\) a ns1:BattrioPuck .
+
+ns1:Dratini_\(11-033\) a ns1:BattrioPuck .
+
+ns1:Dugtrio_\(02-021\) a ns1:BattrioPuck .
+
+ns1:Dugtrio_\(04-022\) a ns1:BattrioPuck .
+
+ns1:Dusknoir_\(02-016\) a ns1:BattrioPuck .
+
+ns1:Dusknoir_\(03-022\) a ns1:BattrioPuck .
+
+ns1:Dusknoir_\(13-011\) a ns1:BattrioPuck .
+
+ns1:Eevee_\(01-032\) a ns1:BattrioPuck .
+
+ns1:Eevee_\(02-038\) a ns1:BattrioPuck .
+
+ns1:Eevee_\(03-032\) a ns1:BattrioPuck .
+
+ns1:Eevee_\(10-036\) a ns1:BattrioPuck .
+
+ns1:Electabuzz_\(04-046\) a ns1:BattrioPuck .
+
+ns1:Electivire_\(01-011\) a ns1:BattrioPuck .
+
+ns1:Electivire_\(02-013\) a ns1:BattrioPuck .
+
+ns1:Electrike_\(09-035\) a ns1:BattrioPuck .
+
+ns1:Empoleon_\(01-004\) a ns1:BattrioPuck .
+
+ns1:Empoleon_\(02-005\) a ns1:BattrioPuck .
+
+ns1:Empoleon_\(04-005\) a ns1:BattrioPuck .
+
+ns1:Empoleon_\(09-006\) a ns1:BattrioPuck .
+
+ns1:Entei_\(11-005\) a ns1:BattrioPuck .
+
+ns1:Espeon_\(10-017\) a ns1:BattrioPuck .
+
+ns1:Feraligatr_\(10-007\) a ns1:BattrioPuck .
+
+ns1:Flareon_\(02-039\) a ns1:BattrioPuck .
+
+ns1:Flareon_\(03-033\) a ns1:BattrioPuck .
+
+ns1:Flareon_\(04-037\) a ns1:BattrioPuck .
+
+ns1:Flareon_\(11-014\) a ns1:BattrioPuck .
+
+ns1:Floatzel_\(11-020\) a ns1:BattrioPuck .
+
+ns1:Gallade_\(02-015\) a ns1:BattrioPuck .
+
+ns1:Gallade_\(03-021\) a ns1:BattrioPuck .
+
+ns1:Gastly_\(10-028\) a ns1:BattrioPuck .
+
+ns1:Gible_\(09-028\) a ns1:BattrioPuck .
+
+ns1:Glaceon_\(10-019\) a ns1:BattrioPuck .
+
+ns1:Glameow_\(01-023\) a ns1:BattrioPuck .
+
+ns1:Glameow_\(02-029\) a ns1:BattrioPuck .
+
+ns1:Gligar_\(01-029\) a ns1:BattrioPuck .
+
+ns1:Gligar_\(02-031\) a ns1:BattrioPuck .
+
+ns1:Grotle_\(01-008\) a ns1:BattrioPuck .
+
+ns1:Grotle_\(03-009\) a ns1:BattrioPuck .
+
+ns1:Grotle_\(04-013\) a ns1:BattrioPuck .
+
+ns1:Grotle_\(09-010\) a ns1:BattrioPuck .
+
+ns1:Groudon_\(11-002\) a ns1:BattrioPuck .
+
+ns1:Gyarados_\(04-023\) a ns1:BattrioPuck .
+
+ns1:Happiny_\(09-027\) a ns1:BattrioPuck .
+
+ns1:Hariyama a ns1:BattrioPuck ;
+    ns2:jname "ハリテヤマ" ;
+    ns2:name "Hariyama" ;
+    ns2:tmname "Hariteyama" ;
+    ns1:atktype "Fighting" ;
+    ns1:attack "3" ;
+    ns1:defense "2" ;
+    ns1:deftype "Fighting" ;
+    ns1:expno "11" ;
+    ns1:hp "90" ;
+    ns1:puckno "010" ;
+    ns1:rarity "Super" ;
+    ns1:speed "2" .
+
+ns1:Haunter_\(03-041\) a ns1:BattrioPuck .
+
+ns1:Haunter_\(04-043\) a ns1:BattrioPuck .
+
+ns1:Haunter_\(11-016\) a ns1:BattrioPuck .
+
+ns1:Heatran_\(09-009\) a ns1:BattrioPuck .
+
+ns1:Hippopotas_\(01-022\) a ns1:BattrioPuck .
+
+ns1:Hippopotas_\(02-028\) a ns1:BattrioPuck .
+
+ns1:Hippowdon_\(09-020\) a ns1:BattrioPuck .
+
+ns1:Ho-Oh a ns1:BattrioPuck ;
+    ns2:jname "ホウオウ" ;
+    ns2:name "Ho-Oh" ;
+    ns2:tmname "Houou" ;
+    ns1:atktype "Fire" ;
+    ns1:attack "5" ;
+    ns1:defense "5" ;
+    ns1:deftype "Fire" ;
+    ns1:expno "10" ;
+    ns1:hp "106" ;
+    ns1:icon "attack" ;
+    ns1:puckno "001" ;
+    ns1:rarity "Master" ;
+    ns1:speed "2" .
+
+ns1:Honchkrow_\(09-018\) a ns1:BattrioPuck .
+
+ns1:Infernape_\(01-003\) a ns1:BattrioPuck .
+
+ns1:Infernape_\(03-004\) a ns1:BattrioPuck .
+
+ns1:Infernape_\(04-004\) a ns1:BattrioPuck .
+
+ns1:Infernape_\(09-005\) a ns1:BattrioPuck .
+
+ns1:Ivysaur a ns1:BattrioPuck ;
+    ns2:jname "フシギソウ" ;
+    ns2:name "Ivysaur" ;
+    ns2:tmname "Fushigisou" ;
+    ns1:atktype "Grass" ;
+    ns1:attack "2" ;
+    ns1:defense "2" ;
+    ns1:deftype "Grass" ;
+    ns1:expno "02" ;
+    ns1:hp "76" ;
+    ns1:puckno "018" ;
+    ns1:rarity "Super" ;
+    ns1:speed "4" .
+
+ns1:Ivysaur_\(03-018\) a ns1:BattrioPuck .
+
+ns1:Ivysaur_\(04-018\) a ns1:BattrioPuck .
+
+ns1:Jirachi_\(11-003\) a ns1:BattrioPuck .
+
+ns1:Jolteon_\(01-033\) a ns1:BattrioPuck .
+
+ns1:Jolteon_\(03-034\) a ns1:BattrioPuck .
+
+ns1:Jolteon_\(04-038\) a ns1:BattrioPuck .
+
+ns1:Jolteon_\(11-013\) a ns1:BattrioPuck .
+
+ns1:Kadabra_\(03-043\) a ns1:BattrioPuck .
+
+ns1:Kyogre a ns1:BattrioPuck ;
+    ns2:jname "カイオーガ" ;
+    ns2:name "Kyogre" ;
+    ns2:tmname "Kyogre" ;
+    ns1:atktype "Water" ;
+    ns1:attack "5" ;
+    ns1:defense "5" ;
+    ns1:deftype "Water" ;
+    ns1:expno "11" ;
+    ns1:hp "110" ;
+    ns1:icon "HP" ;
+    ns1:puckno "001" ;
+    ns1:rarity "Master" ;
+    ns1:speed "2" .
+
+ns1:Leafeon a ns1:BattrioPuck ;
+    ns2:jname "リーフィア" ;
+    ns2:name "Leafeon" ;
+    ns2:tmname "Leafia" ;
+    ns1:atktype "Grass" ;
+    ns1:attack "3" ;
+    ns1:defense "4" ;
+    ns1:deftype "Grass" ;
+    ns1:expno "10" ;
+    ns1:hp "64" ;
+    ns1:puckno "020" ;
+    ns1:rarity "Super" ;
+    ns1:speed "3" .
+
+ns1:Lucario_\(03-006\) a ns1:BattrioPuck .
+
+ns1:Lucario_\(09-007\) a ns1:BattrioPuck .
+
+ns1:Lugia a ns1:BattrioPuck ;
+    ns2:jname "ルギア" ;
+    ns2:name "Lugia" ;
+    ns2:tmname "Lugia" ;
+    ns1:atktype "Flying" ;
+    ns1:attack "4" ;
+    ns1:defense "5" ;
+    ns1:deftype "Flying" ;
+    ns1:expno "10" ;
+    ns1:hp "121" ;
+    ns1:icon "HP" ;
+    ns1:puckno "002" ;
+    ns1:rarity "Master" ;
+    ns1:speed "1" .
+
+ns1:Machamp_\(04-027\) a ns1:BattrioPuck .
+
+ns1:Machamp_\(10-009\) a ns1:BattrioPuck .
+
+ns1:Machoke_\(10-014\) a ns1:BattrioPuck .
+
+ns1:Machop_\(10-035\) a ns1:BattrioPuck .
+
+ns1:Magmar_\(01-019\) a ns1:BattrioPuck .
+
+ns1:Magmar_\(02-025\) a ns1:BattrioPuck .
+
+ns1:Magmortar_\(03-011\) a ns1:BattrioPuck .
+
+ns1:Magmortar_\(04-016\) a ns1:BattrioPuck .
+
+ns1:Magnemite_\(10-027\) a ns1:BattrioPuck .
+
+ns1:Makuhita_\(09-032\) a ns1:BattrioPuck .
+
+ns1:Mamoswine a ns1:BattrioPuck ;
+    ns2:jname "マンムー" ;
+    ns2:name "Mamoswine" ;
+    ns2:tmname "Mammoo" ;
+    ns1:atktype "Ice" ;
+    ns1:attack "4" ;
+    ns1:defense "3" ;
+    ns1:deftype "Ice" ;
+    ns1:expno "03" ;
+    ns1:hp "82" ;
+    ns1:puckno "012" ;
+    ns1:rarity "Super" ;
+    ns1:speed "2" .
+
+ns1:Mantyke_\(01-026\) a ns1:BattrioPuck .
+
+ns1:Mantyke_\(03-048\) a ns1:BattrioPuck .
+
+ns1:Mawile_\(10-021\) a ns1:BattrioPuck .
+
+ns1:Meganium a ns1:BattrioPuck ;
+    ns2:jname "メガニウム" ;
+    ns2:name "Meganium" ;
+    ns2:tmname "Meganium" ;
+    ns1:atktype "Grass" ;
+    ns1:attack "4" ;
+    ns1:defense "4" ;
+    ns1:deftype "Grass" ;
+    ns1:expno "10" ;
+    ns1:hp "90" ;
+    ns1:icon "HP" ;
+    ns1:puckno "005" ;
+    ns1:rarity "Hyper" ;
+    ns1:speed "1" .
+
+ns1:Meowth_\(01-035\) a ns1:BattrioPuck .
+
+ns1:Meowth_\(03-039\) a ns1:BattrioPuck .
+
+ns1:Mesprit_\(03-005\) a ns1:BattrioPuck .
+
+ns1:Metagross_\(11-007\) a ns1:BattrioPuck .
+
+ns1:Metang a ns1:BattrioPuck ;
+    ns2:jname "メタング" ;
+    ns2:name "Metang" ;
+    ns2:tmname "Metang" ;
+    ns1:atktype "Steel" ;
+    ns1:attack "1" ;
+    ns1:defense "4" ;
+    ns1:deftype "Steel" ;
+    ns1:expno "11" ;
+    ns1:hp "50" ;
+    ns1:puckno "011" ;
+    ns1:rarity "Super" ;
+    ns1:speed "5" .
+
+ns1:Mew_\(04-001\) a ns1:BattrioPuck .
+
+ns1:Mew_\(10-003\) a ns1:BattrioPuck .
+
+ns1:Mewtwo_\(03-001\) a ns1:BattrioPuck .
+
+ns1:Mewtwo_\(04-002\) a ns1:BattrioPuck .
+
+ns1:Mismagius_\(09-017\) a ns1:BattrioPuck .
+
+ns1:Moltres_\(04-012\) a ns1:BattrioPuck .
+
+ns1:Monferno_\(01-009\) a ns1:BattrioPuck .
+
+ns1:Monferno_\(02-010\) a ns1:BattrioPuck .
+
+ns1:Monferno_\(04-014\) a ns1:BattrioPuck .
+
+ns1:Monferno_\(09-011\) a ns1:BattrioPuck .
+
+ns1:Murkrow_\(04-045\) a ns1:BattrioPuck .
+
+ns1:Onix a ns1:BattrioPuck ;
+    ns2:jname "イワーク" ;
+    ns2:name "Onix" ;
+    ns2:tmname "Iwark" ;
+    ns1:atktype "Rock" ;
+    ns1:attack "2" ;
+    ns1:defense "4" ;
+    ns1:deftype "Rock" ;
+    ns1:expno "04" ;
+    ns1:hp "39" ;
+    ns1:puckno "040" ;
+    ns1:rarity "Normal" ;
+    ns1:speed "3" .
+
+ns1:Onix_\(02-041\) a ns1:BattrioPuck .
+
+ns1:Onix_\(03-044\) a ns1:BattrioPuck .
+
+ns1:Pachirisu_\(01-021\) a ns1:BattrioPuck .
+
+ns1:Pachirisu_\(02-027\) a ns1:BattrioPuck .
+
+ns1:Palkia a ns1:BattrioPuck ;
+    ns2:jname "パルキア" ;
+    ns2:name "Palkia" ;
+    ns2:tmname "Palkia" ;
+    ns1:atktype "Dragon" ;
+    ns1:attack "5" ;
+    ns1:defense "5" ;
+    ns1:deftype "Dragon" ;
+    ns1:expno "01" ;
+    ns1:hp "105" ;
+    ns1:puckno "002" ;
+    ns1:rarity "Master" ;
+    ns1:speed "2" .
+
+ns1:Palkia_\(02-002\) a ns1:BattrioPuck .
+
+ns1:Palkia_\(09-003\) a ns1:BattrioPuck .
+
+ns1:Pichu_\(01-036\) a ns1:BattrioPuck .
+
+ns1:Pichu_\(03-037\) a ns1:BattrioPuck .
+
+ns1:Pichu_\(10-032\) a ns1:BattrioPuck .
+
+ns1:Pidgeotto_\(03-045\) a ns1:BattrioPuck .
+
+ns1:Pidgeotto_\(04-048\) a ns1:BattrioPuck .
+
+ns1:Pikachu_\(01-015\) a ns1:BattrioPuck .
+
+ns1:Pikachu_\(02-020\) a ns1:BattrioPuck .
+
+ns1:Pikachu_\(04-021\) a ns1:BattrioPuck .
+
+ns1:Pikachu_\(10-013\) a ns1:BattrioPuck .
+
+ns1:Piloswine_\(11-018\) a ns1:BattrioPuck .
+
+ns1:Piplup_\(01-017\) a ns1:BattrioPuck .
+
+ns1:Piplup_\(03-024\) a ns1:BattrioPuck .
+
+ns1:Piplup_\(04-030\) a ns1:BattrioPuck .
+
+ns1:Piplup_\(09-023\) a ns1:BattrioPuck .
+
+ns1:Ponyta_\(03-036\) a ns1:BattrioPuck .
+
+ns1:Porygon a ns1:BattrioPuck ;
+    ns2:jname "ポリゴン" ;
+    ns2:name "Porygon" ;
+    ns2:tmname "Porygon" ;
+    ns1:atktype "Normal" ;
+    ns1:attack "2" ;
+    ns1:defense "3" ;
+    ns1:deftype "Normal" ;
+    ns1:expno "10" ;
+    ns1:hp "47" ;
+    ns1:puckno "030" ;
+    ns1:rarity "Normal" ;
+    ns1:speed "2" .
+
+ns1:Porygon-Z_\(02-017\) a ns1:BattrioPuck .
+
+ns1:Porygon_\(03-040\) a ns1:BattrioPuck .
+
+ns1:Prinplup_\(02-011\) a ns1:BattrioPuck .
+
+ns1:Prinplup_\(03-010\) a ns1:BattrioPuck .
+
+ns1:Prinplup_\(04-015\) a ns1:BattrioPuck .
+
+ns1:Prinplup_\(09-012\) a ns1:BattrioPuck .
+
+ns1:Psyduck a ns1:BattrioPuck ;
+    ns2:jname "コダック" ;
+    ns2:name "Psyduck" ;
+    ns2:tmname "Koduck" ;
+    ns1:atktype "Water" ;
+    ns1:attack "1" ;
+    ns1:defense "1" ;
+    ns1:deftype "Water" ;
+    ns1:expno "04" ;
+    ns1:hp "38" ;
+    ns1:puckno "042" ;
+    ns1:rarity "Normal" ;
+    ns1:speed "3" .
+
+ns1:Psyduck_\(10-026\) a ns1:BattrioPuck .
+
+ns1:Psyduck_\(11-031\) a ns1:BattrioPuck .
+
+ns1:Quilava a ns1:BattrioPuck ;
+    ns2:jname "マグマラシ" ;
+    ns2:name "Quilava" ;
+    ns2:tmname "Magmarashi" ;
+    ns1:atktype "Fire" ;
+    ns1:attack "2" ;
+    ns1:defense "2" ;
+    ns1:deftype "Fire" ;
+    ns1:expno "10" ;
+    ns1:hp "53" ;
+    ns1:puckno "011" ;
+    ns1:rarity "Super" ;
+    ns1:speed "3" .
+
+ns1:Raichu_\(10-008\) a ns1:BattrioPuck .
+
+ns1:Raikou_\(11-004\) a ns1:BattrioPuck .
+
+ns1:Rampardos_\(09-013\) a ns1:BattrioPuck .
+
+ns1:Regigigas_\(01-005\) a ns1:BattrioPuck .
+
+ns1:Regigigas_\(02-006\) a ns1:BattrioPuck .
+
+ns1:Rhydon_\(10-016\) a ns1:BattrioPuck .
+
+ns1:Rhyhorn_\(03-038\) a ns1:BattrioPuck .
+
+ns1:Rhyhorn_\(10-029\) a ns1:BattrioPuck .
+
+ns1:Rhyperior_\(01-012\) a ns1:BattrioPuck .
+
+ns1:Rhyperior_\(02-014\) a ns1:BattrioPuck .
+
+ns1:Rhyperior_\(10-004\) a ns1:BattrioPuck .
+
+ns1:Riolu_\(03-029\) a ns1:BattrioPuck .
+
+ns1:Rotom_\(09-031\) a ns1:BattrioPuck .
+
+ns1:Sableye_\(09-034\) a ns1:BattrioPuck .
+
+ns1:Sableye_\(11-035\) a ns1:BattrioPuck .
+
+ns1:Scyther a ns1:BattrioPuck ;
+    ns2:jname "ストライク" ;
+    ns2:name "Scyther" ;
+    ns2:tmname "Strike" ;
+    ns1:atktype "Bug" ;
+    ns1:attack "4" ;
+    ns1:defense "2" ;
+    ns1:deftype "Bug" ;
+    ns1:expno "03",
+        "04",
+        "11" ;
+    ns1:hp "47",
+        "49",
+        "50" ;
+    ns1:puckno "025",
+        "042",
+        "044" ;
+    ns1:rarity "Normal" ;
+    ns1:speed "3" .
+
+ns1:Seviper a ns1:BattrioPuck ;
+    ns2:jname "ハブネーク" ;
+    ns2:name "Seviper" ;
+    ns2:tmname "Habunake" ;
+    ns1:atktype "Poison" ;
+    ns1:attack "2" ;
+    ns1:defense "2" ;
+    ns1:deftype "Poison" ;
+    ns1:expno "11" ;
+    ns1:hp "53" ;
+    ns1:puckno "028" ;
+    ns1:rarity "Normal" ;
+    ns1:speed "4" .
+
+ns1:Shieldon_\(09-025\) a ns1:BattrioPuck .
+
+ns1:Shinx_\(01-027\) a ns1:BattrioPuck .
+
+ns1:Shinx_\(03-025\) a ns1:BattrioPuck .
+
+ns1:Skitty_\(09-033\) a ns1:BattrioPuck .
+
+ns1:Skuntank_\(09-019\) a ns1:BattrioPuck .
+
+ns1:Slowpoke_\(11-023\) a ns1:BattrioPuck .
+
+ns1:Slugma_\(01-025\) a ns1:BattrioPuck .
+
+ns1:Sneasel a ns1:BattrioPuck ;
+    ns2:jname "ニューラ" ;
+    ns2:name "Sneasel" ;
+    ns2:tmname "Nyula" ;
+    ns1:atktype "Dark" ;
+    ns1:attack "4" ;
+    ns1:defense "2" ;
+    ns1:deftype "Dark" ;
+    ns1:expno "03" ;
+    ns1:hp "38" ;
+    ns1:puckno "047" ;
+    ns1:rarity "Normal" ;
+    ns1:speed "5" .
+
+ns1:Sneasel_\(02-034\) a ns1:BattrioPuck .
+
+ns1:Sneasel_\(09-030\) a ns1:BattrioPuck .
+
+ns1:Snover a ns1:BattrioPuck ;
+    ns2:jname "ユキカブリ" ;
+    ns2:name "Snover" ;
+    ns2:tmname "Yukikaburi" ;
+    ns1:atktype "Ice" ;
+    ns1:attack "2" ;
+    ns1:defense "3" ;
+    ns1:deftype "Ice" ;
+    ns1:expno "02" ;
+    ns1:hp "58" ;
+    ns1:puckno "035" ;
+    ns1:rarity "Normal" ;
+    ns1:speed "4" .
+
+ns1:Snover_\(03-046\) a ns1:BattrioPuck .
+
+ns1:Squirtle_\(02-037\) a ns1:BattrioPuck .
+
+ns1:Squirtle_\(03-031\) a ns1:BattrioPuck .
+
+ns1:Squirtle_\(04-036\) a ns1:BattrioPuck .
+
+ns1:Staraptor_\(03-015\) a ns1:BattrioPuck .
+
+ns1:Staraptor_\(11-009\) a ns1:BattrioPuck .
+
+ns1:Staravia_\(02-033\) a ns1:BattrioPuck .
+
+ns1:Staravia_\(03-027\) a ns1:BattrioPuck .
+
+ns1:Staravia_\(11-017\) a ns1:BattrioPuck .
+
+ns1:Starly_\(11-034\) a ns1:BattrioPuck .
+
+ns1:Steelix_\(04-026\) a ns1:BattrioPuck .
+
+ns1:Sudowoodo a ns1:BattrioPuck ;
+    ns2:jname "ウソッキー" ;
+    ns2:name "Sudowoodo" ;
+    ns2:tmname "Usokkie" ;
+    ns1:atktype "Rock" ;
+    ns1:attack "3" ;
+    ns1:defense "3" ;
+    ns1:deftype "Rock" ;
+    ns1:expno "11" ;
+    ns1:hp "66" ;
+    ns1:puckno "015" ;
+    ns1:rarity "Super" ;
+    ns1:speed "2" .
+
+ns1:Suicune_\(11-006\) a ns1:BattrioPuck .
+
+ns1:Tangela_\(03-035\) a ns1:BattrioPuck .
+
+ns1:Tangrowth_\(01-010\) a ns1:BattrioPuck .
+
+ns1:Tangrowth_\(02-012\) a ns1:BattrioPuck .
+
+ns1:Togepi_\(11-026\) a ns1:BattrioPuck .
+
+ns1:Torkoal_\(11-030\) a ns1:BattrioPuck .
+
+ns1:Torterra_\(02-004\) a ns1:BattrioPuck .
+
+ns1:Torterra_\(03-003\) a ns1:BattrioPuck .
+
+ns1:Torterra_\(04-003\) a ns1:BattrioPuck .
+
+ns1:Torterra_\(09-004\) a ns1:BattrioPuck .
+
+ns1:Totodile_\(10-024\) a ns1:BattrioPuck .
+
+ns1:Tropius_\(11-021\) a ns1:BattrioPuck .
+
+ns1:Turtwig_\(01-016\) a ns1:BattrioPuck .
+
+ns1:Turtwig_\(02-022\) a ns1:BattrioPuck .
+
+ns1:Turtwig_\(04-028\) a ns1:BattrioPuck .
+
+ns1:Turtwig_\(09-021\) a ns1:BattrioPuck .
+
+ns1:Typhlosion_\(10-006\) a ns1:BattrioPuck .
+
+ns1:Tyranitar_\(11-008\) a ns1:BattrioPuck .
+
+ns1:Umbreon_\(10-018\) a ns1:BattrioPuck .
+
+ns1:Unown_\(10-033\) a ns1:BattrioPuck .
+
+ns1:Uxie_\(02-007\) a ns1:BattrioPuck .
+
+ns1:Vaporeon_\(01-034\) a ns1:BattrioPuck .
+
+ns1:Vaporeon_\(02-040\) a ns1:BattrioPuck .
+
+ns1:Vaporeon_\(04-039\) a ns1:BattrioPuck .
+
+ns1:Vaporeon_\(11-012\) a ns1:BattrioPuck .
+
+ns1:Venusaur_\(01-006\) a ns1:BattrioPuck .
+
+ns1:Venusaur_\(02-008\) a ns1:BattrioPuck .
+
+ns1:Venusaur_\(04-007\) a ns1:BattrioPuck .
+
+ns1:Vespiquen_\(02-032\) a ns1:BattrioPuck .
+
+ns1:Vespiquen_\(04-031\) a ns1:BattrioPuck .
+
+ns1:Vespiquen_\(09-015\) a ns1:BattrioPuck .
+
+ns1:Voltorb_\(11-024\) a ns1:BattrioPuck .
+
+ns1:Wartortle_\(01-014\) a ns1:BattrioPuck .
+
+ns1:Wartortle_\(02-019\) a ns1:BattrioPuck .
+
+ns1:Wartortle_\(04-020\) a ns1:BattrioPuck .
+
+ns1:Weavile_\(03-016\) a ns1:BattrioPuck .
+
+ns1:Yanma_\(10-034\) a ns1:BattrioPuck .
+
+ns1:Yanmega_\(03-014\) a ns1:BattrioPuck .
+
+ns1:Yanmega_\(11-019\) a ns1:BattrioPuck .
+
+ns1:Zangoose_\(11-027\) a ns1:BattrioPuck .
+
+ns1:Zapdos_\(04-011\) a ns1:BattrioPuck .
+
+ns1:Zubat_\(10-025\) a ns1:BattrioPuck .
+

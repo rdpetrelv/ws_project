@@ -1,0 +1,3082 @@
+@prefix ns1: <http://example.org/resource/ga-ole/> .
+@prefix ns2: <http://example.org/property/> .
+
+ns1:Abra_\(GR3-052\) a ns1:Ga-Ole .
+
+ns1:Abra_\(UL3-039\) a ns1:Ga-Ole .
+
+ns1:Aerodactyl_\(GR4-053\) a ns1:Ga-Ole .
+
+ns1:Aerodactyl_\(GR4-054\) a ns1:Ga-Ole .
+
+ns1:Aerodactyl_\(UL4-046\) a ns1:Ga-Ole .
+
+ns1:Aerodactyl_\(UL4-047\) a ns1:Ga-Ole .
+
+ns1:Aggron_\(D4-039\) a ns1:Ga-Ole .
+
+ns1:Aggron_\(D4-040\) a ns1:Ga-Ole .
+
+ns1:Aggron_\(Pokémon_Ga-Olé_Get_Campaign\) a ns1:Ga-Ole .
+
+ns1:Alakazam_\(GR3-054\) a ns1:Ga-Ole .
+
+ns1:Alakazam_\(GR3-055\) a ns1:Ga-Ole .
+
+ns1:Alakazam_\(UL3-041\) a ns1:Ga-Ole .
+
+ns1:Alakazam_\(UL3-042\) a ns1:Ga-Ole .
+
+ns1:Alolan_Diglett_\(04-015\) a ns1:Ga-Ole .
+
+ns1:Alolan_Dugtrio_\(04-016\) a ns1:Ga-Ole .
+
+ns1:Alolan_Dugtrio_\(04-017\) a ns1:Ga-Ole .
+
+ns1:Alolan_Exeggutor_\(05-020\) a ns1:Ga-Ole .
+
+ns1:Alolan_Exeggutor_\(05-021\) a ns1:Ga-Ole .
+
+ns1:Alolan_Exeggutor_\(Alola_Forms_One_After_Another_Course\) a ns1:Ga-Ole .
+
+ns1:Alolan_Exeggutor_\(D3-023\) a ns1:Ga-Ole .
+
+ns1:Alolan_Exeggutor_\(D3-024\) a ns1:Ga-Ole .
+
+ns1:Alolan_Exeggutor_\(Ga-Olé_Member_Lottery_Prize\) a ns1:Ga-Ole .
+
+ns1:Alolan_Grimer_\(D5-001\) a ns1:Ga-Ole .
+
+ns1:Alolan_Marowak_\(03-023\) a ns1:Ga-Ole .
+
+ns1:Alolan_Marowak_\(03-024\) a ns1:Ga-Ole .
+
+ns1:Alolan_Marowak_\(D4-016\) a ns1:Ga-Ole .
+
+ns1:Alolan_Marowak_\(D4-017\) a ns1:Ga-Ole .
+
+ns1:Alolan_Muk_\(D5-002\) a ns1:Ga-Ole .
+
+ns1:Alolan_Muk_\(D5-003\) a ns1:Ga-Ole .
+
+ns1:Alolan_Ninetales_\(05-026\) a ns1:Ga-Ole .
+
+ns1:Alolan_Ninetales_\(05-027\) a ns1:Ga-Ole .
+
+ns1:Alolan_Ninetales_\(D3-026\) a ns1:Ga-Ole .
+
+ns1:Alolan_Ninetales_\(D3-027\) a ns1:Ga-Ole .
+
+ns1:Alolan_Raichu_\(05-029\) a ns1:Ga-Ole .
+
+ns1:Alolan_Raichu_\(Ga-Olé_Dash_Launch\) a ns1:Ga-Ole .
+
+ns1:Alolan_Raichu_\(Ga-Olé_Member_Lottery_Prize\) a ns1:Ga-Ole .
+
+<http://example.org/resource/ga-ole/Alolan_Raichu_(Super_Strong!_Trainer_Battle)> a ns1:Ga-Ole .
+
+ns1:Alolan_Raticate_\(D3-020\) a ns1:Ga-Ole .
+
+ns1:Alolan_Raticate_\(D3-021\) a ns1:Ga-Ole .
+
+ns1:Alolan_Rattata_\(D3-019\) a ns1:Ga-Ole .
+
+ns1:Alolan_Sandshrew_\(05-022\) a ns1:Ga-Ole .
+
+ns1:Alolan_Sandshrew_\(D5-004\) a ns1:Ga-Ole .
+
+ns1:Alolan_Sandslash a ns1:Ga-Ole ;
+    ns2:jname "アローラサンドパン" ;
+    ns2:name "Alolan_Sandslash" ;
+    ns2:tmname "Alolan_Sandpan" ;
+    ns1:diskno "024" ;
+    ns1:energy "2160" ;
+    ns1:grade "3" ;
+    ns1:link "Sandslash" ;
+    ns1:setno "05" ;
+    ns1:type1 "Ice" ;
+    ns1:type2 "Steel" .
+
+ns1:Alolan_Sandslash_\(05-023\) a ns1:Ga-Ole .
+
+ns1:Alolan_Sandslash_\(D5-005\) a ns1:Ga-Ole .
+
+ns1:Alolan_Sandslash_\(D5-006\) a ns1:Ga-Ole .
+
+ns1:Alolan_Vulpix_\(03-026\) a ns1:Ga-Ole .
+
+ns1:Alolan_Vulpix_\(05-025\) a ns1:Ga-Ole .
+
+ns1:Alolan_Vulpix_\(Christmas_Special_Course\) a ns1:Ga-Ole .
+
+ns1:Alolan_Vulpix_\(D3-025\) a ns1:Ga-Ole .
+
+ns1:Arcanine a ns1:Ga-Ole ;
+    ns2:jname "ウインディ" ;
+    ns2:name "Arcanine" ;
+    ns2:tmname "Windie" ;
+    ns1:diskno "014" ;
+    ns1:energy "2220" ;
+    ns1:grade "2-3" ;
+    ns1:setno "05" ;
+    ns1:type1 "Fire" .
+
+ns1:Arcanine_\(05-015\) a ns1:Ga-Ole .
+
+ns1:Arceus_\(D2-070\) a ns1:Ga-Ole .
+
+ns1:Arceus_\(GR5-061\) a ns1:Ga-Ole .
+
+ns1:Arceus_\(UL4-059\) a ns1:Ga-Ole .
+
+ns1:Arceus_\(UL4-060\) a ns1:Ga-Ole .
+
+ns1:Arceus_\(UL4-061\) a ns1:Ga-Ole .
+
+ns1:Arceus_\(UL4-062\) a ns1:Ga-Ole .
+
+ns1:Aron_\(D4-037\) a ns1:Ga-Ole .
+
+ns1:Articuno_\(GR3-059\) a ns1:Ga-Ole .
+
+<http://example.org/resource/ga-ole/Articuno_(Gather!_Battle_Tournament)> a ns1:Ga-Ole .
+
+ns1:Articuno_\(Legendary_Pokémon_Power_Up_Set\) a ns1:Ga-Ole .
+
+ns1:Articuno_\(UL3-058\) a ns1:Ga-Ole .
+
+ns1:Avalugg_\(GR3-017\) a ns1:Ga-Ole .
+
+ns1:Avalugg_\(GR3-018\) a ns1:Ga-Ole .
+
+ns1:Axew_\(GR3-026\) a ns1:Ga-Ole .
+
+ns1:Azelf_\(UL4-056\) a ns1:Ga-Ole .
+
+ns1:Bagon a ns1:Ga-Ole ;
+    ns2:jname "タツベイ" ;
+    ns2:name "Bagon" ;
+    ns2:tmname "Tatsubay" ;
+    ns1:diskno "050" ;
+    ns1:energy "1180" ;
+    ns1:grade "1-4" ;
+    ns1:setno "D1" ;
+    ns1:type1 "Dragon" .
+
+ns1:Bagon_\(D2-044\) a ns1:Ga-Ole .
+
+ns1:Bagon_\(GR4-045\) a ns1:Ga-Ole .
+
+ns1:Bagon_\(UL2-046\) a ns1:Ga-Ole .
+
+ns1:Bayleef_\(GR3-002\) a ns1:Ga-Ole .
+
+ns1:Bayleef_\(UL1-002\) a ns1:Ga-Ole .
+
+ns1:Bayleef_\(UL4-014\) a ns1:Ga-Ole .
+
+ns1:Beldum a ns1:Ga-Ole ;
+    ns2:jname "ダンバル" ;
+    ns2:name "Beldum" ;
+    ns2:tmname "Dumbber" ;
+    ns1:diskno "048" ;
+    ns1:energy "1220" ;
+    ns1:grade "1-4" ;
+    ns1:setno "D2" ;
+    ns1:type1 "Steel" ;
+    ns1:type2 "Psychic" .
+
+ns1:Beldum_\(D1-054\) a ns1:Ga-Ole .
+
+ns1:Beldum_\(GR2-041\) a ns1:Ga-Ole .
+
+ns1:Beldum_\(GR5-052\) a ns1:Ga-Ole .
+
+ns1:Beldum_\(UL4-048\) a ns1:Ga-Ole .
+
+ns1:Bellsprout_\(D5-010\) a ns1:Ga-Ole .
+
+ns1:Bergmite_\(GR3-016\) a ns1:Ga-Ole .
+
+ns1:Bewear_\(04-005\) a ns1:Ga-Ole .
+
+ns1:Bewear_\(04-006\) a ns1:Ga-Ole .
+
+ns1:Bewear_\(D1-044\) a ns1:Ga-Ole .
+
+ns1:Bewear_\(D1-045\) a ns1:Ga-Ole .
+
+ns1:Bewear_\(D5-040\) a ns1:Ga-Ole .
+
+ns1:Bewear_\(D5-041\) a ns1:Ga-Ole .
+
+ns1:Bewear_\(D5-042\) a ns1:Ga-Ole .
+
+<http://example.org/resource/ga-ole/Bewear_(McDonald's_Happy_Meal_2017)> a ns1:Ga-Ole .
+
+ns1:Bewear_\(Pokémon_Ga-Olé_Get_Campaign\) a ns1:Ga-Ole .
+
+ns1:Blacephalon_\(GR4-067\) a ns1:Ga-Ole .
+
+ns1:Blacephalon_\(UL3-068\) a ns1:Ga-Ole .
+
+ns1:Black_Kyurem_\(CoroCoro_Special_Course\) a ns1:Ga-Ole .
+
+ns1:Black_Kyurem_\(GR5-063\) a ns1:Ga-Ole .
+
+<http://example.org/resource/ga-ole/Black_Kyurem_(Gather!_Battle_Tournament)> a ns1:Ga-Ole .
+
+ns1:Black_Kyurem_\(UL3-065\) a ns1:Ga-Ole .
+
+ns1:Blastoise_\(01-011\) a ns1:Ga-Ole .
+
+ns1:Blastoise_\(01-012\) a ns1:Ga-Ole .
+
+ns1:Blastoise_\(D1-011\) a ns1:Ga-Ole .
+
+ns1:Blastoise_\(D1-012\) a ns1:Ga-Ole .
+
+ns1:Blastoise_\(D2-011\) a ns1:Ga-Ole .
+
+ns1:Blastoise_\(D2-012\) a ns1:Ga-Ole .
+
+ns1:Blastoise_\(Fresh_Trainer_Battle\) a ns1:Ga-Ole .
+
+ns1:Blastoise_\(GR1-011\) a ns1:Ga-Ole .
+
+ns1:Blastoise_\(GR1-012\) a ns1:Ga-Ole .
+
+ns1:Blastoise_\(UL3-012\) a ns1:Ga-Ole .
+
+ns1:Blastoise_\(UL3-013\) a ns1:Ga-Ole .
+
+ns1:Blaziken_\(GR2-007\) a ns1:Ga-Ole .
+
+ns1:Blaziken_\(GR2-008\) a ns1:Ga-Ole .
+
+ns1:Blaziken_\(UL4-007\) a ns1:Ga-Ole .
+
+ns1:Blaziken_\(UL4-008\) a ns1:Ga-Ole .
+
+ns1:Blissey_\(UL2-013\) a ns1:Ga-Ole .
+
+ns1:Blissey_\(UL2-014\) a ns1:Ga-Ole .
+
+ns1:Boldore_\(GR3-045\) a ns1:Ga-Ole .
+
+ns1:Boldore_\(UL2-037\) a ns1:Ga-Ole .
+
+ns1:Bonsly_\(UL1-034\) a ns1:Ga-Ole .
+
+ns1:Bounsweet_\(D4-033\) a ns1:Ga-Ole .
+
+ns1:Bounsweet_\(UL2-040\) a ns1:Ga-Ole .
+
+ns1:Braixen_\(01-018\) a ns1:Ga-Ole .
+
+ns1:Braixen_\(GR5-018\) a ns1:Ga-Ole .
+
+ns1:Brionne_\(03-010\) a ns1:Ga-Ole .
+
+ns1:Brionne_\(D1-022\) a ns1:Ga-Ole .
+
+ns1:Brionne_\(UL1-022\) a ns1:Ga-Ole .
+
+ns1:Bronzong_\(GR4-029\) a ns1:Ga-Ole .
+
+ns1:Bronzong_\(GR4-030\) a ns1:Ga-Ole .
+
+ns1:Bronzor_\(GR4-028\) a ns1:Ga-Ole .
+
+ns1:Budew_\(GR3-022\) a ns1:Ga-Ole .
+
+ns1:Bulbasaur_\(01-001\) a ns1:Ga-Ole .
+
+ns1:Bulbasaur_\(D1-001\) a ns1:Ga-Ole .
+
+ns1:Bulbasaur_\(D2-001\) a ns1:Ga-Ole .
+
+ns1:Bulbasaur_\(GR1-001\) a ns1:Ga-Ole .
+
+ns1:Bulbasaur_\(UL3-001\) a ns1:Ga-Ole .
+
+ns1:Butterfree_\(D1-027\) a ns1:Ga-Ole .
+
+<http://example.org/resource/ga-ole/Buzzwole_(Full-Force_Battle_~Ultra_Beast_Challenge!~)> a ns1:Ga-Ole .
+
+ns1:Buzzwole_\(GR1-072\) a ns1:Ga-Ole .
+
+ns1:Buzzwole_\(UL1-070\) a ns1:Ga-Ole .
+
+ns1:Cacnea_\(GR2-019\) a ns1:Ga-Ole .
+
+ns1:Cacturne_\(GR2-020\) a ns1:Ga-Ole .
+
+ns1:Cacturne_\(GR2-021\) a ns1:Ga-Ole .
+
+ns1:Caterpie_\(D1-025\) a ns1:Ga-Ole .
+
+ns1:Celebi_\(GR5-056\) a ns1:Ga-Ole .
+
+ns1:Celebi_\(Pokémon_Ga-Olé_Get_Campaign\) a ns1:Ga-Ole .
+
+ns1:Celebi_\(UL1-063\) a ns1:Ga-Ole .
+
+<http://example.org/resource/ga-ole/Celesteela_(Full-Force_Battle_~Ultra_Beast_Challenge!~)> a ns1:Ga-Ole .
+
+ns1:Celesteela_\(GR3-067\) a ns1:Ga-Ole .
+
+ns1:Celesteela_\(UL2-062\) a ns1:Ga-Ole .
+
+ns1:Chandelure_\(D2-021\) a ns1:Ga-Ole .
+
+ns1:Chandelure_\(UL2-020\) a ns1:Ga-Ole .
+
+ns1:Chansey_\(UL2-012\) a ns1:Ga-Ole .
+
+ns1:Charizard a ns1:Ga-Ole ;
+    ns2:jname "リザードン" ;
+    ns2:name "Charizard" ;
+    ns2:tmname "Lizardon" ;
+    ns1:diskno "008" ;
+    ns1:energy "2960" ;
+    ns1:grade "4" ;
+    ns1:mega "Charizard_Y" ;
+    ns1:setno "D2" ;
+    ns1:size "300" ;
+    ns1:type1 "Fire" ;
+    ns1:type2 "Flying" .
+
+ns1:Charizard_\(01-007\) a ns1:Ga-Ole .
+
+ns1:Charizard_\(01-008\) a ns1:Ga-Ole .
+
+ns1:Charizard_\(Charizard_Valley_Course\) a ns1:Ga-Ole .
+
+ns1:Charizard_\(D1-007\) a ns1:Ga-Ole .
+
+ns1:Charizard_\(D1-008\) a ns1:Ga-Ole .
+
+ns1:Charizard_\(D2-007\) a ns1:Ga-Ole .
+
+ns1:Charizard_\(D2-072\) a ns1:Ga-Ole .
+
+ns1:Charizard_\(D2-073\) a ns1:Ga-Ole .
+
+ns1:Charizard_\(Fresh_Trainer_Battle\) a ns1:Ga-Ole .
+
+ns1:Charizard_\(GR1-007\) a ns1:Ga-Ole .
+
+ns1:Charizard_\(GR1-008\) a ns1:Ga-Ole .
+
+ns1:Charizard_\(Grand_Rush_Start_Campaign\) a ns1:Ga-Ole .
+
+<http://example.org/resource/ga-ole/Charizard_(Summon_the_Legends!_Island's_Guardian_Deity_with_Z-Moves_Challenge!_Set)> a ns1:Ga-Ole .
+
+ns1:Charizard_\(Trainer_and_Battle\) a ns1:Ga-Ole .
+
+ns1:Charizard_\(UL3-007\) a ns1:Ga-Ole .
+
+ns1:Charizard_\(UL3-008\) a ns1:Ga-Ole .
+
+ns1:Charizard_\(UL3-009\) a ns1:Ga-Ole .
+
+ns1:Charjabug_\(03-014\) a ns1:Ga-Ole .
+
+ns1:Charjabug_\(D3-032\) a ns1:Ga-Ole .
+
+ns1:Charmander_\(01-005\) a ns1:Ga-Ole .
+
+ns1:Charmander_\(D1-005\) a ns1:Ga-Ole .
+
+ns1:Charmander_\(D2-005\) a ns1:Ga-Ole .
+
+ns1:Charmander_\(GR1-005\) a ns1:Ga-Ole .
+
+ns1:Charmander_\(UL3-005\) a ns1:Ga-Ole .
+
+ns1:Charmeleon_\(01-006\) a ns1:Ga-Ole .
+
+ns1:Charmeleon_\(D1-006\) a ns1:Ga-Ole .
+
+ns1:Charmeleon_\(D2-006\) a ns1:Ga-Ole .
+
+ns1:Charmeleon_\(GR1-006\) a ns1:Ga-Ole .
+
+ns1:Charmeleon_\(UL3-006\) a ns1:Ga-Ole .
+
+ns1:Chesnaught_\(01-015\) a ns1:Ga-Ole .
+
+ns1:Chesnaught_\(01-016\) a ns1:Ga-Ole .
+
+ns1:Chesnaught_\(GR5-015\) a ns1:Ga-Ole .
+
+ns1:Chesnaught_\(GR5-016\) a ns1:Ga-Ole .
+
+ns1:Chespin_\(01-013\) a ns1:Ga-Ole .
+
+ns1:Chespin_\(GR5-013\) a ns1:Ga-Ole .
+
+ns1:Chikorita_\(GR3-001\) a ns1:Ga-Ole .
+
+ns1:Chikorita_\(UL1-001\) a ns1:Ga-Ole .
+
+ns1:Chikorita_\(UL4-013\) a ns1:Ga-Ole .
+
+ns1:Chimchar_\(02-004\) a ns1:Ga-Ole .
+
+ns1:Chimchar_\(GR4-005\) a ns1:Ga-Ole .
+
+ns1:Chimchar_\(UL5-005\) a ns1:Ga-Ole .
+
+ns1:Chinchou_\(D5-022\) a ns1:Ga-Ole .
+
+ns1:Cinderace_\(GR5-007\) a ns1:Ga-Ole .
+
+ns1:Cinderace_\(GR5-008\) a ns1:Ga-Ole .
+
+ns1:Cobalion_\(D3-057\) a ns1:Ga-Ole .
+
+ns1:Cobalion_\(GR5-040\) a ns1:Ga-Ole .
+
+ns1:Cobalion_\(Ga-Olé_File_Set_DX\) a ns1:Ga-Ole .
+
+ns1:Combee_\(GR3-013\) a ns1:Ga-Ole .
+
+ns1:Combusken_\(GR2-006\) a ns1:Ga-Ole .
+
+ns1:Combusken_\(UL4-006\) a ns1:Ga-Ole .
+
+ns1:Cosmoem_\(D2-075\) a ns1:Ga-Ole .
+
+ns1:Cosmoem_\(D2-079\) a ns1:Ga-Ole .
+
+ns1:Cosmog_\(D2-074\) a ns1:Ga-Ole .
+
+ns1:Cosmog_\(D2-078\) a ns1:Ga-Ole .
+
+ns1:Cottonee_\(GR5-028\) a ns1:Ga-Ole .
+
+ns1:Crabominable_\(D3-017\) a ns1:Ga-Ole .
+
+ns1:Crabominable_\(D3-018\) a ns1:Ga-Ole .
+
+ns1:Crabrawler_\(D3-016\) a ns1:Ga-Ole .
+
+ns1:Cresselia_\(UL3-057\) a ns1:Ga-Ole .
+
+ns1:Crobat_\(D5-015\) a ns1:Ga-Ole .
+
+ns1:Crobat_\(Halloween_Special_Course_2018\) a ns1:Ga-Ole .
+
+ns1:Croconaw_\(GR3-010\) a ns1:Ga-Ole .
+
+ns1:Croconaw_\(UL1-010\) a ns1:Ga-Ole .
+
+ns1:Croconaw_\(UL4-022\) a ns1:Ga-Ole .
+
+ns1:Cubone_\(03-022\) a ns1:Ga-Ole .
+
+ns1:Cubone_\(D4-015\) a ns1:Ga-Ole .
+
+ns1:Cyndaquil_\(GR3-005\) a ns1:Ga-Ole .
+
+ns1:Cyndaquil_\(UL1-005\) a ns1:Ga-Ole .
+
+ns1:Cyndaquil_\(UL4-017\) a ns1:Ga-Ole .
+
+ns1:Darkrai_\(D2-069\) a ns1:Ga-Ole .
+
+ns1:Darkrai_\(GR3-063\) a ns1:Ga-Ole .
+
+ns1:Darkrai_\(Pokémon_Ga-Olé_Get_Campaign\) a ns1:Ga-Ole .
+
+ns1:Darkrai_\(Trainer_and_Battle\) a ns1:Ga-Ole .
+
+ns1:Darkrai_\(UL2-059\) a ns1:Ga-Ole .
+
+ns1:Dartrix_\(03-002\) a ns1:Ga-Ole .
+
+ns1:Dartrix_\(D1-014\) a ns1:Ga-Ole .
+
+ns1:Dartrix_\(UL1-014\) a ns1:Ga-Ole .
+
+<http://example.org/resource/ga-ole/Dawn_Wings_Necrozma_(Full-Force_Battle_~Ultra_Necrozma_Challenge!~)> a ns1:Ga-Ole .
+
+ns1:Dawn_Wings_Necrozma_\(Trainer_and_Battle\) a ns1:Ga-Ole .
+
+ns1:Decidueye a ns1:Ga-Ole ;
+    ns2:image "Decidueye_P_SuperStrongTrainerBattle.png" ;
+    ns2:jname "ジュナイパー" ;
+    ns2:name "Decidueye" ;
+    ns2:tmname "Junaiper" ;
+    ns1:energy "2180_" ;
+    ns1:setno "P" ;
+    ns1:type1 "Grass" ;
+    ns1:type2 "Ghost" .
+
+ns1:Decidueye_\(03-003\) a ns1:Ga-Ole .
+
+ns1:Decidueye_\(03-004\) a ns1:Ga-Ole .
+
+ns1:Decidueye_\(D1-015\) a ns1:Ga-Ole .
+
+ns1:Decidueye_\(D1-016\) a ns1:Ga-Ole .
+
+ns1:Decidueye_\(UL1-015\) a ns1:Ga-Ole .
+
+ns1:Decidueye_\(UL1-016\) a ns1:Ga-Ole .
+
+ns1:Dedenne_\(01-029\) a ns1:Ga-Ole .
+
+ns1:Dedenne_\(01-030\) a ns1:Ga-Ole .
+
+ns1:Deino_\(D5-035\) a ns1:Ga-Ole .
+
+ns1:Delibird_\(03-025\) a ns1:Ga-Ole .
+
+ns1:Delibird_\(Christmas_Special_Course\) a ns1:Ga-Ole .
+
+ns1:Delphox_\(01-019\) a ns1:Ga-Ole .
+
+ns1:Delphox_\(01-020\) a ns1:Ga-Ole .
+
+ns1:Delphox_\(GR5-019\) a ns1:Ga-Ole .
+
+ns1:Delphox_\(GR5-020\) a ns1:Ga-Ole .
+
+<http://example.org/resource/ga-ole/Deoxys_(Rush_Combo!_Rayquaza_&_Deoxys_Course)> a ns1:Ga-Ole .
+
+ns1:Deoxys_\(UL5-050\) a ns1:Ga-Ole .
+
+ns1:Deoxys_\(UL5-051\) a ns1:Ga-Ole .
+
+ns1:Deoxys_\(UL5-052\) a ns1:Ga-Ole .
+
+ns1:Deoxys_\(UL5-053\) a ns1:Ga-Ole .
+
+ns1:Dewott_\(D3-010\) a ns1:Ga-Ole .
+
+ns1:Dewott_\(GR4-022\) a ns1:Ga-Ole .
+
+ns1:Dhelmise_\(D4-001\) a ns1:Ga-Ole .
+
+ns1:Dialga_\(D5-055\) a ns1:Ga-Ole .
+
+ns1:Dialga_\(Dash_Trainer_and_Battle\) a ns1:Ga-Ole .
+
+ns1:Dialga_\(GR4-061\) a ns1:Ga-Ole .
+
+ns1:Dialga_\(Grand_Rush_Trainer_and_Battle\) a ns1:Ga-Ole .
+
+ns1:Dialga_\(UL4-057\) a ns1:Ga-Ole .
+
+ns1:Dialga_\(Ultra_Legend_Trainer_and_Battle\) a ns1:Ga-Ole .
+
+ns1:Diancie_\(D5-050\) a ns1:Ga-Ole .
+
+ns1:Diancie_\(UL5-063\) a ns1:Ga-Ole .
+
+ns1:Diancie_\(UL5-064\) a ns1:Ga-Ole .
+
+ns1:Dodrio_\(UL4-029\) a ns1:Ga-Ole .
+
+ns1:Dodrio_\(UL4-030\) a ns1:Ga-Ole .
+
+ns1:Doduo_\(UL4-028\) a ns1:Ga-Ole .
+
+ns1:Donphan_\(GR1-017\) a ns1:Ga-Ole .
+
+ns1:Donphan_\(GR1-018\) a ns1:Ga-Ole .
+
+ns1:Dragonair_\(02-017\) a ns1:Ga-Ole .
+
+ns1:Dragonair_\(D2-027\) a ns1:Ga-Ole .
+
+ns1:Dragonair_\(UL3-036\) a ns1:Ga-Ole .
+
+ns1:Dragonite_\(02-018\) a ns1:Ga-Ole .
+
+ns1:Dragonite_\(02-019\) a ns1:Ga-Ole .
+
+ns1:Dragonite_\(D2-028\) a ns1:Ga-Ole .
+
+ns1:Dragonite_\(D2-029\) a ns1:Ga-Ole .
+
+ns1:Dragonite_\(UL3-037\) a ns1:Ga-Ole .
+
+ns1:Dragonite_\(UL3-038\) a ns1:Ga-Ole .
+
+ns1:Dratini_\(02-016\) a ns1:Ga-Ole .
+
+ns1:Dratini_\(D2-026\) a ns1:Ga-Ole .
+
+ns1:Dratini_\(UL3-035\) a ns1:Ga-Ole .
+
+ns1:Drifblim_\(D2-017\) a ns1:Ga-Ole .
+
+ns1:Drifblim_\(D2-018\) a ns1:Ga-Ole .
+
+ns1:Drifloon_\(D2-016\) a ns1:Ga-Ole .
+
+ns1:Drizzile_\(GR5-010\) a ns1:Ga-Ole .
+
+ns1:Dunsparce_\(01-025\) a ns1:Ga-Ole .
+
+ns1:Dusclops_\(GR2-027\) a ns1:Ga-Ole .
+
+<http://example.org/resource/ga-ole/Dusk_Mane_Necrozma_(Full-Force_Battle_~Ultra_Necrozma_Challenge!~)> a ns1:Ga-Ole .
+
+ns1:Dusk_Mane_Necrozma_\(Trainer_and_Battle\) a ns1:Ga-Ole .
+
+ns1:Dusknoir_\(GR2-028\) a ns1:Ga-Ole .
+
+ns1:Dusknoir_\(GR2-029\) a ns1:Ga-Ole .
+
+ns1:Duskull_\(GR2-026\) a ns1:Ga-Ole .
+
+ns1:Eelektrik_\(D4-042\) a ns1:Ga-Ole .
+
+ns1:Eelektross_\(D4-043\) a ns1:Ga-Ole .
+
+ns1:Eelektross_\(D4-044\) a ns1:Ga-Ole .
+
+ns1:Eevee a ns1:Ga-Ole ;
+    ns2:jname "イーブイ" ;
+    ns2:name "Eevee" ;
+    ns2:tmname "Eievui" ;
+    ns1:diskno "001",
+        "010" ;
+    ns1:energy "1200" ;
+    ns1:evo "Flareon" ;
+    ns1:grade "1-3" ;
+    ns1:setno "05" ;
+    ns1:stone "Fire" ;
+    ns1:type1 "Normal" .
+
+ns1:Eevee_\(05-002\) a ns1:Ga-Ole .
+
+ns1:Eevee_\(05-003\) a ns1:Ga-Ole .
+
+ns1:Eevee_\(05-004\) a ns1:Ga-Ole .
+
+ns1:Eevee_\(05-007\) a ns1:Ga-Ole .
+
+ns1:Eevee_\(GR1-019\) a ns1:Ga-Ole .
+
+ns1:Eevee_\(GR1-020\) a ns1:Ga-Ole .
+
+<http://example.org/resource/ga-ole/Eevee_(Let's_Go!_Course)> a ns1:Ga-Ole .
+
+ns1:Eevee_\(Only_Eevee_Course\) a ns1:Ga-Ole .
+
+ns1:Eevee_\(UL1-025\) a ns1:Ga-Ole .
+
+ns1:Eevee_\(UL1-026\) a ns1:Ga-Ole .
+
+ns1:Eevee_\(UL1-027\) a ns1:Ga-Ole .
+
+ns1:Electabuzz_\(GR4-038\) a ns1:Ga-Ole .
+
+ns1:Electabuzz_\(UL5-021\) a ns1:Ga-Ole .
+
+ns1:Electivire_\(GR4-039\) a ns1:Ga-Ole .
+
+ns1:Electivire_\(GR4-040\) a ns1:Ga-Ole .
+
+ns1:Electivire_\(UL5-022\) a ns1:Ga-Ole .
+
+ns1:Electivire_\(UL5-023\) a ns1:Ga-Ole .
+
+ns1:Elekid_\(GR4-037\) a ns1:Ga-Ole .
+
+ns1:Elekid_\(UL5-020\) a ns1:Ga-Ole .
+
+ns1:Emboar_\(D3-007\) a ns1:Ga-Ole .
+
+ns1:Emboar_\(D3-008\) a ns1:Ga-Ole .
+
+ns1:Emboar_\(GR4-019\) a ns1:Ga-Ole .
+
+ns1:Emboar_\(GR4-020\) a ns1:Ga-Ole .
+
+ns1:Empoleon a ns1:Ga-Ole ;
+    ns2:jname "エンペルト" ;
+    ns2:name "Empoleon" ;
+    ns2:tmname "Emperte" ;
+    ns1:diskno "009" ;
+    ns1:energy "2300" ;
+    ns1:grade "3" ;
+    ns1:setno "02" ;
+    ns1:type1 "Water" ;
+    ns1:type2 "Steel" .
+
+ns1:Empoleon_\(04-032\) a ns1:Ga-Ole .
+
+ns1:Empoleon_\(GR4-011\) a ns1:Ga-Ole .
+
+ns1:Empoleon_\(GR4-012\) a ns1:Ga-Ole .
+
+ns1:Empoleon_\(UL5-011\) a ns1:Ga-Ole .
+
+ns1:Empoleon_\(UL5-012\) a ns1:Ga-Ole .
+
+ns1:Entei_\(D1-067\) a ns1:Ga-Ole .
+
+ns1:Entei_\(D1-068\) a ns1:Ga-Ole .
+
+ns1:Entei_\(GR1-066\) a ns1:Ga-Ole .
+
+ns1:Entei_\(Legendary_Pokémon_Power_Up_Set\) a ns1:Ga-Ole .
+
+ns1:Espeon_\(GR2-030\) a ns1:Ga-Ole .
+
+ns1:Espeon_\(GR2-031\) a ns1:Ga-Ole .
+
+<http://example.org/resource/ga-ole/Espeon_(Only_Eevee_Course_~Part_2~)> a ns1:Ga-Ole .
+
+ns1:Espeon_\(UL2-001\) a ns1:Ga-Ole .
+
+ns1:Espeon_\(UL2-002\) a ns1:Ga-Ole .
+
+ns1:Exeggcute_\(05-019\) a ns1:Ga-Ole .
+
+ns1:Exeggcute_\(D3-022\) a ns1:Ga-Ole .
+
+<http://example.org/resource/ga-ole/Farfetch'd_(01-028)> a ns1:Ga-Ole .
+
+ns1:Feebas_\(GR4-025\) a ns1:Ga-Ole .
+
+ns1:Fennekin_\(01-017\) a ns1:Ga-Ole .
+
+ns1:Fennekin_\(GR5-017\) a ns1:Ga-Ole .
+
+ns1:Feraligatr_\(GR3-011\) a ns1:Ga-Ole .
+
+ns1:Feraligatr_\(GR3-012\) a ns1:Ga-Ole .
+
+ns1:Feraligatr_\(UL1-011\) a ns1:Ga-Ole .
+
+ns1:Feraligatr_\(UL1-012\) a ns1:Ga-Ole .
+
+ns1:Feraligatr_\(UL4-023\) a ns1:Ga-Ole .
+
+ns1:Feraligatr_\(UL4-024\) a ns1:Ga-Ole .
+
+ns1:Ferroseed_\(GR3-019\) a ns1:Ga-Ole .
+
+ns1:Ferrothorn_\(GR3-020\) a ns1:Ga-Ole .
+
+ns1:Ferrothorn_\(GR3-021\) a ns1:Ga-Ole .
+
+ns1:Flareon_\(05-011\) a ns1:Ga-Ole .
+
+ns1:Flareon_\(05-012\) a ns1:Ga-Ole .
+
+ns1:Flareon_\(GR1-045\) a ns1:Ga-Ole .
+
+ns1:Flareon_\(GR1-046\) a ns1:Ga-Ole .
+
+ns1:Flareon_\(Only_Eevee_Course\) a ns1:Ga-Ole .
+
+ns1:Flareon_\(UL1-032\) a ns1:Ga-Ole .
+
+ns1:Flareon_\(UL1-033\) a ns1:Ga-Ole .
+
+ns1:Fletchinder_\(02-021\) a ns1:Ga-Ole .
+
+ns1:Fletchinder_\(D4-026\) a ns1:Ga-Ole .
+
+ns1:Fletchling_\(02-020\) a ns1:Ga-Ole .
+
+ns1:Fletchling_\(D4-025\) a ns1:Ga-Ole .
+
+ns1:Flygon_\(UL1-042\) a ns1:Ga-Ole .
+
+ns1:Flygon_\(UL1-043\) a ns1:Ga-Ole .
+
+ns1:Fomantis_\(04-001\) a ns1:Ga-Ole .
+
+ns1:Fomantis_\(D4-006\) a ns1:Ga-Ole .
+
+ns1:Fraxure_\(GR3-027\) a ns1:Ga-Ole .
+
+ns1:Froakie_\(01-021\) a ns1:Ga-Ole .
+
+ns1:Froakie_\(GR5-021\) a ns1:Ga-Ole .
+
+ns1:Frogadier_\(01-022\) a ns1:Ga-Ole .
+
+ns1:Frogadier_\(GR5-022\) a ns1:Ga-Ole .
+
+ns1:Gabite_\(02-033\) a ns1:Ga-Ole .
+
+ns1:Gabite_\(D3-052\) a ns1:Ga-Ole .
+
+ns1:Gabite_\(GR4-056\) a ns1:Ga-Ole .
+
+ns1:Gabite_\(UL1-054\) a ns1:Ga-Ole .
+
+ns1:Gallade_\(D2-032\) a ns1:Ga-Ole .
+
+ns1:Gallade_\(D2-033\) a ns1:Ga-Ole .
+
+ns1:Gallade_\(GR5-038\) a ns1:Ga-Ole .
+
+ns1:Gallade_\(GR5-039\) a ns1:Ga-Ole .
+
+ns1:Garbodor_\(GR4-035\) a ns1:Ga-Ole .
+
+ns1:Garbodor_\(GR4-036\) a ns1:Ga-Ole .
+
+ns1:Garchomp_\(02-034\) a ns1:Ga-Ole .
+
+ns1:Garchomp_\(02-035\) a ns1:Ga-Ole .
+
+ns1:Garchomp_\(D3-053\) a ns1:Ga-Ole .
+
+ns1:Garchomp_\(D3-054\) a ns1:Ga-Ole .
+
+ns1:Garchomp_\(GR4-057\) a ns1:Ga-Ole .
+
+ns1:Garchomp_\(GR4-058\) a ns1:Ga-Ole .
+
+<http://example.org/resource/ga-ole/Garchomp_(Super_Strong!_Trainer_Battle)> a ns1:Ga-Ole .
+
+ns1:Garchomp_\(UL1-055\) a ns1:Ga-Ole .
+
+ns1:Garchomp_\(UL1-056\) a ns1:Ga-Ole .
+
+ns1:Gardevoir_\(01-053\) a ns1:Ga-Ole .
+
+ns1:Gardevoir_\(01-054\) a ns1:Ga-Ole .
+
+ns1:Gardevoir_\(D2-054\) a ns1:Ga-Ole .
+
+ns1:Gardevoir_\(D2-055\) a ns1:Ga-Ole .
+
+ns1:Gardevoir_\(Differently-colored_Gardevoir_Course\) a ns1:Ga-Ole .
+
+ns1:Gardevoir_\(GR5-034\) a ns1:Ga-Ole .
+
+ns1:Gardevoir_\(GR5-035\) a ns1:Ga-Ole .
+
+ns1:Gardevoir_\(UL5-042\) a ns1:Ga-Ole .
+
+ns1:Gardevoir_\(UL5-043\) a ns1:Ga-Ole .
+
+ns1:Gastly_\(GR2-047\) a ns1:Ga-Ole .
+
+ns1:Gastly_\(UL3-043\) a ns1:Ga-Ole .
+
+ns1:Genesect_\(D5-049\) a ns1:Ga-Ole .
+
+ns1:Genesect_\(Pokémon_Ga-Olé_Get_Campaign\) a ns1:Ga-Ole .
+
+ns1:Genesect_\(UL5-062\) a ns1:Ga-Ole .
+
+ns1:Gengar a ns1:Ga-Ole ;
+    ns2:jname "ゲンガー" ;
+    ns2:name "Gengar" ;
+    ns2:tmname "Gangar" ;
+    ns1:diskno "049" ;
+    ns1:energy "2140" ;
+    ns1:grade "3-4" ;
+    ns1:setno "01" ;
+    ns1:type1 "Ghost" ;
+    ns1:type2 "Poison" .
+
+ns1:Gengar_\(01-050\) a ns1:Ga-Ole .
+
+ns1:Gengar_\(D2-060\) a ns1:Ga-Ole .
+
+ns1:Gengar_\(D2-061\) a ns1:Ga-Ole .
+
+ns1:Gengar_\(GR2-049\) a ns1:Ga-Ole .
+
+ns1:Gengar_\(GR2-050\) a ns1:Ga-Ole .
+
+ns1:Gengar_\(Halloween_Special_Course_2018\) a ns1:Ga-Ole .
+
+ns1:Gengar_\(UL3-045\) a ns1:Ga-Ole .
+
+ns1:Gengar_\(UL3-046\) a ns1:Ga-Ole .
+
+ns1:Geodude_\(Trainer_and_Battle\) a ns1:Ga-Ole .
+
+ns1:Geodude_\(UL4-034\) a ns1:Ga-Ole .
+
+ns1:Gible_\(02-032\) a ns1:Ga-Ole .
+
+ns1:Gible_\(D3-051\) a ns1:Ga-Ole .
+
+ns1:Gible_\(GR4-055\) a ns1:Ga-Ole .
+
+ns1:Gible_\(UL1-053\) a ns1:Ga-Ole .
+
+ns1:Gigalith_\(GR3-046\) a ns1:Ga-Ole .
+
+ns1:Gigalith_\(GR3-047\) a ns1:Ga-Ole .
+
+ns1:Gigalith_\(UL2-038\) a ns1:Ga-Ole .
+
+ns1:Gigalith_\(UL2-039\) a ns1:Ga-Ole .
+
+ns1:Girafarig_\(01-033\) a ns1:Ga-Ole .
+
+ns1:Giratina_\(D5-057\) a ns1:Ga-Ole .
+
+ns1:Giratina_\(D5-058\) a ns1:Ga-Ole .
+
+ns1:Giratina_\(GR4-063\) a ns1:Ga-Ole .
+
+ns1:Giratina_\(GR4-064\) a ns1:Ga-Ole .
+
+<http://example.org/resource/ga-ole/Giratina_(Gather!_Battle_Tournament_Altered)> a ns1:Ga-Ole .
+
+<http://example.org/resource/ga-ole/Giratina_(Gather!_Battle_Tournament_Origin)> a ns1:Ga-Ole .
+
+ns1:Glaceon_\(GR3-036\) a ns1:Ga-Ole .
+
+ns1:Glaceon_\(GR3-037\) a ns1:Ga-Ole .
+
+<http://example.org/resource/ga-ole/Glaceon_(Only_Eevee_Course_~Part_3~)> a ns1:Ga-Ole .
+
+ns1:Glaceon_\(UL3-016\) a ns1:Ga-Ole .
+
+ns1:Glaceon_\(UL3-017\) a ns1:Ga-Ole .
+
+ns1:Golbat_\(D5-014\) a ns1:Ga-Ole .
+
+ns1:Golduck a ns1:Ga-Ole ;
+    ns2:jname "ゴルダック" ;
+    ns2:name "Golduck" ;
+    ns2:tmname "Golduck" ;
+    ns1:diskno "028" ;
+    ns1:energy "1920" ;
+    ns1:grade "2-3" ;
+    ns1:setno "03" ;
+    ns1:type1 "Water" .
+
+ns1:Golduck_\(03-029\) a ns1:Ga-Ole .
+
+ns1:Golduck_\(D4-019\) a ns1:Ga-Ole .
+
+ns1:Golduck_\(D4-020\) a ns1:Ga-Ole .
+
+ns1:Golem_\(UL4-036\) a ns1:Ga-Ole .
+
+ns1:Golem_\(UL4-037\) a ns1:Ga-Ole .
+
+ns1:Golett_\(UL2-025\) a ns1:Ga-Ole .
+
+ns1:Golisopod_\(D5-033\) a ns1:Ga-Ole .
+
+ns1:Golisopod_\(D5-034\) a ns1:Ga-Ole .
+
+ns1:Golurk_\(UL2-026\) a ns1:Ga-Ole .
+
+ns1:Golurk_\(UL2-027\) a ns1:Ga-Ole .
+
+ns1:Goodra_\(02-025\) a ns1:Ga-Ole .
+
+ns1:Goodra_\(02-026\) a ns1:Ga-Ole .
+
+ns1:Goodra_\(D3-037\) a ns1:Ga-Ole .
+
+ns1:Goodra_\(D3-038\) a ns1:Ga-Ole .
+
+ns1:Goomy_\(02-023\) a ns1:Ga-Ole .
+
+ns1:Goomy_\(D3-035\) a ns1:Ga-Ole .
+
+ns1:Graveler_\(UL4-035\) a ns1:Ga-Ole .
+
+ns1:Greninja_\(01-023\) a ns1:Ga-Ole .
+
+ns1:Greninja_\(01-024\) a ns1:Ga-Ole .
+
+ns1:Greninja_\(02-042\) a ns1:Ga-Ole .
+
+ns1:Greninja_\(GR5-023\) a ns1:Ga-Ole .
+
+ns1:Greninja_\(GR5-024\) a ns1:Ga-Ole .
+
+ns1:Grookey_\(GR5-001\) a ns1:Ga-Ole .
+
+ns1:Grotle_\(02-002\) a ns1:Ga-Ole .
+
+ns1:Grotle_\(GR4-002\) a ns1:Ga-Ole .
+
+ns1:Grotle_\(UL5-002\) a ns1:Ga-Ole .
+
+ns1:Groudon_\(D2-068\) a ns1:Ga-Ole .
+
+ns1:Groudon_\(GR2-058\) a ns1:Ga-Ole .
+
+<http://example.org/resource/ga-ole/Groudon_(Gather!_Battle_Tournament)> a ns1:Ga-Ole .
+
+ns1:Groudon_\(Trainer_and_Battle\) a ns1:Ga-Ole .
+
+ns1:Grovyle_\(GR2-002\) a ns1:Ga-Ole .
+
+ns1:Grovyle_\(UL4-002\) a ns1:Ga-Ole .
+
+ns1:Growlithe_\(05-013\) a ns1:Ga-Ole .
+
+ns1:Grubbin_\(03-013\) a ns1:Ga-Ole .
+
+ns1:Grubbin_\(D3-031\) a ns1:Ga-Ole .
+
+ns1:Gulpin_\(GR2-016\) a ns1:Ga-Ole .
+
+ns1:Gumshoos_\(04-008\) a ns1:Ga-Ole .
+
+ns1:Gumshoos_\(04-009\) a ns1:Ga-Ole .
+
+ns1:Gumshoos_\(D5-008\) a ns1:Ga-Ole .
+
+ns1:Gumshoos_\(D5-009\) a ns1:Ga-Ole .
+
+<http://example.org/resource/ga-ole/Guzzlord_(Full-Force_Battle_~Ultra_Beast_Challenge!~)> a ns1:Ga-Ole .
+
+ns1:Guzzlord_\(GR5-065\) a ns1:Ga-Ole .
+
+ns1:Guzzlord_\(UL5-066\) a ns1:Ga-Ole .
+
+ns1:Gyarados_\(01-043\) a ns1:Ga-Ole .
+
+ns1:Gyarados_\(01-044\) a ns1:Ga-Ole .
+
+ns1:Gyarados_\(D2-065\) a ns1:Ga-Ole .
+
+ns1:Gyarados_\(D2-066\) a ns1:Ga-Ole .
+
+ns1:Gyarados_\(GR1-059\) a ns1:Ga-Ole .
+
+ns1:Gyarados_\(GR1-060\) a ns1:Ga-Ole .
+
+ns1:Gyarados_\(Namco_Get_Campaign\) a ns1:Ga-Ole .
+
+ns1:Gyarados_\(Trainer_and_Battle\) a ns1:Ga-Ole .
+
+ns1:Gyarados_\(UL3-053\) a ns1:Ga-Ole .
+
+ns1:Gyarados_\(UL3-054\) a ns1:Ga-Ole .
+
+ns1:Hakamo-o_\(04-027\) a ns1:Ga-Ole .
+
+ns1:Hakamo-o_\(D5-044\) a ns1:Ga-Ole .
+
+ns1:Hakamo-o_\(GR3-049\) a ns1:Ga-Ole .
+
+ns1:Happiny_\(UL2-011\) a ns1:Ga-Ole .
+
+ns1:Hariyama_\(D5-027\) a ns1:Ga-Ole .
+
+ns1:Haunter_\(GR2-048\) a ns1:Ga-Ole .
+
+ns1:Haunter_\(UL3-044\) a ns1:Ga-Ole .
+
+ns1:Hawlucha_\(01-031\) a ns1:Ga-Ole .
+
+ns1:Hawlucha_\(01-032\) a ns1:Ga-Ole .
+
+ns1:Haxorus_\(GR3-028\) a ns1:Ga-Ole .
+
+ns1:Haxorus_\(GR3-029\) a ns1:Ga-Ole .
+
+ns1:Heatran_\(UL3-057\) a ns1:Ga-Ole .
+
+ns1:Heracross_\(GR1-039\) a ns1:Ga-Ole .
+
+ns1:Heracross_\(GR1-040\) a ns1:Ga-Ole .
+
+ns1:Heracross_\(UL5-046\) a ns1:Ga-Ole .
+
+ns1:Heracross_\(UL5-047\) a ns1:Ga-Ole .
+
+ns1:Herdier_\(D4-013\) a ns1:Ga-Ole .
+
+ns1:Ho-Oh a ns1:Ga-Ole ;
+    ns2:jname "ホウオウ" ;
+    ns2:name "Ho-Oh" ;
+    ns2:tmname "Houou" ;
+    ns1:diskno "071" ;
+    ns1:energy "4100" ;
+    ns1:grade "5" ;
+    ns1:setno "D1" ;
+    ns1:size "300" ;
+    ns1:symbol "Legendary" ;
+    ns1:type1 "Fire" ;
+    ns1:type2 "Flying" .
+
+<http://example.org/resource/ga-ole/Ho-Oh_(Full-Force_Battle_~Legendary_Pokémon_Challenge!~)> a ns1:Ga-Ole .
+
+ns1:Ho-Oh_\(GR1-069\) a ns1:Ga-Ole .
+
+ns1:Ho-Oh_\(Pokémon_Center_Special_Course\) a ns1:Ga-Ole .
+
+ns1:Ho-Oh_\(Trainer_and_Battle\) a ns1:Ga-Ole .
+
+ns1:Ho-Oh_\(UL1-062\) a ns1:Ga-Ole .
+
+ns1:Honchkrow_\(UL4-032\) a ns1:Ga-Ole .
+
+ns1:Honchkrow_\(UL4-033\) a ns1:Ga-Ole .
+
+ns1:Hoopa_\(D5-051\) a ns1:Ga-Ole .
+
+ns1:Hoopa_\(D5-052\) a ns1:Ga-Ole .
+
+ns1:Hoopa_\(Pokémon_Ga-Olé_Get_Campaign\) a ns1:Ga-Ole .
+
+ns1:Hoopa_\(Trainer_and_Battle\) a ns1:Ga-Ole .
+
+ns1:Hoothoot_\(GR5-025\) a ns1:Ga-Ole .
+
+ns1:Hydreigon_\(D5-037\) a ns1:Ga-Ole .
+
+ns1:Hydreigon_\(D5-038\) a ns1:Ga-Ole .
+
+ns1:Igglybuff_\(UL1-044\) a ns1:Ga-Ole .
+
+ns1:Incineroar_\(03-007\) a ns1:Ga-Ole .
+
+ns1:Incineroar_\(03-008\) a ns1:Ga-Ole .
+
+ns1:Incineroar_\(D1-019\) a ns1:Ga-Ole .
+
+ns1:Incineroar_\(D1-020\) a ns1:Ga-Ole .
+
+<http://example.org/resource/ga-ole/Incineroar_(Super_Strong!_Trainer_Battle)> a ns1:Ga-Ole .
+
+ns1:Incineroar_\(UL1-019\) a ns1:Ga-Ole .
+
+ns1:Incineroar_\(UL1-020\) a ns1:Ga-Ole .
+
+ns1:Infernape_\(02-006\) a ns1:Ga-Ole .
+
+ns1:Infernape_\(04-031\) a ns1:Ga-Ole .
+
+ns1:Infernape_\(GR4-007\) a ns1:Ga-Ole .
+
+ns1:Infernape_\(GR4-008\) a ns1:Ga-Ole .
+
+ns1:Infernape_\(UL5-007\) a ns1:Ga-Ole .
+
+ns1:Infernape_\(UL5-008\) a ns1:Ga-Ole .
+
+ns1:Inteleon_\(GR5-011\) a ns1:Ga-Ole .
+
+ns1:Inteleon_\(GR5-012\) a ns1:Ga-Ole .
+
+ns1:Ivysaur_\(01-002\) a ns1:Ga-Ole .
+
+ns1:Ivysaur_\(D1-002\) a ns1:Ga-Ole .
+
+ns1:Ivysaur_\(D2-002\) a ns1:Ga-Ole .
+
+ns1:Ivysaur_\(GR1-002\) a ns1:Ga-Ole .
+
+ns1:Ivysaur_\(UL3-002\) a ns1:Ga-Ole .
+
+ns1:Jangmo-o_\(04-026\) a ns1:Ga-Ole .
+
+ns1:Jangmo-o_\(D5-043\) a ns1:Ga-Ole .
+
+ns1:Jangmo-o_\(GR3-048\) a ns1:Ga-Ole .
+
+ns1:Jigglypuff_\(UL1-045\) a ns1:Ga-Ole .
+
+ns1:Jirachi_\(D5-054\) a ns1:Ga-Ole .
+
+ns1:Jirachi_\(UL5-054\) a ns1:Ga-Ole .
+
+ns1:Jolteon_\(05-008\) a ns1:Ga-Ole .
+
+ns1:Jolteon_\(05-009\) a ns1:Ga-Ole .
+
+ns1:Jolteon_\(GR1-043\) a ns1:Ga-Ole .
+
+ns1:Jolteon_\(GR1-044\) a ns1:Ga-Ole .
+
+ns1:Jolteon_\(Only_Eevee_Course\) a ns1:Ga-Ole .
+
+ns1:Jolteon_\(UL1-030\) a ns1:Ga-Ole .
+
+ns1:Jolteon_\(UL1-031\) a ns1:Ga-Ole .
+
+ns1:Kadabra_\(GR3-053\) a ns1:Ga-Ole .
+
+ns1:Kadabra_\(UL3-040\) a ns1:Ga-Ole .
+
+ns1:Kangaskhan_\(02-027\) a ns1:Ga-Ole .
+
+ns1:Kangaskhan_\(02-028\) a ns1:Ga-Ole .
+
+ns1:Kangaskhan_\(D3-055\) a ns1:Ga-Ole .
+
+ns1:Kangaskhan_\(D3-056\) a ns1:Ga-Ole .
+
+ns1:Kangaskhan_\(GR5-050\) a ns1:Ga-Ole .
+
+ns1:Kangaskhan_\(GR5-051\) a ns1:Ga-Ole .
+
+ns1:Kangaskhan_\(UL3-050\) a ns1:Ga-Ole .
+
+ns1:Kangaskhan_\(UL3-051\) a ns1:Ga-Ole .
+
+ns1:Kartana_\(GR3-068\) a ns1:Ga-Ole .
+
+ns1:Kartana_\(UL4-067\) a ns1:Ga-Ole .
+
+ns1:Keldeo_\(D5-047\) a ns1:Ga-Ole .
+
+ns1:Keldeo_\(D5-048\) a ns1:Ga-Ole .
+
+ns1:Keldeo_\(Ga-Olé_Distribution_Campaign\) a ns1:Ga-Ole .
+
+ns1:Keldeo_\(Pokémon_Ga-Olé_Get_Campaign\) a ns1:Ga-Ole .
+
+ns1:Keldeo_\(UL5-058\) a ns1:Ga-Ole .
+
+ns1:Keldeo_\(UL5-059\) a ns1:Ga-Ole .
+
+ns1:Kirlia_\(01-052\) a ns1:Ga-Ole .
+
+ns1:Kirlia_\(D2-031\) a ns1:Ga-Ole .
+
+ns1:Kirlia_\(D2-053\) a ns1:Ga-Ole .
+
+ns1:Kirlia_\(GR5-033\) a ns1:Ga-Ole .
+
+ns1:Kirlia_\(GR5-037\) a ns1:Ga-Ole .
+
+ns1:Kirlia_\(UL5-041\) a ns1:Ga-Ole .
+
+ns1:Klefki_\(01-034\) a ns1:Ga-Ole .
+
+ns1:Koffing_\(02-014\) a ns1:Ga-Ole .
+
+ns1:Koffing_\(D1-038\) a ns1:Ga-Ole .
+
+ns1:Komala_\(D2-024\) a ns1:Ga-Ole .
+
+ns1:Komala_\(D2-025\) a ns1:Ga-Ole .
+
+ns1:Kommo-o_\(04-028\) a ns1:Ga-Ole .
+
+ns1:Kommo-o_\(04-029\) a ns1:Ga-Ole .
+
+ns1:Kommo-o_\(D5-045\) a ns1:Ga-Ole .
+
+ns1:Kommo-o_\(D5-046\) a ns1:Ga-Ole .
+
+ns1:Kommo-o_\(GR3-050\) a ns1:Ga-Ole .
+
+ns1:Kommo-o_\(GR3-051\) a ns1:Ga-Ole .
+
+ns1:Kommo-o_\(Pokémon_Ga-Olé_Get_Campaign\) a ns1:Ga-Ole .
+
+<http://example.org/resource/ga-ole/Kommo-o_(Super_Strong!_Trainer_Battle)> a ns1:Ga-Ole .
+
+ns1:Krokorok_\(D4-030\) a ns1:Ga-Ole .
+
+ns1:Krookodile_\(D4-031\) a ns1:Ga-Ole .
+
+ns1:Krookodile_\(D4-032\) a ns1:Ga-Ole .
+
+ns1:Kyogre_\(D2-067\) a ns1:Ga-Ole .
+
+ns1:Kyogre_\(GR2-057\) a ns1:Ga-Ole .
+
+<http://example.org/resource/ga-ole/Kyogre_(Gather!_Battle_Tournament)> a ns1:Ga-Ole .
+
+ns1:Kyogre_\(Trainer_and_Battle\) a ns1:Ga-Ole .
+
+ns1:Kyurem a ns1:Ga-Ole ;
+    ns2:jname "キュレム" ;
+    ns2:name "Kyurem" ;
+    ns2:tmname "Kyurem" ;
+    ns1:diskno "041" ;
+    ns1:energy "3640" ;
+    ns1:grade "5" ;
+    ns1:setno "02" ;
+    ns1:size "300" ;
+    ns1:symbol "Legendary" ;
+    ns1:type1 "Dragon" ;
+    ns1:type2 "Ice" .
+
+ns1:Kyurem_\(D4-050\) a ns1:Ga-Ole .
+
+ns1:Kyurem_\(GR2-059\) a ns1:Ga-Ole .
+
+<http://example.org/resource/ga-ole/Kyurem_(Gather!_Battle_Tournament)> a ns1:Ga-Ole .
+
+ns1:Lairon_\(D4-038\) a ns1:Ga-Ole .
+
+ns1:Lampent_\(D2-020\) a ns1:Ga-Ole .
+
+ns1:Lampent_\(UL2-019\) a ns1:Ga-Ole .
+
+ns1:Landorus_\(GR3-040\) a ns1:Ga-Ole .
+
+ns1:Landorus_\(GR3-043\) a ns1:Ga-Ole .
+
+ns1:Landorus_\(UL2-054\) a ns1:Ga-Ole .
+
+ns1:Landorus_\(UL2-055\) a ns1:Ga-Ole .
+
+ns1:Lanturn_\(D5-023\) a ns1:Ga-Ole .
+
+ns1:Lanturn_\(D5-024\) a ns1:Ga-Ole .
+
+ns1:Lapras_\(03-017\) a ns1:Ga-Ole .
+
+ns1:Lapras_\(03-018\) a ns1:Ga-Ole .
+
+ns1:Lapras_\(D5-030\) a ns1:Ga-Ole .
+
+ns1:Lapras_\(D5-031\) a ns1:Ga-Ole .
+
+ns1:Lapras_\(Pokémon_Ga-Olé_Get_Campaign\) a ns1:Ga-Ole .
+
+ns1:Larvesta_\(UL1-037\) a ns1:Ga-Ole .
+
+ns1:Larvitar_\(D3-039\) a ns1:Ga-Ole .
+
+ns1:Larvitar_\(UL5-032\) a ns1:Ga-Ole .
+
+ns1:Latias_\(GR2-055\) a ns1:Ga-Ole .
+
+ns1:Latias_\(GR4-059\) a ns1:Ga-Ole .
+
+ns1:Latias_\(Trainer_and_Battle\) a ns1:Ga-Ole .
+
+ns1:Latias_\(UL1-064\) a ns1:Ga-Ole .
+
+ns1:Latias_\(UL4-052\) a ns1:Ga-Ole .
+
+ns1:Latios_\(GR2-056\) a ns1:Ga-Ole .
+
+ns1:Latios_\(GR4-060\) a ns1:Ga-Ole .
+
+ns1:Latios_\(Trainer_and_Battle\) a ns1:Ga-Ole .
+
+ns1:Latios_\(UL1-065\) a ns1:Ga-Ole .
+
+ns1:Latios_\(UL4-053\) a ns1:Ga-Ole .
+
+ns1:Leafeon_\(GR3-034\) a ns1:Ga-Ole .
+
+ns1:Leafeon_\(GR3-035\) a ns1:Ga-Ole .
+
+<http://example.org/resource/ga-ole/Leafeon_(Only_Eevee_Course_~Part_3~)> a ns1:Ga-Ole .
+
+ns1:Leafeon_\(UL3-014\) a ns1:Ga-Ole .
+
+ns1:Leafeon_\(UL3-015\) a ns1:Ga-Ole .
+
+ns1:Lillipup_\(D4-012\) a ns1:Ga-Ole .
+
+ns1:Litten a ns1:Ga-Ole ;
+    ns2:jname "ニャビー" ;
+    ns2:name "Litten" ;
+    ns2:tmname "Nyabby" ;
+    ns1:diskno "005" ;
+    ns1:energy "1120" ;
+    ns1:grade "1-4" ;
+    ns1:setno "03" ;
+    ns1:type1 "Fire" .
+
+ns1:Litten_\(D1-017\) a ns1:Ga-Ole .
+
+<http://example.org/resource/ga-ole/Litten_(Full-Force_Battle_~Solgaleo_&_Lunala_Challenge!~)> a ns1:Ga-Ole .
+
+ns1:Litten_\(UL1-017\) a ns1:Ga-Ole .
+
+ns1:Litwick_\(D2-019\) a ns1:Ga-Ole .
+
+ns1:Litwick_\(UL2-018\) a ns1:Ga-Ole .
+
+ns1:Lucario a ns1:Ga-Ole ;
+    ns2:jname "ルカリオ" ;
+    ns2:name "Lucario" ;
+    ns2:tmname "Lucario" ;
+    ns1:diskno "060" ;
+    ns1:energy "2520" ;
+    ns1:grade "3-4" ;
+    ns1:setno "D1" ;
+    ns1:type1 "Fighting" ;
+    ns1:type2 "Steel" .
+
+ns1:Lucario_\(01-046\) a ns1:Ga-Ole .
+
+ns1:Lucario_\(01-047\) a ns1:Ga-Ole .
+
+ns1:Lucario_\(01-048\) a ns1:Ga-Ole .
+
+ns1:Lucario_\(D1-059\) a ns1:Ga-Ole .
+
+ns1:Lucario_\(D1-061\) a ns1:Ga-Ole .
+
+ns1:Lucario_\(D2-057\) a ns1:Ga-Ole .
+
+ns1:Lucario_\(D2-058\) a ns1:Ga-Ole .
+
+ns1:Lucario_\(D2-059\) a ns1:Ga-Ole .
+
+ns1:Lucario_\(GR2-052\) a ns1:Ga-Ole .
+
+ns1:Lucario_\(GR2-053\) a ns1:Ga-Ole .
+
+ns1:Lucario_\(GR2-054\) a ns1:Ga-Ole .
+
+ns1:Lucario_\(GR5-047\) a ns1:Ga-Ole .
+
+ns1:Lucario_\(GR5-048\) a ns1:Ga-Ole .
+
+ns1:Lucario_\(GR5-049\) a ns1:Ga-Ole .
+
+ns1:Lucario_\(Ga-Olé_Distribution_Campaign\) a ns1:Ga-Ole .
+
+<http://example.org/resource/ga-ole/Lucario_(Summon_the_Legends!_Island's_Guardian_Deity_with_Z-Moves_Challenge!_Set)> a ns1:Ga-Ole .
+
+<http://example.org/resource/ga-ole/Lucario_(Super_Strong!_Trainer_Battle)> a ns1:Ga-Ole .
+
+ns1:Lucario_\(UL1-058\) a ns1:Ga-Ole .
+
+ns1:Lucario_\(UL1-059\) a ns1:Ga-Ole .
+
+ns1:Lucario_\(UL1-060\) a ns1:Ga-Ole .
+
+ns1:Lucario_\(UL5-037\) a ns1:Ga-Ole .
+
+ns1:Lucario_\(UL5-038\) a ns1:Ga-Ole .
+
+ns1:Lucario_\(UL5-039\) a ns1:Ga-Ole .
+
+ns1:Lugia_\(D1-072\) a ns1:Ga-Ole .
+
+<http://example.org/resource/ga-ole/Lugia_(Full-Force_Battle_~Legendary_Pokémon_Challenge!~)> a ns1:Ga-Ole .
+
+ns1:Lugia_\(GR1-068\) a ns1:Ga-Ole .
+
+ns1:Lugia_\(Pokémon_Center_Special_Course\) a ns1:Ga-Ole .
+
+ns1:Lugia_\(Special_Lugia_Course\) a ns1:Ga-Ole .
+
+ns1:Lugia_\(Trainer_and_Battle\) a ns1:Ga-Ole .
+
+ns1:Lugia_\(UL1-061\) a ns1:Ga-Ole .
+
+ns1:Lunala_\(03-037\) a ns1:Ga-Ole .
+
+ns1:Lunala_\(05-037\) a ns1:Ga-Ole .
+
+ns1:Lunala_\(D2-080\) a ns1:Ga-Ole .
+
+ns1:Lunala_\(D2-081\) a ns1:Ga-Ole .
+
+ns1:Lunala_\(D3-063\) a ns1:Ga-Ole .
+
+<http://example.org/resource/ga-ole/Lunala_(Full-Force_Battle_~Legendary_Pokémon_Challenge!~)> a ns1:Ga-Ole .
+
+<http://example.org/resource/ga-ole/Lunala_(Full-Force_Battle_~Solgaleo_&_Lunala_Challenge!~)> a ns1:Ga-Ole .
+
+ns1:Lunala_\(GR1-071\) a ns1:Ga-Ole .
+
+ns1:Lunala_\(Ga-Olé_Distribution_Campaign\) a ns1:Ga-Ole .
+
+<http://example.org/resource/ga-ole/Lunala_(Gather!_Battle_Tournament)> a ns1:Ga-Ole .
+
+<http://example.org/resource/ga-ole/Lunala_(McDonald's_Happy_Meal_2017)> a ns1:Ga-Ole .
+
+ns1:Lunala_\(Special_Disk_Present_Campaign\) a ns1:Ga-Ole .
+
+ns1:Lunala_\(Trainer_and_Battle\) a ns1:Ga-Ole .
+
+ns1:Lunatone_\(02-010\) a ns1:Ga-Ole .
+
+ns1:Lunatone_\(GR2-034\) a ns1:Ga-Ole .
+
+ns1:Lunatone_\(GR2-035\) a ns1:Ga-Ole .
+
+ns1:Lurantis_\(04-002\) a ns1:Ga-Ole .
+
+ns1:Lurantis_\(04-003\) a ns1:Ga-Ole .
+
+ns1:Lurantis_\(D4-007\) a ns1:Ga-Ole .
+
+ns1:Lurantis_\(D4-008\) a ns1:Ga-Ole .
+
+ns1:Lurantis_\(Pokémon_Ga-Olé_Get_Campaign\) a ns1:Ga-Ole .
+
+ns1:Luxio_\(D1-047\) a ns1:Ga-Ole .
+
+ns1:Luxray a ns1:Ga-Ole ;
+    ns2:jname "レントラー" ;
+    ns2:name "Luxray" ;
+    ns2:tmname "Rentorar" ;
+    ns1:diskno "049" ;
+    ns1:energy "2840" ;
+    ns1:grade "4" ;
+    ns1:setno "D1" ;
+    ns1:size "300" ;
+    ns1:type1 "Electric" .
+
+ns1:Luxray_\(D1-048\) a ns1:Ga-Ole .
+
+ns1:Lycanroc a ns1:Ga-Ole ;
+    ns2:jname "ルガルガン" ;
+    ns2:name "Lycanroc" ;
+    ns2:tmname "Lugarugan" ;
+    ns1:diskno "024" ;
+    ns1:energy "2240" ;
+    ns1:grade "3-4" ;
+    ns1:setno "04" ;
+    ns1:type1 "Rock" .
+
+ns1:Lycanroc_\(04-019\) a ns1:Ga-Ole .
+
+ns1:Lycanroc_\(04-020\) a ns1:Ga-Ole .
+
+ns1:Lycanroc_\(04-021\) a ns1:Ga-Ole .
+
+ns1:Lycanroc_\(04-023\) a ns1:Ga-Ole .
+
+ns1:Lycanroc_\(04-025\) a ns1:Ga-Ole .
+
+ns1:Lycanroc_\(Alola_League_Champion_Course\) a ns1:Ga-Ole .
+
+ns1:Lycanroc_\(D2-035\) a ns1:Ga-Ole .
+
+ns1:Lycanroc_\(D2-036\) a ns1:Ga-Ole .
+
+ns1:Lycanroc_\(D2-037\) a ns1:Ga-Ole .
+
+ns1:Lycanroc_\(D2-039\) a ns1:Ga-Ole .
+
+ns1:Lycanroc_\(D2-040\) a ns1:Ga-Ole .
+
+ns1:Lycanroc_\(D2-041\) a ns1:Ga-Ole .
+
+ns1:Lycanroc_\(D3-065\) a ns1:Ga-Ole .
+
+ns1:Lycanroc_\(D3-066\) a ns1:Ga-Ole .
+
+ns1:Lycanroc_\(D3-067\) a ns1:Ga-Ole .
+
+ns1:Lycanroc_\(D4-055\) a ns1:Ga-Ole .
+
+ns1:Lycanroc_\(D4-056\) a ns1:Ga-Ole .
+
+ns1:Lycanroc_\(D4-057\) a ns1:Ga-Ole .
+
+ns1:Lycanroc_\(D4-059\) a ns1:Ga-Ole .
+
+ns1:Lycanroc_\(D4-060\) a ns1:Ga-Ole .
+
+ns1:Lycanroc_\(D4-061\) a ns1:Ga-Ole .
+
+<http://example.org/resource/ga-ole/Lycanroc_(Lycanroc_with_Z-Moves!_Course_Midday_Form)> a ns1:Ga-Ole .
+
+<http://example.org/resource/ga-ole/Lycanroc_(Lycanroc_with_Z-Moves!_Course_Midnight_Form)> a ns1:Ga-Ole .
+
+<http://example.org/resource/ga-ole/Lycanroc_(Super_Strong!_Trainer_Battle)> a ns1:Ga-Ole .
+
+ns1:Lycanroc_\(Takara_Tomy_Purchase_Campaign\) a ns1:Ga-Ole .
+
+ns1:Machamp_\(GR1-052\) a ns1:Ga-Ole .
+
+ns1:Machamp_\(GR1-053\) a ns1:Ga-Ole .
+
+ns1:Machamp_\(UL4-040\) a ns1:Ga-Ole .
+
+ns1:Machamp_\(UL4-041\) a ns1:Ga-Ole .
+
+ns1:Machoke_\(GR1-051\) a ns1:Ga-Ole .
+
+ns1:Machoke_\(UL4-039\) a ns1:Ga-Ole .
+
+ns1:Machop_\(GR1-050\) a ns1:Ga-Ole .
+
+ns1:Machop_\(UL4-038\) a ns1:Ga-Ole .
+
+ns1:Magby_\(GR4-041\) a ns1:Ga-Ole .
+
+ns1:Magby_\(UL5-024\) a ns1:Ga-Ole .
+
+ns1:Magearna_\(Movie_2016\) a ns1:Ga-Ole .
+
+ns1:Magearna_\(UL5-065\) a ns1:Ga-Ole .
+
+ns1:Magikarp_\(01-042\) a ns1:Ga-Ole .
+
+ns1:Magikarp_\(D2-064\) a ns1:Ga-Ole .
+
+ns1:Magikarp_\(GR1-058\) a ns1:Ga-Ole .
+
+ns1:Magikarp_\(Namco_Get_Campaign\) a ns1:Ga-Ole .
+
+ns1:Magikarp_\(UL3-052\) a ns1:Ga-Ole .
+
+ns1:Magmar_\(GR4-042\) a ns1:Ga-Ole .
+
+ns1:Magmar_\(UL5-025\) a ns1:Ga-Ole .
+
+ns1:Magmortar_\(GR4-043\) a ns1:Ga-Ole .
+
+ns1:Magmortar_\(GR4-044\) a ns1:Ga-Ole .
+
+ns1:Magmortar_\(UL5-026\) a ns1:Ga-Ole .
+
+ns1:Magmortar_\(UL5-027\) a ns1:Ga-Ole .
+
+ns1:Magnemite_\(D3-043\) a ns1:Ga-Ole .
+
+ns1:Magnemite_\(GR4-049\) a ns1:Ga-Ole .
+
+ns1:Magnemite_\(UL2-032\) a ns1:Ga-Ole .
+
+ns1:Magneton_\(D3-044\) a ns1:Ga-Ole .
+
+ns1:Magneton_\(GR4-050\) a ns1:Ga-Ole .
+
+ns1:Magneton_\(UL2-033\) a ns1:Ga-Ole .
+
+ns1:Magnezone_\(D3-045\) a ns1:Ga-Ole .
+
+ns1:Magnezone_\(D3-046\) a ns1:Ga-Ole .
+
+ns1:Magnezone_\(GR4-051\) a ns1:Ga-Ole .
+
+ns1:Magnezone_\(GR4-052\) a ns1:Ga-Ole .
+
+ns1:Magnezone_\(UL2-034\) a ns1:Ga-Ole .
+
+ns1:Magnezone_\(UL2-035\) a ns1:Ga-Ole .
+
+ns1:Makuhita_\(D5-025\) a ns1:Ga-Ole .
+
+ns1:Makuhita_\(D5-026\) a ns1:Ga-Ole .
+
+ns1:Mamoswine_\(UL5-030\) a ns1:Ga-Ole .
+
+ns1:Mamoswine_\(UL5-031\) a ns1:Ga-Ole .
+
+ns1:Manaphy_\(UL3-056\) a ns1:Ga-Ole .
+
+ns1:Mankey_\(UL3-023\) a ns1:Ga-Ole .
+
+ns1:Mareanie_\(D2-022\) a ns1:Ga-Ole .
+
+ns1:Marshadow_\(D1-073\) a ns1:Ga-Ole .
+
+ns1:Marshtomp_\(GR2-010\) a ns1:Ga-Ole .
+
+ns1:Marshtomp_\(UL4-010\) a ns1:Ga-Ole .
+
+ns1:Meganium_\(GR3-003\) a ns1:Ga-Ole .
+
+ns1:Meganium_\(GR3-004\) a ns1:Ga-Ole .
+
+ns1:Meganium_\(UL1-003\) a ns1:Ga-Ole .
+
+ns1:Meganium_\(UL1-004\) a ns1:Ga-Ole .
+
+ns1:Meganium_\(UL4-015\) a ns1:Ga-Ole .
+
+ns1:Meganium_\(UL4-016\) a ns1:Ga-Ole .
+
+ns1:Melmetal_\(Alola_League_Champion_Course\) a ns1:Ga-Ole .
+
+ns1:Melmetal_\(UL4-064\) a ns1:Ga-Ole .
+
+ns1:Melmetal_\(UL4-065\) a ns1:Ga-Ole .
+
+ns1:Meloetta_\(UL5-060\) a ns1:Ga-Ole .
+
+ns1:Meloetta_\(UL5-061\) a ns1:Ga-Ole .
+
+ns1:Meltan_\(UL4-063\) a ns1:Ga-Ole .
+
+ns1:Meowth_\(UL4-025\) a ns1:Ga-Ole .
+
+ns1:Mesprit_\(UL4-055\) a ns1:Ga-Ole .
+
+ns1:Metagross_\(D1-056\) a ns1:Ga-Ole .
+
+ns1:Metagross_\(D1-057\) a ns1:Ga-Ole .
+
+ns1:Metagross_\(D2-050\) a ns1:Ga-Ole .
+
+ns1:Metagross_\(D2-051\) a ns1:Ga-Ole .
+
+ns1:Metagross_\(GR2-043\) a ns1:Ga-Ole .
+
+ns1:Metagross_\(GR2-044\) a ns1:Ga-Ole .
+
+ns1:Metagross_\(GR5-054\) a ns1:Ga-Ole .
+
+ns1:Metagross_\(GR5-055\) a ns1:Ga-Ole .
+
+ns1:Metagross_\(UL4-050\) a ns1:Ga-Ole .
+
+ns1:Metagross_\(UL4-051\) a ns1:Ga-Ole .
+
+ns1:Metang_\(D1-055\) a ns1:Ga-Ole .
+
+ns1:Metang_\(D2-049\) a ns1:Ga-Ole .
+
+ns1:Metang_\(GR2-042\) a ns1:Ga-Ole .
+
+ns1:Metang_\(GR5-053\) a ns1:Ga-Ole .
+
+ns1:Metang_\(UL4-049\) a ns1:Ga-Ole .
+
+ns1:Metapod_\(D1-026\) a ns1:Ga-Ole .
+
+ns1:Mew_\(02-XXX\) a ns1:Ga-Ole .
+
+ns1:Mew_\(GR1-064\) a ns1:Ga-Ole .
+
+<http://example.org/resource/ga-ole/Mew_(Let's_Go!_Course)> a ns1:Ga-Ole .
+
+ns1:Mew_\(Pokémon_Fan_Issue_64\) a ns1:Ga-Ole .
+
+ns1:Mew_\(Trainer_and_Battle\) a ns1:Ga-Ole .
+
+ns1:Mew_\(UL3-063\) a ns1:Ga-Ole .
+
+ns1:Mewtwo_\(02-036\) a ns1:Ga-Ole .
+
+ns1:Mewtwo_\(GR1-063\) a ns1:Ga-Ole .
+
+ns1:Mewtwo_\(GR5-057\) a ns1:Ga-Ole .
+
+ns1:Mewtwo_\(GR5-058\) a ns1:Ga-Ole .
+
+ns1:Mewtwo_\(Mewtwo_Special_Course\) a ns1:Ga-Ole .
+
+ns1:Mewtwo_\(Movie_2019\) a ns1:Ga-Ole .
+
+ns1:Mewtwo_\(UL3-061\) a ns1:Ga-Ole .
+
+ns1:Mewtwo_\(UL3-062\) a ns1:Ga-Ole .
+
+ns1:Milotic_\(GR4-026\) a ns1:Ga-Ole .
+
+ns1:Milotic_\(GR4-027\) a ns1:Ga-Ole .
+
+ns1:Miltank_\(D1-036\) a ns1:Ga-Ole .
+
+ns1:Miltank_\(D1-037\) a ns1:Ga-Ole .
+
+ns1:Mime_Jr._\(UL5-013\) a ns1:Ga-Ole .
+
+ns1:Mimikyu_\(D5-060\) a ns1:Ga-Ole .
+
+ns1:Mimikyu_\(D5-061\) a ns1:Ga-Ole .
+
+ns1:Mimikyu_\(D5-062\) a ns1:Ga-Ole .
+
+ns1:Mimikyu_\(Ga-Olé_Anime_Tie-in\) a ns1:Ga-Ole .
+
+ns1:Mimikyu_\(Halloween_Special_Course_2017\) a ns1:Ga-Ole .
+
+ns1:Mimikyu_\(Halloween_Special_Course_2018\) a ns1:Ga-Ole .
+
+<http://example.org/resource/ga-ole/Mimikyu_(McDonald's_Happy_Meal_2017)> a ns1:Ga-Ole .
+
+ns1:Misdreavus_\(D1-040\) a ns1:Ga-Ole .
+
+ns1:Mismagius_\(D1-041\) a ns1:Ga-Ole .
+
+ns1:Mismagius_\(D1-042\) a ns1:Ga-Ole .
+
+ns1:Mismagius_\(Halloween_Special_Course_2018\) a ns1:Ga-Ole .
+
+ns1:Moltres_\(GR3-061\) a ns1:Ga-Ole .
+
+<http://example.org/resource/ga-ole/Moltres_(Gather!_Battle_Tournament)> a ns1:Ga-Ole .
+
+ns1:Moltres_\(Legendary_Pokémon_Power_Up_Set\) a ns1:Ga-Ole .
+
+ns1:Moltres_\(UL3-060\) a ns1:Ga-Ole .
+
+ns1:Monferno_\(02-005\) a ns1:Ga-Ole .
+
+ns1:Monferno_\(GR4-006\) a ns1:Ga-Ole .
+
+ns1:Monferno_\(UL5-006\) a ns1:Ga-Ole .
+
+ns1:Mr._Mime_\(UL5-014\) a ns1:Ga-Ole .
+
+ns1:Mr._Mime_\(UL5-015\) a ns1:Ga-Ole .
+
+ns1:Mudbray_\(D1-031\) a ns1:Ga-Ole .
+
+ns1:Mudkip_\(GR2-009\) a ns1:Ga-Ole .
+
+ns1:Mudkip_\(UL4-009\) a ns1:Ga-Ole .
+
+ns1:Mudsdale_\(D1-032\) a ns1:Ga-Ole .
+
+ns1:Mudsdale_\(D1-033\) a ns1:Ga-Ole .
+
+ns1:Munchlax_\(03-030\) a ns1:Ga-Ole .
+
+ns1:Munchlax_\(03-031\) a ns1:Ga-Ole .
+
+ns1:Munchlax_\(D3-047\) a ns1:Ga-Ole .
+
+ns1:Munchlax_\(D3-048\) a ns1:Ga-Ole .
+
+ns1:Munchlax_\(UL2-028\) a ns1:Ga-Ole .
+
+ns1:Munchlax_\(UL2-029\) a ns1:Ga-Ole .
+
+ns1:Murkrow_\(UL4-031\) a ns1:Ga-Ole .
+
+ns1:Naganadel_\(D4-053\) a ns1:Ga-Ole .
+
+ns1:Naganadel_\(GR5-066\) a ns1:Ga-Ole .
+
+ns1:Naganadel_\(Poipole_Special_Course\) a ns1:Ga-Ole .
+
+ns1:Naganadel_\(UL5-067\) a ns1:Ga-Ole .
+
+ns1:Naganadel_\(Ultra_Start_Campaign\) a ns1:Ga-Ole .
+
+ns1:Necrozma_\(04-034\) a ns1:Ga-Ole .
+
+ns1:Necrozma_\(D4-049\) a ns1:Ga-Ole .
+
+<http://example.org/resource/ga-ole/Necrozma_(Gather!_Battle_Tournament_2017)> a ns1:Ga-Ole .
+
+<http://example.org/resource/ga-ole/Necrozma_(Gather!_Battle_Tournament_2018)> a ns1:Ga-Ole .
+
+ns1:Necrozma_\(Pokémon_Ga-Olé_Get_Campaign\) a ns1:Ga-Ole .
+
+ns1:Necrozma_\(UL2-060\) a ns1:Ga-Ole .
+
+ns1:Necrozma_\(UL2-061\) a ns1:Ga-Ole .
+
+ns1:Nidoking_\(GR1-035\) a ns1:Ga-Ole .
+
+ns1:Nidoking_\(GR1-036\) a ns1:Ga-Ole .
+
+ns1:Nidoqueen_\(GR1-031\) a ns1:Ga-Ole .
+
+ns1:Nidoqueen_\(GR1-032\) a ns1:Ga-Ole .
+
+<http://example.org/resource/ga-ole/Nidoran♀_(GR1-029)> a ns1:Ga-Ole .
+
+<http://example.org/resource/ga-ole/Nidoran♂_(GR1-033)> a ns1:Ga-Ole .
+
+ns1:Nidorina_\(GR1-030\) a ns1:Ga-Ole .
+
+ns1:Nidorino_\(GR1-034\) a ns1:Ga-Ole .
+
+ns1:Nihilego_\(GR2-063\) a ns1:Ga-Ole .
+
+ns1:Nihilego_\(UL1-069\) a ns1:Ga-Ole .
+
+ns1:Ninetales_\(GR1-014\) a ns1:Ga-Ole .
+
+ns1:Ninetales_\(GR1-015\) a ns1:Ga-Ole .
+
+ns1:Noctowl_\(GR5-026\) a ns1:Ga-Ole .
+
+ns1:Noctowl_\(GR5-027\) a ns1:Ga-Ole .
+
+ns1:Noibat_\(01-037\) a ns1:Ga-Ole .
+
+ns1:Noibat_\(D4-021\) a ns1:Ga-Ole .
+
+ns1:Noibat_\(D4-022\) a ns1:Ga-Ole .
+
+ns1:Noivern_\(01-038\) a ns1:Ga-Ole .
+
+ns1:Noivern_\(01-039\) a ns1:Ga-Ole .
+
+ns1:Noivern_\(D4-023\) a ns1:Ga-Ole .
+
+ns1:Noivern_\(D4-024\) a ns1:Ga-Ole .
+
+ns1:Nosepass_\(UL2-015\) a ns1:Ga-Ole .
+
+ns1:Onix_\(GR3-056\) a ns1:Ga-Ole .
+
+ns1:Onix_\(UL3-047\) a ns1:Ga-Ole .
+
+ns1:Oricorio_\(D4-002\) a ns1:Ga-Ole .
+
+ns1:Oricorio_\(D4-003\) a ns1:Ga-Ole .
+
+ns1:Oricorio_\(D4-004\) a ns1:Ga-Ole .
+
+ns1:Oricorio_\(D4-005\) a ns1:Ga-Ole .
+
+ns1:Oshawott_\(D3-009\) a ns1:Ga-Ole .
+
+ns1:Oshawott_\(GR4-021\) a ns1:Ga-Ole .
+
+ns1:Pachirisu_\(01-026\) a ns1:Ga-Ole .
+
+ns1:Palkia_\(D5-056\) a ns1:Ga-Ole .
+
+ns1:Palkia_\(Dash_Trainer_and_Battle\) a ns1:Ga-Ole .
+
+ns1:Palkia_\(GR4-062\) a ns1:Ga-Ole .
+
+ns1:Palkia_\(Grand_Rush_Trainer_and_Battle\) a ns1:Ga-Ole .
+
+ns1:Palkia_\(UL4-058\) a ns1:Ga-Ole .
+
+ns1:Palkia_\(Ultra_Legend_Trainer_and_Battle\) a ns1:Ga-Ole .
+
+ns1:Palossand_\(D3-014\) a ns1:Ga-Ole .
+
+ns1:Palossand_\(D3-015\) a ns1:Ga-Ole .
+
+ns1:Palpitoad_\(GR3-031\) a ns1:Ga-Ole .
+
+ns1:Pancham_\(01-035\) a ns1:Ga-Ole .
+
+ns1:Pangoro_\(01-036\) a ns1:Ga-Ole .
+
+ns1:Paras_\(02-012\) a ns1:Ga-Ole .
+
+ns1:Parasect_\(02-013\) a ns1:Ga-Ole .
+
+ns1:Partner_Eevee_\(ÆON_Purchase_Campaign\) a ns1:Ga-Ole .
+
+ns1:Partner_Pikachu_\(ÆON_Purchase_Campaign\) a ns1:Ga-Ole .
+
+ns1:Pelipper_\(D4-010\) a ns1:Ga-Ole .
+
+ns1:Pelipper_\(D4-011\) a ns1:Ga-Ole .
+
+ns1:Persian_\(UL4-026\) a ns1:Ga-Ole .
+
+ns1:Persian_\(UL4-027\) a ns1:Ga-Ole .
+
+ns1:Phanpy_\(GR1-016\) a ns1:Ga-Ole .
+
+ns1:Pheromosa_\(GR1-073\) a ns1:Ga-Ole .
+
+ns1:Pheromosa_\(UL4-066\) a ns1:Ga-Ole .
+
+ns1:Pidgeot_\(GR1-027\) a ns1:Ga-Ole .
+
+ns1:Pidgeot_\(GR1-028\) a ns1:Ga-Ole .
+
+ns1:Pidgeotto_\(GR1-026\) a ns1:Ga-Ole .
+
+ns1:Pidgey_\(GR1-025\) a ns1:Ga-Ole .
+
+ns1:Pignite_\(D3-006\) a ns1:Ga-Ole .
+
+ns1:Pignite_\(GR4-018\) a ns1:Ga-Ole .
+
+ns1:Pikachu_\(01-040\) a ns1:Ga-Ole .
+
+ns1:Pikachu_\(01-041\) a ns1:Ga-Ole .
+
+ns1:Pikachu_\(03-034\) a ns1:Ga-Ole .
+
+ns1:Pikachu_\(03-035\) a ns1:Ga-Ole .
+
+ns1:Pikachu_\(05-028\) a ns1:Ga-Ole .
+
+ns1:Pikachu_\(Alola_League_Champion_Course\) a ns1:Ga-Ole .
+
+ns1:Pikachu_\(Christmas_Special_Course\) a ns1:Ga-Ole .
+
+ns1:Pikachu_\(D1-062\) a ns1:Ga-Ole .
+
+ns1:Pikachu_\(D1-063\) a ns1:Ga-Ole .
+
+ns1:Pikachu_\(D1-064\) a ns1:Ga-Ole .
+
+ns1:Pikachu_\(D2-071\) a ns1:Ga-Ole .
+
+ns1:Pikachu_\(D5-059\) a ns1:Ga-Ole .
+
+ns1:Pikachu_\(Dash_set_1_Ga-Olé_Member_Lottery_Prize\) a ns1:Ga-Ole .
+
+ns1:Pikachu_\(GR1-047\) a ns1:Ga-Ole .
+
+ns1:Pikachu_\(GR1-048\) a ns1:Ga-Ole .
+
+ns1:Pikachu_\(GR1-049\) a ns1:Ga-Ole .
+
+ns1:Pikachu_\(GR5-043\) a ns1:Ga-Ole .
+
+ns1:Pikachu_\(GR5-044\) a ns1:Ga-Ole .
+
+ns1:Pikachu_\(GR5-045\) a ns1:Ga-Ole .
+
+ns1:Pikachu_\(Ga-Olé_Anime_Tie-in\) a ns1:Ga-Ole .
+
+ns1:Pikachu_\(Ga-Olé_Launch\) a ns1:Ga-Ole .
+
+ns1:Pikachu_\(Ga-Olé_Member_Lottery_Prize\) a ns1:Ga-Ole .
+
+<http://example.org/resource/ga-ole/Pikachu_(Let's_Begin_Z-Move!_Course)> a ns1:Ga-Ole .
+
+<http://example.org/resource/ga-ole/Pikachu_(Let's_Go!_Course)> a ns1:Ga-Ole .
+
+<http://example.org/resource/ga-ole/Pikachu_(McDonald's_Happy_Meal_2017)> a ns1:Ga-Ole .
+
+ns1:Pikachu_\(Movie_2017\) a ns1:Ga-Ole .
+
+ns1:Pikachu_\(Pokémon_Center_Sapporo_Renewal_Commemoration_Campaign\) a ns1:Ga-Ole .
+
+<http://example.org/resource/ga-ole/Pikachu_(Pokémon_Ga-Olé_Right_Now_Z-Move!_Set)> a ns1:Ga-Ole .
+
+ns1:Pikachu_\(Pokémon_Z-Power_Ring_Special_Set\) a ns1:Ga-Ole .
+
+ns1:Pikachu_\(Special_Disk_Present_Campaign\) a ns1:Ga-Ole .
+
+ns1:Pikachu_\(Trainer_and_Battle\) a ns1:Ga-Ole .
+
+ns1:Pikachu_\(UL1-048\) a ns1:Ga-Ole .
+
+ns1:Pikachu_\(UL1-049\) a ns1:Ga-Ole .
+
+ns1:Pikachu_\(UL1-050\) a ns1:Ga-Ole .
+
+ns1:Pikipek_\(D2-013\) a ns1:Ga-Ole .
+
+ns1:Piloswine_\(UL5-029\) a ns1:Ga-Ole .
+
+ns1:Pinsir_\(GR1-037\) a ns1:Ga-Ole .
+
+ns1:Pinsir_\(GR1-038\) a ns1:Ga-Ole .
+
+ns1:Pinsir_\(UL5-044\) a ns1:Ga-Ole .
+
+ns1:Pinsir_\(UL5-045\) a ns1:Ga-Ole .
+
+ns1:Piplup_\(02-007\) a ns1:Ga-Ole .
+
+ns1:Piplup_\(GR4-009\) a ns1:Ga-Ole .
+
+ns1:Piplup_\(UL5-009\) a ns1:Ga-Ole .
+
+ns1:Poipole_\(D4-051\) a ns1:Ga-Ole .
+
+ns1:Poipole_\(D4-052\) a ns1:Ga-Ole .
+
+ns1:Poipole_\(Poipole_Special_Course\) a ns1:Ga-Ole .
+
+ns1:Poipole_\(Ultra_Start_Campaign\) a ns1:Ga-Ole .
+
+ns1:Politoed_\(UL2-007\) a ns1:Ga-Ole .
+
+ns1:Poliwag_\(05-016\) a ns1:Ga-Ole .
+
+ns1:Poliwag_\(D5-016\) a ns1:Ga-Ole .
+
+ns1:Poliwag_\(UL2-005\) a ns1:Ga-Ole .
+
+ns1:Poliwhirl_\(05-017\) a ns1:Ga-Ole .
+
+ns1:Poliwhirl_\(D5-017\) a ns1:Ga-Ole .
+
+ns1:Poliwhirl_\(UL2-006\) a ns1:Ga-Ole .
+
+ns1:Poliwrath_\(05-018\) a ns1:Ga-Ole .
+
+ns1:Poliwrath_\(D5-018\) a ns1:Ga-Ole .
+
+ns1:Ponyta_\(UL3-026\) a ns1:Ga-Ole .
+
+ns1:Popplio_\(03-009\) a ns1:Ga-Ole .
+
+ns1:Popplio_\(D1-021\) a ns1:Ga-Ole .
+
+<http://example.org/resource/ga-ole/Popplio_(Full-Force_Battle_~Solgaleo_&_Lunala_Challenge!~)> a ns1:Ga-Ole .
+
+ns1:Popplio_\(UL1-021\) a ns1:Ga-Ole .
+
+ns1:Porygon-Z_\(UL3-031\) a ns1:Ga-Ole .
+
+ns1:Porygon2_\(UL3-030\) a ns1:Ga-Ole .
+
+ns1:Porygon_\(UL3-029\) a ns1:Ga-Ole .
+
+ns1:Primal_Groudon_\(GR5-060\) a ns1:Ga-Ole .
+
+ns1:Primal_Groudon_\(UL5-049\) a ns1:Ga-Ole .
+
+ns1:Primal_Kyogre_\(GR5-059\) a ns1:Ga-Ole .
+
+ns1:Primal_Kyogre_\(UL5-048\) a ns1:Ga-Ole .
+
+ns1:Primarina a ns1:Ga-Ole ;
+    ns2:image "Primarina_P_SuperStrongTrainerBattle.png" ;
+    ns2:jname "アシレーヌ" ;
+    ns2:name "Primarina" ;
+    ns2:tmname "Ashirene" ;
+    ns1:energy "2180_" ;
+    ns1:setno "P" ;
+    ns1:type1 "Water" ;
+    ns1:type2 "Fairy" .
+
+ns1:Primarina_\(03-011\) a ns1:Ga-Ole .
+
+ns1:Primarina_\(03-012\) a ns1:Ga-Ole .
+
+ns1:Primarina_\(D1-023\) a ns1:Ga-Ole .
+
+ns1:Primarina_\(D1-024\) a ns1:Ga-Ole .
+
+ns1:Primarina_\(UL1-023\) a ns1:Ga-Ole .
+
+ns1:Primarina_\(UL1-024\) a ns1:Ga-Ole .
+
+ns1:Primeape_\(UL3-024\) a ns1:Ga-Ole .
+
+ns1:Primeape_\(UL3-025\) a ns1:Ga-Ole .
+
+ns1:Prinplup_\(02-008\) a ns1:Ga-Ole .
+
+ns1:Prinplup_\(GR4-010\) a ns1:Ga-Ole .
+
+ns1:Prinplup_\(UL5-010\) a ns1:Ga-Ole .
+
+ns1:Probopass_\(UL2-016\) a ns1:Ga-Ole .
+
+ns1:Probopass_\(UL2-017\) a ns1:Ga-Ole .
+
+ns1:Psyduck a ns1:Ga-Ole ;
+    ns2:jname "コダック" ;
+    ns2:name "Psyduck" ;
+    ns2:tmname "Koduck" ;
+    ns1:diskno "027" ;
+    ns1:energy "1120" ;
+    ns1:grade "1-3" ;
+    ns1:setno "03" ;
+    ns1:type1 "Water" .
+
+ns1:Psyduck_\(D4-018\) a ns1:Ga-Ole .
+
+ns1:Pupitar_\(D3-040\) a ns1:Ga-Ole .
+
+ns1:Pupitar_\(UL5-033\) a ns1:Ga-Ole .
+
+ns1:Quagsire_\(GR2-014\) a ns1:Ga-Ole .
+
+ns1:Quagsire_\(GR2-015\) a ns1:Ga-Ole .
+
+ns1:Quilava_\(GR3-006\) a ns1:Ga-Ole .
+
+ns1:Quilava_\(UL1-006\) a ns1:Ga-Ole .
+
+ns1:Quilava_\(UL4-018\) a ns1:Ga-Ole .
+
+ns1:Quilladin_\(01-014\) a ns1:Ga-Ole .
+
+ns1:Quilladin_\(GR5-014\) a ns1:Ga-Ole .
+
+ns1:Raboot_\(GR5-006\) a ns1:Ga-Ole .
+
+ns1:Raikou_\(D1-065\) a ns1:Ga-Ole .
+
+ns1:Raikou_\(D1-066\) a ns1:Ga-Ole .
+
+ns1:Raikou_\(GR1-065\) a ns1:Ga-Ole .
+
+ns1:Raikou_\(Legendary_Pokémon_Power_Up_Set\) a ns1:Ga-Ole .
+
+ns1:Ralts_\(01-051\) a ns1:Ga-Ole .
+
+ns1:Ralts_\(D2-030\) a ns1:Ga-Ole .
+
+ns1:Ralts_\(D2-052\) a ns1:Ga-Ole .
+
+ns1:Ralts_\(GR5-032\) a ns1:Ga-Ole .
+
+ns1:Ralts_\(GR5-036\) a ns1:Ga-Ole .
+
+ns1:Ralts_\(UL5-040\) a ns1:Ga-Ole .
+
+ns1:Rapidash_\(UL3-027\) a ns1:Ga-Ole .
+
+ns1:Rapidash_\(UL3-028\) a ns1:Ga-Ole .
+
+ns1:Rayquaza a ns1:Ga-Ole ;
+    ns2:jname "レックウザ" ;
+    ns2:name "Rayquaza" ;
+    ns2:tmname "Rayquaza" ;
+    ns1:diskno "038" ;
+    ns1:energy "4020" ;
+    ns1:grade "5" ;
+    ns1:setno "05" ;
+    ns1:size "300" ;
+    ns1:symbol "Legendary" ;
+    ns1:type1 "Dragon" ;
+    ns1:type2 "Flying" .
+
+<http://example.org/resource/ga-ole/Rayquaza_(CoroCoro_Dream_Fight!_Rayquaza_Super_Challenge)> a ns1:Ga-Ole .
+
+<http://example.org/resource/ga-ole/Rayquaza_(CoroCoro_Dream_Fight!_Rayquaza_Super_Challenge_Mega)> a ns1:Ga-Ole .
+
+ns1:Rayquaza_\(GR3-066\) a ns1:Ga-Ole .
+
+<http://example.org/resource/ga-ole/Rayquaza_(Rush_Combo!_Rayquaza_&_Deoxys_Course)> a ns1:Ga-Ole .
+
+ns1:Rayquaza_\(UL2-058\) a ns1:Ga-Ole .
+
+ns1:Regice_\(D4-046\) a ns1:Ga-Ole .
+
+ns1:Regice_\(GR2-039\) a ns1:Ga-Ole .
+
+ns1:Regigigas_\(D4-048\) a ns1:Ga-Ole .
+
+ns1:Regigigas_\(GR3-062\) a ns1:Ga-Ole .
+
+ns1:Regigigas_\(Pokémon_Ga-Olé_Get_Campaign\) a ns1:Ga-Ole .
+
+ns1:Regigigas_\(Trainer_and_Battle\) a ns1:Ga-Ole .
+
+ns1:Regirock_\(D4-045\) a ns1:Ga-Ole .
+
+ns1:Regirock_\(GR2-038\) a ns1:Ga-Ole .
+
+ns1:Registeel_\(D4-047\) a ns1:Ga-Ole .
+
+ns1:Registeel_\(GR2-040\) a ns1:Ga-Ole .
+
+ns1:Reshiram_\(D3-060\) a ns1:Ga-Ole .
+
+ns1:Reshiram_\(Dash_Trainer_and_Battle\) a ns1:Ga-Ole .
+
+ns1:Reshiram_\(GR3-064\) a ns1:Ga-Ole .
+
+ns1:Reshiram_\(Grand_Rush_Trainer_and_Battle\) a ns1:Ga-Ole .
+
+ns1:Reshiram_\(UL2-056\) a ns1:Ga-Ole .
+
+ns1:Rhydon_\(GR1-055\) a ns1:Ga-Ole .
+
+ns1:Rhydon_\(UL4-043\) a ns1:Ga-Ole .
+
+ns1:Rhyhorn_\(GR1-054\) a ns1:Ga-Ole .
+
+ns1:Rhyhorn_\(UL4-042\) a ns1:Ga-Ole .
+
+ns1:Rhyperior_\(GR1-056\) a ns1:Ga-Ole .
+
+ns1:Rhyperior_\(GR1-057\) a ns1:Ga-Ole .
+
+ns1:Rhyperior_\(UL4-044\) a ns1:Ga-Ole .
+
+ns1:Rhyperior_\(UL4-045\) a ns1:Ga-Ole .
+
+ns1:Rillaboom_\(GR5-003\) a ns1:Ga-Ole .
+
+ns1:Rillaboom_\(GR5-004\) a ns1:Ga-Ole .
+
+ns1:Riolu_\(01-045\) a ns1:Ga-Ole .
+
+ns1:Riolu_\(D1-058\) a ns1:Ga-Ole .
+
+ns1:Riolu_\(D2-056\) a ns1:Ga-Ole .
+
+ns1:Riolu_\(GR2-051\) a ns1:Ga-Ole .
+
+ns1:Riolu_\(GR5-046\) a ns1:Ga-Ole .
+
+ns1:Riolu_\(UL1-057\) a ns1:Ga-Ole .
+
+ns1:Riolu_\(UL5-036\) a ns1:Ga-Ole .
+
+ns1:Rockruff_\(04-018\) a ns1:Ga-Ole .
+
+ns1:Rockruff_\(04-022\) a ns1:Ga-Ole .
+
+ns1:Rockruff_\(CoroCoro_January_2017\) a ns1:Ga-Ole .
+
+ns1:Rockruff_\(D2-034\) a ns1:Ga-Ole .
+
+ns1:Rockruff_\(D2-038\) a ns1:Ga-Ole .
+
+ns1:Rockruff_\(D3-064\) a ns1:Ga-Ole .
+
+ns1:Rockruff_\(D4-054\) a ns1:Ga-Ole .
+
+ns1:Rockruff_\(D4-058\) a ns1:Ga-Ole .
+
+ns1:Roggenrola_\(GR3-044\) a ns1:Ga-Ole .
+
+ns1:Roggenrola_\(UL2-036\) a ns1:Ga-Ole .
+
+ns1:Roselia_\(GR3-023\) a ns1:Ga-Ole .
+
+ns1:Roserade_\(GR3-024\) a ns1:Ga-Ole .
+
+ns1:Roserade_\(GR3-025\) a ns1:Ga-Ole .
+
+ns1:Rotom_\(D1-028\) a ns1:Ga-Ole .
+
+ns1:Rotom_\(D1-029\) a ns1:Ga-Ole .
+
+ns1:Rotom_\(D1-030\) a ns1:Ga-Ole .
+
+ns1:Rowlet_\(03-001\) a ns1:Ga-Ole .
+
+ns1:Rowlet_\(Alola_League_Champion_Course\) a ns1:Ga-Ole .
+
+ns1:Rowlet_\(D1-013\) a ns1:Ga-Ole .
+
+<http://example.org/resource/ga-ole/Rowlet_(Full-Force_Battle_~Solgaleo_&_Lunala_Challenge!~)> a ns1:Ga-Ole .
+
+ns1:Rowlet_\(UL1-013\) a ns1:Ga-Ole .
+
+ns1:Salamence_\(D1-052\) a ns1:Ga-Ole .
+
+ns1:Salamence_\(D1-053\) a ns1:Ga-Ole .
+
+ns1:Salamence_\(D2-046\) a ns1:Ga-Ole .
+
+ns1:Salamence_\(D2-047\) a ns1:Ga-Ole .
+
+ns1:Salamence_\(GR4-047\) a ns1:Ga-Ole .
+
+ns1:Salamence_\(GR4-048\) a ns1:Ga-Ole .
+
+ns1:Salamence_\(UL2-048\) a ns1:Ga-Ole .
+
+ns1:Salamence_\(UL2-049\) a ns1:Ga-Ole .
+
+ns1:Salandit_\(04-010\) a ns1:Ga-Ole .
+
+ns1:Salazzle a ns1:Ga-Ole ;
+    ns2:jname "エンニュート" ;
+    ns2:name "Salazzle" ;
+    ns2:tmname "Ennyūto" ;
+    ns1:diskno "012" ;
+    ns1:energy "2220" ;
+    ns1:grade "3" ;
+    ns1:setno "04" ;
+    ns1:type1 "Poison" ;
+    ns1:type2 "Fire" .
+
+ns1:Salazzle_\(04-011\) a ns1:Ga-Ole .
+
+ns1:Samurott_\(D3-011\) a ns1:Ga-Ole .
+
+ns1:Samurott_\(D3-012\) a ns1:Ga-Ole .
+
+ns1:Samurott_\(GR4-023\) a ns1:Ga-Ole .
+
+ns1:Samurott_\(GR4-024\) a ns1:Ga-Ole .
+
+ns1:Sandile_\(D4-029\) a ns1:Ga-Ole .
+
+ns1:Sandygast_\(D3-013\) a ns1:Ga-Ole .
+
+ns1:Sceptile_\(GR2-003\) a ns1:Ga-Ole .
+
+ns1:Sceptile_\(GR2-004\) a ns1:Ga-Ole .
+
+ns1:Sceptile_\(UL4-003\) a ns1:Ga-Ole .
+
+ns1:Sceptile_\(UL4-004\) a ns1:Ga-Ole .
+
+ns1:Scizor_\(GR1-062\) a ns1:Ga-Ole .
+
+ns1:Scizor_\(UL2-045\) a ns1:Ga-Ole .
+
+ns1:Scorbunny_\(GR5-005\) a ns1:Ga-Ole .
+
+ns1:Scorbunny_\(Trainer_and_Battle\) a ns1:Ga-Ole .
+
+ns1:Scyther_\(GR1-061\) a ns1:Ga-Ole .
+
+ns1:Scyther_\(UL2-044\) a ns1:Ga-Ole .
+
+ns1:Sealeo_\(GR2-023\) a ns1:Ga-Ole .
+
+ns1:Seismitoad_\(GR3-032\) a ns1:Ga-Ole .
+
+ns1:Seismitoad_\(GR3-033\) a ns1:Ga-Ole .
+
+ns1:Serperior_\(D3-003\) a ns1:Ga-Ole .
+
+ns1:Serperior_\(D3-004\) a ns1:Ga-Ole .
+
+ns1:Serperior_\(GR4-015\) a ns1:Ga-Ole .
+
+ns1:Serperior_\(GR4-016\) a ns1:Ga-Ole .
+
+ns1:Servine_\(D3-002\) a ns1:Ga-Ole .
+
+ns1:Servine_\(GR4-014\) a ns1:Ga-Ole .
+
+ns1:Shaymin_\(UL5-055\) a ns1:Ga-Ole .
+
+ns1:Shaymin_\(UL5-056\) a ns1:Ga-Ole .
+
+ns1:Shelgon_\(D1-051\) a ns1:Ga-Ole .
+
+ns1:Shelgon_\(D2-045\) a ns1:Ga-Ole .
+
+ns1:Shelgon_\(GR4-046\) a ns1:Ga-Ole .
+
+ns1:Shelgon_\(UL2-047\) a ns1:Ga-Ole .
+
+ns1:Shinx_\(D1-046\) a ns1:Ga-Ole .
+
+ns1:Silvally_\(04-037FR\) a ns1:Ga-Ole .
+
+ns1:Silvally_\(04-037GR\) a ns1:Ga-Ole .
+
+ns1:Silvally_\(04-037NM\) a ns1:Ga-Ole .
+
+ns1:Silvally_\(04-037WT\) a ns1:Ga-Ole .
+
+<http://example.org/resource/ga-ole/Silvally_(Alola_Region's_Friends_Course)> a ns1:Ga-Ole .
+
+ns1:Silvally_\(D3-068\) a ns1:Ga-Ole .
+
+ns1:Silvally_\(D4-062\) a ns1:Ga-Ole .
+
+ns1:Silvally_\(D5-063\) a ns1:Ga-Ole .
+
+ns1:Silvally_\(GR2-062\) a ns1:Ga-Ole .
+
+<http://example.org/resource/ga-ole/Silvally_(Gather!_Battle_Tournament)> a ns1:Ga-Ole .
+
+ns1:Silvally_\(Pokémon_Ga-Olé_Get_Campaign\) a ns1:Ga-Ole .
+
+ns1:Skarmory_\(D5-028\) a ns1:Ga-Ole .
+
+ns1:Skarmory_\(D5-029\) a ns1:Ga-Ole .
+
+ns1:Sliggoo_\(02-024\) a ns1:Ga-Ole .
+
+ns1:Sliggoo_\(D3-036\) a ns1:Ga-Ole .
+
+ns1:Slowbro_\(02-030\) a ns1:Ga-Ole .
+
+ns1:Slowbro_\(02-031\) a ns1:Ga-Ole .
+
+ns1:Slowbro_\(UL5-017\) a ns1:Ga-Ole .
+
+ns1:Slowking_\(UL5-018\) a ns1:Ga-Ole .
+
+ns1:Slowking_\(UL5-019\) a ns1:Ga-Ole .
+
+ns1:Slowpoke_\(02-029\) a ns1:Ga-Ole .
+
+ns1:Slowpoke_\(UL5-016\) a ns1:Ga-Ole .
+
+ns1:Sneasel_\(03-019\) a ns1:Ga-Ole .
+
+ns1:Sneasel_\(D5-019\) a ns1:Ga-Ole .
+
+ns1:Snivy_\(D3-001\) a ns1:Ga-Ole .
+
+ns1:Snivy_\(GR4-013\) a ns1:Ga-Ole .
+
+ns1:Snorlax_\(03-032\) a ns1:Ga-Ole .
+
+ns1:Snorlax_\(03-033\) a ns1:Ga-Ole .
+
+ns1:Snorlax_\(D3-049\) a ns1:Ga-Ole .
+
+ns1:Snorlax_\(D3-050\) a ns1:Ga-Ole .
+
+ns1:Snorlax_\(Namco_Get_Campaign\) a ns1:Ga-Ole .
+
+<http://example.org/resource/ga-ole/Snorlax_(Pokémon_Ga-Olé_Right_Now_Z-Move!_Set)> a ns1:Ga-Ole .
+
+ns1:Snorlax_\(UL2-030\) a ns1:Ga-Ole .
+
+ns1:Snorlax_\(UL2-031\) a ns1:Ga-Ole .
+
+ns1:Sobble_\(GR5-009\) a ns1:Ga-Ole .
+
+ns1:Solgaleo_\(03-036\) a ns1:Ga-Ole .
+
+ns1:Solgaleo_\(05-036\) a ns1:Ga-Ole .
+
+ns1:Solgaleo_\(D2-076\) a ns1:Ga-Ole .
+
+ns1:Solgaleo_\(D2-077\) a ns1:Ga-Ole .
+
+ns1:Solgaleo_\(D3-062\) a ns1:Ga-Ole .
+
+<http://example.org/resource/ga-ole/Solgaleo_(Full-Force_Battle_~Legendary_Pokémon_Challenge!~)> a ns1:Ga-Ole .
+
+<http://example.org/resource/ga-ole/Solgaleo_(Full-Force_Battle_~Solgaleo_&_Lunala_Challenge!~)> a ns1:Ga-Ole .
+
+ns1:Solgaleo_\(GR1-070\) a ns1:Ga-Ole .
+
+<http://example.org/resource/ga-ole/Solgaleo_(Gather!_Battle_Tournament)> a ns1:Ga-Ole .
+
+<http://example.org/resource/ga-ole/Solgaleo_(McDonald's_Happy_Meal_2017)> a ns1:Ga-Ole .
+
+ns1:Solgaleo_\(Pokémon_Z-Power_Ring_Solgaleo_Set\) a ns1:Ga-Ole .
+
+ns1:Solgaleo_\(Special_Disk_Present_Campaign\) a ns1:Ga-Ole .
+
+ns1:Solgaleo_\(Trainer_and_Battle\) a ns1:Ga-Ole .
+
+ns1:Solrock_\(02-011\) a ns1:Ga-Ole .
+
+ns1:Solrock_\(GR2-036\) a ns1:Ga-Ole .
+
+ns1:Solrock_\(GR2-037\) a ns1:Ga-Ole .
+
+ns1:Spheal_\(GR2-022\) a ns1:Ga-Ole .
+
+ns1:Squirtle_\(01-009\) a ns1:Ga-Ole .
+
+ns1:Squirtle_\(D1-009\) a ns1:Ga-Ole .
+
+ns1:Squirtle_\(D2-009\) a ns1:Ga-Ole .
+
+ns1:Squirtle_\(GR1-009\) a ns1:Ga-Ole .
+
+ns1:Squirtle_\(UL3-010\) a ns1:Ga-Ole .
+
+ns1:Stakataka_\(GR4-068\) a ns1:Ga-Ole .
+
+ns1:Stakataka_\(UL3-067\) a ns1:Ga-Ole .
+
+ns1:Starmie_\(D3-029\) a ns1:Ga-Ole .
+
+ns1:Starmie_\(D3-030\) a ns1:Ga-Ole .
+
+ns1:Staryu_\(D3-028\) a ns1:Ga-Ole .
+
+ns1:Steelix_\(D2-062\) a ns1:Ga-Ole .
+
+ns1:Steelix_\(D2-063\) a ns1:Ga-Ole .
+
+ns1:Steelix_\(GR3-057\) a ns1:Ga-Ole .
+
+ns1:Steelix_\(GR3-058\) a ns1:Ga-Ole .
+
+ns1:Steelix_\(UL3-048\) a ns1:Ga-Ole .
+
+ns1:Steelix_\(UL3-049\) a ns1:Ga-Ole .
+
+ns1:Steenee_\(D4-034\) a ns1:Ga-Ole .
+
+ns1:Steenee_\(UL2-041\) a ns1:Ga-Ole .
+
+ns1:Stoutland_\(D4-014\) a ns1:Ga-Ole .
+
+ns1:Stufful_\(04-004\) a ns1:Ga-Ole .
+
+ns1:Stufful_\(D1-043\) a ns1:Ga-Ole .
+
+ns1:Stufful_\(D5-039\) a ns1:Ga-Ole .
+
+ns1:Stunfisk_\(01-027\) a ns1:Ga-Ole .
+
+ns1:Sudowoodo_\(UL1-035\) a ns1:Ga-Ole .
+
+ns1:Sudowoodo_\(UL1-036\) a ns1:Ga-Ole .
+
+ns1:Suicune_\(D1-069\) a ns1:Ga-Ole .
+
+ns1:Suicune_\(D1-070\) a ns1:Ga-Ole .
+
+ns1:Suicune_\(GR1-067\) a ns1:Ga-Ole .
+
+ns1:Suicune_\(Legendary_Pokémon_Power_Up_Set\) a ns1:Ga-Ole .
+
+ns1:Swalot_\(GR2-017\) a ns1:Ga-Ole .
+
+ns1:Swalot_\(GR2-018\) a ns1:Ga-Ole .
+
+ns1:Swampert_\(GR2-011\) a ns1:Ga-Ole .
+
+ns1:Swampert_\(GR2-012\) a ns1:Ga-Ole .
+
+ns1:Swampert_\(UL4-011\) a ns1:Ga-Ole .
+
+ns1:Swampert_\(UL4-012\) a ns1:Ga-Ole .
+
+ns1:Swinub_\(UL5-028\) a ns1:Ga-Ole .
+
+ns1:Swoobat_\(GR4-032\) a ns1:Ga-Ole .
+
+ns1:Swoobat_\(GR4-033\) a ns1:Ga-Ole .
+
+ns1:Sylveon_\(GR5-031\) a ns1:Ga-Ole .
+
+<http://example.org/resource/ga-ole/Sylveon_(Only_Eevee_Course_~Part_3~)> a ns1:Ga-Ole .
+
+ns1:Sylveon_\(Trainer_and_Battle\) a ns1:Ga-Ole .
+
+ns1:Sylveon_\(UL3-018\) a ns1:Ga-Ole .
+
+ns1:Sylveon_\(UL3-019\) a ns1:Ga-Ole .
+
+ns1:Talonflame_\(02-022\) a ns1:Ga-Ole .
+
+ns1:Talonflame_\(D4-027\) a ns1:Ga-Ole .
+
+ns1:Talonflame_\(D4-028\) a ns1:Ga-Ole .
+
+ns1:Talonflame_\(Pokémon_Ga-Olé_Get_Campaign\) a ns1:Ga-Ole .
+
+ns1:Tangela_\(UL3-032\) a ns1:Ga-Ole .
+
+ns1:Tangrowth_\(UL3-033\) a ns1:Ga-Ole .
+
+ns1:Tangrowth_\(UL3-034\) a ns1:Ga-Ole .
+
+ns1:Tapu_Bulu_\(05-032\) a ns1:Ga-Ole .
+
+ns1:Tapu_Bulu_\(05-033\) a ns1:Ga-Ole .
+
+<http://example.org/resource/ga-ole/Tapu_Bulu_(Island's_Guardian_Deity_Challenge_Course)> a ns1:Ga-Ole .
+
+<http://example.org/resource/ga-ole/Tapu_Bulu_(Pokémon_Sun_and_Moon_Summon!_Campaign)> a ns1:Ga-Ole .
+
+ns1:Tapu_Fini_\(05-034\) a ns1:Ga-Ole .
+
+ns1:Tapu_Fini_\(05-035\) a ns1:Ga-Ole .
+
+<http://example.org/resource/ga-ole/Tapu_Fini_(Island's_Guardian_Deity_Challenge_Course)> a ns1:Ga-Ole .
+
+<http://example.org/resource/ga-ole/Tapu_Fini_(Pokémon_Sun_and_Moon_Summon!_Campaign)> a ns1:Ga-Ole .
+
+ns1:Tapu_Koko_\(03-038\) a ns1:Ga-Ole .
+
+ns1:Tapu_Koko_\(04-033\) a ns1:Ga-Ole .
+
+<http://example.org/resource/ga-ole/Tapu_Koko_(Island's_Guardian_Deity_Challenge_Course)> a ns1:Ga-Ole .
+
+<http://example.org/resource/ga-ole/Tapu_Koko_(Pokémon_Sun_and_Moon_Summon!_Campaign)> a ns1:Ga-Ole .
+
+ns1:Tapu_Koko_\(Pokémon_Z-Ring\) a ns1:Ga-Ole .
+
+ns1:Tapu_Lele_\(05-030\) a ns1:Ga-Ole .
+
+ns1:Tapu_Lele_\(05-031\) a ns1:Ga-Ole .
+
+<http://example.org/resource/ga-ole/Tapu_Lele_(Island's_Guardian_Deity_Challenge_Course)> a ns1:Ga-Ole .
+
+<http://example.org/resource/ga-ole/Tapu_Lele_(Pokémon_Sun_and_Moon_Summon!_Campaign)> a ns1:Ga-Ole .
+
+ns1:Tauros_\(D1-034\) a ns1:Ga-Ole .
+
+ns1:Tauros_\(D1-035\) a ns1:Ga-Ole .
+
+ns1:Tauros_\(Pokémon_Ga-Olé_Get_Campaign\) a ns1:Ga-Ole .
+
+ns1:Tentacool_\(UL2-008\) a ns1:Ga-Ole .
+
+ns1:Tentacruel_\(UL2-009\) a ns1:Ga-Ole .
+
+ns1:Tentacruel_\(UL2-010\) a ns1:Ga-Ole .
+
+ns1:Tepig_\(D3-005\) a ns1:Ga-Ole .
+
+ns1:Tepig_\(GR4-017\) a ns1:Ga-Ole .
+
+ns1:Terrakion_\(D3-058\) a ns1:Ga-Ole .
+
+ns1:Terrakion_\(GR5-041\) a ns1:Ga-Ole .
+
+ns1:Terrakion_\(Ga-Olé_File_Set_DX\) a ns1:Ga-Ole .
+
+ns1:Thundurus_\(GR3-039\) a ns1:Ga-Ole .
+
+ns1:Thundurus_\(GR3-042\) a ns1:Ga-Ole .
+
+ns1:Thundurus_\(UL2-052\) a ns1:Ga-Ole .
+
+ns1:Thundurus_\(UL2-053\) a ns1:Ga-Ole .
+
+ns1:Thwackey_\(GR5-002\) a ns1:Ga-Ole .
+
+ns1:Togedemaru_\(04-013\) a ns1:Ga-Ole .
+
+ns1:Togedemaru_\(04-014\) a ns1:Ga-Ole .
+
+ns1:Togekiss_\(GR1-023\) a ns1:Ga-Ole .
+
+ns1:Togekiss_\(GR1-024\) a ns1:Ga-Ole .
+
+ns1:Togepi_\(GR1-021\) a ns1:Ga-Ole .
+
+ns1:Togetic_\(GR1-022\) a ns1:Ga-Ole .
+
+ns1:Torchic_\(GR2-005\) a ns1:Ga-Ole .
+
+ns1:Torchic_\(UL4-005\) a ns1:Ga-Ole .
+
+ns1:Tornadus_\(GR3-038\) a ns1:Ga-Ole .
+
+ns1:Tornadus_\(GR3-041\) a ns1:Ga-Ole .
+
+ns1:Tornadus_\(UL2-050\) a ns1:Ga-Ole .
+
+ns1:Tornadus_\(UL2-051\) a ns1:Ga-Ole .
+
+ns1:Torracat_\(03-006\) a ns1:Ga-Ole .
+
+ns1:Torracat_\(Alola_League_Champion_Course\) a ns1:Ga-Ole .
+
+ns1:Torracat_\(D1-018\) a ns1:Ga-Ole .
+
+ns1:Torracat_\(UL1-018\) a ns1:Ga-Ole .
+
+ns1:Torterra_\(02-003\) a ns1:Ga-Ole .
+
+ns1:Torterra_\(04-030\) a ns1:Ga-Ole .
+
+ns1:Torterra_\(GR4-003\) a ns1:Ga-Ole .
+
+ns1:Torterra_\(GR4-004\) a ns1:Ga-Ole .
+
+ns1:Torterra_\(UL5-003\) a ns1:Ga-Ole .
+
+ns1:Torterra_\(UL5-004\) a ns1:Ga-Ole .
+
+ns1:Totodile_\(GR3-009\) a ns1:Ga-Ole .
+
+ns1:Totodile_\(UL1-009\) a ns1:Ga-Ole .
+
+ns1:Totodile_\(UL4-021\) a ns1:Ga-Ole .
+
+ns1:Toucannon_\(D2-015\) a ns1:Ga-Ole .
+
+ns1:Toxapex_\(D2-023\) a ns1:Ga-Ole .
+
+ns1:Trapinch_\(UL1-040\) a ns1:Ga-Ole .
+
+ns1:Treecko_\(GR2-001\) a ns1:Ga-Ole .
+
+ns1:Treecko_\(UL4-001\) a ns1:Ga-Ole .
+
+ns1:Trubbish_\(GR4-034\) a ns1:Ga-Ole .
+
+ns1:Trumbeak_\(D2-014\) a ns1:Ga-Ole .
+
+ns1:Tsareena_\(D4-035\) a ns1:Ga-Ole .
+
+ns1:Tsareena_\(D4-036\) a ns1:Ga-Ole .
+
+ns1:Tsareena_\(UL2-042\) a ns1:Ga-Ole .
+
+ns1:Tsareena_\(UL2-043\) a ns1:Ga-Ole .
+
+ns1:Turtonator_\(D2-042\) a ns1:Ga-Ole .
+
+ns1:Turtonator_\(D2-043\) a ns1:Ga-Ole .
+
+ns1:Turtonator_\(GR2-045\) a ns1:Ga-Ole .
+
+ns1:Turtonator_\(GR2-046\) a ns1:Ga-Ole .
+
+ns1:Turtonator_\(Pokémon_Ga-Olé_Get_Campaign\) a ns1:Ga-Ole .
+
+ns1:Turtonator_\(UL1-051\) a ns1:Ga-Ole .
+
+ns1:Turtonator_\(UL1-052\) a ns1:Ga-Ole .
+
+ns1:Turtwig_\(02-001\) a ns1:Ga-Ole .
+
+ns1:Turtwig_\(GR4-001\) a ns1:Ga-Ole .
+
+ns1:Turtwig_\(UL5-001\) a ns1:Ga-Ole .
+
+ns1:Tympole_\(GR3-030\) a ns1:Ga-Ole .
+
+ns1:Tynamo_\(D4-041\) a ns1:Ga-Ole .
+
+<http://example.org/resource/ga-ole/Type:_Null> a ns1:Ga-Ole ;
+    ns2:image "Type_Null_04-036.png" ;
+    ns2:jname "タイプ：ヌル" ;
+    ns2:name "Type:_Null" ;
+    ns2:tmname "Type:_Null" ;
+    ns1:diskno "036" ;
+    ns1:energy "2780" ;
+    ns1:grade "4-5" ;
+    ns1:setno "04" ;
+    ns1:type1 "Normal" .
+
+<http://example.org/resource/ga-ole/Type:_Null_(04-035)> a ns1:Ga-Ole .
+
+ns1:Typhlosion_\(GR3-007\) a ns1:Ga-Ole .
+
+ns1:Typhlosion_\(GR3-008\) a ns1:Ga-Ole .
+
+ns1:Typhlosion_\(UL1-007\) a ns1:Ga-Ole .
+
+ns1:Typhlosion_\(UL1-008\) a ns1:Ga-Ole .
+
+ns1:Typhlosion_\(UL4-019\) a ns1:Ga-Ole .
+
+ns1:Typhlosion_\(UL4-020\) a ns1:Ga-Ole .
+
+ns1:Tyranitar_\(D3-041\) a ns1:Ga-Ole .
+
+ns1:Tyranitar_\(D3-042\) a ns1:Ga-Ole .
+
+ns1:Tyranitar_\(Pokémon_Ga-Olé_Get_Campaign\) a ns1:Ga-Ole .
+
+ns1:Tyranitar_\(UL5-034\) a ns1:Ga-Ole .
+
+ns1:Tyranitar_\(UL5-035\) a ns1:Ga-Ole .
+
+ns1:Umbreon_\(GR2-032\) a ns1:Ga-Ole .
+
+ns1:Umbreon_\(GR2-033\) a ns1:Ga-Ole .
+
+<http://example.org/resource/ga-ole/Umbreon_(Only_Eevee_Course_~Part_2~)> a ns1:Ga-Ole .
+
+ns1:Umbreon_\(UL2-003\) a ns1:Ga-Ole .
+
+ns1:Umbreon_\(UL2-004\) a ns1:Ga-Ole .
+
+ns1:Uxie_\(UL4-054\) a ns1:Ga-Ole .
+
+ns1:Vanillish_\(UL2-022\) a ns1:Ga-Ole .
+
+ns1:Vanillite_\(UL2-021\) a ns1:Ga-Ole .
+
+ns1:Vanilluxe_\(UL2-023\) a ns1:Ga-Ole .
+
+ns1:Vanilluxe_\(UL2-024\) a ns1:Ga-Ole .
+
+ns1:Vaporeon_\(05-005\) a ns1:Ga-Ole .
+
+ns1:Vaporeon_\(05-006\) a ns1:Ga-Ole .
+
+ns1:Vaporeon_\(GR1-041\) a ns1:Ga-Ole .
+
+ns1:Vaporeon_\(GR1-042\) a ns1:Ga-Ole .
+
+ns1:Vaporeon_\(Only_Eevee_Course\) a ns1:Ga-Ole .
+
+ns1:Vaporeon_\(UL1-028\) a ns1:Ga-Ole .
+
+ns1:Vaporeon_\(UL1-029\) a ns1:Ga-Ole .
+
+ns1:Venomoth_\(UL3-021\) a ns1:Ga-Ole .
+
+ns1:Venomoth_\(UL3-022\) a ns1:Ga-Ole .
+
+ns1:Venonat_\(UL3-020\) a ns1:Ga-Ole .
+
+ns1:Venusaur_\(01-003\) a ns1:Ga-Ole .
+
+ns1:Venusaur_\(01-004\) a ns1:Ga-Ole .
+
+ns1:Venusaur_\(D1-003\) a ns1:Ga-Ole .
+
+ns1:Venusaur_\(D1-004\) a ns1:Ga-Ole .
+
+ns1:Venusaur_\(D2-003\) a ns1:Ga-Ole .
+
+ns1:Venusaur_\(D2-004\) a ns1:Ga-Ole .
+
+ns1:Venusaur_\(Fresh_Trainer_Battle\) a ns1:Ga-Ole .
+
+ns1:Venusaur_\(GR1-003\) a ns1:Ga-Ole .
+
+ns1:Venusaur_\(GR1-004\) a ns1:Ga-Ole .
+
+ns1:Venusaur_\(UL3-003\) a ns1:Ga-Ole .
+
+ns1:Venusaur_\(UL3-004\) a ns1:Ga-Ole .
+
+ns1:Vespiquen_\(GR3-014\) a ns1:Ga-Ole .
+
+ns1:Vespiquen_\(GR3-015\) a ns1:Ga-Ole .
+
+ns1:Vibrava_\(UL1-041\) a ns1:Ga-Ole .
+
+ns1:Victini_\(UL5-057\) a ns1:Ga-Ole .
+
+ns1:Victreebel_\(D5-012\) a ns1:Ga-Ole .
+
+ns1:Vikavolt_\(03-015\) a ns1:Ga-Ole .
+
+ns1:Vikavolt_\(03-016\) a ns1:Ga-Ole .
+
+ns1:Vikavolt_\(D3-033\) a ns1:Ga-Ole .
+
+ns1:Vikavolt_\(D3-034\) a ns1:Ga-Ole .
+
+<http://example.org/resource/ga-ole/Vikavolt_(Super_Strong!_Trainer_Battle)> a ns1:Ga-Ole .
+
+ns1:Virizion_\(D3-059\) a ns1:Ga-Ole .
+
+ns1:Virizion_\(GR5-042\) a ns1:Ga-Ole .
+
+ns1:Virizion_\(Ga-Olé_File_Set_DX\) a ns1:Ga-Ole .
+
+ns1:Volcanion_\(01-055\) a ns1:Ga-Ole .
+
+ns1:Volcanion_\(D5-053\) a ns1:Ga-Ole .
+
+ns1:Volcanion_\(Movie_2016\) a ns1:Ga-Ole .
+
+ns1:Volcanion_\(Trainer_and_Battle\) a ns1:Ga-Ole .
+
+ns1:Volcarona_\(UL1-038\) a ns1:Ga-Ole .
+
+ns1:Volcarona_\(UL1-039\) a ns1:Ga-Ole .
+
+ns1:Vulpix_\(GR1-013\) a ns1:Ga-Ole .
+
+ns1:Walrein_\(GR2-024\) a ns1:Ga-Ole .
+
+ns1:Walrein_\(GR2-025\) a ns1:Ga-Ole .
+
+ns1:Wartortle_\(01-010\) a ns1:Ga-Ole .
+
+ns1:Wartortle_\(D1-010\) a ns1:Ga-Ole .
+
+ns1:Wartortle_\(D2-010\) a ns1:Ga-Ole .
+
+ns1:Wartortle_\(GR1-010\) a ns1:Ga-Ole .
+
+ns1:Wartortle_\(UL3-011\) a ns1:Ga-Ole .
+
+ns1:Weavile_\(03-020\) a ns1:Ga-Ole .
+
+ns1:Weavile_\(03-021\) a ns1:Ga-Ole .
+
+ns1:Weavile_\(D5-020\) a ns1:Ga-Ole .
+
+ns1:Weavile_\(D5-021\) a ns1:Ga-Ole .
+
+ns1:Weepinbell_\(D5-011\) a ns1:Ga-Ole .
+
+ns1:Weezing_\(02-015\) a ns1:Ga-Ole .
+
+ns1:Weezing_\(D1-039\) a ns1:Ga-Ole .
+
+ns1:Whimsicott_\(GR5-029\) a ns1:Ga-Ole .
+
+ns1:Whimsicott_\(GR5-030\) a ns1:Ga-Ole .
+
+ns1:White_Kyurem_\(CoroCoro_Special_Course\) a ns1:Ga-Ole .
+
+ns1:White_Kyurem_\(GR5-062\) a ns1:Ga-Ole .
+
+<http://example.org/resource/ga-ole/White_Kyurem_(Gather!_Battle_Tournament)> a ns1:Ga-Ole .
+
+ns1:White_Kyurem_\(UL3-064\) a ns1:Ga-Ole .
+
+ns1:Wigglytuff_\(UL1-046\) a ns1:Ga-Ole .
+
+ns1:Wigglytuff_\(UL1-047\) a ns1:Ga-Ole .
+
+ns1:Wimpod_\(D5-032\) a ns1:Ga-Ole .
+
+ns1:Wingull_\(D4-009\) a ns1:Ga-Ole .
+
+ns1:Woobat_\(GR4-031\) a ns1:Ga-Ole .
+
+ns1:Wooper_\(GR2-013\) a ns1:Ga-Ole .
+
+ns1:Xerneas_\(01-056\) a ns1:Ga-Ole .
+
+ns1:Xerneas_\(02-037\) a ns1:Ga-Ole .
+
+ns1:Xerneas_\(GR2-060\) a ns1:Ga-Ole .
+
+ns1:Xerneas_\(GR4-065\) a ns1:Ga-Ole .
+
+ns1:Xerneas_\(Grand_Rush_Trainer_and_Battle\) a ns1:Ga-Ole .
+
+ns1:Xerneas_\(Ultra_Legend_Trainer_and_Battle\) a ns1:Ga-Ole .
+
+ns1:Xurkitree_\(GR2-064\) a ns1:Ga-Ole .
+
+ns1:Xurkitree_\(UL2-063\) a ns1:Ga-Ole .
+
+ns1:Yungoos_\(04-007\) a ns1:Ga-Ole .
+
+ns1:Yungoos_\(D5-007\) a ns1:Ga-Ole .
+
+ns1:Yveltal a ns1:Ga-Ole ;
+    ns2:jname "ゼルネアス" ;
+    ns2:name "Yveltal" ;
+    ns2:tmname "Yveltal" ;
+    ns1:diskno "038",
+        "057" ;
+    ns1:energy "3300",
+        "3680" ;
+    ns1:grade "4",
+        "5" ;
+    ns1:setno "01",
+        "02" ;
+    ns1:size "300" ;
+    ns1:symbol "Legendary" ;
+    ns1:type1 "Dark" ;
+    ns1:type2 "Flying" .
+
+ns1:Yveltal_\(GR2-061\) a ns1:Ga-Ole .
+
+ns1:Yveltal_\(GR4-066\) a ns1:Ga-Ole .
+
+ns1:Yveltal_\(Grand_Rush_Trainer_and_Battle\) a ns1:Ga-Ole .
+
+ns1:Yveltal_\(Ultra_Legend_Trainer_and_Battle\) a ns1:Ga-Ole .
+
+ns1:Zapdos_\(GR3-060\) a ns1:Ga-Ole .
+
+<http://example.org/resource/ga-ole/Zapdos_(Gather!_Battle_Tournament)> a ns1:Ga-Ole .
+
+ns1:Zapdos_\(Legendary_Pokémon_Power_Up_Set\) a ns1:Ga-Ole .
+
+ns1:Zapdos_\(UL3-059\) a ns1:Ga-Ole .
+
+ns1:Zekrom_\(D3-061\) a ns1:Ga-Ole .
+
+ns1:Zekrom_\(Dash_Trainer_and_Battle\) a ns1:Ga-Ole .
+
+ns1:Zekrom_\(GR3-065\) a ns1:Ga-Ole .
+
+ns1:Zekrom_\(Grand_Rush_Trainer_and_Battle\) a ns1:Ga-Ole .
+
+ns1:Zekrom_\(UL2-057\) a ns1:Ga-Ole .
+
+ns1:Zeraora_\(GR5-XXX\) a ns1:Ga-Ole .
+
+ns1:Zeraora_\(Movie_2018\) a ns1:Ga-Ole .
+
+ns1:Zeraora_\(UL3-066\) a ns1:Ga-Ole .
+
+ns1:Zubat_\(D5-013\) a ns1:Ga-Ole .
+
+ns1:Zweilous_\(D5-036\) a ns1:Ga-Ole .
+
+ns1:Zygarde_\(01-058\) a ns1:Ga-Ole .
+
+ns1:Zygarde_\(01-059\) a ns1:Ga-Ole .
+
+ns1:Zygarde_\(02-039\) a ns1:Ga-Ole .
+
+ns1:Zygarde_\(02-040\) a ns1:Ga-Ole .
+
+ns1:Zygarde_\(GR5-064\) a ns1:Ga-Ole .
+
+ns1:Zygarde_\(Lotte_Candy_Assortment\) a ns1:Ga-Ole .
+
+ns1:Zygarde_\(UL1-066\) a ns1:Ga-Ole .
+
+ns1:Zygarde_\(UL1-067\) a ns1:Ga-Ole .
+
+ns1:Zygarde_\(UL1-068\) a ns1:Ga-Ole .
+

@@ -2,17 +2,15 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix schema: <http://schema.org/> .
-@prefix local: <http://example.org/resource/move/> .
-@prefix localRegion: <http://example.org/resource/region/> .
-@prefix localLocation: <http://example.org/resource/location/> .
-@prefix localCharacter: <http://example.org/resource/character/> .
+@prefix local: <http://example.org/resource/> .
+@prefix localProperty: <http://example.org/property/> .
 
 local:Move a rdfs:Class ;
     rdfs:label "Move"@en ;
     rdfs:comment "A class representing a Pokémon move."@en .
 
 # Properties for Move
-local:n a rdf:Property ;
+localProperty:n a rdf:Property ;
     rdfs:label "Move Number"@en ;
     rdfs:comment "The number assigned to the move."@en ;
     rdfs:domain local:Move ;
@@ -24,211 +22,211 @@ schema:name a rdf:Property ;
     rdfs:domain local:Move ;
     rdfs:range xsd:string .
 
-local:jname a rdf:Property ;
+localProperty:jname a rdf:Property ;
     rdfs:label "Japanese Name"@en ;
     rdfs:comment "The Japanese name of the move."@en ;
     rdfs:domain local:Move ;
     rdfs:range xsd:string .
 
-local:jtrans a rdf:Property ;
+localProperty:jtrans a rdf:Property ;
     rdfs:label "Japanese Translation"@en ;
     rdfs:comment "The translation of the Japanese name of the move."@en ;
     rdfs:domain local:Move ;
     rdfs:range xsd:string .
 
-local:jtranslit a rdf:Property ;
+localProperty:jtranslit a rdf:Property ;
     rdfs:label "Japanese Translit."@en ;
     rdfs:comment "The transliteration of the Japanese name."@en ;
     rdfs:domain local:Move ;
     rdfs:range xsd:string .
 
-local:gameimage a rdf:Property ;
+localProperty:gameimage a rdf:Property ;
     rdfs:label "Game Image"@en ;
     rdfs:comment "A screenshot showing the move."@en ;
     rdfs:domain local:Move ;
     rdfs:range xsd:anyURI .
 
-local:gameimage2 a rdf:Property ;
+localProperty:gameimage2 a rdf:Property ;
     rdfs:label "Second Game Image"@en ;
     rdfs:comment "An optional second screenshot showing the move."@en ;
     rdfs:domain local:Move ;
     rdfs:range xsd:anyURI .
 
-local:gameimagewidth a rdf:Property ;
+localProperty:gameimagewidth a rdf:Property ;
     rdfs:label "Game Image Width"@en ;
     rdfs:comment "Width of the game images in pixels."@en ;
     rdfs:domain local:Move ;
     rdfs:range xsd:string .
 
-local:type a rdf:Property ;
+localProperty:type a rdf:Property ;
     rdfs:label "Type"@en ;
     rdfs:comment "The type of the move, e.g., Fire, Water."@en ;
     rdfs:domain local:Move ;
-    rdfs:range local:type .
+    rdfs:range rdf:type .
 
-local:damagecategory a rdf:Property ;
+localProperty:damagecategory a rdf:Property ;
     rdfs:label "Damage Category"@en ;
     rdfs:comment "The category of the move: Physical, Special, or Status."@en ;
     rdfs:domain local:Move ;
-    rdfs:range local:damagecategory .
+    rdfs:range xsd:string .
 
-local:basepp a rdf:Property ;
+localProperty:basepp a rdf:Property ;
     rdfs:label "Base PP"@en ;
     rdfs:comment "The base Power Points (PP) of the move."@en ;
     rdfs:domain local:Move ;
     rdfs:range xsd:string .
 
-local:maxpp a rdf:Property ;
+localProperty:maxpp a rdf:Property ;
     rdfs:label "Max PP"@en ;
     rdfs:comment "The maximum Power Points (PP) of the move."@en ;
     rdfs:domain local:Move ;
     rdfs:range xsd:integer .
 
-local:power a rdf:Property ;
+localProperty:power a rdf:Property ;
     rdfs:label "Power"@en ;
     rdfs:comment "The power of the move."@en ;
     rdfs:domain local:Move ;
     rdfs:range xsd:integer .
 
-local:accuracy a rdf:Property ;
+localProperty:accuracy a rdf:Property ;
     rdfs:label "Accuracy"@en ;
     rdfs:comment "The accuracy of the move."@en ;
     rdfs:domain local:Move ;
     rdfs:range xsd:integer .
 
-local:priority a rdf:Property ;
+localProperty:priority a rdf:Property ;
     rdfs:label "Priority"@en ;
     rdfs:comment "The priority of the move, ranging from -7 to +7."@en ;
     rdfs:domain local:Move ;
     rdfs:range xsd:integer .
 
-local:touches a rdf:Property ;
+localProperty:touches a rdf:Property ;
     rdfs:label "Touches Opponent"@en ;
     rdfs:comment "Whether the move makes contact with the opponent."@en ;
     rdfs:domain local:Move ;
     rdfs:range xsd:boolean .
 
-local:protect a rdf:Property ;
+localProperty:protect a rdf:Property ;
     rdfs:label "Protect Affected"@en ;
     rdfs:comment "Whether the move is affected by Protect."@en ;
     rdfs:domain local:Move ;
     rdfs:range xsd:boolean .
 
-local:magiccoat a rdf:Property ;
+localProperty:magiccoat a rdf:Property ;
     rdfs:label "Magic Coat Affected"@en ;
     rdfs:comment "Whether the move is affected by Magic Coat or Magic Bounce."@en ;
     rdfs:domain local:Move ;
     rdfs:range xsd:boolean .
 
-local:snatch a rdf:Property ;
+localProperty:snatch a rdf:Property ;
     rdfs:label "Snatch Affected"@en ;
     rdfs:comment "Whether the move is affected by Snatch."@en ;
     rdfs:domain local:Move ;
     rdfs:range xsd:boolean .
 
-local:mirrormove a rdf:Property ;
+localProperty:mirrormove a rdf:Property ;
     rdfs:label "Mirror Move Affected"@en ;
     rdfs:comment "Whether the move is affected by Mirror Move."@en ;
     rdfs:domain local:Move ;
     rdfs:range xsd:boolean .
 
-local:kingsrock a rdf:Property ;
+localProperty:kingsrock a rdf:Property ;
     rdfs:label "King's Rock Affected"@en ;
     rdfs:comment "Whether the move is affected by King's Rock."@en ;
     rdfs:domain local:Move ;
     rdfs:range xsd:boolean .
 
-local:sound a rdf:Property ;
+localProperty:sound a rdf:Property ;
     rdfs:label "Sound Move"@en ;
     rdfs:comment "Whether the move is considered a sound-based move."@en ;
     rdfs:domain local:Move ;
     rdfs:range xsd:boolean .
 
-local:field a rdf:Property ;
+localProperty:field a rdf:Property ;
     rdfs:label "Usable Outside of Battle"@en ;
     rdfs:comment "Whether the move is usable outside of battle."@en ;
     rdfs:domain local:Move ;
     rdfs:range xsd:boolean .
 
-local:target a rdf:Property ;
+localProperty:target a rdf:Property ;
     rdfs:label "Target"@en ;
     rdfs:comment "The range or targets of the move."@en ;
     rdfs:domain local:Move ;
     rdfs:range xsd:string .
 
-local:gen a rdf:Property ;
+localProperty:gen a rdf:Property ;
     rdfs:label "Generation"@en ;
     rdfs:comment "The generation in which the move was introduced."@en ;
     rdfs:domain local:Move ;
     rdfs:range xsd:string .
 
-local:category a rdf:Property ;
+localProperty:category a rdf:Property ;
     rdfs:label "Contest Category"@en ;
     rdfs:comment "The contest category of the move, e.g., Cool, Beautiful."@en ;
     rdfs:domain local:Move ;
     rdfs:range xsd:string .
 
-local:appeal a rdf:Property ;
+localProperty:appeal a rdf:Property ;
     rdfs:label "Appeal Points"@en ;
     rdfs:comment "The number of Appeal Points the move scores in Pokémon Contests."@en ;
     rdfs:domain local:Move ;
     rdfs:range xsd:integer .
 
-local:jam a rdf:Property ;
+localProperty:jam a rdf:Property ;
     rdfs:label "Jam Points"@en ;
     rdfs:comment "The number of Appeal Points lost when the move is used for jamming in Pokémon Contests."@en ;
     rdfs:domain local:Move ;
     rdfs:range xsd:integer .
 
-local:cdesc a rdf:Property ;
+localProperty:cdesc a rdf:Property ;
     rdfs:label "Contest Description"@en ;
     rdfs:comment "The move's description in Pokémon Contests."@en ;
     rdfs:domain local:Move ;
     rdfs:range xsd:string .
 
-local:appealsc a rdf:Property ;
+localProperty:appealsc a rdf:Property ;
     rdfs:label "Super Contest Appeal Points"@en ;
     rdfs:comment "The number of Appeal Points the move scores in Pokémon Super Contests."@en ;
     rdfs:domain local:Move ;
     rdfs:range xsd:integer .
 
-local:scdesc a rdf:Property ;
+localProperty:scdesc a rdf:Property ;
     rdfs:label "Super Contest Description"@en ;
     rdfs:comment "The move's description in Pokémon Super Contests."@en ;
     rdfs:domain local:Move ;
     rdfs:range xsd:string .
 
-local:category6 a rdf:Property ;
+localProperty:category6 a rdf:Property ;
     rdfs:label "Spectacular Contest Category"@en ;
     rdfs:comment "The contest condition in Spectacular Contests if different from the regular contest category."@en ;
     rdfs:domain local:Move ;
     rdfs:range xsd:string .
 
-local:appeal6 a rdf:Property ;
+localProperty:appeal6 a rdf:Property ;
     rdfs:label "Spectacular Appeal Points"@en ;
     rdfs:comment "The number of Appeal Points the move scores in Spectacular Contests."@en ;
     rdfs:domain local:Move ;
     rdfs:range xsd:integer .
 
-local:jam6 a rdf:Property ;
+localProperty:jam6 a rdf:Property ;
     rdfs:label "Spectacular Jam Points"@en ;
     rdfs:comment "The number of Appeal Points lost in Spectacular Contests when the move is used for jamming."@en ;
     rdfs:domain local:Move ;
     rdfs:range xsd:integer .
 
-local:cdesc6 a rdf:Property ;
+localProperty:cdesc6 a rdf:Property ;
     rdfs:label "Spectacular Contest Description"@en ;
     rdfs:comment "The move's description in Pokémon Spectacular Contests."@en ;
     rdfs:domain local:Move ;
     rdfs:range xsd:string .
 
-local:footnotes a rdf:Property ;
+localProperty:footnotes a rdf:Property ;
     rdfs:label "Footnotes"@en ;
     rdfs:comment "Additional footnotes for the move."@en ;
     rdfs:domain local:Move ;
     rdfs:range xsd:string .
 
-local:spm a rdf:Property ;
+localProperty:spm a rdf:Property ;
     rdfs:label "Smogon's MoveDex Visibility"@en ;
     rdfs:comment "A flag to hide Smogon's MoveDex details if set to 1."@en ;
     rdfs:domain local:Move ;

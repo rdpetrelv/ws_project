@@ -1,0 +1,21 @@
+
+<http://example.org/resource/tfgpearl/Abra_(Next_Quest_7)> a <http://example.org/resource/tfgpearl/TFGPearl> .
+
+<http://example.org/resource/tfgpearl/Absol_(Next_Quest_8)> a <http://example.org/resource/tfgpearl/TFGPearl> .
+
+<http://example.org/resource/tfgpearl/Brock_(Next_Quest_39)> a <http://example.org/resource/tfgpearl/TFGPearl> .
+
+<http://example.org/resource/tfgpearl/Dratini_(Next_Quest_9)> a <http://example.org/resource/tfgpearl/TFGPearl> .
+
+<http://example.org/resource/tfgpearl/Eevee_(Next_Quest_10)> a <http://example.org/resource/tfgpearl/TFGPearl> .
+
+<http://example.org/resource/tfgpearl/Meowth_(Next_Quest_11)> a <http://example.org/resource/tfgpearl/TFGPearl> .
+
+<http://example.org/resource/tfgpearl/Misty_(Next_Quest_40)> a <http://example.org/resource/tfgpearl/TFGPearl> .
+
+<http://example.org/resource/tfgpearl/Murkrow_(Next_Quest_12)> a <http://example.org/resource/tfgpearl/TFGPearl> .
+
+<http://example.org/resource/tfgpearl/Salamence_(Next_Quest_13)> a <http://example.org/resource/tfgpearl/TFGPearl> .
+
+<http://example.org/resource/tfgpearl/Skarmory_(Next_Quest_14)> a <http://example.org/resource/tfgpearl/TFGPearl> .
+

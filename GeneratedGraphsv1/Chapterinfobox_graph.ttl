@@ -1,0 +1,2866 @@
+@prefix ns1: <http://example.org/property/> .
+@prefix ns2: <http://example.org/resource/chapter/> .
+
+ns2:ABM01 a ns2:Chapter .
+
+ns2:ABM02 a ns2:Chapter .
+
+ns2:ABM03 a ns2:Chapter .
+
+ns2:ABM04 a ns2:Chapter .
+
+ns2:ABM05 a ns2:Chapter .
+
+ns2:ABM06 a ns2:Chapter .
+
+ns2:ABM07 a ns2:Chapter .
+
+ns2:ABM08 a ns2:Chapter .
+
+ns2:ABM09 a ns2:Chapter .
+
+ns2:ABM10 a ns2:Chapter .
+
+ns2:ABM11 a ns2:Chapter .
+
+ns2:ABM12 a ns2:Chapter .
+
+ns2:ABM13 a ns2:Chapter .
+
+ns2:ABM14 a ns2:Chapter .
+
+ns2:ABM15 a ns2:Chapter .
+
+ns2:ABMS1 a ns2:Chapter ;
+    ns1:image "ABMS1.png" ;
+    ns2:chapter "Sinnoh" ;
+    ns2:location "_" ;
+    ns2:manga_series "Pokémon_Battrio:_Aim_to_be_Battrio_Master!" ;
+    ns2:next_chapter "None" ;
+    ns2:number "S1" ;
+    ns2:prev_chapter "ABM15" ;
+    ns2:series "Pokémon_Battrio:_Aim_to_be_Battrio_Master!" ;
+    ns2:title_en "_" ;
+    ns2:title_ja "_伝説のバトリオマスター！？" ;
+    ns2:title_ro "_Legendary_Battrio_Master!" ;
+    ns2:volume "2" .
+
+ns2:ANL1 a ns2:Chapter .
+
+ns2:ANL2 a ns2:Chapter .
+
+ns2:ANL3 a ns2:Chapter .
+
+ns2:ANL4 a ns2:Chapter .
+
+ns2:ANL5 a ns2:Chapter .
+
+ns2:BET1 a ns2:Chapter .
+
+ns2:BET2 a ns2:Chapter .
+
+ns2:BET3 a ns2:Chapter .
+
+ns2:BET4 a ns2:Chapter .
+
+ns2:BET5 a ns2:Chapter .
+
+ns2:BET6 a ns2:Chapter .
+
+ns2:BWGP01 a ns2:Chapter .
+
+ns2:BWGP02 a ns2:Chapter ;
+    ns1:image "BWGP02.png" ;
+    ns2:chapter "BW" ;
+    ns2:location "Accumula_Town_" ;
+    ns2:manga_series "Pocket_Monsters_BW:_Good_Partners" ;
+    ns2:next_chapter "BWGP03_" ;
+    ns2:number "2" ;
+    ns2:prev_chapter "BWGP01_" ;
+    ns2:series "Pocket_Monsters_BW:_Good_Partners" ;
+    ns2:title_en "" ;
+    ns2:title_ja "カラクサタウンのどろぼうポケモン" ;
+    ns2:title_ro "Karakusa_Towns_Thief_Pokémon" ;
+    ns2:volume "1" .
+
+ns2:BWGP03 a ns2:Chapter ;
+    ns1:image "BWGP03.png" ;
+    ns2:chapter "BW" ;
+    ns2:location "Dreamyard/Striaton_City" ;
+    ns2:manga_series "Pocket_Monsters_BW:_Good_Partners" ;
+    ns2:next_chapter "BWGP04_" ;
+    ns2:number "3" ;
+    ns2:prev_chapter "BWGP02_" ;
+    ns2:series "Pocket_Monsters_BW:_Good_Partners" ;
+    ns2:title_en "" ;
+    ns2:title_ja "夢の跡地" ;
+    ns2:title_ro "The_Dream_Ruins" ;
+    ns2:volume "1" .
+
+ns2:BWGP04 a ns2:Chapter ;
+    ns1:image "BWGP04.png" ;
+    ns2:chapter "BW" ;
+    ns2:location "Wellspring_Cave" ;
+    ns2:manga_series "Pocket_Monsters_BW:_Good_Partners" ;
+    ns2:next_chapter "BWGP05_" ;
+    ns2:number "4" ;
+    ns2:prev_chapter "BWGP03_" ;
+    ns2:series "Pocket_Monsters_BW:_Good_Partners" ;
+    ns2:title_en "" ;
+    ns2:title_ja "地下水脈にひそむ影" ;
+    ns2:title_ro "Shadows_of_the_Underground_Waterway" ;
+    ns2:volume "1" .
+
+ns2:BWGP05 a ns2:Chapter ;
+    ns1:image "BWGP05.png" ;
+    ns2:chapter "BW" ;
+    ns2:location "Nacrene_Gym_Nacrene_Museum/Nacrene_City" ;
+    ns2:manga_series "Pocket_Monsters_BW:_Good_Partners" ;
+    ns2:next_chapter "BWGP06_" ;
+    ns2:number "5" ;
+    ns2:prev_chapter "BWGP04_" ;
+    ns2:series "Pocket_Monsters_BW:_Good_Partners" ;
+    ns2:title_en "" ;
+    ns2:title_ja "一億年前のポケモン" ;
+    ns2:title_ro "The_100_Million_Year_Old_Pokémon" ;
+    ns2:volume "1" .
+
+ns2:CBF1 a ns2:Chapter .
+
+ns2:CBF2 a ns2:Chapter .
+
+ns2:CBF3 a ns2:Chapter .
+
+ns2:CBF4 a ns2:Chapter .
+
+ns2:CBF5 a ns2:Chapter .
+
+ns2:CBF6 a ns2:Chapter .
+
+ns2:CPIW0 a ns2:Chapter .
+
+ns2:CPIW1 a ns2:Chapter .
+
+ns2:CPIW2 a ns2:Chapter ;
+    ns1:image "CPIW2.png" ;
+    ns2:chapter "ORAS" ;
+    ns2:location "" ;
+    ns2:manga_series "Pokémon_Omega_Ruby_Crimson_Passion_and_Pokémon_Alpha_Sapphire_Indigo_Wisdom" ;
+    ns2:next_chapter "CPIW3" ;
+    ns2:number "2" ;
+    ns2:prev_chapter "CPIW1" ;
+    ns2:series "Pokémon_Omega_Ruby_Crimson_Passion_and_Pokémon_Alpha_Sapphire_Indigo_Wisdom" ;
+    ns2:title_en "" ;
+    ns2:title_ja "藍き英知,_アルファ!!" ;
+    ns2:title_ro "Indigo_Wisdom,_Alpha!!" ;
+    ns2:volume "1" .
+
+ns2:CPIW3 a ns2:Chapter .
+
+ns2:CPIW4 a ns2:Chapter .
+
+ns2:CSL1 a ns2:Chapter .
+
+ns2:CSL2 a ns2:Chapter .
+
+ns2:CSL3 a ns2:Chapter .
+
+ns2:CXY00 a ns2:Chapter .
+
+ns2:CXY01 a ns2:Chapter .
+
+ns2:DPA01 a ns2:Chapter .
+
+ns2:DPA02 a ns2:Chapter .
+
+ns2:DPA03 a ns2:Chapter .
+
+ns2:DPA04 a ns2:Chapter .
+
+ns2:DPA05 a ns2:Chapter .
+
+ns2:DPA06 a ns2:Chapter .
+
+ns2:DPA07 a ns2:Chapter .
+
+ns2:DPA08 a ns2:Chapter .
+
+ns2:DPA09 a ns2:Chapter .
+
+ns2:DPA10 a ns2:Chapter .
+
+ns2:DPA11 a ns2:Chapter .
+
+ns2:DPA12 a ns2:Chapter .
+
+ns2:DPA13 a ns2:Chapter .
+
+ns2:DPA14 a ns2:Chapter .
+
+ns2:DPA15 a ns2:Chapter .
+
+ns2:DPA16 a ns2:Chapter ;
+    ns1:image "DPA16.png" ;
+    ns2:chapter "DP" ;
+    ns2:location "Lake_Verity/Team_Galactic_HQ" ;
+    ns2:manga_series "Pokémon_Diamond_and_Pearl_Adventure!" ;
+    ns2:next_chapter "DPA17_Clash!_Hareta_vs._Mitsumi!!" ;
+    ns2:number "16" ;
+    ns2:prev_chapter "DPA15_An_Enormous_Power_Awakens!" ;
+    ns2:series "Pokémon_Diamond_and_Pearl_Adventure!" ;
+    ns2:title_en "Team_Galactics_Ultimate_Warrior" ;
+    ns2:title_ja "ギンガ団最強の戦士" ;
+    ns2:title_ro "The_Galaxy_Gangs_Greatest_Warrior" ;
+    ns2:volume "4" .
+
+ns2:DPA17 a ns2:Chapter .
+
+ns2:DPA18 a ns2:Chapter .
+
+ns2:DPA19 a ns2:Chapter .
+
+ns2:DPA20 a ns2:Chapter .
+
+ns2:DPA21 a ns2:Chapter .
+
+ns2:DPA22 a ns2:Chapter .
+
+ns2:DPA23 a ns2:Chapter .
+
+ns2:DPA24 a ns2:Chapter .
+
+ns2:DPA25 a ns2:Chapter .
+
+ns2:DPA26 a ns2:Chapter .
+
+ns2:DPA27 a ns2:Chapter .
+
+ns2:DPA28 a ns2:Chapter .
+
+ns2:DPA29 a ns2:Chapter .
+
+ns2:DPA30 a ns2:Chapter .
+
+ns2:DPA31 a ns2:Chapter .
+
+ns2:DPA32 a ns2:Chapter .
+
+ns2:DPA33 a ns2:Chapter .
+
+ns2:DPA34 a ns2:Chapter .
+
+ns2:DPA35 a ns2:Chapter .
+
+ns2:DPA36 a ns2:Chapter .
+
+ns2:DPA37 a ns2:Chapter .
+
+ns2:DPAS1 a ns2:Chapter .
+
+ns2:DPAS2 a ns2:Chapter .
+
+ns2:DPAS3 a ns2:Chapter .
+
+ns2:DPAS4 a ns2:Chapter .
+
+ns2:DPAS5 a ns2:Chapter .
+
+ns2:DPAS6 a ns2:Chapter .
+
+ns2:ESEZ0 a ns2:Chapter .
+
+ns2:ESEZ1 a ns2:Chapter ;
+    ns1:image "ESEZ1.png" ;
+    ns2:chapter "Alola" ;
+    ns2:location "Fula_City" ;
+    ns2:manga_series "Pokémon_the_Movie:_The_Power_of_Us:_Zeraoras_Story" ;
+    ns2:next_chapter "ESEZ2" ;
+    ns2:number "1" ;
+    ns2:prev_chapter "ESEZ0" ;
+    ns2:series "Pokémon_the_Movie:_The_Power_of_Us:_Zeraoras_Story" ;
+    ns2:title_en "Zeraora_Is_Born!" ;
+    ns2:title_ja "ゼラオラ、誕生！" ;
+    ns2:title_ro "Zeraora_Is_Born!" ;
+    ns2:volume "1" .
+
+ns2:ESEZ2 a ns2:Chapter .
+
+ns2:ESEZ3 a ns2:Chapter .
+
+ns2:ESEZ4 a ns2:Chapter .
+
+ns2:ET01 a ns2:Chapter .
+
+ns2:ET02 a ns2:Chapter .
+
+ns2:ET03 a ns2:Chapter .
+
+ns2:ET04 a ns2:Chapter .
+
+ns2:ET05 a ns2:Chapter .
+
+ns2:ET06 a ns2:Chapter .
+
+ns2:ET07 a ns2:Chapter .
+
+ns2:ET08 a ns2:Chapter .
+
+ns2:ET09 a ns2:Chapter .
+
+ns2:ET10 a ns2:Chapter .
+
+ns2:ET11 a ns2:Chapter .
+
+ns2:ET12 a ns2:Chapter .
+
+ns2:ET13 a ns2:Chapter .
+
+ns2:ET14 a ns2:Chapter .
+
+ns2:ET15 a ns2:Chapter .
+
+ns2:ET16 a ns2:Chapter .
+
+ns2:ET17 a ns2:Chapter .
+
+ns2:ET18 a ns2:Chapter .
+
+ns2:ET19 a ns2:Chapter .
+
+ns2:ET20 a ns2:Chapter .
+
+ns2:FAT1 a ns2:Chapter .
+
+ns2:FAT2 a ns2:Chapter .
+
+ns2:FAT3 a ns2:Chapter .
+
+ns2:FAT4 a ns2:Chapter .
+
+ns2:FAT5 a ns2:Chapter .
+
+ns2:GDZ01 a ns2:Chapter .
+
+ns2:GDZ02 a ns2:Chapter .
+
+ns2:GDZ03 a ns2:Chapter .
+
+ns2:GDZ04 a ns2:Chapter .
+
+ns2:GDZ05 a ns2:Chapter .
+
+ns2:GDZ06 a ns2:Chapter .
+
+ns2:GDZ07 a ns2:Chapter ;
+    ns1:image "GDZ07.png" ;
+    ns2:chapter "Kanto" ;
+    ns2:location "" ;
+    ns2:manga_series "Pokémon:_Yeah!_I_Got_Pokémon!" ;
+    ns2:next_chapter "GDZ08_A_Farfetchd_Fencing_Match!" ;
+    ns2:number "7" ;
+    ns2:prev_chapter "GDZ06_The_Challenge_at_Celadon_University!" ;
+    ns2:series "Pokémon:_Yeah!_I_Got_Pokémon!" ;
+    ns2:title_en "Down_with_the_Kick_Fighter" ;
+    ns2:title_ja "辻げりたいじだ!" ;
+    ns2:title_ro "Confronting_the_Streetkicker!" ;
+    ns2:volume "1" .
+
+ns2:GDZ08 a ns2:Chapter .
+
+ns2:GDZ09 a ns2:Chapter .
+
+ns2:GDZ10 a ns2:Chapter .
+
+ns2:GDZ11 a ns2:Chapter ;
+    ns1:image "GDZ11.png" ;
+    ns2:chapter "Kanto" ;
+    ns2:manga_series "Pokémon:_Yeah!_I_Got_Pokémon!" ;
+    ns2:next_chapter "GDZ12_The_Trial_for_Moltres" ;
+    ns2:number "11" ;
+    ns2:prev_chapter "GDZ10_Hammer_the_Diglett!!" ;
+    ns2:series "Pokémon:_Yeah!_I_Got_Pokémon!" ;
+    ns2:title_en "The_Terrible_Twins,_Rin_&_Ran" ;
+    ns2:title_ja "_ふたごトレーナー_リン＆ラン" ;
+    ns2:title_ro "_Twin_Trainers,_Rin_&_Ran" ;
+    ns2:volume "1" .
+
+ns2:GDZ12 a ns2:Chapter .
+
+ns2:GDZ13 a ns2:Chapter .
+
+ns2:GDZ14 a ns2:Chapter .
+
+ns2:GDZ15 a ns2:Chapter .
+
+ns2:GDZ16 a ns2:Chapter .
+
+ns2:GDZ17 a ns2:Chapter .
+
+ns2:GDZ18 a ns2:Chapter .
+
+ns2:GDZ19 a ns2:Chapter .
+
+ns2:GDZ20 a ns2:Chapter .
+
+ns2:GDZ21 a ns2:Chapter .
+
+ns2:GDZ22 a ns2:Chapter .
+
+ns2:GDZ23 a ns2:Chapter .
+
+ns2:GDZ24 a ns2:Chapter .
+
+ns2:GDZ25 a ns2:Chapter .
+
+ns2:GDZ26 a ns2:Chapter .
+
+ns2:GDZ27 a ns2:Chapter .
+
+ns2:GDZ28 a ns2:Chapter .
+
+ns2:GDZ29 a ns2:Chapter .
+
+ns2:GDZ30 a ns2:Chapter .
+
+ns2:GDZ31 a ns2:Chapter .
+
+ns2:GDZ32 a ns2:Chapter .
+
+ns2:GDZ33 a ns2:Chapter .
+
+ns2:GDZ34 a ns2:Chapter .
+
+ns2:GDZ35 a ns2:Chapter .
+
+ns2:GDZ36 a ns2:Chapter .
+
+ns2:GDZ37 a ns2:Chapter .
+
+ns2:GDZ38 a ns2:Chapter .
+
+ns2:GDZ39 a ns2:Chapter .
+
+ns2:GDZ40 a ns2:Chapter .
+
+ns2:GDZ41 a ns2:Chapter .
+
+ns2:GDZ42 a ns2:Chapter .
+
+ns2:GDZ43 a ns2:Chapter .
+
+ns2:GDZ44 a ns2:Chapter .
+
+ns2:GDZ45 a ns2:Chapter .
+
+ns2:GDZ46 a ns2:Chapter .
+
+ns2:GDZ47 a ns2:Chapter .
+
+ns2:GDZ48 a ns2:Chapter .
+
+ns2:GDZ49 a ns2:Chapter .
+
+ns2:GDZ50 a ns2:Chapter .
+
+ns2:GDZ51 a ns2:Chapter .
+
+ns2:GDZ52 a ns2:Chapter .
+
+ns2:GDZ53 a ns2:Chapter .
+
+ns2:GDZ54 a ns2:Chapter .
+
+ns2:GDZ55 a ns2:Chapter .
+
+ns2:GDZ56 a ns2:Chapter .
+
+ns2:GDZ57 a ns2:Chapter .
+
+ns2:GDZ58 a ns2:Chapter .
+
+ns2:GDZ59 a ns2:Chapter .
+
+ns2:GDZ60 a ns2:Chapter .
+
+ns2:GDZ61 a ns2:Chapter .
+
+ns2:GDZ62 a ns2:Chapter .
+
+ns2:GDZ63 a ns2:Chapter .
+
+ns2:GDZ64 a ns2:Chapter ;
+    ns1:image "GDZ64.png" ;
+    ns2:chapter "Johto" ;
+    ns2:location "Forest" ;
+    ns2:manga_series "Pokémon:_Yeah!_I_Got_Pokémon!" ;
+    ns2:next_chapter "GDZ65" ;
+    ns2:number "64" ;
+    ns2:prev_chapter "GDZ63" ;
+    ns2:series "Pokémon:_Yeah!_I_Got_Pokémon!" ;
+    ns2:title_en "" ;
+    ns2:title_ja "ウリムーちゃんはだれの手に？" ;
+    ns2:title_ro "Wholl_Get__tt_Urimoo_Swinub_-chan" ;
+    ns2:volume "5" .
+
+ns2:GDZ65 a ns2:Chapter .
+
+ns2:GDZ66 a ns2:Chapter .
+
+ns2:GDZ67 a ns2:Chapter .
+
+ns2:GDZ68 a ns2:Chapter .
+
+ns2:GDZ69 a ns2:Chapter .
+
+ns2:GDZ70 a ns2:Chapter .
+
+ns2:GDZ71 a ns2:Chapter .
+
+ns2:GDZ72 a ns2:Chapter .
+
+ns2:GDZ73 a ns2:Chapter .
+
+ns2:GDZ74 a ns2:Chapter .
+
+ns2:GDZ75 a ns2:Chapter .
+
+ns2:GDZ76 a ns2:Chapter .
+
+ns2:GDZ77 a ns2:Chapter .
+
+ns2:GDZ78 a ns2:Chapter .
+
+ns2:GDZ79 a ns2:Chapter .
+
+ns2:GRT1 a ns2:Chapter ;
+    ns1:image "GRT1.png" ;
+    ns2:chapter "Hoso" ;
+    ns2:location "Pokémon_world_Human_world/_OBP_Pokémon_world_Mystery_Dungeon_" ;
+    ns2:manga_series "Pokémon_Mystery_Dungeon:_Ginjis_Rescue_Team" ;
+    ns2:next_chapter "GRT2_I_Want_to_be_Human_Again!" ;
+    ns2:number "1" ;
+    ns2:prev_chapter "None" ;
+    ns2:series "Pokémon_Mystery_Dungeon:_Ginjis_Rescue_Team" ;
+    ns2:title_en "Pokémon_to_the_Rescue!" ;
+    ns2:title_ja "ポケモンになった少年" ;
+    ns2:title_ro "The_Boy_Who_Became_a_Pokémon" ;
+    ns2:volume "1" .
+
+ns2:GRT2 a ns2:Chapter ;
+    ns1:image "GRT2.png" ;
+    ns2:chapter "Hoso" ;
+    ns2:location "Team_Base/Pokémon_Square/Mt._Thunder/Hill_of_the_Ancients" ;
+    ns2:manga_series "Pokémon_Mystery_Dungeon:_Ginjis_Rescue_Team" ;
+    ns2:next_chapter "GRT3_Goodbye_to_a_Peaceful_Village!" ;
+    ns2:number "2" ;
+    ns2:prev_chapter "GRT1_Pokémon_to_the_Rescue!" ;
+    ns2:series "Pokémon_Mystery_Dungeon:_Ginjis_Rescue_Team" ;
+    ns2:title_en "I_Want_to_be_Human_Again!" ;
+    ns2:title_ja "困難に立ち向かえ！" ;
+    ns2:title_ro "Facing_Against_Difficulties!" ;
+    ns2:volume "1" .
+
+ns2:GRT3 a ns2:Chapter .
+
+ns2:GRT4 a ns2:Chapter .
+
+ns2:GRT5 a ns2:Chapter .
+
+ns2:GRT6 a ns2:Chapter .
+
+ns2:ICYR1 a ns2:Chapter .
+
+ns2:ICYR2 a ns2:Chapter .
+
+ns2:ICYR3 a ns2:Chapter .
+
+ns2:ICYR4 a ns2:Chapter .
+
+ns2:MCM1 a ns2:Chapter .
+
+ns2:MCM2 a ns2:Chapter .
+
+ns2:MCM3 a ns2:Chapter .
+
+ns2:MCM4 a ns2:Chapter ;
+    ns1:image "MCM4.png" ;
+    ns2:chapter "Johto" ;
+    ns2:manga_series "Aim_to_Be_a_Card_Master!!" ;
+    ns2:next_chapter "MCM5_The_Spring_World_Challenge_(Part_Two)_The_Girl_Whos_Too_Calm" ;
+    ns2:number "4" ;
+    ns2:prev_chapter "MCM3_Brothers_Face_Off_Familiar_Rivals" ;
+    ns2:series "Aim_to_Be_a_Card_Master!!" ;
+    ns2:title_ja "ワールドチャレンジ春（前編）　新たな強敵！？" ;
+    ns2:title_ro "The_Spring_World_Challenge_(Part_One)_A_New_Formidable_Rival!" ;
+    ns2:volume "1" .
+
+ns2:MCM5 a ns2:Chapter .
+
+ns2:MCM6 a ns2:Chapter .
+
+ns2:MCM7 a ns2:Chapter .
+
+ns2:MCM8 a ns2:Chapter .
+
+ns2:MCM9 a ns2:Chapter ;
+    ns1:image "MCM9.png" ;
+    ns2:chapter "Johto" ;
+    ns2:location "" ;
+    ns2:manga_series "Aim_to_Be_a_Card_Master!!" ;
+    ns2:next_chapter "None" ;
+    ns2:number "9" ;
+    ns2:prev_chapter "MCM8_The_Summer_World_Challenge_(Part_Two)_Reunion_at_the_Coliseum" ;
+    ns2:series "Aim_to_Be_a_Card_Master!!" ;
+    ns2:title_en "" ;
+    ns2:title_ja "ワールドチャレンジ夏（後編）_カードマスターへの道" ;
+    ns2:title_ro "The_Summer_World_Challenge_(Part_Three)_The_Road_to_Being_a_Card_Master" ;
+    ns2:volume "1" .
+
+ns2:P7-01 a ns2:Chapter ;
+    ns1:image "P7-01.png" ;
+    ns2:chapter "DP" ;
+    ns2:location "Watch_stealers_house" ;
+    ns2:manga_series "Phantom_Thief_Pokémon_7" ;
+    ns2:next_chapter "P7-02_Sevens_Real_Identity_In_Peril" ;
+    ns2:number "1" ;
+    ns2:prev_chapter "None" ;
+    ns2:series "Phantom_Thief_Pokémon_7" ;
+    ns2:title_en "Behold_The_Phantom_Thief_Of_Justice!" ;
+    ns2:title_ja "正義の怪盗_、見参！" ;
+    ns2:title_ro "Meet_the_Phantom_Thief_of_Justice!" ;
+    ns2:volume "1" .
+
+ns2:P7-02 a ns2:Chapter ;
+    ns1:image "P7-02.png" ;
+    ns2:chapter "DP" ;
+    ns2:location "Daigakukan_Building" ;
+    ns2:manga_series "Phantom_Thief_Pokémon_7" ;
+    ns2:next_chapter "P7-03_Challenge_From_A_Rival" ;
+    ns2:number "2" ;
+    ns2:prev_chapter "P7-01_Behold_The_Phantom_Thief_Of_Justice!" ;
+    ns2:series "Phantom_Thief_Pokémon_7" ;
+    ns2:title_en "Sevens_Real_Identity_In_Peril" ;
+    ns2:title_ja "ねらわれた素顔" ;
+    ns2:title_ro "Targeted_Identity" ;
+    ns2:volume "1" .
+
+ns2:P7-03 a ns2:Chapter ;
+    ns1:image "P7-03.png" ;
+    ns2:chapter "DP" ;
+    ns2:location "Cave_on_the_outskirts_of_town" ;
+    ns2:manga_series "Phantom_Thief_Pokémon_7" ;
+    ns2:next_chapter "P7-04_A_Fated_Reunion" ;
+    ns2:number "3" ;
+    ns2:prev_chapter "P7-02_Sevens_Real_Identity_In_Peril" ;
+    ns2:series "Phantom_Thief_Pokémon_7" ;
+    ns2:title_en "Challenge_From_A_Rival" ;
+    ns2:title_ja "ライバルからの挑戦状" ;
+    ns2:title_ro "Challenge_From_A_Rival" ;
+    ns2:volume "1" .
+
+ns2:P7-04 a ns2:Chapter ;
+    ns1:image "P7-04.png" ;
+    ns2:chapter "DP" ;
+    ns2:location "Hioris_town" ;
+    ns2:manga_series "Phantom_Thief_Pokémon_7" ;
+    ns2:next_chapter "P7-05_Escape_From_Team_Galactic" ;
+    ns2:number "4" ;
+    ns2:prev_chapter "P7-03_Challenge_From_A_Rival" ;
+    ns2:series "Phantom_Thief_Pokémon_7" ;
+    ns2:title_en "A_Fated_Reunion" ;
+    ns2:title_ja "運命の再会" ;
+    ns2:title_ro "A_Fated_Reunion" ;
+    ns2:volume "1" .
+
+ns2:P7-05 a ns2:Chapter ;
+    ns1:image "P7-05.png" ;
+    ns2:chapter "DP" ;
+    ns2:location "Hioris_town" ;
+    ns2:manga_series "Phantom_Thief_Pokémon_7" ;
+    ns2:next_chapter "P7-06_Showdown_With_An_Assassin" ;
+    ns2:number "5" ;
+    ns2:prev_chapter "P7-04_A_Fated_Reunion" ;
+    ns2:series "Phantom_Thief_Pokémon_7" ;
+    ns2:title_en "Escape_From_Team_Galactic" ;
+    ns2:title_ja "ギンガ団からの救出" ;
+    ns2:title_ro "Escape_from_the__tt_Ginga-dan_Team_Galactic_" ;
+    ns2:volume "1" .
+
+ns2:P7-06 a ns2:Chapter ;
+    ns1:image "P7-06.png" ;
+    ns2:chapter "DP" ;
+    ns2:location "Outskirts_of_Hioris_town" ;
+    ns2:manga_series "Phantom_Thief_Pokémon_7" ;
+    ns2:next_chapter "P7-07_Stolen_Memories" ;
+    ns2:number "6" ;
+    ns2:prev_chapter "P7-05_Escape_From_Team_Galactic" ;
+    ns2:series "Phantom_Thief_Pokémon_7" ;
+    ns2:title_en "Showdown_With_An_Assassin" ;
+    ns2:title_ja "立ちはだかる刺客" ;
+    ns2:title_ro "Assassin_Blocking_the_Way" ;
+    ns2:volume "1" .
+
+ns2:P7-07 a ns2:Chapter ;
+    ns1:image "P7-07.png" ;
+    ns2:chapter "DP" ;
+    ns2:location "Outskirts_of_Hioris_town" ;
+    ns2:manga_series "Phantom_Thief_Pokémon_7" ;
+    ns2:next_chapter "P7-08_Lily_Regains_Her_Memories!" ;
+    ns2:number "7" ;
+    ns2:prev_chapter "P7-06_Showdown_With_An_Assassin" ;
+    ns2:series "Phantom_Thief_Pokémon_7" ;
+    ns2:title_en "Stolen_Memories" ;
+    ns2:title_ja "うばわれた記憶" ;
+    ns2:title_ro "Stolen_Memories" ;
+    ns2:volume "1" .
+
+ns2:P7-08 a ns2:Chapter ;
+    ns1:image "P7-08.png" ;
+    ns2:chapter "DP" ;
+    ns2:location "Outskirts_of_Hioris_town" ;
+    ns2:manga_series "Phantom_Thief_Pokémon_7" ;
+    ns2:next_chapter "P7-09_A_World_Covered_In_Darkness" ;
+    ns2:number "8" ;
+    ns2:prev_chapter "P7-07_Stolen_Memories" ;
+    ns2:series "Phantom_Thief_Pokémon_7" ;
+    ns2:title_en "Lily_Regains_Her_Memories!" ;
+    ns2:title_ja "リリよ、思い出せ！" ;
+    ns2:title_ro "Lily,_Remember!" ;
+    ns2:volume "1" .
+
+ns2:P7-09 a ns2:Chapter ;
+    ns1:image "P7-09.png" ;
+    ns2:chapter "DP" ;
+    ns2:location "Sun_Sun" ;
+    ns2:manga_series "Phantom_Thief_Pokémon_7" ;
+    ns2:next_chapter "P7-10_Breaking_Into_The_Enemys_Lair!" ;
+    ns2:number "9" ;
+    ns2:prev_chapter "P7-08_Lily_Regains_Her_Memories!" ;
+    ns2:series "Phantom_Thief_Pokémon_7" ;
+    ns2:title_en "A_World_Covered_In_Darkness" ;
+    ns2:title_ja "世界をおおう闇" ;
+    ns2:title_ro "Darkness_That_Covers_the_World" ;
+    ns2:volume "1" .
+
+ns2:P7-10 a ns2:Chapter ;
+    ns1:image "P7-10.png" ;
+    ns2:chapter "DP" ;
+    ns2:location "Team_Galactic_Base" ;
+    ns2:manga_series "Phantom_Thief_Pokémon_7" ;
+    ns2:next_chapter "P7-11_Into_The_Hands_Of_Evil!" ;
+    ns2:number "10" ;
+    ns2:prev_chapter "P7-09_A_World_Covered_In_Darkness" ;
+    ns2:series "Phantom_Thief_Pokémon_7" ;
+    ns2:title_en "Breaking_Into_The_Enemys_Lair!" ;
+    ns2:title_ja "警戒網を打ち破れ！" ;
+    ns2:title_ro "Break_Through_the_Lookout_Net!" ;
+    ns2:volume "1" .
+
+ns2:P7-11 a ns2:Chapter ;
+    ns1:image "P7-11.png" ;
+    ns2:chapter "DP" ;
+    ns2:location "Team_Galactic_Base" ;
+    ns2:manga_series "Phantom_Thief_Pokémon_7" ;
+    ns2:next_chapter "P7-12_Stopping_Darkrai!!" ;
+    ns2:number "11" ;
+    ns2:prev_chapter "P7-10_Breaking_Into_The_Enemys_Lair!" ;
+    ns2:series "Phantom_Thief_Pokémon_7" ;
+    ns2:title_en "Into_The_Hands_Of_Evil!" ;
+    ns2:title_ja "悪の手に落ちた！？" ;
+    ns2:title_ro "Into_The_Hands_Of_Evil!" ;
+    ns2:volume "1" .
+
+ns2:P7-12 a ns2:Chapter ;
+    ns1:image "P7-12.png" ;
+    ns2:chapter "DP" ;
+    ns2:location "Team_Galactic_Base" ;
+    ns2:manga_series "Phantom_Thief_Pokémon_7" ;
+    ns2:next_chapter "P7-13" ;
+    ns2:number "12" ;
+    ns2:prev_chapter "P7-11_Into_The_Hands_Of_Evil!" ;
+    ns2:series "Phantom_Thief_Pokémon_7" ;
+    ns2:title_en "Stopping_Darkrai!!" ;
+    ns2:title_ja "ダークライを止めろ！！" ;
+    ns2:title_ro "Stop_Darkrai!!" ;
+    ns2:volume "1" .
+
+ns2:P7-13 a ns2:Chapter ;
+    ns1:image "" ;
+    ns2:chapter "DP" ;
+    ns2:location "" ;
+    ns2:manga_series "Phantom_Thief_Pokémon_7" ;
+    ns2:next_chapter "P7-14" ;
+    ns2:number "13" ;
+    ns2:prev_chapter "P7-12_Stopping_Darkrai!!" ;
+    ns2:series "Phantom_Thief_Pokémon_7" ;
+    ns2:title_en "" ;
+    ns2:title_ja "" ;
+    ns2:title_ro "" ;
+    ns2:volume "2" .
+
+ns2:P7-14 a ns2:Chapter ;
+    ns1:image "" ;
+    ns2:chapter "DP" ;
+    ns2:location "" ;
+    ns2:manga_series "Phantom_Thief_Pokémon_7" ;
+    ns2:next_chapter "P7-15" ;
+    ns2:number "14" ;
+    ns2:prev_chapter "P7-13" ;
+    ns2:series "Phantom_Thief_Pokémon_7" ;
+    ns2:title_en "" ;
+    ns2:title_ja "" ;
+    ns2:title_ro "" ;
+    ns2:volume "2" .
+
+ns2:P7-15 a ns2:Chapter ;
+    ns1:image "" ;
+    ns2:chapter "DP" ;
+    ns2:location "" ;
+    ns2:manga_series "Phantom_Thief_Pokémon_7" ;
+    ns2:next_chapter "P7-16" ;
+    ns2:number "15" ;
+    ns2:prev_chapter "P7-14" ;
+    ns2:series "Phantom_Thief_Pokémon_7" ;
+    ns2:title_en "" ;
+    ns2:title_ja "" ;
+    ns2:title_ro "" ;
+    ns2:volume "2" .
+
+ns2:P7-16 a ns2:Chapter ;
+    ns1:image "" ;
+    ns2:chapter "DP" ;
+    ns2:location "" ;
+    ns2:manga_series "Phantom_Thief_Pokémon_7" ;
+    ns2:next_chapter "P7-17" ;
+    ns2:number "16" ;
+    ns2:prev_chapter "P7-15" ;
+    ns2:series "Phantom_Thief_Pokémon_7" ;
+    ns2:title_en "" ;
+    ns2:title_ja "" ;
+    ns2:title_ro "" ;
+    ns2:volume "2" .
+
+ns2:P7-17 a ns2:Chapter ;
+    ns1:image "" ;
+    ns2:chapter "DP" ;
+    ns2:location "" ;
+    ns2:manga_series "Phantom_Thief_Pokémon_7" ;
+    ns2:next_chapter "P7-18" ;
+    ns2:number "17" ;
+    ns2:prev_chapter "P7-16" ;
+    ns2:series "Phantom_Thief_Pokémon_7" ;
+    ns2:title_en "" ;
+    ns2:title_ja "" ;
+    ns2:title_ro "" ;
+    ns2:volume "2" .
+
+ns2:PBK1 a ns2:Chapter .
+
+ns2:PBK2 a ns2:Chapter .
+
+ns2:PBK3 a ns2:Chapter .
+
+ns2:PBK4 a ns2:Chapter .
+
+ns2:PBK5 a ns2:Chapter .
+
+ns2:PBK6 a ns2:Chapter .
+
+ns2:PBK7 a ns2:Chapter .
+
+ns2:PBK8 a ns2:Chapter .
+
+ns2:PBW1 a ns2:Chapter .
+
+ns2:PBW2 a ns2:Chapter .
+
+ns2:PBW3 a ns2:Chapter .
+
+ns2:PBW4 a ns2:Chapter .
+
+ns2:PBW5 a ns2:Chapter .
+
+ns2:PBW6 a ns2:Chapter .
+
+ns2:PBW7 a ns2:Chapter .
+
+ns2:PBW8 a ns2:Chapter ;
+    ns1:image "PBW8.png" ;
+    ns2:chapter "Unova" ;
+    ns2:manga_series "Be_the_Best!_Pokémon_B+W" ;
+    ns2:next_chapter "None" ;
+    ns2:number "8" ;
+    ns2:prev_chapter "PBW7_Victini_-_A_New_Friend!" ;
+    ns2:series "Be_the_Best!_Pokémon_B+W" ;
+    ns2:title_en "The_Birth_of_the_Best_Pokémon_Trainer!" ;
+    ns2:title_ja "究極のポケモントレーナー誕生！！" ;
+    ns2:title_ro "Birth_of_the_Ultimate_Pokémon_Trainer!!" ;
+    ns2:volume "1" .
+
+ns2:PCS1 a ns2:Chapter .
+
+ns2:PCS2 a ns2:Chapter .
+
+ns2:PCS3 a ns2:Chapter .
+
+ns2:PDP01 a ns2:Chapter .
+
+ns2:PDP02 a ns2:Chapter .
+
+ns2:PDP03 a ns2:Chapter .
+
+ns2:PDP04 a ns2:Chapter .
+
+ns2:PDP05 a ns2:Chapter .
+
+ns2:PDP06 a ns2:Chapter .
+
+ns2:PDP07 a ns2:Chapter .
+
+ns2:PDP08 a ns2:Chapter .
+
+ns2:PDP09 a ns2:Chapter .
+
+ns2:PDP10 a ns2:Chapter .
+
+ns2:PDP11 a ns2:Chapter .
+
+ns2:PDP12 a ns2:Chapter .
+
+ns2:PDP13 a ns2:Chapter .
+
+ns2:PDP14 a ns2:Chapter .
+
+ns2:PDP15 a ns2:Chapter .
+
+ns2:PDP16 a ns2:Chapter .
+
+ns2:PDP17 a ns2:Chapter .
+
+ns2:PDP18 a ns2:Chapter .
+
+ns2:PDP19 a ns2:Chapter .
+
+ns2:PDP20 a ns2:Chapter .
+
+ns2:PDP21 a ns2:Chapter .
+
+ns2:PDP22 a ns2:Chapter .
+
+ns2:PDP23 a ns2:Chapter .
+
+ns2:PDP24 a ns2:Chapter ;
+    ns1:image "PDP24.png" ;
+    ns2:chapter "Sinnoh" ;
+    ns2:manga_series "Pocket_Monsters_Diamond_&_Pearl" ;
+    ns2:next_chapter "PDP25" ;
+    ns2:number "24" ;
+    ns2:prev_chapter "PDP23" ;
+    ns2:series "_OBP_Pocket_Monsters_Diamond_&_Pearl_Sakai_Takayuki_" ;
+    ns2:title_en "" ;
+    ns2:title_ja "ウリムーのぼうけん" ;
+    ns2:title_ro "_tt_Urimoos_Swinubs__Adventure" ;
+    ns2:volume "2" .
+
+ns2:PDP25 a ns2:Chapter .
+
+ns2:PDP26 a ns2:Chapter .
+
+ns2:PDP27 a ns2:Chapter .
+
+ns2:PDP28 a ns2:Chapter .
+
+ns2:PDP29 a ns2:Chapter .
+
+ns2:PM001 a ns2:Chapter .
+
+ns2:PM002 a ns2:Chapter .
+
+ns2:PM003 a ns2:Chapter .
+
+ns2:PM004 a ns2:Chapter .
+
+ns2:PM005 a ns2:Chapter .
+
+ns2:PM006 a ns2:Chapter .
+
+ns2:PM007 a ns2:Chapter .
+
+ns2:PM008 a ns2:Chapter .
+
+ns2:PM009 a ns2:Chapter .
+
+ns2:PM010 a ns2:Chapter .
+
+ns2:PM011 a ns2:Chapter ;
+    ns1:image "PM011.png" ;
+    ns2:chapter "Kanto" ;
+    ns2:location "Silph_Co." ;
+    ns2:manga_series "Pokémon_Pocket_Monsters" ;
+    ns2:next_chapter "PM012_The_Life-or-Death_Magic_Duel!!" ;
+    ns2:number "011" ;
+    ns2:prev_chapter "PM010_Big_Struggle_with_the_Powerful_Opponent_Venusaur!!" ;
+    ns2:series "Pokémon_Pocket_Monsters" ;
+    ns2:title_en "Finish_Off_Team_Rocket!!" ;
+    ns2:title_ja "ロケット団をやっつけろ！！" ;
+    ns2:title_ro "Finish_Off_Rocket-Dan!!" ;
+    ns2:volume "2" .
+
+ns2:PM012 a ns2:Chapter .
+
+ns2:PM013 a ns2:Chapter ;
+    ns1:image "PM013.png" ;
+    ns2:chapter "Kanto" ;
+    ns2:location "Seafoam_Islands" ;
+    ns2:manga_series "Pokémon_Pocket_Monsters" ;
+    ns2:next_chapter "PM014_Big_Rampage_At_The_Safari_Zone!" ;
+    ns2:number "13" ;
+    ns2:prev_chapter "PM012_The_Life-or-Death_Magic_Duel!!" ;
+    ns2:series "Pokémon_Pocket_Monsters" ;
+    ns2:title_en "The_Legendary_Pokémon_Appears!!" ;
+    ns2:title_ja "伝説のポケモン、現る！！" ;
+    ns2:title_ro "The_Legendary_Pokémon_Appears!!" ;
+    ns2:volume "2" .
+
+ns2:PM014 a ns2:Chapter .
+
+ns2:PM015 a ns2:Chapter .
+
+ns2:PM016 a ns2:Chapter .
+
+ns2:PM017 a ns2:Chapter .
+
+ns2:PM018 a ns2:Chapter ;
+    ns1:image "PM018.png" ;
+    ns2:chapter "Kanto" ;
+    ns2:location "Pokémon_Sea_House" ;
+    ns2:manga_series "Pokémon_Pocket_Monsters" ;
+    ns2:next_chapter "PM019_Aim_to_be_the_No._1_Pokémon!" ;
+    ns2:number "18" ;
+    ns2:prev_chapter "PM017_Regain_the_Deserted_Power_Plant!" ;
+    ns2:series "Pokémon_Pocket_Monsters" ;
+    ns2:title_en "Which_One_is_the_Real_Clefairy!" ;
+    ns2:title_ja "二人のピッピ、本物はどっち！？" ;
+    ns2:title_ro "Which_One_is_the_Real__tt_Pippi_Clefairy_!" ;
+    ns2:volume "3" .
+
+ns2:PM019 a ns2:Chapter .
+
+ns2:PM020 a ns2:Chapter .
+
+ns2:PM021 a ns2:Chapter .
+
+ns2:PM022 a ns2:Chapter .
+
+ns2:PM023 a ns2:Chapter .
+
+ns2:PM024 a ns2:Chapter .
+
+ns2:PM025 a ns2:Chapter .
+
+ns2:PM026 a ns2:Chapter .
+
+ns2:PM027 a ns2:Chapter .
+
+ns2:PM028 a ns2:Chapter .
+
+ns2:PM029 a ns2:Chapter .
+
+ns2:PM030 a ns2:Chapter .
+
+ns2:PM031 a ns2:Chapter .
+
+ns2:PM032 a ns2:Chapter .
+
+ns2:PM033 a ns2:Chapter .
+
+ns2:PM034 a ns2:Chapter .
+
+ns2:PM035 a ns2:Chapter .
+
+ns2:PM036 a ns2:Chapter .
+
+ns2:PM037 a ns2:Chapter .
+
+ns2:PM038 a ns2:Chapter ;
+    ns1:image "PM038.png" ;
+    ns2:chapter "Kanto" ;
+    ns2:location "_" ;
+    ns2:manga_series "Pokémon_Pocket_Monsters" ;
+    ns2:next_chapter "PM039_The_Revenge_of_Mewtwo!!" ;
+    ns2:number "38" ;
+    ns2:prev_chapter "PM037_Get_that_10_Billion_Yen!!_(Special_Side-Story)" ;
+    ns2:series "Pokémon_Pocket_Monsters" ;
+    ns2:title_en "The_Final_Battle_!!" ;
+    ns2:title_ja "決戦！最終バトル！！" ;
+    ns2:title_ro "The_Final_Battle!!" ;
+    ns2:volume "6" .
+
+ns2:PM039 a ns2:Chapter .
+
+ns2:PM040 a ns2:Chapter ;
+    ns1:image "PM040.png" ;
+    ns2:chapter "Kanto" ;
+    ns2:location "_" ;
+    ns2:manga_series "Pokémon_Pocket_Monsters" ;
+    ns2:next_chapter "PM041_Clefairys_Weight_-_Gaining_Mission!!" ;
+    ns2:number "40" ;
+    ns2:prev_chapter "PM039_The_Revenge_of_Mewtwo!!" ;
+    ns2:series "Pokémon_Pocket_Monsters" ;
+    ns2:title_en "Save_the_Pokémon_Zoo!!" ;
+    ns2:title_ja "ポケモン動物園、彿活への道！！" ;
+    ns2:title_ro "Save_the_Pokémon_Zoo!!" ;
+    ns2:volume "6" .
+
+ns2:PM041 a ns2:Chapter .
+
+ns2:PM042 a ns2:Chapter .
+
+ns2:PM043 a ns2:Chapter .
+
+ns2:PM044 a ns2:Chapter ;
+    ns1:image "PM044.png" ;
+    ns2:chapter "Kanto" ;
+    ns2:location "_" ;
+    ns2:manga_series "Pokémon_Pocket_Monsters" ;
+    ns2:next_chapter "PM045_Get_Snorlax!!" ;
+    ns2:number "44" ;
+    ns2:prev_chapter "PM043_Clefairy,_a_Doctor!" ;
+    ns2:series "Pokémon_Pocket_Monsters" ;
+    ns2:title_en "The_Fake_Pikachu!!" ;
+    ns2:title_ja "にせピカチュウ登場！！" ;
+    ns2:title_ro "The_Fake_Pikachu!!" ;
+    ns2:volume "6" .
+
+ns2:PM045 a ns2:Chapter .
+
+ns2:PM046 a ns2:Chapter .
+
+ns2:PM047 a ns2:Chapter .
+
+ns2:PM048 a ns2:Chapter .
+
+ns2:PM049 a ns2:Chapter .
+
+ns2:PM050 a ns2:Chapter .
+
+ns2:PM051 a ns2:Chapter .
+
+ns2:PM052 a ns2:Chapter .
+
+ns2:PM053 a ns2:Chapter .
+
+ns2:PM054 a ns2:Chapter .
+
+ns2:PM055 a ns2:Chapter .
+
+ns2:PM056 a ns2:Chapter .
+
+ns2:PM057 a ns2:Chapter .
+
+ns2:PM058 a ns2:Chapter .
+
+ns2:PM059 a ns2:Chapter .
+
+ns2:PM060 a ns2:Chapter .
+
+ns2:PM061 a ns2:Chapter .
+
+ns2:PM062 a ns2:Chapter .
+
+ns2:PM063 a ns2:Chapter .
+
+ns2:PM064 a ns2:Chapter .
+
+ns2:PM065 a ns2:Chapter .
+
+ns2:PM066 a ns2:Chapter .
+
+ns2:PM067 a ns2:Chapter .
+
+ns2:PM068 a ns2:Chapter .
+
+ns2:PM069 a ns2:Chapter .
+
+ns2:PM070 a ns2:Chapter .
+
+ns2:PM071 a ns2:Chapter .
+
+ns2:PM072 a ns2:Chapter .
+
+ns2:PM073 a ns2:Chapter .
+
+ns2:PM074 a ns2:Chapter .
+
+ns2:PM075 a ns2:Chapter ;
+    ns1:image "PM075.png" ;
+    ns2:chapter "Johto" ;
+    ns2:manga_series "Pokémon_Pocket_Monsters" ;
+    ns2:next_chapter "PM076_Clefairys_Dream_Comes_True" ;
+    ns2:number "75" ;
+    ns2:prev_chapter "PM074_Clefairy_Becomes_a_Father...!" ;
+    ns2:series "Pokémon_Pocket_Monsters" ;
+    ns2:title_en "Pichu_and_Pichus_Big_Fight" ;
+    ns2:title_ja "ピチューとピチューの大げんか" ;
+    ns2:title_ro "Pichu_and_Pichus_Big_Fight" ;
+    ns2:volume "10" .
+
+ns2:PM076 a ns2:Chapter .
+
+ns2:PM077 a ns2:Chapter .
+
+ns2:PM078 a ns2:Chapter .
+
+ns2:PM079 a ns2:Chapter .
+
+ns2:PM080 a ns2:Chapter .
+
+ns2:PM081 a ns2:Chapter .
+
+ns2:PM082 a ns2:Chapter .
+
+ns2:PM083 a ns2:Chapter .
+
+ns2:PM084 a ns2:Chapter .
+
+ns2:PM085 a ns2:Chapter .
+
+ns2:PM086 a ns2:Chapter ;
+    ns1:image "PM086.png" ;
+    ns2:chapter "Johto" ;
+    ns2:manga_series "Pokémon_Pocket_Monsters" ;
+    ns2:next_chapter "PM087_Sudowoodos_Toll_Charges" ;
+    ns2:number "86" ;
+    ns2:prev_chapter "PM085_Togepis_Determination" ;
+    ns2:series "Pokémon_Pocket_Monsters" ;
+    ns2:title_en "Operation:_Capture_Vileplume" ;
+    ns2:title_ja "ラフレシア捕獲大作戦" ;
+    ns2:title_ro "_tt_Ruffresia_Vileplume__Capture_Operation" ;
+    ns2:volume "11" .
+
+ns2:PM087 a ns2:Chapter .
+
+ns2:PM088 a ns2:Chapter .
+
+ns2:PM089 a ns2:Chapter .
+
+ns2:PM090 a ns2:Chapter .
+
+ns2:PM091 a ns2:Chapter .
+
+ns2:PM092 a ns2:Chapter .
+
+ns2:PM093 a ns2:Chapter .
+
+ns2:PM094 a ns2:Chapter .
+
+ns2:PM095 a ns2:Chapter .
+
+ns2:PM096 a ns2:Chapter .
+
+ns2:PM097 a ns2:Chapter .
+
+ns2:PM098 a ns2:Chapter .
+
+ns2:PM099 a ns2:Chapter .
+
+ns2:PM100 a ns2:Chapter .
+
+ns2:PM101 a ns2:Chapter .
+
+ns2:PM102 a ns2:Chapter .
+
+ns2:PM103 a ns2:Chapter .
+
+ns2:PM104 a ns2:Chapter .
+
+ns2:PM105 a ns2:Chapter .
+
+ns2:PM106 a ns2:Chapter .
+
+ns2:PM107 a ns2:Chapter .
+
+ns2:PM108 a ns2:Chapter .
+
+ns2:PM109 a ns2:Chapter .
+
+ns2:PM110 a ns2:Chapter .
+
+ns2:PM111 a ns2:Chapter .
+
+ns2:PM112 a ns2:Chapter .
+
+ns2:PM113 a ns2:Chapter .
+
+ns2:PM114 a ns2:Chapter .
+
+ns2:PM115 a ns2:Chapter .
+
+ns2:PM116 a ns2:Chapter .
+
+ns2:PM117 a ns2:Chapter .
+
+ns2:PMBW01 a ns2:Chapter .
+
+ns2:PMBW02 a ns2:Chapter .
+
+ns2:PMBW03 a ns2:Chapter .
+
+ns2:PMBW04 a ns2:Chapter .
+
+ns2:PMBW05 a ns2:Chapter .
+
+ns2:PMBW06 a ns2:Chapter .
+
+ns2:PMBW07 a ns2:Chapter .
+
+ns2:PMBW08 a ns2:Chapter .
+
+ns2:PMBW09 a ns2:Chapter .
+
+ns2:PMBW10 a ns2:Chapter .
+
+ns2:PMBW11 a ns2:Chapter .
+
+ns2:PMBW12 a ns2:Chapter .
+
+ns2:PMBW13 a ns2:Chapter ;
+    ns1:image "PMBW13.png" ;
+    ns2:chapter "Unova" ;
+    ns2:manga_series "Pocket_Monsters_BW" ;
+    ns2:next_chapter "PMBW14" ;
+    ns2:number "13" ;
+    ns2:prev_chapter "PMBW12" ;
+    ns2:series "_OBP_Pocket_Monsters_BW_Kosaku_Anakubo_" ;
+    ns2:title_ja "しょうりポケモンと大勝負！" ;
+    ns2:title_ro "The_Victory_Pokémon_and_the_Big_Match!" ;
+    ns2:volume "2" .
+
+ns2:PMBW14 a ns2:Chapter .
+
+ns2:PMBW15 a ns2:Chapter .
+
+ns2:PMBW16 a ns2:Chapter ;
+    ns1:image "PMBW16.png" ;
+    ns2:chapter "Unova" ;
+    ns2:manga_series "Pocket_Monsters_BW" ;
+    ns2:next_chapter "PMBW17" ;
+    ns2:number "16" ;
+    ns2:prev_chapter "PMBW15" ;
+    ns2:series "_OBP_Pocket_Monsters_BW_Kosaku_Anakubo_" ;
+    ns2:title_ja "大金持ちになっちゃった！？" ;
+    ns2:title_ro "Im_Rich!" ;
+    ns2:volume "2" .
+
+ns2:PMBW17 a ns2:Chapter .
+
+ns2:PMBW18 a ns2:Chapter .
+
+ns2:PMBW19 a ns2:Chapter .
+
+ns2:PMBW20 a ns2:Chapter .
+
+ns2:PMBW21 a ns2:Chapter .
+
+ns2:PMBW22 a ns2:Chapter .
+
+ns2:PMBW23 a ns2:Chapter .
+
+ns2:PMBW24 a ns2:Chapter .
+
+ns2:PMBW25 a ns2:Chapter .
+
+ns2:PMBW26 a ns2:Chapter .
+
+ns2:PMBW27 a ns2:Chapter .
+
+ns2:PMBW28 a ns2:Chapter .
+
+ns2:PMBW29 a ns2:Chapter ;
+    ns1:image "PMBW29.png" ;
+    ns2:chapter "Unova" ;
+    ns2:manga_series "Pocket_Monsters_BW" ;
+    ns2:next_chapter "PMBW30" ;
+    ns2:number "29" ;
+    ns2:prev_chapter "PMBW28" ;
+    ns2:series "_OBP_Pocket_Monsters_BW_Kosaku_Anakubo_" ;
+    ns2:title_en "" ;
+    ns2:title_ja "_メロエッタで大もうけ！？" ;
+    ns2:title_ro "Meloettas_Big_Profit!" ;
+    ns2:volume "3" .
+
+ns2:PMBW30 a ns2:Chapter ;
+    ns1:image "PMBW30.png" ;
+    ns2:chapter "Unova" ;
+    ns2:manga_series "Pocket_Monsters_BW" ;
+    ns2:next_chapter "PMBW31" ;
+    ns2:number "30" ;
+    ns2:prev_chapter "PMBW29" ;
+    ns2:series "_OBP_Pocket_Monsters_BW_Kosaku_Anakubo_" ;
+    ns2:title_ja "ケルデイオを引き止める！！" ;
+    ns2:title_ro "Stop_Keldeo!!" ;
+    ns2:volume "3" .
+
+ns2:PMBW31 a ns2:Chapter .
+
+ns2:PMBW32 a ns2:Chapter .
+
+ns2:PMBW33 a ns2:Chapter .
+
+ns2:PMBW34 a ns2:Chapter .
+
+ns2:PMBW35 a ns2:Chapter .
+
+ns2:PMBW36 a ns2:Chapter .
+
+ns2:PMBW37 a ns2:Chapter .
+
+ns2:PMBW38 a ns2:Chapter .
+
+ns2:PMBW39 a ns2:Chapter .
+
+ns2:PMBW40 a ns2:Chapter .
+
+ns2:PMBW41 a ns2:Chapter ;
+    ns1:image "PMBW41.png" ;
+    ns2:chapter "Unova" ;
+    ns2:manga_series "Pocket_Monsters_BW" ;
+    ns2:next_chapter "PMBW42" ;
+    ns2:number "41" ;
+    ns2:prev_chapter "PMBW40" ;
+    ns2:series "_OBP_Pocket_Monsters_BW_Kosaku_Anakubo_" ;
+    ns2:title_ja "_ピッピとチラーミィの意外な友情" ;
+    ns2:title_ro "Pippi_and_Chillarmys_Unexpected_Friendship" ;
+    ns2:volume "4" .
+
+ns2:PMBW42 a ns2:Chapter .
+
+ns2:PMBW43 a ns2:Chapter .
+
+ns2:PMBW44 a ns2:Chapter .
+
+ns2:PMBW45 a ns2:Chapter .
+
+ns2:PMBW46 a ns2:Chapter .
+
+ns2:PMBW47 a ns2:Chapter ;
+    ns1:image "PMBW47.png" ;
+    ns2:chapter "Unova" ;
+    ns2:manga_series "Pocket_Monsters_BW" ;
+    ns2:next_chapter "N/A" ;
+    ns2:number "47" ;
+    ns2:prev_chapter "PMBW46" ;
+    ns2:series "_OBP_Pocket_Monsters_BW_Kosaku_Anakubo_" ;
+    ns2:title_ja "南国リゾートにご招待♡" ;
+    ns2:title_ro "Invitation_to_a_Resort_in_the_South_♡" ;
+    ns2:volume "4" .
+
+ns2:PMDP01 a ns2:Chapter .
+
+ns2:PMDP02 a ns2:Chapter .
+
+ns2:PMDP03 a ns2:Chapter ;
+    ns1:image "PMDP03.png" ;
+    ns2:chapter "Sinnoh" ;
+    ns2:location "_" ;
+    ns2:manga_series "Pocket_Monsters_DP" ;
+    ns2:next_chapter "PMDP04" ;
+    ns2:number "3" ;
+    ns2:prev_chapter "PMDP02" ;
+    ns2:series "_OBP_Pocket_Monsters_DP_Kosaku_Anakubo_" ;
+    ns2:title_en "_" ;
+    ns2:title_ja "極秘情報の真相は!" ;
+    ns2:title_ro "The_Truth_of_the_Top_Secret_Is!" ;
+    ns2:volume "1" .
+
+ns2:PMDP04 a ns2:Chapter .
+
+ns2:PMDP05 a ns2:Chapter .
+
+ns2:PMDP06 a ns2:Chapter .
+
+ns2:PMDP07 a ns2:Chapter .
+
+ns2:PMDP08 a ns2:Chapter .
+
+ns2:PMDP09 a ns2:Chapter .
+
+ns2:PMDP10 a ns2:Chapter .
+
+ns2:PMDP11 a ns2:Chapter .
+
+ns2:PMDP12 a ns2:Chapter .
+
+ns2:PMDP13 a ns2:Chapter .
+
+ns2:PMDP14 a ns2:Chapter .
+
+ns2:PMDP15 a ns2:Chapter .
+
+ns2:PMDP16 a ns2:Chapter .
+
+ns2:PMDP17 a ns2:Chapter .
+
+ns2:PMDP18 a ns2:Chapter .
+
+ns2:PMDP19 a ns2:Chapter .
+
+ns2:PMDP20 a ns2:Chapter .
+
+ns2:PMDP21 a ns2:Chapter .
+
+ns2:PMDP22 a ns2:Chapter .
+
+ns2:PMDP23 a ns2:Chapter .
+
+ns2:PMDP24 a ns2:Chapter .
+
+ns2:PMDP25 a ns2:Chapter .
+
+ns2:PMDP26 a ns2:Chapter .
+
+ns2:PMDP27 a ns2:Chapter .
+
+ns2:PMDP28 a ns2:Chapter .
+
+ns2:PMDP29 a ns2:Chapter .
+
+ns2:PMDP30 a ns2:Chapter .
+
+ns2:PMDP31 a ns2:Chapter .
+
+ns2:PMDP32 a ns2:Chapter .
+
+ns2:PMDP33 a ns2:Chapter .
+
+ns2:PMDP34 a ns2:Chapter .
+
+ns2:PMDP35 a ns2:Chapter .
+
+ns2:PMDP36 a ns2:Chapter .
+
+ns2:PMDP37 a ns2:Chapter .
+
+ns2:PMDP38 a ns2:Chapter .
+
+ns2:PMDP39 a ns2:Chapter .
+
+ns2:PMDP40 a ns2:Chapter .
+
+ns2:PMDP41 a ns2:Chapter .
+
+ns2:PMDP42 a ns2:Chapter .
+
+ns2:PMDP43 a ns2:Chapter .
+
+ns2:PMDP44 a ns2:Chapter .
+
+ns2:PMDP45 a ns2:Chapter .
+
+ns2:PMDP46 a ns2:Chapter .
+
+ns2:PMDP47 a ns2:Chapter .
+
+ns2:PMDP48 a ns2:Chapter .
+
+ns2:PMDP49 a ns2:Chapter .
+
+ns2:PMDP50 a ns2:Chapter .
+
+ns2:PMDP51 a ns2:Chapter .
+
+ns2:PMDP52 a ns2:Chapter .
+
+ns2:PMDP53 a ns2:Chapter .
+
+ns2:PMDP54 a ns2:Chapter ;
+    ns1:image "PMDP54.png" ;
+    ns2:chapter "Sinnoh" ;
+    ns2:manga_series "Pocket_Monsters_DP" ;
+    ns2:next_chapter "PMDP55" ;
+    ns2:number "54" ;
+    ns2:prev_chapter "PMDP53" ;
+    ns2:series "_OBP_Pocket_Monsters_DP_Kosaku_Anakubo_" ;
+    ns2:title_ja "水を求めて大バトル！！" ;
+    ns2:title_ro "The_Grand_Battle_for_Water!!" ;
+    ns2:volume "5" .
+
+ns2:PMDP55 a ns2:Chapter .
+
+ns2:PMDP56 a ns2:Chapter .
+
+ns2:PMDP57 a ns2:Chapter .
+
+ns2:PMDP58 a ns2:Chapter .
+
+ns2:PMDP59 a ns2:Chapter .
+
+ns2:PMDP60 a ns2:Chapter .
+
+ns2:PMHGSS01 a ns2:Chapter .
+
+ns2:PMHGSS02 a ns2:Chapter .
+
+ns2:PMHGSS03 a ns2:Chapter .
+
+ns2:PMHGSS04 a ns2:Chapter .
+
+ns2:PMHGSS05 a ns2:Chapter .
+
+ns2:PMHGSS06 a ns2:Chapter .
+
+ns2:PMHGSS07 a ns2:Chapter .
+
+ns2:PMHGSS08 a ns2:Chapter .
+
+ns2:PMHGSS09 a ns2:Chapter .
+
+ns2:PMHGSS10 a ns2:Chapter .
+
+ns2:PMHGSS11 a ns2:Chapter .
+
+ns2:PMHGSS12 a ns2:Chapter .
+
+ns2:PMHGSS13 a ns2:Chapter .
+
+ns2:PMHGSS14 a ns2:Chapter .
+
+ns2:PMHGSS15 a ns2:Chapter .
+
+ns2:PMHGSS16 a ns2:Chapter .
+
+ns2:PMHGSS17 a ns2:Chapter .
+
+ns2:PMHGSS18 a ns2:Chapter .
+
+ns2:PMHGSS19 a ns2:Chapter .
+
+ns2:PMHGSS20 a ns2:Chapter .
+
+ns2:PMHGSS21 a ns2:Chapter .
+
+ns2:PMHGSS22 a ns2:Chapter .
+
+ns2:PMHGSS23 a ns2:Chapter .
+
+ns2:PMRS01 a ns2:Chapter .
+
+ns2:PMRS02 a ns2:Chapter .
+
+ns2:PMRS03 a ns2:Chapter .
+
+ns2:PMRS04 a ns2:Chapter .
+
+ns2:PMRS05 a ns2:Chapter .
+
+ns2:PMRS06 a ns2:Chapter ;
+    ns1:image "PMRS06.png" ;
+    ns2:chapter "Hoenn" ;
+    ns2:location "Rustboro_City/Pokémon_Trainers_School" ;
+    ns2:manga_series "Pokémon_Ruby-Sapphire" ;
+    ns2:next_chapter "PMRS07_Lets_Invite_Something_New!_Go!_Go!_Go!" ;
+    ns2:number "6" ;
+    ns2:prev_chapter "PMRS05_Lets_Try_To_Be_Idols!!" ;
+    ns2:series "Pokémon_Ruby-Sapphire" ;
+    ns2:title_en "Extra_Heavyweight_Battle" ;
+    ns2:title_ja "ドスコイ！　超重量級対決" ;
+    ns2:title_ro "Hi-yah!_Super_Heavyweight_Showdown" ;
+    ns2:volume "1" .
+
+ns2:PMRS07 a ns2:Chapter .
+
+ns2:PMRS08 a ns2:Chapter .
+
+ns2:PMRS09 a ns2:Chapter ;
+    ns1:image "PMRS09.png" ;
+    ns2:chapter "Hoenn" ;
+    ns2:location "Petalburg_City" ;
+    ns2:manga_series "Pokémon_Ruby-Sapphire" ;
+    ns2:next_chapter "PMRS10_Weve_Found_Team_Magmas_Secret!!" ;
+    ns2:number "9" ;
+    ns2:prev_chapter "PMRS08_Esper_Clefairy!" ;
+    ns2:series "Pokémon_Ruby-Sapphire" ;
+    ns2:title_en "Clefairys_Training_Camp!!" ;
+    ns2:title_ja "はばたけ！　ピッピ男塾" ;
+    ns2:title_ro "Swing_Your_Arms!__tt_Pippi_Clefairy_s_Private_Lessons!!_" ;
+    ns2:volume "1" .
+
+ns2:PMRS10 a ns2:Chapter .
+
+ns2:PMRS11 a ns2:Chapter .
+
+ns2:PMRS12 a ns2:Chapter .
+
+ns2:PMRS13 a ns2:Chapter .
+
+ns2:PMRS14 a ns2:Chapter .
+
+ns2:PMRS15 a ns2:Chapter .
+
+ns2:PMRS16 a ns2:Chapter .
+
+ns2:PMRS17 a ns2:Chapter .
+
+ns2:PMRS18 a ns2:Chapter .
+
+ns2:PMRS19 a ns2:Chapter .
+
+ns2:PMRS20 a ns2:Chapter ;
+    ns1:image "PMRS20.png" ;
+    ns2:chapter "Hoenn" ;
+    ns2:manga_series "Pokémon_Ruby-Sapphire" ;
+    ns2:next_chapter "PMRS21_Christmas_Night_Is_Battle_Night!" ;
+    ns2:number "20" ;
+    ns2:prev_chapter "PMRS19_Whats_In_The_Box!" ;
+    ns2:series "Pokémon_Ruby-Sapphire" ;
+    ns2:title_en "Clefairy_Becomes_A_Billionaire!" ;
+    ns2:title_ja "誕生！？億万長者ピッピ" ;
+    ns2:title_ro "Billionaire_Pippi_is_Born!" ;
+    ns2:volume "2" .
+
+ns2:PMRS21 a ns2:Chapter .
+
+ns2:PMRS22 a ns2:Chapter .
+
+ns2:PMRS23 a ns2:Chapter .
+
+ns2:PMRS24 a ns2:Chapter .
+
+ns2:PMRS25 a ns2:Chapter .
+
+ns2:PMRS26 a ns2:Chapter .
+
+ns2:PMRS27 a ns2:Chapter .
+
+ns2:PMRS28 a ns2:Chapter .
+
+ns2:PMRS29 a ns2:Chapter .
+
+ns2:PMRS30 a ns2:Chapter .
+
+ns2:PMRS31 a ns2:Chapter .
+
+ns2:PMRS32 a ns2:Chapter .
+
+ns2:PMRS33 a ns2:Chapter .
+
+ns2:PMRS34 a ns2:Chapter .
+
+ns2:PMRS35 a ns2:Chapter .
+
+ns2:PMRS36 a ns2:Chapter .
+
+ns2:PMRS37 a ns2:Chapter .
+
+ns2:PMRS38 a ns2:Chapter .
+
+ns2:PMRS39 a ns2:Chapter .
+
+ns2:PMRS40 a ns2:Chapter .
+
+ns2:PMRS41 a ns2:Chapter .
+
+ns2:PMRS42 a ns2:Chapter .
+
+ns2:PMRS43 a ns2:Chapter .
+
+ns2:PMRS44 a ns2:Chapter .
+
+ns2:PMRS45 a ns2:Chapter ;
+    ns1:image "PMRS45.png" ;
+    ns2:chapter "Hoenn" ;
+    ns2:location "Hoenn" ;
+    ns2:manga_series "Pokémon_Ruby-Sapphire" ;
+    ns2:next_chapter "PMRS46_Clefairy_Saves_A_Village!" ;
+    ns2:number "45" ;
+    ns2:prev_chapter "PMRS44_Clefairy_Is_Head-Hunted!" ;
+    ns2:series "Pokémon_Ruby-Sapphire" ;
+    ns2:title_en "Find_The_Ancient_Pokémon!!" ;
+    ns2:title_ja "_古代ポケモンをさがせ！！" ;
+    ns2:title_ro "Find_The_Ancient_Pokémon!!" ;
+    ns2:volume "5" .
+
+ns2:PMRS46 a ns2:Chapter .
+
+ns2:PMRS47 a ns2:Chapter .
+
+ns2:PMRS48 a ns2:Chapter .
+
+ns2:PMRS49 a ns2:Chapter .
+
+ns2:PMRS50 a ns2:Chapter .
+
+ns2:PMRS51 a ns2:Chapter .
+
+ns2:PMRS52 a ns2:Chapter .
+
+ns2:PMRS53 a ns2:Chapter .
+
+ns2:PMRS54 a ns2:Chapter ;
+    ns1:image "PMRS54.png" ;
+    ns2:chapter "Hoenn" ;
+    ns2:location "Pokémon_Museum" ;
+    ns2:manga_series "Pokémon_Ruby-Sapphire" ;
+    ns2:next_chapter "PMRS55_The_Mountain_Lodge_Tragedy!" ;
+    ns2:number "54" ;
+    ns2:prev_chapter "PMRS53_Clefairys_Golf_Debut!" ;
+    ns2:series "Pokémon_Ruby-Sapphire" ;
+    ns2:title_en "Clefairy_Becomes_A_Work_Of_Art!" ;
+    ns2:title_ja "_ピッピ、芸術になる！！" ;
+    ns2:title_ro "Pippi_Becomes_A_Work_Of_Art!!" ;
+    ns2:volume "6" .
+
+ns2:PMRS55 a ns2:Chapter .
+
+ns2:PMRS56 a ns2:Chapter .
+
+ns2:PMRS57 a ns2:Chapter .
+
+ns2:PMRS58 a ns2:Chapter .
+
+ns2:PMRS59 a ns2:Chapter .
+
+ns2:PMRS60 a ns2:Chapter ;
+    ns1:image "PMRS60.png" ;
+    ns2:chapter "Hoenn" ;
+    ns2:location "Faraway_island" ;
+    ns2:manga_series "Pokémon_Ruby-Sapphire" ;
+    ns2:next_chapter "PMRS61_Clefairys_Dome_Concert!" ;
+    ns2:number "60" ;
+    ns2:prev_chapter "PMRS59_Enter_The_World_Of_Sumo!" ;
+    ns2:series "Pokémon_Ruby-Sapphire" ;
+    ns2:title_en "Clefairy_Has_Been_Abandoned!" ;
+    ns2:title_ja "見捨てられたピッピ！？" ;
+    ns2:title_ro "_tt_Pippi_Clefairy__Has_Been_Abandoned!" ;
+    ns2:volume "6" .
+
+ns2:PMRS61 a ns2:Chapter .
+
+ns2:PMRS62 a ns2:Chapter ;
+    ns1:image "PMRS62.png" ;
+    ns2:chapter "Hoenn" ;
+    ns2:location "Hoenn" ;
+    ns2:manga_series "Pokémon_Ruby-Sapphire" ;
+    ns2:next_chapter "PMRS63_Special_Pokémon_Comic_Strips!" ;
+    ns2:number "62" ;
+    ns2:prev_chapter "PMRS61_Clefairys_Dome_Concert!" ;
+    ns2:series "Pokémon_Ruby-Sapphire" ;
+    ns2:title_en "Lets_Go_After_The_Pokémon_Ranger!" ;
+    ns2:title_ja "うわさのポケモンレンジャーを追え！！" ;
+    ns2:title_ro "Lets_Go_After_the_Rumored_Pokémon_Ranger!!" ;
+    ns2:volume "6" .
+
+ns2:PMRS63 a ns2:Chapter .
+
+ns2:PMRSs1 a ns2:Chapter .
+
+ns2:PMRSs2 a ns2:Chapter .
+
+ns2:PMXY01 a ns2:Chapter .
+
+ns2:PMXY02 a ns2:Chapter ;
+    ns1:image "PMXY02.png" ;
+    ns2:chapter "Kalos" ;
+    ns2:manga_series "Pocket_Monsters_XY" ;
+    ns2:next_chapter "PMXY03" ;
+    ns2:number "2" ;
+    ns2:prev_chapter "PMXY01" ;
+    ns2:series "_OBP_Pocket_Monsters_XY_Kosaku_Anakubo_" ;
+    ns2:title_ja "_学校に泊まろう！" ;
+    ns2:title_ro "Stay_in_School!" ;
+    ns2:volume "1" .
+
+ns2:PMXY03 a ns2:Chapter .
+
+ns2:PMXY04 a ns2:Chapter .
+
+ns2:PMXY05 a ns2:Chapter .
+
+ns2:PMXY06 a ns2:Chapter .
+
+ns2:PMXY07 a ns2:Chapter .
+
+ns2:PMXY08 a ns2:Chapter .
+
+ns2:PMXY09 a ns2:Chapter .
+
+ns2:PMXY10 a ns2:Chapter .
+
+ns2:PMXY11 a ns2:Chapter .
+
+ns2:PMXY12 a ns2:Chapter .
+
+ns2:PPP30 a ns2:Chapter ;
+    ns1:image "PPP30.png" ;
+    ns2:chapter "Kanto" ;
+    ns2:location "_" ;
+    ns2:manga_series "Magical_Pokémon_Journey" ;
+    ns2:next_chapter "PPPB10_The_Master_Plan..._for_Romance!" ;
+    ns2:number "30" ;
+    ns2:prev_chapter "PPP29_Never_Say_Diet!" ;
+    ns2:series "Magical_Pokémon_Journey" ;
+    ns2:title_en "Hazels_Holiday" ;
+    ns2:title_ja "マロンのメリークリスマス" ;
+    ns2:title_ro "_tt_Marrons_Hazels__Merry_Christmas" ;
+    ns2:volume "5" .
+
+ns2:PPP31 a ns2:Chapter .
+
+ns2:PPP32 a ns2:Chapter .
+
+ns2:PPP33 a ns2:Chapter .
+
+ns2:PPP34 a ns2:Chapter .
+
+ns2:PPP35 a ns2:Chapter .
+
+ns2:PPP36 a ns2:Chapter .
+
+ns2:PPP37 a ns2:Chapter ;
+    ns1:image "PPP37.jpg" ;
+    ns2:chapter "Johto" ;
+    ns2:manga_series "Magical_Pokémon_Journey" ;
+    ns2:next_chapter "PPP38_Swimming_with_the_Qwilfish" ;
+    ns2:number "37" ;
+    ns2:prev_chapter "PPPB15_Loves_Me_Loves_Me_Not" ;
+    ns2:series "Magical_Pokémon_Journey" ;
+    ns2:title_en "The_Mysterious_Beauty" ;
+    ns2:title_ja "なぞの美少女&middot;ジンジャー登場" ;
+    ns2:title_ro "Enter_the_Mysterious_Beauty_Ginger" ;
+    ns2:volume "7" .
+
+ns2:PPP38 a ns2:Chapter .
+
+ns2:PPP39 a ns2:Chapter .
+
+ns2:PPP40 a ns2:Chapter .
+
+ns2:PPP41 a ns2:Chapter .
+
+ns2:PPP42 a ns2:Chapter .
+
+ns2:PPP43 a ns2:Chapter .
+
+ns2:PPP44 a ns2:Chapter .
+
+ns2:PPP45 a ns2:Chapter .
+
+ns2:PPP46 a ns2:Chapter .
+
+ns2:PPP47 a ns2:Chapter .
+
+ns2:PPP48 a ns2:Chapter .
+
+ns2:PPP49 a ns2:Chapter ;
+    ns1:image "PPP49.png" ;
+    ns2:chapter "Johto" ;
+    ns2:manga_series "Magical_Pokémon_Journey" ;
+    ns2:next_chapter "PPP50_Vulpix_and_Cyndaquil" ;
+    ns2:number "49" ;
+    ns2:prev_chapter "PPP48_Cherry_Blossom_Gift" ;
+    ns2:series "Magical_Pokémon_Journey" ;
+    ns2:title_en "Boys_Are_Cool!" ;
+    ns2:title_ja "男のコはカッコイイ!" ;
+    ns2:title_ro "Boys_Are_Cool!" ;
+    ns2:volume "8" .
+
+ns2:PPP50 a ns2:Chapter .
+
+ns2:PPP51 a ns2:Chapter .
+
+ns2:PPP52 a ns2:Chapter .
+
+ns2:PPP53 a ns2:Chapter .
+
+ns2:PPP54 a ns2:Chapter ;
+    ns1:image "PPP54.png" ;
+    ns2:chapter "Johto" ;
+    ns2:manga_series "Magical_Pokémon_Journey" ;
+    ns2:next_chapter "PPP55_Pokémon_Sports_Meet!_(Part_2)" ;
+    ns2:number "54" ;
+    ns2:prev_chapter "PPP53_The_Accidental_Treasure" ;
+    ns2:series "Magical_Pokémon_Journey" ;
+    ns2:title_en "Pokémon_Sports_Meet!_(Part_1)" ;
+    ns2:title_ja "ポケモン大運動会!_(前編)" ;
+    ns2:title_ro "Pokémon_Confession_Exercise_Camp!_(Part_1)" ;
+    ns2:volume "9" .
+
+ns2:PPP55 a ns2:Chapter .
+
+ns2:PPP56 a ns2:Chapter .
+
+ns2:PPP57 a ns2:Chapter .
+
+ns2:PPP58 a ns2:Chapter .
+
+ns2:PPP59 a ns2:Chapter .
+
+ns2:PPP60 a ns2:Chapter .
+
+ns2:PPP61 a ns2:Chapter .
+
+ns2:PPP62 a ns2:Chapter .
+
+ns2:PPP63 a ns2:Chapter .
+
+ns2:PPP64 a ns2:Chapter .
+
+ns2:PPP65 a ns2:Chapter .
+
+ns2:PPP66 a ns2:Chapter .
+
+ns2:PPP67 a ns2:Chapter .
+
+ns2:PPP68 a ns2:Chapter .
+
+ns2:PPP69 a ns2:Chapter .
+
+ns2:PPPA2 a ns2:Chapter .
+
+ns2:PPPB10 a ns2:Chapter .
+
+ns2:PPPB11 a ns2:Chapter .
+
+ns2:PPPB12 a ns2:Chapter .
+
+ns2:PPPB13 a ns2:Chapter .
+
+ns2:PPPB14 a ns2:Chapter .
+
+ns2:PPPB15 a ns2:Chapter .
+
+ns2:PPPB16 a ns2:Chapter .
+
+ns2:PPPB17 a ns2:Chapter .
+
+ns2:PPPB18 a ns2:Chapter .
+
+ns2:PPPB19 a ns2:Chapter .
+
+ns2:PPPB20 a ns2:Chapter .
+
+ns2:PW01 a ns2:Chapter .
+
+ns2:PW02 a ns2:Chapter .
+
+ns2:PW03 a ns2:Chapter .
+
+ns2:PW04 a ns2:Chapter .
+
+ns2:PW05 a ns2:Chapter .
+
+ns2:PW06 a ns2:Chapter .
+
+ns2:PW07 a ns2:Chapter .
+
+ns2:PW08 a ns2:Chapter .
+
+ns2:PW09 a ns2:Chapter .
+
+ns2:PW10 a ns2:Chapter .
+
+ns2:PW11 a ns2:Chapter .
+
+ns2:PW12 a ns2:Chapter .
+
+ns2:PW13 a ns2:Chapter .
+
+ns2:PW14 a ns2:Chapter .
+
+ns2:PW15 a ns2:Chapter .
+
+ns2:PW16 a ns2:Chapter .
+
+ns2:PW17 a ns2:Chapter .
+
+ns2:PW18 a ns2:Chapter .
+
+ns2:PW19 a ns2:Chapter .
+
+ns2:PW20 a ns2:Chapter .
+
+ns2:PW21 a ns2:Chapter .
+
+ns2:PW22 a ns2:Chapter .
+
+ns2:PW23 a ns2:Chapter .
+
+ns2:PW24 a ns2:Chapter .
+
+ns2:PW25 a ns2:Chapter .
+
+ns2:PW26 a ns2:Chapter .
+
+ns2:PW27 a ns2:Chapter .
+
+ns2:PW28 a ns2:Chapter .
+
+ns2:PW29 a ns2:Chapter .
+
+ns2:PW30 a ns2:Chapter .
+
+ns2:PW31 a ns2:Chapter .
+
+ns2:PW32 a ns2:Chapter .
+
+ns2:PW33 a ns2:Chapter ;
+    ns1:image "PW33.png" ;
+    ns2:chapter "Johto" ;
+    ns2:manga_series "How_I_Became_a_Pokémon_Card" ;
+    ns2:next_chapter "PW34_Nidoran♀s_Maiden_Heart" ;
+    ns2:number "33" ;
+    ns2:prev_chapter "PW32_Magikarps_Waterfall_Evolution!" ;
+    ns2:series "How_I_Became_a_Pokémon_Card" ;
+    ns2:title_ja "_ぐるぐるぐるぐるオムナイト" ;
+    ns2:title_ro "Roly-Poly_Roly-Poly__tt_Omnite_Omanyte_" ;
+    ns2:volume "6" .
+
+ns2:PW34 a ns2:Chapter .
+
+ns2:PW35 a ns2:Chapter .
+
+ns2:PW36 a ns2:Chapter .
+
+ns2:PW37 a ns2:Chapter .
+
+ns2:PW38 a ns2:Chapter .
+
+ns2:PWs1 a ns2:Chapter .
+
+<http://example.org/resource/chapter/Pocket_Monsters_Diamond_and_Pearl:_Regigigas_Major_Capture_Operation!!> a ns2:Chapter .
+
+<http://example.org/resource/chapter/Pocket_Monsters_HeartGold_&_SoulSilver_Go!_Go!_Pokéathlon> a ns2:Chapter .
+
+ns2:Pokémon_Card_GB_The_Comix a ns2:Chapter .
+
+ns2:Pokémon_Diamond_and_Pearl_\(manga\) a ns2:Chapter .
+
+<http://example.org/resource/chapter/Pokémon_HeartGold_SoulSilver:_Pokédex_Completion_Comic> a ns2:Chapter .
+
+ns2:QPL01 a ns2:Chapter .
+
+ns2:QPL02 a ns2:Chapter .
+
+ns2:QPL03 a ns2:Chapter .
+
+ns2:QPL04 a ns2:Chapter .
+
+ns2:QPL05 a ns2:Chapter .
+
+ns2:QPL06 a ns2:Chapter .
+
+ns2:QPL07 a ns2:Chapter .
+
+ns2:QPL08 a ns2:Chapter .
+
+ns2:QPL09 a ns2:Chapter .
+
+ns2:QPL10 a ns2:Chapter .
+
+ns2:QPL11 a ns2:Chapter .
+
+ns2:QPL12 a ns2:Chapter .
+
+ns2:QPL13 a ns2:Chapter .
+
+ns2:QPLB1 a ns2:Chapter .
+
+ns2:RB08 a ns2:Chapter .
+
+ns2:RB09 a ns2:Chapter ;
+    ns1:image "RB09.png" ;
+    ns2:chapter "Unova" ;
+    ns2:location "Free_Market_City_Karakuda" ;
+    ns2:manga_series "Pokémon_RéBURST" ;
+    ns2:next_chapter "RB10_Enigmatic_Burst_Warrior" ;
+    ns2:number "9" ;
+    ns2:prev_chapter "RB08_The_Worlds_Best...!!" ;
+    ns2:series "Pokémon_RéBURST" ;
+    ns2:title_en "_color_FFFFFF_The_Compass_of_Light_" ;
+    ns2:title_ja "光の羅針盤" ;
+    ns2:title_ro "The_Compass_of_Light" ;
+    ns2:volume "2" .
+
+ns2:RB10 a ns2:Chapter ;
+    ns1:image "RB10.png" ;
+    ns2:chapter "Unova" ;
+    ns2:location "Free_Market_City_Karakuda" ;
+    ns2:manga_series "Pokémon_RéBURST" ;
+    ns2:next_chapter "RB11_Incomplete_Burst" ;
+    ns2:number "10" ;
+    ns2:prev_chapter "RB09_The_Compass_of_Light" ;
+    ns2:series "Pokémon_RéBURST" ;
+    ns2:title_en "_color_FFFFFF_Enigmatic_Burst_Warrior_" ;
+    ns2:title_ja "謎のBURST戦士" ;
+    ns2:title_ro "Enigmatic_Burst_Warrior" ;
+    ns2:volume "2" .
+
+ns2:RB11 a ns2:Chapter ;
+    ns1:image "RB11.png" ;
+    ns2:chapter "Unova" ;
+    ns2:location "Free_Market_City_Karakuda" ;
+    ns2:manga_series "Pokémon_RéBURST" ;
+    ns2:next_chapter "RB12_True_Strength" ;
+    ns2:number "11" ;
+    ns2:prev_chapter "RB10_Mysterious_Burst_Warrior" ;
+    ns2:series "Pokémon_RéBURST" ;
+    ns2:title_en "_color_FFFFFF_Incomplete_Burst_" ;
+    ns2:title_ja "不完全なBURST" ;
+    ns2:title_ro "Incomplete_Burst" ;
+    ns2:volume "2" .
+
+ns2:RB12 a ns2:Chapter ;
+    ns1:image "RB12.png" ;
+    ns2:chapter "Unova" ;
+    ns2:location "Free_Market_City_Karakuda" ;
+    ns2:manga_series "Pokémon_RéBURST" ;
+    ns2:next_chapter "RB13_The_Compasss_Whereabouts" ;
+    ns2:number "12" ;
+    ns2:prev_chapter "RB11_Incomplete_Burst" ;
+    ns2:series "Pokémon_RéBURST" ;
+    ns2:title_en "_color_FFFFFF_True_Strength_" ;
+    ns2:title_ja "本当の実力" ;
+    ns2:title_ro "True_Strength" ;
+    ns2:volume "2" .
+
+ns2:RB13 a ns2:Chapter ;
+    ns1:image "RB13.png" ;
+    ns2:chapter "Unova" ;
+    ns2:location "Chabio_Town" ;
+    ns2:manga_series "Pokémon_RéBURST" ;
+    ns2:next_chapter "RB14_The_Man_Called_Rend" ;
+    ns2:number "13" ;
+    ns2:prev_chapter "RB12_True_Strength" ;
+    ns2:series "Pokémon_RéBURST" ;
+    ns2:title_en "_color_FFF_The_Compasss_Whereabouts_" ;
+    ns2:title_ja "羅針盤の行方" ;
+    ns2:title_ro "The_Compasss_Whereabouts" ;
+    ns2:volume "2" .
+
+ns2:RB14 a ns2:Chapter ;
+    ns1:image "RB14.png" ;
+    ns2:chapter "Unova" ;
+    ns2:location "Chabio_Town" ;
+    ns2:manga_series "Pokémon_RéBURST" ;
+    ns2:next_chapter "RB15_This_is_Training!" ;
+    ns2:number "14" ;
+    ns2:prev_chapter "RB13_The_Compasss_Whereabouts" ;
+    ns2:series "Pokémon_RéBURST" ;
+    ns2:title_en "_color_FFFFFF_The_Man_Called_Rend_" ;
+    ns2:title_ja "レンドという男" ;
+    ns2:title_ro "The_Man_Called_Rend" ;
+    ns2:volume "2" .
+
+ns2:RB15 a ns2:Chapter ;
+    ns1:image "RB15.png" ;
+    ns2:chapter "Unova" ;
+    ns2:location "Chabio_Town" ;
+    ns2:manga_series "Pokémon_RéBURST" ;
+    ns2:next_chapter "RB16_The_Road_to_Zekrom" ;
+    ns2:number "15" ;
+    ns2:prev_chapter "RB14_The_Man_Called_Rend" ;
+    ns2:series "Pokémon_RéBURST" ;
+    ns2:title_en "_color_FFFFFF_This_is_Training!_" ;
+    ns2:title_ja "これが修行！？" ;
+    ns2:title_ro "This_is_Training!" ;
+    ns2:volume "2" .
+
+ns2:RB16 a ns2:Chapter ;
+    ns1:image "RB16.png" ;
+    ns2:chapter "Unova" ;
+    ns2:location "Chabio_Town" ;
+    ns2:manga_series "Pokémon_RéBURST" ;
+    ns2:next_chapter "RB17_The_Gatekeeper_Boy" ;
+    ns2:number "16" ;
+    ns2:prev_chapter "RB15_This_is_Training!" ;
+    ns2:series "Pokémon_RéBURST" ;
+    ns2:title_en "_color_FFFFFF_The_Road_to_Zekrom_" ;
+    ns2:title_ja "ゼクロムへの道" ;
+    ns2:title_ro "The_Road_to_Zekrom" ;
+    ns2:volume "2" .
+
+ns2:RB17 a ns2:Chapter ;
+    ns1:image "RB17.png" ;
+    ns2:chapter "Unova" ;
+    ns2:location "Chabio_Town" ;
+    ns2:manga_series "Pokémon_RéBURST" ;
+    ns2:next_chapter "RB18_Ryouga_and_Zekrom" ;
+    ns2:number "17" ;
+    ns2:prev_chapter "RB16_The_Road_to_Zekrom" ;
+    ns2:series "Pokémon_RéBURST" ;
+    ns2:title_en "_color_FFFFFF_The_Gatekeeper_Boy_" ;
+    ns2:title_ja "門番の少年" ;
+    ns2:title_ro "The_Gatekeeper_Boy" ;
+    ns2:volume "2" .
+
+ns2:RB18 a ns2:Chapter ;
+    ns1:image "RB18.png" ;
+    ns2:chapter "Unova" ;
+    ns2:location "Chabio_Town" ;
+    ns2:manga_series "Pokémon_RéBURST" ;
+    ns2:next_chapter "RB19_Two_Burst_Hearts" ;
+    ns2:number "18" ;
+    ns2:prev_chapter "RB17_The_Gatekeeper_Boy" ;
+    ns2:series "Pokémon_RéBURST" ;
+    ns2:title_en "_color_FFFFFF_Ryouga_and_Zekrom_" ;
+    ns2:title_ja "リョウガとゼクロム" ;
+    ns2:title_ro "Ryouga_and_Zekrom" ;
+    ns2:volume "3" .
+
+ns2:RB19 a ns2:Chapter .
+
+ns2:RB20 a ns2:Chapter ;
+    ns1:image "RB20.png" ;
+    ns2:chapter "Unova" ;
+    ns2:location "Unknown" ;
+    ns2:manga_series "Pokémon_RéBURST" ;
+    ns2:next_chapter "RB21_Burst_Heart_Survival_Begins!" ;
+    ns2:number "20" ;
+    ns2:prev_chapter "RB19_Two_Burst_Hearts" ;
+    ns2:series "Pokémon_RéBURST" ;
+    ns2:title_en "_color_FFFFFF_Many_Lights_" ;
+    ns2:title_ja "いくつもの光" ;
+    ns2:title_ro "Many_Lights" ;
+    ns2:volume "3" .
+
+ns2:RB21 a ns2:Chapter .
+
+ns2:RB22 a ns2:Chapter .
+
+ns2:RB23 a ns2:Chapter .
+
+ns2:RB24 a ns2:Chapter .
+
+ns2:RB25 a ns2:Chapter .
+
+ns2:RB26 a ns2:Chapter .
+
+ns2:RB27 a ns2:Chapter .
+
+ns2:RB28 a ns2:Chapter .
+
+ns2:RB29 a ns2:Chapter .
+
+ns2:RB30 a ns2:Chapter .
+
+ns2:RB31 a ns2:Chapter .
+
+ns2:RB32 a ns2:Chapter .
+
+ns2:RB33 a ns2:Chapter ;
+    ns1:image "RB33.png" ;
+    ns2:chapter "Unova" ;
+    ns2:location "Unknown" ;
+    ns2:manga_series "Pokémon_RéBURST" ;
+    ns2:next_chapter "RB34_Reversals_and_Secrets" ;
+    ns2:number "33" ;
+    ns2:prev_chapter "RB32_Seesaw_Balloon_Survival" ;
+    ns2:series "Pokémon_RéBURST" ;
+    ns2:title_en "_color_FFFFFF_Pleasure_of_Fighting_" ;
+    ns2:title_ja "戦う喜び" ;
+    ns2:title_ro "Pleasure_of_Fighting" ;
+    ns2:volume "4" .
+
+ns2:RB34 a ns2:Chapter .
+
+ns2:RB35 a ns2:Chapter .
+
+ns2:RB36 a ns2:Chapter .
+
+ns2:RB37 a ns2:Chapter .
+
+ns2:RB38 a ns2:Chapter .
+
+ns2:RB39 a ns2:Chapter ;
+    ns1:image "RB39.png" ;
+    ns2:chapter "Unova" ;
+    ns2:location "Unknown" ;
+    ns2:manga_series "Pokémon_RéBURST" ;
+    ns2:next_chapter "RB40_Left_Arm" ;
+    ns2:number "39" ;
+    ns2:prev_chapter "RB38_Mastermind" ;
+    ns2:series "Pokémon_RéBURST" ;
+    ns2:title_en "_color_FFFFFF_Final_Match_Starts!_" ;
+    ns2:title_ja "決勝戦開始！" ;
+    ns2:title_ro "Final_Match_Starts!" ;
+    ns2:volume "5" .
+
+ns2:RB40 a ns2:Chapter .
+
+ns2:RB41 a ns2:Chapter .
+
+ns2:RB42 a ns2:Chapter .
+
+ns2:RB43 a ns2:Chapter .
+
+ns2:RB44 a ns2:Chapter .
+
+ns2:RB45 a ns2:Chapter .
+
+ns2:RB46 a ns2:Chapter .
+
+ns2:RB47 a ns2:Chapter .
+
+ns2:RB48 a ns2:Chapter .
+
+ns2:RB49 a ns2:Chapter .
+
+ns2:RB50 a ns2:Chapter .
+
+ns2:RB51 a ns2:Chapter .
+
+ns2:RB52 a ns2:Chapter .
+
+ns2:RB53 a ns2:Chapter .
+
+ns2:RB54 a ns2:Chapter .
+
+ns2:RB55 a ns2:Chapter .
+
+ns2:RB56 a ns2:Chapter .
+
+ns2:RB57 a ns2:Chapter .
+
+ns2:RB58 a ns2:Chapter .
+
+ns2:RB59 a ns2:Chapter .
+
+ns2:RB60 a ns2:Chapter .
+
+ns2:RB61 a ns2:Chapter .
+
+ns2:RB62 a ns2:Chapter .
+
+ns2:RB63 a ns2:Chapter .
+
+ns2:RB64 a ns2:Chapter ;
+    ns1:image "RB64.png" ;
+    ns2:chapter "Unova" ;
+    ns2:location "Unknown" ;
+    ns2:manga_series "Pokémon_RéBURST" ;
+    ns2:next_chapter "RB65_Respective_Barriers" ;
+    ns2:number "64" ;
+    ns2:prev_chapter "RB63_Harirus_Evolution" ;
+    ns2:series "Pokémon_RéBURST" ;
+    ns2:title_en "Metal" ;
+    ns2:title_ja "鋼鉄" ;
+    ns2:title_ro "Metal" ;
+    ns2:volume "7" .
+
+ns2:RB65 a ns2:Chapter .
+
+ns2:RB66 a ns2:Chapter .
+
+ns2:RB67 a ns2:Chapter .
+
+ns2:RB68 a ns2:Chapter .
+
+ns2:RB69 a ns2:Chapter ;
+    ns1:image "RB69.png" ;
+    ns2:chapter "Unova" ;
+    ns2:location "Island" ;
+    ns2:manga_series "Pokémon_RéBURST" ;
+    ns2:next_chapter "RB70_Trial" ;
+    ns2:number "69" ;
+    ns2:prev_chapter "RB68_A_Warriors_Tears" ;
+    ns2:series "Pokémon_RéBURST" ;
+    ns2:title_en "Father_and_Arcades" ;
+    ns2:title_ja "父とアルカデス" ;
+    ns2:title_ro "Father_and_Arcades" ;
+    ns2:volume "8" .
+
+ns2:RB70 a ns2:Chapter ;
+    ns1:image "RB70.png" ;
+    ns2:chapter "Unova" ;
+    ns2:location "Island" ;
+    ns2:manga_series "Pokémon_RéBURST" ;
+    ns2:next_chapter "RB71_Frauds_Past" ;
+    ns2:number "70" ;
+    ns2:prev_chapter "RB69_Father_and_Arcades" ;
+    ns2:series "Pokémon_RéBURST" ;
+    ns2:title_en "Trial" ;
+    ns2:title_ja "試験" ;
+    ns2:title_ro "Trial" ;
+    ns2:volume "8" .
+
+ns2:RB71 a ns2:Chapter ;
+    ns1:image "RB71.png" ;
+    ns2:chapter "Unova" ;
+    ns2:location "Island/Town" ;
+    ns2:manga_series "Pokémon_RéBURST" ;
+    ns2:next_chapter "RB72_The_One_who_would_become_Arcades" ;
+    ns2:number "71" ;
+    ns2:prev_chapter "RB70_Trial" ;
+    ns2:series "Pokémon_RéBURST" ;
+    ns2:title_en "Frauds_Past" ;
+    ns2:title_ja "フロードの過去" ;
+    ns2:title_ro "Frauds_Past" ;
+    ns2:volume "8" .
+
+ns2:RB72 a ns2:Chapter ;
+    ns1:image "RB72.png" ;
+    ns2:chapter "Unova_" ;
+    ns2:location "Island" ;
+    ns2:manga_series "Pokémon_RéBURST" ;
+    ns2:next_chapter "RB73_The_Birth_of_the_New_Arcades" ;
+    ns2:number "72" ;
+    ns2:prev_chapter "RB71_Frauds_Past" ;
+    ns2:series "Pokémon_RéBURST" ;
+    ns2:title_en "The_One_who_would_Become_Arcades" ;
+    ns2:title_ja "アルカデスになる者" ;
+    ns2:title_ro "The_One_who_would_Become_Arcades" ;
+    ns2:volume "8" .
+
+ns2:RB73 a ns2:Chapter ;
+    ns1:image "RB73.png" ;
+    ns2:chapter "Unova" ;
+    ns2:location "Island" ;
+    ns2:manga_series "Pokémon_RéBURST" ;
+    ns2:next_chapter "RB74_The_Course_of_the_World" ;
+    ns2:number "73" ;
+    ns2:prev_chapter "RB72_The_One_who_would_Become_Arcades" ;
+    ns2:series "Pokémon_RéBURST" ;
+    ns2:title_en "The_Birth_of_the_New_Arcades" ;
+    ns2:title_ja "新アルカデス誕生" ;
+    ns2:title_ro "The_Birth_of_the_New_Arcades" ;
+    ns2:volume "8" .
+
+ns2:RB74 a ns2:Chapter .
+
+ns2:RB75 a ns2:Chapter ;
+    ns1:image "RB75.png" ;
+    ns2:chapter "Unova" ;
+    ns2:location "Eternal_Tower" ;
+    ns2:manga_series "Pokémon_RéBURST" ;
+    ns2:next_chapter "RB76_The_Power_of_One_and_the_Power_of_the_World" ;
+    ns2:number "75" ;
+    ns2:prev_chapter "RB74_The_Course_of_the_World" ;
+    ns2:series "Pokémon_RéBURST" ;
+    ns2:title_en "The_Eternal_Tower" ;
+    ns2:title_ja "永遠の塔" ;
+    ns2:title_ro "The_Eternal_Tower" ;
+    ns2:volume "8" .
+
+ns2:RB76 a ns2:Chapter .
+
+ns2:RB77 a ns2:Chapter .
+
+ns2:SP01 a ns2:Chapter .
+
+ns2:SP02 a ns2:Chapter .
+
+ns2:SP03 a ns2:Chapter .
+
+ns2:SP04 a ns2:Chapter ;
+    ns1:image "SP04.png" ;
+    ns2:chapter "Johto" ;
+    ns2:manga_series "Ash_&_Pikachu" ;
+    ns2:next_chapter "SP05_The_Murkrows_Plot" ;
+    ns2:number "4" ;
+    ns2:prev_chapter "SP03_Treasure_Hunting!_Try_The_Maze!" ;
+    ns2:series "Ash_&_Pikachu" ;
+    ns2:title_en "The_Cowardly_God_Of_Plagues" ;
+    ns2:title_ja "憶病な疫病神" ;
+    ns2:title_ro "The_Cowardly_God_Of_Plagues" ;
+    ns2:volume "1" .
+
+ns2:SP05 a ns2:Chapter .
+
+ns2:SP06 a ns2:Chapter .
+
+ns2:SP07 a ns2:Chapter .
+
+ns2:SP08 a ns2:Chapter .
+
+ns2:SP09 a ns2:Chapter .
+
+ns2:SP10 a ns2:Chapter .
+
+ns2:SP11 a ns2:Chapter .
+
+ns2:SP12 a ns2:Chapter .
+
+ns2:SP13 a ns2:Chapter ;
+    ns1:image "SP13.png" ;
+    ns2:chapter "Johto" ;
+    ns2:manga_series "Ash_&_Pikachu" ;
+    ns2:next_chapter "SP14_The_Dragonites_Imperial_Wrath" ;
+    ns2:number "13" ;
+    ns2:prev_chapter "SP12_The_Tyrogues_Thoughts" ;
+    ns2:series "Ash_&_Pikachu" ;
+    ns2:title_en "The_Dream_Potion_Recipe_2!_" ;
+    ns2:title_ja "_夢の秘薬の作り方！！" ;
+    ns2:title_ro "The_Dream_Potion_Recipe!!" ;
+    ns2:volume "3" .
+
+ns2:SP14 a ns2:Chapter .
+
+ns2:SP15 a ns2:Chapter .
+
+ns2:SP16 a ns2:Chapter .
+
+ns2:SP17 a ns2:Chapter .
+
+ns2:SP18 a ns2:Chapter .
+
+ns2:SP19 a ns2:Chapter .
+
+ns2:SP20 a ns2:Chapter .
+
+ns2:SP21 a ns2:Chapter .
+
+ns2:SP22 a ns2:Chapter .
+
+ns2:SP23 a ns2:Chapter .
+
+ns2:SP24 a ns2:Chapter .
+
+ns2:SP25 a ns2:Chapter .
+
+ns2:SP26 a ns2:Chapter .
+
+ns2:SP27 a ns2:Chapter .
+
+ns2:SP28 a ns2:Chapter .
+
+ns2:SP29 a ns2:Chapter .
+
+ns2:SP30 a ns2:Chapter .
+
+ns2:SP31 a ns2:Chapter .
+
+ns2:SP32 a ns2:Chapter .
+
+ns2:SP33 a ns2:Chapter .
+
+ns2:SP34 a ns2:Chapter .
+
+ns2:SP35 a ns2:Chapter .
+
+ns2:SP36 a ns2:Chapter .
+
+ns2:TA01 a ns2:Chapter .
+
+ns2:TA02 a ns2:Chapter .
+
+ns2:TA03 a ns2:Chapter .
+
+ns2:TA04 a ns2:Chapter .
+
+ns2:TA05 a ns2:Chapter .
+
+ns2:TA06 a ns2:Chapter ;
+    ns1:image "TA06.png" ;
+    ns2:chapter "Sinnoh" ;
+    ns2:location "Meragura_Volcano" ;
+    ns2:manga_series "Pokémon_Try_Adventure" ;
+    ns2:next_chapter "TA07_Protect_the_Harmony_of_the_Forest!" ;
+    ns2:number "6" ;
+    ns2:prev_chapter "TA05_Capture_Entei!" ;
+    ns2:series "Pokémon_Try_Adventure" ;
+    ns2:title_ja "大だっ出！" ;
+    ns2:title_ro "Great_Escape!" ;
+    ns2:volume "1" .
+
+ns2:TA07 a ns2:Chapter .
+
+ns2:TA08 a ns2:Chapter .
+
+ns2:TA09 a ns2:Chapter .
+
+ns2:TA10 a ns2:Chapter .
+
+ns2:TA11 a ns2:Chapter .
+
+ns2:TA12 a ns2:Chapter .
+
+ns2:TA13 a ns2:Chapter .
+
+ns2:TA14 a ns2:Chapter .
+
+ns2:TA15 a ns2:Chapter .
+
+ns2:TA16 a ns2:Chapter .
+
+ns2:TA17 a ns2:Chapter .
+
+ns2:TA18 a ns2:Chapter ;
+    ns1:image "TA18.png" ;
+    ns2:chapter "Sinnoh" ;
+    ns2:location "_" ;
+    ns2:manga_series "Pokémon_Try_Adventure" ;
+    ns2:next_chapter "TA19_Arceus_Revealed!" ;
+    ns2:number "18" ;
+    ns2:prev_chapter "TA17_Friendship_on_the_Snowfields" ;
+    ns2:series "Pokémon_Try_Adventure" ;
+    ns2:title_en "_" ;
+    ns2:title_ja "キャティ大活やく！？" ;
+    ns2:title_ro "Catys_Big_Chance!" ;
+    ns2:volume "2" .
+
+ns2:TA19 a ns2:Chapter ;
+    ns1:image "TA19.png" ;
+    ns2:chapter "Sinnoh" ;
+    ns2:location "_" ;
+    ns2:manga_series "Pokémon_Try_Adventure" ;
+    ns2:next_chapter "TA20_Tokis_Sad_Past" ;
+    ns2:number "19" ;
+    ns2:prev_chapter "TA18_Catys_Big_Chance!" ;
+    ns2:series "Pokémon_Try_Adventure" ;
+    ns2:title_en "_" ;
+    ns2:title_ja "アルセウスあらわる！" ;
+    ns2:title_ro "Arceus_Revealed!" ;
+    ns2:volume "2" .
+
+ns2:TA20 a ns2:Chapter ;
+    ns1:image "TA20.png" ;
+    ns2:chapter "Sinnoh" ;
+    ns2:location "" ;
+    ns2:manga_series "Pokémon_Try_Adventure" ;
+    ns2:next_chapter "TA21_Adventure_without_End" ;
+    ns2:number "20" ;
+    ns2:prev_chapter "TA19_Arceus_Revealed!" ;
+    ns2:series "Pokémon_Try_Adventure" ;
+    ns2:title_en "" ;
+    ns2:title_ja "トキ、悲しみの過去" ;
+    ns2:title_ro "Tokis_Sad_Past" ;
+    ns2:volume "2" .
+
+ns2:TA21 a ns2:Chapter ;
+    ns1:image "TA21.png" ;
+    ns2:chapter "Sinnoh" ;
+    ns2:location "_" ;
+    ns2:manga_series "Pokémon_Try_Adventure" ;
+    ns2:next_chapter "TA22_Big_Panic_at_the_Factory" ;
+    ns2:number "21" ;
+    ns2:prev_chapter "TA20_Tokis_Sad_Past" ;
+    ns2:series "Pokémon_Try_Adventure" ;
+    ns2:title_en "_" ;
+    ns2:title_ja "終わらない冒険" ;
+    ns2:title_ro "Adventure_without_End" ;
+    ns2:volume "2" .
+
+ns2:TA22 a ns2:Chapter ;
+    ns1:image "TA22.png" ;
+    ns2:chapter "Sinnoh" ;
+    ns2:location "_" ;
+    ns2:manga_series "Pokémon_Try_Adventure" ;
+    ns2:next_chapter "TA23_Jido_and_Katsuya" ;
+    ns2:number "22" ;
+    ns2:prev_chapter "TA21_Adventure_without_End" ;
+    ns2:series "Pokémon_Try_Adventure" ;
+    ns2:title_en "_" ;
+    ns2:title_ja "工場大パニック" ;
+    ns2:title_ro "Big_Panic_at_the_Factory" ;
+    ns2:volume "2" .
+
+ns2:TA23 a ns2:Chapter ;
+    ns1:image "TA23.png" ;
+    ns2:chapter "Sinnoh" ;
+    ns2:location "_" ;
+    ns2:manga_series "Pokémon_Try_Adventure" ;
+    ns2:next_chapter "TA24_Sandstorm_Battle!" ;
+    ns2:number "23" ;
+    ns2:prev_chapter "TA22_Big_Panic_at_the_Factory" ;
+    ns2:series "Pokémon_Try_Adventure" ;
+    ns2:title_en "_" ;
+    ns2:title_ja "ジドーとカツヤ" ;
+    ns2:title_ro "Jido_and_Katsuya" ;
+    ns2:volume "2" .
+
+ns2:TA24 a ns2:Chapter ;
+    ns1:image "TA24.png" ;
+    ns2:chapter "Sinnoh" ;
+    ns2:location "_" ;
+    ns2:manga_series "Pokémon_Try_Adventure" ;
+    ns2:next_chapter "TA25_Formed!_Trystar!" ;
+    ns2:number "24" ;
+    ns2:prev_chapter "TA23_Jido_and_Katsuya" ;
+    ns2:series "Pokémon_Try_Adventure" ;
+    ns2:title_en "_" ;
+    ns2:title_ja "_砂嵐の戦い！" ;
+    ns2:title_ro "_Sandstorm_Battle!" ;
+    ns2:volume "2" .
+
+ns2:TA25 a ns2:Chapter ;
+    ns1:image "TA25.png" ;
+    ns2:chapter "Sinnoh" ;
+    ns2:location "_" ;
+    ns2:manga_series "Pokémon_Try_Adventure" ;
+    ns2:next_chapter "TA26_Clue_to_Cresselia!" ;
+    ns2:number "25" ;
+    ns2:prev_chapter "TA24_Sandstorm_Battle!" ;
+    ns2:series "Pokémon_Try_Adventure" ;
+    ns2:title_en "_" ;
+    ns2:title_ja "結成！トライスター！" ;
+    ns2:title_ro "Formed!_Trystar!" ;
+    ns2:volume "2" .
+
+ns2:TA26 a ns2:Chapter .
+
+ns2:TA27 a ns2:Chapter .
+
+ns2:TA28 a ns2:Chapter .
+
+ns2:TA29 a ns2:Chapter .
+
+ns2:TA30 a ns2:Chapter .
+
+ns2:TA31 a ns2:Chapter .
+
+ns2:TA32 a ns2:Chapter .
+
+ns2:TA33 a ns2:Chapter .
+
+ns2:TA34 a ns2:Chapter .
+
+ns2:TA35 a ns2:Chapter .
+
+ns2:TA36 a ns2:Chapter .
+
+ns2:TA37 a ns2:Chapter .
+
+ns2:TA38 a ns2:Chapter .
+
+ns2:TA39 a ns2:Chapter .
+
+ns2:TA40 a ns2:Chapter ;
+    ns1:image "TA40.png" ;
+    ns2:chapter "Unova" ;
+    ns2:manga_series "Pokémon_Try_Adventure" ;
+    ns2:next_chapter "TA41_Cold!_Snivy!" ;
+    ns2:number "40" ;
+    ns2:prev_chapter "TA39_The_Three_New_Pokémon" ;
+    ns2:series "Pokémon_Try_Adventure" ;
+    ns2:title_ja "新大陸に待つ者" ;
+    ns2:title_ro "Those_Who_Wait_on_the_New_Continent" ;
+    ns2:volume "3" .
+
+ns2:TA41 a ns2:Chapter .
+
+ns2:TA42 a ns2:Chapter .
+
+ns2:TA43 a ns2:Chapter .
+
+ns2:TA44 a ns2:Chapter .
+
+ns2:TA45 a ns2:Chapter .
+
+ns2:TA46 a ns2:Chapter ;
+    ns1:image "TA46.png" ;
+    ns2:chapter "Unova" ;
+    ns2:location "_" ;
+    ns2:manga_series "Pokémon_Try_Adventure" ;
+    ns2:next_chapter "TA47_The_Final_Battle!!" ;
+    ns2:number "46" ;
+    ns2:prev_chapter "TA45_The_Demon_Kings_Explosive_Power!" ;
+    ns2:series "Pokémon_Try_Adventure" ;
+    ns2:title_en "_" ;
+    ns2:title_ja "がんばれマナミ！" ;
+    ns2:title_ro "Go_For_It,_Manami!" ;
+    ns2:volume "3" .
+
+ns2:TA47 a ns2:Chapter .
+
+ns2:TA48 a ns2:Chapter .
+

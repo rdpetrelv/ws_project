@@ -1,0 +1,2459 @@
+@prefix ns1: <http://example.org/property/> .
+@prefix ns2: <http://example.org/resource/ability/> .
+
+ns2:Adaptability a ns2:Ability ;
+    ns1:name "Adaptability" ;
+    ns2:colorscheme "water" ;
+    ns2:gen "IV" ;
+    ns2:jpname "てきおうりょく" ;
+    ns2:jptrans "Adaptability" ;
+    ns2:jptranslit "Tekiōryoku" .
+
+ns2:Aerilate a ns2:Ability ;
+    ns1:name "Aerilate" ;
+    ns2:colorscheme "flying" ;
+    ns2:gen "VI" ;
+    ns2:jpname "スカイスキン_" ;
+    ns2:jptrans "Sky_Skin" ;
+    ns2:jptranslit "Sukai_Sukin" .
+
+ns2:Aftermath a ns2:Ability ;
+    ns1:name "Aftermath" ;
+    ns2:colorscheme "Poison" ;
+    ns2:gen "IV" ;
+    ns2:jpname "ゆうばく" ;
+    ns2:jptrans "Induced_Explosion" ;
+    ns2:jptranslit "Yūbaku" .
+
+ns2:Air_Lock a ns2:Ability ;
+    ns1:name "Air_Lock" ;
+    ns2:colorscheme "flying" ;
+    ns2:gen "III" ;
+    ns2:jpname "エアロック" ;
+    ns2:jptrans "Air_Lock" ;
+    ns2:jptranslit "Ea_Rokku" .
+
+ns2:Analytic a ns2:Ability ;
+    ns1:name "Analytic" ;
+    ns2:colorscheme "Normal" ;
+    ns2:gen "V" ;
+    ns2:jpname "アナライズ" ;
+    ns2:jptrans "Analyze" ;
+    ns2:jptranslit "Anaraizu" .
+
+ns2:Anger_Point a ns2:Ability ;
+    ns1:name "Anger_Point" ;
+    ns2:colorscheme "attack" ;
+    ns2:gen "IV" ;
+    ns2:jpname "いかりのつぼ" ;
+    ns2:jptrans "Anger_Point" ;
+    ns2:jptranslit "Ikari_no_Tsubo" .
+
+ns2:Anger_Shell a ns2:Ability ;
+    ns1:name "Anger_Shell" ;
+    ns2:colorscheme "attack" ;
+    ns2:gen "IX" ;
+    ns2:jpname "いかりのこうら" ;
+    ns2:jptrans "Anger_Shell" ;
+    ns2:jptranslit "Ikari_no_Kōra" .
+
+ns2:Anticipation a ns2:Ability ;
+    ns1:name "Anticipation" ;
+    ns2:colorscheme "fighting" ;
+    ns2:gen "IV" ;
+    ns2:jpname "きけんよち" ;
+    ns2:jptrans "Danger_Premonition" ;
+    ns2:jptranslit "Kikenyochi" .
+
+ns2:Arena_Trap a ns2:Ability ;
+    ns1:name "Arena_Trap" ;
+    ns2:colorscheme "ground" ;
+    ns2:gen "III" ;
+    ns2:jpname "ありじごく" ;
+    ns2:jptrans "Antlion" ;
+    ns2:jptranslit "Arijigoku" .
+
+ns2:Armor_Tail a ns2:Ability ;
+    ns1:name "Armor_Tail" ;
+    ns2:colorscheme "psychic" ;
+    ns2:gen "IX" ;
+    ns2:jpname "テイルアーマー" ;
+    ns2:jptrans "Tail_Armor" ;
+    ns2:jptranslit "Teiru_Āmā" .
+
+ns2:Aroma_Veil a ns2:Ability ;
+    ns1:name "Aroma_Veil" ;
+    ns2:colorscheme "fairy" ;
+    ns2:gen "VI" ;
+    ns2:jpname "アロマベール_" ;
+    ns2:jptrans "Aroma_Veil" ;
+    ns2:jptranslit "Aroma_Bēru" .
+
+ns2:As_One a ns2:Ability ;
+    ns1:name "As_One" ;
+    ns2:colorscheme "psychic" ;
+    ns2:gen "VIII" ;
+    ns2:jpname "じんばいったい" ;
+    ns2:jptrans "Rider_and_Mount_in_Unison" ;
+    ns2:jptranslit "Jinba_Ittai" .
+
+ns2:Aura_Break a ns2:Ability ;
+    ns1:name "Aura_Break" ;
+    ns2:colorscheme "dragon" ;
+    ns2:gen "VI" ;
+    ns2:jpname "オーラブレイク" ;
+    ns2:jptrans "Aura_Break" ;
+    ns2:jptranslit "Ōra_Bureiku" .
+
+ns2:Bad_Dreams a ns2:Ability ;
+    ns1:name "Bad_Dreams" ;
+    ns2:colorscheme "dark" ;
+    ns2:gen "IV" ;
+    ns2:jpname "ナイトメア" ;
+    ns2:jptrans "Nightmare" ;
+    ns2:jptranslit "Naitomea" .
+
+ns2:Ball_Fetch a ns2:Ability ;
+    ns1:name "Ball_Fetch" ;
+    ns2:colorscheme "Poké_Balls" ;
+    ns2:gen "VIII" ;
+    ns2:jpname "たまひろい" ;
+    ns2:jptrans "Ball_Fetch" ;
+    ns2:jptranslit "Tama_Hiroi" .
+
+ns2:Battery a ns2:Ability ;
+    ns1:name "Battery" ;
+    ns2:colorscheme "special" ;
+    ns2:gen "VII" ;
+    ns2:jpname "バッテリー" ;
+    ns2:jptrans "Battery" ;
+    ns2:jptranslit "Batterī" .
+
+ns2:Battle_Armor a ns2:Ability ;
+    ns1:name "Battle_Armor" ;
+    ns2:colorscheme "rock" ;
+    ns2:gen "III" ;
+    ns2:jpname "カブトアーマー" ;
+    ns2:jptrans "Kabuto_Armor" ;
+    ns2:jptranslit "Kabuto_Āmā" .
+
+ns2:Battle_Bond a ns2:Ability ;
+    ns1:name "Battle_Bond" ;
+    ns2:colorscheme "Water" ;
+    ns2:gen "VII" ;
+    ns2:jpname "きずなへんげ" ;
+    ns2:jptrans "Bond_Transformation" ;
+    ns2:jptranslit "Kizuna_Henge" .
+
+ns2:Beads_of_Ruin a ns2:Ability ;
+    ns1:name "Beads_of_Ruin" ;
+    ns2:colorscheme "Special_Defense" ;
+    ns2:gen "IX" ;
+    ns2:jpname "わざわいのたま" ;
+    ns2:jptrans "Beads_of_Ruin" ;
+    ns2:jptranslit "Wazawai_no_Tama" .
+
+ns2:Beast_Boost a ns2:Ability ;
+    ns1:name "Beast_Boost" ;
+    ns2:colorscheme "status" ;
+    ns2:gen "VII" ;
+    ns2:jpname "ビーストブースト" ;
+    ns2:jptrans "Beast_Boost" ;
+    ns2:jptranslit "Bīsuto_Būsuto" .
+
+ns2:Berserk a ns2:Ability ;
+    ns1:name "Berserk" ;
+    ns2:colorscheme "Special_Attack" ;
+    ns2:gen "VII" ;
+    ns2:jpname "ぎゃくじょう" ;
+    ns2:jptrans "Frenzy" ;
+    ns2:jptranslit "Gyakujō" .
+
+ns2:Big_Pecks a ns2:Ability ;
+    ns1:name "Big_Pecks" ;
+    ns2:colorscheme "defense" ;
+    ns2:gen "V" ;
+    ns2:jpname "はとむね" ;
+    ns2:jptrans "Pigeon_Breast" ;
+    ns2:jptranslit "Hatomune" .
+
+ns2:Blaze a ns2:Ability ;
+    ns1:name "Blaze" ;
+    ns2:colorscheme "fire" ;
+    ns2:gen "III" ;
+    ns2:jpname "もうか" ;
+    ns2:jptrans "Raging_Flames" ;
+    ns2:jptranslit "Mōka" .
+
+ns2:Bulletproof a ns2:Ability ;
+    ns1:name "Bulletproof" ;
+    ns2:colorscheme "special" ;
+    ns2:gen "VI" ;
+    ns2:jpname "ぼうだん" ;
+    ns2:jptrans "Bulletproof" ;
+    ns2:jptranslit "Bōdan" .
+
+ns2:Cacophony a ns2:Ability ;
+    ns1:name "Cacophony" ;
+    ns2:colorscheme "" ;
+    ns2:gen "III" ;
+    ns2:jpname "そうおん" ;
+    ns2:jptrans "Noise" ;
+    ns2:jptranslit "Sōon" .
+
+ns2:Cheek_Pouch a ns2:Ability ;
+    ns1:name "Cheek_Pouch" ;
+    ns2:colorscheme "berries" ;
+    ns2:gen "VI" ;
+    ns2:jpname "ほおぶくろ" ;
+    ns2:jptrans "Cheek_Pouch" ;
+    ns2:jptranslit "Hō_Bukuro" .
+
+ns2:Chilling_Neigh a ns2:Ability ;
+    ns1:name "Chilling_Neigh" ;
+    ns2:colorscheme "ice" ;
+    ns2:gen "VIII" ;
+    ns2:jpname "しろのいななき" ;
+    ns2:jptrans "White_Neigh" ;
+    ns2:jptranslit "Shiro_no_Inanaki" .
+
+ns2:Chlorophyll a ns2:Ability ;
+    ns1:name "Chlorophyll" ;
+    ns2:colorscheme "grass" ;
+    ns2:gen "III" ;
+    ns2:jpname "ようりょくそ" ;
+    ns2:jptrans "Chlorophyll" ;
+    ns2:jptranslit "Yōryokuso" .
+
+ns2:Clear_Body a ns2:Ability ;
+    ns1:name "Clear_Body" ;
+    ns2:colorscheme "status" ;
+    ns2:gen "III" ;
+    ns2:jpname "クリアボディ" ;
+    ns2:jptrans "Clear_Body" ;
+    ns2:jptranslit "Kuria_Bodi" .
+
+ns2:Cloud_Nine a ns2:Ability ;
+    ns1:name "Cloud_Nine" ;
+    ns2:colorscheme "Normal" ;
+    ns2:gen "III" ;
+    ns2:jpname "ノーてんき" ;
+    ns2:jptrans "No_Weather" ;
+    ns2:jptranslit "Nō_Tenki" .
+
+ns2:Color_Change a ns2:Ability ;
+    ns1:name "Color_Change" ;
+    ns2:colorscheme "arceus" ;
+    ns2:gen "III" ;
+    ns2:jpname "へんしょく" ;
+    ns2:jptrans "Color_Change" ;
+    ns2:jptranslit "Henshoku" .
+
+ns2:Comatose a ns2:Ability ;
+    ns1:name "Comatose" ;
+    ns2:colorscheme "Status" ;
+    ns2:gen "VII" ;
+    ns2:jpname "ぜったいねむり" ;
+    ns2:jptrans "Sure_Sleeper" ;
+    ns2:jptranslit "Zettai_Nemuri" .
+
+ns2:Commander a ns2:Ability ;
+    ns1:name "Commander" ;
+    ns2:colorscheme "dragon" ;
+    ns2:gen "IX" ;
+    ns2:jpname "しれいとう" ;
+    ns2:jptrans "Commander" ;
+    ns2:jptranslit "Shireitō" .
+
+ns2:Competitive a ns2:Ability ;
+    ns1:name "Competitive" ;
+    ns2:colorscheme "special_attack" ;
+    ns2:gen "VI" ;
+    ns2:jpname "かちき" ;
+    ns2:jptrans "Determined_Spirit" ;
+    ns2:jptranslit "Kachiki" .
+
+ns2:Compound_Eyes a ns2:Ability ;
+    ns1:name "Compound_Eyes" ;
+    ns2:colorscheme "bug" ;
+    ns2:gen "III" ;
+    ns2:jpname "ふくがん" ;
+    ns2:jptrans "Compound_Eyes" ;
+    ns2:jptranslit "Fukugan" .
+
+ns2:Contrary a ns2:Ability ;
+    ns1:name "Contrary" ;
+    ns2:colorscheme "Grass" ;
+    ns2:gen "V" ;
+    ns2:jpname "あまのじゃく" ;
+    ns2:jptrans "Amanojaku" ;
+    ns2:jptranslit "Amanojaku" .
+
+ns2:Corrosion a ns2:Ability ;
+    ns1:name "Corrosion" ;
+    ns2:colorscheme "Poison" ;
+    ns2:gen "VII" ;
+    ns2:jpname "ふしょく" ;
+    ns2:jptrans "Corrosion" ;
+    ns2:jptranslit "Fushoku" .
+
+ns2:Costar a ns2:Ability ;
+    ns1:name "Costar" ;
+    ns2:colorscheme "status" ;
+    ns2:gen "IX" ;
+    ns2:jpname "きょうえん" ;
+    ns2:jptrans "Costarring" ;
+    ns2:jptranslit "Kyōen" .
+
+ns2:Cotton_Down a ns2:Ability ;
+    ns1:name "Cotton_Down" ;
+    ns2:colorscheme "Grass" ;
+    ns2:gen "VIII" ;
+    ns2:jpname "わたげ" ;
+    ns2:jptrans "Cotton_Down" ;
+    ns2:jptranslit "Watage" .
+
+ns2:Cud_Chew a ns2:Ability ;
+    ns1:name "Cud_Chew" ;
+    ns2:colorscheme "berries" ;
+    ns2:gen "IX" ;
+    ns2:jpname "はんすう" ;
+    ns2:jptrans "Cud_Chew" ;
+    ns2:jptranslit "_Hansū" .
+
+ns2:Curious_Medicine a ns2:Ability ;
+    ns1:name "Curious_Medicine" ;
+    ns2:colorscheme "poison" ;
+    ns2:gen "VIII" ;
+    ns2:jpname "きみょうなくすり" ;
+    ns2:jptrans "Curious_Medicine" ;
+    ns2:jptranslit "Kimyō_na_Kusuri" .
+
+ns2:Cursed_Body a ns2:Ability ;
+    ns1:name "Cursed_Body" ;
+    ns2:colorscheme "ghost" ;
+    ns2:gen "V" ;
+    ns2:jpname "のろわれボディ" ;
+    ns2:jptrans "Cursed_Body" ;
+    ns2:jptranslit "Noroware_Bodi" .
+
+ns2:Cute_Charm a ns2:Ability ;
+    ns1:name "Cute_Charm" ;
+    ns2:colorscheme "fairy" ;
+    ns2:gen "III" ;
+    ns2:jpname "メロメロボディ" ;
+    ns2:jptrans "Mad_Love_Body" ;
+    ns2:jptranslit "Meromero_Bodi" .
+
+ns2:Damp a ns2:Ability ;
+    ns1:name "Damp" ;
+    ns2:colorscheme "water" ;
+    ns2:gen "III" ;
+    ns2:jpname "しめりけ" ;
+    ns2:jptrans "Moisture" ;
+    ns2:jptranslit "Shimerike" .
+
+ns2:Dancer a ns2:Ability ;
+    ns1:name "Dancer" ;
+    ns2:colorscheme "Flying" ;
+    ns2:gen "VII" ;
+    ns2:jpname "おどりこ" ;
+    ns2:jptrans "Dancer" ;
+    ns2:jptranslit "Odoriko" .
+
+ns2:Dark_Aura a ns2:Ability ;
+    ns1:name "Dark_Aura" ;
+    ns2:colorscheme "dark" ;
+    ns2:gen "VI" ;
+    ns2:jpname "ダークオーラ" ;
+    ns2:jptrans "Dark_Aura" ;
+    ns2:jptranslit "Dāku_Ōra" .
+
+ns2:Dauntless_Shield a ns2:Ability ;
+    ns1:name "Dauntless_Shield" ;
+    ns2:colorscheme "Fighting" ;
+    ns2:gen "VIII" ;
+    ns2:jpname "ふくつのたて" ;
+    ns2:jptrans "Fortitude_Shield" ;
+    ns2:jptranslit "Fukutsu_no_Tate" .
+
+ns2:Dazzling a ns2:Ability ;
+    ns1:name "Dazzling" ;
+    ns2:colorscheme "Psychic" ;
+    ns2:gen "VII" ;
+    ns2:jpname "ビビッドボディ" ;
+    ns2:jptrans "Vivid_Body" ;
+    ns2:jptranslit "Bibiddo_Bodi" .
+
+ns2:Defeatist a ns2:Ability ;
+    ns1:name "Defeatist" ;
+    ns2:colorscheme "Rock" ;
+    ns2:gen "V" ;
+    ns2:jpname "よわき" ;
+    ns2:jptrans "Timid" ;
+    ns2:jptranslit "Yowaki" .
+
+ns2:Defiant a ns2:Ability ;
+    ns1:name "Defiant" ;
+    ns2:colorscheme "attack" ;
+    ns2:gen "V" ;
+    ns2:jpname "まけんき" ;
+    ns2:jptrans "Competitive_Spirit" ;
+    ns2:jptranslit "Makenki" .
+
+ns2:Delta_Stream a ns2:Ability ;
+    ns1:name "Delta_Stream" ;
+    ns2:colorscheme "flying" ;
+    ns2:gen "VI" ;
+    ns2:jpname "デルタストリーム" ;
+    ns2:jptrans "Delta_Stream" ;
+    ns2:jptranslit "Deruta_Sutorīmu" .
+
+ns2:Desolate_Land a ns2:Ability ;
+    ns1:name "Desolate_Land" ;
+    ns2:colorscheme "fire" ;
+    ns2:gen "VI" ;
+    ns2:jpname "おわりのだいち" ;
+    ns2:jptrans "Land_of_the_End" ;
+    ns2:jptranslit "Owari_no_Daichi" .
+
+ns2:Disguise a ns2:Ability ;
+    ns1:name "Disguise" ;
+    ns2:colorscheme "Ghost" ;
+    ns2:gen "VII" ;
+    ns2:jpname "ばけのかわ" ;
+    ns2:jptrans "Disguise" ;
+    ns2:jptranslit "Bakenokawa" .
+
+ns2:Download a ns2:Ability ;
+    ns1:name "Download" ;
+    ns2:colorscheme "special_attack" ;
+    ns2:gen "IV" ;
+    ns2:jpname "ダウンロード" ;
+    ns2:jptrans "Download" ;
+    ns2:jptranslit "Daunrōdo" .
+
+ns2:Dragons_Maw a ns2:Ability ;
+    ns1:name "Dragons_Maw" ;
+    ns2:colorscheme "dragon" ;
+    ns2:gen "VIII" ;
+    ns2:jpname "りゅうのあぎと" ;
+    ns2:jptrans "Dragons_Jaw" ;
+    ns2:jptranslit "Ryū_no_Agito" .
+
+ns2:Drizzle a ns2:Ability ;
+    ns1:name "Drizzle" ;
+    ns2:colorscheme "water" ;
+    ns2:gen "III" ;
+    ns2:jpname "あめふらし" ;
+    ns2:jptrans "Rainfall" ;
+    ns2:jptranslit "Amefurashi" .
+
+ns2:Drought a ns2:Ability ;
+    ns1:name "Drought" ;
+    ns2:colorscheme "fire" ;
+    ns2:gen "III" ;
+    ns2:jpname "ひでり" ;
+    ns2:jptrans "Drought" ;
+    ns2:jptranslit "Hideri" .
+
+ns2:Dry_Skin a ns2:Ability ;
+    ns1:name "Dry_Skin" ;
+    ns2:colorscheme "water" ;
+    ns2:gen "IV" ;
+    ns2:jpname "かんそうはだ" ;
+    ns2:jptrans "Dry_Skin" ;
+    ns2:jptranslit "Kansō_Hada" .
+
+ns2:Early_Bird a ns2:Ability ;
+    ns1:name "Early_Bird" ;
+    ns2:colorscheme "flying" ;
+    ns2:gen "III" ;
+    ns2:jpname "はやおき" ;
+    ns2:jptrans "Early_Rising" ;
+    ns2:jptranslit "Hayaoki" .
+
+ns2:Earth_Eater a ns2:Ability ;
+    ns1:name "Earth_Eater" ;
+    ns2:colorscheme "ground" ;
+    ns2:gen "IX" ;
+    ns2:jpname "どしょく" ;
+    ns2:jptrans "Geophagy" ;
+    ns2:jptranslit "Doshoku" .
+
+ns2:Effect_Spore a ns2:Ability ;
+    ns1:name "Effect_Spore" ;
+    ns2:colorscheme "grass" ;
+    ns2:gen "III" ;
+    ns2:jpname "ほうし" ;
+    ns2:jptrans "Spore" ;
+    ns2:jptranslit "Hōshi" .
+
+ns2:Electric_Surge a ns2:Ability ;
+    ns1:name "Electric_Surge" ;
+    ns2:colorscheme "Electric" ;
+    ns2:gen "VII" ;
+    ns2:jpname "エレキメイカー" ;
+    ns2:jptrans "Electric_Maker" ;
+    ns2:jptranslit "Ereki_Meikā" .
+
+ns2:Electromorphosis_ a ns2:Ability ;
+    ns1:name "Electromorphosis_" ;
+    ns2:colorscheme "electric" ;
+    ns2:gen "IX" ;
+    ns2:jpname "でんきにかえる" ;
+    ns2:jptrans "Change_into_Electricity" ;
+    ns2:jptranslit "Denki_ni_Kaeru" .
+
+ns2:Embody_Aspect a ns2:Ability ;
+    ns1:name "Embody_Aspect" ;
+    ns2:colorscheme "grass" ;
+    ns2:gen "IX" ;
+    ns2:jpname "おもかげやどし" ;
+    ns2:jptrans "Bearing_Visage" ;
+    ns2:jptranslit "Omokage_Yadoshi" .
+
+ns2:Emergency_Exit a ns2:Ability ;
+    ns1:name "Emergency_Exit" ;
+    ns2:colorscheme "bug" ;
+    ns2:gen "VII" ;
+    ns2:jpname "ききかいひ" ;
+    ns2:jptrans "Crisis_Prevention" ;
+    ns2:jptranslit "Kiki_Kaihi" .
+
+ns2:Fairy_Aura a ns2:Ability ;
+    ns1:name "Fairy_Aura" ;
+    ns2:colorscheme "fairy" ;
+    ns2:gen "VI" ;
+    ns2:jpname "フェアリーオーラ" ;
+    ns2:jptrans "Fairy_Aura" ;
+    ns2:jptranslit "Fearī_Ōra" .
+
+ns2:Filter a ns2:Ability ;
+    ns1:name "Filter" ;
+    ns2:colorscheme "steel" ;
+    ns2:gen "IV" ;
+    ns2:jpname "フィルター" ;
+    ns2:jptrans "Filter" ;
+    ns2:jptranslit "Firutā" .
+
+ns2:Flame_Body a ns2:Ability ;
+    ns1:name "Flame_Body" ;
+    ns2:colorscheme "fire" ;
+    ns2:gen "III" ;
+    ns2:jpname "ほのおのからだ" ;
+    ns2:jptrans "Flame_Body" ;
+    ns2:jptranslit "Honō_no_Karada" .
+
+ns2:Flare_Boost a ns2:Ability ;
+    ns1:name "Flare_Boost" ;
+    ns2:colorscheme "ghost" ;
+    ns2:gen "V" ;
+    ns2:jpname "ねつぼうそう" ;
+    ns2:jptrans "Thermal_Runaway" ;
+    ns2:jptranslit "Netsu_Bōsō" .
+
+ns2:Flash_Fire a ns2:Ability ;
+    ns1:name "Flash_Fire" ;
+    ns2:colorscheme "fire" ;
+    ns2:gen "III" ;
+    ns2:jpname "もらいび" ;
+    ns2:jptrans "Received_Fire" ;
+    ns2:jptranslit "Moraibi" .
+
+ns2:Flower_Gift a ns2:Ability ;
+    ns1:name "Flower_Gift" ;
+    ns2:colorscheme "grass" ;
+    ns2:gen "IV" ;
+    ns2:jpname "フラワーギフト" ;
+    ns2:jptrans "Flower_Gift" ;
+    ns2:jptranslit "Furawā_Gifuto" .
+
+ns2:Flower_Veil a ns2:Ability ;
+    ns1:name "Flower_Veil" ;
+    ns2:colorscheme "Grass" ;
+    ns2:gen "VI" ;
+    ns2:jpname "フラワーベール" ;
+    ns2:jptrans "Flower_Veil" ;
+    ns2:jptranslit "Furawā_Bēru" .
+
+ns2:Fluffy a ns2:Ability ;
+    ns1:name "Fluffy" ;
+    ns2:colorscheme "Cute" ;
+    ns2:gen "VII" ;
+    ns2:jpname "もふもふ" ;
+    ns2:jptrans "Fluffy" ;
+    ns2:jptranslit "Mofumofu" .
+
+ns2:Forecast a ns2:Ability ;
+    ns1:name "Forecast" ;
+    ns2:colorscheme "Normal" ;
+    ns2:gen "III" ;
+    ns2:jpname "てんきや" ;
+    ns2:jptrans "Temperamental" ;
+    ns2:jptranslit "Tenkiya" .
+
+ns2:Forewarn a ns2:Ability ;
+    ns1:name "Forewarn" ;
+    ns2:colorscheme "psychic" ;
+    ns2:gen "IV" ;
+    ns2:jpname "よちむ" ;
+    ns2:jptrans "Prophetic_Dream" ;
+    ns2:jptranslit "Yochimu" .
+
+ns2:Friend_Guard a ns2:Ability ;
+    ns1:name "Friend_Guard" ;
+    ns2:colorscheme "fairy" ;
+    ns2:gen "V" ;
+    ns2:jpname "フレンドガード" ;
+    ns2:jptrans "Friend_Guard" ;
+    ns2:jptranslit "Furendo_Gādo" .
+
+ns2:Frisk a ns2:Ability ;
+    ns1:name "Frisk" ;
+    ns2:colorscheme "items" ;
+    ns2:gen "IV" ;
+    ns2:jpname "おみとおし" ;
+    ns2:jptrans "Unobstructed_Sight" ;
+    ns2:jptranslit "Omitōshi" .
+
+ns2:Full_Metal_Body a ns2:Ability ;
+    ns1:name "Full_Metal_Body" ;
+    ns2:colorscheme "Steel" ;
+    ns2:gen "VII" ;
+    ns2:jpname "メタルプロテクト" ;
+    ns2:jptrans "Metal_Protect" ;
+    ns2:jptranslit "Metaru_Purotekuto" .
+
+ns2:Fur_Coat a ns2:Ability ;
+    ns1:name "Fur_Coat" ;
+    ns2:colorscheme "physical" ;
+    ns2:gen "VI" ;
+    ns2:jpname "ファーコート" ;
+    ns2:jptrans "Fur_Coat" ;
+    ns2:jptranslit "Fā_Kōto" .
+
+ns2:Gale_Wings a ns2:Ability ;
+    ns1:name "Gale_Wings" ;
+    ns2:colorscheme "flying" ;
+    ns2:gen "VI" ;
+    ns2:jpname "はやてのつばさ" ;
+    ns2:jptrans "Gale_Wings" ;
+    ns2:jptranslit "Hayate_no_Tsubasa" .
+
+ns2:Galvanize a ns2:Ability ;
+    ns1:name "Galvanize" ;
+    ns2:colorscheme "electric" ;
+    ns2:gen "VII" ;
+    ns2:jpname "エレキスキン" ;
+    ns2:jptrans "Electric_Skin" ;
+    ns2:jptranslit "Ereki_Sukin" .
+
+ns2:Gluttony a ns2:Ability ;
+    ns1:name "Gluttony" ;
+    ns2:colorscheme "berries" ;
+    ns2:gen "IV" ;
+    ns2:jpname "くいしんぼう" ;
+    ns2:jptrans "Glutton" ;
+    ns2:jptranslit "Kuishinbō" .
+
+ns2:Good_as_Gold a ns2:Ability ;
+    ns1:name "Good_as_Gold" ;
+    ns2:colorscheme "gold" ;
+    ns2:gen "IX" ;
+    ns2:jpname "おうごんのからだ" ;
+    ns2:jptrans "Gold_Body" ;
+    ns2:jptranslit "Ōgon_no_Karada" .
+
+ns2:Gooey a ns2:Ability ;
+    ns1:name "Gooey" ;
+    ns2:colorscheme "dragon" ;
+    ns2:gen "VI" ;
+    ns2:jpname "ぬめぬめ" ;
+    ns2:jptrans "Gooey" ;
+    ns2:jptranslit "Numenume" .
+
+ns2:Gorilla_Tactics a ns2:Ability ;
+    ns1:name "Gorilla_Tactics" ;
+    ns2:colorscheme "attack" ;
+    ns2:gen "VIII" ;
+    ns2:jpname "ごりむちゅう" ;
+    ns2:jptrans "Obsessed_Gorilla" ;
+    ns2:jptranslit "Gori_Muchū" .
+
+ns2:Grass_Pelt a ns2:Ability ;
+    ns1:name "Grass_Pelt" ;
+    ns2:colorscheme "grass" ;
+    ns2:gen "VI" ;
+    ns2:jpname "くさのけがわ" ;
+    ns2:jptrans "Grass_Pelt" ;
+    ns2:jptranslit "Kusa_no_Kegawa" .
+
+ns2:Grassy_Surge a ns2:Ability ;
+    ns1:name "Grassy_Surge" ;
+    ns2:colorscheme "Grass" ;
+    ns2:gen "VII" ;
+    ns2:jpname "グラスメイカー" ;
+    ns2:jptrans "Grass_Maker" ;
+    ns2:jptranslit "Gurasu_Meikā" .
+
+ns2:Grim_Neigh a ns2:Ability ;
+    ns1:name "Grim_Neigh" ;
+    ns2:colorscheme "ghost" ;
+    ns2:gen "VIII" ;
+    ns2:jpname "くろのいななき" ;
+    ns2:jptrans "Black_Neigh" ;
+    ns2:jptranslit "Kuro_no_Inanaki" .
+
+ns2:Guard_Dog a ns2:Ability ;
+    ns1:name "Guard_Dog" ;
+    ns2:colorscheme "attack" ;
+    ns2:gen "IX" ;
+    ns2:jpname "ばんけん" ;
+    ns2:jptrans "Guard_Dog" ;
+    ns2:jptranslit "Banken" .
+
+ns2:Gulp_Missile a ns2:Ability ;
+    ns1:name "Gulp_Missile" ;
+    ns2:colorscheme "water" ;
+    ns2:gen "VIII" ;
+    ns2:jpname "うのミサイル" ;
+    ns2:jptrans "Gulp_Missile" ;
+    ns2:jptranslit "U_no_Misairu" .
+
+ns2:Guts a ns2:Ability ;
+    ns1:name "Guts" ;
+    ns2:colorscheme "attack" ;
+    ns2:gen "III" ;
+    ns2:jpname "こんじょう" ;
+    ns2:jptrans "Guts" ;
+    ns2:jptranslit "Konjō" .
+
+ns2:Hadron_Engine a ns2:Ability ;
+    ns1:name "Hadron_Engine" ;
+    ns2:colorscheme "Violet" ;
+    ns2:gen "IX" ;
+    ns2:jpname "ハドロンエンジン" ;
+    ns2:jptrans "Hadron_Engine" ;
+    ns2:jptranslit "Hadoron_Enjin" .
+
+ns2:Harvest a ns2:Ability ;
+    ns1:name "Harvest" ;
+    ns2:colorscheme "berries" ;
+    ns2:gen "V" ;
+    ns2:jpname "しゅうかく" ;
+    ns2:jptrans "Harvest" ;
+    ns2:jptranslit "Shūkaku" .
+
+ns2:Healer a ns2:Ability ;
+    ns1:name "Healer" ;
+    ns2:colorscheme "normal" ;
+    ns2:gen "V" ;
+    ns2:jpname "いやしのこころ" ;
+    ns2:jptrans "Healing_Heart" ;
+    ns2:jptranslit "Iyashi_no_Kokoro" .
+
+ns2:Heatproof a ns2:Ability ;
+    ns1:name "Heatproof" ;
+    ns2:colorscheme "steel" ;
+    ns2:gen "IV" ;
+    ns2:jpname "たいねつ" ;
+    ns2:jptrans "Heatproof" ;
+    ns2:jptranslit "Tainetsu" .
+
+ns2:Heavy_Metal a ns2:Ability ;
+    ns1:name "Heavy_Metal" ;
+    ns2:colorscheme "steel" ;
+    ns2:gen "V" ;
+    ns2:jpname "ヘヴィメタル" ;
+    ns2:jptrans "Heavy_Metal" ;
+    ns2:jptranslit "Hevi_Metaru" .
+
+ns2:Honey_Gather a ns2:Ability ;
+    ns1:name "Honey_Gather" ;
+    ns2:colorscheme "gold" ;
+    ns2:gen "IV" ;
+    ns2:jpname "みつあつめ" ;
+    ns2:jptrans "Honey_Gather" ;
+    ns2:jptranslit "Mitsu_Atsume" .
+
+ns2:Hospitality a ns2:Ability ;
+    ns1:name "Hospitality" ;
+    ns2:colorscheme "HP" ;
+    ns2:gen "IX" ;
+    ns2:jpname "おもてなし" ;
+    ns2:jptrans "Hospitality" ;
+    ns2:jptranslit "Omotenashi" .
+
+ns2:Huge_Power a ns2:Ability ;
+    ns1:name "Huge_Power" ;
+    ns2:colorscheme "attack" ;
+    ns2:gen "III" ;
+    ns2:jpname "ちからもち" ;
+    ns2:jptrans "Muscleman" ;
+    ns2:jptranslit "Chikaramochi" .
+
+ns2:Hunger_Switch a ns2:Ability ;
+    ns1:name "Hunger_Switch" ;
+    ns2:colorscheme "electric" ;
+    ns2:gen "VIII" ;
+    ns2:jpname "はらぺこスイッチ" ;
+    ns2:jptrans "Hunger_Switch" ;
+    ns2:jptranslit "Harapeko_Suitchi" .
+
+ns2:Hustle a ns2:Ability ;
+    ns1:name "Hustle" ;
+    ns2:colorscheme "attack" ;
+    ns2:gen "III" ;
+    ns2:jpname "はりきり" ;
+    ns2:jptrans "Enthusiasm" ;
+    ns2:jptranslit "Harikiri" .
+
+ns2:Hydration a ns2:Ability ;
+    ns1:name "Hydration" ;
+    ns2:colorscheme "water" ;
+    ns2:gen "IV" ;
+    ns2:jpname "うるおいボディ" ;
+    ns2:jptrans "Moist_Body" ;
+    ns2:jptranslit "Uruoi_Bodi" .
+
+ns2:Hyper_Cutter a ns2:Ability ;
+    ns1:name "Hyper_Cutter" ;
+    ns2:colorscheme "attack" ;
+    ns2:gen "III" ;
+    ns2:jpname "かいりきバサミ" ;
+    ns2:jptrans "Superpowerful_Claws" ;
+    ns2:jptranslit "Kairiki_Basami" .
+
+ns2:Ice_Body a ns2:Ability ;
+    ns1:name "Ice_Body" ;
+    ns2:colorscheme "ice" ;
+    ns2:gen "IV" ;
+    ns2:jpname "アイスボディ" ;
+    ns2:jptrans "Ice_Body" ;
+    ns2:jptranslit "Aisu_Bodi" .
+
+ns2:Ice_Face a ns2:Ability ;
+    ns1:name "Ice_Face" ;
+    ns2:colorscheme "Ice" ;
+    ns2:gen "VIII" ;
+    ns2:jpname "アイスフェイス_" ;
+    ns2:jptrans "Ice_Face" ;
+    ns2:jptranslit "Aisu_Feisu_" .
+
+ns2:Ice_Scales a ns2:Ability ;
+    ns1:name "Ice_Scales" ;
+    ns2:colorscheme "Ice" ;
+    ns2:gen "VIII" ;
+    ns2:jpname "こおりのりんぷん" ;
+    ns2:jptrans "Ice_Scales" ;
+    ns2:jptranslit "Kōri_no_Rinpun" .
+
+ns2:Illuminate a ns2:Ability ;
+    ns1:name "Illuminate" ;
+    ns2:colorscheme "electric" ;
+    ns2:gen "III" ;
+    ns2:jpname "はっこう" ;
+    ns2:jptrans "Luminescence" ;
+    ns2:jptranslit "Hakkō" .
+
+ns2:Illusion a ns2:Ability ;
+    ns1:name "Illusion" ;
+    ns2:colorscheme "dark" ;
+    ns2:gen "V" ;
+    ns2:jpname "イリュージョン" ;
+    ns2:jptrans "Illusion" ;
+    ns2:jptranslit "Iryūjon" .
+
+ns2:Immunity a ns2:Ability ;
+    ns1:name "Immunity" ;
+    ns2:colorscheme "poison" ;
+    ns2:gen "III" ;
+    ns2:jpname "めんえき" ;
+    ns2:jptrans "Immunity" ;
+    ns2:jptranslit "Meneki" .
+
+ns2:Imposter a ns2:Ability ;
+    ns1:name "Imposter" ;
+    ns2:colorscheme "ditto_egg" ;
+    ns2:gen "V" ;
+    ns2:jpname "かわりもの" ;
+    ns2:jptrans "Changer" ;
+    ns2:jptranslit "Kawarimono" .
+
+ns2:Infiltrator a ns2:Ability ;
+    ns1:name "Infiltrator" ;
+    ns2:colorscheme "Flying" ;
+    ns2:gen "V" ;
+    ns2:jpname "すりぬけ" ;
+    ns2:jptrans "Slip_Through" ;
+    ns2:jptranslit "Surinuke" .
+
+ns2:Innards_Out a ns2:Ability ;
+    ns1:name "Innards_Out" ;
+    ns2:colorscheme "Water" ;
+    ns2:gen "VII" ;
+    ns2:jpname "とびだすなかみ" ;
+    ns2:jptrans "Flying_Innards" ;
+    ns2:jptranslit "Tobidasu_Nakami" .
+
+ns2:Inner_Focus a ns2:Ability ;
+    ns1:name "Inner_Focus" ;
+    ns2:colorscheme "fighting" ;
+    ns2:gen "III" ;
+    ns2:jpname "せいしんりょく" ;
+    ns2:jptrans "Force_of_Will" ;
+    ns2:jptranslit "Seishinryoku" .
+
+ns2:Insomnia a ns2:Ability ;
+    ns1:name "Insomnia" ;
+    ns2:colorscheme "status" ;
+    ns2:gen "III" ;
+    ns2:jpname "ふみん" ;
+    ns2:jptrans "Insomnia" ;
+    ns2:jptranslit "Fumin" .
+
+ns2:Intimidate a ns2:Ability ;
+    ns1:name "Intimidate" ;
+    ns2:colorscheme "attack" ;
+    ns2:gen "III" ;
+    ns2:jpname "いかく" ;
+    ns2:jptrans "Intimidate" ;
+    ns2:jptranslit "Ikaku" .
+
+ns2:Intrepid_Sword a ns2:Ability ;
+    ns1:name "Intrepid_Sword" ;
+    ns2:colorscheme "Fairy" ;
+    ns2:gen "VIII" ;
+    ns2:jpname "ふとうのけん" ;
+    ns2:jptrans "Tenacity_Sword" ;
+    ns2:jptranslit "Futō_no_Ken" .
+
+ns2:Iron_Barbs a ns2:Ability ;
+    ns1:name "Iron_Barbs" ;
+    ns2:colorscheme "steel" ;
+    ns2:gen "V" ;
+    ns2:jpname "てつのトゲ" ;
+    ns2:jptrans "Iron_Thorns" ;
+    ns2:jptranslit "Tetsu_no_Toge" .
+
+ns2:Iron_Fist a ns2:Ability ;
+    ns1:name "Iron_Fist" ;
+    ns2:colorscheme "fighting" ;
+    ns2:gen "IV" ;
+    ns2:jpname "てつのこぶし" ;
+    ns2:jptrans "Iron_Fist" ;
+    ns2:jptranslit "Tetsu_no_Kobushi" .
+
+ns2:Justified a ns2:Ability ;
+    ns1:name "Justified" ;
+    ns2:colorscheme "Fighting" ;
+    ns2:gen "V" ;
+    ns2:jpname "せいぎのこころ" ;
+    ns2:jptrans "Heart_of_Justice" ;
+    ns2:jptranslit "Seigi_no_Kokoro" .
+
+ns2:Keen_Eye a ns2:Ability ;
+    ns1:name "Keen_Eye" ;
+    ns2:colorscheme "flying" ;
+    ns2:gen "III" ;
+    ns2:jpname "するどいめ" ;
+    ns2:jptrans "Keen_Eye" ;
+    ns2:jptranslit "Surudoi_Me" .
+
+ns2:Klutz a ns2:Ability ;
+    ns1:name "Klutz" ;
+    ns2:colorscheme "items" ;
+    ns2:gen "IV" ;
+    ns2:jpname "ぶきよう" ;
+    ns2:jptrans "Clumsy" ;
+    ns2:jptranslit "Bukiyō" .
+
+ns2:Leaf_Guard a ns2:Ability ;
+    ns1:name "Leaf_Guard" ;
+    ns2:colorscheme "grass" ;
+    ns2:gen "IV" ;
+    ns2:jpname "リーフガード" ;
+    ns2:jptrans "Leaf_Guard" ;
+    ns2:jptranslit "Rīfu_Gādo" .
+
+ns2:Levitate a ns2:Ability ;
+    ns1:name "Levitate" ;
+    ns2:colorscheme "flying" ;
+    ns2:gen "III" ;
+    ns2:jpname "ふゆう" ;
+    ns2:jptrans "Floating" ;
+    ns2:jptranslit "Fuyū" .
+
+ns2:Libero a ns2:Ability ;
+    ns1:name "Libero" ;
+    ns2:colorscheme "Fire" ;
+    ns2:gen "VIII" ;
+    ns2:jpname "リベロ" ;
+    ns2:jptrans "Libero" ;
+    ns2:jptranslit "Ribero" .
+
+ns2:Light_Metal a ns2:Ability ;
+    ns1:name "Light_Metal" ;
+    ns2:colorscheme "steel" ;
+    ns2:gen "V" ;
+    ns2:jpname "ライトメタル" ;
+    ns2:jptrans "Light_Metal" ;
+    ns2:jptranslit "Raito_Metaru" .
+
+ns2:Lightning_Rod a ns2:Ability ;
+    ns1:name "Lightning_Rod" ;
+    ns2:colorscheme "electric" ;
+    ns2:gen "III" ;
+    ns2:jpname "ひらいしん" ;
+    ns2:jptrans "Lightning_Rod" ;
+    ns2:jptranslit "Hiraishin" .
+
+ns2:Limber a ns2:Ability ;
+    ns1:name "Limber" ;
+    ns2:colorscheme "Electric" ;
+    ns2:gen "III" ;
+    ns2:jpname "じゅうなん" ;
+    ns2:jptrans "Flexible" ;
+    ns2:jptranslit "Jūnan" .
+
+ns2:Lingering_Aroma a ns2:Ability ;
+    ns1:name "Lingering_Aroma" ;
+    ns2:colorscheme "normal" ;
+    ns2:gen "IX" ;
+    ns2:jpname "とれないにおい" ;
+    ns2:jptrans "Lingering_Scent" ;
+    ns2:jptranslit "Torenai_Nioi" .
+
+ns2:Liquid_Ooze a ns2:Ability ;
+    ns1:name "Liquid_Ooze" ;
+    ns2:colorscheme "poison" ;
+    ns2:gen "III" ;
+    ns2:jpname "ヘドロえき" ;
+    ns2:jptrans "Oozing_Liquid" ;
+    ns2:jptranslit "Hedoro_Eki" .
+
+ns2:Liquid_Voice a ns2:Ability ;
+    ns1:name "Liquid_Voice" ;
+    ns2:colorscheme "water" ;
+    ns2:gen "VII" ;
+    ns2:jpname "うるおいボイス" ;
+    ns2:jptrans "Moist_Voice" ;
+    ns2:jptranslit "Uruoi_Boisu" .
+
+ns2:Long_Reach a ns2:Ability ;
+    ns1:name "Long_Reach" ;
+    ns2:colorscheme "special" ;
+    ns2:gen "VII" ;
+    ns2:jpname "えんかく" ;
+    ns2:jptrans "Distant" ;
+    ns2:jptranslit "Enkaku" .
+
+ns2:Magic_Bounce a ns2:Ability ;
+    ns1:name "Magic_Bounce" ;
+    ns2:colorscheme "psychic" ;
+    ns2:gen "V" ;
+    ns2:jpname "マジックミラー" ;
+    ns2:jptrans "Magic_Mirror" ;
+    ns2:jptranslit "Majikku_Mirā" .
+
+ns2:Magic_Guard a ns2:Ability ;
+    ns1:name "Magic_Guard" ;
+    ns2:colorscheme "psychic" ;
+    ns2:gen "IV" ;
+    ns2:jpname "マジックガード" ;
+    ns2:jptrans "Magic_Guard" ;
+    ns2:jptranslit "Majikku_Gādo" .
+
+ns2:Magician a ns2:Ability ;
+    ns1:name "Magician" ;
+    ns2:colorscheme "psychic" ;
+    ns2:gen "VI" ;
+    ns2:jpname "マジシャン" ;
+    ns2:jptrans "Magician" ;
+    ns2:jptranslit "Majishan" .
+
+ns2:Magma_Armor a ns2:Ability ;
+    ns1:name "Magma_Armor" ;
+    ns2:colorscheme "fire" ;
+    ns2:gen "III" ;
+    ns2:jpname "マグマのよろい" ;
+    ns2:jptrans "Magma_Armor" ;
+    ns2:jptranslit "Maguma_no_Yoroi" .
+
+ns2:Magnet_Pull a ns2:Ability ;
+    ns1:name "Magnet_Pull" ;
+    ns2:colorscheme "steel" ;
+    ns2:gen "III" ;
+    ns2:jpname "じりょく" ;
+    ns2:jptrans "Magnetism" ;
+    ns2:jptranslit "Jiryoku" .
+
+ns2:Marvel_Scale a ns2:Ability ;
+    ns1:name "Marvel_Scale" ;
+    ns2:colorscheme "defense" ;
+    ns2:gen "III" ;
+    ns2:jpname "ふしぎなうろこ" ;
+    ns2:jptrans "Marvelous_Scale" ;
+    ns2:jptranslit "Fushigina_Uroko" .
+
+ns2:Mega_Launcher a ns2:Ability ;
+    ns1:name "Mega_Launcher" ;
+    ns2:colorscheme "Special" ;
+    ns2:gen "VI" ;
+    ns2:jpname "メガランチャー" ;
+    ns2:jptrans "Mega_Launcher" ;
+    ns2:jptranslit "Mega_Ranchā" .
+
+ns2:Merciless a ns2:Ability ;
+    ns1:name "Merciless" ;
+    ns2:colorscheme "poison" ;
+    ns2:gen "VII" ;
+    ns2:jpname "ひとでなし" ;
+    ns2:jptrans "Brute" ;
+    ns2:jptranslit "Hitodenashi" .
+
+ns2:Mimicry a ns2:Ability ;
+    ns1:name "Mimicry" ;
+    ns2:colorscheme "arceus" ;
+    ns2:gen "VIII" ;
+    ns2:jpname "ぎたい" ;
+    ns2:jptrans "Mimicry" ;
+    ns2:jptranslit "Gitai" .
+
+ns2:Minds_Eye a ns2:Ability ;
+    ns1:name "Minds_Eye" ;
+    ns2:colorscheme "normal" ;
+    ns2:gen "IX" ;
+    ns2:jpname "しんがん" ;
+    ns2:jptrans "Minds_Eye" ;
+    ns2:jptranslit "Shingan" .
+
+ns2:Minus a ns2:Ability ;
+    ns1:name "Minus" ;
+    ns2:colorscheme "special_attack" ;
+    ns2:gen "III" ;
+    ns2:jpname "マイナス" ;
+    ns2:jptrans "Minus" ;
+    ns2:jptranslit "Mainasu" .
+
+ns2:Mirror_Armor a ns2:Ability ;
+    ns1:name "Mirror_Armor" ;
+    ns2:colorscheme "steel" ;
+    ns2:gen "VIII" ;
+    ns2:jpname "ミラーアーマー" ;
+    ns2:jptrans "Mirror_Armor" ;
+    ns2:jptranslit "Mirā_Āmā" .
+
+ns2:Misty_Surge a ns2:Ability ;
+    ns1:name "Misty_Surge" ;
+    ns2:colorscheme "Fairy" ;
+    ns2:gen "VII" ;
+    ns2:jpname "ミストメイカー" ;
+    ns2:jptrans "Mist_Maker" ;
+    ns2:jptranslit "Misuto_Meikā" .
+
+ns2:Mold_Breaker a ns2:Ability ;
+    ns1:name "Mold_Breaker" ;
+    ns2:colorscheme "rock" ;
+    ns2:gen "IV" ;
+    ns2:jpname "かたやぶり" ;
+    ns2:jptrans "Mold-Breaking" ;
+    ns2:jptranslit "Katayaburi" .
+
+ns2:Moody a ns2:Ability ;
+    ns1:name "Moody" ;
+    ns2:colorscheme "normal" ;
+    ns2:gen "V" ;
+    ns2:jpname "ムラっけ" ;
+    ns2:jptrans "Caprice" ;
+    ns2:jptranslit "Murakke" .
+
+ns2:Motor_Drive a ns2:Ability ;
+    ns1:name "Motor_Drive" ;
+    ns2:colorscheme "electric" ;
+    ns2:gen "IV" ;
+    ns2:jpname "でんきエンジン" ;
+    ns2:jptrans "Electric_Engine" ;
+    ns2:jptranslit "Denki_Enjin" .
+
+ns2:Moxie a ns2:Ability ;
+    ns1:name "Moxie" ;
+    ns2:colorscheme "attack" ;
+    ns2:gen "V" ;
+    ns2:jpname "じしんかじょう" ;
+    ns2:jptrans "Overconfident" ;
+    ns2:jptranslit "Jishinkajō" .
+
+ns2:Multiscale a ns2:Ability ;
+    ns1:name "Multiscale" ;
+    ns2:colorscheme "Flying" ;
+    ns2:gen "V" ;
+    ns2:jpname "マルチスケイル" ;
+    ns2:jptrans "Multiscale" ;
+    ns2:jptranslit "Maruchisukeiru" .
+
+ns2:Multitype a ns2:Ability ;
+    ns1:name "Multitype" ;
+    ns2:colorscheme "Normal" ;
+    ns2:gen "IV" ;
+    ns2:jpname "マルチタイプ" ;
+    ns2:jptrans "Multitype" ;
+    ns2:jptranslit "Maruchitaipu" .
+
+ns2:Mummy a ns2:Ability ;
+    ns1:name "Mummy" ;
+    ns2:colorscheme "ghost" ;
+    ns2:gen "V" ;
+    ns2:jpname "ミイラ" ;
+    ns2:jptrans "Mummy" ;
+    ns2:jptranslit "Miira" .
+
+ns2:Mycelium_Might a ns2:Ability ;
+    ns1:name "Mycelium_Might" ;
+    ns2:colorscheme "status" ;
+    ns2:gen "IX" ;
+    ns2:jpname "きんしのちから" ;
+    ns2:jptrans "Hyphal_Power" ;
+    ns2:jptranslit "Kinshi_no_Chikara" .
+
+ns2:Natural_Cure a ns2:Ability ;
+    ns1:name "Natural_Cure" ;
+    ns2:colorscheme "status" ;
+    ns2:gen "III" ;
+    ns2:jpname "しぜんかいふく" ;
+    ns2:jptrans "Natural_Recovery" ;
+    ns2:jptranslit "Shizen_Kaifuku" .
+
+ns2:Neuroforce a ns2:Ability ;
+    ns1:name "Neuroforce" ;
+    ns2:colorscheme "psychic" ;
+    ns2:gen "VII" ;
+    ns2:jpname "ブレインフォース" ;
+    ns2:jptrans "Brain_Force" ;
+    ns2:jptranslit "Burein_Fōsu" .
+
+ns2:Neutralizing_Gas a ns2:Ability ;
+    ns1:name "Neutralizing_Gas" ;
+    ns2:colorscheme "poison" ;
+    ns2:gen "VIII" ;
+    ns2:jpname "かがくへんかガス" ;
+    ns2:jptrans "Chemical_Change_Gas" ;
+    ns2:jptranslit "Kagaku_Henka_Gasu" .
+
+ns2:No_Guard a ns2:Ability ;
+    ns1:name "No_Guard" ;
+    ns2:colorscheme "fighting" ;
+    ns2:gen "IV" ;
+    ns2:jpname "ノーガード" ;
+    ns2:jptrans "No_Guard" ;
+    ns2:jptranslit "Nō_Gādo" .
+
+ns2:Normalize a ns2:Ability ;
+    ns1:name "Normalize" ;
+    ns2:colorscheme "normal" ;
+    ns2:gen "IV" ;
+    ns2:jpname "ノーマルスキン" ;
+    ns2:jptrans "Normal_Skin" ;
+    ns2:jptranslit "Nōmaru_Sukin" .
+
+ns2:Oblivious a ns2:Ability ;
+    ns1:name "Oblivious" ;
+    ns2:colorscheme "psychic" ;
+    ns2:gen "III" ;
+    ns2:jpname "どんかん" ;
+    ns2:jptrans "Thickheaded" ;
+    ns2:jptranslit "Donkan" .
+
+ns2:Opportunist a ns2:Ability ;
+    ns1:name "Opportunist" ;
+    ns2:colorscheme "psychic" ;
+    ns2:gen "IX" ;
+    ns2:jpname "びんじょう" ;
+    ns2:jptrans "Opportunist" ;
+    ns2:jptranslit "Binjō" .
+
+ns2:Orichalcum_Pulse a ns2:Ability ;
+    ns1:name "Orichalcum_Pulse" ;
+    ns2:colorscheme "Scarlet" ;
+    ns2:gen "IX" ;
+    ns2:jpname "ひひいろのこどう" ;
+    ns2:jptrans "Scarlet_Pulse" ;
+    ns2:jptranslit "Hihiiro_no_Kodō" .
+
+ns2:Overcoat a ns2:Ability ;
+    ns1:name "Overcoat" ;
+    ns2:colorscheme "bug" ;
+    ns2:gen "V" ;
+    ns2:jpname "ぼうじん" ;
+    ns2:jptrans "Dustproof" ;
+    ns2:jptranslit "Bōjin" .
+
+ns2:Overgrow a ns2:Ability ;
+    ns1:name "Overgrow" ;
+    ns2:colorscheme "grass" ;
+    ns2:gen "III" ;
+    ns2:jpname "しんりょく" ;
+    ns2:jptrans "Fresh_Greenery" ;
+    ns2:jptranslit "Shinryoku" .
+
+ns2:Own_Tempo a ns2:Ability ;
+    ns1:name "Own_Tempo" ;
+    ns2:colorscheme "psychic" ;
+    ns2:gen "III" ;
+    ns2:jpname "マイペース" ;
+    ns2:jptrans "My_Pace" ;
+    ns2:jptranslit "Mai_Pēsu" .
+
+ns2:Parental_Bond a ns2:Ability ;
+    ns1:name "Parental_Bond" ;
+    ns2:colorscheme "normal" ;
+    ns2:gen "VI" ;
+    ns2:jpname "おやこあい" ;
+    ns2:jptrans "Parent-Child_Love" ;
+    ns2:jptranslit "Oyako_Ai" .
+
+ns2:Pastel_Veil a ns2:Ability ;
+    ns1:name "Pastel_Veil" ;
+    ns2:colorscheme "psychic" ;
+    ns2:gen "VIII" ;
+    ns2:jpname "パステルベール" ;
+    ns2:jptrans "Pastel_Veil" ;
+    ns2:jptranslit "Pasuteru_Bēru" .
+
+ns2:Perish_Body a ns2:Ability ;
+    ns1:name "Perish_Body" ;
+    ns2:colorscheme "Ghost" ;
+    ns2:gen "VIII" ;
+    ns2:jpname "ほろびのボディ" ;
+    ns2:jptrans "Perish_Body" ;
+    ns2:jptranslit "Horobi_no_Body" .
+
+ns2:Pickpocket a ns2:Ability ;
+    ns1:name "Pickpocket" ;
+    ns2:colorscheme "dark" ;
+    ns2:gen "V" ;
+    ns2:jpname "わるいてぐせ" ;
+    ns2:jptrans "Bad_Habit" ;
+    ns2:jptranslit "Warui_Teguse" .
+
+ns2:Pickup a ns2:Ability ;
+    ns1:name "Pickup" ;
+    ns2:colorscheme "items" ;
+    ns2:gen "III" ;
+    ns2:jpname "ものひろい" ;
+    ns2:jptrans "Pickup" ;
+    ns2:jptranslit "Monohiroi" .
+
+ns2:Pixilate a ns2:Ability ;
+    ns1:name "Pixilate" ;
+    ns2:colorscheme "fairy" ;
+    ns2:gen "VI" ;
+    ns2:jpname "フェアリースキン" ;
+    ns2:jptrans "Fairy_Skin" ;
+    ns2:jptranslit "Fearī_Sukin" .
+
+ns2:Plus a ns2:Ability ;
+    ns1:name "Plus" ;
+    ns2:colorscheme "Special_Attack" ;
+    ns2:gen "III" ;
+    ns2:jpname "プラス" ;
+    ns2:jptrans "Plus" ;
+    ns2:jptranslit "Purasu" .
+
+ns2:Poison_Heal a ns2:Ability ;
+    ns1:name "Poison_Heal" ;
+    ns2:colorscheme "poison" ;
+    ns2:gen "IV" ;
+    ns2:jpname "ポイズンヒール" ;
+    ns2:jptrans "Poison_Heal" ;
+    ns2:jptranslit "Poizun_Hīru" .
+
+ns2:Poison_Point a ns2:Ability ;
+    ns1:name "Poison_Point" ;
+    ns2:colorscheme "poison" ;
+    ns2:gen "III" ;
+    ns2:jpname "どくのトゲ" ;
+    ns2:jptrans "Poison_Spine" ;
+    ns2:jptranslit "Doku_no_Toge" .
+
+ns2:Poison_Puppeteer a ns2:Ability ;
+    ns1:name "Poison_Puppeteer" ;
+    ns2:colorscheme "Poison" ;
+    ns2:gen "IX" ;
+    ns2:jpname "どくくぐつ" ;
+    ns2:jptrans "Poison_Puppeteer" ;
+    ns2:jptranslit "Doku_Kugutsu" .
+
+ns2:Poison_Touch a ns2:Ability ;
+    ns1:name "Poison_Touch" ;
+    ns2:colorscheme "poison" ;
+    ns2:gen "V" ;
+    ns2:jpname "どくしゅ" ;
+    ns2:jptrans "Underhanded_Trick" ;
+    ns2:jptranslit "Dokushu" .
+
+ns2:Power_Construct a ns2:Ability ;
+    ns1:name "Power_Construct" ;
+    ns2:colorscheme "Dragon" ;
+    ns2:gen "VII" ;
+    ns2:jpname "スワームチェンジ" ;
+    ns2:jptrans "Swarm_Change" ;
+    ns2:jptranslit "Suwāmu_Chenji" .
+
+ns2:Power_Spot a ns2:Ability ;
+    ns1:name "Power_Spot" ;
+    ns2:colorscheme "Rock" ;
+    ns2:gen "VIII" ;
+    ns2:jpname "パワースポット" ;
+    ns2:jptrans "Power_Spot" ;
+    ns2:jptranslit "Pawā_Supotto" .
+
+ns2:Power_of_Alchemy a ns2:Ability ;
+    ns1:name "Power_of_Alchemy" ;
+    ns2:colorscheme "Status" ;
+    ns2:gen "VII" ;
+    ns2:jpname "かがくのちから" ;
+    ns2:jptrans "Power_of_Chemistry" ;
+    ns2:jptranslit "Kagaku_no_Chikara" .
+
+ns2:Prankster a ns2:Ability ;
+    ns1:name "Prankster" ;
+    ns2:colorscheme "status" ;
+    ns2:gen "V" ;
+    ns2:jpname "いたずらごころ" ;
+    ns2:jptrans "Prank_Desire" ;
+    ns2:jptranslit "Itazuragokoro" .
+
+ns2:Pressure a ns2:Ability ;
+    ns1:name "Pressure" ;
+    ns2:colorscheme "dragon" ;
+    ns2:gen "III" ;
+    ns2:jpname "プレッシャー" ;
+    ns2:jptrans "Pressure" ;
+    ns2:jptranslit "Puresshā" .
+
+ns2:Primordial_Sea a ns2:Ability ;
+    ns1:name "Primordial_Sea" ;
+    ns2:colorscheme "water" ;
+    ns2:gen "VI" ;
+    ns2:jpname "はじまりのうみ" ;
+    ns2:jptrans "Sea_of_the_Beginning" ;
+    ns2:jptranslit "Hajimari_no_Umi" .
+
+ns2:Prism_Armor a ns2:Ability ;
+    ns1:name "Prism_Armor" ;
+    ns2:colorscheme "psychic" ;
+    ns2:gen "VII" ;
+    ns2:jpname "プリズムアーマー" ;
+    ns2:jptrans "Prism_Armor" ;
+    ns2:jptranslit "Purizumu_Āmā" .
+
+ns2:Propeller_Tail a ns2:Ability ;
+    ns1:name "Propeller_Tail" ;
+    ns2:colorscheme "Water" ;
+    ns2:gen "VIII" ;
+    ns2:jpname "スクリューおびれ" ;
+    ns2:jptrans "Screw_Tailfin" ;
+    ns2:jptranslit "Sukuryū_Obire" .
+
+ns2:Protean a ns2:Ability ;
+    ns1:name "Protean" ;
+    ns2:colorscheme "arceus" ;
+    ns2:gen "VI" ;
+    ns2:jpname "へんげんじざい" ;
+    ns2:jptrans "Protean" ;
+    ns2:jptranslit "Hengen_Jizai" .
+
+ns2:Protosynthesis a ns2:Ability ;
+    ns1:name "Protosynthesis" ;
+    ns2:colorscheme "Fire" ;
+    ns2:gen "IX" ;
+    ns2:jpname "こだいかっせい" ;
+    ns2:jptrans "Ancient_Activation" ;
+    ns2:jptranslit "Kodaikassei" .
+
+ns2:Psychic_Surge a ns2:Ability ;
+    ns1:name "Psychic_Surge" ;
+    ns2:colorscheme "Psychic" ;
+    ns2:gen "VII" ;
+    ns2:jpname "サイコメイカー" ;
+    ns2:jptrans "Psycho_Maker" ;
+    ns2:jptranslit "Saiko_Meikā" .
+
+ns2:Punk_Rock a ns2:Ability ;
+    ns1:name "Punk_Rock" ;
+    ns2:colorscheme "electric" ;
+    ns2:gen "VIII" ;
+    ns2:jpname "パンクロック" ;
+    ns2:jptrans "Punk_Rock" ;
+    ns2:jptranslit "Panku_Rokku" .
+
+ns2:Pure_Power a ns2:Ability ;
+    ns1:name "Pure_Power" ;
+    ns2:colorscheme "attack" ;
+    ns2:gen "III" ;
+    ns2:jpname "ヨガパワー" ;
+    ns2:jptrans "Yoga_Power" ;
+    ns2:jptranslit "Yoga_Pawā" .
+
+ns2:Purifying_Salt a ns2:Ability ;
+    ns1:name "Purifying_Salt" ;
+    ns2:colorscheme "white" ;
+    ns2:gen "IX" ;
+    ns2:jpname "きよめのしお" ;
+    ns2:jptrans "Purifying_Salt" ;
+    ns2:jptranslit "Kiyome_no_Shio_" .
+
+ns2:Quark_Drive a ns2:Ability ;
+    ns1:name "Quark_Drive" ;
+    ns2:colorscheme "Electric" ;
+    ns2:gen "IX" ;
+    ns2:jpname "クォークチャージ" ;
+    ns2:jptrans "Quark_Charge" ;
+    ns2:jptranslit "Kwōku_Chāji" .
+
+ns2:Queenly_Majesty a ns2:Ability ;
+    ns1:name "Queenly_Majesty" ;
+    ns2:colorscheme "Grass" ;
+    ns2:gen "VII" ;
+    ns2:jpname "じょおうのいげん" ;
+    ns2:jptrans "Queens_Majesty" ;
+    ns2:jptranslit "Joō_no_Igen" .
+
+ns2:Quick_Draw a ns2:Ability ;
+    ns1:name "Quick_Draw" ;
+    ns2:colorscheme "poison" ;
+    ns2:gen "VIII" ;
+    ns2:jpname "クイックドロウ" ;
+    ns2:jptrans "Quick_Draw" ;
+    ns2:jptranslit "Kuikku_Dorō" .
+
+ns2:Quick_Feet a ns2:Ability ;
+    ns1:name "Quick_Feet" ;
+    ns2:colorscheme "speed" ;
+    ns2:gen "IV" ;
+    ns2:jpname "はやあし" ;
+    ns2:jptrans "Quick_Feet" ;
+    ns2:jptranslit "Hayaashi" .
+
+ns2:RKS_System a ns2:Ability ;
+    ns1:name "RKS_System" ;
+    ns2:colorscheme "Normal" ;
+    ns2:gen "VII" ;
+    ns2:jpname "ＡＲシステム" ;
+    ns2:jptrans "AR_System" ;
+    ns2:jptranslit "AR_Shisutemu" .
+
+ns2:Rain_Dish a ns2:Ability ;
+    ns1:name "Rain_Dish" ;
+    ns2:colorscheme "water" ;
+    ns2:gen "III" ;
+    ns2:jpname "あめうけざら" ;
+    ns2:jptrans "Rain_Saucer" ;
+    ns2:jptranslit "Ameukezara" .
+
+ns2:Rattled a ns2:Ability ;
+    ns1:name "Rattled" ;
+    ns2:colorscheme "normal" ;
+    ns2:gen "V" ;
+    ns2:jpname "びびり" ;
+    ns2:jptrans "Jitter" ;
+    ns2:jptranslit "Bibiri" .
+
+ns2:Receiver a ns2:Ability ;
+    ns1:name "Receiver" ;
+    ns2:colorscheme "Status" ;
+    ns2:gen "VII" ;
+    ns2:jpname "レシーバー" ;
+    ns2:jptrans "Receiver" ;
+    ns2:jptranslit "Reshībā" .
+
+ns2:Reckless a ns2:Ability ;
+    ns1:name "Reckless" ;
+    ns2:colorscheme "physical" ;
+    ns2:gen "IV" ;
+    ns2:jpname "すてみ" ;
+    ns2:jptrans "Life-Risking" ;
+    ns2:jptranslit "Sutemi" .
+
+ns2:Refrigerate a ns2:Ability ;
+    ns1:name "Refrigerate" ;
+    ns2:colorscheme "ice" ;
+    ns2:gen "VI" ;
+    ns2:jpname "フリーズスキン" ;
+    ns2:jptrans "Freeze_Skin" ;
+    ns2:jptranslit "Furīzu_Sukin" .
+
+ns2:Regenerator a ns2:Ability ;
+    ns1:name "Regenerator" ;
+    ns2:colorscheme "HP" ;
+    ns2:gen "V" ;
+    ns2:jpname "さいせいりょく" ;
+    ns2:jptrans "Regenerative_Power" ;
+    ns2:jptranslit "Saisei_Ryoku" .
+
+ns2:Ripen a ns2:Ability ;
+    ns1:name "Ripen" ;
+    ns2:colorscheme "Berries" ;
+    ns2:gen "VIII" ;
+    ns2:jpname "じゅくせい" ;
+    ns2:jptrans "Ripen" ;
+    ns2:jptranslit "Jukusei" .
+
+ns2:Rivalry a ns2:Ability ;
+    ns1:name "Rivalry" ;
+    ns2:colorscheme "dragon" ;
+    ns2:gen "IV" ;
+    ns2:jpname "とうそうしん" ;
+    ns2:jptrans "Belligerence" ;
+    ns2:jptranslit "Tōsōshin" .
+
+ns2:Rock_Head a ns2:Ability ;
+    ns1:name "Rock_Head" ;
+    ns2:colorscheme "rock" ;
+    ns2:gen "III" ;
+    ns2:jpname "いしあたま" ;
+    ns2:jptrans "Rock_Head" ;
+    ns2:jptranslit "Ishi_Atama" .
+
+ns2:Rocky_Payload a ns2:Ability ;
+    ns1:name "Rocky_Payload" ;
+    ns2:colorscheme "rock" ;
+    ns2:gen "IX" ;
+    ns2:jpname "いわはこび" ;
+    ns2:jptrans "Rock_Transport" ;
+    ns2:jptranslit "Iwahakobi" .
+
+ns2:Rough_Skin a ns2:Ability ;
+    ns1:name "Rough_Skin" ;
+    ns2:colorscheme "dragon" ;
+    ns2:gen "III" ;
+    ns2:jpname "さめはだ" ;
+    ns2:jptrans "Rough_Skin" ;
+    ns2:jptranslit "Samehada" .
+
+ns2:Run_Away a ns2:Ability ;
+    ns1:name "Run_Away" ;
+    ns2:colorscheme "normal" ;
+    ns2:gen "III" ;
+    ns2:jpname "にげあし" ;
+    ns2:jptrans "Run_Away" ;
+    ns2:jptranslit "Nigeashi" .
+
+ns2:Sand_Force a ns2:Ability ;
+    ns1:name "Sand_Force" ;
+    ns2:colorscheme "Ground" ;
+    ns2:gen "V" ;
+    ns2:jpname "すなのちから" ;
+    ns2:jptrans "Sand_Force" ;
+    ns2:jptranslit "Suna_no_Chikara" .
+
+ns2:Sand_Rush a ns2:Ability ;
+    ns1:name "Sand_Rush" ;
+    ns2:colorscheme "Ground" ;
+    ns2:gen "V" ;
+    ns2:jpname "すなかき" ;
+    ns2:jptrans "Sand_Paddle" ;
+    ns2:jptranslit "Sunakaki" .
+
+ns2:Sand_Spit a ns2:Ability ;
+    ns1:name "Sand_Spit" ;
+    ns2:colorscheme "Ground" ;
+    ns2:gen "VIII" ;
+    ns2:jpname "すなはき" ;
+    ns2:jptrans "Sand_Spit" ;
+    ns2:jptranslit "Sunahaki" .
+
+ns2:Sand_Stream a ns2:Ability ;
+    ns1:name "Sand_Stream" ;
+    ns2:colorscheme "ground" ;
+    ns2:gen "III" ;
+    ns2:jpname "すなおこし" ;
+    ns2:jptrans "Sand_Raising" ;
+    ns2:jptranslit "Suna_Okoshi" .
+
+ns2:Sand_Veil a ns2:Ability ;
+    ns1:name "Sand_Veil" ;
+    ns2:colorscheme "ground" ;
+    ns2:gen "III" ;
+    ns2:jpname "すながくれ" ;
+    ns2:jptrans "Hidden_in_Sand" ;
+    ns2:jptranslit "Suna_Gakure" .
+
+ns2:Sap_Sipper a ns2:Ability ;
+    ns1:name "Sap_Sipper" ;
+    ns2:colorscheme "grass" ;
+    ns2:gen "V" ;
+    ns2:jpname "そうしょく" ;
+    ns2:jptrans "Herbivorous" ;
+    ns2:jptranslit "Sōshoku" .
+
+ns2:Schooling a ns2:Ability ;
+    ns1:name "Schooling" ;
+    ns2:colorscheme "Water" ;
+    ns2:gen "VII" ;
+    ns2:jpname "ぎょぐん" ;
+    ns2:jptrans "Schooling" ;
+    ns2:jptranslit "Gyogun" .
+
+ns2:Scrappy a ns2:Ability ;
+    ns1:name "Scrappy" ;
+    ns2:colorscheme "normal" ;
+    ns2:gen "IV" ;
+    ns2:jpname "きもったま" ;
+    ns2:jptrans "Spunk" ;
+    ns2:jptranslit "Kimottama" .
+
+ns2:Screen_Cleaner a ns2:Ability ;
+    ns1:name "Screen_Cleaner" ;
+    ns2:colorscheme "Psychic" ;
+    ns2:gen "VIII" ;
+    ns2:jpname "バリアフリー" ;
+    ns2:jptrans "Barrier-Free" ;
+    ns2:jptranslit "Baria_Furī" .
+
+ns2:Seed_Sower a ns2:Ability ;
+    ns1:name "Seed_Sower" ;
+    ns2:colorscheme "Grass" ;
+    ns2:gen "IX" ;
+    ns2:jpname "こぼれダネ" ;
+    ns2:jptrans "Self-Sowing_Seeds" ;
+    ns2:jptranslit "Koboredane" .
+
+ns2:Serene_Grace a ns2:Ability ;
+    ns1:name "Serene_Grace" ;
+    ns2:colorscheme "normal" ;
+    ns2:gen "III" ;
+    ns2:jpname "てんのめぐみ" ;
+    ns2:jptrans "Heavenly_Blessing" ;
+    ns2:jptranslit "Ten_no_Megumi" .
+
+ns2:Shadow_Shield a ns2:Ability ;
+    ns1:name "Shadow_Shield" ;
+    ns2:colorscheme "Ghost" ;
+    ns2:gen "VII" ;
+    ns2:jpname "ファントムガード" ;
+    ns2:jptrans "Phantom_Guard" ;
+    ns2:jptranslit "Fantomu_Gādo" .
+
+ns2:Shadow_Tag a ns2:Ability ;
+    ns1:name "Shadow_Tag" ;
+    ns2:colorscheme "ghost" ;
+    ns2:gen "III" ;
+    ns2:jpname "かげふみ" ;
+    ns2:jptrans "Stepping_on_Shadows" ;
+    ns2:jptranslit "Kage_Fumi" .
+
+ns2:Sharpness a ns2:Ability ;
+    ns1:name "Sharpness" ;
+    ns2:colorscheme "Attack" ;
+    ns2:gen "IX" ;
+    ns2:jpname "きれあじ" ;
+    ns2:jptrans "Sharpness" ;
+    ns2:jptranslit "Kireaji" .
+
+ns2:Shed_Skin a ns2:Ability ;
+    ns1:name "Shed_Skin" ;
+    ns2:colorscheme "Bug" ;
+    ns2:gen "III" ;
+    ns2:jpname "だっぴ" ;
+    ns2:jptrans "Shed_Skin" ;
+    ns2:jptranslit "Dappi" .
+
+ns2:Sheer_Force a ns2:Ability ;
+    ns1:name "Sheer_Force" ;
+    ns2:colorscheme "Fighting" ;
+    ns2:gen "V" ;
+    ns2:jpname "ちからずく" ;
+    ns2:jptrans "Sheer_Force" ;
+    ns2:jptranslit "Chikarazuku" .
+
+ns2:Shell_Armor a ns2:Ability ;
+    ns1:name "Shell_Armor" ;
+    ns2:colorscheme "water" ;
+    ns2:gen "III" ;
+    ns2:jpname "シェルアーマー" ;
+    ns2:jptrans "Shell_Armor" ;
+    ns2:jptranslit "Sheru_Āmā" .
+
+ns2:Shield_Dust a ns2:Ability ;
+    ns1:name "Shield_Dust" ;
+    ns2:colorscheme "bug" ;
+    ns2:gen "III" ;
+    ns2:jpname "りんぷん" ;
+    ns2:jptrans "Scales" ;
+    ns2:jptranslit "Rinpun" .
+
+ns2:Shields_Down a ns2:Ability ;
+    ns1:name "Shields_Down" ;
+    ns2:colorscheme "Rock" ;
+    ns2:gen "VII" ;
+    ns2:jpname "リミットシールド" ;
+    ns2:jptrans "Limit_Shield" ;
+    ns2:jptranslit "Rimitto_Shīrudo" .
+
+ns2:Simple a ns2:Ability ;
+    ns1:name "Simple" ;
+    ns2:colorscheme "normal" ;
+    ns2:gen "IV" ;
+    ns2:jpname "たんじゅん" ;
+    ns2:jptrans "Simple" ;
+    ns2:jptranslit "Tanjun" .
+
+ns2:Skill_Link a ns2:Ability ;
+    ns1:name "Skill_Link" ;
+    ns2:colorscheme "normal" ;
+    ns2:gen "IV" ;
+    ns2:jpname "スキルリンク" ;
+    ns2:jptrans "Skill_Link" ;
+    ns2:jptranslit "Sukiru_Rinku" .
+
+ns2:Slow_Start a ns2:Ability ;
+    ns1:name "Slow_Start" ;
+    ns2:colorscheme "normal" ;
+    ns2:gen "IV" ;
+    ns2:jpname "スロースタート" ;
+    ns2:jptrans "Slow_Start" ;
+    ns2:jptranslit "Surō_Sutāto" .
+
+ns2:Slush_Rush a ns2:Ability ;
+    ns1:name "Slush_Rush" ;
+    ns2:colorscheme "ice" ;
+    ns2:gen "VII" ;
+    ns2:jpname "ゆきかき" ;
+    ns2:jptrans "Snow_Removal" ;
+    ns2:jptranslit "Yuki_Kaki" .
+
+ns2:Sniper a ns2:Ability ;
+    ns1:name "Sniper" ;
+    ns2:colorscheme "water" ;
+    ns2:gen "IV" ;
+    ns2:jpname "スナイパー" ;
+    ns2:jptrans "Sniper" ;
+    ns2:jptranslit "Sunaipā" .
+
+ns2:Snow_Cloak a ns2:Ability ;
+    ns1:name "Snow_Cloak" ;
+    ns2:colorscheme "ice" ;
+    ns2:gen "IV" ;
+    ns2:jpname "ゆきがくれ" ;
+    ns2:jptrans "Hidden_in_the_Snow" ;
+    ns2:jptranslit "Yukigakure" .
+
+ns2:Snow_Warning a ns2:Ability ;
+    ns1:name "Snow_Warning" ;
+    ns2:colorscheme "ice" ;
+    ns2:gen "IV" ;
+    ns2:jpname "ゆきふらし" ;
+    ns2:jptrans "Snowfall" ;
+    ns2:jptranslit "Yuki_Furashi" .
+
+ns2:Solar_Power a ns2:Ability ;
+    ns1:name "Solar_Power" ;
+    ns2:colorscheme "Fire" ;
+    ns2:gen "IV" ;
+    ns2:jpname "サンパワー" ;
+    ns2:jptrans "Sun_Power" ;
+    ns2:jptranslit "San_Pawā" .
+
+ns2:Solid_Rock a ns2:Ability ;
+    ns1:name "Solid_Rock" ;
+    ns2:colorscheme "rock" ;
+    ns2:gen "IV" ;
+    ns2:jpname "ハードロック" ;
+    ns2:jptrans "Hard_Rock" ;
+    ns2:jptranslit "Hādo_Rokku" .
+
+ns2:Soul-Heart a ns2:Ability ;
+    ns1:name "Soul-Heart" ;
+    ns2:colorscheme "Steel" ;
+    ns2:gen "VII" ;
+    ns2:jpname "ソウルハート" ;
+    ns2:jptrans "Soul-Heart" ;
+    ns2:jptranslit "Sōru_Hāto" .
+
+ns2:Soundproof a ns2:Ability ;
+    ns1:name "Soundproof" ;
+    ns2:colorscheme "normal" ;
+    ns2:gen "III" ;
+    ns2:jpname "ぼうおん" ;
+    ns2:jptrans "Soundproof" ;
+    ns2:jptranslit "Bōon" .
+
+ns2:Speed_Boost a ns2:Ability ;
+    ns1:name "Speed_Boost" ;
+    ns2:colorscheme "speed" ;
+    ns2:gen "III" ;
+    ns2:jpname "かそく" ;
+    ns2:jptrans "Speed_Up" ;
+    ns2:jptranslit "Kasoku" .
+
+ns2:Stakeout a ns2:Ability ;
+    ns1:name "Stakeout" ;
+    ns2:colorscheme "Normal" ;
+    ns2:gen "VII" ;
+    ns2:jpname "はりこみ" ;
+    ns2:jptrans "Stakeout" ;
+    ns2:jptranslit "Harikomi" .
+
+ns2:Stall a ns2:Ability ;
+    ns1:name "Stall" ;
+    ns2:colorscheme "ghost" ;
+    ns2:gen "IV" ;
+    ns2:jpname "あとだし" ;
+    ns2:jptrans "Going_After" ;
+    ns2:jptranslit "Atodashi" .
+
+ns2:Stalwart a ns2:Ability ;
+    ns1:name "Stalwart" ;
+    ns2:colorscheme "Steel" ;
+    ns2:gen "VIII" ;
+    ns2:jpname "すじがねいり" ;
+    ns2:jptrans "Staunch" ;
+    ns2:jptranslit "Suji_ga_neiri" .
+
+ns2:Stamina a ns2:Ability ;
+    ns1:name "Stamina" ;
+    ns2:colorscheme "defense" ;
+    ns2:gen "VII" ;
+    ns2:jpname "じきゅうりょく" ;
+    ns2:jptrans "Stamina" ;
+    ns2:jptranslit "Jikyūryoku" .
+
+ns2:Stance_Change a ns2:Ability ;
+    ns1:name "Stance_Change" ;
+    ns2:colorscheme "steel" ;
+    ns2:gen "VI" ;
+    ns2:jpname "バトルスイッチ" ;
+    ns2:jptrans "Battle_Switch" ;
+    ns2:jptranslit "Batoru_Suitchi" .
+
+ns2:Static a ns2:Ability ;
+    ns1:name "Static" ;
+    ns2:colorscheme "electric" ;
+    ns2:gen "III" ;
+    ns2:jpname "せいでんき" ;
+    ns2:jptrans "Static_Electricity" ;
+    ns2:jptranslit "Seidenki" .
+
+ns2:Steadfast a ns2:Ability ;
+    ns1:name "Steadfast" ;
+    ns2:colorscheme "fighting" ;
+    ns2:gen "IV" ;
+    ns2:jpname "ふくつのこころ" ;
+    ns2:jptrans "Indomitable_Heart" ;
+    ns2:jptranslit "Fukutsu_no_Kokoro" .
+
+ns2:Steam_Engine a ns2:Ability ;
+    ns1:name "Steam_Engine" ;
+    ns2:colorscheme "rock" ;
+    ns2:gen "VIII" ;
+    ns2:jpname "じょうききかん" ;
+    ns2:jptrans "Steam_Engine" ;
+    ns2:jptranslit "Jōki_Kikan" .
+
+ns2:Steelworker a ns2:Ability ;
+    ns1:name "Steelworker" ;
+    ns2:colorscheme "steel" ;
+    ns2:gen "VII" ;
+    ns2:jpname "はがねつかい" ;
+    ns2:jptrans "Steelworker" ;
+    ns2:jptranslit "Hagane_Tsukai" .
+
+ns2:Steely_Spirit a ns2:Ability ;
+    ns1:name "Steely_Spirit" ;
+    ns2:colorscheme "Steel" ;
+    ns2:gen "VIII" ;
+    ns2:jpname "はがねのせいしん" ;
+    ns2:jptrans "Steely_Spirit" ;
+    ns2:jptranslit "Hagane_no_Seishin" .
+
+ns2:Stench a ns2:Ability ;
+    ns1:name "Stench" ;
+    ns2:colorscheme "poison" ;
+    ns2:gen "III" ;
+    ns2:jpname "あくしゅう" ;
+    ns2:jptrans "Stench" ;
+    ns2:jptranslit "Akushū" .
+
+ns2:Sticky_Hold a ns2:Ability ;
+    ns1:name "Sticky_Hold" ;
+    ns2:colorscheme "poison" ;
+    ns2:gen "III" ;
+    ns2:jpname "ねんちゃく" ;
+    ns2:jptrans "Adhesion" ;
+    ns2:jptranslit "Nenchaku" .
+
+ns2:Storm_Drain a ns2:Ability ;
+    ns1:name "Storm_Drain" ;
+    ns2:colorscheme "water" ;
+    ns2:gen "IV" ;
+    ns2:jpname "よびみず" ;
+    ns2:jptrans "Pump_Priming" ;
+    ns2:jptranslit "Yobimizu" .
+
+ns2:Strong_Jaw a ns2:Ability ;
+    ns1:name "Strong_Jaw" ;
+    ns2:colorscheme "physical" ;
+    ns2:gen "VI" ;
+    ns2:jpname "がんじょうあご" ;
+    ns2:jptrans "Strong_Jaw" ;
+    ns2:jptranslit "Ganjō_Ago" .
+
+ns2:Sturdy a ns2:Ability ;
+    ns1:name "Sturdy" ;
+    ns2:colorscheme "rock" ;
+    ns2:gen "III" ;
+    ns2:jpname "がんじょう" ;
+    ns2:jptrans "Sturdy" ;
+    ns2:jptranslit "Ganjō" .
+
+ns2:Suction_Cups a ns2:Ability ;
+    ns1:name "Suction_Cups" ;
+    ns2:colorscheme "water" ;
+    ns2:gen "III" ;
+    ns2:jpname "きゅうばん" ;
+    ns2:jptrans "Suction_Cups" ;
+    ns2:jptranslit "Kyūban" .
+
+ns2:Super_Luck a ns2:Ability ;
+    ns1:name "Super_Luck" ;
+    ns2:colorscheme "Flying" ;
+    ns2:gen "IV" ;
+    ns2:jpname "きょううん" ;
+    ns2:jptrans "Good_Luck" ;
+    ns2:jptranslit "Kyōun" .
+
+ns2:Supersweet_Syrup a ns2:Ability ;
+    ns1:name "Supersweet_Syrup" ;
+    ns2:colorscheme "Grass" ;
+    ns2:gen "IX" ;
+    ns2:jpname "かんろなミツ" ;
+    ns2:jptrans "Sweet_Nectar" ;
+    ns2:jptranslit "Kanro_na_Mitsu" .
+
+ns2:Supreme_Overlord a ns2:Ability ;
+    ns1:name "Supreme_Overlord" ;
+    ns2:colorscheme "attack" ;
+    ns2:gen "IX" ;
+    ns2:jpname "そうだいしょう" ;
+    ns2:jptrans "Supreme_Commander" ;
+    ns2:jptranslit "Sōdaishō" .
+
+ns2:Surge_Surfer a ns2:Ability ;
+    ns1:name "Surge_Surfer" ;
+    ns2:colorscheme "Electric" ;
+    ns2:gen "VII" ;
+    ns2:jpname "サーフテール" ;
+    ns2:jptrans "Surf_Tail" ;
+    ns2:jptranslit "Sāfu_Tēru" .
+
+ns2:Swarm a ns2:Ability ;
+    ns1:name "Swarm" ;
+    ns2:colorscheme "bug" ;
+    ns2:gen "III" ;
+    ns2:jpname "むしのしらせ" ;
+    ns2:jptrans "Bug_Notification" ;
+    ns2:jptranslit "Mushi_no_Shirase" .
+
+ns2:Sweet_Veil a ns2:Ability ;
+    ns1:name "Sweet_Veil" ;
+    ns2:colorscheme "Status" ;
+    ns2:gen "VI" ;
+    ns2:jpname "スイートベール" ;
+    ns2:jptrans "Sweet_Veil" ;
+    ns2:jptranslit "Suīto_Bēru" .
+
+ns2:Swift_Swim a ns2:Ability ;
+    ns1:name "Swift_Swim" ;
+    ns2:colorscheme "water" ;
+    ns2:gen "III" ;
+    ns2:jpname "すいすい" ;
+    ns2:jptrans "Smooth_Swim" ;
+    ns2:jptranslit "Suisui" .
+
+ns2:Sword_of_Ruin a ns2:Ability ;
+    ns1:name "Sword_of_Ruin" ;
+    ns2:colorscheme "defense" ;
+    ns2:gen "IX" ;
+    ns2:jpname "わざわいのつるぎ" ;
+    ns2:jptrans "Sword_of_Ruin" ;
+    ns2:jptranslit "Wazawai_no_Tsurugi" .
+
+ns2:Symbiosis a ns2:Ability ;
+    ns1:name "Symbiosis" ;
+    ns2:colorscheme "items" ;
+    ns2:gen "VI" ;
+    ns2:jpname "きょうせい_" ;
+    ns2:jptrans "Symbiosis" ;
+    ns2:jptranslit "Kyōsei" .
+
+ns2:Synchronize a ns2:Ability ;
+    ns1:name "Synchronize" ;
+    ns2:colorscheme "psychic" ;
+    ns2:gen "III" ;
+    ns2:jpname "シンクロ" ;
+    ns2:jptrans "Synchro" ;
+    ns2:jptranslit "Shinkuro" .
+
+ns2:Tablets_of_Ruin a ns2:Ability ;
+    ns1:name "Tablets_of_Ruin" ;
+    ns2:colorscheme "attack" ;
+    ns2:gen "IX" ;
+    ns2:jpname "わざわいのおふだ" ;
+    ns2:jptrans "Talismans_of_Ruin" ;
+    ns2:jptranslit "Wazawai_no_Ofuda" .
+
+ns2:Tangled_Feet a ns2:Ability ;
+    ns1:name "Tangled_Feet" ;
+    ns2:colorscheme "normal" ;
+    ns2:gen "IV" ;
+    ns2:jpname "ちどりあし" ;
+    ns2:jptrans "Tottering_Steps" ;
+    ns2:jptranslit "Chidori_Ashi" .
+
+ns2:Tangling_Hair a ns2:Ability ;
+    ns1:name "Tangling_Hair" ;
+    ns2:colorscheme "steel" ;
+    ns2:gen "VII" ;
+    ns2:jpname "カーリーヘアー" ;
+    ns2:jptrans "Curly_Hair" ;
+    ns2:jptranslit "Kārī_Heā" .
+
+ns2:Technician a ns2:Ability ;
+    ns1:name "Technician" ;
+    ns2:colorscheme "normal" ;
+    ns2:gen "IV" ;
+    ns2:jpname "テクニシャン" ;
+    ns2:jptrans "Technician" ;
+    ns2:jptranslit "Tekunishan" .
+
+ns2:Telepathy a ns2:Ability ;
+    ns1:name "Telepathy" ;
+    ns2:colorscheme "Psychic" ;
+    ns2:gen "V" ;
+    ns2:jpname "テレパシー" ;
+    ns2:jptrans "Telepathy" ;
+    ns2:jptranslit "Terepashī" .
+
+ns2:Tera_Shell a ns2:Ability ;
+    ns1:name "Tera_Shell" ;
+    ns2:colorscheme "Stellar" ;
+    ns2:gen "IX" ;
+    ns2:jpname "テラスシェル" ;
+    ns2:jptrans "Tera_Shell" ;
+    ns2:jptranslit "Terasu_Sheru" .
+
+ns2:Tera_Shift a ns2:Ability ;
+    ns1:name "Tera_Shift" ;
+    ns2:colorscheme "Stellar" ;
+    ns2:gen "IX" ;
+    ns2:jpname "テラスチェンジ" ;
+    ns2:jptrans "Tera_Change" ;
+    ns2:jptranslit "Terasu_Chenji" .
+
+ns2:Teraform_Zero a ns2:Ability ;
+    ns1:name "Teraform_Zero" ;
+    ns2:colorscheme "Stellar" ;
+    ns2:gen "IX" ;
+    ns2:jpname "ゼロフォーミング" ;
+    ns2:jptrans "Zero-Forming" ;
+    ns2:jptranslit "Zero-Fōmingu" .
+
+ns2:Teravolt a ns2:Ability ;
+    ns1:name "Teravolt" ;
+    ns2:colorscheme "Electric" ;
+    ns2:gen "V" ;
+    ns2:jpname "テラボルテージ" ;
+    ns2:jptrans "Teravoltage" ;
+    ns2:jptranslit "Teraborutēji" .
+
+ns2:Thermal_Exchange a ns2:Ability ;
+    ns1:name "Thermal_Exchange" ;
+    ns2:colorscheme "Ice" ;
+    ns2:gen "IX" ;
+    ns2:jpname "ねつこうかん" ;
+    ns2:jptrans "Thermal_Exchange" ;
+    ns2:jptranslit "Netsu_Kōkan" .
+
+ns2:Thick_Fat a ns2:Ability ;
+    ns1:name "Thick_Fat" ;
+    ns2:colorscheme "fire" ;
+    ns2:gen "III" ;
+    ns2:jpname "あついしぼう" ;
+    ns2:jptrans "Thick_Fat" ;
+    ns2:jptranslit "Atsui_Shibō" .
+
+ns2:Tinted_Lens a ns2:Ability ;
+    ns1:name "Tinted_Lens" ;
+    ns2:colorscheme "bug" ;
+    ns2:gen "IV" ;
+    ns2:jpname "いろめがね" ;
+    ns2:jptrans "Tinted_Glasses" ;
+    ns2:jptranslit "Iromegane" .
+
+ns2:Torrent a ns2:Ability ;
+    ns1:name "Torrent" ;
+    ns2:colorscheme "water" ;
+    ns2:gen "III" ;
+    ns2:jpname "げきりゅう" ;
+    ns2:jptrans "Raging_Rapids" ;
+    ns2:jptranslit "Gekiryū" .
+
+ns2:Tough_Claws a ns2:Ability ;
+    ns1:name "Tough_Claws" ;
+    ns2:colorscheme "Physical" ;
+    ns2:gen "VI" ;
+    ns2:jpname "かたいツメ" ;
+    ns2:jptrans "Tough_Claws" ;
+    ns2:jptranslit "Katai_Tsume" .
+
+ns2:Toxic_Boost a ns2:Ability ;
+    ns1:name "Toxic_Boost" ;
+    ns2:colorscheme "poison" ;
+    ns2:gen "V" ;
+    ns2:jpname "どくぼうそう_" ;
+    ns2:jptrans "Poison_Rampage" ;
+    ns2:jptranslit "Doku_Bōsō" .
+
+ns2:Toxic_Chain a ns2:Ability ;
+    ns1:name "Toxic_Chain" ;
+    ns2:colorscheme "poison" ;
+    ns2:gen "IX" ;
+    ns2:jpname "どくのくさり" ;
+    ns2:jptrans "Toxic_Chain" ;
+    ns2:jptranslit "Doku_no_Kusari_" .
+
+ns2:Toxic_Debris a ns2:Ability ;
+    ns1:name "Toxic_Debris" ;
+    ns2:colorscheme "poison" ;
+    ns2:gen "IX" ;
+    ns2:jpname "どくげしょう" ;
+    ns2:jptrans "Scattered_Poison" ;
+    ns2:jptranslit "Dokugeshō" .
+
+ns2:Trace a ns2:Ability ;
+    ns1:name "Trace" ;
+    ns2:colorscheme "psychic" ;
+    ns2:gen "III" ;
+    ns2:jpname "トレース" ;
+    ns2:jptrans "Trace" ;
+    ns2:jptranslit "Torēsu" .
+
+ns2:Transistor a ns2:Ability ;
+    ns1:name "Transistor" ;
+    ns2:colorscheme "electric" ;
+    ns2:gen "VIII" ;
+    ns2:jpname "トランジスタ" ;
+    ns2:jptrans "Transistor" ;
+    ns2:jptranslit "Toranjisuta" .
+
+ns2:Triage a ns2:Ability ;
+    ns1:name "Triage" ;
+    ns2:colorscheme "HP" ;
+    ns2:gen "VII" ;
+    ns2:jpname "ヒーリングシフト" ;
+    ns2:jptrans "Healing_Shift" ;
+    ns2:jptranslit "Hīringu_Shifuto" .
+
+ns2:Truant a ns2:Ability ;
+    ns1:name "Truant" ;
+    ns2:colorscheme "normal" ;
+    ns2:gen "III" ;
+    ns2:jpname "なまけ" ;
+    ns2:jptrans "Lazy" ;
+    ns2:jptranslit "Namake" .
+
+ns2:Turboblaze a ns2:Ability ;
+    ns1:name "Turboblaze" ;
+    ns2:colorscheme "Fire" ;
+    ns2:gen "V" ;
+    ns2:jpname "ターボブレイズ" ;
+    ns2:jptrans "Turboblaze" ;
+    ns2:jptranslit "Tābobureizu" .
+
+ns2:Unaware a ns2:Ability ;
+    ns1:name "Unaware" ;
+    ns2:colorscheme "normal" ;
+    ns2:gen "IV" ;
+    ns2:jpname "てんねん" ;
+    ns2:jptrans "Airhead" ;
+    ns2:jptranslit "Tennen" .
+
+ns2:Unburden a ns2:Ability ;
+    ns1:name "Unburden" ;
+    ns2:colorscheme "speed" ;
+    ns2:gen "IV" ;
+    ns2:jpname "かるわざ" ;
+    ns2:jptrans "Acrobatics" ;
+    ns2:jptranslit "Karuwaza" .
+
+ns2:Unnerve a ns2:Ability ;
+    ns1:name "Unnerve" ;
+    ns2:colorscheme "berries" ;
+    ns2:gen "V" ;
+    ns2:jpname "きんちょうかん" ;
+    ns2:jptrans "Tension" ;
+    ns2:jptranslit "Kinchōkan" .
+
+ns2:Unseen_Fist a ns2:Ability ;
+    ns1:name "Unseen_Fist" ;
+    ns2:colorscheme "fighting" ;
+    ns2:gen "VIII" ;
+    ns2:jpname "ふかしのこぶし" ;
+    ns2:jptrans "Invisible_Fist" ;
+    ns2:jptranslit "Fukashi_no_Kobushi" .
+
+ns2:Vessel_of_Ruin a ns2:Ability ;
+    ns1:name "Vessel_of_Ruin" ;
+    ns2:colorscheme "special_Attack" ;
+    ns2:gen "IX" ;
+    ns2:jpname "わざわいのうつわ" ;
+    ns2:jptrans "Vessel_of_Ruin" ;
+    ns2:jptranslit "Wazawai_no_Utsuwa" .
+
+ns2:Victory_Star a ns2:Ability ;
+    ns1:name "Victory_Star" ;
+    ns2:colorscheme "psychic" ;
+    ns2:gen "V" ;
+    ns2:jpname "しょうりのほし" ;
+    ns2:jptrans "Victory_Star" ;
+    ns2:jptranslit "Shōri_no_Hoshi" .
+
+ns2:Vital_Spirit a ns2:Ability ;
+    ns1:name "Vital_Spirit" ;
+    ns2:colorscheme "status" ;
+    ns2:gen "III" ;
+    ns2:jpname "やるき" ;
+    ns2:jptrans "Willingness" ;
+    ns2:jptranslit "Yaruki" .
+
+ns2:Volt_Absorb a ns2:Ability ;
+    ns1:name "Volt_Absorb" ;
+    ns2:colorscheme "electric" ;
+    ns2:gen "III" ;
+    ns2:jpname "ちくでん" ;
+    ns2:jptrans "Electricity_Storage" ;
+    ns2:jptranslit "Chikuden" .
+
+ns2:Wandering_Spirit a ns2:Ability ;
+    ns1:name "Wandering_Spirit" ;
+    ns2:colorscheme "ghost" ;
+    ns2:gen "VIII" ;
+    ns2:jpname "さまようたましい" ;
+    ns2:jptrans "Wandering_Spirit" ;
+    ns2:jptranslit "Samayou_Tamashii" .
+
+ns2:Water_Absorb a ns2:Ability ;
+    ns1:name "Water_Absorb" ;
+    ns2:colorscheme "water" ;
+    ns2:gen "III" ;
+    ns2:jpname "ちょすい" ;
+    ns2:jptrans "Water_Storage" ;
+    ns2:jptranslit "Chosui" .
+
+ns2:Water_Bubble a ns2:Ability ;
+    ns1:name "Water_Bubble" ;
+    ns2:colorscheme "water" ;
+    ns2:gen "VII" ;
+    ns2:jpname "すいほう" ;
+    ns2:jptrans "Water_Bubble" ;
+    ns2:jptranslit "Suihō" .
+
+ns2:Water_Compaction a ns2:Ability ;
+    ns1:name "Water_Compaction" ;
+    ns2:colorscheme "Ground" ;
+    ns2:gen "VII" ;
+    ns2:jpname "みずがため_" ;
+    ns2:jptrans "Water_Fortifying" ;
+    ns2:jptranslit "Mizu_Gatame" .
+
+ns2:Water_Veil a ns2:Ability ;
+    ns1:name "Water_Veil" ;
+    ns2:colorscheme "water" ;
+    ns2:gen "III" ;
+    ns2:jpname "みずのベール" ;
+    ns2:jptrans "Water_Veil" ;
+    ns2:jptranslit "Mizu_no_Bēru" .
+
+ns2:Weak_Armor a ns2:Ability ;
+    ns1:name "Weak_Armor" ;
+    ns2:colorscheme "rock" ;
+    ns2:gen "V" ;
+    ns2:jpname "くだけるよろい" ;
+    ns2:jptrans "Broken_Armor" ;
+    ns2:jptranslit "Kudakeru_Yoroi" .
+
+ns2:Well-Baked_Body a ns2:Ability ;
+    ns1:name "Well-Baked_Body" ;
+    ns2:colorscheme "fire" ;
+    ns2:gen "IX" ;
+    ns2:jpname "こんがりボディ" ;
+    ns2:jptrans "Well-Baked_Body" ;
+    ns2:jptranslit "Kongari_Bodi" .
+
+ns2:White_Smoke a ns2:Ability ;
+    ns1:name "White_Smoke" ;
+    ns2:colorscheme "fire" ;
+    ns2:gen "III" ;
+    ns2:jpname "しろいけむり" ;
+    ns2:jptrans "White_Smoke" ;
+    ns2:jptranslit "Shiroi_Kemuri" .
+
+ns2:Wimp_Out a ns2:Ability ;
+    ns1:name "Wimp_Out" ;
+    ns2:colorscheme "Bug" ;
+    ns2:gen "VII" ;
+    ns2:jpname "にげごし" ;
+    ns2:jptrans "Back_Off" ;
+    ns2:jptranslit "Nigegoshi" .
+
+ns2:Wind_Power a ns2:Ability ;
+    ns1:name "Wind_Power" ;
+    ns2:colorscheme "Electric" ;
+    ns2:gen "IX" ;
+    ns2:jpname "ふうりょくでんき" ;
+    ns2:jptrans "Wind-Powered_Electricity" ;
+    ns2:jptranslit "Fūryoku_Denki" .
+
+ns2:Wind_Rider a ns2:Ability ;
+    ns1:name "Wind_Rider" ;
+    ns2:colorscheme "Flying" ;
+    ns2:gen "IX" ;
+    ns2:jpname "かぜのり" ;
+    ns2:jptrans "Wind_Riding" ;
+    ns2:jptranslit "Kazenori" .
+
+ns2:Wonder_Guard a ns2:Ability ;
+    ns1:name "Wonder_Guard" ;
+    ns2:colorscheme "ghost" ;
+    ns2:gen "III" ;
+    ns2:jpname "ふしぎなまもり" ;
+    ns2:jptrans "Mysterious_Protection" ;
+    ns2:jptranslit "Fushigina_Mamori" .
+
+ns2:Wonder_Skin a ns2:Ability ;
+    ns1:name "Wonder_Skin" ;
+    ns2:colorscheme "status" ;
+    ns2:gen "V" ;
+    ns2:jpname "ミラクルスキン" ;
+    ns2:jptrans "Miracle_Skin" ;
+    ns2:jptranslit "Mirakuru_Sukin" .
+
+ns2:Zen_Mode a ns2:Ability ;
+    ns1:name "Zen_Mode" ;
+    ns2:colorscheme "Fire" ;
+    ns2:gen "V" ;
+    ns2:jpname "ダルマモード" ;
+    ns2:jptrans "Daruma_Mode" ;
+    ns2:jptranslit "Daruma_Mōdo" .
+
+ns2:Zero_to_Hero a ns2:Ability ;
+    ns1:name "Zero_to_Hero" ;
+    ns2:colorscheme "water" ;
+    ns2:gen "IX" ;
+    ns2:jpname "マイティチェンジ" ;
+    ns2:jptrans "Mighty_Change" ;
+    ns2:jptranslit "Maiti_Chenji" .
+

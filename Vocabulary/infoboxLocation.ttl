@@ -1,12 +1,8 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix schema: <http://schema.org/> .
-@prefix local: <http://example.org/resource/location/> .
+@prefix local: <http://example.org/resource/> .
+@prefix localProperty: <http://example.org/property/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix localRegion: <http://example.org/resource/region/> .
-@prefix localCharacter: <http://example.org/resource/character/> .
-@prefix localMove: <http://example.org/resource/move/> .
-
-
 
 
 # Class Definition for Location
@@ -18,46 +14,46 @@ local:Location a rdfs:Class ;
 
 # Properties Definitions
 
-local:slogan a rdfs:Property ;
+localProperty:slogan a rdfs:Property ;
     rdfs:label "Slogan"@en ;
     rdfs:comment "A slogan or tagline associated with the location."@en ;
     rdfs:domain local:Location ;
     rdfs:range xsd:string .
 
-local:imageSize a rdfs:Property ;
+localProperty:imageSize a rdfs:Property ;
     rdfs:label "Image Size"@en ;
     rdfs:comment "The dimensions of the image, specified as width x height."@en ;
     rdfs:domain local:Location ;
     rdfs:range xsd:string .
 
-local:mapDescription a rdfs:Property ;
+localProperty:mapDescription a rdfs:Property ;
     rdfs:label "Map Description"@en ;
     rdfs:comment "A brief description of the map for the location."@en ;
     rdfs:domain local:Location ;
     rdfs:range xsd:string .
 
-local:Region a rdfs:Property ;
+localProperty:Region a rdfs:Property ;
     rdfs:label "Region"@en ;
     rdfs:comment "The region where the location is situated (e.g., Kanto, Johto)."@en ;
     rdfs:domain local:Location ;
-    rdfs:range localRegion:Region .
+    rdfs:range local:Region .
 
 # Appears in generations
-local:appearsInGeneration a rdfs:Property ;
+localProperty:appearsInGeneration a rdfs:Property ;
     rdfs:label "Appears in Generation"@en ;
     rdfs:comment "The Pokémon game generations in which the location appears."@en ;
     rdfs:domain local:Location ;
     rdfs:range xsd:string , xsd:integer .
 
 # Location type (e.g., town, road)
-local:locationType a rdfs:Property ;
+localProperty:locationType a rdfs:Property ;
     rdfs:label "Location Type"@en ;
     rdfs:comment "The type of location, such as a town, road, or special area."@en ;
     rdfs:domain local:Location ;
     rdfs:range xsd:string . 
 
 # Map file
-local:mapFile a rdfs:Property ;
+localProperty:mapFile a rdfs:Property ;
     rdfs:label "Map File"@en ;
     rdfs:comment "The file or URI of the map representing the location."@en ;
     rdfs:domain local:Location ;

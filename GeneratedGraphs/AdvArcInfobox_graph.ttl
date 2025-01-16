@@ -1,218 +1,2731 @@
-@prefix ns1: <http://example.org/resource/advarc/> .
-@prefix ns2: <http://example.org/property/> .
+@prefix BPD: <https://bulbapedia.bulbagarden.net/wiki/> .
+@prefix BPD1: <https://dbpedia.org/page/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix property: <http://example.org/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix resource: <http://example.org/resource/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<Alola> a <http://example.org/resource/region/Region> .
+resource:AdvArc a rdfs:Class .
 
-<Galar> a <http://example.org/resource/region/Region> .
+property:colorscheme a rdf:Property .
 
-<Hoenn> a <http://example.org/resource/region/Region> .
+property:firstch a rdf:Property .
 
-<Johto> a <http://example.org/resource/region/Region> .
+property:lastch a rdf:Property .
 
-<Kalos> a <http://example.org/resource/region/Region> .
+property:next a rdf:Property .
 
-<Paldea> a <http://example.org/resource/region/Region> .
+property:number a rdf:Property .
 
-<Sevii_Islands> a <http://example.org/resource/region/Region> .
+property:numchs a rdf:Property .
 
-<Sinnoh> a <http://example.org/resource/region/Region> .
+property:prev a rdf:Property .
 
-<Unova> a <http://example.org/resource/region/Region> .
+<http://example.org/resource/B2W2_chapter.png_!_250px> a xsd:anyURI .
 
-<http://example.org/resource/advarc/Black_&_White> a ns1:AdvArc ;
-    ns2:caption "Several_characters" ;
-    ns2:image "BW_chapter.png_!_250px" ;
-    ns2:name "Black_&_White" ;
-    ns2:region <http://example.org/resource/region/Unova> ;
-    ns1:firstch "PS461" ;
-    ns1:lastch "PS524" ;
-    ns1:next "Black_2_&_White_2_" ;
-    ns1:number "10" ;
-    ns1:numchs "64" ;
-    ns1:prev "HeartGold_&_SoulSilver" .
+<http://example.org/resource/BW_chapter.png_!_250px> a xsd:anyURI .
 
-<http://example.org/resource/advarc/Black_2_&_White_2> a ns1:AdvArc ;
-    ns2:caption "The_main_characters" ;
-    ns2:image "B2W2_chapter.png_!_250px" ;
-    ns2:name "Black_2_&_White_2" ;
-    ns2:region <http://example.org/resource/region/Unova> ;
-    ns1:colorscheme "B2W2" ;
-    ns1:firstch "PS525" ;
-    ns1:lastch "PS548" ;
-    ns1:next "X_&_Y" ;
-    ns1:number "11" ;
-    ns1:numchs "24" ;
-    ns1:prev "Black_&_White" .
+<http://example.org/resource/Black_&_White> owl:sameAs <http://example.org/resource/advarc/Black_&_White> .
 
-<http://example.org/resource/advarc/Diamond_&_Pearl> a ns1:AdvArc ;
-    ns2:caption "The_Sinnoh_Pokédex_holders_and_their_first_partner_Pokémon" ;
-    ns2:image "DP_chapter.png_!_250px" ;
-    ns2:name "Diamond_&_Pearl" ;
-    ns2:region <http://example.org/resource/region/Sinnoh> ;
-    ns1:firstch "PS338" ;
-    ns1:lastch "PS416" ;
-    ns1:next "Platinum_" ;
-    ns1:number "7" ;
-    ns1:numchs "79" ;
-    ns1:prev "Emerald" .
+<http://example.org/resource/Black_2_&_White_2> owl:sameAs <http://example.org/resource/advarc/Black_2_&_White_2> .
 
-ns1:Emerald a ns1:AdvArc ;
-    ns2:caption "The_Pokédex_holders_of_the_Emerald_arc" ;
-    ns2:image "Emerald_chapter.png_!_300px" ;
-    ns2:name "Emerald" ;
-    ns2:region <http://example.org/resource/region/Hoenn> ;
-    ns1:firstch "PS303" ;
-    ns1:lastch "PS337" ;
-    ns1:next "Diamond_&_Pearl_" ;
-    ns1:number "6" ;
-    ns1:numchs "35" ;
-    ns1:prev "FireRed_&_LeafGreen" .
+<http://example.org/resource/DP_chapter.png_!_250px> a xsd:anyURI .
 
-<http://example.org/resource/advarc/FireRed_&_LeafGreen> a ns1:AdvArc ;
-    ns2:caption "" ;
-    ns2:image "FRLG_chapter.png_!_300px" ;
-    ns2:name "FireRed_&_LeafGreen" ;
-    ns2:region <http://example.org/resource/region/Sevii_Islands> ;
-    ns1:firstch "PS268" ;
-    ns1:lastch "PS302" ;
-    ns1:next "Emerald_" ;
-    ns1:number "5" ;
-    ns1:numchs "35" ;
-    ns1:prev "Ruby_&_Sapphire" .
+<http://example.org/resource/Diamond_&_Pearl> owl:sameAs <http://example.org/resource/advarc/Diamond_&_Pearl> .
 
-<http://example.org/resource/advarc/Gold,_Silver_&_Crystal> a ns1:AdvArc ;
-    ns2:caption "The_Pokédex_holders_of_the_third_arc" ;
-    ns2:image "Gold_Silver_and_Crystal.png_!_300px" ;
-    ns2:name "Gold,_Silver_&_Crystal" ;
-    ns2:region <http://example.org/resource/region/Johto> ;
-    ns1:firstch "PS091" ;
-    ns1:lastch "PS180" ;
-    ns1:next "Ruby_&_Sapphire_" ;
-    ns1:number "3" ;
-    ns1:numchs "90" ;
-    ns1:prev "Yellow" .
+resource:Emerald owl:sameAs <http://example.org/resource/advarc/Emerald> .
 
-<http://example.org/resource/advarc/HeartGold_&_SoulSilver> a ns1:AdvArc ;
-    ns2:caption "Gold_and_Silver_with_the_Four_Executives_of_Team_Rocket_in_the_HeartGold_&_SoulSiver_arc" ;
-    ns2:image "HGSS_chapter_Adventures.png_!_250px" ;
-    ns2:name "HeartGold_&_SoulSilver" ;
-    ns2:region <http://example.org/resource/region/Johto> ;
-    ns1:firstch "PS442" ;
-    ns1:lastch "PS460" ;
-    ns1:next "Black_&_White_" ;
-    ns1:number "9" ;
-    ns1:numchs "19" ;
-    ns1:prev "Platinum" .
+<http://example.org/resource/Emerald_chapter.png_!_300px> a xsd:anyURI .
 
-<http://example.org/resource/advarc/Omega_Ruby_&_Alpha_Sapphire> a ns1:AdvArc ;
-    ns2:caption "" ;
-    ns2:image "Omega_Ruby_&_Alpha_Sapphire_chapter.png_!_250px" ;
-    ns2:name "Omega_Ruby_&_Alpha_Sapphire" ;
-    ns2:region <http://example.org/resource/region/Hoenn> ;
-    ns1:colorscheme "ORAS" ;
-    ns1:firstch "PS596" ;
-    ns1:lastch "PAORAS21" ;
-    ns1:next "Sun,_Moon,_Ultra_Sun_&_Ultra_Moon_" ;
-    ns1:number "13" ;
-    ns1:numchs "22" ;
-    ns1:prev "X_&_Y" .
+<http://example.org/resource/FRLG_chapter.png_!_300px> a xsd:anyURI .
 
-ns1:Platinum a ns1:AdvArc ;
-    ns2:caption "Platinum_and_Looker_in_the_Platinum_arc" ;
-    ns2:image "Platinum_arc.png_!_300px" ;
-    ns2:name "Platinum" ;
-    ns2:region <http://example.org/resource/region/Sinnoh> ;
-    ns1:firstch "PS417" ;
-    ns1:lastch "PS441" ;
-    ns1:next "HeartGold_&_SoulSilver_" ;
-    ns1:number "8" ;
-    ns1:numchs "25" ;
-    ns1:prev "Diamond_&_Pearl" .
+<http://example.org/resource/FireRed_&_LeafGreen> owl:sameAs <http://example.org/resource/advarc/FireRed_&_LeafGreen> .
 
-<http://example.org/resource/advarc/Red,_Green_&_Blue> a ns1:AdvArc ;
-    ns2:caption "_adv_Red_,__adv_Green_,_and__adv_Blue__with_their_first_partner_Pokémon" ;
-    ns2:image "Red,_Green_and_Blue_Adventures.png_!_250px" ;
-    ns2:name "Red,_Green_&_Blue" ;
-    ns1:Region "Kanto" ;
-    ns1:firstch "PS001" ;
-    ns1:lastch "PS040" ;
-    ns1:next "Yellow_" ;
-    ns1:number "1" ;
-    ns1:numchs "40" .
+<http://example.org/resource/Gold,_Silver_&_Crystal> owl:sameAs <http://example.org/resource/advarc/Gold,_Silver_&_Crystal> .
 
-<http://example.org/resource/advarc/Ruby_&_Sapphire> a ns1:AdvArc ;
-    ns2:caption "_Adv_Ruby_,__Adv_Sapphire_,__p_Groudon_,__p_Kyogre_,_and__p_Rayquaza_" ;
-    ns2:image "Ruby_Sapphire_chapter_Adventures.png_!_300px" ;
-    ns2:name "Ruby_&_Sapphire" ;
-    ns2:region <http://example.org/resource/region/Hoenn> ;
-    ns1:firstch "PS181" ;
-    ns1:lastch "PS267" ;
-    ns1:next "FireRed_&_LeafGreen_" ;
-    ns1:number "4" ;
-    ns1:numchs "87" ;
-    ns1:prev "Gold,_Silver_&_Crystal" .
+<http://example.org/resource/Gold_Silver_and_Crystal.png_!_300px> a xsd:anyURI .
 
-<http://example.org/resource/advarc/Scarlet_&_Violet> a ns1:AdvArc ;
-    ns2:caption "" ;
-    ns2:image "Pokémon_Adventures_SV_volume_1_artwork.png_!_250px" ;
-    ns2:name "Scarlet_&_Violet" ;
-    ns2:region <http://example.org/resource/region/Paldea> ;
-    ns1:colorscheme "SV" ;
-    ns1:firstch "PASV01" ;
-    ns1:lastch "unknown" ;
-    ns1:next "" ;
-    ns1:number "16" ;
-    ns1:numchs "In_progress" ;
-    ns1:prev "Sword_&_Shield" .
+<http://example.org/resource/HGSS_chapter_Adventures.png_!_250px> a xsd:anyURI .
 
-<http://example.org/resource/advarc/Sun,_Moon,_Ultra_Sun_&_Ultra_Moon> a ns1:AdvArc ;
-    ns2:caption "" ;
-    ns2:image "Sun_Moon_chapter.png_!_250px" ;
-    ns2:name "Sun,_Moon,_Ultra_Sun_&_Ultra_Moon" ;
-    ns2:region <http://example.org/resource/region/Alola> ;
-    ns1:colorscheme "SM" ;
-    ns1:firstch "PASM01" ;
-    ns1:lastch "PASM37" ;
-    ns1:next "Sword_&_Shield_" ;
-    ns1:number "14" ;
-    ns1:numchs "37" ;
-    ns1:prev "Omega_Ruby_&_Alpha_Sapphire" .
+<http://example.org/resource/HeartGold_&_SoulSilver> owl:sameAs <http://example.org/resource/advarc/HeartGold_&_SoulSilver> .
 
-<http://example.org/resource/advarc/Sword_&_Shield> a ns1:AdvArc ;
-    ns2:caption "" ;
-    ns2:image "Sword_Shield_chapter.png_!_250px" ;
-    ns2:name "Sword_&_Shield" ;
-    ns2:region <http://example.org/resource/region/Galar> ;
-    ns1:colorscheme "SS" ;
-    ns1:firstch "PASS01" ;
-    ns1:lastch "PASS43" ;
-    ns1:next "Scarlet_&_Violet" ;
-    ns1:number "15" ;
-    ns1:numchs "43" ;
-    ns1:prev "Sun,_Moon,_Ultra_Sun_&_Ultra_Moon" .
+<http://example.org/resource/Omega_Ruby_&_Alpha_Sapphire> owl:sameAs <http://example.org/resource/advarc/Omega_Ruby_&_Alpha_Sapphire> .
 
-<http://example.org/resource/advarc/X_&_Y> a ns1:AdvArc ;
-    ns2:caption "The_main_characters" ;
-    ns2:image "XY_chapter.png_!_250px" ;
-    ns2:name "X_&_Y" ;
-    ns2:region <http://example.org/resource/region/Kalos> ;
-    ns1:colorscheme "XY" ;
-    ns1:firstch "PS549" ;
-    ns1:lastch "PS595" ;
-    ns1:next "Omega_Ruby_&_Alpha_Sapphire_" ;
-    ns1:number "12" ;
-    ns1:numchs "47" ;
-    ns1:prev "Black_2_&_White_2" .
+<http://example.org/resource/Omega_Ruby_&_Alpha_Sapphire_chapter.png_!_250px> a xsd:anyURI .
 
-ns1:Yellow a ns1:AdvArc ;
-    ns2:caption "_adv_Yellow__and_Pika" ;
-    ns2:image "Yellow_chapter.png_!_250px" ;
-    ns2:name "Yellow" ;
-    ns1:Region "Kanto" ;
-    ns1:firstch "PS041" ;
-    ns1:lastch "PS090" ;
-    ns1:next "Gold,_Silver_&_Crystal_" ;
-    ns1:number "2" ;
-    ns1:numchs "50" ;
-    ns1:prev "Red,_Green_&_Blue" .
+resource:Platinum owl:sameAs <http://example.org/resource/advarc/Platinum> .
+
+<http://example.org/resource/Platinum_arc.png_!_300px> a xsd:anyURI .
+
+<http://example.org/resource/Pokémon_Adventures_SV_volume_1_artwork.png_!_250px> a xsd:anyURI .
+
+<http://example.org/resource/Red,_Green_&_Blue> owl:sameAs <http://example.org/resource/advarc/Red,_Green_&_Blue> .
+
+<http://example.org/resource/Red,_Green_and_Blue_Adventures.png_!_250px> a xsd:anyURI .
+
+<http://example.org/resource/Ruby_&_Sapphire> owl:sameAs <http://example.org/resource/advarc/Ruby_&_Sapphire> .
+
+<http://example.org/resource/Ruby_Sapphire_chapter_Adventures.png_!_300px> a xsd:anyURI .
+
+<http://example.org/resource/Scarlet_&_Violet> owl:sameAs <http://example.org/resource/advarc/Scarlet_&_Violet> .
+
+<http://example.org/resource/Sun,_Moon,_Ultra_Sun_&_Ultra_Moon> owl:sameAs <http://example.org/resource/advarc/Sun,_Moon,_Ultra_Sun_&_Ultra_Moon> .
+
+<http://example.org/resource/Sun_Moon_chapter.png_!_250px> a xsd:anyURI .
+
+<http://example.org/resource/Sword_&_Shield> owl:sameAs <http://example.org/resource/advarc/Sword_&_Shield> .
+
+<http://example.org/resource/Sword_Shield_chapter.png_!_250px> a xsd:anyURI .
+
+<http://example.org/resource/XY_chapter.png_!_250px> a xsd:anyURI .
+
+<http://example.org/resource/X_&_Y> owl:sameAs <http://example.org/resource/advarc/X_&_Y> .
+
+resource:Yellow owl:sameAs <http://example.org/resource/advarc/Yellow> .
+
+<http://example.org/resource/Yellow_chapter.png_!_250px> a xsd:anyURI .
+
+<http://example.org/resource/advarc/Black_&_White> a resource:AdvArc ;
+    property:bulbapediaImage <https://bulbapedia.bulbagarden.net/wiki/File:Ani201ODEX.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:BW_chapter.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Project_Manga_logo.png> ;
+    property:bulbapediaMainImage <https://bulbapedia.bulbagarden.net/wiki/File:Ani201ODEX.png> ;
+    property:bulbapediapage <https://bulbapedia.bulbagarden.net/wiki/Black_&_White_arc_(Adventures)> ;
+    property:caption "Several_characters" ;
+    property:firstch "PS461" ;
+    property:hasBulbapediaLink BPD:Alder,
+        BPD:Alomomola_\(Pokémon\),
+        BPD:Amanda_\(Adventures\),
+        BPD:BW_Agency,
+        BPD:Battle_Subway,
+        BPD:Bianca_\(Adventures\),
+        <https://bulbapedia.bulbagarden.net/wiki/Black's_Carracosta>,
+        <https://bulbapedia.bulbagarden.net/wiki/Black's_Emboar>,
+        <https://bulbapedia.bulbagarden.net/wiki/Black's_Musharna>,
+        <https://bulbapedia.bulbagarden.net/wiki/Black's_Pignite>,
+        BPD:Black_\(Adventures\),
+        <https://bulbapedia.bulbagarden.net/wiki/Black_2_&_White_2_arc_(Adventures)>,
+        BPD:Brycen,
+        <https://bulbapedia.bulbagarden.net/wiki/Bulbapedia:Project_Manga>,
+        <https://bulbapedia.bulbagarden.net/wiki/Bulbapedia:Projects>,
+        <https://bulbapedia.bulbagarden.net/wiki/Bulbapedia:Spoiler_warning>,
+        BPD:Burgh,
+        BPD:Cheren_\(Adventures\),
+        BPD:Chili,
+        BPD:Cilan,
+        BPD:Clay,
+        BPD:Costa,
+        BPD:Cress,
+        BPD:Dark_Stone,
+        BPD:Deerling_\(Pokémon\),
+        BPD:Drayden,
+        BPD:Elesa,
+        BPD:Foongus_\(Pokémon\),
+        BPD:Foongy,
+        BPD:Forces_of_nature_\(Adventures\),
+        BPD:Galvantula_\(Pokémon\),
+        BPD:Ghetsis,
+        BPD:Gym_Leader,
+        <https://bulbapedia.bulbagarden.net/wiki/HeartGold_&_SoulSilver_arc_(Adventures)>,
+        BPD:Lenora,
+        BPD:List_of_Pokémon_Black_and_White_volumes,
+        BPD:List_of_Pokémon_Black_and_White_volumes_\(France\),
+        <https://bulbapedia.bulbagarden.net/wiki/List_of_chapters_in_the_Black_&_White_arc_of_Pokémon_Adventures>,
+        BPD:Manga_boxed_sets,
+        BPD:Munna_\(Pokémon\),
+        BPD:N_\(Adventures\),
+        BPD:Nacrene_Gym,
+        BPD:PS461,
+        BPD:PS462,
+        BPD:PS467,
+        BPD:PS470,
+        BPD:PS474,
+        BPD:PS479,
+        BPD:PS484,
+        BPD:PS485,
+        BPD:PS488,
+        BPD:PS493,
+        BPD:PS495,
+        BPD:PS496,
+        BPD:PS500,
+        BPD:PS501,
+        BPD:PS505,
+        BPD:PS508,
+        BPD:PS512,
+        BPD:PS518,
+        BPD:PS524,
+        BPD:Pignite_\(Pokémon\),
+        BPD:Pokédex,
+        BPD:Pokémon_Adventures,
+        BPD:Pokémon_Adventures_volume_43,
+        BPD:Pokémon_Adventures_volume_44,
+        BPD:Pokémon_Adventures_volume_45,
+        BPD:Pokémon_Adventures_volume_46,
+        BPD:Pokémon_Adventures_volume_47,
+        BPD:Pokémon_Adventures_volume_48,
+        BPD:Pokémon_Adventures_volume_49,
+        BPD:Pokémon_Adventures_volume_50,
+        BPD:Pokémon_Adventures_volume_51,
+        BPD:Pokémon_Champion,
+        BPD:Pokémon_League_\(Unova\),
+        BPD:Pokémon_in_France,
+        BPD:Pokémon_in_Germany,
+        BPD:Pokémon_manga,
+        BPD:Region,
+        BPD:Reshiram_\(Pokémon\),
+        BPD:Servine_\(Pokémon\),
+        BPD:Seven_Sages,
+        BPD:Shadow_Triad,
+        BPD:Skyla,
+        BPD:Solosis_\(Pokémon\),
+        BPD:Stunfisk_\(Pokémon\),
+        BPD:Tao_trio_\(Adventures\),
+        BPD:Team_Plasma,
+        BPD:Tep,
+        BPD:Tepig_\(Pokémon\),
+        BPD:Timeline_of_events_in_Pokémon_Adventures,
+        BPD:Tirtouga_\(Pokémon\),
+        BPD:Tula,
+        BPD:Unova,
+        BPD:VIZ_Media,
+        BPD:Vullaby_\(Pokémon\),
+        <https://bulbapedia.bulbagarden.net/wiki/White's_Serperior>,
+        BPD:White_\(Adventures\),
+        BPD:Whitley_\(Adventures\),
+        BPD:Zekrom_\(Pokémon\) ;
+    property:hasBulbapediaLinkedResoruce resource:Alder,
+        resource:Alomomola_\(Pokémon\),
+        resource:Amanda_\(Adventures\),
+        resource:BW_Agency,
+        resource:Battle_Subway,
+        resource:Bianca_\(Adventures\),
+        <http://example.org/resource/Black's_Carracosta>,
+        <http://example.org/resource/Black's_Emboar>,
+        <http://example.org/resource/Black's_Musharna>,
+        <http://example.org/resource/Black's_Pignite>,
+        resource:Black_\(Adventures\),
+        <http://example.org/resource/Black_2_&_White_2_arc_(Adventures)>,
+        resource:Brycen,
+        <http://example.org/resource/Bulbapedia:Project_Manga>,
+        <http://example.org/resource/Bulbapedia:Projects>,
+        <http://example.org/resource/Bulbapedia:Spoiler_warning>,
+        resource:Burgh,
+        resource:Cheren_\(Adventures\),
+        resource:Chili,
+        resource:Cilan,
+        resource:Clay,
+        resource:Costa,
+        resource:Cress,
+        resource:Dark_Stone,
+        resource:Deerling_\(Pokémon\),
+        resource:Drayden,
+        resource:Elesa,
+        resource:Foongus_\(Pokémon\),
+        resource:Foongy,
+        resource:Forces_of_nature_\(Adventures\),
+        resource:Galvantula_\(Pokémon\),
+        resource:Ghetsis,
+        resource:Gym_Leader,
+        <http://example.org/resource/HeartGold_&_SoulSilver_arc_(Adventures)>,
+        resource:Lenora,
+        resource:List_of_Pokémon_Black_and_White_volumes,
+        resource:List_of_Pokémon_Black_and_White_volumes_\(France\),
+        <http://example.org/resource/List_of_chapters_in_the_Black_&_White_arc_of_Pokémon_Adventures>,
+        resource:Manga_boxed_sets,
+        resource:Munna_\(Pokémon\),
+        resource:N_\(Adventures\),
+        resource:Nacrene_Gym,
+        resource:PS461,
+        resource:PS462,
+        resource:PS467,
+        resource:PS470,
+        resource:PS474,
+        resource:PS479,
+        resource:PS484,
+        resource:PS485,
+        resource:PS488,
+        resource:PS493,
+        resource:PS495,
+        resource:PS496,
+        resource:PS500,
+        resource:PS501,
+        resource:PS505,
+        resource:PS508,
+        resource:PS512,
+        resource:PS518,
+        resource:PS524,
+        resource:Pignite_\(Pokémon\),
+        resource:Pokédex,
+        resource:Pokémon_Adventures,
+        resource:Pokémon_Adventures_volume_43,
+        resource:Pokémon_Adventures_volume_44,
+        resource:Pokémon_Adventures_volume_45,
+        resource:Pokémon_Adventures_volume_46,
+        resource:Pokémon_Adventures_volume_47,
+        resource:Pokémon_Adventures_volume_48,
+        resource:Pokémon_Adventures_volume_49,
+        resource:Pokémon_Adventures_volume_50,
+        resource:Pokémon_Adventures_volume_51,
+        resource:Pokémon_Champion,
+        resource:Pokémon_League_\(Unova\),
+        resource:Pokémon_in_France,
+        resource:Pokémon_in_Germany,
+        resource:Pokémon_manga,
+        resource:Region,
+        resource:Reshiram_\(Pokémon\),
+        resource:Servine_\(Pokémon\),
+        resource:Seven_Sages,
+        resource:Shadow_Triad,
+        resource:Skyla,
+        resource:Solosis_\(Pokémon\),
+        resource:Stunfisk_\(Pokémon\),
+        resource:Tao_trio_\(Adventures\),
+        resource:Team_Plasma,
+        resource:Tep,
+        resource:Tepig_\(Pokémon\),
+        resource:Timeline_of_events_in_Pokémon_Adventures,
+        resource:Tirtouga_\(Pokémon\),
+        resource:Tula,
+        resource:Unova,
+        resource:VIZ_Media,
+        resource:Vullaby_\(Pokémon\),
+        <http://example.org/resource/White's_Serperior>,
+        resource:White_\(Adventures\),
+        resource:Whitley_\(Adventures\),
+        resource:Zekrom_\(Pokémon\) ;
+    property:image <BW_chapter.png_!_250px> ;
+    property:lastch "PS524" ;
+    property:name "Black_&_White" ;
+    property:next "Black_2_&_White_2_" ;
+    property:number "10" ;
+    property:numchs "64" ;
+    property:prev "HeartGold_&_SoulSilver" ;
+    property:region resource:Unova ;
+    owl:sameAs BPD1:AdvArc .
+
+<http://example.org/resource/advarc/Black_2_&_White_2> a resource:AdvArc ;
+    property:bulbapediaImage <https://bulbapedia.bulbagarden.net/wiki/File:B2W2_chapter.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Project_Manga_logo.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Red_Adventures.png> ;
+    property:bulbapediaMainImage <https://bulbapedia.bulbagarden.net/wiki/File:B2W2_chapter.png> ;
+    property:bulbapediapage <https://bulbapedia.bulbagarden.net/wiki/Black_2_&_White_2_arc_(Adventures)> ;
+    property:caption "The_main_characters" ;
+    property:colorscheme "B2W2" ;
+    property:firstch "PS525" ;
+    property:hasBulbapediaLink BPD:Accelgor_\(Pokémon\),
+        BPD:Aspertia_City,
+        <https://bulbapedia.bulbagarden.net/wiki/Black_&_White_arc_(Adventures)>,
+        <https://bulbapedia.bulbagarden.net/wiki/Blake's_Genesect>,
+        BPD:Blake_\(Adventures\),
+        <https://bulbapedia.bulbagarden.net/wiki/Bulbapedia:Find_or_fix_a_stub>,
+        <https://bulbapedia.bulbagarden.net/wiki/Bulbapedia:Project_Manga>,
+        <https://bulbapedia.bulbagarden.net/wiki/Bulbapedia:Projects>,
+        BPD:Colress,
+        BPD:Duosion_\(Pokémon\),
+        BPD:Escavalier_\(Pokémon\),
+        BPD:Gliscor_\(Pokémon\),
+        BPD:International_Police,
+        BPD:Kabutops_\(Pokémon\),
+        BPD:Karrablast_\(Pokémon\),
+        BPD:Kelden,
+        BPD:Keldeo_\(Pokémon\),
+        <https://bulbapedia.bulbagarden.net/wiki/List_of_chapters_in_the_Black_2_&_White_2_arc_of_Pokémon_Adventures>,
+        BPD:PS525,
+        BPD:PS528,
+        BPD:PS532,
+        BPD:PS537,
+        BPD:PS541,
+        BPD:PS543,
+        BPD:PS548,
+        BPD:Pokémon_Adventures,
+        BPD:Pokémon_Adventures_volume_52,
+        BPD:Pokémon_Adventures_volume_53,
+        BPD:Pokémon_Adventures_volume_54,
+        BPD:Pokémon_Adventures_volume_55,
+        BPD:Pokémon_academy,
+        BPD:Pokémon_manga,
+        BPD:Region,
+        BPD:Seven_Sages,
+        BPD:Shelmet_\(Pokémon\),
+        BPD:Solosis_\(Pokémon\),
+        BPD:Team_Plasma,
+        BPD:Team_Plasma_Grunt_\(Trainer_class\),
+        BPD:Unova,
+        BPD:Whitley_\(Adventures\),
+        <https://bulbapedia.bulbagarden.net/wiki/X_&_Y_arc_(Adventures)> ;
+    property:hasBulbapediaLinkedResoruce resource:Accelgor_\(Pokémon\),
+        resource:Aspertia_City,
+        <http://example.org/resource/Black_&_White_arc_(Adventures)>,
+        <http://example.org/resource/Blake's_Genesect>,
+        resource:Blake_\(Adventures\),
+        <http://example.org/resource/Bulbapedia:Find_or_fix_a_stub>,
+        <http://example.org/resource/Bulbapedia:Project_Manga>,
+        <http://example.org/resource/Bulbapedia:Projects>,
+        resource:Colress,
+        resource:Duosion_\(Pokémon\),
+        resource:Escavalier_\(Pokémon\),
+        resource:Gliscor_\(Pokémon\),
+        resource:International_Police,
+        resource:Kabutops_\(Pokémon\),
+        resource:Karrablast_\(Pokémon\),
+        resource:Kelden,
+        resource:Keldeo_\(Pokémon\),
+        <http://example.org/resource/List_of_chapters_in_the_Black_2_&_White_2_arc_of_Pokémon_Adventures>,
+        resource:PS525,
+        resource:PS528,
+        resource:PS532,
+        resource:PS537,
+        resource:PS541,
+        resource:PS543,
+        resource:PS548,
+        resource:Pokémon_Adventures,
+        resource:Pokémon_Adventures_volume_52,
+        resource:Pokémon_Adventures_volume_53,
+        resource:Pokémon_Adventures_volume_54,
+        resource:Pokémon_Adventures_volume_55,
+        resource:Pokémon_academy,
+        resource:Pokémon_manga,
+        resource:Region,
+        resource:Seven_Sages,
+        resource:Shelmet_\(Pokémon\),
+        resource:Solosis_\(Pokémon\),
+        resource:Team_Plasma,
+        resource:Team_Plasma_Grunt_\(Trainer_class\),
+        resource:Unova,
+        resource:Whitley_\(Adventures\),
+        <http://example.org/resource/X_&_Y_arc_(Adventures)> ;
+    property:image <B2W2_chapter.png_!_250px> ;
+    property:lastch "PS548" ;
+    property:name "Black_2_&_White_2" ;
+    property:next "X_&_Y" ;
+    property:number "11" ;
+    property:numchs "24" ;
+    property:prev "Black_&_White" ;
+    property:region resource:Unova ;
+    owl:sameAs BPD1:AdvArc .
+
+<http://example.org/resource/advarc/Diamond_&_Pearl> a resource:AdvArc ;
+    property:bulbapediaImage <https://bulbapedia.bulbagarden.net/wiki/File:Ani201ODEX.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:DP_chapter.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Project_Manga_logo.png> ;
+    property:bulbapediaMainImage <https://bulbapedia.bulbagarden.net/wiki/File:Ani201ODEX.png> ;
+    property:bulbapediapage <https://bulbapedia.bulbagarden.net/wiki/Diamond_&_Pearl_arc_(Adventures)> ;
+    property:caption "The_Sinnoh_Pokédex_holders_and_their_first_partner_Pokémon" ;
+    property:firstch "PS338" ;
+    property:hasBulbapediaLink BPD:Buizel_\(Pokémon\),
+        <https://bulbapedia.bulbagarden.net/wiki/Bulbapedia:Project_Manga>,
+        <https://bulbapedia.bulbagarden.net/wiki/Bulbapedia:Projects>,
+        <https://bulbapedia.bulbagarden.net/wiki/Bulbapedia:Spoiler_warning>,
+        BPD:Byron,
+        BPD:Candice,
+        BPD:Celestic_Town,
+        BPD:Cherrim_\(Pokémon\),
+        BPD:Chimchar_\(Pokémon\),
+        BPD:Chimler,
+        BPD:Crasher_Wake,
+        BPD:Cyrus,
+        BPD:Dialga_\(Pokémon\),
+        <https://bulbapedia.bulbagarden.net/wiki/Diamond's_Bastiodon>,
+        <https://bulbapedia.bulbagarden.net/wiki/Diamond's_Grotle>,
+        <https://bulbapedia.bulbagarden.net/wiki/Diamond's_Torterra>,
+        BPD:Diamond_\(Adventures\),
+        BPD:Diglett_\(Pokémon\),
+        BPD:Distortion_World,
+        BPD:Don,
+        BPD:Emerald_arc_\(Adventures\),
+        BPD:Fantina,
+        BPD:First_partner_Pokémon,
+        BPD:Gardenia,
+        BPD:Giratina_\(Pokémon\),
+        BPD:Grotle_\(Pokémon\),
+        BPD:Gym_Leader,
+        BPD:House_of_Berlitz,
+        BPD:Kit,
+        BPD:Lake_guardians,
+        BPD:Lickilicky_\(Pokémon\),
+        <https://bulbapedia.bulbagarden.net/wiki/List_of_chapters_in_the_Diamond_&_Pearl_arc_of_Pokémon_Adventures>,
+        BPD:Luxray_\(Pokémon\),
+        BPD:Mamoswine_\(Pokémon\),
+        BPD:Maylene,
+        BPD:Monferno_\(Pokémon\),
+        BPD:Mount_Coronet,
+        BPD:PS338,
+        BPD:PS342,
+        BPD:PS346,
+        BPD:PS347,
+        BPD:PS357,
+        BPD:PS359,
+        BPD:PS360,
+        BPD:PS366,
+        BPD:PS373,
+        BPD:PS377,
+        BPD:PS385,
+        BPD:PS388,
+        BPD:PS391,
+        BPD:PS402,
+        BPD:PS403,
+        BPD:PS405,
+        BPD:PS408,
+        BPD:PS411,
+        BPD:PS413,
+        BPD:PS416,
+        BPD:Pachirisu_\(Pokémon\),
+        BPD:Paka_and_Uji,
+        BPD:Palkia_\(Pokémon\),
+        <https://bulbapedia.bulbagarden.net/wiki/Pearl's_Infernape>,
+        <https://bulbapedia.bulbagarden.net/wiki/Pearl's_Monferno>,
+        BPD:Pearl_\(Adventures\),
+        BPD:Piplup_\(Pokémon\),
+        <https://bulbapedia.bulbagarden.net/wiki/Platinum's_Empoleon>,
+        <https://bulbapedia.bulbagarden.net/wiki/Platinum's_Froslass>,
+        <https://bulbapedia.bulbagarden.net/wiki/Platinum's_Lopunny>,
+        <https://bulbapedia.bulbagarden.net/wiki/Platinum's_Prinplup>,
+        <https://bulbapedia.bulbagarden.net/wiki/Platinum's_Rapidash>,
+        BPD:Platinum_\(Adventures\),
+        BPD:Platinum_arc_\(Adventures\),
+        BPD:Pokédex_holder,
+        BPD:Pokémon_Adventures,
+        BPD:Pokémon_Adventures_volume_30,
+        BPD:Pokémon_Adventures_volume_31,
+        BPD:Pokémon_Adventures_volume_32,
+        BPD:Pokémon_Adventures_volume_33,
+        BPD:Pokémon_Adventures_volume_34,
+        BPD:Pokémon_Adventures_volume_35,
+        BPD:Pokémon_Adventures_volume_36,
+        BPD:Pokémon_Adventures_volume_37,
+        BPD:Pokémon_Adventures_volume_38,
+        BPD:Pokémon_Platinum_Version,
+        BPD:Pokémon_battle,
+        BPD:Pokémon_journey,
+        BPD:Pokémon_manga,
+        BPD:Ponyta_\(Pokémon\),
+        BPD:Prinplup_\(Pokémon\),
+        BPD:Rayler,
+        BPD:Red_Chain,
+        BPD:Reg,
+        BPD:Regigigas_\(Pokémon\),
+        BPD:Region,
+        BPD:Roark,
+        BPD:Saturn,
+        BPD:Shieldon_\(Pokémon\),
+        BPD:Sinnoh,
+        BPD:Spear_Pillar,
+        BPD:Tauros_\(Pokémon\),
+        BPD:Team_Galactic,
+        BPD:Timeline_of_events_in_Pokémon_Adventures,
+        BPD:Tru,
+        BPD:Turtwig_\(Pokémon\),
+        BPD:Villainous_team,
+        BPD:Volkner ;
+    property:hasBulbapediaLinkedResoruce resource:Buizel_\(Pokémon\),
+        <http://example.org/resource/Bulbapedia:Project_Manga>,
+        <http://example.org/resource/Bulbapedia:Projects>,
+        <http://example.org/resource/Bulbapedia:Spoiler_warning>,
+        resource:Byron,
+        resource:Candice,
+        resource:Celestic_Town,
+        resource:Cherrim_\(Pokémon\),
+        resource:Chimchar_\(Pokémon\),
+        resource:Chimler,
+        resource:Crasher_Wake,
+        resource:Cyrus,
+        resource:Dialga_\(Pokémon\),
+        <http://example.org/resource/Diamond's_Bastiodon>,
+        <http://example.org/resource/Diamond's_Grotle>,
+        <http://example.org/resource/Diamond's_Torterra>,
+        resource:Diamond_\(Adventures\),
+        resource:Diglett_\(Pokémon\),
+        resource:Distortion_World,
+        resource:Don,
+        resource:Emerald_arc_\(Adventures\),
+        resource:Fantina,
+        resource:First_partner_Pokémon,
+        resource:Gardenia,
+        resource:Giratina_\(Pokémon\),
+        resource:Grotle_\(Pokémon\),
+        resource:Gym_Leader,
+        resource:House_of_Berlitz,
+        resource:Kit,
+        resource:Lake_guardians,
+        resource:Lickilicky_\(Pokémon\),
+        <http://example.org/resource/List_of_chapters_in_the_Diamond_&_Pearl_arc_of_Pokémon_Adventures>,
+        resource:Luxray_\(Pokémon\),
+        resource:Mamoswine_\(Pokémon\),
+        resource:Maylene,
+        resource:Monferno_\(Pokémon\),
+        resource:Mount_Coronet,
+        resource:PS338,
+        resource:PS342,
+        resource:PS346,
+        resource:PS347,
+        resource:PS357,
+        resource:PS359,
+        resource:PS360,
+        resource:PS366,
+        resource:PS373,
+        resource:PS377,
+        resource:PS385,
+        resource:PS388,
+        resource:PS391,
+        resource:PS402,
+        resource:PS403,
+        resource:PS405,
+        resource:PS408,
+        resource:PS411,
+        resource:PS413,
+        resource:PS416,
+        resource:Pachirisu_\(Pokémon\),
+        resource:Paka_and_Uji,
+        resource:Palkia_\(Pokémon\),
+        <http://example.org/resource/Pearl's_Infernape>,
+        <http://example.org/resource/Pearl's_Monferno>,
+        resource:Pearl_\(Adventures\),
+        resource:Piplup_\(Pokémon\),
+        <http://example.org/resource/Platinum's_Empoleon>,
+        <http://example.org/resource/Platinum's_Froslass>,
+        <http://example.org/resource/Platinum's_Lopunny>,
+        <http://example.org/resource/Platinum's_Prinplup>,
+        <http://example.org/resource/Platinum's_Rapidash>,
+        resource:Platinum_\(Adventures\),
+        resource:Platinum_arc_\(Adventures\),
+        resource:Pokédex_holder,
+        resource:Pokémon_Adventures,
+        resource:Pokémon_Adventures_volume_30,
+        resource:Pokémon_Adventures_volume_31,
+        resource:Pokémon_Adventures_volume_32,
+        resource:Pokémon_Adventures_volume_33,
+        resource:Pokémon_Adventures_volume_34,
+        resource:Pokémon_Adventures_volume_35,
+        resource:Pokémon_Adventures_volume_36,
+        resource:Pokémon_Adventures_volume_37,
+        resource:Pokémon_Adventures_volume_38,
+        resource:Pokémon_Platinum_Version,
+        resource:Pokémon_battle,
+        resource:Pokémon_journey,
+        resource:Pokémon_manga,
+        resource:Ponyta_\(Pokémon\),
+        resource:Prinplup_\(Pokémon\),
+        resource:Rayler,
+        resource:Red_Chain,
+        resource:Reg,
+        resource:Regigigas_\(Pokémon\),
+        resource:Region,
+        resource:Roark,
+        resource:Saturn,
+        resource:Shieldon_\(Pokémon\),
+        resource:Sinnoh,
+        resource:Spear_Pillar,
+        resource:Tauros_\(Pokémon\),
+        resource:Team_Galactic,
+        resource:Timeline_of_events_in_Pokémon_Adventures,
+        resource:Tru,
+        resource:Turtwig_\(Pokémon\),
+        resource:Villainous_team,
+        resource:Volkner ;
+    property:image <DP_chapter.png_!_250px> ;
+    property:lastch "PS416" ;
+    property:name "Diamond_&_Pearl" ;
+    property:next "Platinum_" ;
+    property:number "7" ;
+    property:numchs "79" ;
+    property:prev "Emerald" ;
+    property:region resource:Sinnoh ;
+    owl:sameAs BPD1:AdvArc .
+
+<http://example.org/resource/advarc/Emerald> a resource:AdvArc ;
+    property:bulbapediaImage <https://bulbapedia.bulbagarden.net/wiki/File:Ani201ODEX.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Emerald_chapter.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Project_Manga_logo.png> ;
+    property:bulbapediaMainImage <https://bulbapedia.bulbagarden.net/wiki/File:Ani201ODEX.png> ;
+    property:bulbapediapage BPD:Emerald_arc_\(Adventures\) ;
+    property:caption "The_Pokédex_holders_of_the_Emerald_arc" ;
+    property:firstch "PS303" ;
+    property:hasBulbapediaLink BPD:Anabel,
+        BPD:Archie,
+        BPD:Artisan_Cave,
+        BPD:Battle_Frontier_\(Generation_III\),
+        BPD:Battle_facility,
+        BPD:Brandon,
+        <https://bulbapedia.bulbagarden.net/wiki/Bulbapedia:Project_Manga>,
+        <https://bulbapedia.bulbagarden.net/wiki/Bulbapedia:Projects>,
+        <https://bulbapedia.bulbagarden.net/wiki/Bulbapedia:Spoiler_warning>,
+        BPD:Caught_Pokémon,
+        BPD:Crystal_\(Adventures\),
+        <https://bulbapedia.bulbagarden.net/wiki/Diamond_&_Pearl_arc_(Adventures)>,
+        <https://bulbapedia.bulbagarden.net/wiki/Emerald's_Dusclops>,
+        <https://bulbapedia.bulbagarden.net/wiki/Emerald's_Sceptile>,
+        <https://bulbapedia.bulbagarden.net/wiki/Emerald's_Sudowoodo>,
+        BPD:Emerald_\(Adventures\),
+        <https://bulbapedia.bulbagarden.net/wiki/FireRed_&_LeafGreen_arc_(Adventures)>,
+        BPD:Frontier_Brain,
+        BPD:Gold_\(Adventures\),
+        BPD:Greta,
+        BPD:Guile_Hideout,
+        BPD:Hoenn,
+        BPD:Jirachi_\(Adventures\),
+        BPD:Kyogre_\(Pokémon\),
+        BPD:Latias_\(Pokémon\),
+        BPD:Latios_\(Pokémon\),
+        BPD:List_of_chapters_in_the_Emerald_arc_of_Pokémon_Adventures,
+        BPD:Lucy,
+        BPD:Mantine_\(Pokémon\),
+        BPD:Mr._Mime_\(Pokémon\),
+        BPD:Natu_\(Pokémon\),
+        BPD:Noland,
+        BPD:PS303,
+        BPD:PS307,
+        BPD:PS308,
+        BPD:PS310,
+        BPD:PS313,
+        BPD:PS317,
+        BPD:PS318,
+        BPD:PS319,
+        BPD:PS326,
+        BPD:PS327,
+        BPD:PS330,
+        BPD:PS337,
+        BPD:Pokédex_holder,
+        BPD:Pokémon_Adventures,
+        BPD:Pokémon_Adventures_volume_26,
+        BPD:Pokémon_Adventures_volume_27,
+        BPD:Pokémon_Adventures_volume_28,
+        BPD:Pokémon_Adventures_volume_29,
+        BPD:Pokémon_Trainer,
+        BPD:Pokémon_manga,
+        BPD:Professor_Oak,
+        BPD:Professor_Oak_\(Adventures\),
+        BPD:Professor_Rowan,
+        BPD:Region,
+        BPD:Ruby_\(Adventures\),
+        BPD:Sapphire_\(Adventures\),
+        BPD:Snorlax_\(Pokémon\),
+        BPD:Spenser,
+        BPD:Timeline_of_events_in_Pokémon_Adventures,
+        BPD:Todd_Snap,
+        BPD:Tucker,
+        BPD:Xatu_\(Pokémon\) ;
+    property:hasBulbapediaLinkedResoruce resource:Anabel,
+        resource:Archie,
+        resource:Artisan_Cave,
+        resource:Battle_Frontier_\(Generation_III\),
+        resource:Battle_facility,
+        resource:Brandon,
+        <http://example.org/resource/Bulbapedia:Project_Manga>,
+        <http://example.org/resource/Bulbapedia:Projects>,
+        <http://example.org/resource/Bulbapedia:Spoiler_warning>,
+        resource:Caught_Pokémon,
+        resource:Crystal_\(Adventures\),
+        <http://example.org/resource/Diamond_&_Pearl_arc_(Adventures)>,
+        <http://example.org/resource/Emerald's_Dusclops>,
+        <http://example.org/resource/Emerald's_Sceptile>,
+        <http://example.org/resource/Emerald's_Sudowoodo>,
+        resource:Emerald_\(Adventures\),
+        <http://example.org/resource/FireRed_&_LeafGreen_arc_(Adventures)>,
+        resource:Frontier_Brain,
+        resource:Gold_\(Adventures\),
+        resource:Greta,
+        resource:Guile_Hideout,
+        resource:Hoenn,
+        resource:Jirachi_\(Adventures\),
+        resource:Kyogre_\(Pokémon\),
+        resource:Latias_\(Pokémon\),
+        resource:Latios_\(Pokémon\),
+        resource:List_of_chapters_in_the_Emerald_arc_of_Pokémon_Adventures,
+        resource:Lucy,
+        resource:Mantine_\(Pokémon\),
+        resource:Mr._Mime_\(Pokémon\),
+        resource:Natu_\(Pokémon\),
+        resource:Noland,
+        resource:PS303,
+        resource:PS307,
+        resource:PS308,
+        resource:PS310,
+        resource:PS313,
+        resource:PS317,
+        resource:PS318,
+        resource:PS319,
+        resource:PS326,
+        resource:PS327,
+        resource:PS330,
+        resource:PS337,
+        resource:Pokédex_holder,
+        resource:Pokémon_Adventures,
+        resource:Pokémon_Adventures_volume_26,
+        resource:Pokémon_Adventures_volume_27,
+        resource:Pokémon_Adventures_volume_28,
+        resource:Pokémon_Adventures_volume_29,
+        resource:Pokémon_Trainer,
+        resource:Pokémon_manga,
+        resource:Professor_Oak,
+        resource:Professor_Oak_\(Adventures\),
+        resource:Professor_Rowan,
+        resource:Region,
+        resource:Ruby_\(Adventures\),
+        resource:Sapphire_\(Adventures\),
+        resource:Snorlax_\(Pokémon\),
+        resource:Spenser,
+        resource:Timeline_of_events_in_Pokémon_Adventures,
+        resource:Todd_Snap,
+        resource:Tucker,
+        resource:Xatu_\(Pokémon\) ;
+    property:image <Emerald_chapter.png_!_300px> ;
+    property:lastch "PS337" ;
+    property:name "Emerald" ;
+    property:next "Diamond_&_Pearl_" ;
+    property:number "6" ;
+    property:numchs "35" ;
+    property:prev "FireRed_&_LeafGreen" ;
+    property:region resource:Hoenn ;
+    owl:sameAs BPD1:AdvArc .
+
+<http://example.org/resource/advarc/FireRed_&_LeafGreen> a resource:AdvArc ;
+    property:bulbapediaImage <https://bulbapedia.bulbagarden.net/wiki/File:Ani201ODEX.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:FRLG_chapter.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Project_Manga_logo.png> ;
+    property:bulbapediaMainImage <https://bulbapedia.bulbagarden.net/wiki/File:Ani201ODEX.png> ;
+    property:bulbapediapage <https://bulbapedia.bulbagarden.net/wiki/FireRed_&_LeafGreen_arc_(Adventures)> ;
+    property:caption "" ;
+    property:firstch "PS268" ;
+    property:hasBulbapediaLink BPD:Blue_\(Adventures\),
+        <https://bulbapedia.bulbagarden.net/wiki/Bulbapedia:Project_Manga>,
+        <https://bulbapedia.bulbagarden.net/wiki/Bulbapedia:Projects>,
+        <https://bulbapedia.bulbagarden.net/wiki/Bulbapedia:Spoiler_warning>,
+        BPD:Carr,
+        BPD:Deoxys_\(Adventures\),
+        BPD:Emerald_arc_\(Adventures\),
+        BPD:Giovanni_\(Adventures\),
+        BPD:Granbull_\(Pokémon\),
+        <https://bulbapedia.bulbagarden.net/wiki/Green's_Wigglytuff>,
+        <https://bulbapedia.bulbagarden.net/wiki/Green's_parents>,
+        BPD:Green_\(Adventures\),
+        BPD:Hoenn,
+        BPD:Jigglypuff_\(Pokémon\),
+        BPD:Kanto,
+        <https://bulbapedia.bulbagarden.net/wiki/List_of_chapters_in_the_FireRed_&_LeafGreen_arc_of_Pokémon_Adventures>,
+        BPD:Lorelei,
+        BPD:Mewtwo_\(Adventures\),
+        BPD:Nidoqueen_\(Pokémon\),
+        BPD:Nidorina_\(Pokémon\),
+        BPD:Orm,
+        BPD:PS268,
+        BPD:PS288,
+        BPD:PS302,
+        BPD:Pallet_Town,
+        BPD:Pokémon_Adventures,
+        BPD:Pokémon_Adventures_volume_22,
+        BPD:Pokémon_Adventures_volume_23,
+        BPD:Pokémon_Adventures_volume_24,
+        BPD:Pokémon_Adventures_volume_25,
+        BPD:Pokémon_Adventures_volume_26,
+        BPD:Pokémon_category,
+        BPD:Pokémon_manga,
+        BPD:Professor_Oak_\(Adventures\),
+        <https://bulbapedia.bulbagarden.net/wiki/Red,_Green_&_Blue_arc_(Adventures)>,
+        BPD:Red_\(Adventures\),
+        BPD:Region,
+        <https://bulbapedia.bulbagarden.net/wiki/Ruby_&_Sapphire_arc_(Adventures)>,
+        BPD:Ruby_\(item\),
+        BPD:Sapphire_\(item\),
+        BPD:Sevii_Islands,
+        BPD:Silver_\(Adventures\),
+        BPD:Sird,
+        BPD:Snubbull_\(Pokémon\),
+        BPD:Team_Rocket,
+        BPD:Team_Rocket_airship,
+        BPD:Timeline_of_events_in_Pokémon_Adventures,
+        BPD:Ultima,
+        BPD:Yellow_\(Adventures\) ;
+    property:hasBulbapediaLinkedResoruce resource:Blue_\(Adventures\),
+        <http://example.org/resource/Bulbapedia:Project_Manga>,
+        <http://example.org/resource/Bulbapedia:Projects>,
+        <http://example.org/resource/Bulbapedia:Spoiler_warning>,
+        resource:Carr,
+        resource:Deoxys_\(Adventures\),
+        resource:Emerald_arc_\(Adventures\),
+        resource:Giovanni_\(Adventures\),
+        resource:Granbull_\(Pokémon\),
+        <http://example.org/resource/Green's_Wigglytuff>,
+        <http://example.org/resource/Green's_parents>,
+        resource:Green_\(Adventures\),
+        resource:Hoenn,
+        resource:Jigglypuff_\(Pokémon\),
+        resource:Kanto,
+        <http://example.org/resource/List_of_chapters_in_the_FireRed_&_LeafGreen_arc_of_Pokémon_Adventures>,
+        resource:Lorelei,
+        resource:Mewtwo_\(Adventures\),
+        resource:Nidoqueen_\(Pokémon\),
+        resource:Nidorina_\(Pokémon\),
+        resource:Orm,
+        resource:PS268,
+        resource:PS288,
+        resource:PS302,
+        resource:Pallet_Town,
+        resource:Pokémon_Adventures,
+        resource:Pokémon_Adventures_volume_22,
+        resource:Pokémon_Adventures_volume_23,
+        resource:Pokémon_Adventures_volume_24,
+        resource:Pokémon_Adventures_volume_25,
+        resource:Pokémon_Adventures_volume_26,
+        resource:Pokémon_category,
+        resource:Pokémon_manga,
+        resource:Professor_Oak_\(Adventures\),
+        <http://example.org/resource/Red,_Green_&_Blue_arc_(Adventures)>,
+        resource:Red_\(Adventures\),
+        resource:Region,
+        <http://example.org/resource/Ruby_&_Sapphire_arc_(Adventures)>,
+        resource:Ruby_\(item\),
+        resource:Sapphire_\(item\),
+        resource:Sevii_Islands,
+        resource:Silver_\(Adventures\),
+        resource:Sird,
+        resource:Snubbull_\(Pokémon\),
+        resource:Team_Rocket,
+        resource:Team_Rocket_airship,
+        resource:Timeline_of_events_in_Pokémon_Adventures,
+        resource:Ultima,
+        resource:Yellow_\(Adventures\) ;
+    property:image <FRLG_chapter.png_!_300px> ;
+    property:lastch "PS302" ;
+    property:name "FireRed_&_LeafGreen" ;
+    property:next "Emerald_" ;
+    property:number "5" ;
+    property:numchs "35" ;
+    property:prev "Ruby_&_Sapphire" ;
+    property:region resource:Sevii_Islands ;
+    owl:sameAs BPD1:AdvArc .
+
+<http://example.org/resource/advarc/Gold,_Silver_&_Crystal> a resource:AdvArc ;
+    property:bulbapediaImage <https://bulbapedia.bulbagarden.net/wiki/File:Ani201ODEX.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Gold_Silver_and_Crystal.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Project_Manga_logo.png> ;
+    property:bulbapediaMainImage <https://bulbapedia.bulbagarden.net/wiki/File:Ani201ODEX.png> ;
+    property:bulbapediapage <https://bulbapedia.bulbagarden.net/wiki/Gold,_Silver_&_Crystal_arc_(Adventures)> ;
+    property:caption "The_Pokédex_holders_of_the_third_arc" ;
+    property:firstch "PS091" ;
+    property:hasBulbapediaLink BPD:Alakazam_\(Pokémon\),
+        BPD:Arcanine_\(Pokémon\),
+        BPD:Bayleef_\(Pokémon\),
+        <https://bulbapedia.bulbagarden.net/wiki/Blue's_Porygon2>,
+        <https://bulbapedia.bulbagarden.net/wiki/Blue's_Rhydon>,
+        <https://bulbapedia.bulbagarden.net/wiki/Blue's_Scizor>,
+        BPD:Blue_\(Adventures\),
+        <https://bulbapedia.bulbagarden.net/wiki/Bulbapedia:Project_Manga>,
+        <https://bulbapedia.bulbagarden.net/wiki/Bulbapedia:Projects>,
+        <https://bulbapedia.bulbagarden.net/wiki/Bulbapedia:Spoiler_warning>,
+        BPD:Chikorita_\(Pokémon\),
+        BPD:Croconaw_\(Pokémon\),
+        <https://bulbapedia.bulbagarden.net/wiki/Crystal's_Bayleef>,
+        <https://bulbapedia.bulbagarden.net/wiki/Crystal's_Meganium>,
+        BPD:Crystal_\(Adventures\),
+        BPD:Cyndaquil_\(Pokémon\),
+        BPD:Ecruteak_City,
+        BPD:Eevee_\(Pokémon\),
+        BPD:Exbo,
+        BPD:Exeggutor_\(Pokémon\),
+        BPD:First_partner_Pokémon,
+        <https://bulbapedia.bulbagarden.net/wiki/Gold's_Politoed>,
+        <https://bulbapedia.bulbagarden.net/wiki/Gold's_Poliwhirl>,
+        <https://bulbapedia.bulbagarden.net/wiki/Gold's_Quilava>,
+        <https://bulbapedia.bulbagarden.net/wiki/Gold's_Typhlosion>,
+        BPD:Gold_\(Adventures\),
+        BPD:Green_\(Adventures\),
+        BPD:Gym_Leader,
+        BPD:Horsea_\(Pokémon\),
+        BPD:Ilex_Forest,
+        BPD:Johto,
+        BPD:Kingdra_\(Pokémon\),
+        BPD:Legendary_beasts,
+        <https://bulbapedia.bulbagarden.net/wiki/List_of_chapters_in_the_Gold,_Silver_&_Crystal_arc_of_Pokémon_Adventures>,
+        BPD:Mantine_\(Pokémon\),
+        BPD:Masked_Man,
+        BPD:Megaree,
+        BPD:PS091,
+        BPD:PS093,
+        BPD:PS098,
+        BPD:PS099,
+        BPD:PS102,
+        BPD:PS106,
+        BPD:PS107,
+        BPD:PS108,
+        BPD:PS109,
+        BPD:PS112,
+        BPD:PS115,
+        BPD:PS116,
+        BPD:PS118,
+        BPD:PS135,
+        BPD:PS148,
+        BPD:PS160,
+        BPD:PS172,
+        BPD:PS178,
+        BPD:PS180,
+        BPD:Pibu,
+        BPD:Pichu_\(Pokémon\),
+        BPD:Pokédex,
+        BPD:Pokédex_holder,
+        BPD:Pokémon_Adventures,
+        BPD:Pokémon_Adventures_volume_10,
+        BPD:Pokémon_Adventures_volume_11,
+        BPD:Pokémon_Adventures_volume_12,
+        BPD:Pokémon_Adventures_volume_13,
+        BPD:Pokémon_Adventures_volume_14,
+        BPD:Pokémon_Adventures_volume_15,
+        BPD:Pokémon_Adventures_volume_8,
+        BPD:Pokémon_Adventures_volume_9,
+        BPD:Pokémon_Association,
+        BPD:Pokémon_Trainer,
+        BPD:Pokémon_manga,
+        BPD:Poliwag_\(Pokémon\),
+        BPD:Poliwhirl_\(Pokémon\),
+        BPD:Porygon_\(Pokémon\),
+        BPD:Professor_Oak,
+        BPD:Professor_Oak_\(Adventures\),
+        BPD:Quilava_\(Pokémon\),
+        <https://bulbapedia.bulbagarden.net/wiki/Red's_Espeon>,
+        BPD:Red_\(Adventures\),
+        BPD:Region,
+        <https://bulbapedia.bulbagarden.net/wiki/Ruby_&_Sapphire_arc_(Adventures)>,
+        BPD:Scyther_\(Pokémon\),
+        BPD:Seadra_\(Pokémon\),
+        <https://bulbapedia.bulbagarden.net/wiki/Silver's_Croconaw>,
+        <https://bulbapedia.bulbagarden.net/wiki/Silver's_Feraligatr>,
+        <https://bulbapedia.bulbagarden.net/wiki/Silver's_Gyarados>,
+        <https://bulbapedia.bulbagarden.net/wiki/Silver's_Murkrow>,
+        <https://bulbapedia.bulbagarden.net/wiki/Silver's_Ursaring>,
+        BPD:Silver_\(Adventures\),
+        BPD:Sudobo,
+        BPD:Sudowoodo_\(Pokémon\),
+        BPD:Suicune_\(Pokémon\),
+        BPD:Sunflora_\(Pokémon\),
+        BPD:Sunkern_\(Pokémon\),
+        BPD:Team_Rocket,
+        BPD:Timeline_of_events_in_Pokémon_Adventures,
+        BPD:Togebo,
+        BPD:Togepi_\(Pokémon\),
+        BPD:Totodile_\(Pokémon\),
+        BPD:Yellow_\(Adventures\),
+        BPD:Yellow_arc_\(Adventures\) ;
+    property:hasBulbapediaLinkedResoruce resource:Alakazam_\(Pokémon\),
+        resource:Arcanine_\(Pokémon\),
+        resource:Bayleef_\(Pokémon\),
+        <http://example.org/resource/Blue's_Porygon2>,
+        <http://example.org/resource/Blue's_Rhydon>,
+        <http://example.org/resource/Blue's_Scizor>,
+        resource:Blue_\(Adventures\),
+        <http://example.org/resource/Bulbapedia:Project_Manga>,
+        <http://example.org/resource/Bulbapedia:Projects>,
+        <http://example.org/resource/Bulbapedia:Spoiler_warning>,
+        resource:Chikorita_\(Pokémon\),
+        resource:Croconaw_\(Pokémon\),
+        <http://example.org/resource/Crystal's_Bayleef>,
+        <http://example.org/resource/Crystal's_Meganium>,
+        resource:Crystal_\(Adventures\),
+        resource:Cyndaquil_\(Pokémon\),
+        resource:Ecruteak_City,
+        resource:Eevee_\(Pokémon\),
+        resource:Exbo,
+        resource:Exeggutor_\(Pokémon\),
+        resource:First_partner_Pokémon,
+        <http://example.org/resource/Gold's_Politoed>,
+        <http://example.org/resource/Gold's_Poliwhirl>,
+        <http://example.org/resource/Gold's_Quilava>,
+        <http://example.org/resource/Gold's_Typhlosion>,
+        resource:Gold_\(Adventures\),
+        resource:Green_\(Adventures\),
+        resource:Gym_Leader,
+        resource:Horsea_\(Pokémon\),
+        resource:Ilex_Forest,
+        resource:Johto,
+        resource:Kingdra_\(Pokémon\),
+        resource:Legendary_beasts,
+        <http://example.org/resource/List_of_chapters_in_the_Gold,_Silver_&_Crystal_arc_of_Pokémon_Adventures>,
+        resource:Mantine_\(Pokémon\),
+        resource:Masked_Man,
+        resource:Megaree,
+        resource:PS091,
+        resource:PS093,
+        resource:PS098,
+        resource:PS099,
+        resource:PS102,
+        resource:PS106,
+        resource:PS107,
+        resource:PS108,
+        resource:PS109,
+        resource:PS112,
+        resource:PS115,
+        resource:PS116,
+        resource:PS118,
+        resource:PS135,
+        resource:PS148,
+        resource:PS160,
+        resource:PS172,
+        resource:PS178,
+        resource:PS180,
+        resource:Pibu,
+        resource:Pichu_\(Pokémon\),
+        resource:Pokédex,
+        resource:Pokédex_holder,
+        resource:Pokémon_Adventures,
+        resource:Pokémon_Adventures_volume_10,
+        resource:Pokémon_Adventures_volume_11,
+        resource:Pokémon_Adventures_volume_12,
+        resource:Pokémon_Adventures_volume_13,
+        resource:Pokémon_Adventures_volume_14,
+        resource:Pokémon_Adventures_volume_15,
+        resource:Pokémon_Adventures_volume_8,
+        resource:Pokémon_Adventures_volume_9,
+        resource:Pokémon_Association,
+        resource:Pokémon_Trainer,
+        resource:Pokémon_manga,
+        resource:Poliwag_\(Pokémon\),
+        resource:Poliwhirl_\(Pokémon\),
+        resource:Porygon_\(Pokémon\),
+        resource:Professor_Oak,
+        resource:Professor_Oak_\(Adventures\),
+        resource:Quilava_\(Pokémon\),
+        <http://example.org/resource/Red's_Espeon>,
+        resource:Red_\(Adventures\),
+        resource:Region,
+        <http://example.org/resource/Ruby_&_Sapphire_arc_(Adventures)>,
+        resource:Scyther_\(Pokémon\),
+        resource:Seadra_\(Pokémon\),
+        <http://example.org/resource/Silver's_Croconaw>,
+        <http://example.org/resource/Silver's_Feraligatr>,
+        <http://example.org/resource/Silver's_Gyarados>,
+        <http://example.org/resource/Silver's_Murkrow>,
+        <http://example.org/resource/Silver's_Ursaring>,
+        resource:Silver_\(Adventures\),
+        resource:Sudobo,
+        resource:Sudowoodo_\(Pokémon\),
+        resource:Suicune_\(Pokémon\),
+        resource:Sunflora_\(Pokémon\),
+        resource:Sunkern_\(Pokémon\),
+        resource:Team_Rocket,
+        resource:Timeline_of_events_in_Pokémon_Adventures,
+        resource:Togebo,
+        resource:Togepi_\(Pokémon\),
+        resource:Totodile_\(Pokémon\),
+        resource:Yellow_\(Adventures\),
+        resource:Yellow_arc_\(Adventures\) ;
+    property:hasExternalLink <https://twitter.com/k_hidenori_/status/39742390847676416> ;
+    property:image <Gold_Silver_and_Crystal.png_!_300px> ;
+    property:lastch "PS180" ;
+    property:name "Gold,_Silver_&_Crystal" ;
+    property:next "Ruby_&_Sapphire_" ;
+    property:number "3" ;
+    property:numchs "90" ;
+    property:prev "Yellow" ;
+    property:region resource:Johto ;
+    owl:sameAs BPD1:AdvArc .
+
+<http://example.org/resource/advarc/HeartGold_&_SoulSilver> a resource:AdvArc ;
+    property:bulbapediaImage <https://bulbapedia.bulbagarden.net/wiki/File:Ani201ODEX.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:HGSS_chapter_Adventures.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Project_Manga_logo.png> ;
+    property:bulbapediaMainImage <https://bulbapedia.bulbagarden.net/wiki/File:Ani201ODEX.png> ;
+    property:bulbapediapage <https://bulbapedia.bulbagarden.net/wiki/HeartGold_&_SoulSilver_arc_(Adventures)> ;
+    property:caption "Gold_and_Silver_with_the_Four_Executives_of_Team_Rocket_in_the_HeartGold_&_SoulSiver_arc" ;
+    property:firstch "PS442" ;
+    property:hasBulbapediaLink BPD:Aipom_\(Pokémon\),
+        BPD:Arceus_\(Adventures\),
+        BPD:Archer,
+        BPD:Ariana,
+        <https://bulbapedia.bulbagarden.net/wiki/Black_&_White_arc_(Adventures)>,
+        <https://bulbapedia.bulbagarden.net/wiki/Blue's_Rhyperior>,
+        <https://bulbapedia.bulbagarden.net/wiki/Bulbapedia:Project_Manga>,
+        <https://bulbapedia.bulbagarden.net/wiki/Bulbapedia:Projects>,
+        <https://bulbapedia.bulbagarden.net/wiki/Bulbapedia:Spoiler_warning>,
+        BPD:Carr,
+        BPD:Crystal_\(Adventures\),
+        <https://bulbapedia.bulbagarden.net/wiki/Diamond_&_Pearl_arc_(Adventures)>,
+        BPD:Diamond_\(Adventures\),
+        BPD:Ecruteak_City,
+        BPD:Executive_\(Trainer_class\),
+        BPD:Giovanni,
+        BPD:Giovanni_\(Adventures\),
+        <https://bulbapedia.bulbagarden.net/wiki/Gold's_Ambipom>,
+        <https://bulbapedia.bulbagarden.net/wiki/Gold's_Togekiss>,
+        <https://bulbapedia.bulbagarden.net/wiki/Gold's_Togetic>,
+        BPD:Gold_\(Adventures\),
+        BPD:Johanna,
+        BPD:Johto,
+        BPD:Johto_Safari_Zone,
+        BPD:Lance,
+        <https://bulbapedia.bulbagarden.net/wiki/Lance's_Dragonite>,
+        <https://bulbapedia.bulbagarden.net/wiki/List_of_chapters_in_the_HeartGold_&_SoulSilver_arc_of_Pokémon_Adventures>,
+        BPD:Murkrow_\(Pokémon\),
+        BPD:PS338,
+        BPD:PS442,
+        BPD:PS445,
+        BPD:PS448,
+        BPD:PS449,
+        BPD:PS459,
+        BPD:PS460,
+        BPD:Petrel,
+        BPD:Plate,
+        BPD:Platinum_arc_\(Adventures\),
+        BPD:Pokéathlon,
+        BPD:Pokémon_Adventures,
+        BPD:Pokémon_Adventures_volume_41,
+        BPD:Pokémon_Adventures_volume_42,
+        BPD:Pokémon_Adventures_volume_43,
+        BPD:Pokémon_manga,
+        BPD:Pokémon_of_Myth,
+        BPD:Proton,
+        BPD:Pryce,
+        BPD:Region,
+        BPD:Rhydon_\(Pokémon\),
+        <https://bulbapedia.bulbagarden.net/wiki/Silver's_Honchkrow>,
+        <https://bulbapedia.bulbagarden.net/wiki/Silver's_Rhyperior>,
+        <https://bulbapedia.bulbagarden.net/wiki/Silver's_Weavile>,
+        BPD:Silver_\(Adventures\),
+        BPD:Sinjoh_Ruins,
+        BPD:Sneasel_\(Pokémon\),
+        BPD:Spiky-eared_Pichu,
+        BPD:Team_Rocket,
+        BPD:Timeline_of_events_in_Pokémon_Adventures,
+        BPD:Togepi_\(Pokémon\),
+        BPD:Togetic_\(Pokémon\) ;
+    property:hasBulbapediaLinkedResoruce resource:Aipom_\(Pokémon\),
+        resource:Arceus_\(Adventures\),
+        resource:Archer,
+        resource:Ariana,
+        <http://example.org/resource/Black_&_White_arc_(Adventures)>,
+        <http://example.org/resource/Blue's_Rhyperior>,
+        <http://example.org/resource/Bulbapedia:Project_Manga>,
+        <http://example.org/resource/Bulbapedia:Projects>,
+        <http://example.org/resource/Bulbapedia:Spoiler_warning>,
+        resource:Carr,
+        resource:Crystal_\(Adventures\),
+        <http://example.org/resource/Diamond_&_Pearl_arc_(Adventures)>,
+        resource:Diamond_\(Adventures\),
+        resource:Ecruteak_City,
+        resource:Executive_\(Trainer_class\),
+        resource:Giovanni,
+        resource:Giovanni_\(Adventures\),
+        <http://example.org/resource/Gold's_Ambipom>,
+        <http://example.org/resource/Gold's_Togekiss>,
+        <http://example.org/resource/Gold's_Togetic>,
+        resource:Gold_\(Adventures\),
+        resource:Johanna,
+        resource:Johto,
+        resource:Johto_Safari_Zone,
+        resource:Lance,
+        <http://example.org/resource/Lance's_Dragonite>,
+        <http://example.org/resource/List_of_chapters_in_the_HeartGold_&_SoulSilver_arc_of_Pokémon_Adventures>,
+        resource:Murkrow_\(Pokémon\),
+        resource:PS338,
+        resource:PS442,
+        resource:PS445,
+        resource:PS448,
+        resource:PS449,
+        resource:PS459,
+        resource:PS460,
+        resource:Petrel,
+        resource:Plate,
+        resource:Platinum_arc_\(Adventures\),
+        resource:Pokéathlon,
+        resource:Pokémon_Adventures,
+        resource:Pokémon_Adventures_volume_41,
+        resource:Pokémon_Adventures_volume_42,
+        resource:Pokémon_Adventures_volume_43,
+        resource:Pokémon_manga,
+        resource:Pokémon_of_Myth,
+        resource:Proton,
+        resource:Pryce,
+        resource:Region,
+        resource:Rhydon_\(Pokémon\),
+        <http://example.org/resource/Silver's_Honchkrow>,
+        <http://example.org/resource/Silver's_Rhyperior>,
+        <http://example.org/resource/Silver's_Weavile>,
+        resource:Silver_\(Adventures\),
+        resource:Sinjoh_Ruins,
+        resource:Sneasel_\(Pokémon\),
+        resource:Spiky-eared_Pichu,
+        resource:Team_Rocket,
+        resource:Timeline_of_events_in_Pokémon_Adventures,
+        resource:Togepi_\(Pokémon\),
+        resource:Togetic_\(Pokémon\) ;
+    property:image <HGSS_chapter_Adventures.png_!_250px> ;
+    property:lastch "PS460" ;
+    property:name "HeartGold_&_SoulSilver" ;
+    property:next "Black_&_White_" ;
+    property:number "9" ;
+    property:numchs "19" ;
+    property:prev "Platinum" ;
+    property:region resource:Johto ;
+    owl:sameAs BPD1:AdvArc .
+
+<http://example.org/resource/advarc/Omega_Ruby_&_Alpha_Sapphire> a resource:AdvArc ;
+    property:bulbapediaImage <https://bulbapedia.bulbagarden.net/wiki/File:Omega_Ruby_&_Alpha_Sapphire_chapter.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Red_Adventures.png> ;
+    property:bulbapediaMainImage <https://bulbapedia.bulbagarden.net/wiki/File:Omega_Ruby_&_Alpha_Sapphire_chapter.png> ;
+    property:bulbapediapage <https://bulbapedia.bulbagarden.net/wiki/Omega_Ruby_&_Alpha_Sapphire_arc_(Adventures)> ;
+    property:caption "" ;
+    property:colorscheme "ORAS" ;
+    property:firstch "PS596" ;
+    property:hasBulbapediaLink BPD:Blasty,
+        <https://bulbapedia.bulbagarden.net/wiki/Bulbapedia:Find_or_fix_a_stub>,
+        <https://bulbapedia.bulbagarden.net/wiki/Bulbapedia:Project_Manga>,
+        BPD:Chic,
+        BPD:Delta_Episode,
+        BPD:Devon_Corporation,
+        BPD:Diancie_\(Pokémon\),
+        BPD:Draconid_people,
+        <https://bulbapedia.bulbagarden.net/wiki/Emerald's_Sceptile>,
+        BPD:Emerald_\(Adventures\),
+        BPD:Eon_duo_\(Adventures\),
+        BPD:Gallade_\(Pokémon\),
+        BPD:Grand_Meteor_Delta,
+        BPD:Hoenn,
+        BPD:Kirlia_\(Pokémon\),
+        BPD:List_of_Pokémon_Adventures_Omega_Ruby_and_Alpha_Sapphire_volumes,
+        BPD:List_of_Pokémon_Omega_Ruby_Alpha_Sapphire_volumes,
+        <https://bulbapedia.bulbagarden.net/wiki/List_of_chapters_in_the_Omega_Ruby_&_Alpha_Sapphire_arc_of_Pokémon_Adventures>,
+        BPD:Mega_Evolution,
+        BPD:Mumu,
+        BPD:PAORAS21,
+        BPD:PS596,
+        BPD:PS597,
+        BPD:PS598,
+        BPD:PS599,
+        BPD:PS604,
+        BPD:PS607,
+        BPD:PS616,
+        BPD:Pokémon_Adventures,
+        BPD:Pokémon_Adventures_Omega_Ruby_and_Alpha_Sapphire_volume_1,
+        BPD:Pokémon_Adventures_volume_62,
+        BPD:Pokémon_Adventures_volume_63,
+        BPD:Pokémon_Adventures_volume_64,
+        BPD:Pokémon_Adventures_volume_65,
+        BPD:Pokémon_Omega_Ruby_and_Alpha_Sapphire,
+        BPD:Pokémon_manga,
+        BPD:Rara,
+        BPD:Region,
+        BPD:Ruby_\(Adventures\),
+        BPD:Sapphire_\(Adventures\),
+        BPD:Saur,
+        BPD:Shogakukan,
+        BPD:Shogakukan_Asia,
+        <https://bulbapedia.bulbagarden.net/wiki/Sun,_Moon,_Ultra_Sun_&_Ultra_Moon_arc_(Adventures)>,
+        BPD:VIZ_Media,
+        <https://bulbapedia.bulbagarden.net/wiki/X_&_Y_arc_(Adventures)>,
+        BPD:Zinnia ;
+    property:hasBulbapediaLinkedResoruce resource:Blasty,
+        <http://example.org/resource/Bulbapedia:Find_or_fix_a_stub>,
+        <http://example.org/resource/Bulbapedia:Project_Manga>,
+        resource:Chic,
+        resource:Delta_Episode,
+        resource:Devon_Corporation,
+        resource:Diancie_\(Pokémon\),
+        resource:Draconid_people,
+        <http://example.org/resource/Emerald's_Sceptile>,
+        resource:Emerald_\(Adventures\),
+        resource:Eon_duo_\(Adventures\),
+        resource:Gallade_\(Pokémon\),
+        resource:Grand_Meteor_Delta,
+        resource:Hoenn,
+        resource:Kirlia_\(Pokémon\),
+        resource:List_of_Pokémon_Adventures_Omega_Ruby_and_Alpha_Sapphire_volumes,
+        resource:List_of_Pokémon_Omega_Ruby_Alpha_Sapphire_volumes,
+        <http://example.org/resource/List_of_chapters_in_the_Omega_Ruby_&_Alpha_Sapphire_arc_of_Pokémon_Adventures>,
+        resource:Mega_Evolution,
+        resource:Mumu,
+        resource:PAORAS21,
+        resource:PS596,
+        resource:PS597,
+        resource:PS598,
+        resource:PS599,
+        resource:PS604,
+        resource:PS607,
+        resource:PS616,
+        resource:Pokémon_Adventures,
+        resource:Pokémon_Adventures_Omega_Ruby_and_Alpha_Sapphire_volume_1,
+        resource:Pokémon_Adventures_volume_62,
+        resource:Pokémon_Adventures_volume_63,
+        resource:Pokémon_Adventures_volume_64,
+        resource:Pokémon_Adventures_volume_65,
+        resource:Pokémon_Omega_Ruby_and_Alpha_Sapphire,
+        resource:Pokémon_manga,
+        resource:Rara,
+        resource:Region,
+        resource:Ruby_\(Adventures\),
+        resource:Sapphire_\(Adventures\),
+        resource:Saur,
+        resource:Shogakukan,
+        resource:Shogakukan_Asia,
+        <http://example.org/resource/Sun,_Moon,_Ultra_Sun_&_Ultra_Moon_arc_(Adventures)>,
+        resource:VIZ_Media,
+        <http://example.org/resource/X_&_Y_arc_(Adventures)>,
+        resource:Zinnia ;
+    property:image <Omega_Ruby_&_Alpha_Sapphire_chapter.png_!_250px> ;
+    property:lastch "PAORAS21" ;
+    property:name "Omega_Ruby_&_Alpha_Sapphire" ;
+    property:next "Sun,_Moon,_Ultra_Sun_&_Ultra_Moon_" ;
+    property:number "13" ;
+    property:numchs "22" ;
+    property:prev "X_&_Y" ;
+    property:region resource:Hoenn ;
+    owl:sameAs BPD1:AdvArc .
+
+<http://example.org/resource/advarc/Platinum> a resource:AdvArc ;
+    property:bulbapediaImage <https://bulbapedia.bulbagarden.net/wiki/File:Ani201ODEX.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Platinum_arc.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Project_Manga_logo.png> ;
+    property:bulbapediaMainImage <https://bulbapedia.bulbagarden.net/wiki/File:Ani201ODEX.png> ;
+    property:bulbapediapage BPD:Platinum_arc_\(Adventures\) ;
+    property:caption "Platinum_and_Looker_in_the_Platinum_arc" ;
+    property:firstch "PS417" ;
+    property:hasBulbapediaLink BPD:Argenta,
+        BPD:Battle_Frontier_\(Generation_IV\),
+        BPD:Battle_Zone,
+        <https://bulbapedia.bulbagarden.net/wiki/Bulbapedia:Project_Manga>,
+        <https://bulbapedia.bulbagarden.net/wiki/Bulbapedia:Projects>,
+        <https://bulbapedia.bulbagarden.net/wiki/Bulbapedia:Spoiler_warning>,
+        BPD:Charon,
+        BPD:Cyrus,
+        BPD:Dahlia,
+        BPD:Darach,
+        BPD:Dialga_\(Pokémon\),
+        <https://bulbapedia.bulbagarden.net/wiki/Diamond's_Rotom>,
+        <https://bulbapedia.bulbagarden.net/wiki/Diamond_&_Pearl_arc_(Adventures)>,
+        BPD:Diamond_\(Adventures\),
+        BPD:Distortion_World,
+        BPD:Dr._Footstep,
+        BPD:Eterna_City,
+        BPD:Frontier_Brain,
+        BPD:Giratina_\(Pokémon\),
+        <https://bulbapedia.bulbagarden.net/wiki/HeartGold_&_SoulSilver_arc_(Adventures)>,
+        BPD:Heatran_\(Pokémon\),
+        BPD:International_Police,
+        BPD:Legendary_Pokémon,
+        BPD:List_of_chapters_in_the_Platinum_arc_of_Pokémon_Adventures,
+        BPD:Looker_\(Adventures\),
+        BPD:PS417,
+        BPD:PS420,
+        BPD:PS425,
+        BPD:PS428,
+        BPD:PS429,
+        BPD:PS430,
+        BPD:PS441,
+        BPD:Paka_and_Uji,
+        BPD:Palkia_\(Pokémon\),
+        BPD:Palmer,
+        BPD:Pearl_\(Adventures\),
+        BPD:Platinum_\(Adventures\),
+        BPD:Pokémon_Adventures,
+        BPD:Pokémon_Adventures_volume_38,
+        BPD:Pokémon_Adventures_volume_39,
+        BPD:Pokémon_Adventures_volume_40,
+        BPD:Pokémon_manga,
+        BPD:Region,
+        BPD:Rotom_\(Pokémon\),
+        BPD:Shadow_Force_\(move\),
+        BPD:Sinnoh,
+        BPD:Sunyshore_City,
+        BPD:Team_Galactic,
+        BPD:Thorton,
+        BPD:Timeline_of_events_in_Pokémon_Adventures,
+        BPD:Unova ;
+    property:hasBulbapediaLinkedResoruce resource:Argenta,
+        resource:Battle_Frontier_\(Generation_IV\),
+        resource:Battle_Zone,
+        <http://example.org/resource/Bulbapedia:Project_Manga>,
+        <http://example.org/resource/Bulbapedia:Projects>,
+        <http://example.org/resource/Bulbapedia:Spoiler_warning>,
+        resource:Charon,
+        resource:Cyrus,
+        resource:Dahlia,
+        resource:Darach,
+        resource:Dialga_\(Pokémon\),
+        <http://example.org/resource/Diamond's_Rotom>,
+        <http://example.org/resource/Diamond_&_Pearl_arc_(Adventures)>,
+        resource:Diamond_\(Adventures\),
+        resource:Distortion_World,
+        resource:Dr._Footstep,
+        resource:Eterna_City,
+        resource:Frontier_Brain,
+        resource:Giratina_\(Pokémon\),
+        <http://example.org/resource/HeartGold_&_SoulSilver_arc_(Adventures)>,
+        resource:Heatran_\(Pokémon\),
+        resource:International_Police,
+        resource:Legendary_Pokémon,
+        resource:List_of_chapters_in_the_Platinum_arc_of_Pokémon_Adventures,
+        resource:Looker_\(Adventures\),
+        resource:PS417,
+        resource:PS420,
+        resource:PS425,
+        resource:PS428,
+        resource:PS429,
+        resource:PS430,
+        resource:PS441,
+        resource:Paka_and_Uji,
+        resource:Palkia_\(Pokémon\),
+        resource:Palmer,
+        resource:Pearl_\(Adventures\),
+        resource:Platinum_\(Adventures\),
+        resource:Pokémon_Adventures,
+        resource:Pokémon_Adventures_volume_38,
+        resource:Pokémon_Adventures_volume_39,
+        resource:Pokémon_Adventures_volume_40,
+        resource:Pokémon_manga,
+        resource:Region,
+        resource:Rotom_\(Pokémon\),
+        resource:Shadow_Force_\(move\),
+        resource:Sinnoh,
+        resource:Sunyshore_City,
+        resource:Team_Galactic,
+        resource:Thorton,
+        resource:Timeline_of_events_in_Pokémon_Adventures,
+        resource:Unova ;
+    property:image <Platinum_arc.png_!_300px> ;
+    property:lastch "PS441" ;
+    property:name "Platinum" ;
+    property:next "HeartGold_&_SoulSilver_" ;
+    property:number "8" ;
+    property:numchs "25" ;
+    property:prev "Diamond_&_Pearl" ;
+    property:region resource:Sinnoh ;
+    owl:sameAs BPD1:AdvArc .
+
+<http://example.org/resource/advarc/Red,_Green_&_Blue> a resource:AdvArc ;
+    property:Region resource:Kanto ;
+    property:bulbapediaImage <https://bulbapedia.bulbagarden.net/wiki/File:Adventures_VIZ_website.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Ani201ODEX.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Project_Manga_logo.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Red,_Green_and_Blue_Adventures.png> ;
+    property:bulbapediaMainImage <https://bulbapedia.bulbagarden.net/wiki/File:Adventures_VIZ_website.png> ;
+    property:bulbapediapage <https://bulbapedia.bulbagarden.net/wiki/Red,_Green_&_Blue_arc_(Adventures)> ;
+    property:caption "_adv_Red_,__adv_Green_,_and__adv_Blue__with_their_first_partner_Pokémon" ;
+    property:firstch "PS001" ;
+    property:hasBulbapediaLink BPD:Aero,
+        BPD:Aerodactyl_\(Pokémon\),
+        BPD:Bill_\(Adventures\),
+        BPD:Blaine,
+        <https://bulbapedia.bulbagarden.net/wiki/Blue's_Charizard>,
+        <https://bulbapedia.bulbagarden.net/wiki/Blue's_Charmeleon>,
+        <https://bulbapedia.bulbagarden.net/wiki/Blue's_Golduck>,
+        <https://bulbapedia.bulbagarden.net/wiki/Blue's_Machamp>,
+        <https://bulbapedia.bulbagarden.net/wiki/Blue's_Machoke>,
+        <https://bulbapedia.bulbagarden.net/wiki/Blue's_Porygon>,
+        BPD:Blue_\(Adventures\),
+        BPD:Brock,
+        <https://bulbapedia.bulbagarden.net/wiki/Bulbapedia:Project_Manga>,
+        <https://bulbapedia.bulbagarden.net/wiki/Bulbapedia:Projects>,
+        <https://bulbapedia.bulbagarden.net/wiki/Bulbapedia:Spoiler_warning>,
+        BPD:Bulbasaur_\(Pokémon\),
+        BPD:Charmander_\(Pokémon\),
+        BPD:Charmeleon_\(Pokémon\),
+        BPD:Clefable_\(Pokémon\),
+        BPD:Clefairy_\(Pokémon\),
+        BPD:Diglett_\(Pokémon\),
+        BPD:Eevee_\(Pokémon\),
+        BPD:Emerald_arc_\(Adventures\),
+        BPD:Erika,
+        <https://bulbapedia.bulbagarden.net/wiki/FireRed_&_LeafGreen_arc_(Adventures)>,
+        BPD:First_partner_Pokémon,
+        BPD:Generation_I,
+        BPD:Giovanni_\(Adventures\),
+        <https://bulbapedia.bulbagarden.net/wiki/Green's_Blastoise>,
+        BPD:Green_\(Adventures\),
+        BPD:Gyara,
+        BPD:Gyarados_\(Pokémon\),
+        BPD:Gym,
+        BPD:Hidenori_Kusaka,
+        BPD:Horsea_\(Pokémon\),
+        BPD:Indigo_Plateau,
+        BPD:Ivysaur_\(Pokémon\),
+        BPD:Kanto,
+        BPD:Koga,
+        BPD:Krabby_\(Pokémon\),
+        BPD:List_of_Pokémon_Adventures_monthly_issues,
+        BPD:List_of_Pokémon_Adventures_omnibus_volumes,
+        <https://bulbapedia.bulbagarden.net/wiki/List_of_chapters_in_the_Red,_Green_&_Blue_arc_of_Pokémon_Adventures>,
+        BPD:Lt._Surge,
+        BPD:Machoke_\(Pokémon\),
+        BPD:Mato,
+        BPD:Mewtwo_\(Adventures\),
+        BPD:Misty,
+        <https://bulbapedia.bulbagarden.net/wiki/Nidoran♀_(Pokémon)>,
+        BPD:Ninetales_\(Pokémon\),
+        BPD:PS001,
+        BPD:PS002,
+        BPD:PS004,
+        BPD:PS005,
+        BPD:PS008,
+        BPD:PS011,
+        BPD:PS012,
+        BPD:PS014,
+        BPD:PS015,
+        BPD:PS018,
+        BPD:PS020,
+        BPD:PS023,
+        BPD:PS025,
+        BPD:PS026,
+        BPD:PS027,
+        BPD:PS030,
+        BPD:PS031,
+        BPD:PS032,
+        BPD:PS033,
+        BPD:PS036,
+        BPD:PS038,
+        BPD:PS039,
+        BPD:PS040,
+        BPD:Pidgeot_\(Pokémon\),
+        BPD:Pika,
+        BPD:Pikachu_\(Pokémon\),
+        BPD:Pokédex,
+        BPD:Pokémon_Adventures,
+        BPD:Pokémon_Adventures_volume_1,
+        BPD:Pokémon_Adventures_volume_14,
+        BPD:Pokémon_Adventures_volume_2,
+        BPD:Pokémon_Adventures_volume_3,
+        BPD:Pokémon_Champion,
+        BPD:Pokémon_League,
+        BPD:Pokémon_Storage_System,
+        BPD:Pokémon_in_France,
+        BPD:Pokémon_manga,
+        BPD:Poliwhirl_\(Pokémon\),
+        BPD:Professor_Oak_\(Adventures\),
+        BPD:Rattata_\(Pokémon\),
+        BPD:Ratty,
+        <https://bulbapedia.bulbagarden.net/wiki/Red's_Ivysaur>,
+        <https://bulbapedia.bulbagarden.net/wiki/Red's_Poliwrath>,
+        <https://bulbapedia.bulbagarden.net/wiki/Red's_Venusaur>,
+        BPD:Red_\(Adventures\),
+        BPD:Region,
+        <https://bulbapedia.bulbagarden.net/wiki/Ruby_&_Sapphire_arc_(Adventures)>,
+        BPD:Sabrina,
+        BPD:Sandshrew_\(Pokémon\),
+        BPD:Saur,
+        BPD:Shogakukan_Asia,
+        BPD:Snor,
+        BPD:Snorlax_\(Pokémon\),
+        BPD:Team_Rocket,
+        BPD:Terminology_of_Pokémon_Adventures,
+        BPD:Timeline_of_events_in_Pokémon_Adventures,
+        BPD:VIZ,
+        BPD:Vee,
+        BPD:Viridian_Forest,
+        BPD:Volume_\(Adventures\),
+        BPD:Wartortle_\(Pokémon\),
+        BPD:Wild_Pokémon,
+        BPD:Yellow_\(Adventures\),
+        BPD:Yellow_arc_\(Adventures\) ;
+    property:hasBulbapediaLinkedResoruce resource:Aero,
+        resource:Aerodactyl_\(Pokémon\),
+        resource:Bill_\(Adventures\),
+        resource:Blaine,
+        <http://example.org/resource/Blue's_Charizard>,
+        <http://example.org/resource/Blue's_Charmeleon>,
+        <http://example.org/resource/Blue's_Golduck>,
+        <http://example.org/resource/Blue's_Machamp>,
+        <http://example.org/resource/Blue's_Machoke>,
+        <http://example.org/resource/Blue's_Porygon>,
+        resource:Blue_\(Adventures\),
+        resource:Brock,
+        <http://example.org/resource/Bulbapedia:Project_Manga>,
+        <http://example.org/resource/Bulbapedia:Projects>,
+        <http://example.org/resource/Bulbapedia:Spoiler_warning>,
+        resource:Bulbasaur_\(Pokémon\),
+        resource:Charmander_\(Pokémon\),
+        resource:Charmeleon_\(Pokémon\),
+        resource:Clefable_\(Pokémon\),
+        resource:Clefairy_\(Pokémon\),
+        resource:Diglett_\(Pokémon\),
+        resource:Eevee_\(Pokémon\),
+        resource:Emerald_arc_\(Adventures\),
+        resource:Erika,
+        <http://example.org/resource/FireRed_&_LeafGreen_arc_(Adventures)>,
+        resource:First_partner_Pokémon,
+        resource:Generation_I,
+        resource:Giovanni_\(Adventures\),
+        <http://example.org/resource/Green's_Blastoise>,
+        resource:Green_\(Adventures\),
+        resource:Gyara,
+        resource:Gyarados_\(Pokémon\),
+        resource:Gym,
+        resource:Hidenori_Kusaka,
+        resource:Horsea_\(Pokémon\),
+        resource:Indigo_Plateau,
+        resource:Ivysaur_\(Pokémon\),
+        resource:Kanto,
+        resource:Koga,
+        resource:Krabby_\(Pokémon\),
+        resource:List_of_Pokémon_Adventures_monthly_issues,
+        resource:List_of_Pokémon_Adventures_omnibus_volumes,
+        <http://example.org/resource/List_of_chapters_in_the_Red,_Green_&_Blue_arc_of_Pokémon_Adventures>,
+        resource:Lt._Surge,
+        resource:Machoke_\(Pokémon\),
+        resource:Mato,
+        resource:Mewtwo_\(Adventures\),
+        resource:Misty,
+        <http://example.org/resource/Nidoran♀_(Pokémon)>,
+        resource:Ninetales_\(Pokémon\),
+        resource:PS001,
+        resource:PS002,
+        resource:PS004,
+        resource:PS005,
+        resource:PS008,
+        resource:PS011,
+        resource:PS012,
+        resource:PS014,
+        resource:PS015,
+        resource:PS018,
+        resource:PS020,
+        resource:PS023,
+        resource:PS025,
+        resource:PS026,
+        resource:PS027,
+        resource:PS030,
+        resource:PS031,
+        resource:PS032,
+        resource:PS033,
+        resource:PS036,
+        resource:PS038,
+        resource:PS039,
+        resource:PS040,
+        resource:Pidgeot_\(Pokémon\),
+        resource:Pika,
+        resource:Pikachu_\(Pokémon\),
+        resource:Pokédex,
+        resource:Pokémon_Adventures,
+        resource:Pokémon_Adventures_volume_1,
+        resource:Pokémon_Adventures_volume_14,
+        resource:Pokémon_Adventures_volume_2,
+        resource:Pokémon_Adventures_volume_3,
+        resource:Pokémon_Champion,
+        resource:Pokémon_League,
+        resource:Pokémon_Storage_System,
+        resource:Pokémon_in_France,
+        resource:Pokémon_manga,
+        resource:Poliwhirl_\(Pokémon\),
+        resource:Professor_Oak_\(Adventures\),
+        resource:Rattata_\(Pokémon\),
+        resource:Ratty,
+        <http://example.org/resource/Red's_Ivysaur>,
+        <http://example.org/resource/Red's_Poliwrath>,
+        <http://example.org/resource/Red's_Venusaur>,
+        resource:Red_\(Adventures\),
+        resource:Region,
+        <http://example.org/resource/Ruby_&_Sapphire_arc_(Adventures)>,
+        resource:Sabrina,
+        resource:Sandshrew_\(Pokémon\),
+        resource:Saur,
+        resource:Shogakukan_Asia,
+        resource:Snor,
+        resource:Snorlax_\(Pokémon\),
+        resource:Team_Rocket,
+        resource:Terminology_of_Pokémon_Adventures,
+        resource:Timeline_of_events_in_Pokémon_Adventures,
+        resource:VIZ,
+        resource:Vee,
+        resource:Viridian_Forest,
+        resource:Volume_\(Adventures\),
+        resource:Wartortle_\(Pokémon\),
+        resource:Wild_Pokémon,
+        resource:Yellow_\(Adventures\),
+        resource:Yellow_arc_\(Adventures\) ;
+    property:hasExternalLink <http://corocoro.tv/pokesp/story/comic/tanoshimi/what.html>,
+        <https://www.viz.com/read/manga/pokemon-adventures/all> ;
+    property:image <Red,_Green_and_Blue_Adventures.png_!_250px> ;
+    property:lastch "PS040" ;
+    property:name "Red,_Green_&_Blue" ;
+    property:next "Yellow_" ;
+    property:number "1" ;
+    property:numchs "40" ;
+    owl:sameAs BPD1:AdvArc .
+
+<http://example.org/resource/advarc/Ruby_&_Sapphire> a resource:AdvArc ;
+    property:bulbapediaImage <https://bulbapedia.bulbagarden.net/wiki/File:Ani201ODEX.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Project_Manga_logo.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Ruby_Sapphire_chapter_Adventures.png> ;
+    property:bulbapediaMainImage <https://bulbapedia.bulbagarden.net/wiki/File:Ani201ODEX.png> ;
+    property:bulbapediapage <https://bulbapedia.bulbagarden.net/wiki/Ruby_&_Sapphire_arc_(Adventures)> ;
+    property:caption "_Adv_Ruby_,__Adv_Sapphire_,__p_Groudon_,__p_Kyogre_,_and__p_Rayquaza_" ;
+    property:firstch "PS181" ;
+    property:hasBulbapediaLink BPD:Archie,
+        BPD:Aron_\(Pokémon\),
+        BPD:Brawly,
+        <https://bulbapedia.bulbagarden.net/wiki/Bulbapedia:Project_Manga>,
+        <https://bulbapedia.bulbagarden.net/wiki/Bulbapedia:Projects>,
+        <https://bulbapedia.bulbagarden.net/wiki/Bulbapedia:Spoiler_warning>,
+        BPD:Castform_\(Pokémon\),
+        BPD:Combusken_\(Pokémon\),
+        BPD:Contest_condition,
+        BPD:Donphan_\(Pokémon\),
+        BPD:Feebas_\(Pokémon\),
+        BPD:Feefee,
+        <https://bulbapedia.bulbagarden.net/wiki/FireRed_&_LeafGreen_arc_(Adventures)>,
+        BPD:First_partner_Pokémon,
+        BPD:Flannery,
+        BPD:Fofo,
+        <https://bulbapedia.bulbagarden.net/wiki/Gold,_Silver_&_Crystal_arc_(Adventures)>,
+        BPD:Groudon_\(Pokémon\),
+        BPD:Gym,
+        BPD:Gym_Leader,
+        BPD:Hoenn,
+        BPD:Johto,
+        BPD:Juan,
+        BPD:Kyogre_\(Pokémon\),
+        BPD:Lairon_\(Pokémon\),
+        BPD:List_of_Pokémon_Adventures_omnibus_volumes,
+        <https://bulbapedia.bulbagarden.net/wiki/List_of_chapters_in_the_Ruby_&_Sapphire_arc_of_Pokémon_Adventures>,
+        BPD:Marshtomp_\(Pokémon\),
+        BPD:Maxie,
+        BPD:Mt._Chimney,
+        BPD:Mudkip_\(Pokémon\),
+        BPD:Mumu,
+        BPD:Norman,
+        BPD:PS181,
+        BPD:PS183,
+        BPD:PS191,
+        BPD:PS195,
+        BPD:PS196,
+        BPD:PS197,
+        BPD:PS200,
+        BPD:PS205,
+        BPD:PS208,
+        BPD:PS211,
+        BPD:PS216,
+        BPD:PS217,
+        BPD:PS223,
+        BPD:PS226,
+        BPD:PS231,
+        BPD:PS232,
+        BPD:PS236,
+        BPD:PS256,
+        BPD:PS257,
+        BPD:PS258,
+        BPD:PS266,
+        BPD:PS267,
+        BPD:Pocket_Monsters_Special_Ruby_Sapphire_volume_1,
+        BPD:Pokémon_Adventures,
+        <https://bulbapedia.bulbagarden.net/wiki/Pokémon_Adventures_Ruby_&_Sapphire_volume_1>,
+        BPD:Pokémon_Adventures_volume_15,
+        BPD:Pokémon_Adventures_volume_16,
+        BPD:Pokémon_Adventures_volume_17,
+        BPD:Pokémon_Adventures_volume_18,
+        BPD:Pokémon_Adventures_volume_19,
+        BPD:Pokémon_Adventures_volume_20,
+        BPD:Pokémon_Adventures_volume_21,
+        BPD:Pokémon_Adventures_volume_22,
+        BPD:Pokémon_Contest,
+        BPD:Pokémon_Omega_Ruby_and_Alpha_Sapphire,
+        BPD:Pokémon_in_France,
+        BPD:Pokémon_journey,
+        BPD:Pokémon_manga,
+        BPD:Poochyena_\(Pokémon\),
+        BPD:Ralts_\(Pokémon\),
+        BPD:Rank_\(Contest\),
+        BPD:Rayquaza_\(Pokémon\),
+        BPD:Red_\(Adventures\),
+        BPD:Region,
+        BPD:Relicanth_\(Pokémon\),
+        BPD:Roxanne,
+        <https://bulbapedia.bulbagarden.net/wiki/Ruby's_Delcatty>,
+        <https://bulbapedia.bulbagarden.net/wiki/Ruby's_Kirlia>,
+        <https://bulbapedia.bulbagarden.net/wiki/Ruby's_Marshtomp>,
+        <https://bulbapedia.bulbagarden.net/wiki/Ruby's_Mightyena>,
+        <https://bulbapedia.bulbagarden.net/wiki/Ruby's_Milotic>,
+        <https://bulbapedia.bulbagarden.net/wiki/Ruby's_Plusle>,
+        <https://bulbapedia.bulbagarden.net/wiki/Ruby's_Swampert>,
+        BPD:Ruby_\(Adventures\),
+        BPD:Rusturf_Tunnel,
+        <https://bulbapedia.bulbagarden.net/wiki/Sapphire's_Aggron>,
+        <https://bulbapedia.bulbagarden.net/wiki/Sapphire's_Blaziken>,
+        <https://bulbapedia.bulbagarden.net/wiki/Sapphire's_Combusken>,
+        <https://bulbapedia.bulbagarden.net/wiki/Sapphire's_Lairon>,
+        <https://bulbapedia.bulbagarden.net/wiki/Sapphire's_Minun>,
+        BPD:Sapphire_\(Adventures\),
+        BPD:Seafloor_Cavern,
+        BPD:Shogakukan,
+        BPD:Shogakukan_Asia,
+        BPD:Skitty_\(Pokémon\),
+        BPD:Super-ancient_Pokémon_\(Adventures\),
+        BPD:Tate_and_Liza,
+        BPD:Team_Aqua,
+        BPD:Team_Magma,
+        <https://bulbapedia.bulbagarden.net/wiki/Timeline_of_Ruby_and_Sapphire's_80-day_challenge>,
+        BPD:Timeline_of_events_in_Pokémon_Adventures,
+        BPD:Torchic_\(Pokémon\),
+        BPD:Villainous_team,
+        BPD:Wally_\(Adventures\),
+        BPD:Wattson,
+        BPD:Winona ;
+    property:hasBulbapediaLinkedResoruce resource:Archie,
+        resource:Aron_\(Pokémon\),
+        resource:Brawly,
+        <http://example.org/resource/Bulbapedia:Project_Manga>,
+        <http://example.org/resource/Bulbapedia:Projects>,
+        <http://example.org/resource/Bulbapedia:Spoiler_warning>,
+        resource:Castform_\(Pokémon\),
+        resource:Combusken_\(Pokémon\),
+        resource:Contest_condition,
+        resource:Donphan_\(Pokémon\),
+        resource:Feebas_\(Pokémon\),
+        resource:Feefee,
+        <http://example.org/resource/FireRed_&_LeafGreen_arc_(Adventures)>,
+        resource:First_partner_Pokémon,
+        resource:Flannery,
+        resource:Fofo,
+        <http://example.org/resource/Gold,_Silver_&_Crystal_arc_(Adventures)>,
+        resource:Groudon_\(Pokémon\),
+        resource:Gym,
+        resource:Gym_Leader,
+        resource:Hoenn,
+        resource:Johto,
+        resource:Juan,
+        resource:Kyogre_\(Pokémon\),
+        resource:Lairon_\(Pokémon\),
+        resource:List_of_Pokémon_Adventures_omnibus_volumes,
+        <http://example.org/resource/List_of_chapters_in_the_Ruby_&_Sapphire_arc_of_Pokémon_Adventures>,
+        resource:Marshtomp_\(Pokémon\),
+        resource:Maxie,
+        resource:Mt._Chimney,
+        resource:Mudkip_\(Pokémon\),
+        resource:Mumu,
+        resource:Norman,
+        resource:PS181,
+        resource:PS183,
+        resource:PS191,
+        resource:PS195,
+        resource:PS196,
+        resource:PS197,
+        resource:PS200,
+        resource:PS205,
+        resource:PS208,
+        resource:PS211,
+        resource:PS216,
+        resource:PS217,
+        resource:PS223,
+        resource:PS226,
+        resource:PS231,
+        resource:PS232,
+        resource:PS236,
+        resource:PS256,
+        resource:PS257,
+        resource:PS258,
+        resource:PS266,
+        resource:PS267,
+        resource:Pocket_Monsters_Special_Ruby_Sapphire_volume_1,
+        resource:Pokémon_Adventures,
+        <http://example.org/resource/Pokémon_Adventures_Ruby_&_Sapphire_volume_1>,
+        resource:Pokémon_Adventures_volume_15,
+        resource:Pokémon_Adventures_volume_16,
+        resource:Pokémon_Adventures_volume_17,
+        resource:Pokémon_Adventures_volume_18,
+        resource:Pokémon_Adventures_volume_19,
+        resource:Pokémon_Adventures_volume_20,
+        resource:Pokémon_Adventures_volume_21,
+        resource:Pokémon_Adventures_volume_22,
+        resource:Pokémon_Contest,
+        resource:Pokémon_Omega_Ruby_and_Alpha_Sapphire,
+        resource:Pokémon_in_France,
+        resource:Pokémon_journey,
+        resource:Pokémon_manga,
+        resource:Poochyena_\(Pokémon\),
+        resource:Ralts_\(Pokémon\),
+        resource:Rank_\(Contest\),
+        resource:Rayquaza_\(Pokémon\),
+        resource:Red_\(Adventures\),
+        resource:Region,
+        resource:Relicanth_\(Pokémon\),
+        resource:Roxanne,
+        <http://example.org/resource/Ruby's_Delcatty>,
+        <http://example.org/resource/Ruby's_Kirlia>,
+        <http://example.org/resource/Ruby's_Marshtomp>,
+        <http://example.org/resource/Ruby's_Mightyena>,
+        <http://example.org/resource/Ruby's_Milotic>,
+        <http://example.org/resource/Ruby's_Plusle>,
+        <http://example.org/resource/Ruby's_Swampert>,
+        resource:Ruby_\(Adventures\),
+        resource:Rusturf_Tunnel,
+        <http://example.org/resource/Sapphire's_Aggron>,
+        <http://example.org/resource/Sapphire's_Blaziken>,
+        <http://example.org/resource/Sapphire's_Combusken>,
+        <http://example.org/resource/Sapphire's_Lairon>,
+        <http://example.org/resource/Sapphire's_Minun>,
+        resource:Sapphire_\(Adventures\),
+        resource:Seafloor_Cavern,
+        resource:Shogakukan,
+        resource:Shogakukan_Asia,
+        resource:Skitty_\(Pokémon\),
+        resource:Super-ancient_Pokémon_\(Adventures\),
+        resource:Tate_and_Liza,
+        resource:Team_Aqua,
+        resource:Team_Magma,
+        <http://example.org/resource/Timeline_of_Ruby_and_Sapphire's_80-day_challenge>,
+        resource:Timeline_of_events_in_Pokémon_Adventures,
+        resource:Torchic_\(Pokémon\),
+        resource:Villainous_team,
+        resource:Wally_\(Adventures\),
+        resource:Wattson,
+        resource:Winona ;
+    property:image <Ruby_Sapphire_chapter_Adventures.png_!_300px> ;
+    property:lastch "PS267" ;
+    property:name "Ruby_&_Sapphire" ;
+    property:next "FireRed_&_LeafGreen_" ;
+    property:number "4" ;
+    property:numchs "87" ;
+    property:prev "Gold,_Silver_&_Crystal" ;
+    property:region resource:Hoenn ;
+    owl:sameAs BPD1:AdvArc .
+
+<http://example.org/resource/advarc/Scarlet_&_Violet> a resource:AdvArc ;
+    property:bulbapediaImage <https://bulbapedia.bulbagarden.net/wiki/File:Pokémon_Adventures_SV_volume_1_artwork.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Red_Adventures.png> ;
+    property:bulbapediaMainImage <https://bulbapedia.bulbagarden.net/wiki/File:Pokémon_Adventures_SV_volume_1_artwork.png> ;
+    property:bulbapediapage <https://bulbapedia.bulbagarden.net/wiki/Scarlet_&_Violet_arc_(Adventures)> ;
+    property:caption "" ;
+    property:colorscheme "SV" ;
+    property:firstch "PASV01" ;
+    property:hasBulbapediaLink BPD:Bombirdier_\(Pokémon\),
+        BPD:Brassius,
+        <https://bulbapedia.bulbagarden.net/wiki/Bulbapedia:Find_or_fix_a_stub>,
+        <https://bulbapedia.bulbagarden.net/wiki/Bulbapedia:Project_Manga>,
+        BPD:Clodsire_\(Pokémon\),
+        BPD:Crocalor_\(Pokémon\),
+        BPD:Floragato_\(Pokémon\),
+        BPD:Fuecoco_\(Pokémon\),
+        BPD:Giacomo,
+        BPD:Herba_Mystica,
+        BPD:Iono,
+        BPD:Katy,
+        BPD:Klawf_\(Pokémon\),
+        <https://bulbapedia.bulbagarden.net/wiki/List_of_Pokémon_Adventures_Scarlet_&_Violet_volumes>,
+        <https://bulbapedia.bulbagarden.net/wiki/List_of_Pokémon_Scarlet_&_Violet_volumes>,
+        <https://bulbapedia.bulbagarden.net/wiki/List_of_chapters_in_the_Scarlet_&_Violet_arc_of_Pokémon_Adventures>,
+        BPD:Lokix_\(Pokémon\),
+        BPD:Miraidon_\(game\),
+        BPD:Nymble_\(Pokémon\),
+        BPD:PASV01,
+        BPD:PASV03,
+        BPD:PASV05,
+        BPD:PASV06,
+        BPD:PASV08,
+        BPD:PASV09,
+        BPD:PASV10,
+        BPD:PASV11,
+        BPD:PASV12,
+        BPD:Paldea,
+        BPD:Paldean_form,
+        BPD:Pocket_Monsters_Special_Scarlet_Violet_volume_1,
+        BPD:Pokémon_Adventures,
+        <https://bulbapedia.bulbagarden.net/wiki/Pokémon_Scarlet_&_Violet_volume_1>,
+        BPD:Pokémon_manga,
+        BPD:Raifort,
+        BPD:Region,
+        BPD:Scarlet_\(Adventures\),
+        BPD:Smoliv_\(Pokémon\),
+        BPD:Sprigatito_\(Pokémon\),
+        <https://bulbapedia.bulbagarden.net/wiki/Sword_&_Shield_arc_(Adventures)>,
+        BPD:Team_Star,
+        BPD:Treasures_of_ruin,
+        BPD:Uva_Academy,
+        BPD:VIZ_Media,
+        BPD:Violet_\(Adventures\),
+        BPD:Wooper_\(Pokémon\) ;
+    property:hasBulbapediaLinkedResoruce resource:Bombirdier_\(Pokémon\),
+        resource:Brassius,
+        <http://example.org/resource/Bulbapedia:Find_or_fix_a_stub>,
+        <http://example.org/resource/Bulbapedia:Project_Manga>,
+        resource:Clodsire_\(Pokémon\),
+        resource:Crocalor_\(Pokémon\),
+        resource:Floragato_\(Pokémon\),
+        resource:Fuecoco_\(Pokémon\),
+        resource:Giacomo,
+        resource:Herba_Mystica,
+        resource:Iono,
+        resource:Katy,
+        resource:Klawf_\(Pokémon\),
+        <http://example.org/resource/List_of_Pokémon_Adventures_Scarlet_&_Violet_volumes>,
+        <http://example.org/resource/List_of_Pokémon_Scarlet_&_Violet_volumes>,
+        <http://example.org/resource/List_of_chapters_in_the_Scarlet_&_Violet_arc_of_Pokémon_Adventures>,
+        resource:Lokix_\(Pokémon\),
+        resource:Miraidon_\(game\),
+        resource:Nymble_\(Pokémon\),
+        resource:PASV01,
+        resource:PASV03,
+        resource:PASV05,
+        resource:PASV06,
+        resource:PASV08,
+        resource:PASV09,
+        resource:PASV10,
+        resource:PASV11,
+        resource:PASV12,
+        resource:Paldea,
+        resource:Paldean_form,
+        resource:Pocket_Monsters_Special_Scarlet_Violet_volume_1,
+        resource:Pokémon_Adventures,
+        <http://example.org/resource/Pokémon_Scarlet_&_Violet_volume_1>,
+        resource:Pokémon_manga,
+        resource:Raifort,
+        resource:Region,
+        resource:Scarlet_\(Adventures\),
+        resource:Smoliv_\(Pokémon\),
+        resource:Sprigatito_\(Pokémon\),
+        <http://example.org/resource/Sword_&_Shield_arc_(Adventures)>,
+        resource:Team_Star,
+        resource:Treasures_of_ruin,
+        resource:Uva_Academy,
+        resource:VIZ_Media,
+        resource:Violet_\(Adventures\),
+        resource:Wooper_\(Pokémon\) ;
+    property:hasExternalLink <https://www.amazon.com/dp/1974752844> ;
+    property:image <Pokémon_Adventures_SV_volume_1_artwork.png_!_250px> ;
+    property:lastch "unknown" ;
+    property:name "Scarlet_&_Violet" ;
+    property:next "" ;
+    property:number "16" ;
+    property:numchs "In_progress" ;
+    property:prev "Sword_&_Shield" ;
+    property:region resource:Paldea ;
+    owl:sameAs BPD1:AdvArc .
+
+<http://example.org/resource/advarc/Sun,_Moon,_Ultra_Sun_&_Ultra_Moon> a resource:AdvArc ;
+    property:bulbapediaImage <https://bulbapedia.bulbagarden.net/wiki/File:Red_Adventures.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Sun_Moon_chapter.png> ;
+    property:bulbapediaMainImage <https://bulbapedia.bulbagarden.net/wiki/File:Red_Adventures.png> ;
+    property:bulbapediapage <https://bulbapedia.bulbagarden.net/wiki/Sun,_Moon,_Ultra_Sun_&_Ultra_Moon_arc_(Adventures)> ;
+    property:caption "" ;
+    property:colorscheme "SM" ;
+    property:firstch "PASM01" ;
+    property:hasBulbapediaLink BPD:Aether_Foundation,
+        BPD:Alola,
+        BPD:Alolan_form,
+        <https://bulbapedia.bulbagarden.net/wiki/Bulbapedia:Find_or_fix_a_stub>,
+        <https://bulbapedia.bulbagarden.net/wiki/Bulbapedia:Project_Manga>,
+        BPD:Charjabug_\(Pokémon\),
+        BPD:Crabominable_\(Pokémon\),
+        BPD:Dartrix_\(Pokémon\),
+        BPD:Faba,
+        BPD:Grimer_\(Pokémon\),
+        BPD:Grubbin_\(Pokémon\),
+        BPD:Guardian_deities,
+        BPD:Guzma,
+        BPD:Island_challenge,
+        BPD:Island_kahuna,
+        BPD:Lana,
+        <https://bulbapedia.bulbagarden.net/wiki/List_of_Pokémon_Adventures_Sun_&_Moon_volumes>,
+        <https://bulbapedia.bulbagarden.net/wiki/List_of_Pokémon_Sun_&_Moon_volumes>,
+        <https://bulbapedia.bulbagarden.net/wiki/List_of_chapters_in_the_Sun,_Moon,_Ultra_Sun_&_Ultra_Moon_arc_of_Pokémon_Adventures>,
+        BPD:Litten_\(Pokémon\),
+        BPD:Lusamine,
+        BPD:Mareanie_\(Pokémon\),
+        BPD:Mimikyu_\(Pokémon\),
+        <https://bulbapedia.bulbagarden.net/wiki/Moon's_Dartrix>,
+        <https://bulbapedia.bulbagarden.net/wiki/Moon's_Decidueye>,
+        <https://bulbapedia.bulbagarden.net/wiki/Moon's_Rowlet>,
+        BPD:Moon_\(Adventures\),
+        BPD:Muk_\(Pokémon\),
+        <https://bulbapedia.bulbagarden.net/wiki/Omega_Ruby_&_Alpha_Sapphire_arc_(Adventures)>,
+        BPD:PASM01,
+        BPD:PASM06,
+        BPD:PASM08,
+        BPD:PASM10,
+        BPD:PASM13,
+        BPD:PASM17,
+        BPD:PASM19,
+        BPD:PASM23,
+        BPD:PASM26,
+        BPD:PASM29,
+        BPD:PASM30,
+        BPD:PASM33,
+        BPD:PASM36,
+        BPD:PASM37,
+        BPD:Pokémon_Adventures,
+        <https://bulbapedia.bulbagarden.net/wiki/Pokémon_Adventures_Sun_&_Moon_volume_1>,
+        BPD:Pokémon_Adventures_volume_65,
+        <https://bulbapedia.bulbagarden.net/wiki/Pokémon_Sun_&_Moon_volume_1>,
+        BPD:Pokémon_manga,
+        BPD:Professor_Kukui,
+        BPD:Region,
+        BPD:Rotom_Pokédex_\(Adventures\),
+        BPD:Rowlet_\(Pokémon\),
+        BPD:Shogakukan_Asia,
+        BPD:Stakataka_\(Pokémon\),
+        <https://bulbapedia.bulbagarden.net/wiki/Sun's_Incineroar>,
+        <https://bulbapedia.bulbagarden.net/wiki/Sun's_Torracat>,
+        BPD:Sun_\(Adventures\),
+        <https://bulbapedia.bulbagarden.net/wiki/Sword_&_Shield_arc_(Adventures)>,
+        BPD:Team_Skull,
+        BPD:Torracat_\(Pokémon\),
+        BPD:Totem_Pokémon,
+        BPD:Ultra_Beast,
+        BPD:VIZ_Media,
+        BPD:Wishiwashi_\(Pokémon\) ;
+    property:hasBulbapediaLinkedResoruce resource:Aether_Foundation,
+        resource:Alola,
+        resource:Alolan_form,
+        <http://example.org/resource/Bulbapedia:Find_or_fix_a_stub>,
+        <http://example.org/resource/Bulbapedia:Project_Manga>,
+        resource:Charjabug_\(Pokémon\),
+        resource:Crabominable_\(Pokémon\),
+        resource:Dartrix_\(Pokémon\),
+        resource:Faba,
+        resource:Grimer_\(Pokémon\),
+        resource:Grubbin_\(Pokémon\),
+        resource:Guardian_deities,
+        resource:Guzma,
+        resource:Island_challenge,
+        resource:Island_kahuna,
+        resource:Lana,
+        <http://example.org/resource/List_of_Pokémon_Adventures_Sun_&_Moon_volumes>,
+        <http://example.org/resource/List_of_Pokémon_Sun_&_Moon_volumes>,
+        <http://example.org/resource/List_of_chapters_in_the_Sun,_Moon,_Ultra_Sun_&_Ultra_Moon_arc_of_Pokémon_Adventures>,
+        resource:Litten_\(Pokémon\),
+        resource:Lusamine,
+        resource:Mareanie_\(Pokémon\),
+        resource:Mimikyu_\(Pokémon\),
+        <http://example.org/resource/Moon's_Dartrix>,
+        <http://example.org/resource/Moon's_Decidueye>,
+        <http://example.org/resource/Moon's_Rowlet>,
+        resource:Moon_\(Adventures\),
+        resource:Muk_\(Pokémon\),
+        <http://example.org/resource/Omega_Ruby_&_Alpha_Sapphire_arc_(Adventures)>,
+        resource:PASM01,
+        resource:PASM06,
+        resource:PASM08,
+        resource:PASM10,
+        resource:PASM13,
+        resource:PASM17,
+        resource:PASM19,
+        resource:PASM23,
+        resource:PASM26,
+        resource:PASM29,
+        resource:PASM30,
+        resource:PASM33,
+        resource:PASM36,
+        resource:PASM37,
+        resource:Pokémon_Adventures,
+        <http://example.org/resource/Pokémon_Adventures_Sun_&_Moon_volume_1>,
+        resource:Pokémon_Adventures_volume_65,
+        <http://example.org/resource/Pokémon_Sun_&_Moon_volume_1>,
+        resource:Pokémon_manga,
+        resource:Professor_Kukui,
+        resource:Region,
+        resource:Rotom_Pokédex_\(Adventures\),
+        resource:Rowlet_\(Pokémon\),
+        resource:Shogakukan_Asia,
+        resource:Stakataka_\(Pokémon\),
+        <http://example.org/resource/Sun's_Incineroar>,
+        <http://example.org/resource/Sun's_Torracat>,
+        resource:Sun_\(Adventures\),
+        <http://example.org/resource/Sword_&_Shield_arc_(Adventures)>,
+        resource:Team_Skull,
+        resource:Torracat_\(Pokémon\),
+        resource:Totem_Pokémon,
+        resource:Ultra_Beast,
+        resource:VIZ_Media,
+        resource:Wishiwashi_\(Pokémon\) ;
+    property:image <Sun_Moon_chapter.png_!_250px> ;
+    property:lastch "PASM37" ;
+    property:name "Sun,_Moon,_Ultra_Sun_&_Ultra_Moon" ;
+    property:next "Sword_&_Shield_" ;
+    property:number "14" ;
+    property:numchs "37" ;
+    property:prev "Omega_Ruby_&_Alpha_Sapphire" ;
+    property:region resource:Alola ;
+    owl:sameAs BPD1:AdvArc .
+
+<http://example.org/resource/advarc/Sword_&_Shield> a resource:AdvArc ;
+    property:bulbapediaImage <https://bulbapedia.bulbagarden.net/wiki/File:Red_Adventures.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Sword_Shield_chapter.png> ;
+    property:bulbapediaMainImage <https://bulbapedia.bulbagarden.net/wiki/File:Red_Adventures.png> ;
+    property:bulbapediapage <https://bulbapedia.bulbagarden.net/wiki/Sword_&_Shield_arc_(Adventures)> ;
+    property:caption "" ;
+    property:colorscheme "SS" ;
+    property:firstch "PASS01" ;
+    property:hasBulbapediaLink BPD:Allister,
+        BPD:Arrokuda_\(Pokémon\),
+        <https://bulbapedia.bulbagarden.net/wiki/Bulbapedia:Find_or_fix_a_stub>,
+        <https://bulbapedia.bulbagarden.net/wiki/Bulbapedia:Project_Manga>,
+        <https://bulbapedia.bulbagarden.net/wiki/Casey's_Cinderace>,
+        <https://bulbapedia.bulbagarden.net/wiki/Casey's_Raboot>,
+        BPD:Casey_Shield,
+        BPD:Dynamax,
+        BPD:Eiscue_\(Pokémon\),
+        BPD:Falinks_\(Pokémon\),
+        BPD:Galar,
+        BPD:Galar_League,
+        BPD:Galarian_form,
+        BPD:Grookey_\(Pokémon\),
+        BPD:Gurdurr_\(Pokémon\),
+        <https://bulbapedia.bulbagarden.net/wiki/Henry's_Rillaboom>,
+        <https://bulbapedia.bulbagarden.net/wiki/Henry's_Thwackey>,
+        BPD:Henry_Sword,
+        BPD:Kabu,
+        <https://bulbapedia.bulbagarden.net/wiki/List_of_Pokémon_Adventures_Sword_&_Shield_volumes>,
+        <https://bulbapedia.bulbagarden.net/wiki/List_of_Pokémon_Sword_&_Shield_volumes>,
+        <https://bulbapedia.bulbagarden.net/wiki/List_of_chapters_in_the_Sword_&_Shield_arc_of_Pokémon_Adventures>,
+        BPD:Macro_Cosmos,
+        BPD:Marvin,
+        BPD:Melony,
+        BPD:Milo,
+        BPD:Mr._Rime_\(Pokémon\),
+        BPD:Nessa,
+        BPD:Opal,
+        BPD:Oranguru_\(Pokémon\),
+        BPD:PASS01,
+        BPD:PASS04,
+        BPD:PASS07,
+        BPD:PASS08,
+        BPD:PASS09,
+        BPD:PASS11,
+        BPD:PASS12,
+        BPD:PASS14,
+        BPD:PASS15,
+        BPD:PASS17,
+        BPD:PASS20,
+        BPD:PASS21,
+        BPD:PASS28,
+        BPD:PASS34,
+        BPD:PASS37,
+        BPD:PASS43,
+        BPD:Pocket_Monsters_Special_Sword_Shield_volume_1,
+        BPD:Pokémon_Adventures,
+        <https://bulbapedia.bulbagarden.net/wiki/Pokémon_Sword_&_Shield_volume_1>,
+        BPD:Pokémon_manga,
+        BPD:Professor_Magnolia,
+        BPD:Raboot_\(Pokémon\),
+        BPD:Region,
+        BPD:Rose,
+        <https://bulbapedia.bulbagarden.net/wiki/Scarlet_&_Violet_arc_(Adventures)>,
+        BPD:Scorbunny_\(Pokémon\),
+        BPD:Stunfisk_\(Pokémon\),
+        <https://bulbapedia.bulbagarden.net/wiki/Sun,_Moon,_Ultra_Sun_&_Ultra_Moon_arc_(Adventures)>,
+        BPD:Thwackey_\(Pokémon\),
+        BPD:Toxtricity_\(Pokémon\),
+        BPD:Urshifu_\(Pokémon\),
+        BPD:VIZ_Media,
+        BPD:Āman ;
+    property:hasBulbapediaLinkedResoruce resource:Allister,
+        resource:Arrokuda_\(Pokémon\),
+        <http://example.org/resource/Bulbapedia:Find_or_fix_a_stub>,
+        <http://example.org/resource/Bulbapedia:Project_Manga>,
+        <http://example.org/resource/Casey's_Cinderace>,
+        <http://example.org/resource/Casey's_Raboot>,
+        resource:Casey_Shield,
+        resource:Dynamax,
+        resource:Eiscue_\(Pokémon\),
+        resource:Falinks_\(Pokémon\),
+        resource:Galar,
+        resource:Galar_League,
+        resource:Galarian_form,
+        resource:Grookey_\(Pokémon\),
+        resource:Gurdurr_\(Pokémon\),
+        <http://example.org/resource/Henry's_Rillaboom>,
+        <http://example.org/resource/Henry's_Thwackey>,
+        resource:Henry_Sword,
+        resource:Kabu,
+        <http://example.org/resource/List_of_Pokémon_Adventures_Sword_&_Shield_volumes>,
+        <http://example.org/resource/List_of_Pokémon_Sword_&_Shield_volumes>,
+        <http://example.org/resource/List_of_chapters_in_the_Sword_&_Shield_arc_of_Pokémon_Adventures>,
+        resource:Macro_Cosmos,
+        resource:Marvin,
+        resource:Melony,
+        resource:Milo,
+        resource:Mr._Rime_\(Pokémon\),
+        resource:Nessa,
+        resource:Opal,
+        resource:Oranguru_\(Pokémon\),
+        resource:PASS01,
+        resource:PASS04,
+        resource:PASS07,
+        resource:PASS08,
+        resource:PASS09,
+        resource:PASS11,
+        resource:PASS12,
+        resource:PASS14,
+        resource:PASS15,
+        resource:PASS17,
+        resource:PASS20,
+        resource:PASS21,
+        resource:PASS28,
+        resource:PASS34,
+        resource:PASS37,
+        resource:PASS43,
+        resource:Pocket_Monsters_Special_Sword_Shield_volume_1,
+        resource:Pokémon_Adventures,
+        <http://example.org/resource/Pokémon_Sword_&_Shield_volume_1>,
+        resource:Pokémon_manga,
+        resource:Professor_Magnolia,
+        resource:Raboot_\(Pokémon\),
+        resource:Region,
+        resource:Rose,
+        <http://example.org/resource/Scarlet_&_Violet_arc_(Adventures)>,
+        resource:Scorbunny_\(Pokémon\),
+        resource:Stunfisk_\(Pokémon\),
+        <http://example.org/resource/Sun,_Moon,_Ultra_Sun_&_Ultra_Moon_arc_(Adventures)>,
+        resource:Thwackey_\(Pokémon\),
+        resource:Toxtricity_\(Pokémon\),
+        resource:Urshifu_\(Pokémon\),
+        resource:VIZ_Media,
+        resource:Āman ;
+    property:image <Sword_Shield_chapter.png_!_250px> ;
+    property:lastch "PASS43" ;
+    property:name "Sword_&_Shield" ;
+    property:next "Scarlet_&_Violet" ;
+    property:number "15" ;
+    property:numchs "43" ;
+    property:prev "Sun,_Moon,_Ultra_Sun_&_Ultra_Moon" ;
+    property:region resource:Galar ;
+    owl:sameAs BPD1:AdvArc .
+
+<http://example.org/resource/advarc/X_&_Y> a resource:AdvArc ;
+    property:bulbapediaImage <https://bulbapedia.bulbagarden.net/wiki/File:Red_Adventures.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:XY_chapter.png> ;
+    property:bulbapediaMainImage <https://bulbapedia.bulbagarden.net/wiki/File:Red_Adventures.png> ;
+    property:bulbapediapage <https://bulbapedia.bulbagarden.net/wiki/X_&_Y_arc_(Adventures)> ;
+    property:caption "The_main_characters" ;
+    property:colorscheme "XY" ;
+    property:firstch "PS549" ;
+    property:hasBulbapediaLink BPD:Absol_\(Pokémon\),
+        <https://bulbapedia.bulbagarden.net/wiki/Black_&_White_arc_(Adventures)>,
+        <https://bulbapedia.bulbagarden.net/wiki/Black_2_&_White_2_arc_(Adventures)>,
+        <https://bulbapedia.bulbagarden.net/wiki/Blue's_Charizard>,
+        <https://bulbapedia.bulbagarden.net/wiki/Bulbapedia:Find_or_fix_a_stub>,
+        <https://bulbapedia.bulbagarden.net/wiki/Bulbapedia:Project_Manga>,
+        BPD:Charizard_\(Pokémon\),
+        BPD:Charmander_\(Pokémon\),
+        BPD:Charmeleon_\(Pokémon\),
+        BPD:Chespin_\(Pokémon\),
+        BPD:Croaky,
+        BPD:Eevee_\(Pokémon\),
+        BPD:Fletchling_\(Pokémon\),
+        BPD:Froakie_\(Pokémon\),
+        BPD:Frogadier_\(Pokémon\),
+        BPD:Gengar_\(Pokémon\),
+        BPD:Kalos,
+        BPD:Kangaskhan_\(Pokémon\),
+        BPD:List_of_Pokémon_Adventures_XY_volumes,
+        BPD:List_of_Pokémon_Black_and_White_volumes,
+        BPD:List_of_Pokémon_XY_volumes,
+        <https://bulbapedia.bulbagarden.net/wiki/List_of_chapters_in_the_X_&_Y_arc_of_Pokémon_Adventures>,
+        BPD:Manectric_\(Pokémon\),
+        BPD:Marisso,
+        BPD:Mega_Evolution,
+        <https://bulbapedia.bulbagarden.net/wiki/Omega_Ruby_&_Alpha_Sapphire_arc_(Adventures)>,
+        BPD:PS549,
+        BPD:PS550,
+        BPD:PS553,
+        BPD:PS559,
+        BPD:PS565,
+        BPD:PS566,
+        BPD:PS567,
+        BPD:PS571,
+        BPD:PS572,
+        BPD:PS575,
+        BPD:PS577,
+        BPD:PS581,
+        BPD:PS583,
+        BPD:PS585,
+        BPD:PS587,
+        BPD:PS588,
+        BPD:PS589,
+        BPD:PS595,
+        BPD:Pinsir_\(Pokémon\),
+        BPD:Pokémon_Adventures,
+        BPD:Pokémon_Adventures_XY_volume_1,
+        BPD:Pokémon_Adventures_volume_55,
+        BPD:Pokémon_Adventures_volume_56,
+        BPD:Pokémon_Adventures_volume_57,
+        BPD:Pokémon_Adventures_volume_58,
+        BPD:Pokémon_Adventures_volume_59,
+        BPD:Pokémon_Adventures_volume_60,
+        BPD:Pokémon_Adventures_volume_61,
+        BPD:Pokémon_Adventures_volume_62,
+        BPD:Pokémon_in_France,
+        BPD:Pokémon_manga,
+        BPD:Quilladin_\(Pokémon\),
+        BPD:Region,
+        BPD:Rhyhorn_\(Pokémon\),
+        BPD:Salamè,
+        BPD:Shauna_\(Adventures\),
+        BPD:Shogakukan_Asia,
+        BPD:Sylveon_\(Pokémon\),
+        BPD:Team_Flare,
+        BPD:Tierno_\(Adventures\),
+        BPD:Trevor_\(Adventures\),
+        BPD:Ultimate_weapon,
+        BPD:VIZ_Media,
+        BPD:Vaniville_Town,
+        <https://bulbapedia.bulbagarden.net/wiki/Whitley's_Delphox>,
+        <https://bulbapedia.bulbagarden.net/wiki/X's_Charizard>,
+        <https://bulbapedia.bulbagarden.net/wiki/X's_Charmeleon>,
+        <https://bulbapedia.bulbagarden.net/wiki/X's_Chesnaught>,
+        <https://bulbapedia.bulbagarden.net/wiki/X's_Quilladin>,
+        BPD:X_\(Adventures\),
+        BPD:Xerneas_\(Pokémon\),
+        BPD:Xerxer,
+        <https://bulbapedia.bulbagarden.net/wiki/Y's_Fletchinder>,
+        <https://bulbapedia.bulbagarden.net/wiki/Y's_Frogadier>,
+        <https://bulbapedia.bulbagarden.net/wiki/Y's_Greninja>,
+        BPD:Y_\(Adventures\),
+        BPD:Yveltal_\(Pokémon\),
+        BPD:Élec ;
+    property:hasBulbapediaLinkedResoruce resource:Absol_\(Pokémon\),
+        <http://example.org/resource/Black_&_White_arc_(Adventures)>,
+        <http://example.org/resource/Black_2_&_White_2_arc_(Adventures)>,
+        <http://example.org/resource/Blue's_Charizard>,
+        <http://example.org/resource/Bulbapedia:Find_or_fix_a_stub>,
+        <http://example.org/resource/Bulbapedia:Project_Manga>,
+        resource:Charizard_\(Pokémon\),
+        resource:Charmander_\(Pokémon\),
+        resource:Charmeleon_\(Pokémon\),
+        resource:Chespin_\(Pokémon\),
+        resource:Croaky,
+        resource:Eevee_\(Pokémon\),
+        resource:Fletchling_\(Pokémon\),
+        resource:Froakie_\(Pokémon\),
+        resource:Frogadier_\(Pokémon\),
+        resource:Gengar_\(Pokémon\),
+        resource:Kalos,
+        resource:Kangaskhan_\(Pokémon\),
+        resource:List_of_Pokémon_Adventures_XY_volumes,
+        resource:List_of_Pokémon_Black_and_White_volumes,
+        resource:List_of_Pokémon_XY_volumes,
+        <http://example.org/resource/List_of_chapters_in_the_X_&_Y_arc_of_Pokémon_Adventures>,
+        resource:Manectric_\(Pokémon\),
+        resource:Marisso,
+        resource:Mega_Evolution,
+        <http://example.org/resource/Omega_Ruby_&_Alpha_Sapphire_arc_(Adventures)>,
+        resource:PS549,
+        resource:PS550,
+        resource:PS553,
+        resource:PS559,
+        resource:PS565,
+        resource:PS566,
+        resource:PS567,
+        resource:PS571,
+        resource:PS572,
+        resource:PS575,
+        resource:PS577,
+        resource:PS581,
+        resource:PS583,
+        resource:PS585,
+        resource:PS587,
+        resource:PS588,
+        resource:PS589,
+        resource:PS595,
+        resource:Pinsir_\(Pokémon\),
+        resource:Pokémon_Adventures,
+        resource:Pokémon_Adventures_XY_volume_1,
+        resource:Pokémon_Adventures_volume_55,
+        resource:Pokémon_Adventures_volume_56,
+        resource:Pokémon_Adventures_volume_57,
+        resource:Pokémon_Adventures_volume_58,
+        resource:Pokémon_Adventures_volume_59,
+        resource:Pokémon_Adventures_volume_60,
+        resource:Pokémon_Adventures_volume_61,
+        resource:Pokémon_Adventures_volume_62,
+        resource:Pokémon_in_France,
+        resource:Pokémon_manga,
+        resource:Quilladin_\(Pokémon\),
+        resource:Region,
+        resource:Rhyhorn_\(Pokémon\),
+        resource:Salamè,
+        resource:Shauna_\(Adventures\),
+        resource:Shogakukan_Asia,
+        resource:Sylveon_\(Pokémon\),
+        resource:Team_Flare,
+        resource:Tierno_\(Adventures\),
+        resource:Trevor_\(Adventures\),
+        resource:Ultimate_weapon,
+        resource:VIZ_Media,
+        resource:Vaniville_Town,
+        <http://example.org/resource/Whitley's_Delphox>,
+        <http://example.org/resource/X's_Charizard>,
+        <http://example.org/resource/X's_Charmeleon>,
+        <http://example.org/resource/X's_Chesnaught>,
+        <http://example.org/resource/X's_Quilladin>,
+        resource:X_\(Adventures\),
+        resource:Xerneas_\(Pokémon\),
+        resource:Xerxer,
+        <http://example.org/resource/Y's_Fletchinder>,
+        <http://example.org/resource/Y's_Frogadier>,
+        <http://example.org/resource/Y's_Greninja>,
+        resource:Y_\(Adventures\),
+        resource:Yveltal_\(Pokémon\),
+        resource:Élec ;
+    property:image <XY_chapter.png_!_250px> ;
+    property:lastch "PS595" ;
+    property:name "X_&_Y" ;
+    property:next "Omega_Ruby_&_Alpha_Sapphire_" ;
+    property:number "12" ;
+    property:numchs "47" ;
+    property:prev "Black_2_&_White_2" ;
+    property:region resource:Kalos ;
+    owl:sameAs BPD1:AdvArc .
+
+<http://example.org/resource/advarc/Yellow> a resource:AdvArc ;
+    property:Region resource:Kanto ;
+    property:bulbapediaImage <https://bulbapedia.bulbagarden.net/wiki/File:Adventures_VIZ_website.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Ani201ODEX.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Project_Manga_logo.png>,
+        <https://bulbapedia.bulbagarden.net/wiki/File:Yellow_chapter.png> ;
+    property:bulbapediaMainImage <https://bulbapedia.bulbagarden.net/wiki/File:Adventures_VIZ_website.png> ;
+    property:bulbapediapage BPD:Yellow_arc_\(Adventures\) ;
+    property:caption "_adv_Yellow__and_Pika" ;
+    property:firstch "PS041" ;
+    property:hasBulbapediaLink BPD:Bill_\(Adventures\),
+        BPD:Blaine,
+        BPD:Blue_\(Adventures\),
+        <https://bulbapedia.bulbagarden.net/wiki/Bulbapedia:Project_Manga>,
+        <https://bulbapedia.bulbagarden.net/wiki/Bulbapedia:Projects>,
+        <https://bulbapedia.bulbagarden.net/wiki/Bulbapedia:Spoiler_warning>,
+        BPD:Caterpie_\(Pokémon\),
+        BPD:Doduo_\(Pokémon\),
+        BPD:Elite_Four,
+        BPD:Emerald_arc_\(Adventures\),
+        <https://bulbapedia.bulbagarden.net/wiki/FireRed_&_LeafGreen_arc_(Adventures)>,
+        <https://bulbapedia.bulbagarden.net/wiki/Gold,_Silver_&_Crystal_arc_(Adventures)>,
+        BPD:Golem_\(Pokémon\),
+        BPD:Graveler_\(Pokémon\),
+        BPD:Green_\(Adventures\),
+        BPD:Hidenori_Kusaka,
+        BPD:Kanto,
+        BPD:Kitty,
+        BPD:Koga,
+        BPD:List_of_Pokémon_Adventures_monthly_issues,
+        BPD:List_of_chapters_in_the_Yellow_arc_of_Pokémon_Adventures,
+        BPD:Lt._Surge,
+        BPD:Lugia_\(Pokémon\),
+        BPD:Metapod_\(Pokémon\),
+        <https://bulbapedia.bulbagarden.net/wiki/Nidoran♀_(Pokémon)>,
+        BPD:Nidorina_\(Pokémon\),
+        BPD:Omanyte_\(Pokémon\),
+        BPD:Omny,
+        BPD:PS041,
+        BPD:PS049,
+        BPD:PS053,
+        BPD:PS073,
+        BPD:PS089,
+        BPD:PS090,
+        BPD:Pika,
+        BPD:Pokémon_Adventures,
+        BPD:Pokémon_Adventures_omnibus_2,
+        BPD:Pokémon_Adventures_omnibus_3,
+        BPD:Pokémon_Adventures_volume_14,
+        BPD:Pokémon_Adventures_volume_4,
+        BPD:Pokémon_Adventures_volume_5,
+        BPD:Pokémon_Adventures_volume_6,
+        BPD:Pokémon_Adventures_volume_7,
+        BPD:Pokémon_Yellow_Version,
+        BPD:Pokémon_in_France,
+        BPD:Pokémon_manga,
+        <https://bulbapedia.bulbagarden.net/wiki/Professor_Oak's_Laboratory>,
+        BPD:Rattata_\(Pokémon\),
+        <https://bulbapedia.bulbagarden.net/wiki/Red,_Green_&_Blue_arc_(Adventures)>,
+        BPD:Red_\(Adventures\),
+        BPD:Region,
+        <https://bulbapedia.bulbagarden.net/wiki/Ruby_&_Sapphire_arc_(Adventures)>,
+        BPD:Sabrina,
+        BPD:Snubbull_\(Pokémon\),
+        BPD:Terminology_of_Pokémon_Adventures,
+        BPD:Timeline_of_events_in_Pokémon_Adventures,
+        BPD:VIZ,
+        BPD:VIZ_Media,
+        <https://bulbapedia.bulbagarden.net/wiki/Yellow's_Butterfree>,
+        <https://bulbapedia.bulbagarden.net/wiki/Yellow's_Dodrio>,
+        <https://bulbapedia.bulbagarden.net/wiki/Yellow's_Metapod>,
+        <https://bulbapedia.bulbagarden.net/wiki/Yellow's_Omastar>,
+        <https://bulbapedia.bulbagarden.net/wiki/Yellow's_Raticate>,
+        BPD:Yellow_\(Adventures\) ;
+    property:hasBulbapediaLinkedResoruce resource:Bill_\(Adventures\),
+        resource:Blaine,
+        resource:Blue_\(Adventures\),
+        <http://example.org/resource/Bulbapedia:Project_Manga>,
+        <http://example.org/resource/Bulbapedia:Projects>,
+        <http://example.org/resource/Bulbapedia:Spoiler_warning>,
+        resource:Caterpie_\(Pokémon\),
+        resource:Doduo_\(Pokémon\),
+        resource:Elite_Four,
+        resource:Emerald_arc_\(Adventures\),
+        <http://example.org/resource/FireRed_&_LeafGreen_arc_(Adventures)>,
+        <http://example.org/resource/Gold,_Silver_&_Crystal_arc_(Adventures)>,
+        resource:Golem_\(Pokémon\),
+        resource:Graveler_\(Pokémon\),
+        resource:Green_\(Adventures\),
+        resource:Hidenori_Kusaka,
+        resource:Kanto,
+        resource:Kitty,
+        resource:Koga,
+        resource:List_of_Pokémon_Adventures_monthly_issues,
+        resource:List_of_chapters_in_the_Yellow_arc_of_Pokémon_Adventures,
+        resource:Lt._Surge,
+        resource:Lugia_\(Pokémon\),
+        resource:Metapod_\(Pokémon\),
+        <http://example.org/resource/Nidoran♀_(Pokémon)>,
+        resource:Nidorina_\(Pokémon\),
+        resource:Omanyte_\(Pokémon\),
+        resource:Omny,
+        resource:PS041,
+        resource:PS049,
+        resource:PS053,
+        resource:PS073,
+        resource:PS089,
+        resource:PS090,
+        resource:Pika,
+        resource:Pokémon_Adventures,
+        resource:Pokémon_Adventures_omnibus_2,
+        resource:Pokémon_Adventures_omnibus_3,
+        resource:Pokémon_Adventures_volume_14,
+        resource:Pokémon_Adventures_volume_4,
+        resource:Pokémon_Adventures_volume_5,
+        resource:Pokémon_Adventures_volume_6,
+        resource:Pokémon_Adventures_volume_7,
+        resource:Pokémon_Yellow_Version,
+        resource:Pokémon_in_France,
+        resource:Pokémon_manga,
+        <http://example.org/resource/Professor_Oak's_Laboratory>,
+        resource:Rattata_\(Pokémon\),
+        <http://example.org/resource/Red,_Green_&_Blue_arc_(Adventures)>,
+        resource:Red_\(Adventures\),
+        resource:Region,
+        <http://example.org/resource/Ruby_&_Sapphire_arc_(Adventures)>,
+        resource:Sabrina,
+        resource:Snubbull_\(Pokémon\),
+        resource:Terminology_of_Pokémon_Adventures,
+        resource:Timeline_of_events_in_Pokémon_Adventures,
+        resource:VIZ,
+        resource:VIZ_Media,
+        <http://example.org/resource/Yellow's_Butterfree>,
+        <http://example.org/resource/Yellow's_Dodrio>,
+        <http://example.org/resource/Yellow's_Metapod>,
+        <http://example.org/resource/Yellow's_Omastar>,
+        <http://example.org/resource/Yellow's_Raticate>,
+        resource:Yellow_\(Adventures\) ;
+    property:hasExternalLink <http://corocoro.tv/pokesp/story/comic/tanoshimi/what.html>,
+        <https://www.viz.com/read/manga/pokemon-adventures/all> ;
+    property:image <Yellow_chapter.png_!_250px> ;
+    property:lastch "PS090" ;
+    property:name "Yellow" ;
+    property:next "Gold,_Silver_&_Crystal_" ;
+    property:number "2" ;
+    property:numchs "50" ;
+    property:prev "Red,_Green_&_Blue" ;
+    owl:sameAs BPD1:AdvArc .
+
+resource:Alola a resource:Region .
+
+resource:Galar a resource:Region .
+
+resource:Kalos a resource:Region .
+
+resource:Paldea a resource:Region .
+
+resource:Sevii_Islands a resource:Region .
+
+resource:Sinnoh a resource:Region .
+
+resource:Johto a resource:Region .
+
+resource:Kanto a resource:Region .
+
+resource:Unova a resource:Region .
+
+resource:Hoenn a resource:Region .
 

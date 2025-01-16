@@ -1,8 +1,0 @@
-Draft:Plain Badge
-Draft:Earth Badge
-Draft:Boulder Badge
-Draft:Cascade Badge
-Draft:Thunder Badge
-Draft:Gym Badge (Bug)
-Draft:Star Badge (Dark)
-Draft:Titan Badge (Rock)
